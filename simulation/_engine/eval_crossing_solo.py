@@ -33,6 +33,24 @@ SITS = json.load(open(os.path.join(ENG, 'situations.json'), encoding='utf-8'))
 SIT = {s['key']: s for s in SITS}
 DYN_ORDER = ['唐', '宋', '元', '明', '清']
 
+# 即位年表：{key: [year, seq]}。用于「按时间顺序」呈现。
+_RO = json.load(open(os.path.join(ENG, 'reign_order.json'), encoding='utf-8'))
+REIGN = {k: tuple(v) for k, v in _RO['order'].items()}
+SIT_YEAR = {k: REIGN.get(k, (9999, 0))[0] for k in SIT}
+
+
+def chrono(k):
+    """时间序键：朝代先后 → 即位年 → 同年次序 → key。未知者排在最后。"""
+    s = SIT.get(k)
+    dyn = DYN_ORDER.index(s['dyn']) if s and s['dyn'] in DYN_ORDER else 99
+    yr, sq = REIGN.get(k, (9999, 0))
+    return (dyn, yr, sq, k)
+
+
+def yr_of(k):
+    y = SIT_YEAR.get(k, 9999)
+    return '—' if y == 9999 else str(y)
+
 VC = {'可解': '#0f766e', '可缓': '#2563eb', '难解': '#b45309', '死局': '#a83232'}
 DN = {'唐': '#b45309', '宋': '#0f766e', '元': '#1d4ed8', '明': '#a83232', '清': '#6d28d9'}
 
@@ -46,7 +64,7 @@ def load(key):
 
 
 def build_rows(tv):
-    """把 traveler 的 rows 展开为按分数降序的记录表。
+    """把 traveler 的 rows 展开为**按时间顺序**（朝代 → 即位年 → 同年次序）排列的记录表。
 
     rows 支持两种写法：
       {"<处境key>": {"plan":…, "score":…, "note":…}}   （迁移自旧报告）
@@ -63,8 +81,8 @@ def build_rows(tv):
             plan, sc, note = cell.get('plan', ''), cell['score'], cell.get('note', '')
         sc = int(sc)
         out.append(dict(key=k, name=s['name'], dyn=s['dyn'], typ=s['typ'], dilemma=s['dilemma'],
-                        plan=plan, note=note, score=sc, verdict=verdict(sc)))
-    out.sort(key=lambda r: -r['score'])
+                        year=yr_of(k), plan=plan, note=note, score=sc, verdict=verdict(sc)))
+    out.sort(key=lambda r: chrono(r['key']))
     return out
 
 
@@ -119,7 +137,9 @@ def render(tv):
     dyn_avg = [(d, round(sum(by_dyn[d]) / len(by_dyn[d]), 1)) for d in DYN_ORDER if by_dyn[d]]
     vdist = collections.Counter(r['verdict'] for r in rows)
     overall = round(sum(r['score'] for r in rows) / n, 1)
-    top10, bot10 = rows[:10], rows[-10:][::-1]
+    # rows 已按时间顺序；「最能接住/最接不住」按分数另取。
+    by_score = sorted(rows, key=lambda r: -r['score'])
+    top10, bot10 = by_score[:10], by_score[-10:][::-1]
 
     def card(r):
         c = VC[r['verdict']]
@@ -127,7 +147,7 @@ def render(tv):
                 f'<span class="kk">{r["key"]}</span>'
                 f'<span class="vd" style="background:{c}1a;color:{c}">{r["verdict"]}</span>'
                 f'<span class="sco" style="color:{c}">{r["score"]}</span></div>'
-                f'<div class="typ">困局类型 · {r["typ"]}</div>'
+                f'<div class="typ">{r["dyn"]}·{r["name"]} · 即位 {r["year"]} · 困局类型 · {r["typ"]}</div>'
                 f'<p><b>处境</b>：{r["dilemma"]}</p>'
                 f'<p><b>{tv["name"]}之策</b>：{r["plan"]}</p>'
                 f'<p class="nt">{r["note"]}</p></div>')
@@ -140,7 +160,8 @@ def render(tv):
                 f'{d} · {len(sub)} 处境</h3><div class="grid">' + ''.join(card(r) for r in sub) + '</div>')
 
     trows = ''.join(
-        f'<tr><td>{i}</td><td>{r["dyn"]}</td><td class="k">{r["name"]}</td><td>{r["typ"]}</td>'
+        f'<tr><td>{i}</td><td>{r["dyn"]}</td><td class="k">{r["year"]}</td><td class="k">{r["name"]}</td>'
+        f'<td>{r["typ"]}</td>'
         f'<td class="d">{r["dilemma"]}</td><td class="sc" style="color:{VC[r["verdict"]]}">{r["score"]}</td>'
         f'<td><span class="vd" style="background:{VC[r["verdict"]]}1a;color:{VC[r["verdict"]]}">{r["verdict"]}</span></td></tr>'
         for i, r in enumerate(rows, 1))
@@ -180,13 +201,29 @@ def render(tv):
     parts.append(f'<h2>二、{tv["name"]}工具箱 · 按困局类型的适配度</h2>'
                  f'<div class="panel"><div class="chart" style="height:{len(type_avg)*34+80}px">'
                  '<canvas id="typebar" role="img" aria-label="各困局类型平均处置分"></canvas></div></div>')
-    parts.append(f'<h2>三、{tv["name"]}最能接住的 10 个处境</h2><div class="panel">{toplist(top10, "#0f766e")}</div>')
-    parts.append(f'<h2>四、{tv["name"]}最接不住的 10 个处境</h2><div class="panel">{toplist(bot10, "#a83232")}</div>')
-    parts.append(f'<h2>五、处置力总表（{n} 处境）</h2><table><thead><tr>'
-                 '<th>#</th><th>朝代</th><th>帝王</th><th>困局类型</th><th>核心困局</th><th>分</th><th>判定</th>'
+    parts.append(f'<h2>三、{tv["name"]}最能接住的 10 个处境</h2>'
+                 f'<div class="panel"><p class="sub" style="margin:0 0 8px">按处置分降序，仅供定位其强项</p>'
+                 f'{toplist(top10, "#0f766e")}</div>')
+    parts.append(f'<h2>四、{tv["name"]}最接不住的 10 个处境</h2>'
+                 f'<div class="panel"><p class="sub" style="margin:0 0 8px">按处置分升序，仅供定位其短板</p>'
+                 f'{toplist(bot10, "#a83232")}</div>')
+    parts.append(f'<h2>五、处置力总表 · 按时间顺序（{n} 处境）</h2>'
+                 f'<div class="panel" style="padding:12px 14px;margin-bottom:12px">'
+                 f'<span style="font-size:12.5px;color:var(--mut)">'
+                 f'排序规则：朝代先后（唐→宋→元→明→清）→ 该处境帝王的即位年 → 同年次序。'
+                 f'「即位」列为该处境所属帝王的即位之年（公元）。</span></div>'
+                 '<table><thead><tr>'
+                 '<th>#</th><th>朝代</th><th>即位</th><th>帝王</th><th>困局类型</th><th>核心困局</th><th>分</th><th>判定</th>'
                  f'</tr></thead><tbody>{trows}</tbody></table>')
-    parts.append('<h2>六、逐帝穿越推演</h2>' + ''.join(group(d) for d in DYN_ORDER))
+    parts.append('<h2>六、逐帝穿越推演 · 按时间顺序</h2>'
+                 '<div class="panel" style="padding:12px 14px;margin-bottom:12px">'
+                 '<span style="font-size:12.5px;color:var(--mut)">'
+                 '同一下方卡片亦按朝代与即位年排列，可沿时间线自唐至清逐朝看其处置。</span></div>'
+                 + ''.join(group(d) for d in DYN_ORDER))
     parts.append('<div class="foot">'
+                 '排序：本报告第五节与第六节均按<b>时间顺序</b>呈现（朝代先后 唐→宋→元→明→清，'
+                 '朝内按该处境帝王的即位年，同年以次序区分）；第三、四节为按处置分的强弱定位，'
+                 '不参与总表排序。<br>'
                  '评分口径：情境识别 25 + 模型迁移 30 + 方案可行性 30 + 角色保真 15，综合判定为单一处置分；'
                  '判定档位 可解≥75 / 可缓 65–74 / 难解 50–64 / 死局&lt;50。<br>'
                  f'诚 实边界：这是一次<b>思想实验式的反事实推演</b>，非史实复原。「{tv["cn"]}若在其位能否办好」'
@@ -227,10 +264,13 @@ def render_index():
         overall = round(sum(r['score'] for r in rows) / len(rows), 1)
         vd = collections.Counter(r['verdict'] for r in rows)
         items.append(dict(key=k, cn=tv['cn'], name=tv['name'], dyn=tv['dyn'], n=len(rows),
+                          year=yr_of(k),
                           overall=overall, vd=dict(vd), summary=tv.get('summary', '')))
-    items.sort(key=lambda x: -x['overall'])
+    # 按时间顺序：朝代先后（唐→宋→元→明→清）→ 即位年 → 同年次序
+    items.sort(key=lambda x: chrono(x['key']))
     trs = ''.join(
-        f'<tr><td>{i}</td><td class="k"><a href="solo-{x["key"]}.html">{x["cn"]}</a></td>'
+        f'<tr><td>{i}</td><td class="k">{x["year"]}</td>'
+        f'<td class="k"><a href="solo-{x["key"]}.html">{x["cn"]}</a></td>'
         f'<td>{x["dyn"]}·{x["name"]}</td><td class="sc">{x["overall"]}</td>'
         f'<td class="sc">{x["vd"].get("可解",0)}</td><td class="sc">{x["vd"].get("可缓",0)}</td>'
         f'<td class="sc">{x["vd"].get("难解",0)}</td><td class="sc">{x["vd"].get("死局",0)}</td>'
@@ -244,9 +284,11 @@ def render_index():
             '<h1>帝王穿越 · solo 总目录</h1>'
             f'<p class="sub">单人轮值模式：每位帝王各自单独遍历其余 77 个处境，互不干扰、无对照 · '
             f'已完成 {len(items)} 位 · 生成 {today}</p>'
-            '<div class="quote">同一套处境，换不同的工具箱。<b>按平均处置分排序</b>——分数越高，'
-            '表示该帝王的心智工具与这 77 个处境的总体适配度越高；不代表其真实政绩排名。</div>'
-            '<table><thead><tr><th>#</th><th>穿越者</th><th>朝代·庙号</th><th>均分</th>'
+            '<div class="quote">同一套处境，换不同的工具箱。<b>按时间顺序排列</b>——'
+            '朝代先后 唐→宋→元→明→清，朝内按即位年。'
+            '「即位」列为该帝王即位之年（公元）；「均分」列为其 77 处境的平均处置分，'
+            '分数越高只表示心智工具与该套处境的总体适配度越高，<b>不代表其真实政绩或历史地位排名</b>。</div>'
+            '<table><thead><tr><th>#</th><th>即位</th><th>穿越者</th><th>朝代·庙号</th><th>均分</th>'
             '<th>可解</th><th>可缓</th><th>难解</th><th>死局</th><th>总断</th></tr></thead>'
             f'<tbody>{trs}</tbody></table>'
             '<div class="foot">评分口径：情境识别 25 + 模型迁移 30 + 方案可行性 30 + 角色保真 15；'
