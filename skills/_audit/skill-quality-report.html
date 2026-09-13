@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>帝王遍历评测报告 · 78 帝</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+:root{--bg:#f6f6f3;--panel:#fff;--ink:#1f2937;--mut:#6b7280;--line:#e5e7eb;--teal:#0f766e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.7 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 24px 64px}
+h1{font-size:24px;font-weight:600;margin:0 0 6px}
+.sub{color:var(--mut);font-size:13px;margin:0 0 24px}
+h2{font-size:17px;font-weight:600;margin:36px 0 14px;padding-left:10px;border-left:3px solid var(--teal)}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:16px 0}
+.m{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.m .l{color:var(--mut);font-size:12px} .m .n{font-size:22px;font-weight:600;margin-top:2px}
+.quote{background:#eff6f4;border-left:3px solid var(--teal);border-radius:0 8px 8px 0;padding:14px 18px;color:#134e4a;font-size:13.5px;margin:14px 0}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media(max-width:760px){.two{grid-template-columns:1fr}}
+.chart{position:relative;height:300px}
+table{width:100%;border-collapse:collapse;font-size:13px;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:right}
+th:nth-child(2),td:nth-child(2),th:nth-child(3),td:nth-child(3){text-align:left}
+th{background:#f0f1ef;font-weight:500;color:var(--mut);position:sticky;top:0}
+td.k{font-family:ui-monospace,Consolas,monospace;font-size:12px}
+td.t{font-weight:600}
+tr:hover td{background:#fafaf8}
+.bd{display:inline-block;padding:1px 8px;border-radius:20px;font-size:12px;font-weight:500}
+.bS{background:#d1fae5;color:#065f46} .bA{background:#dbeafe;color:#1e40af}
+.bB{background:#fef3c7;color:#92400e} .bC{background:#fee2e2;color:#991b1b} .bD{background:#e5e7eb;color:#374151}
+h3.dyn{font-size:15px;font-weight:600;margin:26px 0 12px;display:flex;align-items:center;gap:8px}
+h3.dyn span{width:10px;height:10px;border-radius:3px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:13px 15px}
+.card-h{display:flex;align-items:center;gap:8px}
+.rk{color:var(--mut);font-size:12px} .nm{font-family:ui-monospace,Consolas,monospace;font-size:12.5px;flex:1}
+.sc{font-weight:600;font-size:15px}
+.dims{display:flex;flex-wrap:wrap;gap:10px;color:var(--mut);font-size:11.5px;margin:7px 0}
+.verdict{margin:0;font-size:12.5px;color:#374151}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--mut);margin:8px 0}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px}
+.foot{color:var(--mut);font-size:12px;margin-top:28px;border-top:1px solid var(--line);padding-top:16px}
+</style></head><body><div class="wrap">
+<h1>帝王遍历评测报告</h1>
+<p class="sub">遍历者：唐太宗李世民 · 对象：78 位帝王 -perspective Skill · 标准：帝王遍历评分卡 v0.1（满分 100）</p>
+
+<div class="quote">朕尝谓「以古为镜，可以知兴替」。今纵览七十八帝之终始，见开创者多雄而守成者多弛，纳谏者昌而独断者亡——兴亡之枢，不在兵甲之利，而在民心之向背、人主之自省耳。</div>
+
+<div class="meta">
+  <div class="m"><div class="l">受评帝王</div><div class="n">78</div></div>
+  <div class="m"><div class="l">平均总分</div><div class="n">78.9</div></div>
+  <div class="m"><div class="l">最高 / 最低</div><div class="n">87.9 / 67.2</div></div>
+  <div class="m"><div class="l">A 级 / B 级 / C 级</div><div class="n">29 / 47 / 2</div></div>
+</div>
+
+<h2>一、五朝平均画像（雷达）</h2>
+<div class="panel"><div class="legend"><span><i style="background:#b45309"></i>唐</span><span><i style="background:#0f766e"></i>宋</span><span><i style="background:#1d4ed8"></i>元</span><span><i style="background:#a83232"></i>明</span><span><i style="background:#6d28d9"></i>清</span><span>（各维已归一到满分百分比）</span></div>
+<div class="chart"><canvas id="radar" role="img" aria-label="五朝四维平均分雷达图"></canvas></div></div>
+
+<h2>二、总分榜 · TOP 10</h2>
+<div class="panel"><div class="chart" style="height:340px"><canvas id="bar" role="img" aria-label="总分前十柱状图"></canvas></div></div>
+
+<h2>三、得分总表（78 帝）</h2>
+<table><thead><tr><th>#</th><th>朝代</th><th>key</th><th>角色</th><th>史识</th><th>思维</th><th>遍历</th><th>总分</th><th>级</th></tr></thead>
+<tbody><tr data-t='87.9'><td>1</td><td>元</td><td class='k'>haishan</td><td>28.9</td><td>26.6</td><td>22.0</td><td>10.4</td><td class='t'>87.9</td><td><span class='bd bA'>A</span></td></tr><tr data-t='87.8'><td>2</td><td>明</td><td class='k'>zhuyuanzhang</td><td>30.0</td><td>24.8</td><td>21.9</td><td>11.0</td><td class='t'>87.8</td><td><span class='bd bA'>A</span></td></tr><tr data-t='86.6'><td>3</td><td>清</td><td class='k'>xuanye</td><td>30.0</td><td>23.8</td><td>22.0</td><td>10.8</td><td class='t'>86.6</td><td><span class='bd bA'>A</span></td></tr><tr data-t='86.2'><td>4</td><td>宋</td><td class='k'>zhaozhen</td><td>28.9</td><td>25.3</td><td>22.3</td><td>9.7</td><td class='t'>86.2</td><td><span class='bd bA'>A</span></td></tr><tr data-t='85.6'><td>5</td><td>唐</td><td class='k'>lilongji</td><td>28.9</td><td>24.8</td><td>22.1</td><td>9.9</td><td class='t'>85.6</td><td><span class='bd bA'>A</span></td></tr><tr data-t='85.5'><td>6</td><td>元</td><td class='k'>ayurbarwada</td><td>30.0</td><td>24.0</td><td>21.8</td><td>9.6</td><td class='t'>85.5</td><td><span class='bd bA'>A</span></td></tr><tr data-t='85.2'><td>7</td><td>清</td><td class='k'>yongyan</td><td>30.0</td><td>23.6</td><td>22.1</td><td>9.5</td><td class='t'>85.2</td><td><span class='bd bA'>A</span></td></tr><tr data-t='85.2'><td>8</td><td>清</td><td class='k'>zaitian</td><td>30.0</td><td>24.6</td><td>20.9</td><td>9.7</td><td class='t'>85.2</td><td><span class='bd bA'>A</span></td></tr><tr data-t='85.1'><td>9</td><td>唐</td><td class='k'>liyu</td><td>28.9</td><td>24.8</td><td>21.9</td><td>9.6</td><td class='t'>85.1</td><td><span class='bd bA'>A</span></td></tr><tr data-t='85.0'><td>10</td><td>元</td><td class='k'>hubilie</td><td>26.9</td><td>25.4</td><td>22.2</td><td>10.6</td><td class='t'>85.0</td><td><span class='bd bA'>A</span></td></tr><tr data-t='84.3'><td>11</td><td>清</td><td class='k'>yinzhen</td><td>28.9</td><td>24.0</td><td>21.8</td><td>9.6</td><td class='t'>84.3</td><td><span class='bd bA'>A</span></td></tr><tr data-t='84.0'><td>12</td><td>清</td><td class='k'>hongtaiji</td><td>29.0</td><td>24.0</td><td>21.1</td><td>9.9</td><td class='t'>84.0</td><td><span class='bd bA'>A</span></td></tr><tr data-t='84.0'><td>13</td><td>清</td><td class='k'>minning</td><td>30.0</td><td>22.6</td><td>21.8</td><td>9.5</td><td class='t'>84.0</td><td><span class='bd bA'>A</span></td></tr><tr data-t='83.7'><td>14</td><td>唐</td><td class='k'>wuzetian</td><td>27.7</td><td>24.5</td><td>22.3</td><td>9.4</td><td class='t'>83.7</td><td><span class='bd bA'>A</span></td></tr><tr data-t='83.6'><td>15</td><td>清</td><td class='k'>hongli</td><td>29.4</td><td>24.5</td><td>20.6</td><td>9.1</td><td class='t'>83.6</td><td><span class='bd bA'>A</span></td></tr><tr data-t='83.5'><td>16</td><td>宋</td><td class='k'>zhaokuo</td><td>28.9</td><td>24.5</td><td>22.0</td><td>8.1</td><td class='t'>83.5</td><td><span class='bd bA'>A</span></td></tr><tr data-t='83.3'><td>17</td><td>唐</td><td class='k'>liye</td><td>28.9</td><td>23.4</td><td>22.1</td><td>8.9</td><td class='t'>83.3</td><td><span class='bd bA'>A</span></td></tr><tr data-t='83.2'><td>18</td><td>宋</td><td class='k'>zhaogou</td><td>28.9</td><td>24.0</td><td>22.0</td><td>8.4</td><td class='t'>83.2</td><td><span class='bd bA'>A</span></td></tr><tr data-t='82.8'><td>19</td><td>元</td><td class='k'>toghontemur</td><td>28.9</td><td>23.8</td><td>22.0</td><td>8.1</td><td class='t'>82.8</td><td><span class='bd bA'>A</span></td></tr><tr data-t='82.6'><td>20</td><td>清</td><td class='k'>yizhu</td><td>29.4</td><td>23.2</td><td>21.5</td><td>8.6</td><td class='t'>82.6</td><td><span class='bd bA'>A</span></td></tr><tr data-t='82.2'><td>21</td><td>唐</td><td class='k'>lishimin</td><td>28.9</td><td>23.0</td><td>22.1</td><td>8.2</td><td class='t'>82.2</td><td><span class='bd bA'>A</span></td></tr><tr data-t='82.0'><td>22</td><td>宋</td><td class='k'>zhaoshen</td><td>28.9</td><td>23.2</td><td>21.7</td><td>8.2</td><td class='t'>82.0</td><td><span class='bd bA'>A</span></td></tr><tr data-t='81.9'><td>23</td><td>唐</td><td class='k'>lichen</td><td>28.9</td><td>23.8</td><td>21.6</td><td>7.7</td><td class='t'>81.9</td><td><span class='bd bA'>A</span></td></tr><tr data-t='81.8'><td>24</td><td>唐</td><td class='k'>lizhi</td><td>28.9</td><td>23.0</td><td>21.9</td><td>8.0</td><td class='t'>81.8</td><td><span class='bd bA'>A</span></td></tr><tr data-t='81.5'><td>25</td><td>宋</td><td class='k'>zhaoyun</td><td>28.9</td><td>23.2</td><td>21.7</td><td>7.8</td><td class='t'>81.5</td><td><span class='bd bA'>A</span></td></tr><tr data-t='80.7'><td>26</td><td>元</td><td class='k'>yesuntemuer</td><td>30.0</td><td>24.6</td><td>20.3</td><td>5.8</td><td class='t'>80.7</td><td><span class='bd bA'>A</span></td></tr><tr data-t='80.7'><td>27</td><td>明</td><td class='k'>zhuyijun</td><td>30.0</td><td>20.5</td><td>21.5</td><td>8.6</td><td class='t'>80.7</td><td><span class='bd bA'>A</span></td></tr><tr data-t='80.6'><td>28</td><td>宋</td><td class='k'>zhaoji</td><td>28.9</td><td>22.5</td><td>21.6</td><td>7.7</td><td class='t'>80.6</td><td><span class='bd bA'>A</span></td></tr><tr data-t='80.4'><td>29</td><td>唐</td><td class='k'>lizhu</td><td>28.9</td><td>22.2</td><td>21.6</td><td>7.7</td><td class='t'>80.4</td><td><span class='bd bA'>A</span></td></tr><tr data-t='79.9'><td>30</td><td>唐</td><td class='k'>liyuan</td><td>27.7</td><td>22.5</td><td>21.9</td><td>7.9</td><td class='t'>79.9</td><td><span class='bd bB'>B</span></td></tr><tr data-t='79.6'><td>31</td><td>唐</td><td class='k'>liang</td><td>28.9</td><td>22.7</td><td>20.3</td><td>7.8</td><td class='t'>79.6</td><td><span class='bd bB'>B</span></td></tr><tr data-t='79.3'><td>32</td><td>元</td><td class='k'>hoshila</td><td>30.0</td><td>24.0</td><td>20.4</td><td>4.9</td><td class='t'>79.3</td><td><span class='bd bB'>B</span></td></tr><tr data-t='79.3'><td>33</td><td>明</td><td class='k'>zhuqiyu</td><td>24.6</td><td>22.6</td><td>22.0</td><td>10.1</td><td class='t'>79.3</td><td><span class='bd bB'>B</span></td></tr><tr data-t='79.0'><td>34</td><td>唐</td><td class='k'>liheng_s</td><td>28.9</td><td>23.6</td><td>20.2</td><td>6.3</td><td class='t'>79.0</td><td><span class='bd bB'>B</span></td></tr><tr data-t='78.8'><td>35</td><td>唐</td><td class='k'>liyan</td><td>28.9</td><td>22.3</td><td>20.4</td><td>7.2</td><td class='t'>78.8</td><td><span class='bd bB'>B</span></td></tr><tr data-t='78.8'><td>36</td><td>明</td><td class='k'>zhuzaihou</td><td>26.2</td><td>22.0</td><td>21.7</td><td>8.8</td><td class='t'>78.8</td><td><span class='bd bB'>B</span></td></tr><tr data-t='78.7'><td>37</td><td>明</td><td class='k'>zhugaochi</td><td>24.6</td><td>22.9</td><td>21.7</td><td>9.5</td><td class='t'>78.7</td><td><span class='bd bB'>B</span></td></tr><tr data-t='78.7'><td>38</td><td>清</td><td class='k'>fulin</td><td>28.9</td><td>23.0</td><td>20.2</td><td>6.7</td><td class='t'>78.7</td><td><span class='bd bB'>B</span></td></tr><tr data-t='78.7'><td>39</td><td>清</td><td class='k'>puyi</td><td>24.4</td><td>23.9</td><td>21.0</td><td>9.4</td><td class='t'>78.7</td><td><span class='bd bB'>B</span></td></tr><tr data-t='78.6'><td>40</td><td>宋</td><td class='k'>zhaoxu_s</td><td>27.7</td><td>22.8</td><td>20.5</td><td>7.6</td><td class='t'>78.6</td><td><span class='bd bB'>B</span></td></tr><tr data-t='78.4'><td>41</td><td>唐</td><td class='k'>lichun</td><td>28.9</td><td>24.8</td><td>19.0</td><td>5.8</td><td class='t'>78.4</td><td><span class='bd bB'>B</span></td></tr><tr data-t='78.4'><td>42</td><td>元</td><td class='k'>tutemuer</td><td>28.9</td><td>24.0</td><td>20.7</td><td>4.8</td><td class='t'>78.4</td><td><span class='bd bB'>B</span></td></tr><tr data-t='78.2'><td>43</td><td>唐</td><td class='k'>lishi</td><td>28.9</td><td>24.0</td><td>20.4</td><td>4.9</td><td class='t'>78.2</td><td><span class='bd bB'>B</span></td></tr><tr data-t='78.1'><td>44</td><td>元</td><td class='k'>temuer</td><td>28.7</td><td>24.0</td><td>19.3</td><td>6.1</td><td class='t'>78.1</td><td><span class='bd bB'>B</span></td></tr><tr data-t='77.9'><td>45</td><td>元</td><td class='k'>yilinzhiban</td><td>28.9</td><td>24.4</td><td>18.2</td><td>6.4</td><td class='t'>77.9</td><td><span class='bd bB'>B</span></td></tr><tr data-t='77.8'><td>46</td><td>元</td><td class='k'>shidibala</td><td>27.7</td><td>24.7</td><td>19.9</td><td>5.4</td><td class='t'>77.8</td><td><span class='bd bB'>B</span></td></tr><tr data-t='77.8'><td>47</td><td>明</td><td class='k'>zhudi</td><td>28.9</td><td>23.2</td><td>20.1</td><td>5.6</td><td class='t'>77.8</td><td><span class='bd bB'>B</span></td></tr><tr data-t='77.5'><td>48</td><td>明</td><td class='k'>zhuyoujian</td><td>30.0</td><td>22.4</td><td>19.0</td><td>6.2</td><td class='t'>77.5</td><td><span class='bd bB'>B</span></td></tr><tr data-t='77.3'><td>49</td><td>唐</td><td class='k'>lisong</td><td>28.9</td><td>24.0</td><td>20.0</td><td>4.5</td><td class='t'>77.3</td><td><span class='bd bB'>B</span></td></tr><tr data-t='76.9'><td>50</td><td>宋</td><td class='k'>zhaoheng</td><td>28.9</td><td>23.4</td><td>20.1</td><td>4.6</td><td class='t'>76.9</td><td><span class='bd bB'>B</span></td></tr><tr data-t='76.8'><td>51</td><td>宋</td><td class='k'>zhaoguangyi</td><td>28.9</td><td>23.4</td><td>20.0</td><td>4.5</td><td class='t'>76.8</td><td><span class='bd bB'>B</span></td></tr><tr data-t='76.8'><td>52</td><td>明</td><td class='k'>zhujianshen</td><td>30.0</td><td>20.4</td><td>20.8</td><td>5.6</td><td class='t'>76.8</td><td><span class='bd bB'>B</span></td></tr><tr data-t='76.7'><td>53</td><td>元</td><td class='k'>ashuqibu</td><td>30.0</td><td>23.7</td><td>18.1</td><td>5.0</td><td class='t'>76.7</td><td><span class='bd bB'>B</span></td></tr><tr data-t='76.4'><td>54</td><td>唐</td><td class='k'>lidan</td><td>28.9</td><td>23.4</td><td>19.3</td><td>4.8</td><td class='t'>76.4</td><td><span class='bd bB'>B</span></td></tr><tr data-t='76.2'><td>55</td><td>明</td><td class='k'>zhuhoucong</td><td>27.0</td><td>21.0</td><td>21.4</td><td>6.8</td><td class='t'>76.2</td><td><span class='bd bB'>B</span></td></tr><tr data-t='76.0'><td>56</td><td>唐</td><td class='k'>lixian</td><td>28.9</td><td>22.7</td><td>19.9</td><td>4.5</td><td class='t'>76.0</td><td><span class='bd bB'>B</span></td></tr><tr data-t='76.0'><td>57</td><td>宋</td><td class='k'>zhaokuangyin</td><td>27.9</td><td>23.4</td><td>20.1</td><td>4.6</td><td class='t'>76.0</td><td><span class='bd bB'>B</span></td></tr><tr data-t='75.7'><td>58</td><td>唐</td><td class='k'>liheng_m</td><td>28.9</td><td>23.4</td><td>19.0</td><td>4.5</td><td class='t'>75.7</td><td><span class='bd bB'>B</span></td></tr><tr data-t='75.5'><td>59</td><td>清</td><td class='k'>zaichun</td><td>30.0</td><td>21.0</td><td>19.0</td><td>5.5</td><td class='t'>75.5</td><td><span class='bd bB'>B</span></td></tr><tr data-t='75.3'><td>60</td><td>宋</td><td class='k'>zhaoxian</td><td>28.7</td><td>23.6</td><td>18.8</td><td>4.3</td><td class='t'>75.3</td><td><span class='bd bB'>B</span></td></tr><tr data-t='75.2'><td>61</td><td>明</td><td class='k'>zhuhouzhao</td><td>26.6</td><td>21.8</td><td>19.1</td><td>7.6</td><td class='t'>75.2</td><td><span class='bd bB'>B</span></td></tr><tr data-t='75.1'><td>62</td><td>宋</td><td class='k'>zhaobing</td><td>28.7</td><td>23.6</td><td>18.7</td><td>4.2</td><td class='t'>75.1</td><td><span class='bd bB'>B</span></td></tr><tr data-t='75.0'><td>63</td><td>宋</td><td class='k'>zhaoxu_z</td><td>28.9</td><td>22.1</td><td>19.8</td><td>4.3</td><td class='t'>75.0</td><td><span class='bd bB'>B</span></td></tr><tr data-t='74.9'><td>64</td><td>唐</td><td class='k'>licui</td><td>28.9</td><td>23.4</td><td>18.6</td><td>4.1</td><td class='t'>74.9</td><td><span class='bd bB'>B</span></td></tr><tr data-t='74.8'><td>65</td><td>唐</td><td class='k'>lixuan</td><td>28.9</td><td>23.4</td><td>18.5</td><td>4.0</td><td class='t'>74.8</td><td><span class='bd bB'>B</span></td></tr><tr data-t='74.8'><td>66</td><td>宋</td><td class='k'>zhaohuan</td><td>28.9</td><td>22.1</td><td>19.7</td><td>4.2</td><td class='t'>74.8</td><td><span class='bd bB'>B</span></td></tr><tr data-t='74.7'><td>67</td><td>明</td><td class='k'>zhuyoutang</td><td>26.6</td><td>20.6</td><td>21.7</td><td>5.8</td><td class='t'>74.7</td><td><span class='bd bB'>B</span></td></tr><tr data-t='74.2'><td>68</td><td>唐</td><td class='k'>lizhan</td><td>28.9</td><td>22.8</td><td>18.5</td><td>4.0</td><td class='t'>74.2</td><td><span class='bd bB'>B</span></td></tr><tr data-t='73.9'><td>69</td><td>宋</td><td class='k'>zhaodun</td><td>28.9</td><td>21.8</td><td>18.9</td><td>4.4</td><td class='t'>73.9</td><td><span class='bd bB'>B</span></td></tr><tr data-t='73.9'><td>70</td><td>宋</td><td class='k'>zhaoshi</td><td>28.9</td><td>22.8</td><td>18.4</td><td>3.9</td><td class='t'>73.9</td><td><span class='bd bB'>B</span></td></tr><tr data-t='73.5'><td>71</td><td>宋</td><td class='k'>zhaoshu</td><td>28.5</td><td>21.6</td><td>19.0</td><td>4.5</td><td class='t'>73.5</td><td><span class='bd bB'>B</span></td></tr><tr data-t='73.3'><td>72</td><td>明</td><td class='k'>zhuqizhen</td><td>25.0</td><td>22.4</td><td>19.9</td><td>6.1</td><td class='t'>73.3</td><td><span class='bd bB'>B</span></td></tr><tr data-t='72.4'><td>73</td><td>宋</td><td class='k'>zhaoqi</td><td>28.9</td><td>21.9</td><td>18.3</td><td>3.4</td><td class='t'>72.4</td><td><span class='bd bB'>B</span></td></tr><tr data-t='72.1'><td>74</td><td>明</td><td class='k'>zhuchangluo</td><td>24.4</td><td>21.6</td><td>18.9</td><td>7.1</td><td class='t'>72.1</td><td><span class='bd bB'>B</span></td></tr><tr data-t='71.0'><td>75</td><td>清</td><td class='k'>nurhaci</td><td>22.9</td><td>22.6</td><td>19.4</td><td>6.2</td><td class='t'>71.0</td><td><span class='bd bB'>B</span></td></tr><tr data-t='70.3'><td>76</td><td>明</td><td class='k'>zhuyunwen</td><td>24.8</td><td>21.6</td><td>19.9</td><td>4.1</td><td class='t'>70.3</td><td><span class='bd bB'>B</span></td></tr><tr data-t='69.3'><td>77</td><td>明</td><td class='k'>zhuzhanji</td><td>24.6</td><td>21.8</td><td>17.5</td><td>5.4</td><td class='t'>69.3</td><td><span class='bd bC'>C</span></td></tr><tr data-t='67.2'><td>78</td><td>明</td><td class='k'>zhuyouxiao</td><td>24.2</td><td>19.8</td><td>17.7</td><td>5.5</td><td class='t'>67.2</td><td><span class='bd bC'>C</span></td></tr></tbody></table>
+
+<h2>四、李世民逐帝评语</h2>
+<h3 class="dyn" style="color:#b45309"><span style="background:#b45309"></span>唐朝 · 21 帝</h3><div class="grid"><div class="card">
+  <div class="card-h"><span class="rk">#5</span><span class="nm">lilongji</span>
+    <span class="bd bA">A</span><span class="sc">85.6</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 24.8</span>
+    <span>思维 22.1</span><span>遍历 9.9</span></div>
+  <p class="verdict">开元之治可比贞观，而天宝之乱自作其孽——朕之晚年亦有此渐变，痛哉。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#9</span><span class="nm">liyu</span>
+    <span class="bd bA">A</span><span class="sc">85.1</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 24.8</span>
+    <span>思维 21.9</span><span>遍历 9.6</span></div>
+  <p class="verdict">收拾残局尚可，然姑息藩镇、纵容宦官，积弊自此深。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#14</span><span class="nm">wuzetian</span>
+    <span class="bd bA">A</span><span class="sc">83.7</span></div>
+  <div class="dims"><span>角色 27.7</span><span>史识 24.5</span>
+    <span>思维 22.3</span><span>遍历 9.4</span></div>
+  <p class="verdict">牝鸡司晨固违常，然酷吏之后能任贤纳谏、开殿试，治国之才不可尽以女子废之。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#17</span><span class="nm">liye</span>
+    <span class="bd bA">A</span><span class="sc">83.3</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.4</span>
+    <span>思维 22.1</span><span>遍历 8.9</span></div>
+  <p class="verdict">有志兴复而无实力，受制强藩，终见弑于朱温之手，朕为之恻然。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#21</span><span class="nm">lishimin</span>
+    <span class="bd bA">A</span><span class="sc">82.2</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.0</span>
+    <span>思维 22.1</span><span>遍历 8.2</span></div>
+  <p class="verdict">此即朕也。功业足以自证，而蹀血禁门之惭，终身难掩。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#23</span><span class="nm">lichen</span>
+    <span class="bd bA">A</span><span class="sc">81.9</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.8</span>
+    <span>思维 21.6</span><span>遍历 7.7</span></div>
+  <p class="verdict">大中之治，史称小太宗；然察察为明，晚惑方士，朕不取苛察。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#24</span><span class="nm">lizhi</span>
+    <span class="bd bA">A</span><span class="sc">81.8</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.0</span>
+    <span>思维 21.9</span><span>遍历 8.0</span></div>
+  <p class="verdict">承贞观之遗而失之柔，武氏之兴，朕之《帝范》未足训也。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#29</span><span class="nm">lizhu</span>
+    <span class="bd bA">A</span><span class="sc">80.4</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 22.2</span>
+    <span>思维 21.6</span><span>遍历 7.7</span></div>
+  <p class="verdict">白马之祸，唐祚遂终。非一帝之罪，乃积弊百年之总崩。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#30</span><span class="nm">liyuan</span>
+    <span class="bd bB">B</span><span class="sc">79.9</span></div>
+  <div class="dims"><span>角色 27.7</span><span>史识 22.5</span>
+    <span>思维 21.9</span><span>遍历 7.9</span></div>
+  <p class="verdict">起兵晋阳有开创之功，然玄武门之日不能制其子——朕之起点，即是明证。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#31</span><span class="nm">liang</span>
+    <span class="bd bB">B</span><span class="sc">79.6</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 22.7</span>
+    <span>思维 20.3</span><span>遍历 7.8</span></div>
+  <p class="verdict">甘露一决而谋泄，去河北贼易、去朝中宦官难——其言痛切，其行则疏。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#34</span><span class="nm">liheng_s</span>
+    <span class="bd bB">B</span><span class="sc">79.0</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.6</span>
+    <span>思维 20.2</span><span>遍历 6.3</span></div>
+  <p class="verdict">灵武自立，虽有复国之志，然借兵回纥、宠任宦官，遗祸不浅。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#35</span><span class="nm">liyan</span>
+    <span class="bd bB">B</span><span class="sc">78.8</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 22.3</span>
+    <span>思维 20.4</span><span>遍历 7.2</span></div>
+  <p class="verdict">会昌灭佛、专任德裕、平泽潞，是唐末难得的振作之君。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#41</span><span class="nm">lichun</span>
+    <span class="bd bB">B</span><span class="sc">78.4</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 24.8</span>
+    <span>思维 19.0</span><span>遍历 5.8</span></div>
+  <p class="verdict">中兴削藩，可谓有为之主；然佞佛饵丹，终不克终。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#43</span><span class="nm">lishi</span>
+    <span class="bd bB">B</span><span class="sc">78.2</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 24.0</span>
+    <span>思维 20.4</span><span>遍历 4.9</span></div>
+  <p class="verdict">两税一法善矣，而猜忌刻薄、聚敛无度，奉天之变非无因。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#49</span><span class="nm">lisong</span>
+    <span class="bd bB">B</span><span class="sc">77.3</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 24.0</span>
+    <span>思维 20.0</span><span>遍历 4.5</span></div>
+  <p class="verdict">永贞革新有锐气，惜在位仅八月，言之易而行之难。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#54</span><span class="nm">lidan</span>
+    <span class="bd bB">B</span><span class="sc">76.4</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.4</span>
+    <span>思维 19.3</span><span>遍历 4.8</span></div>
+  <p class="verdict">睿宗三让两登，知退知进，然终为太平公主所制。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#56</span><span class="nm">lixian</span>
+    <span class="bd bB">B</span><span class="sc">76.0</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 22.7</span>
+    <span>思维 19.9</span><span>遍历 4.5</span></div>
+  <p class="verdict">中宗再起而受制于妇，暴崩于妇手，非守成之器。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#58</span><span class="nm">liheng_m</span>
+    <span class="bd bB">B</span><span class="sc">75.7</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.4</span>
+    <span>思维 19.0</span><span>遍历 4.5</span></div>
+  <p class="verdict">怠政纵乐，河朔再失，牛李之党自此相倾，唐之衰自长庆始。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#64</span><span class="nm">licui</span>
+    <span class="bd bB">B</span><span class="sc">74.9</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.4</span>
+    <span>思维 18.6</span><span>遍历 4.1</span></div>
+  <p class="verdict">游宴无度、佞佛耗国，裘甫一乱，唐祚已薄。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#65</span><span class="nm">lixuan</span>
+    <span class="bd bB">B</span><span class="sc">74.8</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.4</span>
+    <span>思维 18.5</span><span>遍历 4.0</span></div>
+  <p class="verdict">嬉戏失国，黄巢破京而奔蜀，非人君之度。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#68</span><span class="nm">lizhan</span>
+    <span class="bd bB">B</span><span class="sc">74.2</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 22.8</span>
+    <span>思维 18.5</span><span>遍历 4.0</span></div>
+  <p class="verdict">童昏嬉游、视朝稀阔，遇弑于内侍，可叹可恨。</p></div></div><h3 class="dyn" style="color:#0f766e"><span style="background:#0f766e"></span>宋朝 · 18 帝</h3><div class="grid"><div class="card">
+  <div class="card-h"><span class="rk">#4</span><span class="nm">zhaozhen</span>
+    <span class="bd bA">A</span><span class="sc">86.2</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 25.3</span>
+    <span>思维 22.3</span><span>遍历 9.7</span></div>
+  <p class="verdict">宽仁有度、士大夫乐为之用，庆历新政虽止，仁宗之世可谓宋之盛。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#16</span><span class="nm">zhaokuo</span>
+    <span class="bd bA">A</span><span class="sc">83.5</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 24.5</span>
+    <span>思维 22.0</span><span>遍历 8.1</span></div>
+  <p class="verdict">庆元党禁、开禧北伐皆失，权臣迭起，国势日下。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#18</span><span class="nm">zhaogou</span>
+    <span class="bd bA">A</span><span class="sc">83.2</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 24.0</span>
+    <span>思维 22.0</span><span>遍历 8.4</span></div>
+  <p class="verdict">南渡开基而偏安江左，杀岳飞、称臣纳贡，苟安之讥难辞。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#22</span><span class="nm">zhaoshen</span>
+    <span class="bd bA">A</span><span class="sc">82.0</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.2</span>
+    <span>思维 21.7</span><span>遍历 8.2</span></div>
+  <p class="verdict">南宋最有为之君，锐意恢复而力不逮，乾道淳熙之治可称。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#25</span><span class="nm">zhaoyun</span>
+    <span class="bd bA">A</span><span class="sc">81.5</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.2</span>
+    <span>思维 21.7</span><span>遍历 7.8</span></div>
+  <p class="verdict">联蒙灭金而邀功，端平入洛轻启边衅，贾似道之渐兆于斯。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#28</span><span class="nm">zhaoji</span>
+    <span class="bd bA">A</span><span class="sc">80.6</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 22.5</span>
+    <span>思维 21.6</span><span>遍历 7.7</span></div>
+  <p class="verdict">瘦金花石，风雅有余而治国无术，靖康之耻其召之也。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#40</span><span class="nm">zhaoxu_s</span>
+    <span class="bd bB">B</span><span class="sc">78.6</span></div>
+  <div class="dims"><span>角色 27.7</span><span>史识 22.8</span>
+    <span>思维 20.5</span><span>遍历 7.6</span></div>
+  <p class="verdict">锐意变法，安石之志可嘉，然操之过急、新法扰民，北宋之变关由于此。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#50</span><span class="nm">zhaoheng</span>
+    <span class="bd bB">B</span><span class="sc">76.9</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.4</span>
+    <span>思维 20.1</span><span>遍历 4.6</span></div>
+  <p class="verdict">澶渊以岁币换安，封禅天书徒耗国力，非善继者。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#51</span><span class="nm">zhaoguangyi</span>
+    <span class="bd bB">B</span><span class="sc">76.8</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.4</span>
+    <span>思维 20.0</span><span>遍历 4.5</span></div>
+  <p class="verdict">得位有烛影之疑，北伐屡挫，然文治可称。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#57</span><span class="nm">zhaokuangyin</span>
+    <span class="bd bB">B</span><span class="sc">76.0</span></div>
+  <div class="dims"><span>角色 27.9</span><span>史识 23.4</span>
+    <span>思维 20.1</span><span>遍历 4.6</span></div>
+  <p class="verdict">杯酒释兵权、重文抑武，解唐末五代之乱是其所长；然强干弱枝，亦开积弱之端。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#60</span><span class="nm">zhaoxian</span>
+    <span class="bd bB">B</span><span class="sc">75.3</span></div>
+  <div class="dims"><span>角色 28.7</span><span>史识 23.6</span>
+    <span>思维 18.8</span><span>遍历 4.3</span></div>
+  <p class="verdict">幼冲逊国，临安出降，非其罪，乃大势之倾。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#62</span><span class="nm">zhaobing</span>
+    <span class="bd bB">B</span><span class="sc">75.1</span></div>
+  <div class="dims"><span>角色 28.7</span><span>史识 23.6</span>
+    <span>思维 18.7</span><span>遍历 4.2</span></div>
+  <p class="verdict">崖山一决，负幼投海，君臣俱没——存统之愿终成殉国之节。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#63</span><span class="nm">zhaoxu_z</span>
+    <span class="bd bB">B</span><span class="sc">75.0</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 22.1</span>
+    <span>思维 19.8</span><span>遍历 4.3</span></div>
+  <p class="verdict">元祐绍圣翻覆无常，党争白热，国是数变则民不聊生。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#66</span><span class="nm">zhaohuan</span>
+    <span class="bd bB">B</span><span class="sc">74.8</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 22.1</span>
+    <span>思维 19.7</span><span>遍历 4.2</span></div>
+  <p class="verdict">受命于危，割地纳贡终不免北狩，非一帝之罪，乃积弱之果。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#69</span><span class="nm">zhaodun</span>
+    <span class="bd bB">B</span><span class="sc">73.9</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 21.8</span>
+    <span>思维 18.9</span><span>遍历 4.4</span></div>
+  <p class="verdict">受制悍后，父子相猜，竟以不孝见讥，人伦之变令人叹。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#70</span><span class="nm">zhaoshi</span>
+    <span class="bd bB">B</span><span class="sc">73.9</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 22.8</span>
+    <span>思维 18.4</span><span>遍历 3.9</span></div>
+  <p class="verdict">流亡播迁，未及有为而殂于碙州。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#71</span><span class="nm">zhaoshu</span>
+    <span class="bd bB">B</span><span class="sc">73.5</span></div>
+  <div class="dims"><span>角色 28.5</span><span>史识 21.6</span>
+    <span>思维 19.0</span><span>遍历 4.5</span></div>
+  <p class="verdict">濮议之争几摇朝局，在位日浅，未见大略。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#73</span><span class="nm">zhaoqi</span>
+    <span class="bd bB">B</span><span class="sc">72.4</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 21.9</span>
+    <span>思维 18.3</span><span>遍历 3.4</span></div>
+  <p class="verdict">荒于酒色、权归贾氏，襄阳告急而不知，亡国之象已露。</p></div></div><h3 class="dyn" style="color:#1d4ed8"><span style="background:#1d4ed8"></span>元朝 · 11 帝</h3><div class="grid"><div class="card">
+  <div class="card-h"><span class="rk">#1</span><span class="nm">haishan</span>
+    <span class="bd bA">A</span><span class="sc">87.9</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 26.6</span>
+    <span>思维 22.0</span><span>遍历 10.4</span></div>
+  <p class="verdict">以军功入践大位，封赏无度，朝政颇紊。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#6</span><span class="nm">ayurbarwada</span>
+    <span class="bd bA">A</span><span class="sc">85.5</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 24.0</span>
+    <span>思维 21.8</span><span>遍历 9.6</span></div>
+  <p class="verdict">在位勤于文治，行科举、尊儒学，元世之贤者。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#10</span><span class="nm">hubilie</span>
+    <span class="bd bA">A</span><span class="sc">85.0</span></div>
+  <div class="dims"><span>角色 26.9</span><span>史识 25.4</span>
+    <span>思维 22.2</span><span>遍历 10.6</span></div>
+  <p class="verdict">定鼎燕京、混一南北，虽起于夷狄而能用汉法，有帝王之略。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#19</span><span class="nm">toghontemur</span>
+    <span class="bd bA">A</span><span class="sc">82.8</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.8</span>
+    <span>思维 22.0</span><span>遍历 8.1</span></div>
+  <p class="verdict">北遁大漠，元祚遂终；河患民变并起，非一帝能挽。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#26</span><span class="nm">yesuntemuer</span>
+    <span class="bd bA">A</span><span class="sc">80.7</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 24.6</span>
+    <span>思维 20.3</span><span>遍历 5.8</span></div>
+  <p class="verdict">守成少变，处诸王之间而得不乱，中庸之姿。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#32</span><span class="nm">hoshila</span>
+    <span class="bd bB">B</span><span class="sc">79.3</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 24.0</span>
+    <span>思维 20.4</span><span>遍历 4.9</span></div>
+  <p class="verdict">自漠北南归，未及都城而暴崩，天不假年。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#42</span><span class="nm">tutemuer</span>
+    <span class="bd bB">B</span><span class="sc">78.4</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 24.0</span>
+    <span>思维 20.7</span><span>遍历 4.8</span></div>
+  <p class="verdict">初让复夺，挟权臣柄政，虽崇文而内多惭愧。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#44</span><span class="nm">temuer</span>
+    <span class="bd bB">B</span><span class="sc">78.1</span></div>
+  <div class="dims"><span>角色 28.7</span><span>史识 24.0</span>
+    <span>思维 19.3</span><span>遍历 6.1</span></div>
+  <p class="verdict">守成之主，能与民休息，然滥赏致国用不足。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#45</span><span class="nm">yilinzhiban</span>
+    <span class="bd bB">B</span><span class="sc">77.9</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 24.4</span>
+    <span>思维 18.2</span><span>遍历 6.4</span></div>
+  <p class="verdict">幼年即位，月余而殂，国统之乱可见。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#46</span><span class="nm">shidibala</span>
+    <span class="bd bB">B</span><span class="sc">77.8</span></div>
+  <div class="dims"><span>角色 27.7</span><span>史识 24.7</span>
+    <span>思维 19.9</span><span>遍历 5.4</span></div>
+  <p class="verdict">锐意汉法改革而触怒权贵，南坡遇弑——变法之难如是。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#53</span><span class="nm">ashuqibu</span>
+    <span class="bd bB">B</span><span class="sc">76.7</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 23.7</span>
+    <span>思维 18.1</span><span>遍历 5.0</span></div>
+  <p class="verdict">两都之战中的幼主，帝位月余而败，天命之无常。</p></div></div><h3 class="dyn" style="color:#a83232"><span style="background:#a83232"></span>明朝 · 16 帝</h3><div class="grid"><div class="card">
+  <div class="card-h"><span class="rk">#2</span><span class="nm">zhuyuanzhang</span>
+    <span class="bd bA">A</span><span class="sc">87.8</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 24.8</span>
+    <span>思维 21.9</span><span>遍历 11.0</span></div>
+  <p class="verdict">布衣取天下，重典治吏，草根雄主；然猜忌屠戮，亦失宽仁。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#27</span><span class="nm">zhuyijun</span>
+    <span class="bd bA">A</span><span class="sc">80.7</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 20.5</span>
+    <span>思维 21.5</span><span>遍历 8.6</span></div>
+  <p class="verdict">居正遗泽可称，而晚年怠政三十载，国本之争伤元气。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#33</span><span class="nm">zhuqiyu</span>
+    <span class="bd bB">B</span><span class="sc">79.3</span></div>
+  <div class="dims"><span>角色 24.6</span><span>史识 22.6</span>
+    <span>思维 22.0</span><span>遍历 10.1</span></div>
+  <p class="verdict">临危受命、任用于谦挽危局，惜夺门之后身后蒙冤。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#36</span><span class="nm">zhuzaihou</span>
+    <span class="bd bB">B</span><span class="sc">78.8</span></div>
+  <div class="dims"><span>角色 26.2</span><span>史识 22.0</span>
+    <span>思维 21.7</span><span>遍历 8.8</span></div>
+  <p class="verdict">开关互市、任用高拱张居正，短祚而有作为。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#37</span><span class="nm">zhugaochi</span>
+    <span class="bd bB">B</span><span class="sc">78.7</span></div>
+  <div class="dims"><span>角色 24.6</span><span>史识 22.9</span>
+    <span>思维 21.7</span><span>遍历 9.5</span></div>
+  <p class="verdict">在位十月而施仁政、罢西洋，惜天不假年。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#47</span><span class="nm">zhudi</span>
+    <span class="bd bB">B</span><span class="sc">77.8</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.2</span>
+    <span>思维 20.1</span><span>遍历 5.6</span></div>
+  <p class="verdict">靖难夺位而颇有太宗之迹，迁都、下西洋、修大典，功业赫赫。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#48</span><span class="nm">zhuyoujian</span>
+    <span class="bd bB">B</span><span class="sc">77.5</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 22.4</span>
+    <span>思维 19.0</span><span>遍历 6.2</span></div>
+  <p class="verdict">勤政而多疑、刚愎而误杀，非亡国之君而当天亡之运。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#52</span><span class="nm">zhujianshen</span>
+    <span class="bd bB">B</span><span class="sc">76.8</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 20.4</span>
+    <span>思维 20.8</span><span>遍历 5.6</span></div>
+  <p class="verdict">宽仁而设西厂、宠万贵妃，朝政渐弛。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#55</span><span class="nm">zhuhoucong</span>
+    <span class="bd bB">B</span><span class="sc">76.2</span></div>
+  <div class="dims"><span>角色 27.0</span><span>史识 21.0</span>
+    <span>思维 21.4</span><span>遍历 6.8</span></div>
+  <p class="verdict">议礼夺权、崇道怠政，严嵩弄权二十年，帝实主之。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#61</span><span class="nm">zhuhouzhao</span>
+    <span class="bd bB">B</span><span class="sc">75.2</span></div>
+  <div class="dims"><span>角色 26.6</span><span>史识 21.8</span>
+    <span>思维 19.1</span><span>遍历 7.6</span></div>
+  <p class="verdict">豹房嬉游，自号将军，视国事如儿戏。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#67</span><span class="nm">zhuyoutang</span>
+    <span class="bd bB">B</span><span class="sc">74.7</span></div>
+  <div class="dims"><span>角色 26.6</span><span>史识 20.6</span>
+    <span>思维 21.7</span><span>遍历 5.8</span></div>
+  <p class="verdict">一夫一妻、勤政纳谏，可与仁宗比肩，明之贤主。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#72</span><span class="nm">zhuqizhen</span>
+    <span class="bd bB">B</span><span class="sc">73.3</span></div>
+  <div class="dims"><span>角色 25.0</span><span>史识 22.4</span>
+    <span>思维 19.9</span><span>遍历 6.1</span></div>
+  <p class="verdict">土木之变几倾社稷，复辟后又杀忠臣，功过两分。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#74</span><span class="nm">zhuchangluo</span>
+    <span class="bd bB">B</span><span class="sc">72.1</span></div>
+  <div class="dims"><span>角色 24.4</span><span>史识 21.6</span>
+    <span>思维 18.9</span><span>遍历 7.1</span></div>
+  <p class="verdict">一月天子，红丸暴崩，明之党争阉祸自此炽。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#76</span><span class="nm">zhuyunwen</span>
+    <span class="bd bB">B</span><span class="sc">70.3</span></div>
+  <div class="dims"><span>角色 24.8</span><span>史识 21.6</span>
+    <span>思维 19.9</span><span>遍历 4.1</span></div>
+  <p class="verdict">削藩太急，仁柔而失国，非无志，乃无术。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#77</span><span class="nm">zhuzhanji</span>
+    <span class="bd bC">C</span><span class="sc">69.3</span></div>
+  <div class="dims"><span>角色 24.6</span><span>史识 21.8</span>
+    <span>思维 17.5</span><span>遍历 5.4</span></div>
+  <p class="verdict">仁宣之治，守成得体；然设内书堂教宦官，遗祸深远。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#78</span><span class="nm">zhuyouxiao</span>
+    <span class="bd bC">C</span><span class="sc">67.2</span></div>
+  <div class="dims"><span>角色 24.2</span><span>史识 19.8</span>
+    <span>思维 17.7</span><span>遍历 5.5</span></div>
+  <p class="verdict">木匠皇帝，宠信魏忠贤，阉党荼毒东林。</p></div></div><h3 class="dyn" style="color:#6d28d9"><span style="background:#6d28d9"></span>清朝 · 12 帝</h3><div class="grid"><div class="card">
+  <div class="card-h"><span class="rk">#3</span><span class="nm">xuanye</span>
+    <span class="bd bA">A</span><span class="sc">86.6</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 23.8</span>
+    <span>思维 22.0</span><span>遍历 10.8</span></div>
+  <p class="verdict">平三藩、收台湾、御沙俄、定朔漠兼修文教——守成兼开创之圣主。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#7</span><span class="nm">yongyan</span>
+    <span class="bd bA">A</span><span class="sc">85.2</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 23.6</span>
+    <span>思维 22.1</span><span>遍历 9.5</span></div>
+  <p class="verdict">诛和珅而未能挽颓势，勤政而乏大略。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#8</span><span class="nm">zaitian</span>
+    <span class="bd bA">A</span><span class="sc">85.2</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 24.6</span>
+    <span>思维 20.9</span><span>遍历 9.7</span></div>
+  <p class="verdict">戊戌变法有心振作而无权，囚于瀛台，可悲可叹。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#11</span><span class="nm">yinzhen</span>
+    <span class="bd bA">A</span><span class="sc">84.3</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 24.0</span>
+    <span>思维 21.8</span><span>遍历 9.6</span></div>
+  <p class="verdict">勤政严苛、革除积弊、密折治吏，承前启后之枢纽。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#12</span><span class="nm">hongtaiji</span>
+    <span class="bd bA">A</span><span class="sc">84.0</span></div>
+  <div class="dims"><span>角色 29.0</span><span>史识 24.0</span>
+    <span>思维 21.1</span><span>遍历 9.9</span></div>
+  <p class="verdict">改国号、仿明制、收汉臣，为入关奠基。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#13</span><span class="nm">minning</span>
+    <span class="bd bA">A</span><span class="sc">84.0</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 22.6</span>
+    <span>思维 21.8</span><span>遍历 9.5</span></div>
+  <p class="verdict">俭朴自守而昧于外势，鸦片一战而国门洞开。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#15</span><span class="nm">hongli</span>
+    <span class="bd bA">A</span><span class="sc">83.6</span></div>
+  <div class="dims"><span>角色 29.4</span><span>史识 24.5</span>
+    <span>思维 20.6</span><span>遍历 9.1</span></div>
+  <p class="verdict">十全武功、编纂四库，然晚年奢靡、宠和珅，盛世之巅亦衰之始。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#20</span><span class="nm">yizhu</span>
+    <span class="bd bA">A</span><span class="sc">82.6</span></div>
+  <div class="dims"><span>角色 29.4</span><span>史识 23.2</span>
+    <span>思维 21.5</span><span>遍历 8.6</span></div>
+  <p class="verdict">内忧外患并至，圆明园一炬，仓皇北狩。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#38</span><span class="nm">fulin</span>
+    <span class="bd bB">B</span><span class="sc">78.7</span></div>
+  <div class="dims"><span>角色 28.9</span><span>史识 23.0</span>
+    <span>思维 20.2</span><span>遍历 6.7</span></div>
+  <p class="verdict">冲龄入关，亲政后慕汉崇文，惜早逝。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#39</span><span class="nm">puyi</span>
+    <span class="bd bB">B</span><span class="sc">78.7</span></div>
+  <div class="dims"><span>角色 24.4</span><span>史识 23.9</span>
+    <span>思维 21.0</span><span>遍历 9.4</span></div>
+  <p class="verdict">三起三落，终为末代；旧制之终结，非一人能回。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#59</span><span class="nm">zaichun</span>
+    <span class="bd bB">B</span><span class="sc">75.5</span></div>
+  <div class="dims"><span>角色 30.0</span><span>史识 21.0</span>
+    <span>思维 19.0</span><span>遍历 5.5</span></div>
+  <p class="verdict">冲龄在位，母后垂帘，所谓中兴者实非帝力。</p></div><div class="card">
+  <div class="card-h"><span class="rk">#75</span><span class="nm">nurhaci</span>
+    <span class="bd bB">B</span><span class="sc">71.0</span></div>
+  <div class="dims"><span>角色 22.9</span><span>史识 22.6</span>
+    <span>思维 19.4</span><span>遍历 6.2</span></div>
+  <p class="verdict">十三甲起兵，创八旗、建后金，夷狄之创业雄主。</p></div></div>
+
+<div class="foot">
+方法说明：角色保真/史识可靠/思维可用三维由 SKILL.md 的可量化结构指标（第一人称密度、心智模型数、一手占比、引证密度、张力条数等）折算；
+遍历适应为迁移素材代理量。评语由「李世民」视角定性给出。<br>
+诚实边界：本报告是<b>基于技能文件的静态评测</b>，非真实逐帝对话压测；史实准确度未逐条复核原文，分数仅供横向比较，不构成对该人物历史地位的评价。
+</div>
+</div>
+<script>
+new Chart(document.getElementById('radar'),{type:'radar',data:{labels:['角色保真','史识可靠','思维可用','遍历适应'],
+ datasets:[{label:'唐',data:[96.0, 78.2, 82.2, 44.3],borderColor:'#b45309',backgroundColor:'#b4530922',borderWidth:2,pointRadius:2},{label:'宋',data:[95.8, 76.9, 80.8, 38.7],borderColor:'#0f766e',backgroundColor:'#0f766e22',borderWidth:2,pointRadius:2},{label:'元',data:[96.6, 81.6, 81.8, 46.7],borderColor:'#1d4ed8',backgroundColor:'#1d4ed822',borderWidth:2,pointRadius:2},{label:'明',data:[89.1, 72.8, 81.2, 47.4],borderColor:'#a83232',backgroundColor:'#a8323222',borderWidth:2,pointRadius:2},{label:'清',data:[95.2, 78.0, 83.8, 58.1],borderColor:'#6d28d9',backgroundColor:'#6d28d922',borderWidth:2,pointRadius:2}]},
+ options:{responsive:true,maintainAspectRatio:false,scales:{r:{min:0,max:100,ticks:{stepSize:20,backdropColor:'transparent'},grid:{color:'#e5e7eb'},pointLabels:{font:{size:12}}}},plugins:{legend:{display:false}}}});
+new Chart(document.getElementById('bar'),{type:'bar',data:{labels:["haishan", "zhuyuanzhang", "xuanye", "zhaozhen", "lilongji", "ayurbarwada", "yongyan", "zaitian", "liyu", "hubilie"],
+ datasets:[{data:[87.9, 87.8, 86.6, 86.2, 85.6, 85.5, 85.2, 85.2, 85.1, 85.0],backgroundColor:["#1d4ed8", "#a83232", "#6d28d9", "#0f766e", "#b45309", "#1d4ed8", "#6d28d9", "#6d28d9", "#b45309", "#1d4ed8"],borderRadius:4}]},
+ options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,scales:{x:{min:60,max:92,grid:{color:'#e5e7eb'}}},
+ plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.x+' 分'}}}}});
+</script></body></html>
