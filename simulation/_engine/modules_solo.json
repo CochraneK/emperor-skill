@@ -1,0 +1,660 @@
+{
+ "andi": {
+  "cn": "刘祜",
+  "dir": "donghan",
+  "era": "106–125",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "ashuqibu": {
+  "cn": "阿速吉八",
+  "dir": "yuan",
+  "era": "1320–1328",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "ayurbarwada": {
+  "cn": "爱育黎拔力八达",
+  "dir": "yuan",
+  "era": "1285–1320",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "chongdi": {
+  "cn": "刘炳",
+  "dir": "donghan",
+  "era": "144–145",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "fulin": {
+  "cn": "福临",
+  "dir": "qing",
+  "era": "1638–1661",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "gongdi": {
+  "cn": "杨侑",
+  "dir": "sui",
+  "era": "617–618",
+  "group": "sui-main",
+  "module": "sui-emperors"
+ },
+ "guangwudi": {
+  "cn": "刘秀",
+  "dir": "donghan",
+  "era": "25–57",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "haishan": {
+  "cn": "海山",
+  "dir": "yuan",
+  "era": "1281–1311",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "hedi": {
+  "cn": "刘肇",
+  "dir": "donghan",
+  "era": "88–105",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "hongli": {
+  "cn": "弘历",
+  "dir": "qing",
+  "era": "1711–1799",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "hongtaiji": {
+  "cn": "皇太极",
+  "dir": "qing",
+  "era": "1592–1643",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "hoshila": {
+  "cn": "和世㻋",
+  "dir": "yuan",
+  "era": "1300–1329",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "huandi": {
+  "cn": "刘志",
+  "dir": "donghan",
+  "era": "146–168",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "hubilie": {
+  "cn": "忽必烈",
+  "dir": "yuan",
+  "era": "1215–1294",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "liang": {
+  "cn": "李昂",
+  "dir": "tang",
+  "era": "809–840",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lichen": {
+  "cn": "李忱",
+  "dir": "tang",
+  "era": "810–859",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lichun": {
+  "cn": "李纯",
+  "dir": "tang",
+  "era": "778–820",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "licui": {
+  "cn": "李漼",
+  "dir": "tang",
+  "era": "833–873",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lidan": {
+  "cn": "李旦",
+  "dir": "tang",
+  "era": "662–716",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "liheng_m": {
+  "cn": "李恒",
+  "dir": "tang",
+  "era": "795–824",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "liheng_s": {
+  "cn": "李亨",
+  "dir": "tang",
+  "era": "711–762",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lilongji": {
+  "cn": "李隆基",
+  "dir": "tang",
+  "era": "685–762",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lingdi": {
+  "cn": "刘宏",
+  "dir": "donghan",
+  "era": "168–189",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "lishi": {
+  "cn": "李适",
+  "dir": "tang",
+  "era": "742–805",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lishimin": {
+  "cn": "李世民",
+  "dir": "tang",
+  "era": "598–649",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lisong": {
+  "cn": "李诵",
+  "dir": "tang",
+  "era": "761–806",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lixian": {
+  "cn": "李显",
+  "dir": "tang",
+  "era": "656–710",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lixuan": {
+  "cn": "李儇",
+  "dir": "tang",
+  "era": "862–888",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "liyan": {
+  "cn": "李炎",
+  "dir": "tang",
+  "era": "814–846",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "liye": {
+  "cn": "李晔",
+  "dir": "tang",
+  "era": "867–904",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "liyu": {
+  "cn": "李豫",
+  "dir": "tang",
+  "era": "726–779",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "liyuan": {
+  "cn": "李渊",
+  "dir": "tang",
+  "era": "566–635",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lizhan": {
+  "cn": "李湛",
+  "dir": "tang",
+  "era": "809–826",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lizhi": {
+  "cn": "李治",
+  "dir": "tang",
+  "era": "628–683",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "lizhu": {
+  "cn": "李柷",
+  "dir": "tang",
+  "era": "892–908",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "mingdi": {
+  "cn": "刘庄",
+  "dir": "donghan",
+  "era": "57–75",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "minning": {
+  "cn": "旻宁",
+  "dir": "qing",
+  "era": "1782–1850",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "nurhaci": {
+  "cn": "努尔哈赤",
+  "dir": "qing",
+  "era": "1559–1626",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "puyi": {
+  "cn": "溥仪",
+  "dir": "qing",
+  "era": "1906–1967",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "shangdi": {
+  "cn": "刘隆",
+  "dir": "donghan",
+  "era": "105–106",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "shaodi": {
+  "cn": "刘辩",
+  "dir": "donghan",
+  "era": "189",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "shidibala": {
+  "cn": "硕德八剌",
+  "dir": "yuan",
+  "era": "1303–1323",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "shundi": {
+  "cn": "刘保",
+  "dir": "donghan",
+  "era": "125–144",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "temuer": {
+  "cn": "铁穆耳",
+  "dir": "yuan",
+  "era": "1265–1307",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "toghontemur": {
+  "cn": "妥懽帖睦尔",
+  "dir": "yuan",
+  "era": "1320–1370",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "tutemuer": {
+  "cn": "图帖睦尔",
+  "dir": "yuan",
+  "era": "1304–1332",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "wendi": {
+  "cn": "杨坚",
+  "dir": "sui",
+  "era": "581–604",
+  "group": "sui-main",
+  "module": "sui-emperors"
+ },
+ "wuzetian": {
+  "cn": "武则天",
+  "dir": "tang",
+  "era": "624–705",
+  "group": "tang-main",
+  "module": "tang-emperors"
+ },
+ "xiandi": {
+  "cn": "刘协",
+  "dir": "donghan",
+  "era": "189–220",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "xuanye": {
+  "cn": "玄烨",
+  "dir": "qing",
+  "era": "1654–1722",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "yangdi": {
+  "cn": "杨广",
+  "dir": "sui",
+  "era": "604–618",
+  "group": "sui-main",
+  "module": "sui-emperors"
+ },
+ "yesuntemuer": {
+  "cn": "也孙铁木儿",
+  "dir": "yuan",
+  "era": "1276–1328",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "yilinzhiban": {
+  "cn": "懿璘质班",
+  "dir": "yuan",
+  "era": "1326–1332",
+  "group": "yuan-main",
+  "module": "yuan-emperors"
+ },
+ "yinzhen": {
+  "cn": "胤禛",
+  "dir": "qing",
+  "era": "1678–1735",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "yizhu": {
+  "cn": "奕詝",
+  "dir": "qing",
+  "era": "1831–1861",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "yongyan": {
+  "cn": "颙琰",
+  "dir": "qing",
+  "era": "1760–1820",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "zaichun": {
+  "cn": "载淳",
+  "dir": "qing",
+  "era": "1856–1875",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "zaitian": {
+  "cn": "载湉",
+  "dir": "qing",
+  "era": "1871–1908",
+  "group": "qing-main",
+  "module": "qing-emperors"
+ },
+ "zhangdi": {
+  "cn": "刘炟",
+  "dir": "donghan",
+  "era": "75–88",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "zhaobing": {
+  "cn": "赵昺",
+  "dir": "song",
+  "era": "1272–1279",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaodun": {
+  "cn": "赵惇",
+  "dir": "song",
+  "era": "1147–1200",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaogou": {
+  "cn": "赵构",
+  "dir": "song",
+  "era": "1107–1187",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoguangyi": {
+  "cn": "赵光义",
+  "dir": "song",
+  "era": "939–997",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoheng": {
+  "cn": "赵恒",
+  "dir": "song",
+  "era": "968–1022",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaohuan": {
+  "cn": "赵桓",
+  "dir": "song",
+  "era": "1100–1156",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoji": {
+  "cn": "赵佶",
+  "dir": "song",
+  "era": "1082–1135",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaokuangyin": {
+  "cn": "赵匡胤",
+  "dir": "song",
+  "era": "927–976",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaokuo": {
+  "cn": "赵扩",
+  "dir": "song",
+  "era": "1168–1224",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoqi": {
+  "cn": "赵禥",
+  "dir": "song",
+  "era": "1240–1274",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoshen": {
+  "cn": "赵昚",
+  "dir": "song",
+  "era": "1127–1194",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoshi": {
+  "cn": "赵昰",
+  "dir": "song",
+  "era": "1269–1278",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoshu": {
+  "cn": "赵曙",
+  "dir": "song",
+  "era": "1032–1067",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoxian": {
+  "cn": "赵㬎",
+  "dir": "song",
+  "era": "1271–1323",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoxu_s": {
+  "cn": "赵顼",
+  "dir": "song",
+  "era": "1048–1085",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoxu_z": {
+  "cn": "赵煦",
+  "dir": "song",
+  "era": "1077–1100",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaoyun": {
+  "cn": "赵昀",
+  "dir": "song",
+  "era": "1205–1264",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhaozhen": {
+  "cn": "赵祯",
+  "dir": "song",
+  "era": "1010–1063",
+  "group": "song-main",
+  "module": "song-emperors"
+ },
+ "zhidi": {
+  "cn": "刘缵",
+  "dir": "donghan",
+  "era": "145–146",
+  "group": "donghan-main",
+  "module": "donghan-emperors"
+ },
+ "zhuchangluo": {
+  "cn": "朱常洛",
+  "dir": "ming",
+  "era": "1582–1620",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhudi": {
+  "cn": "朱棣",
+  "dir": "ming",
+  "era": "1360–1424",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhugaochi": {
+  "cn": "朱高炽",
+  "dir": "ming",
+  "era": "1378–1425",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuhoucong": {
+  "cn": "朱厚熜",
+  "dir": "ming",
+  "era": "1507–1567",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuhouzhao": {
+  "cn": "朱厚照",
+  "dir": "ming",
+  "era": "1491–1521",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhujianshen": {
+  "cn": "朱见深",
+  "dir": "ming",
+  "era": "1447–1487",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuqiyu": {
+  "cn": "朱祁钰",
+  "dir": "ming",
+  "era": "1428–1457",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuqizhen": {
+  "cn": "朱祁镇",
+  "dir": "ming",
+  "era": "1427–1464",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuyijun": {
+  "cn": "朱翊钧",
+  "dir": "ming",
+  "era": "1563–1620",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuyoujian": {
+  "cn": "朱由检",
+  "dir": "ming",
+  "era": "1611–1644",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuyoutang": {
+  "cn": "朱祐樘",
+  "dir": "ming",
+  "era": "1470–1505",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuyouxiao": {
+  "cn": "朱由校",
+  "dir": "ming",
+  "era": "1605–1627",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuyuanzhang": {
+  "cn": "朱元璋",
+  "dir": "ming",
+  "era": "1328–1398",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuyunwen": {
+  "cn": "朱允炆",
+  "dir": "ming",
+  "era": "1377–1402",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuzaihou": {
+  "cn": "朱载垕",
+  "dir": "ming",
+  "era": "1537–1572",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ },
+ "zhuzhanji": {
+  "cn": "朱瞻基",
+  "dir": "ming",
+  "era": "1399–1435",
+  "group": "ming-main",
+  "module": "ming-emperors"
+ }
+}

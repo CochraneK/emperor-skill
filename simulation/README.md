@@ -66,7 +66,7 @@ simulation/
 
 | 报告 | 容器·模式 | 穿越者 | 目标 |
 |---|---|---|---|
-| `by-dynasty/solo/solo-ranking.html` | by-dynasty · solo | **78 帝总排名报告**（跨帝王聚合：总榜 / 分档 / 类型适配排行 / 极差对照） | 全库 6006 条 |
+| `by-dynasty/solo/solo-ranking.html` | by-dynasty · solo | **78 帝总排名报告**（三级排序维度：全体总分榜 / 分朝代榜 / 分模块榜；另含分档、类型适配排行、极差对照、亡国危局带） | 全库 6006 条 |
 | `by-dynasty/solo/solo-index.html` | by-dynasty · solo | 全部 78 帝（总目录，按时间顺序） | 各 77 处境 |
 | `by-dynasty/solo/solo-<key>.html`（78 份） | by-dynasty · solo | 逐帝单独报告 | 各 77 处境 |
 | `validity/reversal-validity-report.html` | 效度检验（非穿越） | — | 15 处亡国危局 |
@@ -75,23 +75,31 @@ simulation/
 
 **呈现顺序**：78 份报告与总目录一律**按时间顺序**排列 —— 朝代先后（唐→宋→元→明→清）→ 该处境帝王的即位年 → 同年次序；排序依据 `_engine/reign_order.json`。报告内「最能接住 / 最接不住 Top10」两节仍按处置分，仅作强弱定位，不参与总表排序。
 
+**排名报告的排序口径**：`solo-ranking.html` 提供**三个排序维度** —— ① 全体总榜（按**总分**降序，同分按时间序）② 分朝代榜（朝内名次）③ 分模块榜（按 SKILL.md 的 `module` 字段，模块内名次）。**总分与均分严格同序**（每人条数相同，仅差一个放大倍数），故以总分作主键只是让差距更醒目；**组内名次跨组不可比**（每位穿越者的处境集合都排除了自己的处境）。当前 `module` 与朝代恰好一一对应，故第二、三节结果一致，保留该维度是为了将来「一模块跨多朝 / 一朝拆多模块」时自动生效。
+
 结论摘要：**工具箱宽度决定均分，处境难度只决定分档。** 均分区间 48.8–67.2，前五为宋太宗 67.2、明宣宗 66.4、宋太祖 65.9、皇太极 65.2、明太祖 64.9；末五为唐哀帝 48.8、宋徽宗 49.0、唐中宗 51.5、唐顺宗（`lizhan`）51.8、宋度宗 51.9。李世民 62.0 / 武则天 63.6 稳居主体带中位。
 
 效度检验摘要：**评分卡在「亡国危局」一档低分，主因是处境题面照「结局当口」写定（题面已含结局），而非开局时的结构约束 —— 存在循环论证。** 见第八节。
 
 全库交叉检验摘要：**亡国危局一档 78 人全部落在 39.0–51.3（极差 12.3，标准差 2.74，零越界）；而权臣党争 / 储位继统 / 变法理财 / 守成休养 四档跨人极差 25.0–35.6，为亡国档的 2–3 倍。** 见第九节。
 
+分朝代榜首（朝内总分第一，**跨朝不可比**）：唐 李忱 ／ 宋 赵光义 ／ 元 图帖睦尔 ／ 明 朱瞻基 ／ 清 皇太极。总分域 3760–5174（理论满分 7700）。
+
+**两个易混口径（报告内已标注）**：① **全库均分（合并）** = 该类型全部处置分合起来求平均（守成休养 69.5、变法理财 61.0…），用于「类型难度排行」；② **人均极差** = 各人的类型均分之间的最高 − 最低（守成 35.5、亡国 12.3），用于「人定胜负 vs 结构约束」。二者不同源，**不可互相推算**。曾误把②的平均当作①写进第六节表（差 0.1），已修正。
+
 ## 六、引擎（`_engine/`）
 
 - `eval_traversal.py` → `eval_score.py` → `eval_report.py`：Skill 质量静态评测三件套。
 - `eval_crossing.py` / `eval_crossing_wzt.py`：穿越处置推演 + HTML 报告生成（早期专用版）。
 - `eval_crossing_solo.py`：**通用 solo 渲染器**。`--all` 全量重渲 78 份 + 总目录；`--index` 只重建总目录；亦可传 key 单渲。
-- `eval_solo_rank.py`：**全库总排名报告生成器** —— 读 `travelers/*.json` 产出 `by-dynasty/solo/solo-ranking.html`（总榜 78 行 / 分档一览 / 9 类困局的 Top5·Bottom5 适配排行 / 结构约束极差对照 / 亡国危局分数带 / 五朝构成）。复用 `eval_crossing_solo` 的 CSS 与判定函数。
+- `eval_solo_rank.py`：**全库总排名报告生成器** —— 读 `travelers/*.json` + `modules_solo.json` 产出 `by-dynasty/solo/solo-ranking.html`（全体总榜 78 行 / 分朝代榜 5 张 / 分模块榜 7 张 / 分档一览 / 9 类困局的 Top5·Bottom5 适配排行 / 结构约束极差对照 / 亡国危局分数带 / 五朝构成量）。复用 `eval_crossing_solo` 的 CSS 与判定函数。
+- `build_module_map.py`：从 `skills/*/<key>-perspective/SKILL.md` 的 frontmatter 抽 `module` / `group` / `cn` / `era`，产出 `modules_solo.json`（帝王包 → 模块映射，权威字段为 `module`）。
 - `build_solo_data.py`：从 `eval_crossing.py` 抽取处境全集，生成 `situations.json` / `situations.md`，并迁移旧报告为 `travelers/*.json`。
 - `check_solo.py`：**单份结构质检**（条数=77、key 集合=全集减自身、值三元数组、分数 0–100、策/断语 ≤22 字、`dyn` 合法）。`--strict` 有问题即退出码 1。
 - `cross_check_solo.py`：**全库交叉检验**（亡国危局越界、四档跨人极差、均分分布、「朕」使用率、类型难度排行）。
 - `normalize_rows.py`：把历史遗留的 `{plan,score,note}` 写法归一为 `[策,分,断语]`（`--apply` 才写盘）。
 - `reign_order.json`：**78 帝即位年表**（`{key: [year, seq]}` + 各朝起讫）。报告与总目录的「按时间顺序」呈现即以此为排序依据。
+- `modules_solo.json`：**帝王包 → 模块映射**（94 包，`{key: {cn, era, dir, group, module}}`），由 `build_module_map.py` 生成；`solo-ranking.html` 的「分模块榜」即以此为分组依据。注意 **94 个包里只有 78 位进了 solo 语料**，`donghan-emperors`(13) 与 `sui-emperors`(3) 尚未纳入。
 - `reversal.py`：翻盘三条件效度检验聚合与报告生成（读 `reversal_part*.json` + `reversal_t1_part*.json`）。
 - `SOLO_TASK_BRIEF.md`：分派给 worker 的统一任务简报（评分口径、校准锚、硬约束、输出格式）。
 - 配套 `*.json` 为指标与评分数据；`travelers/<key>.json` 为 78 帝各 77 条处置。运行需本机 Python 3.13（脚本内路径以本仓库为准）。
