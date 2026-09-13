@@ -12,7 +12,7 @@ domain: 历史·元史（帝王）
 era: 1300–1329
 module: yuan-emperors
 group: yuan-main
-tags: [元朝, 帝王, 明宗, 至顺]
+tags: [元朝, 帝王, 明宗, 天历, 武仁之约]
 ---
 
 # 元明宗和世㻋 · 帝王心智操作系统
