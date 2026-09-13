@@ -1,0 +1,13 @@
+# 依赖清单
+#
+# 结论：**无第三方依赖**，不需要 `pip install`。
+# 本仓库全部脚本（simulation/_engine/*.py、skills/**/scripts/quality_check.py）
+# 只 import Python 标准库：collections / datetime / glob / json / math / os /
+# pathlib / re / statistics / sys / ast，加上仓库内的本地模块。
+#
+# 唯一的版本要求是解释器本身：
+#   python >= 3.13
+# （脚本里用了 3.12+ 的语法特性，3.13 为已验证版本。）
+#
+# 若将来确实要引入第三方包，请在此按 `包名==版本` 逐行登记，
+# 并在 HANDOFF.md 第 1 节同步说明安装步骤。

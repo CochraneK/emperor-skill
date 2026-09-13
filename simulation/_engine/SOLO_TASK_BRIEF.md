@@ -85,8 +85,10 @@
 2. 每个文件写完，用下面命令校验，条数必须是 **77**：
 
 ```
-PYTHONIOENCODING=utf-8 "C:/Users/cunyi/.workbuddy/binaries/python/versions/3.13.12/python.exe" -c "import json,sys;d=json.load(open(sys.argv[1],encoding='utf-8'));print(sys.argv[1],len(d['rows']))" <你的文件路径>
+PYTHONIOENCODING=utf-8 python -c "import json,sys;d=json.load(open(sys.argv[1],encoding='utf-8'));print(sys.argv[1],len(d['rows']))" <你的文件路径>
 ```
+
+> 若 `python` 不在 PATH，换成你本机的 Python 3.13 解释器路径——**路径按自己环境写，不要提交进仓库**。
 
 3. 回报只给：每位穿越者的 **均分 / 可解·可缓·难解·死局 计数 / 一句话总断**。
    不要长报告，不要粘贴表体。
