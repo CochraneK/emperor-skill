@@ -1,0 +1,548 @@
+[
+ {
+  "key": "liyuan",
+  "name": "高祖",
+  "dyn": "唐",
+  "typ": "储位继统",
+  "dilemma": "次子功高震主、太子居正统，诸子相争已成势"
+ },
+ {
+  "key": "lizhi",
+  "name": "高宗",
+  "dyn": "唐",
+  "typ": "权臣党争",
+  "dilemma": "体弱多病，武后渐预朝政，中宫接外廷"
+ },
+ {
+  "key": "wuzetian",
+  "name": "则天",
+  "dyn": "唐",
+  "typ": "权臣党争",
+  "dilemma": "女主临朝、宗室反抗、酷吏罗织"
+ },
+ {
+  "key": "lixian",
+  "name": "中宗",
+  "dyn": "唐",
+  "typ": "权臣党争",
+  "dilemma": "复位而受制韦后、外戚干政，终暴崩于内"
+ },
+ {
+  "key": "lidan",
+  "name": "睿宗",
+  "dyn": "唐",
+  "typ": "储位继统",
+  "dilemma": "三让两登，太平公主干政，皇妹与太子相轧"
+ },
+ {
+  "key": "lilongji",
+  "name": "玄宗",
+  "dyn": "唐",
+  "typ": "开疆边患",
+  "dilemma": "开元极盛而天宝怠政，边将坐大、藩镇成形"
+ },
+ {
+  "key": "liheng_s",
+  "name": "肃宗",
+  "dyn": "唐",
+  "typ": "平叛戡乱",
+  "dilemma": "安史未平而灵武自立，借兵回纥、委任宦官"
+ },
+ {
+  "key": "liyu",
+  "name": "代宗",
+  "dyn": "唐",
+  "typ": "权臣党争",
+  "dilemma": "姑息藩镇、纵容宦官典兵，积弊自此深"
+ },
+ {
+  "key": "lishi",
+  "name": "德宗",
+  "dyn": "唐",
+  "typ": "变法理财",
+  "dilemma": "两税可称而猜忌刻薄、聚敛无度，致奉天之变"
+ },
+ {
+  "key": "lisong",
+  "name": "顺宗",
+  "dyn": "唐",
+  "typ": "权臣党争",
+  "dilemma": "永贞革新欲除宦官弊政，在位八月而败"
+ },
+ {
+  "key": "lichun",
+  "name": "宪宗",
+  "dyn": "唐",
+  "typ": "削藩集权",
+  "dilemma": "河朔久叛、藩镇跋扈，中央威权不振"
+ },
+ {
+  "key": "liheng_m",
+  "name": "穆宗",
+  "dyn": "唐",
+  "typ": "削藩集权",
+  "dilemma": "怠政纵乐，河朔再失，牛李党争自此愈烈"
+ },
+ {
+  "key": "lizhan",
+  "name": "敬宗",
+  "dyn": "唐",
+  "typ": "权臣党争",
+  "dilemma": "童昏嬉游、视朝稀阔，遇弑于内侍之手"
+ },
+ {
+  "key": "liang",
+  "name": "文宗",
+  "dyn": "唐",
+  "typ": "权臣党争",
+  "dilemma": "家奴持兵柄、废立由之，甘露图除反遭噬"
+ },
+ {
+  "key": "liyan",
+  "name": "武宗",
+  "dyn": "唐",
+  "typ": "削藩集权",
+  "dilemma": "泽潞拒命、僧尼耗国、财赋空虚"
+ },
+ {
+  "key": "lichen",
+  "name": "宣宗",
+  "dyn": "唐",
+  "typ": "守成休养",
+  "dilemma": "虽有『小太宗』之名，然察察为明、晚惑方士"
+ },
+ {
+  "key": "licui",
+  "name": "懿宗",
+  "dyn": "唐",
+  "typ": "亡国危局",
+  "dilemma": "游宴无度、佞佛耗国，裘甫一乱而唐祚已薄"
+ },
+ {
+  "key": "lixuan",
+  "name": "僖宗",
+  "dyn": "唐",
+  "typ": "亡国危局",
+  "dilemma": "嬉戏失国，黄巢破京而奔蜀"
+ },
+ {
+  "key": "liye",
+  "name": "昭宗",
+  "dyn": "唐",
+  "typ": "亡国危局",
+  "dilemma": "有志兴复而无实力，受制强藩终见弑"
+ },
+ {
+  "key": "lizhu",
+  "name": "哀帝",
+  "dyn": "唐",
+  "typ": "亡国危局",
+  "dilemma": "白马之祸，唐祚百年积弊总崩，无可回天"
+ },
+ {
+  "key": "zhaokuangyin",
+  "name": "太祖",
+  "dyn": "宋",
+  "typ": "削藩集权",
+  "dilemma": "承五代之乱，须收兵权、防藩镇再起，又要不伤武备"
+ },
+ {
+  "key": "zhaoguangyi",
+  "name": "太宗",
+  "dyn": "宋",
+  "typ": "开疆边患",
+  "dilemma": "得位有烛影之疑，北伐屡挫，燕云未复"
+ },
+ {
+  "key": "zhaoheng",
+  "name": "真宗",
+  "dyn": "宋",
+  "typ": "开疆边患",
+  "dilemma": "澶渊可战而议和，岁币换安后又封禅耗国"
+ },
+ {
+  "key": "zhaozhen",
+  "name": "仁宗",
+  "dyn": "宋",
+  "typ": "变法理财",
+  "dilemma": "宽仁有余而冗官冗费日积，庆历新政未成"
+ },
+ {
+  "key": "zhaoshu",
+  "name": "英宗",
+  "dyn": "宋",
+  "typ": "储位继统",
+  "dilemma": "濮议之争几摇朝局，在位日浅未见大略"
+ },
+ {
+  "key": "zhaoxu_s",
+  "name": "神宗",
+  "dyn": "宋",
+  "typ": "变法理财",
+  "dilemma": "锐意变法而操之过急，新法扰民，党争起"
+ },
+ {
+  "key": "zhaoxu_z",
+  "name": "哲宗",
+  "dyn": "宋",
+  "typ": "权臣党争",
+  "dilemma": "元祐绍圣翻覆无常，国是数变，党争白热"
+ },
+ {
+  "key": "zhaoji",
+  "name": "徽宗",
+  "dyn": "宋",
+  "typ": "亡国危局",
+  "dilemma": "花石纲耗国、边防失修，金兵压境犹事文艺"
+ },
+ {
+  "key": "zhaohuan",
+  "name": "钦宗",
+  "dyn": "宋",
+  "typ": "亡国危局",
+  "dilemma": "受命于危，割地纳贡终不免北狩"
+ },
+ {
+  "key": "zhaogou",
+  "name": "高宗",
+  "dyn": "宋",
+  "typ": "开疆边患",
+  "dilemma": "南渡开基而偏安江左，杀岳飞、称臣纳贡"
+ },
+ {
+  "key": "zhaoshen",
+  "name": "孝宗",
+  "dyn": "宋",
+  "typ": "开疆边患",
+  "dilemma": "南宋最有为之君，锐意恢复而力不逮"
+ },
+ {
+  "key": "zhaodun",
+  "name": "光宗",
+  "dyn": "宋",
+  "typ": "储位继统",
+  "dilemma": "受制悍后，父子相猜，竟以不孝见讥"
+ },
+ {
+  "key": "zhaokuo",
+  "name": "宁宗",
+  "dyn": "宋",
+  "typ": "权臣党争",
+  "dilemma": "庆元党禁、开禧北伐皆失，权臣迭起"
+ },
+ {
+  "key": "zhaoyun",
+  "name": "理宗",
+  "dyn": "宋",
+  "typ": "开疆边患",
+  "dilemma": "联蒙灭金邀功，端平入洛轻启边衅"
+ },
+ {
+  "key": "zhaoqi",
+  "name": "度宗",
+  "dyn": "宋",
+  "typ": "亡国危局",
+  "dilemma": "荒于酒色、权归贾氏，襄阳告急而不知"
+ },
+ {
+  "key": "zhaoxian",
+  "name": "恭帝",
+  "dyn": "宋",
+  "typ": "亡国危局",
+  "dilemma": "幼冲逊国，临安出降"
+ },
+ {
+  "key": "zhaoshi",
+  "name": "端宗",
+  "dyn": "宋",
+  "typ": "亡国危局",
+  "dilemma": "流亡播迁，未及有为而殂"
+ },
+ {
+  "key": "zhaobing",
+  "name": "末帝",
+  "dyn": "宋",
+  "typ": "亡国危局",
+  "dilemma": "崖山一决，负幼投海，君臣俱没"
+ },
+ {
+  "key": "hubilie",
+  "name": "世祖",
+  "dyn": "元",
+  "typ": "创业开国",
+  "dilemma": "混一南北，须用汉法而安蒙古旧俗，两难"
+ },
+ {
+  "key": "temuer",
+  "name": "成宗",
+  "dyn": "元",
+  "typ": "守成休养",
+  "dilemma": "守成能与民休息，然滥赏致国用不足"
+ },
+ {
+  "key": "haishan",
+  "name": "武宗",
+  "dyn": "元",
+  "typ": "变法理财",
+  "dilemma": "以军功入践大位，封赏无度，朝政颇紊"
+ },
+ {
+  "key": "ayurbarwada",
+  "name": "仁宗",
+  "dyn": "元",
+  "typ": "守成休养",
+  "dilemma": "行科举、尊儒学，而蒙古权贵未靖"
+ },
+ {
+  "key": "shidibala",
+  "name": "英宗",
+  "dyn": "元",
+  "typ": "变法理财",
+  "dilemma": "锐意汉法改革而触怒权贵，南坡遇弑"
+ },
+ {
+  "key": "yesuntemuer",
+  "name": "泰定帝",
+  "dyn": "元",
+  "typ": "守成休养",
+  "dilemma": "守成少变，处诸王之间而得不乱"
+ },
+ {
+  "key": "ashuqibu",
+  "name": "天顺",
+  "dyn": "元",
+  "typ": "亡国危局",
+  "dilemma": "两都之战中的幼主，帝位月余而败"
+ },
+ {
+  "key": "hoshila",
+  "name": "明宗",
+  "dyn": "元",
+  "typ": "权臣党争",
+  "dilemma": "自漠北南归，未及都城而暴崩"
+ },
+ {
+  "key": "tutemuer",
+  "name": "文宗",
+  "dyn": "元",
+  "typ": "权臣党争",
+  "dilemma": "初让复夺，挟权臣柄政，内多惭愧"
+ },
+ {
+  "key": "yilinzhiban",
+  "name": "宁宗",
+  "dyn": "元",
+  "typ": "储位继统",
+  "dilemma": "幼年即位，月余而殂，国统之乱可见"
+ },
+ {
+  "key": "toghontemur",
+  "name": "顺帝",
+  "dyn": "元",
+  "typ": "亡国危局",
+  "dilemma": "河患民变并起，终北遁大漠"
+ },
+ {
+  "key": "zhuyuanzhang",
+  "name": "太祖",
+  "dyn": "明",
+  "typ": "创业开国",
+  "dilemma": "布衣取天下，重典治吏而猜忌屠戮"
+ },
+ {
+  "key": "zhuyunwen",
+  "name": "建文",
+  "dyn": "明",
+  "typ": "削藩集权",
+  "dilemma": "削藩太急，仁柔而失国"
+ },
+ {
+  "key": "zhudi",
+  "name": "永乐",
+  "dyn": "明",
+  "typ": "创业开国",
+  "dilemma": "靖难夺位，北伐、下西洋耗民力"
+ },
+ {
+  "key": "zhugaochi",
+  "name": "洪熙",
+  "dyn": "明",
+  "typ": "守成休养",
+  "dilemma": "在位十月而施仁政、罢西洋"
+ },
+ {
+  "key": "zhuzhanji",
+  "name": "宣德",
+  "dyn": "明",
+  "typ": "守成休养",
+  "dilemma": "仁宣之治守成得体，然设内书堂教宦官"
+ },
+ {
+  "key": "zhuqizhen",
+  "name": "正统天顺",
+  "dyn": "明",
+  "typ": "开疆边患",
+  "dilemma": "亲征致土木之变，复辟后杀忠臣"
+ },
+ {
+  "key": "zhuqiyu",
+  "name": "景泰",
+  "dyn": "明",
+  "typ": "平叛戡乱",
+  "dilemma": "临危受命，任于谦挽危局，夺门后蒙冤"
+ },
+ {
+  "key": "zhujianshen",
+  "name": "成化",
+  "dyn": "明",
+  "typ": "权臣党争",
+  "dilemma": "宽仁而设西厂、宠万贵妃，朝政渐弛"
+ },
+ {
+  "key": "zhuyoutang",
+  "name": "弘治",
+  "dyn": "明",
+  "typ": "守成休养",
+  "dilemma": "一夫一妻、勤政纳谏，朝政清明"
+ },
+ {
+  "key": "zhuhouzhao",
+  "name": "正德",
+  "dyn": "明",
+  "typ": "权臣党争",
+  "dilemma": "豹房嬉游、自号将军，视国事如儿戏"
+ },
+ {
+  "key": "zhuhoucong",
+  "name": "嘉靖",
+  "dyn": "明",
+  "typ": "权臣党争",
+  "dilemma": "议礼夺权、崇道怠政，严嵩弄权二十年"
+ },
+ {
+  "key": "zhuzaihou",
+  "name": "隆庆",
+  "dyn": "明",
+  "typ": "守成休养",
+  "dilemma": "开关互市、任高拱张居正，短祚有作为"
+ },
+ {
+  "key": "zhuyijun",
+  "name": "万历",
+  "dyn": "明",
+  "typ": "储位继统",
+  "dilemma": "居正遗泽可称，晚年怠政三十载、国本之争"
+ },
+ {
+  "key": "zhuchangluo",
+  "name": "泰昌",
+  "dyn": "明",
+  "typ": "权臣党争",
+  "dilemma": "一月天子，红丸暴崩，党争阉祸自此炽"
+ },
+ {
+  "key": "zhuyouxiao",
+  "name": "天启",
+  "dyn": "明",
+  "typ": "权臣党争",
+  "dilemma": "木匠皇帝，宠魏忠贤，阉党荼毒东林"
+ },
+ {
+  "key": "zhuyoujian",
+  "name": "崇祯",
+  "dyn": "明",
+  "typ": "亡国危局",
+  "dilemma": "勤政多疑、刚愎误杀，内忧外患而亡国"
+ },
+ {
+  "key": "nurhaci",
+  "name": "太祖",
+  "dyn": "清",
+  "typ": "创业开国",
+  "dilemma": "十三甲起兵，创八旗、建后金"
+ },
+ {
+  "key": "hongtaiji",
+  "name": "太宗",
+  "dyn": "清",
+  "typ": "创业开国",
+  "dilemma": "改国号、仿明制、收汉臣，为入关奠基"
+ },
+ {
+  "key": "fulin",
+  "name": "顺治",
+  "dyn": "清",
+  "typ": "创业开国",
+  "dilemma": "冲龄入关，慕汉崇文而满汉未和"
+ },
+ {
+  "key": "xuanye",
+  "name": "康熙",
+  "dyn": "清",
+  "typ": "削藩集权",
+  "dilemma": "三藩跋扈、台湾未收、沙俄东窥、朔漠未定"
+ },
+ {
+  "key": "yinzhen",
+  "name": "世宗",
+  "dyn": "清",
+  "typ": "变法理财",
+  "dilemma": "吏治积弊、国库空虚，须革除积习"
+ },
+ {
+  "key": "hongli",
+  "name": "高宗",
+  "dyn": "清",
+  "typ": "守成休养",
+  "dilemma": "十全武功而晚年奢靡、宠和珅，盛世之巅亦衰之始"
+ },
+ {
+  "key": "yongyan",
+  "name": "仁宗",
+  "dyn": "清",
+  "typ": "变法理财",
+  "dilemma": "诛和珅而未能挽颓势，勤政而乏大略"
+ },
+ {
+  "key": "minning",
+  "name": "宣宗",
+  "dyn": "清",
+  "typ": "开疆边患",
+  "dilemma": "俭朴自守而昧于外势，鸦片一战而国门洞开"
+ },
+ {
+  "key": "yizhu",
+  "name": "文宗",
+  "dyn": "清",
+  "typ": "亡国危局",
+  "dilemma": "内忧外患并至，圆明园一炬而北狩"
+ },
+ {
+  "key": "zaichun",
+  "name": "穆宗",
+  "dyn": "清",
+  "typ": "权臣党争",
+  "dilemma": "冲龄在位，母后垂帘，中兴实非帝力"
+ },
+ {
+  "key": "zaitian",
+  "name": "德宗",
+  "dyn": "清",
+  "typ": "变法理财",
+  "dilemma": "戊戌变法有心振作而无权，囚于瀛台"
+ },
+ {
+  "key": "puyi",
+  "name": "宣统",
+  "dyn": "清",
+  "typ": "亡国危局",
+  "dilemma": "三起三落，终为末代"
+ },
+ {
+  "key": "lishimin",
+  "name": "太宗",
+  "dyn": "唐",
+  "typ": "创业开国",
+  "dilemma": "朕之自身处境：武功开国转文治、纳谏为镜、以隋为鉴、华夷一体、储贰之忧"
+ }
+]
