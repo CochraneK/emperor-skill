@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>翻盘三条件 · 效度检验报告</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+:root{--bg:#f6f6f3;--panel:#fff;--ink:#1f2937;--mut:#6b7280;--line:#e5e7eb;--teal:#0f766e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.7 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:1060px;margin:0 auto;padding:32px 24px 64px}
+h1{font-size:24px;font-weight:600;margin:0 0 6px}
+.sub{color:var(--mut);font-size:13px;margin:0 0 22px}
+h2{font-size:17px;font-weight:600;margin:36px 0 14px;padding-left:10px;border-left:3px solid var(--teal)}
+h3{font-size:14px;font-weight:600;margin:22px 0 10px}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:16px 0}
+.m{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.m .l{color:var(--mut);font-size:12px} .m .n{font-size:21px;font-weight:600;margin-top:2px}
+.quote{background:#eff6f4;border-left:3px solid var(--teal);border-radius:0 8px 8px 0;padding:14px 18px;color:#134e4a;font-size:13.5px;margin:14px 0}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
+.chart{position:relative;height:290px}
+table{width:100%;border-collapse:collapse;font-size:12.5px;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left}
+td.sc{text-align:center;font-weight:600} th{background:#f0f1ef;font-weight:500;color:var(--mut)}
+td.k{font-family:ui-monospace,Consolas,monospace;font-size:11.5px;white-space:nowrap}
+td.d{color:#4b5563;max-width:340px}
+tr:hover td{background:#fafaf8}
+.foot{color:var(--mut);font-size:12px;margin-top:28px;border-top:1px solid var(--line);padding-top:16px}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--mut);margin-bottom:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px}
+</style></head><body><div class="wrap">
+
+<h1>翻盘三条件 · 效度检验</h1>
+<p class="sub">检验对象：78 帝穿越评分卡在「亡国危局」一档的 15 个处境 ｜ 检验方法：引入独立于结局的前置结构变量，双时点对照点验 ｜ 生成 2026-09-13 10:52</p>
+
+<h2>结论</h2>
+<div class="quote"><p>在即位时点（T0）点验「手中有兵／库中有粮／敌未整合」三条件，命中数 n 与分数只呈弱相关——n 与李世民分 <b>r = +0.40</b>、与武则天分 <b>r = +0.43</b>（ρ = +0.44）。分组均分 <b>n=0：41.0 分（4 处） / n=1：46.0 分（3 处） / n=2：48.0 分（5 处） / n=3：46.0 分（3 处）</b> 也非单调：n=3 组反而比 n=2 组更低。</p><p>最能说明问题的是直接反例：<b>宋徽宗（50 分）、明崇祯（44 分）、清文宗（44 分）</b>——即位时兵、粮、敌三面皆宽（n=3），按设计应判「有救」，实际却落在难解／死局。</p><p><b>机制不在判分者失误，而在时点错位。</b>评分卡的处境题面写的是<b>结局当口的危局</b>（如「内忧外患而亡国」「负幼投海，君臣俱没」），而三条件量的是<b>即位之时的结构存量</b>。题面把结局编了进去，低分便是定义使然。</p><p>把点验时点改到<b>危局爆发之时（T1）</b>后，相关性升至 <b>r = +0.80</b>（ρ = +0.77），分组均分变为 <b>n=0：41.8 分（8 处） / n=1：46.5 分（4 处） / n=2：54.0 分（2 处） / n=3：52.0 分（1 处）</b>，违反预期的案例从 3 例降至 1 例。<b>这坐实了循环论证：评分卡锚定的确实是「结局快照」，不是「开局结构」。</b></p><p><b>对原问题的意义。</b>现有评分卡既不能回答「明君穿越能否改结局」（题面已含结局），也没在干净地测「人的能力」（题面已含结局、分数还掺着君主资质的印象分）。要回答那个问题，必须把处境描述<b>去结局化</b>，并把评分拆成两段：T0 开局结构决定「基础难度」，T1 之后的决策质量决定「结局阶梯（翻盘／中兴／延祚／无改／加速）」。</p></div>
+
+<div class="meta">
+<div class="m"><div class="l">T0 · n 与李世民分相关</div><div class="n">+0.40</div></div><div class="m"><div class="l">T0 · n 与武则天分相关</div><div class="n">+0.43</div></div><div class="m"><div class="l">T0 · 违反预期</div><div class="n">3 例</div></div><div class="m"><div class="l">T1 · n 与李世民分相关</div><div class="n">+0.80</div></div><div class="m"><div class="l">T1 · n 与武则天分相关</div><div class="n">+0.61</div></div><div class="m"><div class="l">T1 · 违反预期</div><div class="n">1 例</div></div>
+</div>
+
+<h2>检验设计</h2>
+<div class="panel">
+<p><b>为什么用这三个条件。</b>「明君穿越到亡国之君身上能否有救」这个问题，现有评分卡回答不了，
+因为它没有把「处境有多难」和「人能不能改变处境」分开。翻盘三条件是历史上真实翻盘案例的共性前提，
+且<b>在开局即可观测</b>，不依赖结局，因此可以用来给评分卡做外部效度检验：</p>
+<p style="margin:6px 0 0">① <b>手中有兵</b>　② <b>库中有粮</b>　③ <b>敌未整合</b>。三条全中→有救；中两条→只可延祚；中零至一条→死局。</p>
+<p style="margin:10px 0 0"><b>为什么做两个时点。</b>T0 取帝王即位之时，T1 取处境题面所描述的那个危局爆发之时。
+若 T1 的 n 明显比 T0 更能解释分数，即证明评分卡锚定的是「结局快照」而非「开局结构」。</p>
+</div>
+
+<h2>按命中数分组的平均得分（T0 / T1 对照）</h2>
+<div class="legend"><span><i style="background:#0f766e"></i>T0 即位点</span><span><i style="background:#9ca3af"></i>T1 危局爆发点</span><span style="color:#9ca3af">悬停可见组内处境数</span></div>
+<div class="panel"><div class="chart"><canvas id="c1" role="img" aria-label="按翻盘三条件命中数分组的平均得分柱状图">命中数 0 至 3 分组下的平均得分。</canvas></div></div>
+
+<h2>15 处逐项点验</h2>
+<table>
+<thead><tr>
+<th>key</th><th>帝王</th><th>即位年</th>
+<th style="text-align:center">T0 兵粮敌</th><th style="text-align:center">T0 n</th>
+<th style="text-align:center">T1 兵粮敌</th><th style="text-align:center">T1 n</th>
+<th style="text-align:center">李世民</th><th style="text-align:center">武则天</th><th>T1 取样点</th>
+</tr></thead>
+<tbody><tr><td class="k">licui</td><td>唐懿宗</td><td>859</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span></td><td class="sc">2</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span></td><td class="sc">2</td><td class="sc">58</td><td class="sc">58</td><td class="d">裘甫之乱，859-860（咸通元年，浙东裘甫起事、官军失利，命王式讨之）</td></tr><tr><td class="k">toghontemur</td><td>元顺帝</td><td>1333</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span></td><td class="sc">2</td><td class="sc"><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span></td><td class="sc">3</td><td class="sc">52</td><td class="sc">56</td><td class="d">至正十一年（1351）河患与红巾起事之际（贾鲁开河、刘福通与徐寿辉并起）</td></tr><tr><td class="k">liye</td><td>唐昭宗</td><td>888</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span></td><td class="sc">1</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span></td><td class="sc">1</td><td class="sc">50</td><td class="sc">54</td><td class="d">朱温应召入关、宦官劫帝奔凤翔，901（天复元年，崔胤召朱温入关谋诛宦官）</td></tr><tr><td class="k">zhaoji</td><td>宋徽宗</td><td>1100</td><td class="sc"><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span></td><td class="sc">3</td><td class="sc"><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span><span style="color:#b91c1c">✗</span></td><td class="sc">2</td><td class="sc">50</td><td class="sc">50</td><td class="d">宣和七年（1125）十月金两路南下，十二月燕山府（燕京）失守、郭药师以常胜军降金</td></tr><tr><td class="k">lixuan</td><td>唐僖宗</td><td>873</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span></td><td class="sc">2</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span></td><td class="sc">1</td><td class="sc">48</td><td class="sc">52</td><td class="d">黄巢破潼关入长安、僖宗奔蜀，880-881（广明元年十二月）</td></tr><tr><td class="k">zhaoqi</td><td>宋度宗</td><td>1264</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span><span style="color:#b91c1c">✗</span></td><td class="sc">1</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span><span style="color:#b91c1c">✗</span></td><td class="sc">1</td><td class="sc">48</td><td class="sc">52</td><td class="d">咸淳九年（1273）樊城破、吕文焕以襄阳降元，江汉屏藩尽失</td></tr><tr><td class="k">ashuqibu</td><td>元天顺</td><td>1328</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc">44</td><td class="sc">44</td><td class="d">两都之战当下，1328年九至十月（天顺即位于上都，王禅等率上都兵攻大都）</td></tr><tr><td class="k">zhuyoujian</td><td>明崇祯</td><td>1627</td><td class="sc"><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span></td><td class="sc">3</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc">44</td><td class="sc">52</td><td class="d">崇祯十七年（1644）正至三月，李自成建大顺东征，山西、宣大相继失，京师孤立（入京前）</td></tr><tr><td class="k">yizhu</td><td>清文宗</td><td>1850</td><td class="sc"><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span></td><td class="sc">3</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc">44</td><td class="sc">50</td><td class="d">咸丰十年（1860）英法联军入京、圆明园被焚、北狩热河，太平天国仍据天京并东征苏常</td></tr><tr><td class="k">lizhu</td><td>唐哀帝</td><td>904</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc">42</td><td class="sc">54</td><td class="d">白马驿之祸，905（天祐二年，朱温沉朝士三十余人于河，并杀昭宗诸子）</td></tr><tr><td class="k">zhaohuan</td><td>宋钦宗</td><td>1126</td><td class="sc"><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span><span style="color:#b91c1c">✗</span></td><td class="sc">2</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc">42</td><td class="sc">50</td><td class="d">靖康元年（1126）闰十一月金两路会师再围汴京、城破在即</td></tr><tr><td class="k">zhaoxian</td><td>宋恭帝</td><td>1274</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span><span style="color:#b91c1c">✗</span></td><td class="sc">1</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc">40</td><td class="sc">48</td><td class="d">德祐二年（1276）正月元军至皋亭山、临安被围，太皇太后遣使奉玺请降</td></tr><tr><td class="k">zhaoshi</td><td>宋端宗</td><td>1276</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc">40</td><td class="sc">46</td><td class="d">景炎二年（1277）元军大举入闽广，行朝屡挫，帝舟播迁海上、兵少食尽</td></tr><tr><td class="k">puyi</td><td>清宣统</td><td>1908</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span><span style="color:#0f766e">✓</span></td><td class="sc">2</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#0f766e">✓</span></td><td class="sc">1</td><td class="sc">40</td><td class="sc">48</td><td class="d">宣统三年（1911）十月武昌起义后各省相继独立之际（至十二月十余省独立）</td></tr><tr><td class="k">zhaobing</td><td>宋末帝</td><td>1278</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc"><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span><span style="color:#b91c1c">✗</span></td><td class="sc">0</td><td class="sc">38</td><td class="sc">42</td><td class="d">祥兴二年（1279）正月元军张弘范围崖山、断水粮，决战在即</td></tr></tbody></table>
+
+<h2>T0 → T1 判定变动</h2>
+<table>
+<thead><tr><th>帝王</th><th style="text-align:center">T0 n</th><th style="text-align:center">T1 n</th><th style="text-align:center">Δ</th><th>变动原因</th></tr></thead>
+<tbody><tr><td>元顺帝</td><td class="sc">2</td><td class="sc">3</td><td class="sc">+1</td><td class="d">T0于1333即位时因幼帝受制权臣判b1=false；T1脱脱主政、军令复通，b1转真，n由2升至3</td></tr><tr><td>宋徽宗</td><td class="sc">3</td><td class="sc">2</td><td class="sc">-1</td><td class="d">T0取即位（1100）金未建国、辽夏并立故b3=true；T1金已灭辽成单一强权，b3转false，n 3→2</td></tr><tr><td>唐僖宗</td><td class="sc">2</td><td class="sc">1</td><td class="sc">-1</td><td class="d">T1取巢破京时，两京失、漕运断、中央播迁，b2由T0之true转false，n降为1</td></tr><tr><td>明崇祯</td><td class="sc">3</td><td class="sc">0</td><td class="sc">-3</td><td class="d">T1取危局爆发（入京前）而非即位：兵溃、饷绝、敌已整合，三条件俱转假，n由3降至0</td></tr><tr><td>清文宗</td><td class="sc">3</td><td class="sc">0</td><td class="sc">-3</td><td class="d">T1取内外交逼之危局（1860）：兵溃、饷断、外敌已整合，三条件俱转假，n由3降至0</td></tr><tr><td>宋钦宗</td><td class="sc">2</td><td class="sc">0</td><td class="sc">-2</td><td class="d">T0取即位（1126正月首围）西军可调、赋税未断故n=2；T1取决定性二围，兵粮俱断，n→0</td></tr><tr><td>宋恭帝</td><td class="sc">1</td><td class="sc">0</td><td class="sc">-1</td><td class="d">T0取即位（1274.8）早于元军大举南下，财赋未断故b2=true；T1江南尽失，b2转false，n 1→0</td></tr><tr><td>清宣统</td><td class="sc">2</td><td class="sc">1</td><td class="sc">-1</td><td class="d">T1取辛亥各省独立时：财赋区尽失故b2由真转假，兵柄在袁故b1仍假，n由2降至1</td></tr></tbody></table>
+
+<h2>违反设计预期的案例</h2>
+<div class="panel"><h3>T0 即位点</h3><p>· <b>宋徽宗</b> 点验 n=3（按设计应有救），实际仅得 <b>50</b> 分「难解」</p><p>· <b>明崇祯</b> 点验 n=3（按设计应有救），实际仅得 <b>44</b> 分「死局」</p><p>· <b>清文宗</b> 点验 n=3（按设计应有救），实际仅得 <b>44</b> 分「死局」</p><h3>T1 危局爆发点</h3><p>· <b>元顺帝</b> 点验 n=3（按设计应有救），实际仅得 <b>52</b> 分「难解」</p></div>
+
+<h2>残余问题</h2>
+<div class="panel"><p><b>未消除的反例：元顺帝（n=3，52 分）。</b>该处境在危局点上兵、粮、敌三条俱全——脱脱主军政、江南漕盐未断、红巾各支互不统属，按设计应判「有救」。但它只得 52 分。关键在于：三条件给的是<b>机会上限</b>，不是自动及格线；有机会而失手，与根本无机会，在现有分数里被压成同一个低分区间。<b>评分卡还缺一维「机会利用度」</b>，否则无法区分「无救」与「有救而未救」。</p><p><b>底部塌陷。</b>T1 把 15 处中的 8 处都压到了 n=0，组内分数区间仅 38–44 分（极差 6 分）。条件式点验是粗粒度的开关量，在王朝已经崩解时全部归零，于是「还能撑三年」与「明年就亡」在模型里无法区分。</p><p><b>时点尚未唯一化。</b>T1 要求「危局爆发时点」，但同一帝王往往有多个危局点，取哪一个会改变判定：宋钦宗取靖康第一次围城则 n=2，取第二次围城则 n=0，结论相反。补一条取样规则（例如统一取「都城首次被围」或「中央财赋区首次失守」）才能让 T1 可复现。</p></div>
+
+<div class="foot">
+<p>数据：<code>simulation/_engine/reversal_part*.json</code>（T0）、<code>reversal_t1_part*.json</code>（T1）；
+分数取自 <code>crossing_scores.json</code> 与 <code>crossing_scores_wuzetian.json</code>。</p>
+<p>局限：三条件点验由 LLM 依史实逐项判定，属定性判断的结构化，存在判者变异；
+置信度标记见各条 JSON 的 <code>confidence</code> 与 <code>notes</code> 字段。
+相关系数基于 15 个样本，仅作方向性参考，不作显著性结论。</p>
+</div>
+
+</div><script>
+const NS=[0,1,2,3];
+const T0M=[41.0, 46.0, 48.0, 46.0], T1M=[41.8, 46.5, 54.0, 52.0], T0C=[4, 3, 5, 3], T1C=[8, 4, 2, 1];
+const body=getComputedStyle(document.body);
+const mut=body.getPropertyValue('--mut').trim()||'#6b7280';
+const line=body.getPropertyValue('--line').trim()||'#e5e7eb';
+new Chart(document.getElementById('c1'),{
+ type:'bar',
+ data:{labels:NS.map(n=>'命中 '+n+' 条'),datasets:[
+  {label:'T0 即位点',data:T0M,backgroundColor:'#0f766e',borderRadius:4},
+  {label:'T1 危局爆发点',data:T1M,backgroundColor:'#9ca3af',borderRadius:4}]},
+ options:{responsive:true,maintainAspectRatio:false,
+  plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>{
+    const n=c.dataIndex;const cnt=(c.datasetIndex===0?T0C:T1C)[n];
+    return c.dataset.label+' 平均 '+c.raw+' 分（'+cnt+' 处）';}}}},
+  scales:{y:{min:0,max:90,ticks:{color:mut},grid:{color:line},title:{display:true,text:'平均得分',color:mut,font:{size:12}}},
+          x:{ticks:{color:mut},grid:{display:false}}}}
+});
+</script></body></html>
