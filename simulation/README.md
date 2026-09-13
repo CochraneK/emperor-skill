@@ -66,7 +66,8 @@ simulation/
 
 | 报告 | 容器·模式 | 穿越者 | 目标 |
 |---|---|---|---|
-| `by-dynasty/solo/solo-index.html` | by-dynasty · solo | **全部 78 帝**（总目录，按均分排名） | 各 77 处境 |
+| `by-dynasty/solo/solo-ranking.html` | by-dynasty · solo | **78 帝总排名报告**（跨帝王聚合：总榜 / 分档 / 类型适配排行 / 极差对照） | 全库 6006 条 |
+| `by-dynasty/solo/solo-index.html` | by-dynasty · solo | 全部 78 帝（总目录，按时间顺序） | 各 77 处境 |
 | `by-dynasty/solo/solo-<key>.html`（78 份） | by-dynasty · solo | 逐帝单独报告 | 各 77 处境 |
 | `validity/reversal-validity-report.html` | 效度检验（非穿越） | — | 15 处亡国危局 |
 
@@ -85,6 +86,7 @@ simulation/
 - `eval_traversal.py` → `eval_score.py` → `eval_report.py`：Skill 质量静态评测三件套。
 - `eval_crossing.py` / `eval_crossing_wzt.py`：穿越处置推演 + HTML 报告生成（早期专用版）。
 - `eval_crossing_solo.py`：**通用 solo 渲染器**。`--all` 全量重渲 78 份 + 总目录；`--index` 只重建总目录；亦可传 key 单渲。
+- `eval_solo_rank.py`：**全库总排名报告生成器** —— 读 `travelers/*.json` 产出 `by-dynasty/solo/solo-ranking.html`（总榜 78 行 / 分档一览 / 9 类困局的 Top5·Bottom5 适配排行 / 结构约束极差对照 / 亡国危局分数带 / 五朝构成）。复用 `eval_crossing_solo` 的 CSS 与判定函数。
 - `build_solo_data.py`：从 `eval_crossing.py` 抽取处境全集，生成 `situations.json` / `situations.md`，并迁移旧报告为 `travelers/*.json`。
 - `check_solo.py`：**单份结构质检**（条数=77、key 集合=全集减自身、值三元数组、分数 0–100、策/断语 ≤22 字、`dyn` 合法）。`--strict` 有问题即退出码 1。
 - `cross_check_solo.py`：**全库交叉检验**（亡国危局越界、四档跨人极差、均分分布、「朕」使用率、类型难度排行）。

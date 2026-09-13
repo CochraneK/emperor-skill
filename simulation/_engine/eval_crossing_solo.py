@@ -179,7 +179,8 @@ def render(tv):
     parts.append(f'<title>帝王穿越处置报告 · {tv["cn"]} × {n} 处境</title>')
     parts.append('<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>')
     parts.append('<style>' + CSS + '</style></head><body><div class="wrap">')
-    parts.append('<p class="nav"><a href="solo-index.html">← solo 总目录（78 帝）</a></p>')
+    parts.append('<p class="nav"><a href="solo-index.html">← solo 总目录（78 帝）</a>'
+                 '<a href="solo-ranking.html">78 帝总排名报告 →</a></p>')
     parts.append(f'<h1>帝王穿越处置报告 · {tv["cn"]}</h1>')
     parts.append(f'<p class="sub">模式：solo 单人轮值（单独遍历其余 {n} 个处境，无对照）'
                  f' · 穿越者：{tv["cn"]}（{tv["dyn"]}·{tv["name"]}） · 标准：穿越处置评分卡 v0.2（满分 100） · 生成 {today}</p>')
@@ -281,6 +282,7 @@ def render_index():
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>帝王穿越 · solo 总目录</title>'
             '<style>' + CSS + '</style></head><body><div class="wrap">'
+            '<p class="nav"><a href="solo-ranking.html">78 帝总排名报告 →</a></p>'
             '<h1>帝王穿越 · solo 总目录</h1>'
             f'<p class="sub">单人轮值模式：每位帝王各自单独遍历其余 77 个处境，互不干扰、无对照 · '
             f'已完成 {len(items)} 位 · 生成 {today}</p>'
