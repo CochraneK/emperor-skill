@@ -28,3 +28,5 @@ Thumbs.db
 *.bak
 *~
 .workbuddy/closeout-audit.json
+# 校验脚本的中间输出（可由 _redo_tools/*.py 重新生成）
+_redo_tools/*.txt
