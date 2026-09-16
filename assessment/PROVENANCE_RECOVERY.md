@@ -1,69 +1,41 @@
 # Provenance Recovery · Nuwa Audit v2
 
-> 旧 `_redo_tools/_order_suspects_39.md` 是 forensic snapshot，不是失败名单。mtime 只触发 REVIEW。
+> `_redo_tools/_order_suspects_39.md` is a forensic snapshot, not a failure list. mtime triggers REVIEW only.
 
-## Recovery rule
+## Rule
+Research that independently contains evidence, disagreements, limitations, and material not copied from the Skill can be reused. Use the minimum sufficient repair: KEEP / CLEAN / PATCH / REDISTILL / RESEARCH-GAP / RERESEARCH / REBUILD / REVIEW.
 
-逐包问四件事：research 是否能独立于 Skill 成立；是否包含 Skill 未采用的材料/异说/限制；来源层级是否诚实；是否出现旧 size gate 驱动的 filler。然后采用最小充分修复：
+## Batch A · Jin · 7/7 classified
 
-- research 独立且可靠 → `REDISTILL`（必要时先 `PATCH`）；
-- research 明显由 Skill 倒推 → `RERESEARCH`；
-- 证据缺口局部 → `RESEARCH-GAP`；
-- 仅冗余 → `CLEAN`；
-- 无法确认 → `REVIEW`。
+All seven legacy suspects (`simadewen`, `simadezong`, `simashao`, `simaye`, `simayi`, `simayu`, `simazhong`) are currently **research-reusable, PATCH → REDISTILL candidates**, not automatic RERESEARCH cases.
 
-## Batch A · Jin legacy mtime suspects
+Shared issue: WorkBuddy's old evidence taxonomy frequently equated canonical/standard histories with “primary”. Several packages also contain over-strong psychological inference or broad archaeological/received-text side evidence. Before redistillation, patch source taxonomy and spot-verify claims. The current review found no sufficient evidence that these seven research sets are merely Skill text rewritten backwards.
 
-旧 snapshot 的晋包共 7 个：`simadewen`, `simadezong`, `simashao`, `simaye`, `simayi`, `simayu`, `simazhong`。
+Special notes:
+- `simadewen`: patch over-strong inference around prophecy/psychology and transmitted-history labels.
+- `simadezong`: strongest targeted-verification need; claims around compiled sources and ancillary texts need source-specific checking.
+- `simashao`, `simaye`, `simayi`, `simayu`, `simazhong`: independent disagreement/ historiography layers are visible; retain them, patch taxonomy, then redistill.
 
-### simadewen-perspective
+## Batch B · Sanguo · 2/2 classified
 
-**Action: PATCH → REDISTILL. RERESEARCH not currently required.**
-
-六维 research 有独立 evidence views、异说和限制信息，不只是六模型反写；但存在 taxonomy 与推断强度问题，例如把后世编纂史书机械标作“一手”，以及把谶语心理、出生环境等写成较强心理因果。当前 Skill 又早于当前 references，因此不能直接 KEEP。
-
-### simadezong-perspective
-
-**Action: PATCH → REDISTILL; targeted source verification required.**
-
-Research 对“安帝本人无可靠可归属言语、诏令多为执政者拟进”这一关键限制处理得较好，说明 evidence base 并非单纯 Skill 反写。但 04 external views 暴露明显 taxonomy/事实风险：唐修《晋书》论赞仍被标“一手”；《十六国春秋》辑本、《洛阳伽蓝记》等被过宽地归入同期/域外证据。先修证据分类和可疑旁证，再重蒸馏，不需要把全部六维推倒重搜。
-
-### simashao-perspective
-
+### caohuan-perspective
 **Action: PATCH → REDISTILL-CANDIDATE.**
 
-04 research 明确区分《晋书》论赞、王夫之、司马光、现代门阀政治解释，并保留微服察敦等异文，独立研究结构较明显。主要问题仍是“正史/载记 = 一手”的粗分类，以及部分轶事需定向核验。暂不判 RERESEARCH。
+The external-view research separates Chen Shou historiography, Xi Zuochi, Pei annotations, abdication details, post-abdication ritual treatment and modern interpretation. This is independently useful research rather than a six-model paraphrase. However it still calls the later `Zizhi Tongjian` event chain and `Jinshu` material “primary”; taxonomy must be patched before reuse.
 
-### simaye-perspective
-
+### caomao-perspective
 **Action: PATCH → REDISTILL-CANDIDATE.**
 
-04 research 有世系考辨、十六国视角、现代归因争议和纪年异说，超出 Skill 模型的简单反写；但“《晋书》本纪 = 一手”“辑本 = 近一手”等 taxonomy 过宽。先 PATCH taxonomy；若其他五维抽查未出现来源失实，则复用 research 重蒸馏。
+This package handles Chen Shou, Sun Sheng, Xi Zuochi, Sima Guang, Pei Songzhi and modern scholarship as distinct historiographical layers and explicitly keeps variant accounts. That is a positive provenance signal. The remaining problem is inconsistent use of “first-hand narrative” language elsewhere in the corpus, not a demonstrated need to throw the research away.
 
-### simayi-perspective
+**Sanguo batch result:** 2 PATCH/REDISTILL candidates; 0 automatic RERESEARCH.
 
-**Action: PATCH → REDISTILL-CANDIDATE.**
+## Recovery count
 
-04 research 有痿疾构陷、复位异说、胡三省/王夫之/现代研究等独立层次；同时把唐修《晋书》史臣论断标为“一手/近一手”，并使用宽泛考古旁证。属于可修 evidence base，而非目前已有证据足以判定的 reverse-engineered research。
+Legacy mtime snapshot: 39.
 
-### simayu-perspective
+- Classified: **9** (Jin 7 + Sanguo 2)
+- Remaining: **30** (Nanbeichao 14 + Shang 13 + Xia 1 + Zhou 2)
+- RERESEARCH justified by mtime alone: **0**
 
-**Action: PATCH → REDISTILL-CANDIDATE.**
-
-04 research 保留“傀儡 vs 守成”“让国 vs 被迫”“清谈误国 vs 清谈系士”等张力，独立研究价值明显；主要风险是把《晋书》正文/《世说新语》笼统当一手，以及《淳化阁帖》等旁证的归属强度。先定向核验再重蒸馏。
-
-### simazhong-perspective
-
-**Action: PATCH → REDISTILL-CANDIDATE.**
-
-04 research 有八王之乱制度解释、崩因异说、贾后评价张力等独立信息，不宜因 mtime 直接重搜；但同样存在“唐修《晋书》= 一手/近一手”、宽泛实物旁证等问题。先 PATCH evidence taxonomy。
-
-## Batch finding
-
-晋 7/7 个旧 mtime suspect **目前都没有足够证据支持“references 是从 Skill 倒推，因此必须全量 RERESEARCH”**。相反，抽查显示它们普遍具有独立研究层次；共同缺陷是 WorkBuddy 旧 brief 的 evidence taxonomy 太粗，把“正史/通行史籍”与“同期/本人一手”混在一起。
-
-因此晋批次从旧的“倒序待重做”改为：**7 个进入 PATCH/REDISTILL recovery，0 个因 mtime 自动 RERESEARCH。** 每个包在真正改 Skill 前仍需对六维做 source-specific spot verification，避免把旧标签错误带入新 Skill。
-
-## Remaining legacy snapshot
-
-39 个旧信号中，晋 7 个已完成 recovery classification；剩余 32 个：南北朝 14、三国 2、商 13、夏 1、周 2。下一阶段按朝代批处理，而不是按文件大小排序。
+The old 92-item size queue remains deprecated and is not a repair priority.
