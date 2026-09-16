@@ -1,0 +1,146 @@
+{
+  "offset": 154,
+  "count": 14,
+  "rows": [
+    {
+      "skill_path": "skills/song/zhaoxian-perspective",
+      "skill_file": "skills/song/zhaoxian-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoxian-perspective",
+      "cn": "赵㬎",
+      "en": "Zhao Xian",
+      "era": "1271–1323",
+      "frontmatter_name": "zhaoxian-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoxu_s-perspective",
+      "skill_file": "skills/song/zhaoxu_s-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoxu_s-perspective",
+      "cn": "赵顼",
+      "en": "Zhao Xu",
+      "era": "1048–1085",
+      "frontmatter_name": "zhaoxu_s-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoxu_z-perspective",
+      "skill_file": "skills/song/zhaoxu_z-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoxu_z-perspective",
+      "cn": "赵煦",
+      "en": "Zhao Xu",
+      "era": "1077–1100",
+      "frontmatter_name": "zhaoxu_z-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoyun-perspective",
+      "skill_file": "skills/song/zhaoyun-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoyun-perspective",
+      "cn": "赵昀",
+      "en": "Zhao Yun",
+      "era": "1205–1264",
+      "frontmatter_name": "zhaoyun-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaozhen-perspective",
+      "skill_file": "skills/song/zhaozhen-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaozhen-perspective",
+      "cn": "赵祯",
+      "en": "Zhao Zhen",
+      "era": "1010–1063",
+      "frontmatter_name": "zhaozhen-perspective"
+    },
+    {
+      "skill_path": "skills/sui/gongdi-perspective",
+      "skill_file": "skills/sui/gongdi-perspective/SKILL.md",
+      "dynasty_dir": "sui",
+      "package_slug": "gongdi-perspective",
+      "cn": "杨侑",
+      "en": "Yang You",
+      "era": "617–618",
+      "frontmatter_name": "gongdi-perspective"
+    },
+    {
+      "skill_path": "skills/sui/wendi-perspective",
+      "skill_file": "skills/sui/wendi-perspective/SKILL.md",
+      "dynasty_dir": "sui",
+      "package_slug": "wendi-perspective",
+      "cn": "杨坚",
+      "en": "Yang Jian",
+      "era": "581–604",
+      "frontmatter_name": "wendi-perspective"
+    },
+    {
+      "skill_path": "skills/sui/yangdi-perspective",
+      "skill_file": "skills/sui/yangdi-perspective/SKILL.md",
+      "dynasty_dir": "sui",
+      "package_slug": "yangdi-perspective",
+      "cn": "杨广",
+      "en": "Yang Guang",
+      "era": "604–618",
+      "frontmatter_name": "yangdi-perspective"
+    },
+    {
+      "skill_path": "skills/tang/liang-perspective",
+      "skill_file": "skills/tang/liang-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "liang-perspective",
+      "cn": "李昂",
+      "en": "Li Ang",
+      "era": "809–840",
+      "frontmatter_name": "liang-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lichen-perspective",
+      "skill_file": "skills/tang/lichen-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lichen-perspective",
+      "cn": "李忱",
+      "en": "Li Chen",
+      "era": "810–859",
+      "frontmatter_name": "lichen-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lichun-perspective",
+      "skill_file": "skills/tang/lichun-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lichun-perspective",
+      "cn": "李纯",
+      "en": "Li Chun",
+      "era": "778–820",
+      "frontmatter_name": "lichun-perspective"
+    },
+    {
+      "skill_path": "skills/tang/licui-perspective",
+      "skill_file": "skills/tang/licui-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "licui-perspective",
+      "cn": "李漼",
+      "en": "Li Cui",
+      "era": "833–873",
+      "frontmatter_name": "licui-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lidan-perspective",
+      "skill_file": "skills/tang/lidan-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lidan-perspective",
+      "cn": "李旦",
+      "en": "Li Dan",
+      "era": "662–716",
+      "frontmatter_name": "lidan-perspective"
+    },
+    {
+      "skill_path": "skills/tang/liheng_m-perspective",
+      "skill_file": "skills/tang/liheng_m-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "liheng_m-perspective",
+      "cn": "李恒",
+      "en": "Li Heng",
+      "era": "795–824",
+      "frontmatter_name": "liheng_m-perspective"
+    }
+  ]
+}
