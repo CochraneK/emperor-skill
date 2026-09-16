@@ -1,0 +1,146 @@
+{
+  "offset": 224,
+  "count": 14,
+  "rows": [
+    {
+      "skill_path": "skills/yuan/temuer-perspective",
+      "skill_file": "skills/yuan/temuer-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "temuer-perspective",
+      "cn": "铁穆耳",
+      "en": "Temur",
+      "era": "1265–1307",
+      "frontmatter_name": "temuer-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/temujin-perspective",
+      "skill_file": "skills/yuan/temujin-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "temujin-perspective",
+      "cn": "铁木真",
+      "en": "Temujin",
+      "era": "1206–1227",
+      "frontmatter_name": "temujin-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/toghontemur-perspective",
+      "skill_file": "skills/yuan/toghontemur-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "toghontemur-perspective",
+      "cn": "妥懽帖睦尔",
+      "en": "Toghon Temur",
+      "era": "1320–1370",
+      "frontmatter_name": "toghontemur-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/tutemuer-perspective",
+      "skill_file": "skills/yuan/tutemuer-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "tutemuer-perspective",
+      "cn": "图帖睦尔",
+      "en": "Tugh Temur",
+      "era": "1304–1332",
+      "frontmatter_name": "tutemuer-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/yesuntemuer-perspective",
+      "skill_file": "skills/yuan/yesuntemuer-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "yesuntemuer-perspective",
+      "cn": "也孙铁木儿",
+      "en": "Yesun Temur",
+      "era": "1276–1328",
+      "frontmatter_name": "yesuntemuer-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/yilinzhiban-perspective",
+      "skill_file": "skills/yuan/yilinzhiban-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "yilinzhiban-perspective",
+      "cn": "懿璘质班",
+      "en": "Rinchinbal",
+      "era": "1326–1332",
+      "frontmatter_name": "yilinzhiban-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/aiwang-perspective",
+      "skill_file": "skills/zhou/aiwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "aiwang-perspective",
+      "cn": "姬去疾",
+      "en": "Ai Wang of Zhou",
+      "era": "？–前441（在位前441）",
+      "frontmatter_name": "aiwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/anwang-perspective",
+      "skill_file": "skills/zhou/anwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "anwang-perspective",
+      "cn": "姬骄",
+      "en": "King An of Zhou",
+      "era": "约前401–前376",
+      "frontmatter_name": "anwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/chengwang-perspective",
+      "skill_file": "skills/zhou/chengwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "chengwang-perspective",
+      "cn": "姬诵",
+      "en": "King Cheng of Zhou",
+      "era": "前1042/前1035–前1021 在位",
+      "frontmatter_name": "chengwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/daowang-perspective",
+      "skill_file": "skills/zhou/daowang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "daowang-perspective",
+      "cn": "姬猛",
+      "en": "Ji Meng (King Daowang of Zhou)",
+      "era": "前520在位（数月至年余）",
+      "frontmatter_name": "daowang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/dingwang-perspective",
+      "skill_file": "skills/zhou/dingwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "dingwang-perspective",
+      "cn": "姬瑜",
+      "en": "Dingwang (King Ding of Zhou)",
+      "era": "前606–前586（在位）",
+      "frontmatter_name": "dingwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/gongwang-perspective",
+      "skill_file": "skills/zhou/gongwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "gongwang-perspective",
+      "cn": "姬繄扈",
+      "en": "Gongwang",
+      "era": "前922–前900（在位）",
+      "frontmatter_name": "gongwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/huanwang-perspective",
+      "skill_file": "skills/zhou/huanwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "huanwang-perspective",
+      "cn": "姬林",
+      "en": "Huanwang",
+      "era": "前720–前697 在位（东周第二代王）",
+      "frontmatter_name": "huanwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/huiwang-perspective",
+      "skill_file": "skills/zhou/huiwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "huiwang-perspective",
+      "cn": "姬阆",
+      "en": "Huiwang",
+      "era": "前676–前652",
+      "frontmatter_name": "huiwang-perspective"
+    }
+  ]
+}
