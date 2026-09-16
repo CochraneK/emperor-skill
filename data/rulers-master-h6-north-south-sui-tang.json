@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "batch": "H6-north-south-sui-tang-rivals",
+  "status": "PRIMARY_DYNASTIES_ENUMERATED_V1_RIVAL_REGIMES_ENUMERATED_V1_QA_OPEN",
+  "principle": "All parallel rulers are evaluated with the same actual-rule test; conventional dynasty labels and imperial titles are not filters.",
+  "polities": [
+    {
+      "id": "liu-song",
+      "name": "刘宋",
+      "layer": "CORE",
+      "persons": [
+        "刘裕",
+        "刘义符",
+        "刘义隆",
+        "刘劭",
+        "刘骏",
+        "刘子业",
+        "刘彧",
+        "刘昱",
+        "刘准"
+      ],
+      "coverage": {
+        "existing": 8,
+        "missing": [
+          "刘准"
+        ]
+      }
+    },
+    {
+      "id": "southern-qi",
+      "name": "南齐",
+      "layer": "CORE",
+      "persons": [
+        "萧道成",
+        "萧赜",
+        "萧昭业",
+        "萧昭文",
+        "萧鸾",
+        "萧宝卷",
+        "萧宝融"
+      ],
+      "coverage": {
+        "existing": 7,
+        "missing": []
+      }
+    },
+    {
+      "id": "southern-liang",
+      "name": "南梁",
+      "layer": "CORE",
+      "persons": [
+        "萧衍",
+        "萧纲",
+        "萧栋",
+        "萧绎",
+        "萧方智"
+      ],
+      "parallel_review": [
+        {
+          "name": "萧正德",
+          "status": "CORE_REVIEW",
+          "basis": "548年短期称帝并在建康形成实际最高统治 episode；现有 Skill 已覆盖"
+        },
+        {
+          "name": "萧纪",
+          "status": "CORE",
+          "basis": "552-553在蜀称帝，与萧绎并立；不因失败而排除"
+        }
+      ],
+      "coverage": {
+        "existing_persons_detected": [
+          "萧衍",
+          "萧纲",
+          "萧栋",
+          "萧绎",
+          "萧方智",
+          "萧正德"
+        ],
+        "confirmed_missing": [
+          "萧纪"
+        ]
+      }
+    },
+    {
+      "id": "hou-jing-han",
+      "name": "侯景汉",
+      "layer": "CORE",
+      "persons": [
+        "侯景"
+      ],
+      "basis": "551-552称帝并控制建康；独立 polity episode"
+    },
+    {
+      "id": "western-liang",
+      "name": "西梁/后梁",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        "萧詧",
+        "萧岿",
+        "萧琮"
+      ],
+      "qa": "其对西魏/北周/隋的依附程度需用 autonomy 字段表示，不应因'傀儡'标签直接删除"
+    },
+    {
+      "id": "chen",
+      "name": "陈",
+      "layer": "CORE",
+      "persons": [
+        "陈霸先",
+        "陈蒨",
+        "陈伯宗",
+        "陈顼",
+        "陈叔宝"
+      ],
+      "coverage": {
+        "existing": 5,
+        "missing": []
+      }
+    },
+    {
+      "id": "northern-wei",
+      "name": "北魏",
+      "layer": "CORE",
+      "persons": [
+        "拓跋珪",
+        "拓跋嗣",
+        "拓跋焘",
+        "拓跋余",
+        "拓跋濬",
+        "拓跋弘",
+        "元宏",
+        "元恪",
+        "元诩",
+        "元钊",
+        "元子攸",
+        "元晔",
+        "元恭",
+        "元朗",
+        "元脩"
+      ],
+      "coverage": {
+        "existing": 12,
+        "confirmed_missing": [
+          "元钊",
+          "元朗",
+          "元脩"
+        ]
+      },
+      "qa": [
+        "528-532频繁废立全部保留；短期不等于不在位"
+      ]
+    },
+    {
+      "id": "eastern-wei",
+      "name": "东魏",
+      "layer": "CORE",
+      "persons": [
+        "元善见"
+      ],
+      "coverage": {
+        "existing": 0
+      }
+    },
+    {
+      "id": "western-wei",
+      "name": "西魏",
+      "layer": "CORE",
+      "persons": [
+        "元宝炬",
+        "元钦",
+        "元廓"
+      ],
+      "coverage": {
+        "existing": 0
+      }
+    },
+    {
+      "id": "northern-qi",
+      "name": "北齐",
+      "layer": "CORE",
+      "persons": [
+        "高洋",
+        "高殷",
+        "高演",
+        "高湛",
+        "高纬",
+        "高恒"
+      ],
+      "parallel_review": [
+        {
+          "name": "高延宗",
+          "status": "CORE_REVIEW",
+          "basis": "576年晋阳短期称帝抗周；核实际最高统治 episode"
+        }
+      ],
+      "coverage": {
+        "existing": 0
+      }
+    },
+    {
+      "id": "northern-zhou",
+      "name": "北周",
+      "layer": "CORE",
+      "persons": [
+        "宇文觉",
+        "宇文毓",
+        "宇文邕",
+        "宇文赟",
+        "宇文阐"
+      ],
+      "coverage": {
+        "existing": 0
+      }
+    },
+    {
+      "id": "sui",
+      "name": "隋",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "杨坚",
+          "title": "文帝",
+          "existing_skill": "skills/sui/wendi-perspective"
+        },
+        {
+          "name": "杨广",
+          "title": "炀帝",
+          "existing_skill": "skills/sui/yangdi-perspective"
+        },
+        {
+          "name": "杨侑",
+          "title": "恭帝",
+          "existing_skill": "skills/sui/gongdi-perspective"
+        },
+        {
+          "name": "杨浩",
+          "title": "皇泰/秦王系隋帝",
+          "existing_skill": null,
+          "status": "CORE_REVIEW",
+          "qa": "宇文化及拥立下的制度性 sovereign episode；实际决策权很弱"
+        },
+        {
+          "name": "杨侗",
+          "title": "皇泰帝/越王",
+          "existing_skill": null,
+          "status": "CORE"
+        }
+      ],
+      "coverage": {
+        "existing": 3,
+        "missing": [
+          "杨浩",
+          "杨侗"
+        ]
+      }
+    },
+    {
+      "id": "sui-collapse-rivals",
+      "name": "隋末群雄政权",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "朱粲",
+          "polity": "楚"
+        },
+        {
+          "name": "林士弘",
+          "polity": "楚"
+        },
+        {
+          "name": "李密",
+          "polity": "魏",
+          "title": "魏公"
+        },
+        {
+          "name": "窦建德",
+          "polity": "夏"
+        },
+        {
+          "name": "刘武周",
+          "polity": "定杨"
+        },
+        {
+          "name": "萧铣",
+          "polity": "梁"
+        },
+        {
+          "name": "郭子和",
+          "polity": "永乐"
+        },
+        {
+          "name": "梁师都",
+          "polity": "梁"
+        },
+        {
+          "name": "高开道",
+          "polity": "燕"
+        },
+        {
+          "name": "李轨",
+          "polity": "凉"
+        },
+        {
+          "name": "宇文化及",
+          "polity": "许"
+        },
+        {
+          "name": "王世充",
+          "polity": "郑"
+        },
+        {
+          "name": "沈法兴",
+          "polity": "梁"
+        },
+        {
+          "name": "李子通",
+          "polity": "吴"
+        },
+        {
+          "name": "徐圆朗",
+          "polity": "鲁"
+        },
+        {
+          "name": "刘黑闼",
+          "polity": "汉东"
+        },
+        {
+          "name": "辅公祏",
+          "polity": "宋"
+        }
+      ],
+      "qa": "逐人验证 autonomous government/control 后从 CORE_REVIEW 定稿；不以'起义军'或成败作排除理由"
+    },
+    {
+      "id": "tang",
+      "name": "唐",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "李渊",
+          "existing_skill": "skills/tang/liyuan-perspective"
+        },
+        {
+          "name": "李世民",
+          "existing_skill": "skills/tang/lishimin-perspective"
+        },
+        {
+          "name": "李治",
+          "existing_skill": "skills/tang/lizhi-perspective"
+        },
+        {
+          "name": "李显",
+          "existing_skill": "skills/tang/lixian-perspective",
+          "qa": "two Tang reign episodes"
+        },
+        {
+          "name": "李旦",
+          "existing_skill": "skills/tang/lidan-perspective",
+          "qa": "two Tang reign episodes"
+        },
+        {
+          "name": "武曌",
+          "aliases": [
+            "武则天"
+          ],
+          "polity_episode": "武周",
+          "existing_skill": "skills/tang/wuzetian-perspective"
+        },
+        {
+          "name": "李重茂",
+          "title": "殇帝/唐隆帝",
+          "existing_skill": null,
+          "status": "CORE",
+          "basis": "710年实际即位的短期 sovereign episode"
+        },
+        {
+          "name": "李隆基",
+          "existing_skill": "skills/tang/lilongji-perspective"
+        },
+        {
+          "name": "李亨",
+          "existing_skill": "skills/tang/liheng_s-perspective"
+        },
+        {
+          "name": "李豫",
+          "existing_skill": "skills/tang/liyu-perspective"
+        },
+        {
+          "name": "李适",
+          "existing_skill": "skills/tang/lishi-perspective"
+        },
+        {
+          "name": "李诵",
+          "existing_skill": "skills/tang/lisong-perspective"
+        },
+        {
+          "name": "李纯",
+          "existing_skill": "skills/tang/lichun-perspective"
+        },
+        {
+          "name": "李恒",
+          "existing_skill": "skills/tang/liheng_m-perspective"
+        },
+        {
+          "name": "李湛",
+          "existing_skill": "skills/tang/lizhan-perspective"
+        },
+        {
+          "name": "李昂",
+          "existing_skill": "skills/tang/liang-perspective"
+        },
+        {
+          "name": "李炎",
+          "existing_skill": "skills/tang/liyan-perspective"
+        },
+        {
+          "name": "李忱",
+          "existing_skill": "skills/tang/lichen-perspective"
+        },
+        {
+          "name": "李漼",
+          "existing_skill": "skills/tang/licui-perspective"
+        },
+        {
+          "name": "李儇",
+          "existing_skill": "skills/tang/lixuan-perspective"
+        },
+        {
+          "name": "李晔",
+          "existing_skill": "skills/tang/liye-perspective"
+        },
+        {
+          "name": "李柷",
+          "existing_skill": "skills/tang/lizhu-perspective"
+        }
+      ],
+      "coverage": {
+        "existing": 21,
+        "confirmed_missing": [
+          "李重茂"
+        ]
+      }
+    },
+    {
+      "id": "an-shi-yan",
+      "name": "安史燕",
+      "layer": "CORE",
+      "persons": [
+        "安禄山",
+        "安庆绪",
+        "史思明",
+        "史朝义"
+      ],
+      "basis": "756-763 sustained competing sovereign regime with territorial government"
+    },
+    {
+      "id": "mid-late-tang-rivals",
+      "name": "中晚唐竞争政权",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "朱泚",
+          "polity": "秦/汉",
+          "basis": "783-784 occupied Chang'an and established competing imperial regime"
+        },
+        {
+          "name": "李希烈",
+          "polity": "楚",
+          "basis": "784-786 emperor claim backed by actual regional rule"
+        },
+        {
+          "name": "黄巢",
+          "polity": "大齐",
+          "basis": "880/881-884 controlled Chang'an and territorial administration",
+          "status": "CORE"
+        },
+        {
+          "name": "秦宗权",
+          "polity": "未定/称帝政权",
+          "basis": "黄巢败后控制区域并称帝至败亡",
+          "status": "CORE_REVIEW"
+        }
+      ]
+    }
+  ],
+  "coverage_findings": {
+    "existing_nanbeichao": 38,
+    "structural_gap": "Current nanbeichao directory is concentrated in Liu Song, Southern Qi, Liang, Chen and Northern Wei; Eastern Wei, Western Wei, Northern Qi, Northern Zhou and several qualifying parallel regimes are absent.",
+    "existing_sui": 3,
+    "existing_tang": 21,
+    "confirmed_primary_missing": [
+      "刘准",
+      "萧纪",
+      "侯景",
+      "元钊",
+      "元朗",
+      "元脩",
+      "元善见",
+      "元宝炬",
+      "元钦",
+      "元廓",
+      "高洋",
+      "高殷",
+      "高演",
+      "高湛",
+      "高纬",
+      "高恒",
+      "宇文觉",
+      "宇文毓",
+      "宇文邕",
+      "宇文赟",
+      "宇文阐",
+      "杨浩",
+      "杨侗",
+      "李重茂"
+    ]
+  },
+  "qa_open": [
+    "Verify Western Liang autonomy classification and Gao Yanzong short rule.",
+    "Systematically enumerate remaining Sui-collapse micro-polities and late-Tang sovereign competitors.",
+    "Create stable IDs before cross-polity dedupe and do not infer missing coverage from folder names."
+  ]
+}
