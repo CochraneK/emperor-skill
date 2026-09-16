@@ -1,17 +1,821 @@
 {
-  "schema_version":"1.0",
-  "batch":"H2-preqin-parallel-polities",
-  "status":"polity-scope-locked; person-enumeration-next",
-  "principle":"Do not select only famous hegemon rulers. Enumerate qualifying ruler sequences for each in-scope autonomous polity, then filter by the common rule.",
-  "spring_autumn_core_polities":["鲁","齐","晋","秦","楚","宋","卫","陈","蔡","曹","郑","燕","吴","越"],
-  "spring_autumn_extended_review":["邾","莒","滕","杞","许","虢","虞","徐","巴","蜀","中山及其他有持续自主统治谱系者"],
-  "warring_states_core_polities":["齐（田齐）","楚","燕","韩","赵","魏","秦","中山"],
-  "transition_rules":[
-    "晋→韩/赵/魏 is modeled as polity succession/split, not duplicate persons.",
-    "姜齐→田齐 preserves polity/dynastic-house distinction.",
-    "秦 rulers before imperial unification remain Qin-polity episodes; 嬴政 later has an imperial episode in the same person record.",
-    "吴、越 and other cross-period polities are not duplicated merely because historiographic period labels change."
+  "schema_version": "1.1",
+  "batch": "H2-H3-preqin-parallel-polities",
+  "status": "MAJOR_POLITIES_ENUMERATED_V1_OTHER_POLITIES_DISCOVERY_OPEN",
+  "principle": "No fame, orthodoxy or emperor-title filter. Enumerate ruler sequences polity-by-polity, then apply the common actual-rule test. Person identity is canonical; multiple reigns, titles and polities become episodes.",
+  "source_policy": [
+    "MOE/academic chronology for macro cross-check",
+    "polity ruler tables and transmitted chronologies for sequence discovery",
+    "Shiji/Zuozhuan/bronze-inscription scholarship or equivalent higher-quality evidence for later verification",
+    "secondary compilations are discovery aids, not sole provenance"
   ],
-  "evidence_policy":"Pre-Qin transmitted chronologies require source/variant flags; uncertain ruler names and dates stay explicit rather than silently normalized.",
-  "qa":"The 37 existing Zhou packages are the Zhou royal house only and must never be used as evidence that Spring-and-Autumn/Warring-States coverage is complete."
+  "polities": [
+    {
+      "id": "jiang-qi",
+      "name": "姜齐",
+      "periods": [
+        "spring-autumn"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "齐太公吕尚",
+        "齐丁公吕伋",
+        "齐乙公得",
+        "齐癸公慈母",
+        "齐哀公不辰",
+        "齐胡公静",
+        "齐献公山",
+        "齐武公寿",
+        "齐厉公无忌",
+        "齐文公赤",
+        "齐成公脱",
+        "齐庄公购",
+        "齐僖公禄甫",
+        "齐襄公诸儿",
+        "公孙无知",
+        "齐桓公小白",
+        "齐侯无亏",
+        "齐孝公昭",
+        "齐昭公潘",
+        "齐侯舍",
+        "齐懿公商人",
+        "齐惠公元",
+        "齐顷公无野",
+        "齐灵公环",
+        "齐庄公光",
+        "齐景公杵臼",
+        "齐晏孺子荼",
+        "齐悼公阳生",
+        "齐简公壬",
+        "齐平公骜",
+        "齐宣公积",
+        "齐康公贷"
+      ],
+      "qa": [
+        "短期在位者保留",
+        "田齐另建 polity，不与姜齐混并"
+      ]
+    },
+    {
+      "id": "tian-qi",
+      "name": "田齐",
+      "periods": [
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "田和",
+        "田剡",
+        "田午",
+        "田因齐",
+        "田辟疆",
+        "田地",
+        "田法章",
+        "田建"
+      ]
+    },
+    {
+      "id": "jin-state",
+      "name": "晋",
+      "periods": [
+        "spring-autumn",
+        "warring-states-transition"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "唐叔虞",
+        "晋侯燮",
+        "晋武侯",
+        "晋成侯",
+        "晋厉侯",
+        "晋靖侯",
+        "晋釐侯",
+        "晋献侯",
+        "晋穆侯",
+        "晋殇叔",
+        "晋文侯",
+        "晋昭侯",
+        "晋孝侯",
+        "晋鄂侯",
+        "晋哀侯",
+        "晋小子侯",
+        "晋侯缗",
+        "曲沃桓叔",
+        "曲沃庄伯",
+        "曲沃武公/晋武公",
+        "晋献公",
+        "晋惠公",
+        "晋怀公",
+        "晋文公",
+        "晋襄公",
+        "晋灵公",
+        "晋成公",
+        "晋景公",
+        "晋厉公",
+        "晋悼公",
+        "晋平公",
+        "晋昭公",
+        "晋顷公",
+        "晋定公",
+        "晋出公",
+        "晋哀公/懿公/敬公",
+        "晋幽公",
+        "晋烈公",
+        "晋孝公/桓公",
+        "晋静公/靖公"
+      ],
+      "qa": [
+        "曲沃分支需 episode-level 标记",
+        "曲沃武公=晋武公，同一人不得重复"
+      ]
+    },
+    {
+      "id": "chu-state",
+      "name": "楚",
+      "periods": [
+        "spring-autumn",
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "鬻熊",
+        "熊丽",
+        "熊狂",
+        "熊绎",
+        "熊艾",
+        "熊䵣",
+        "熊胜",
+        "熊杨",
+        "熊渠",
+        "熊挚红",
+        "熊延",
+        "熊勇",
+        "熊严",
+        "熊霜",
+        "熊徇",
+        "熊咢",
+        "楚若敖熊仪",
+        "楚霄敖熊坎",
+        "楚蚡冒熊眴",
+        "楚武王熊通",
+        "楚文王熊赀",
+        "楚堵敖熊艰",
+        "楚成王熊恽",
+        "楚穆王熊商臣",
+        "楚庄王熊侣",
+        "楚共王熊审",
+        "楚康王熊招",
+        "楚郏敖熊员",
+        "楚灵王熊围",
+        "楚王比熊比",
+        "楚平王熊居",
+        "楚昭王熊珍",
+        "楚惠王熊章",
+        "楚简王熊中",
+        "楚声王熊当",
+        "楚悼王熊疑",
+        "楚肃王熊臧",
+        "楚宣王熊良夫",
+        "楚威王熊商",
+        "楚怀王熊槐",
+        "楚顷襄王熊横",
+        "楚考烈王熊元",
+        "楚幽王熊悍",
+        "楚哀王熊犹",
+        "楚王负刍熊负刍",
+        "昌平君熊启"
+      ],
+      "qa": [
+        "昌平君是否满足实际最高统治门槛需 TARGETED_VERIFY",
+        "熊弃疾=楚平王；其陈/蔡占领治理 episode 归同一 person"
+      ]
+    },
+    {
+      "id": "qin-state",
+      "name": "秦国（帝国前）",
+      "periods": [
+        "spring-autumn",
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "秦非子",
+        "秦侯",
+        "秦公伯",
+        "秦仲",
+        "秦庄公",
+        "秦襄公",
+        "秦文公",
+        "秦宪公",
+        "秦出子",
+        "秦武公",
+        "秦德公",
+        "秦宣公",
+        "秦成公",
+        "秦穆公",
+        "秦康公",
+        "秦共公",
+        "秦桓公",
+        "秦景公",
+        "秦哀公",
+        "秦惠公（早）",
+        "秦悼公",
+        "秦厉公",
+        "秦躁公",
+        "秦怀公",
+        "秦灵公",
+        "秦简公",
+        "秦惠公（后）",
+        "秦出公",
+        "秦献公",
+        "秦孝公",
+        "秦惠文王",
+        "秦武王",
+        "秦昭襄王",
+        "秦孝文王",
+        "秦庄襄王",
+        "秦王政"
+      ],
+      "excluded": [
+        {
+          "name": "秦静公",
+          "reason": "传统记载未实际即位，不构成 rule_episode"
+        }
+      ],
+      "qa": [
+        "秦王政同一 person 延续至 H4 秦始皇帝 episode",
+        "两位秦惠公必须用 person id/年代消歧"
+      ]
+    },
+    {
+      "id": "lu-state",
+      "name": "鲁",
+      "periods": [
+        "spring-autumn",
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "伯禽",
+        "鲁考公",
+        "鲁炀公",
+        "鲁幽公",
+        "鲁魏公",
+        "鲁厉公",
+        "鲁献公",
+        "鲁真公/慎公",
+        "鲁武公",
+        "鲁懿公",
+        "鲁公伯御",
+        "鲁孝公",
+        "鲁惠公",
+        "鲁隐公",
+        "鲁桓公",
+        "鲁庄公",
+        "鲁闵公",
+        "鲁釐公",
+        "鲁文公",
+        "鲁宣公",
+        "鲁成公",
+        "鲁襄公",
+        "鲁君野",
+        "鲁昭公",
+        "鲁定公",
+        "鲁哀公",
+        "鲁悼公",
+        "鲁元公",
+        "鲁穆公",
+        "鲁共公",
+        "鲁康公",
+        "鲁景公",
+        "鲁平公",
+        "鲁文公（后）",
+        "鲁顷公"
+      ],
+      "qa": [
+        "重复谥号需 stable id 消歧"
+      ]
+    },
+    {
+      "id": "zheng-state",
+      "name": "郑",
+      "periods": [
+        "spring-autumn",
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "郑桓公友",
+        "郑武公掘突",
+        "郑庄公寤生",
+        "郑昭公忽",
+        "郑厉公突",
+        "郑子亹",
+        "郑子婴",
+        "郑文公踕",
+        "郑穆公兰",
+        "郑灵公夷",
+        "郑襄公坚",
+        "郑悼公沸",
+        "郑成公睔",
+        "郑僖公髡顽",
+        "郑简公嘉",
+        "郑定公宁",
+        "郑献公趸",
+        "郑声公胜",
+        "郑哀公易",
+        "郑共公丑",
+        "郑幽公已",
+        "郑繻公骀",
+        "郑康公乙"
+      ],
+      "qa": [
+        "郑昭公与郑厉公均有复位；同一 person 多 episode，不重复计人"
+      ]
+    },
+    {
+      "id": "song-state",
+      "name": "宋",
+      "periods": [
+        "spring-autumn",
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "宋微子启",
+        "宋微仲衍",
+        "宋公稽",
+        "宋丁公申",
+        "宋湣公共",
+        "宋炀公熙",
+        "宋厉公鲋祀",
+        "宋釐公举",
+        "宋惠公覵",
+        "宋哀公",
+        "宋戴公白",
+        "宋武公司空",
+        "宋宣公力",
+        "宋穆公和",
+        "宋殇公与夷",
+        "宋庄公冯",
+        "宋湣公捷",
+        "宋公游",
+        "宋桓公御说",
+        "宋襄公兹甫",
+        "宋成公王臣",
+        "宋公御",
+        "宋昭公杵臼",
+        "宋文公鲍",
+        "宋共公瑕",
+        "宋平公成",
+        "宋元公佐",
+        "宋景公头曼",
+        "宋昭公特",
+        "宋悼公购由",
+        "宋休公田",
+        "宋桓公辟兵",
+        "宋剔成君戴剔成",
+        "宋康王戴偃"
+      ],
+      "qa": [
+        "重复谥号需 person id 消歧"
+      ]
+    },
+    {
+      "id": "wei-state",
+      "name": "卫",
+      "periods": [
+        "spring-autumn",
+        "warring-states"
+      ],
+      "status": "PARTIAL_ENUMERATION_V1",
+      "persons": [
+        "卫康叔",
+        "卫康伯",
+        "卫考伯/孝伯",
+        "卫嗣伯",
+        "卫疌伯/挚伯",
+        "卫靖伯",
+        "卫贞伯/箕伯",
+        "卫顷侯",
+        "卫釐侯",
+        "卫共伯",
+        "卫武公",
+        "卫庄公",
+        "卫桓公",
+        "州吁",
+        "卫宣公",
+        "卫惠公",
+        "卫黔牟",
+        "卫懿公",
+        "卫戴公",
+        "卫文公",
+        "卫成公",
+        "卫君瑕",
+        "卫穆公",
+        "卫定公",
+        "卫献公",
+        "卫殇公",
+        "卫襄公",
+        "卫灵公",
+        "卫出公",
+        "卫庄公蒯聩",
+        "卫斑师",
+        "卫君起",
+        "卫嗣君",
+        "卫怀君",
+        "卫元君",
+        "卫君角"
+      ],
+      "qa": [
+        "中晚段仍需逐条与年表复核",
+        "卫惠公/献公/出公存在复位 episode"
+      ]
+    },
+    {
+      "id": "chen-state",
+      "name": "陈",
+      "periods": [
+        "spring-autumn"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "陈胡公满",
+        "陈申公犀侯",
+        "陈相公皋羊",
+        "陈孝公突",
+        "陈慎公圉戎",
+        "陈幽公宁",
+        "陈釐公孝",
+        "陈武公灵",
+        "陈夷公说",
+        "陈平公燮",
+        "陈文公圉",
+        "陈桓公鲍",
+        "陈公佗",
+        "陈厉公跃",
+        "陈庄公林",
+        "陈宣公杵臼",
+        "陈穆公款",
+        "陈共公朔",
+        "陈灵公平国",
+        "陈成公午",
+        "陈哀公弱",
+        "陈君留",
+        "楚弃疾/陈君弃疾",
+        "陈惠公吴",
+        "陈怀公柳",
+        "陈湣公越"
+      ],
+      "qa": [
+        "楚弃疾即后来的楚平王；同一 person 跨 polity episode"
+      ]
+    },
+    {
+      "id": "cai-state",
+      "name": "蔡",
+      "periods": [
+        "spring-autumn",
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "蔡叔度",
+        "蔡仲胡",
+        "蔡伯荒",
+        "蔡宫侯",
+        "蔡厉侯",
+        "蔡武侯",
+        "蔡夷侯",
+        "蔡釐侯所事",
+        "蔡共侯兴",
+        "蔡戴侯",
+        "蔡宣侯措父",
+        "蔡桓侯封人",
+        "蔡哀侯献舞",
+        "蔡穆侯肸",
+        "蔡庄侯甲午",
+        "蔡文侯申",
+        "蔡景侯固",
+        "蔡灵侯般",
+        "楚弃疾/蔡公弃疾",
+        "蔡平侯庐",
+        "蔡侯朱",
+        "蔡悼侯东国",
+        "蔡昭侯申",
+        "蔡成侯朔",
+        "蔡声侯产",
+        "蔡元侯",
+        "蔡侯齐"
+      ],
+      "qa": [
+        "楚弃疾跨 polity episode，不重复 person",
+        "蔡侯朱是否应列独立短期 ruler 已保留为 variant-review"
+      ]
+    },
+    {
+      "id": "cao-state",
+      "name": "曹",
+      "periods": [
+        "spring-autumn"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "曹叔振铎",
+        "曹太伯脾",
+        "曹仲君平",
+        "曹宫伯侯",
+        "曹孝伯云",
+        "曹夷伯喜",
+        "曹幽伯强",
+        "曹戴伯苏",
+        "曹惠伯兕",
+        "曹废伯石甫",
+        "曹穆公武",
+        "曹桓公终生",
+        "曹庄公夕姑",
+        "曹釐公夷",
+        "曹昭公班",
+        "曹共公襄",
+        "曹文公寿",
+        "曹宣公强",
+        "曹成公负刍",
+        "曹武公胜",
+        "曹平公须",
+        "曹悼公午",
+        "曹声公野",
+        "曹隐公通",
+        "曹靖公露",
+        "曹伯阳"
+      ]
+    },
+    {
+      "id": "yan-state",
+      "name": "燕",
+      "periods": [
+        "spring-autumn",
+        "warring-states"
+      ],
+      "status": "PARTIAL_ENUMERATION_V1",
+      "persons": [
+        "燕侯克",
+        "燕侯旨",
+        "燕侯舞",
+        "燕伯圣",
+        "燕惠侯",
+        "燕釐侯",
+        "燕顷侯",
+        "燕哀侯",
+        "燕郑侯",
+        "燕穆侯",
+        "燕宣侯",
+        "燕桓侯",
+        "燕庄公",
+        "燕襄公",
+        "燕桓公",
+        "燕宣公",
+        "燕昭公",
+        "燕武公",
+        "燕文公",
+        "燕懿公",
+        "燕惠公",
+        "燕悼公",
+        "燕共公",
+        "燕平公",
+        "燕简公",
+        "燕孝公",
+        "燕成公",
+        "燕闵公",
+        "燕简公载",
+        "燕桓公（后）",
+        "燕文公（后）",
+        "燕易王",
+        "燕王哙",
+        "燕昭王职",
+        "燕惠王",
+        "燕武成王",
+        "燕孝王",
+        "燕王喜"
+      ],
+      "candidates": [
+        {
+          "name": "召公奭",
+          "status": "FOUNDER_REVIEW",
+          "reason": "封燕但传统记载其留周任职，需判定是否存在实际燕国最高统治 episode"
+        },
+        {
+          "name": "子之",
+          "status": "DE_FACTO_RULE_REVIEW",
+          "reason": "燕王哙让国后掌军政，需按实际最高控制标准判断 CORE/EXTENDED"
+        }
+      ],
+      "qa": [
+        "早期谱系有失载世代，不填造缺名"
+      ]
+    },
+    {
+      "id": "wu-state",
+      "name": "吴",
+      "periods": [
+        "spring-autumn"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "太伯",
+        "仲雍",
+        "季简",
+        "叔达",
+        "周章",
+        "熊遂",
+        "柯相",
+        "强鸠夷",
+        "余桥疑吾",
+        "柯卢",
+        "周繇",
+        "屈羽",
+        "夷吾",
+        "禽处",
+        "转",
+        "颇高",
+        "句卑",
+        "去齐",
+        "寿梦",
+        "诸樊",
+        "余祭",
+        "余眛",
+        "僚",
+        "阖闾",
+        "夫差"
+      ],
+      "candidates": [
+        {
+          "name": "夫概",
+          "status": "SHORT_RIVAL_REVIEW",
+          "reason": "有短期称王/控制记载，需核实际统治门槛"
+        }
+      ]
+    },
+    {
+      "id": "yue-state",
+      "name": "越",
+      "periods": [
+        "spring-autumn",
+        "warring-states"
+      ],
+      "status": "ENUMERATED_WITH_HISTORICITY_FLAGS",
+      "persons": [
+        "无壬",
+        "无瞫",
+        "夫谭/无谭",
+        "允常",
+        "勾践",
+        "鼫与/鹿郢/与夷",
+        "不寿",
+        "翁/朱句",
+        "翳",
+        "诸咎",
+        "错枝",
+        "之侯/初无余/莽安",
+        "无颛",
+        "无疆"
+      ],
+      "candidates": [
+        {
+          "name": "无余",
+          "status": "LEGENDARY_GENEALOGY_REVIEW",
+          "reason": "传统追溯至夏后氏，不能直接当可证历史 ruler"
+        }
+      ],
+      "qa": [
+        "早期越王谱系证据不齐；historic_status 必须逐人标记"
+      ]
+    },
+    {
+      "id": "zhao-state",
+      "name": "赵",
+      "periods": [
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "赵烈侯赵籍",
+        "赵武侯",
+        "赵敬侯赵章",
+        "赵成侯赵种",
+        "赵肃侯赵语",
+        "赵武灵王赵雍",
+        "赵惠文王赵何",
+        "赵孝成王赵丹",
+        "赵悼襄王赵偃",
+        "赵幽缪王赵迁",
+        "代王嘉赵嘉"
+      ],
+      "qa": [
+        "三家分晋前赵氏宗主另入 predecessor candidate，不自动按 sovereign CORE"
+      ]
+    },
+    {
+      "id": "wei-warring",
+      "name": "魏",
+      "periods": [
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "魏文侯魏斯",
+        "魏武侯魏击",
+        "魏惠成王魏罃",
+        "魏襄王魏嗣",
+        "魏昭王魏遫",
+        "魏安僖王魏圉",
+        "魏景湣王魏午",
+        "魏王假"
+      ]
+    },
+    {
+      "id": "han-state",
+      "name": "韩",
+      "periods": [
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "韩景侯韩虔",
+        "韩烈侯韩取",
+        "韩文侯韩猷",
+        "韩哀侯韩屯蒙",
+        "韩共侯/懿侯韩若山",
+        "韩釐侯韩武",
+        "韩宣惠王韩康",
+        "韩襄王韩仓",
+        "韩釐王韩咎",
+        "韩桓惠王韩然",
+        "韩王安"
+      ],
+      "qa": [
+        "部分个人名来自较晚/争议材料，保留 source-confidence 标记"
+      ]
+    },
+    {
+      "id": "zhongshan",
+      "name": "中山",
+      "periods": [
+        "warring-states"
+      ],
+      "status": "ENUMERATED_V1",
+      "persons": [
+        "中山文公",
+        "中山武公",
+        "中山桓公",
+        "中山成公",
+        "中山王厝",
+        "中山王𧊒",
+        "中山王尚"
+      ],
+      "qa": [
+        "异体字/出土文字名保留 aliases"
+      ]
+    }
+  ],
+  "other_polities_discovery": {
+    "status": "OPEN",
+    "candidates": [
+      "杞",
+      "许",
+      "邾",
+      "莒",
+      "滕",
+      "薛",
+      "郳/小邾",
+      "唐",
+      "贾",
+      "胡",
+      "聃",
+      "郯",
+      "南燕",
+      "徐",
+      "巴",
+      "蜀",
+      "虢",
+      "虞",
+      "中山以外其他持续自主小国"
+    ],
+    "rule": "Do not demote merely because small. Qualifying actual autonomous sovereigns become CORE; uncertainty about autonomy/control stays REVIEW/EXTENDED."
+  },
+  "identity_invariants": [
+    "楚弃疾=陈君弃疾=蔡公弃疾=楚平王 must be one person with cross-polity episodes",
+    "曲沃武公=晋武公 one person",
+    "秦王政 continues to H4 Qin imperial episode",
+    "复位 generates multiple episodes, not duplicate persons",
+    "duplicate posthumous titles require stable ids and dates/personal names"
+  ],
+  "qa_open": [
+    "卫 ruler sequence requires line-by-line verification",
+    "燕 early sequence has missing generations; never invent names",
+    "吴夫概 short rival episode verify",
+    "燕子之 de facto-rule classification verify",
+    "越 early historicity and genealogy flags",
+    "楚昌平君 actual-sovereign threshold",
+    "other/smaller pre-Qin polities still require systematic enumeration"
+  ]
 }
