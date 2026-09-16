@@ -1,0 +1,438 @@
+{
+  "schema_version": "1.0",
+  "batch": "H5-three-kingdoms-jin-sixteen",
+  "status": "CORE_SEQUENCES_ENUMERATED_V1_OUTSIDE_REGIMES_DISCOVERY_OPEN",
+  "principle": "Title 皇帝 is not the admission gate. Actual highest rule of an autonomous polity is. Posthumous-only ancestors are excluded from person counts; brief usurpers with actual supreme control are retained for episode review.",
+  "source_notes": [
+    "Three Kingdoms/Jin primary sequence cross-checked against the existing 11 + 15 Skill corpus.",
+    "Sixteen Kingdoms polity scope cross-checked against Palace Museum overview: Han/Former Zhao, Cheng-Han, Former Liang, Later Zhao, Former Yan, Former Qin, Later Qin, Later Yan, Western Qin, Later Liang, Southern Liang, Southern Yan, Western Liang, Northern Liang, Xia, Northern Yan.",
+    "Ruler sequence discovery cross-checked against the consolidated Sixteen Kingdoms ruler table; each record still requires evidence-level provenance during research."
+  ],
+  "polities": [
+    {
+      "id": "cao-wei",
+      "name": "曹魏",
+      "layer": "CORE",
+      "persons": [
+        "曹丕",
+        "曹叡",
+        "曹芳",
+        "曹髦",
+        "曹奂"
+      ],
+      "existing_skill_count": 5
+    },
+    {
+      "id": "shu-han",
+      "name": "蜀汉",
+      "layer": "CORE",
+      "persons": [
+        "刘备",
+        "刘禅"
+      ],
+      "existing_skill_count": 2
+    },
+    {
+      "id": "eastern-wu",
+      "name": "孙吴",
+      "layer": "CORE",
+      "persons": [
+        "孙权",
+        "孙亮",
+        "孙休",
+        "孙皓"
+      ],
+      "existing_skill_count": 4
+    },
+    {
+      "id": "western-jin",
+      "name": "西晋",
+      "layer": "CORE",
+      "persons": [
+        "司马炎",
+        "司马衷",
+        "司马炽",
+        "司马邺"
+      ],
+      "existing_skill_count": 4
+    },
+    {
+      "id": "eastern-jin",
+      "name": "东晋",
+      "layer": "CORE",
+      "persons": [
+        "司马睿",
+        "司马绍",
+        "司马衍",
+        "司马岳",
+        "司马聃",
+        "司马丕",
+        "司马奕",
+        "司马昱",
+        "司马曜",
+        "司马德宗",
+        "司马德文"
+      ],
+      "existing_skill_count": 11
+    },
+    {
+      "id": "cheng-han",
+      "name": "成汉",
+      "layer": "CORE",
+      "persons": [
+        "李雄",
+        "李班",
+        "李期",
+        "李寿",
+        "李势"
+      ],
+      "qa": [
+        "李特/李流等前驱最高领袖是否形成独立 sovereign episode 另入 predecessor review；追尊本身不构成准入"
+      ]
+    },
+    {
+      "id": "han-zhao",
+      "name": "汉赵/前赵",
+      "layer": "CORE",
+      "persons": [
+        "刘渊",
+        "刘和",
+        "刘聪",
+        "刘粲",
+        "刘曜",
+        "刘熙"
+      ],
+      "parallel_review": [
+        {
+          "name": "靳准",
+          "polity": "靳汉",
+          "status": "CORE_REVIEW",
+          "reason": "318年篡位并掌握最高权力，需作为独立短期 episode 而非刘氏汉赵一代"
+        }
+      ]
+    },
+    {
+      "id": "later-zhao",
+      "name": "后赵",
+      "layer": "CORE",
+      "persons": [
+        "石勒",
+        "石弘",
+        "石虎",
+        "石世",
+        "石遵",
+        "石鉴",
+        "石祗"
+      ]
+    },
+    {
+      "id": "former-liang",
+      "name": "前凉",
+      "layer": "CORE",
+      "persons": [
+        "张寔",
+        "张茂",
+        "张骏",
+        "张重华",
+        "张曜灵",
+        "张祚",
+        "张玄靓",
+        "张天锡"
+      ],
+      "predecessor_review": [
+        {
+          "name": "张轨",
+          "status": "DE_FACTO_AUTONOMY_REVIEW",
+          "reason": "301-314凉州最高统治但名义晋臣；按 actual-autonomy test 决定 CORE/EXTENDED"
+        }
+      ],
+      "restoration_review": [
+        {
+          "name": "张大豫",
+          "status": "SHORT_RESTORATION_REVIEW",
+          "reason": "386-387复国/流亡政权 episode"
+        }
+      ]
+    },
+    {
+      "id": "former-yan",
+      "name": "前燕",
+      "layer": "CORE",
+      "persons": [
+        "慕容皝",
+        "慕容儁",
+        "慕容暐"
+      ],
+      "qa": [
+        "慕容皝以燕王统治，虽后追皇帝仍因实际 sovereign episode 入库，不以皇帝表遗漏为准"
+      ]
+    },
+    {
+      "id": "former-qin",
+      "name": "前秦",
+      "layer": "CORE",
+      "persons": [
+        "苻健",
+        "苻生",
+        "苻坚",
+        "苻丕",
+        "苻登",
+        "苻崇"
+      ]
+    },
+    {
+      "id": "later-yan",
+      "name": "后燕",
+      "layer": "CORE",
+      "persons": [
+        "慕容垂",
+        "慕容宝",
+        "慕容详",
+        "慕容麟",
+        "兰汗",
+        "慕容盛",
+        "慕容熙"
+      ],
+      "qa": [
+        "397-398短期篡位者因实际最高统治保留；episode 级区分合法性而非删除"
+      ]
+    },
+    {
+      "id": "northern-yan",
+      "name": "北燕",
+      "layer": "CORE",
+      "persons": [
+        "高云",
+        "冯跋",
+        "冯弘"
+      ]
+    },
+    {
+      "id": "southern-yan",
+      "name": "南燕",
+      "layer": "CORE",
+      "persons": [
+        "慕容德",
+        "慕容超"
+      ]
+    },
+    {
+      "id": "later-qin",
+      "name": "后秦",
+      "layer": "CORE",
+      "persons": [
+        "姚苌",
+        "姚兴",
+        "姚泓"
+      ]
+    },
+    {
+      "id": "western-qin",
+      "name": "西秦",
+      "layer": "CORE",
+      "persons": [
+        "乞伏国仁",
+        "乞伏乾归",
+        "乞伏炽磐",
+        "乞伏暮末"
+      ],
+      "qa": [
+        "乞伏乾归两段统治为 one person / multiple episodes；陇西部早期首领不自动视为西秦 sovereign"
+      ]
+    },
+    {
+      "id": "hu-xia",
+      "name": "胡夏",
+      "layer": "CORE",
+      "persons": [
+        "赫连勃勃",
+        "赫连昌",
+        "赫连定"
+      ],
+      "predecessor_review": [
+        {
+          "group": "铁弗部首领",
+          "names": [
+            "刘诰升爰",
+            "刘乌路孤",
+            "刘务桓",
+            "刘阏陋头",
+            "刘悉勿祈",
+            "刘卫辰"
+          ],
+          "status": "POLITY_SCOPE_REVIEW",
+          "reason": "部族最高首领是否属于本 Chinese ruler corpus 需用地理/国家性边界统一裁决"
+        }
+      ]
+    },
+    {
+      "id": "later-liang",
+      "name": "后凉",
+      "layer": "CORE",
+      "persons": [
+        "吕光",
+        "吕绍",
+        "吕纂",
+        "吕隆"
+      ]
+    },
+    {
+      "id": "western-liang",
+      "name": "西凉",
+      "layer": "CORE",
+      "persons": [
+        "李暠",
+        "李歆",
+        "李恂"
+      ]
+    },
+    {
+      "id": "southern-liang",
+      "name": "南凉",
+      "layer": "CORE",
+      "persons": [
+        "秃发乌孤",
+        "秃发利鹿孤",
+        "秃发傉檀"
+      ],
+      "predecessor_review": [
+        {
+          "group": "河西鲜卑早期首领",
+          "names": [
+            "秃发匹孤",
+            "秃发寿阗",
+            "秃发树机能",
+            "秃发务丸",
+            "秃发推斤",
+            "秃发思复鞬"
+          ],
+          "status": "POLITY_SCOPE_REVIEW"
+        }
+      ]
+    },
+    {
+      "id": "northern-liang",
+      "name": "北凉",
+      "layer": "CORE",
+      "persons": [
+        "段业",
+        "沮渠蒙逊",
+        "沮渠牧犍"
+      ],
+      "extended": [
+        {
+          "name": "沮渠无讳",
+          "status": "EXTENDED",
+          "reason": "439后高昌北凉/流亡政权"
+        },
+        {
+          "name": "沮渠安周",
+          "status": "EXTENDED",
+          "reason": "高昌北凉/流亡政权"
+        }
+      ]
+    },
+    {
+      "id": "ran-wei",
+      "name": "冉魏",
+      "layer": "CORE",
+      "persons": [
+        "冉闵",
+        "冉智"
+      ],
+      "reason": "Not one of conventional Sixteen but passes the same actual-sovereign rule."
+    },
+    {
+      "id": "western-yan",
+      "name": "西燕",
+      "layer": "CORE",
+      "persons": [
+        "慕容泓",
+        "慕容冲",
+        "段随",
+        "慕容顗",
+        "慕容瑶",
+        "慕容忠",
+        "慕容永"
+      ],
+      "reason": "Conventional Sixteen label is not an inclusion gate."
+    },
+    {
+      "id": "huan-chu",
+      "name": "桓楚",
+      "layer": "CORE",
+      "persons": [
+        "桓玄"
+      ],
+      "extended": [
+        {
+          "name": "桓谦",
+          "status": "REVIEW"
+        },
+        {
+          "name": "桓振",
+          "status": "REVIEW"
+        },
+        {
+          "name": "桓石绥",
+          "status": "REVIEW"
+        }
+      ],
+      "qa": [
+        "后续领导者未称帝但仍按 actual-highest-rule test 判断，不因称号自动排除"
+      ]
+    },
+    {
+      "id": "qiao-shu",
+      "name": "谯蜀",
+      "layer": "CORE",
+      "persons": [
+        "谯纵"
+      ]
+    },
+    {
+      "id": "dai-state",
+      "name": "代国",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        "拓跋猗卢"
+      ],
+      "qa": [
+        "完整代国统治序列需单独枚举，并与北魏 person identity 连续化"
+      ]
+    },
+    {
+      "id": "chouchi",
+      "name": "仇池",
+      "layer": "CORE_REVIEW",
+      "status": "ENUMERATION_PARTIAL",
+      "persons": [
+        "杨茂搜",
+        "杨难敌",
+        "杨毅",
+        "杨初",
+        "杨国",
+        "杨俊",
+        "杨世",
+        "杨统",
+        "杨纂",
+        "杨定"
+      ],
+      "qa": [
+        "前/后仇池完整后段待续；早期氐首领与国家 sovereign episode 分开"
+      ]
+    }
+  ],
+  "coverage_findings": {
+    "existing_three_kingdoms": 11,
+    "existing_jin": 15,
+    "existing_sixteen_kingdom_skill_directories": 0,
+    "implication": "Current 267 corpus has a major structural gap: Sixteen Kingdoms and several parallel sovereign regimes are absent as dedicated polity groups."
+  },
+  "qa_open": [
+    "Complete Dai, Former/Later Chouchi and other non-Sixteen autonomous regimes (Zhai Wei, Qiao Shu, Western Shu, etc.) under same rule.",
+    "Do not treat the conventional 'Sixteen' label as exhaustive; Palace Museum notes Ran Wei, Zhai Wei, Chouchi, Western Yan, Dai and others outside the canonical sixteen.",
+    "Resolve tribal-chief predecessors under a single geographic/statehood boundary policy rather than ad hoc inclusion.",
+    "Map all existing Sanguo/Jin slugs to canonical person IDs."
+  ]
+}
