@@ -1,0 +1,27 @@
+{
+  "schema_version":"1.0",
+  "goal":"Build the maximum defensible person-level ruler universe before further bulk distillation.",
+  "denominators":{"historical":"CORE only","traditional":"LEGENDARY separately","borderline":"EXTENDED separately"},
+  "source_priority":[
+    "polity-specific scholarly/official chronology or primary transmitted tables",
+    "MOE Chinese dynasty chronology and emperor table as baseline/cross-check",
+    "CBDB/person authority data for identity normalization where covered",
+    "secondary ruler lists only as discovery leads, requiring verification"
+  ],
+  "batches":[
+    {"id":"L0","scope":"pre-Xia traditional rulers","target":"LEGENDARY","status":"SEEDED","file":"data/legendary-rulers.json"},
+    {"id":"H1","scope":"Xia-Shang-Western Zhou + Eastern Zhou royal house","target":"CORE","status":"TODO"},
+    {"id":"H2","scope":"Spring-and-Autumn autonomous states","target":"CORE/EXTENDED","status":"TODO","rule":"enumerate polity sequences systematically; no fame filter"},
+    {"id":"H3","scope":"Warring States autonomous states","target":"CORE/EXTENDED","status":"TODO","rule":"Seven Powers plus other entities satisfying same sovereignty rule"},
+    {"id":"H4","scope":"Qin, Chu-Han, Western Han, Xin, Gengshi, Eastern Han","target":"CORE","status":"TODO"},
+    {"id":"H5","scope":"Three Kingdoms, Jin, Sixteen Kingdoms and qualifying contemporaries","target":"CORE/EXTENDED","status":"TODO"},
+    {"id":"H6","scope":"Northern and Southern Dynasties, Sui, Tang, Wu Zhou, qualifying Sui-Tang and late-Tang rival sovereign regimes","target":"CORE/EXTENDED","status":"TODO"},
+    {"id":"H7","scope":"Five Dynasties and Ten Kingdoms plus qualifying contemporaries","target":"CORE/EXTENDED","status":"TODO"},
+    {"id":"H8","scope":"Song, Liao, Western Xia, Jin, Western Liao, Dali and qualifying parallel polities","target":"CORE/EXTENDED","status":"TODO"},
+    {"id":"H9","scope":"Mongol/Yuan and qualifying late-Yuan rival regimes","target":"CORE/EXTENDED","status":"TODO"},
+    {"id":"H10","scope":"Ming, Southern Ming, Later Jin/Qing, Dashun, Daxi and qualifying transition regimes","target":"CORE/EXTENDED","status":"TODO"},
+    {"id":"H11","scope":"Qing and sustained late-Qing rival sovereign regimes including Taiping","target":"CORE/EXTENDED","status":"TODO"},
+    {"id":"H12","scope":"Republic-era competing central governments through the agreed historical-ruler endpoint","target":"CORE/EXTENDED","status":"TODO","note":"Do not auto-include all presidents or warlords; apply rule_episode and actual-central-rule test."}
+  ],
+  "qa":["one person one canonical id","multiple reigns/offices are episodes, not duplicate persons","posthumous title is not a rule episode","regency is encoded separately from sovereign office","conflicting legendary traditions coexist","no minimum evidence length","LIMITED-EVIDENCE never triggers invented models","every inclusion/exclusion boundary carries a reason"]
+}
