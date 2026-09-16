@@ -1,63 +1,39 @@
 # Ruler Corpus source map
 
-Construction evidence for `rulers-master.json`; this is **not** an individual-ruler Nuwa research file.
+Construction evidence for `rulers-master.json`; not an individual-ruler Nuwa research file.
 
-## Baseline chronology
+## Baseline sources
 
-Primary chronology skeleton: Taiwan Ministry of Education, *Revised Mandarin Chinese Dictionary*, **中國歷代紀年表 / Chronology of Chinese Dynasties**. It explicitly starts with the Huangdi tradition and states that regimes historically not regarded as orthodox (including the Sixteen Kingdoms and Ten Kingdoms) are still included for chronological consistency. Its chronology includes Huangdi, Shaohao, Zhuanxu, Diku, Dizhi, Yao, Shun, then Xia onward, and separately enumerates the Sixteen Kingdoms and Ten Kingdoms.
+### Taiwan Ministry of Education — 中国历代纪年表
+Use as the high-authority polity/time skeleton. It begins its traditional chronology with 黄帝、少昊、颛顼、帝喾、帝挚、尧、舜 and explicitly includes historically non-orthodox regimes such as the Sixteen Kingdoms and Ten Kingdoms for chronological consistency. The traditional dates in the pre-Xia section are **not** treated here as modern historical proof.
 
-The companion **中國歷代帝王年表** supplies a ruler-by-ruler backbone from King Wu of Zhou through the Xuantong Emperor. The companion **中國歷代年號表** is a cross-check for post-Han reign episodes; it contains 521 era-name records and must not be mistaken for 521 persons.
+### Taiwan Ministry of Education — 中国历代帝王年表
+Use as a ruler-by-ruler baseline/cross-check from Western Zhou through Qing. The table contains repeated reign episodes (for example restored rulers/regencies in some periods), so its row count must never be treated as a unique-person count. It also does not solve Spring-and-Autumn/Warring-States parallel-state coverage by itself.
 
-These are authoritative chronology backbones, not the sole source of person inclusion.
+### China Biographical Database (CBDB)
+Use where covered for person identity/alias normalization and cross-reference. CBDB's own documentation reports a substantial emperor authority dataset, but CBDB is a person database rather than the project's canonical ruler-inclusion ontology; it is therefore a cross-check, not the sole denominator.
+
+### Transmitted chronological tables and polity-specific scholarship
+For Eastern Zhou parallel states and other fragmented periods, use polity-specific ruler sequences and transmitted chronological tables (e.g. the tradition represented by the *Shiji* chronological tables) with modern scholarship for chronology/identity disputes. Discovery lists may suggest candidates but do not establish CORE status by themselves.
 
 ## Why 朝代歌 alone is insufficient
+Popular dynasty songs are recall skeletons but compress parallel regimes. The project therefore takes the maximum defensible union of chronology traditions, then applies one ruler inclusion rule.
 
-Popular dynasty songs are memory skeletons. They systematically compress or omit parallel and defeated regimes, Spring-and-Autumn/Warring-States polities, rival governments, and legendary variants. Therefore the project takes the **maximum defensible union** of chronology/ruler traditions and then applies one common inclusion ontology.
+## Legendary layer
+Maximum-set completeness includes named traditional ruler figures before Xia, but `LEGENDARY` is a separate denominator from historical `CORE`. A legendary persona represents the **transmitted cultural model of the figure**, not a verified psychological reconstruction of a historical individual. Conflicting 三皇/五帝 and earlier ruler sequences are stored as tradition variants rather than forcibly harmonized. No legendary date is promoted to historical fact merely because a chronology table prints it.
 
-## Maximal-set expansion policy
+## Mandatory expansions
+- 东周: 周王室 + qualifying Spring-and-Autumn/Warring-States sovereigns, enumerated by polity rather than fame.
+- 十六国: constituent polities separately; qualifying contemporaries are evaluated under the same rule.
+- 南北朝 and 宋辽夏金: preserve parallel sovereign entities.
+- 五代十国: five dynasties and ten kingdoms separately.
+- 隋唐、唐末、元末: sustained rival sovereign regimes are evaluated consistently rather than omitted because they lost.
+- 明清鼎革: Southern Ming plus qualifying Dashun/Daxi and other actual-rule cases.
+- Late Qing: Taiping Heavenly Kingdom qualifies under the same actual-polity rule.
+- Republic: person + rule_episode; qualifying competing central governments can coexist. Ordinary regional warlord status alone does not qualify.
 
-- Pre-Xia: keep named sovereign/culture-ruler traditions in a separate `LEGENDARY` layer. At minimum seed Fuxi, Nüwa, Shennong/Yandi, Huangdi, Shaohao, Zhuanxu, Diku, Dizhi, Yao, Shun; competing Three Sovereigns/Five Emperors lists are variants, not errors to erase.
-- Xia/Shang: enumerate transmitted ruler sequences, but evidence strength remains independent of inclusion.
-- Eastern Zhou: enumerate Zhou royal house **and polity-by-polity** Spring-and-Autumn/Warring-States rulers; do not sample only famous hegemons.
-- Qin-Han transition: include qualifying rival supreme rulers such as Xiang Yu and competing restoration regimes when they meet the common rule.
-- Sixteen Kingdoms and Northern/Southern Dynasties: preserve constituent and parallel polities separately; consider qualifying contemporaneous short regimes such as Ran Wei under the same rule rather than an orthodoxy rule.
-- Sui-Tang transition / late Tang: qualifying autonomous rival regimes are candidates; Huang Chao's Great Qi is explicitly CORE.
-- Five Dynasties/Ten Kingdoms: enumerate every constituent polity separately.
-- Song/Liao/Xia/Jin: preserve parallel sovereign entities; long-lived autonomous polities such as Dali are candidates under the same ontology rather than excluded because they disappear from a short dynasty song.
-- Yuan transition: candidate rival regimes are evaluated under the same actual-rule test.
-- Ming-Qing transition: Southern Ming plus qualifying Dashun/Daxi and other actual autonomous supreme-rule regimes.
-- Late Qing: Taiping Heavenly Kingdom qualifies; other rival regimes require the same evidence of autonomous rule rather than fame alone.
-- Republic: use `person + rule_episode`. Qualifying competing central governments may coexist. Sun Yat-sen, Yuan Shikai, and Zhang Zuolin are explicit boundary anchors; ordinary regional warlord status alone is insufficient.
-
-## Evidence/status orthogonality
-
-`Included in master` does not mean `historically certain`, and `historically uncertain` does not mean `omit`.
-
-- `CORE`: historically attested qualifying ruler.
-- `EXTENDED`: analytically valuable/borderline sovereign or de-facto edge case.
-- `LEGENDARY`: traditional ruler figure tracked without pretending historical certainty.
-- `LIMITED-EVIDENCE`: an evidence state, not a reason to fabricate six mental models.
-
-Traditional legitimacy is metadata, not a gate. `Emperor` is a title, not a gate. Defeat, short duration, parallel rule, non-Han identity, or later exclusion from orthodox historiography are not exclusion criteria.
-
-## Exclusion discipline
-
-Pure posthumous honors, unsupported claimants with no governing entity, ordinary regional warlords with no qualifying supreme-rule episode, and deities with no meaningful ruler tradition are excluded from CORE. Every exclusion from a source-derived candidate list must eventually carry an explicit reason in the machine-readable master.
+## Invariants
+Traditional legitimacy is metadata, not a gate. `emperor` is a title, not a gate. Sparse evidence means `LIMITED-EVIDENCE`, never invented mental models. Pure posthumous honors, unsupported claimants, and ordinary regional warlords do not enter CORE merely because a title exists. Borderline cases go to EXTENDED with a reason.
 
 ## Enumeration QA
-
-For every polity: obtain at least one polity-specific ruler sequence; cross-check chronology/aliases; distinguish actual rulers from posthumous/pretender entries; normalize duplicate identities; represent repeated offices and title changes as episodes; match existing skills; retain unresolved boundary cases instead of silently deciding them.
-
-## Completion metrics
-
-Never publish one misleading percentage. Report separately:
-
-1. Historical CORE coverage.
-2. CORE research-complete coverage.
-3. CORE Nuwa-distilled coverage.
-4. REDISTILL debt among existing skills.
-5. EXTENDED coverage.
-6. LEGENDARY/traditional coverage.
-7. LIMITED-EVIDENCE count.
-
-Only after person-by-person enumeration and alias normalization may the repository publish a final denominator and missing-person count.
+For each polity: obtain a polity-specific ruler sequence; distinguish actual rulers from posthumous/pretender entries; normalize aliases; represent repeated offices as episodes; distinguish sovereigns from regents; match existing skills; record unresolved boundary cases instead of silently deciding them. The build matrix lives in `data/corpus-build-plan.json`.
