@@ -1,105 +1,316 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "batch": "H2-H3-preqin-other-polities",
-  "status": "ENUMERATION_IN_PROGRESS",
-  "purpose": "Prevent the maximum-set build from collapsing into only the famous states. These polities must be enumerated and admitted by the same actual-autonomous-rule test.",
-  "candidate_polities": [
+  "status": "PARTIAL_PERSON_ENUMERATION_V1_DISCOVERY_STILL_OPEN",
+  "purpose": "Prevent the maximum-set build from collapsing into only famous states. Small polities use the same actual-autonomous-rule test.",
+  "source_notes": [
+    "杞: transmitted sequence plus bronze-inscription evidence; traditional '20 rulers' count conflicts with a separate bronze-attested 杞伯每亡 entry, so identity is not force-merged.",
+    "滕: Fudan/河南大学 research reconstructs 31 generations to first destruction and a two-ruler restoration; anonymous/unknown generations remain placeholders, never invented people.",
+    "许: Han geography says 24 generations but only a subset is name-attested; missing generations remain unknown.",
+    "莒: Han geography says 30 generations; only part of the sequence is identifiable in transmitted sources.",
+    "邾/小邾/虢/虞/徐: ruler discovery uses transmitted-text and bronze-inscription compilations; early genealogies carry historicity/source flags."
+  ],
+  "polities": [
     {
+      "id": "qi-small",
       "name": "杞",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
+      "status": "ENUMERATED_ATTESTED_V1",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "persons": [
+        "杞东楼公",
+        "杞西楼公",
+        "杞题公",
+        "杞谋娶公",
+        "杞武公",
+        "杞靖公",
+        "杞共公",
+        "杞德公",
+        "杞成公",
+        "杞桓公姑容",
+        "杞孝公匄",
+        "杞文公益姑",
+        "杞平公郁",
+        "杞悼公成",
+        "杞隐公乞",
+        "杞僖公遂",
+        "杞湣公维",
+        "杞哀公阏路",
+        "杞出公欶",
+        "杞简公春"
+      ],
+      "candidates": [
+        {
+          "name": "杞伯每亡",
+          "status": "IDENTITY_REVIEW",
+          "reason": "bronze-attested early ruler; some later compilations identify/associate 每亡 with another early ruler, but source traditions are not stable enough to force a merge"
+        }
+      ],
+      "unknown_generations": true
     },
     {
+      "id": "xu-state",
       "name": "许",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
+      "status": "ENUMERATED_ATTESTED_V1",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "persons": [
+        "许文叔丁",
+        "许德男",
+        "许男伯封",
+        "许孝男",
+        "许靖男",
+        "许康男",
+        "许武公",
+        "许文公兴父",
+        "许庄公茀/苴人",
+        "许桓公郑",
+        "许穆公新臣",
+        "许僖公业",
+        "许昭公锡我",
+        "许灵公宁",
+        "许悼公买",
+        "许男斯"
+      ],
+      "unknown_generations": [
+        {
+          "after": "许文公兴父",
+          "count": 2
+        },
+        {
+          "after": "许男斯",
+          "note": "later restoration/successor traditions require a separate verification pass"
+        }
+      ],
+      "qa": "《汉书·地理志》24世 count must not be converted into invented names."
     },
     {
+      "id": "zhu-state",
       "name": "邾",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
+      "status": "ENUMERATION_SOURCE_LOCKED_FULL_TABLE_EXTRACTION_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "known_persons": [
+        "邾子挟",
+        "邾子非"
+      ],
+      "expected_generations": 29,
+      "qa": "Early genealogy from mixed transmitted sources has known chronological problems; full 29-generation table must preserve source-level uncertainty."
     },
     {
+      "id": "ju-state",
       "name": "莒",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
+      "status": "ENUMERATED_ATTESTED_PARTIAL_V1",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "persons": [
+        "莒子兹舆期",
+        "莒兹丕公期",
+        "莒纪公庶其",
+        "莒厉公季佗"
+      ],
+      "expected_generations": 30,
+      "source_note": "Only a minority of the 30 traditional generations are identifiable; do not fill the rest synthetically.",
+      "qa": "Continue extracting later identifiable rulers from 春秋/左传 sequence."
     },
     {
+      "id": "teng-state",
       "name": "滕",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
+      "status": "SCHOLARLY_SEQUENCE_STRUCTURE_LOCKED_NAMES_PARTIAL",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "persons": [
+        "错叔绣",
+        "滕伯文",
+        "滕侯苏",
+        "滕侯毂",
+        "滕宣公婴齐",
+        "滕孝侯",
+        "滕昭公元",
+        "滕文公寿",
+        "滕成公原",
+        "滕悼公宁",
+        "滕隐公虞母",
+        "滕考公",
+        "滕元公"
+      ],
+      "structure": {
+        "first_foundation_to_first_destruction_generations": 31,
+        "restoration_named_rulers": 2
+      },
+      "qa": "Many generations are attested only by title/bronze or remain unnamed. Preserve anonymous episode records separately instead of manufacturing person names."
     },
     {
+      "id": "xue-state",
       "name": "薛",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
+      "status": "SOURCE_VARIANT_RECONCILIATION",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "transmitted_persons": [
+        "薛伯",
+        "薛献公穀",
+        "薛襄公定",
+        "薛伯比",
+        "薛惠公夷"
+      ],
+      "later_genealogy_candidates": [
+        "薛侯畛",
+        "薛侯初",
+        "薛厉侯陵",
+        "薛宣武侯房",
+        "薛哀侯褒",
+        "薛庄侯元",
+        "薛平侯贵",
+        "薛昭侯直",
+        "薛襄侯夷",
+        "薛桓侯辨",
+        "薛康侯安兴",
+        "薛定公箱",
+        "薛恭侯尚",
+        "薛景侯魏",
+        "薛宣侯伯勤",
+        "薛简侯文欢",
+        "薛惠侯夷黄",
+        "薛灵侯英",
+        "薛文侯俱",
+        "薛隐侯清",
+        "薛愍侯弘"
+      ],
+      "bronze_candidates": [
+        "薛侯戚",
+        "薛侯（西周）",
+        "薛侯（春秋）",
+        "薛侯定",
+        "薛比"
+      ],
+      "qa": "Do not fuse transmitted, Tang genealogy, and bronze sequences until identity correspondence is evidenced."
     },
     {
+      "id": "ni-small-zhu",
       "name": "郳/小邾",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
+      "status": "ENUMERATED_ATTESTED_V1",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "persons": [
+        "郳友",
+        "郳庆",
+        "邾公子害",
+        "郳犁来",
+        "小邾穆公魁",
+        "郳恭公克",
+        "小邾惠公",
+        "郳公皮父"
+      ],
+      "expected_generations": 14,
+      "unknown_generations": 6
     },
     {
-      "name": "唐",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
-    },
-    {
-      "name": "贾",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
-    },
-    {
-      "name": "胡",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
-    },
-    {
-      "name": "聃",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
-    },
-    {
-      "name": "郯",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
-    },
-    {
-      "name": "南燕",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
-    },
-    {
+      "id": "xu-xu",
       "name": "徐",
-      "status": "ENUMERATE_NEXT",
-      "default_layer": "CORE_IF_AUTONOMOUS"
+      "status": "ENUMERATED_ATTESTED_V1",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "persons": [
+        "若木",
+        "徐驹王",
+        "徐句君",
+        "徐王次又",
+        "徐偃王",
+        "徐王𠂔又",
+        "徐王子旋",
+        "徐王旨后",
+        "徐王季粮",
+        "徐王庚",
+        "义楚",
+        "章禹"
+      ],
+      "qa": "若木及徐偃王相关早期 traditions require historicity grading; bronze-attested rulers must be distinguished from later legend."
     },
     {
-      "name": "巴",
-      "status": "SOURCE_DISCOVERY",
-      "default_layer": "CORE_IF_AUTONOMOUS"
+      "id": "western-guo",
+      "name": "西虢/南虢",
+      "status": "ENUMERATED_ATTESTED_V1",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "persons": [
+        "虢叔",
+        "郭叔",
+        "虢城公",
+        "虢公长父",
+        "虢宣公/虢季子白",
+        "虢文公",
+        "虢石父",
+        "虢公翰",
+        "虢公忌父",
+        "虢公林父",
+        "虢公丑"
+      ],
+      "qa": "Opening ruler assignment between East/West Guo is disputed; 虢季子白=虢宣公 vs 虢文公 traditions need identity variants."
     },
     {
-      "name": "蜀",
-      "status": "SOURCE_DISCOVERY",
-      "default_layer": "CORE_IF_AUTONOMOUS"
-    },
-    {
-      "name": "虢",
-      "status": "SOURCE_DISCOVERY",
-      "default_layer": "CORE_IF_AUTONOMOUS"
-    },
-    {
+      "id": "yu-state",
       "name": "虞",
-      "status": "SOURCE_DISCOVERY",
-      "default_layer": "CORE_IF_AUTONOMOUS"
+      "status": "ENUMERATED_ATTESTED_V1",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "persons": [
+        "虞仲",
+        "虞公父丁",
+        "虞侯夨",
+        "虞侯政",
+        "虞公/虞惠公"
+      ],
+      "qa": "Names are sparse; last ruler personal name not securely transmitted."
+    },
+    {
+      "id": "cheng-state",
+      "name": "郕/成",
+      "status": "ENUMERATED_ATTESTED_PARTIAL_V1",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "persons": [
+        "郕叔武",
+        "成伯邦父",
+        "成伯孙父",
+        "郕伯"
+      ],
+      "qa": "山东封国与畿内成国 traditions must be modeled as distinct polity records if evidence supports separation."
+    },
+    {
+      "id": "yu-obscure",
+      "name": "鄅",
+      "status": "ATTESTED_RULER_ONLY",
+      "default_layer": "CORE_IF_AUTONOMOUS",
+      "persons": [
+        "鄅子（春秋末）"
+      ],
+      "unknown_generations": true,
+      "qa": "Named personal identity unavailable; retain anonymous sovereign episode rather than fabricate a person."
     }
   ],
-  "admission_note": "Small size, later destruction, non-king title, or absence from 'Five Hegemons/Seven Powers' lists is not an exclusion reason. Actual autonomous sovereignty is the criterion.",
+  "discovery_queue": [
+    "唐",
+    "贾",
+    "胡",
+    "聃",
+    "郯",
+    "南燕",
+    "巴",
+    "蜀",
+    "东虢",
+    "北虢",
+    "滑",
+    "顿",
+    "沈",
+    "江",
+    "黄",
+    "弦",
+    "邓",
+    "权",
+    "罗",
+    "麇",
+    "郜",
+    "毕",
+    "原",
+    "酆",
+    "郇",
+    "曾/随 and other inscription-attested autonomous states"
+  ],
+  "admission_note": "Small size, later destruction, non-king title, or absence from hegemon/Seven-Powers lists is not an exclusion reason. Actual autonomous sovereignty is the criterion.",
   "qa": [
     "Avoid inventing missing names where genealogies are fragmentary.",
     "Founders receiving a fief but never exercising local rule need episode verification.",
-    "Merge identical persons appearing under multiple polity traditions.",
-    "Record explicit exclusion reason for candidates that fail the sovereignty test."
+    "Merge identical persons appearing under multiple polity traditions only when evidence supports identity.",
+    "Record explicit exclusion reason for candidates that fail the sovereignty test.",
+    "Anonymous attested sovereign episodes belong in polity chronology but do not become fake named person records."
   ]
 }
