@@ -1,0 +1,113 @@
+== 92 个待扩写包 · 按工作量分档 ==
+
+-- 按「需补底稿份数」分档 --
+   需补 1/6 份 : 18 包   （需补底稿共 18 份，总缺口 3 KB）
+   需补 2/6 份 : 12 包   （需补底稿共 24 份，总缺口 7 KB）
+   需补 3/6 份 : 15 包   （需补底稿共 45 份，总缺口 8 KB）
+   需补 4/6 份 : 17 包   （需补底稿共 68 份，总缺口 22 KB）
+   需补 5/6 份 : 16 包   （需补底稿共 80 份，总缺口 37 KB）
+   需补 6/6 份 : 14 包   （需补底稿共 84 份，总缺口 52 KB）
+
+-- 【A档·临门一脚】只需补 1 份底稿（18 包）--
+   donghan      andi-perspective             补 06-timeline  (2446B → 需 2500B，+0.1KB)
+   donghan      huandi-perspective           补 03-expression-dna  (2266B → 需 2500B，+0.2KB)
+   donghan      lingdi-perspective           补 03-expression-dna  (2150B → 需 2500B，+0.3KB)
+   ming         zhuchangluo-perspective      补 04-external-views  (2389B → 需 2500B，+0.1KB)
+   ming         zhuqizhen-perspective        补 06-timeline  (2425B → 需 2500B，+0.1KB)
+   ming         zhuyouxiao-perspective       补 03-expression-dna  (2490B → 需 2500B，+0.0KB)
+   ming         zhuyunwen-perspective        补 01-writings  (2397B → 需 2500B，+0.1KB)
+   qing         xuanye-perspective           补 06-timeline  (2321B → 需 2500B，+0.2KB)
+   song         zhaogou-perspective          补 06-timeline  (1936B → 需 2500B，+0.6KB)
+   song         zhaokuo-perspective          补 03-expression-dna  (2163B → 需 2500B，+0.3KB)
+   tang         lilongji-perspective         补 06-timeline  (2056B → 需 2500B，+0.4KB)
+   tang         wuzetian-perspective         补 06-timeline  (1987B → 需 2500B，+0.5KB)
+   yuan         haishan-perspective          补 04-external-views  (2415B → 需 2500B，+0.1KB)
+   yuan         yilinzhiban-perspective      补 06-timeline  (2471B → 需 2500B，+0.0KB)
+   zhou         jianwang-perspective         补 04-external-views  (2100B → 需 2500B，+0.4KB)
+   zhou         shenjingwang-perspective     补 02-conversations  (2448B → 需 2500B，+0.1KB)
+   zhou         xiaowang-zhou-perspective    补 02-conversations  (2465B → 需 2500B，+0.0KB)
+   zhou         youwang-perspective          补 05-decisions  (2336B → 需 2500B，+0.2KB)
+
+-- 【B档】需补 2-3 份（27 包）--
+   donghan      guangwudi-perspective        补 2 份: 04-external-views(2320B), 03-expression-dna(2475B)
+   qing         yizhu-perspective            补 2 份: 03-expression-dna(2140B), 04-external-views(2462B)
+   qing         zaichun-perspective          补 2 份: 05-decisions(2164B), 06-timeline(2316B)
+   song         zhaobing-perspective         补 2 份: 06-timeline(1677B), 03-expression-dna(2388B)
+   song         zhaoshen-perspective         补 2 份: 06-timeline(1621B), 04-external-views(2437B)
+   song         zhaoxu_s-perspective         补 2 份: 06-timeline(2094B), 04-external-views(2171B)
+   tang         liheng_s-perspective         补 2 份: 06-timeline(1712B), 04-external-views(2181B)
+   tang         lishi-perspective            补 2 份: 04-external-views(2073B), 03-expression-dna(2238B)
+   tang         lishimin-perspective         补 2 份: 06-timeline(1836B), 04-external-views(2334B)
+   tang         liyu-perspective             补 2 份: 06-timeline(1943B), 04-external-views(2195B)
+   yuan         hubilie-perspective          补 2 份: 04-external-views(2438B), 03-expression-dna(2445B)
+   zhou         yiwang-zhou-perspective      补 2 份: 03-expression-dna(2216B), 04-external-views(2458B)
+   donghan      xiandi-perspective           补 3 份: 04-external-views(2001B), 03-expression-dna(2172B), 01-writings(2357B)
+   donghan      zhidi-perspective            补 3 份: 03-expression-dna(1825B), 01-writings(2041B), 04-external-views(2494B)
+   ming         zhugaochi-perspective        补 3 份: 03-expression-dna(2324B), 04-external-views(2439B), 06-timeline(2439B)
+   ming         zhuhoucong-perspective       补 3 份: 06-timeline(2295B), 03-expression-dna(2320B), 04-external-views(2362B)
+   ming         zhuzaihou-perspective        补 3 份: 06-timeline(1978B), 03-expression-dna(2424B), 02-conversations(2439B)
+   qing         hongtaiji-perspective        补 3 份: 06-timeline(2157B), 04-external-views(2375B), 03-expression-dna(2443B)
+   qing         nurhaci-perspective          补 3 份: 04-external-views(2433B), 03-expression-dna(2467B), 05-decisions(2498B)
+   song         zhaozhen-perspective         补 3 份: 06-timeline(2130B), 04-external-views(2434B), 03-expression-dna(2450B)
+   tang         lixian-perspective           补 3 份: 06-timeline(1704B), 03-expression-dna(1960B), 04-external-views(2365B)
+   tang         liyuan-perspective           补 3 份: 06-timeline(2258B), 04-external-views(2407B), 03-expression-dna(2476B)
+   yuan         hoshila-perspective          补 3 份: 03-expression-dna(2347B), 05-decisions(2427B), 04-external-views(2465B)
+   yuan         shidibala-perspective        补 3 份: 06-timeline(1757B), 03-expression-dna(2371B), 05-decisions(2396B)
+   yuan         tutemuer-perspective         补 3 份: 06-timeline(2259B), 02-conversations(2461B), 04-external-views(2489B)
+   yuan         yesuntemuer-perspective      补 3 份: 02-conversations(2178B), 03-expression-dna(2189B), 04-external-views(2399B)
+   zhou         daowang-perspective          补 3 份: 06-timeline(2289B), 04-external-views(2368B), 05-decisions(2497B)
+
+-- 【C档·整体塌陷】需补 4-6 份（47 包）--
+   donghan      shaodi-perspective           补 4 份，最薄 1670B
+   qing         minning-perspective          补 4 份，最薄 2092B
+   qing         puyi-perspective             补 4 份，最薄 2061B
+   qing         yongyan-perspective          补 4 份，最薄 1970B
+   qing         zaitian-perspective          补 4 份，最薄 2235B
+   song         zhaodun-perspective          补 4 份，最薄 1386B
+   song         zhaoji-perspective           补 4 份，最薄 1962B
+   song         zhaoshu-perspective          补 4 份，最薄 1766B
+   song         zhaoxu_z-perspective         补 4 份，最薄 1846B
+   song         zhaoyun-perspective          补 4 份，最薄 1152B
+   sui          wendi-perspective            补 4 份，最薄 2087B
+   tang         lichun-perspective           补 4 份，最薄 1924B
+   tang         lidan-perspective            补 4 份，最薄 2223B
+   tang         liye-perspective             补 4 份，最薄 2083B
+   tang         lizhi-perspective            补 4 份，最薄 2166B
+   zhou         kuangwang-perspective        补 4 份，最薄 1911B
+   zhou         xuanwang-perspective         补 4 份，最薄 2128B
+   donghan      shangdi-perspective          补 5 份，最薄 1906B
+   qin          ershi-perspective            补 5 份，最薄 1567B
+   qing         hongli-perspective           补 5 份，最薄 1925B
+   song         zhaoheng-perspective         补 5 份，最薄 1407B
+   song         zhaokuangyin-perspective     补 5 份，最薄 1599B
+   song         zhaoxian-perspective         补 5 份，最薄 1321B
+   sui          gongdi-perspective           补 5 份，最薄 1407B
+   sui          yangdi-perspective           补 5 份，最薄 2186B
+   tang         liang-perspective            补 5 份，最薄 1518B
+   tang         lichen-perspective           补 5 份，最薄 1818B
+   tang         liheng_m-perspective         补 5 份，最薄 1644B
+   tang         lisong-perspective           补 5 份，最薄 1921B
+   tang         liyan-perspective            补 5 份，最薄 1410B
+   tang         lizhan-perspective           补 5 份，最薄 1416B
+   zhou         kaowang-perspective          补 5 份，最薄 1966B
+   zhou         yuanwang-perspective         补 5 份，最薄 1760B
+   donghan      chongdi-perspective          补 6 份，最薄 1596B
+   ming         zhuhouzhao-perspective       补 6 份，最薄 1940B
+   ming         zhujianshen-perspective      补 6 份，最薄 1998B
+   ming         zhuyoujian-perspective       补 6 份，最薄 1651B
+   ming         zhuzhanji-perspective        补 6 份，最薄 1811B
+   qing         fulin-perspective            补 6 份，最薄 1640B
+   qing         yinzhen-perspective          补 6 份，最薄 1747B
+   song         zhaoguangyi-perspective      补 6 份，最薄 1471B
+   song         zhaohuan-perspective         补 6 份，最薄 1615B
+   song         zhaoqi-perspective           补 6 份，最薄 995B
+   song         zhaoshi-perspective          补 6 份，最薄 1328B
+   tang         licui-perspective            补 6 份，最薄 1534B
+   tang         lixuan-perspective           补 6 份，最薄 1457B
+   tang         lizhu-perspective            补 6 份，最薄 1279B
+
+-- 汇总 --
+   A档(1份) 18 包 = 18 份底稿
+   B档(2-3份) 27 包 ≈ 69 份底稿
+   C档(4-6份) 47 包 ≈ 232 份底稿
+   全仓需补底稿总计 319 份

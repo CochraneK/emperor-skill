@@ -1,0 +1,251 @@
+== 待扩写包（最薄底稿 < 2500B）按朝清单 ==
+   共 92 包
+
+-- 各朝待办数（多→少）--
+   tang          21 包
+   song          18 包
+   qing          12 包
+   ming          11 包
+   zhou          10 包
+   donghan        9 包
+   yuan           7 包
+   sui            3 包
+   qin            1 包
+
+
+==== donghan（9 包）====
+  andi-perspective             最薄  2446B (06-timeline)  六维中未达标 1/6  |  4794 3250 2833 3255 2810 2446
+  chongdi-perspective          最薄  1596B (03-expression-dna)  六维中未达标 6/6  |  2038 1857 1596 1774 1993 1720
+  guangwudi-perspective        最薄  2320B (04-external-views)  六维中未达标 2/6  |  4680 2697 2475 2320 3477 2913
+  huandi-perspective           最薄  2266B (03-expression-dna)  六维中未达标 1/6  |  4694 5125 2266 3507 4097 3947
+  lingdi-perspective           最薄  2150B (03-expression-dna)  六维中未达标 1/6  |  4841 3121 2150 2858 3574 2922
+  shangdi-perspective          最薄  1906B (03-expression-dna)  六维中未达标 5/6  |  2627 2481 1906 2039 2123 2133
+  shaodi-perspective           最薄  1670B (06-timeline)  六维中未达标 4/6  |  2750 2582 2004 1860 2142 1670
+  xiandi-perspective           最薄  2001B (04-external-views)  六维中未达标 3/6  |  2357 2772 2172 2001 2745 2743
+  zhidi-perspective            最薄  1825B (03-expression-dna)  六维中未达标 3/6  |  2041 2646 1825 2494 3075 2516
+
+==== ming（11 包）====
+  zhuchangluo-perspective      最薄  2389B (04-external-views)  六维中未达标 1/6  |  3086 3041 2680 2389 2771 2791
+  zhugaochi-perspective        最薄  2324B (03-expression-dna)  六维中未达标 3/6  |  2789 3014 2324 2439 3023 2439
+  zhuhoucong-perspective       最薄  2295B (06-timeline)  六维中未达标 3/6  |  3075 2889 2320 2362 2525 2295
+  zhuhouzhao-perspective       最薄  1940B (02-conversations)  六维中未达标 6/6  |  2299 1940 1987 2081 2031 2119
+  zhujianshen-perspective      最薄  1998B (03-expression-dna)  六维中未达标 6/6  |  2387 2186 1998 2053 2249 2310
+  zhuqizhen-perspective        最薄  2425B (06-timeline)  六维中未达标 1/6  |  3501 3037 2986 2659 3087 2425
+  zhuyoujian-perspective       最薄  1651B (04-external-views)  六维中未达标 6/6  |  2126 1763 1783 1651 1830 2040
+  zhuyouxiao-perspective       最薄  2490B (03-expression-dna)  六维中未达标 1/6  |  3020 2626 2490 2668 2671 2514
+  zhuyunwen-perspective        最薄  2397B (01-writings)  六维中未达标 1/6  |  2397 2736 2546 3013 2784 2597
+  zhuzaihou-perspective        最薄  1978B (06-timeline)  六维中未达标 3/6  |  2830 2439 2424 2675 2713 1978
+  zhuzhanji-perspective        最薄  1811B (03-expression-dna)  六维中未达标 6/6  |  2117 1850 1811 1925 1999 2004
+
+==== qin（1 包）====
+  ershi-perspective            最薄  1567B (03-expression-dna)  六维中未达标 5/6  |  2644 2453 1567 1691 2152 2115
+
+==== qing（12 包）====
+  fulin-perspective            最薄  1640B (04-external-views)  六维中未达标 6/6  |  2479 2117 1895 1640 2176 1768
+  hongli-perspective           最薄  1925B (06-timeline)  六维中未达标 5/6  |  2743 2166 2100 1940 2148 1925
+  hongtaiji-perspective        最薄  2157B (06-timeline)  六维中未达标 3/6  |  3248 2673 2443 2375 2991 2157
+  minning-perspective          最薄  2092B (04-external-views)  六维中未达标 4/6  |  3413 2486 2629 2092 2421 2341
+  nurhaci-perspective          最薄  2433B (04-external-views)  六维中未达标 3/6  |  3333 3122 2467 2433 2498 2515
+  puyi-perspective             最薄  2061B (03-expression-dna)  六维中未达标 4/6  |  3328 2281 2061 2228 2521 2132
+  xuanye-perspective           最薄  2321B (06-timeline)  六维中未达标 1/6  |  3830 3179 2828 2655 3849 2321
+  yinzhen-perspective          最薄  1747B (03-expression-dna)  六维中未达标 6/6  |  2341 1884 1747 1976 2041 2280
+  yizhu-perspective            最薄  2140B (03-expression-dna)  六维中未达标 2/6  |  2707 2562 2140 2462 2682 2972
+  yongyan-perspective          最薄  1970B (03-expression-dna)  六维中未达标 4/6  |  2968 2134 1970 2211 2187 2577
+  zaichun-perspective          最薄  2164B (05-decisions)  六维中未达标 2/6  |  2995 2624 2647 2825 2164 2316
+  zaitian-perspective          最薄  2235B (04-external-views)  六维中未达标 4/6  |  3400 2445 2304 2235 2485 2602
+
+==== song（18 包）====
+  zhaobing-perspective         最薄  1677B (06-timeline)  六维中未达标 2/6  |  3087 3051 2388 2719 3073 1677
+  zhaodun-perspective          最薄  1386B (06-timeline)  六维中未达标 4/6  |  2547 2258 2267 2487 2574 1386
+  zhaogou-perspective          最薄  1936B (06-timeline)  六维中未达标 1/6  |  3897 3307 2854 2563 3120 1936
+  zhaoguangyi-perspective      最薄  1471B (06-timeline)  六维中未达标 6/6  |  2487 2202 1635 1716 1997 1471
+  zhaoheng-perspective         最薄  1407B (06-timeline)  六维中未达标 5/6  |  2673 2117 1607 1767 2079 1407
+  zhaohuan-perspective         最薄  1615B (06-timeline)  六维中未达标 6/6  |  2325 2398 1842 2267 1774 1615
+  zhaoji-perspective           最薄  1962B (06-timeline)  六维中未达标 4/6  |  2808 2795 2159 2493 2263 1962
+  zhaokuangyin-perspective     最薄  1599B (06-timeline)  六维中未达标 5/6  |  3188 2191 1801 1972 1987 1599
+  zhaokuo-perspective          最薄  2163B (03-expression-dna)  六维中未达标 1/6  |  4524 3031 2163 2678 2738 2530
+  zhaoqi-perspective           最薄   995B (04-external-views)  六维中未达标 6/6  |  1864 1512 1351 995 1586 1474
+  zhaoshen-perspective         最薄  1621B (06-timeline)  六维中未达标 2/6  |  3248 2707 2696 2437 3115 1621
+  zhaoshi-perspective          最薄  1328B (02-conversations)  六维中未达标 6/6  |  1609 1328 1394 1975 2041 1949
+  zhaoshu-perspective          最薄  1766B (06-timeline)  六维中未达标 4/6  |  2852 2549 2281 2261 2233 1766
+  zhaoxian-perspective         最薄  1321B (06-timeline)  六维中未达标 5/6  |  3115 2464 2409 2171 2269 1321
+  zhaoxu_s-perspective         最薄  2094B (06-timeline)  六维中未达标 2/6  |  4262 3779 2861 2171 3352 2094
+  zhaoxu_z-perspective         最薄  1846B (06-timeline)  六维中未达标 4/6  |  3310 2632 2023 2322 2290 1846
+  zhaoyun-perspective          最薄  1152B (04-external-views)  六维中未达标 4/6  |  3340 2501 1921 1152 1886 1655
+  zhaozhen-perspective         最薄  2130B (06-timeline)  六维中未达标 3/6  |  3925 3018 2450 2434 2507 2130
+
+==== sui（3 包）====
+  gongdi-perspective           最薄  1407B (06-timeline)  六维中未达标 5/6  |  2913 2032 2239 1839 2083 1407
+  wendi-perspective            最薄  2087B (03-expression-dna)  六维中未达标 4/6  |  3040 2758 2087 2144 2363 2390
+  yangdi-perspective           最薄  2186B (04-external-views)  六维中未达标 5/6  |  2431 2765 2412 2186 2478 2393
+
+==== tang（21 包）====
+  liang-perspective            最薄  1518B (06-timeline)  六维中未达标 5/6  |  2704 2004 1924 1841 1977 1518
+  lichen-perspective           最薄  1818B (06-timeline)  六维中未达标 5/6  |  3087 2476 2241 2216 2056 1818
+  lichun-perspective           最薄  1924B (04-external-views)  六维中未达标 4/6  |  2594 2278 2028 1924 2216 2500
+  licui-perspective            最薄  1534B (05-decisions)  六维中未达标 6/6  |  2052 1645 1723 1844 1534 1615
+  lidan-perspective            最薄  2223B (04-external-views)  六维中未达标 4/6  |  3329 2724 2231 2223 2234 2338
+  liheng_m-perspective         最薄  1644B (06-timeline)  六维中未达标 5/6  |  2829 2151 1905 1733 2203 1644
+  liheng_s-perspective         最薄  1712B (06-timeline)  六维中未达标 2/6  |  3136 2768 2693 2181 2917 1712
+  lilongji-perspective         最薄  2056B (06-timeline)  六维中未达标 1/6  |  3609 2939 2783 2509 3175 2056
+  lishi-perspective            最薄  2073B (04-external-views)  六维中未达标 2/6  |  3383 2558 2238 2073 2672 2894
+  lishimin-perspective         最薄  1836B (06-timeline)  六维中未达标 2/6  |  3011 2775 2518 2334 2612 1836
+  lisong-perspective           最薄  1921B (03-expression-dna)  六维中未达标 5/6  |  2606 2410 1921 1957 2412 2321
+  lixian-perspective           最薄  1704B (06-timeline)  六维中未达标 3/6  |  2545 2532 1960 2365 2842 1704
+  lixuan-perspective           最薄  1457B (05-decisions)  六维中未达标 6/6  |  1714 1549 1717 1826 1457 1536
+  liyan-perspective            最薄  1410B (06-timeline)  六维中未达标 5/6  |  2656 1965 1822 1892 1995 1410
+  liye-perspective             最薄  2083B (04-external-views)  六维中未达标 4/6  |  2961 2697 2254 2083 2323 2305
+  liyu-perspective             最薄  1943B (06-timeline)  六维中未达标 2/6  |  3018 2794 2514 2195 3019 1943
+  liyuan-perspective           最薄  2258B (06-timeline)  六维中未达标 3/6  |  3687 3004 2476 2407 2613 2258
+  lizhan-perspective           最薄  1416B (06-timeline)  六维中未达标 5/6  |  2706 1877 1810 1670 1821 1416
+  lizhi-perspective            最薄  2166B (06-timeline)  六维中未达标 4/6  |  3067 2316 2419 2204 3546 2166
+  lizhu-perspective            最薄  1279B (05-decisions)  六维中未达标 6/6  |  1597 1407 1717 1760 1279 1307
+  wuzetian-perspective         最薄  1987B (06-timeline)  六维中未达标 1/6  |  3515 2966 2521 2522 3034 1987
+
+==== yuan（7 包）====
+  haishan-perspective          最薄  2415B (04-external-views)  六维中未达标 1/6  |  3269 2870 3032 2415 3153 2880
+  hoshila-perspective          最薄  2347B (03-expression-dna)  六维中未达标 3/6  |  3408 3021 2347 2465 2427 3176
+  hubilie-perspective          最薄  2438B (04-external-views)  六维中未达标 2/6  |  2594 2789 2445 2438 2810 2939
+  shidibala-perspective        最薄  1757B (06-timeline)  六维中未达标 3/6  |  3619 2696 2371 2523 2396 1757
+  tutemuer-perspective         最薄  2259B (06-timeline)  六维中未达标 3/6  |  2785 2461 2642 2489 2638 2259
+  yesuntemuer-perspective      最薄  2178B (02-conversations)  六维中未达标 3/6  |  2855 2178 2189 2399 2527 2615
+  yilinzhiban-perspective      最薄  2471B (06-timeline)  六维中未达标 1/6  |  4073 3133 2962 2967 2923 2471
+
+==== zhou（10 包）====
+  daowang-perspective          最薄  2289B (06-timeline)  六维中未达标 3/6  |  3467 2970 2522 2368 2497 2289
+  jianwang-perspective         最薄  2100B (04-external-views)  六维中未达标 1/6  |  3048 2873 2681 2100 2628 3849
+  kaowang-perspective          最薄  1966B (05-decisions)  六维中未达标 5/6  |  3119 2086 2481 2244 1966 2343
+  kuangwang-perspective        最薄  1911B (04-external-views)  六维中未达标 4/6  |  2769 2120 2097 1911 2048 3055
+  shenjingwang-perspective     最薄  2448B (02-conversations)  六维中未达标 1/6  |  2564 2448 2717 2733 2743 2885
+  xiaowang-zhou-perspective    最薄  2465B (02-conversations)  六维中未达标 1/6  |  3096 2465 3099 2775 2864 3170
+  xuanwang-perspective         最薄  2128B (04-external-views)  六维中未达标 4/6  |  3438 2515 2281 2128 2356 2432
+  yiwang-zhou-perspective      最薄  2216B (03-expression-dna)  六维中未达标 2/6  |  3380 2531 2216 2458 2620 2963
+  youwang-perspective          最薄  2336B (05-decisions)  六维中未达标 1/6  |  3409 3232 2644 2736 2336 3401
+  yuanwang-perspective         最薄  1760B (02-conversations)  六维中未达标 5/6  |  2133 1760 1957 2233 1952 2800
+
+
+== 建议分批（每批 6 包，2 worker × 3 包）==
+
+第 1 批（6 包）:
+   tang         liang-perspective            最薄  1518B  未达标 5/6
+   tang         lichen-perspective           最薄  1818B  未达标 5/6
+   tang         lichun-perspective           最薄  1924B  未达标 4/6
+   tang         licui-perspective            最薄  1534B  未达标 6/6
+   tang         lidan-perspective            最薄  2223B  未达标 4/6
+   tang         liheng_m-perspective         最薄  1644B  未达标 5/6
+
+第 2 批（6 包）:
+   tang         liheng_s-perspective         最薄  1712B  未达标 2/6
+   tang         lilongji-perspective         最薄  2056B  未达标 1/6
+   tang         lishi-perspective            最薄  2073B  未达标 2/6
+   tang         lishimin-perspective         最薄  1836B  未达标 2/6
+   tang         lisong-perspective           最薄  1921B  未达标 5/6
+   tang         lixian-perspective           最薄  1704B  未达标 3/6
+
+第 3 批（6 包）:
+   tang         lixuan-perspective           最薄  1457B  未达标 6/6
+   tang         liyan-perspective            最薄  1410B  未达标 5/6
+   tang         liye-perspective             最薄  2083B  未达标 4/6
+   tang         liyu-perspective             最薄  1943B  未达标 2/6
+   tang         liyuan-perspective           最薄  2258B  未达标 3/6
+   tang         lizhan-perspective           最薄  1416B  未达标 5/6
+
+第 4 批（6 包）:
+   tang         lizhi-perspective            最薄  2166B  未达标 4/6
+   tang         lizhu-perspective            最薄  1279B  未达标 6/6
+   tang         wuzetian-perspective         最薄  1987B  未达标 1/6
+   song         zhaobing-perspective         最薄  1677B  未达标 2/6
+   song         zhaodun-perspective          最薄  1386B  未达标 4/6
+   song         zhaogou-perspective          最薄  1936B  未达标 1/6
+
+第 5 批（6 包）:
+   song         zhaoguangyi-perspective      最薄  1471B  未达标 6/6
+   song         zhaoheng-perspective         最薄  1407B  未达标 5/6
+   song         zhaohuan-perspective         最薄  1615B  未达标 6/6
+   song         zhaoji-perspective           最薄  1962B  未达标 4/6
+   song         zhaokuangyin-perspective     最薄  1599B  未达标 5/6
+   song         zhaokuo-perspective          最薄  2163B  未达标 1/6
+
+第 6 批（6 包）:
+   song         zhaoqi-perspective           最薄   995B  未达标 6/6
+   song         zhaoshen-perspective         最薄  1621B  未达标 2/6
+   song         zhaoshi-perspective          最薄  1328B  未达标 6/6
+   song         zhaoshu-perspective          最薄  1766B  未达标 4/6
+   song         zhaoxian-perspective         最薄  1321B  未达标 5/6
+   song         zhaoxu_s-perspective         最薄  2094B  未达标 2/6
+
+第 7 批（6 包）:
+   song         zhaoxu_z-perspective         最薄  1846B  未达标 4/6
+   song         zhaoyun-perspective          最薄  1152B  未达标 4/6
+   song         zhaozhen-perspective         最薄  2130B  未达标 3/6
+   qing         fulin-perspective            最薄  1640B  未达标 6/6
+   qing         hongli-perspective           最薄  1925B  未达标 5/6
+   qing         hongtaiji-perspective        最薄  2157B  未达标 3/6
+
+第 8 批（6 包）:
+   qing         minning-perspective          最薄  2092B  未达标 4/6
+   qing         nurhaci-perspective          最薄  2433B  未达标 3/6
+   qing         puyi-perspective             最薄  2061B  未达标 4/6
+   qing         xuanye-perspective           最薄  2321B  未达标 1/6
+   qing         yinzhen-perspective          最薄  1747B  未达标 6/6
+   qing         yizhu-perspective            最薄  2140B  未达标 2/6
+
+第 9 批（6 包）:
+   qing         yongyan-perspective          最薄  1970B  未达标 4/6
+   qing         zaichun-perspective          最薄  2164B  未达标 2/6
+   qing         zaitian-perspective          最薄  2235B  未达标 4/6
+   ming         zhuchangluo-perspective      最薄  2389B  未达标 1/6
+   ming         zhugaochi-perspective        最薄  2324B  未达标 3/6
+   ming         zhuhoucong-perspective       最薄  2295B  未达标 3/6
+
+第 10 批（6 包）:
+   ming         zhuhouzhao-perspective       最薄  1940B  未达标 6/6
+   ming         zhujianshen-perspective      最薄  1998B  未达标 6/6
+   ming         zhuqizhen-perspective        最薄  2425B  未达标 1/6
+   ming         zhuyoujian-perspective       最薄  1651B  未达标 6/6
+   ming         zhuyouxiao-perspective       最薄  2490B  未达标 1/6
+   ming         zhuyunwen-perspective        最薄  2397B  未达标 1/6
+
+第 11 批（6 包）:
+   ming         zhuzaihou-perspective        最薄  1978B  未达标 3/6
+   ming         zhuzhanji-perspective        最薄  1811B  未达标 6/6
+   zhou         daowang-perspective          最薄  2289B  未达标 3/6
+   zhou         jianwang-perspective         最薄  2100B  未达标 1/6
+   zhou         kaowang-perspective          最薄  1966B  未达标 5/6
+   zhou         kuangwang-perspective        最薄  1911B  未达标 4/6
+
+第 12 批（6 包）:
+   zhou         shenjingwang-perspective     最薄  2448B  未达标 1/6
+   zhou         xiaowang-zhou-perspective    最薄  2465B  未达标 1/6
+   zhou         xuanwang-perspective         最薄  2128B  未达标 4/6
+   zhou         yiwang-zhou-perspective      最薄  2216B  未达标 2/6
+   zhou         youwang-perspective          最薄  2336B  未达标 1/6
+   zhou         yuanwang-perspective         最薄  1760B  未达标 5/6
+
+第 13 批（6 包）:
+   donghan      andi-perspective             最薄  2446B  未达标 1/6
+   donghan      chongdi-perspective          最薄  1596B  未达标 6/6
+   donghan      guangwudi-perspective        最薄  2320B  未达标 2/6
+   donghan      huandi-perspective           最薄  2266B  未达标 1/6
+   donghan      lingdi-perspective           最薄  2150B  未达标 1/6
+   donghan      shangdi-perspective          最薄  1906B  未达标 5/6
+
+第 14 批（6 包）:
+   donghan      shaodi-perspective           最薄  1670B  未达标 4/6
+   donghan      xiandi-perspective           最薄  2001B  未达标 3/6
+   donghan      zhidi-perspective            最薄  1825B  未达标 3/6
+   yuan         haishan-perspective          最薄  2415B  未达标 1/6
+   yuan         hoshila-perspective          最薄  2347B  未达标 3/6
+   yuan         hubilie-perspective          最薄  2438B  未达标 2/6
+
+第 15 批（6 包）:
+   yuan         shidibala-perspective        最薄  1757B  未达标 3/6
+   yuan         tutemuer-perspective         最薄  2259B  未达标 3/6
+   yuan         yesuntemuer-perspective      最薄  2178B  未达标 3/6
+   yuan         yilinzhiban-perspective      最薄  2471B  未达标 1/6
+   sui          gongdi-perspective           最薄  1407B  未达标 5/6
+   sui          wendi-perspective            最薄  2087B  未达标 4/6
+
+第 16 批（2 包）:
+   sui          yangdi-perspective           最薄  2186B  未达标 5/6
+   qin          ershi-perspective            最薄  1567B  未达标 5/6

@@ -1,0 +1,23 @@
+== 元恭包 nuwa 真口径七门禁复核 ==
+  ✅ 包内恰 8 文件               8 个：SKILL.md, references\research\01-writings.md, references\research\02-conversations.md, references\research\03-expression-dna.md, references\research\04-external-views.md, references\research\05-decisions.md, references\research\06-timeline.md, scripts\quality_check.py
+  ✅ 六维 01                  6050B
+  ✅ 六维 02                  5627B
+  ✅ 六维 03                  17570B
+  ✅ 六维 04                  15283B
+  ✅ 六维 05                  10529B
+  ✅ 六维 06                  14170B
+  ✅ 排除声明 01                
+  ✅ 排除声明 02                
+  ✅ 排除声明 03                
+  ✅ 排除声明 04                
+  ✅ 排除声明 05                
+  ✅ 排除声明 06                
+  ✅ qc 脚本存在                5698B
+  ✅ SKILL.md >1KB          35154B
+  ✅ 「诚实边界」=1 次             实测 1 次
+  ✅ module 非空              nanbeichao-emperors
+  ✅ group 非空               nanbeichao-main
+  ✅ 溯源标记 ≥5 处              93 处
+  ✅ SKILL 无黑名单引用           []
+
+结论：ALL_OK

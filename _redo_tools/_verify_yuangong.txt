@@ -1,0 +1,28 @@
+== 元恭包独立复核（实测磁盘，非自报）==
+
+  01-writings.md             6050B  OK   前缀条目 24 条  OK  黑名单 0 处  声明末尾 OK
+  02-conversations.md        5627B  OK   前缀条目 21 条  OK  黑名单 0 处  声明末尾 OK
+  03-expression-dna.md      17570B  OK   前缀条目 59 条  OK  黑名单 0 处  声明末尾 OK
+  04-external-views.md      15283B  OK   前缀条目 51 条  OK  黑名单 0 处  声明末尾 OK
+  05-decisions.md           10529B  OK   前缀条目 35 条  OK  黑名单 0 处  声明末尾 OK
+  06-timeline.md            14170B  OK   前缀条目 50 条  OK  黑名单 0 处  声明末尾 OK
+
+-- 包内文件清单 --
+   references\research\01-writings.md                              6050B
+   references\research\02-conversations.md                         5627B
+   references\research\03-expression-dna.md                       17570B
+   references\research\04-external-views.md                       15283B
+   references\research\05-decisions.md                            10529B
+   references\research\06-timeline.md                             14170B
+
+-- 交叉核对：生年口径（01 稿 vs 06 稿）--
+   [01-writings.md] 命中 1 行：
+      - 【异说】其生年诸书不载（约 498 年前后之说为后人推拟，非定谳）；本稿宁阙不补。
+   [06-timeline.md] 命中 5 行：
+      > **与 01 稿同口径**：「杜口八年」之数疑为史臣修辞性概括，取其事而疑其数；生年诸书不载，约 498–499 之说为后人倒推，**非定谳**。
+      | ？ | 【史料原文/一手】元恭生年**诸书不载**。本纪仅记其卒时「时年三十四」，由此倒推其生约在 499 年前后（虚岁计，故有 498／499 两说）；**此为后人推拟，非正
+      | 532（太昌元年） | 【史料原文/一手】元恭旋**遇弑于门下外省，时年三十四**；具体月日诸书略异，**宁阙不造**【《魏书·前废帝纪》《北史》】 | 【框架推断】自被立至被
+      | **元恭**（广陵王→前废帝／节闵） | 尔朱世隆 | 531.2（普泰） | 532.4 高欢废之 | 同年遇弑于门下外省，年三十四 | **约十四个月** | **无遗言*
+      - 【异说一】**生年**：诸书不载。「时年三十四」（532）倒推得约 499（虚岁），一说 498；**皆属推拟，非定谳，宁阙不补**。
+
+结论：ALL_OK
