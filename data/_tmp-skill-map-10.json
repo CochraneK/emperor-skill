@@ -1,0 +1,146 @@
+{
+  "offset": 140,
+  "count": 14,
+  "rows": [
+    {
+      "skill_path": "skills/shang/zuyi-perspective",
+      "skill_file": "skills/shang/zuyi-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "zuyi-perspective",
+      "cn": "祖乙",
+      "en": "Zuyi",
+      "era": "约前1400–约前1381",
+      "frontmatter_name": "zuyi-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaobing-perspective",
+      "skill_file": "skills/song/zhaobing-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaobing-perspective",
+      "cn": "赵昺",
+      "en": "Zhao Bing",
+      "era": "1272–1279",
+      "frontmatter_name": "zhaobing-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaodun-perspective",
+      "skill_file": "skills/song/zhaodun-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaodun-perspective",
+      "cn": "赵惇",
+      "en": "Zhao Dun",
+      "era": "1147–1200",
+      "frontmatter_name": "zhaodun-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaogou-perspective",
+      "skill_file": "skills/song/zhaogou-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaogou-perspective",
+      "cn": "赵构",
+      "en": "Zhao Gou",
+      "era": "1107–1187",
+      "frontmatter_name": "zhaogou-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoguangyi-perspective",
+      "skill_file": "skills/song/zhaoguangyi-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoguangyi-perspective",
+      "cn": "赵光义",
+      "en": "Zhao Guangyi",
+      "era": "939–997",
+      "frontmatter_name": "zhaoguangyi-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoheng-perspective",
+      "skill_file": "skills/song/zhaoheng-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoheng-perspective",
+      "cn": "赵恒",
+      "en": "Zhao Heng",
+      "era": "968–1022",
+      "frontmatter_name": "zhaoheng-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaohuan-perspective",
+      "skill_file": "skills/song/zhaohuan-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaohuan-perspective",
+      "cn": "赵桓",
+      "en": "Zhao Huan",
+      "era": "1100–1156",
+      "frontmatter_name": "zhaohuan-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoji-perspective",
+      "skill_file": "skills/song/zhaoji-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoji-perspective",
+      "cn": "赵佶",
+      "en": "Zhao Ji",
+      "era": "1082–1135",
+      "frontmatter_name": "zhaoji-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaokuangyin-perspective",
+      "skill_file": "skills/song/zhaokuangyin-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaokuangyin-perspective",
+      "cn": "赵匡胤",
+      "en": "Zhao Kuangyin",
+      "era": "927–976",
+      "frontmatter_name": "zhaokuangyin-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaokuo-perspective",
+      "skill_file": "skills/song/zhaokuo-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaokuo-perspective",
+      "cn": "赵扩",
+      "en": "Zhao Kuo",
+      "era": "1168–1224",
+      "frontmatter_name": "zhaokuo-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoqi-perspective",
+      "skill_file": "skills/song/zhaoqi-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoqi-perspective",
+      "cn": "赵禥",
+      "en": "Zhao Qi",
+      "era": "1240–1274",
+      "frontmatter_name": "zhaoqi-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoshen-perspective",
+      "skill_file": "skills/song/zhaoshen-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoshen-perspective",
+      "cn": "赵昚",
+      "en": "Zhao Shen",
+      "era": "1127–1194",
+      "frontmatter_name": "zhaoshen-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoshi-perspective",
+      "skill_file": "skills/song/zhaoshi-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoshi-perspective",
+      "cn": "赵昰",
+      "en": "Zhao Shi",
+      "era": "1269–1278",
+      "frontmatter_name": "zhaoshi-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoshu-perspective",
+      "skill_file": "skills/song/zhaoshu-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoshu-perspective",
+      "cn": "赵曙",
+      "en": "Zhao Shu",
+      "era": "1032–1067",
+      "frontmatter_name": "zhaoshu-perspective"
+    }
+  ]
+}
