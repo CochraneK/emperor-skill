@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0",
+  "batch": "H4-qin-han",
+  "status": "PRIMARY_SEQUENCE_ENUMERATED_V1_PARALLEL_REGIMES_REVIEW_OPEN",
+  "scope": "Qin Empire, Chu-Han transition, Western Han, Xin, interregnum competing Han/restoration regimes, Eastern Han",
+  "sources": [
+    {
+      "id": "moe-emperor-table",
+      "type": "official-chronology",
+      "note": "MOE Revised Mandarin Chinese Dictionary emperor chronology used for Qin/Han baseline and short reigns"
+    },
+    {
+      "id": "hou-han-shu-transition",
+      "type": "transmitted-history",
+      "note": "Later Han transition figures require episode verification against Hou Hanshu and specialist chronology"
+    }
+  ],
+  "polities": [
+    {
+      "id": "qin-empire",
+      "name": "秦帝国",
+      "persons": [
+        {
+          "name": "嬴政",
+          "titles": [
+            "秦王政",
+            "始皇帝"
+          ],
+          "existing_skill": "skills/qin/shihuang-perspective",
+          "identity_link": "same person as H2 Qin-state 秦王政"
+        },
+        {
+          "name": "胡亥",
+          "titles": [
+            "秦二世"
+          ],
+          "existing_skill": "skills/qin/ershi-perspective"
+        },
+        {
+          "name": "子婴",
+          "titles": [
+            "秦王/秦三世（后世表称）"
+          ],
+          "existing_skill": "skills/qin/ziying-perspective",
+          "qa": "title/status terminology varies; actual final Qin supreme rule is the inclusion basis"
+        }
+      ]
+    },
+    {
+      "id": "chu-han-transition",
+      "name": "秦末楚汉竞争政权",
+      "persons": [
+        {
+          "name": "熊心",
+          "titles": [
+            "楚怀王",
+            "楚义帝"
+          ],
+          "existing_skill": "skills/chuhan/yidi-perspective",
+          "layer": "CORE"
+        },
+        {
+          "name": "项羽",
+          "titles": [
+            "西楚霸王"
+          ],
+          "existing_skill": "skills/chuhan/xiangyu-perspective",
+          "layer": "CORE",
+          "basis": "highest ruler of Western Chu; imperial title not required"
+        },
+        {
+          "name": "刘邦",
+          "titles": [
+            "汉王",
+            "皇帝/汉高祖"
+          ],
+          "existing_skill": "skills/xihan/liubang-perspective",
+          "layer": "CORE",
+          "identity_link": "one person; Han-king and imperial episodes"
+        },
+        {
+          "name": "陈胜",
+          "titles": [
+            "张楚王"
+          ],
+          "existing_skill": null,
+          "layer": "CORE_REVIEW",
+          "basis": "founded Zhang Chu with territorial government; verify duration/control under common rule"
+        },
+        {
+          "name": "韩广",
+          "titles": [
+            "燕王"
+          ],
+          "existing_skill": null,
+          "layer": "CORE_REVIEW"
+        },
+        {
+          "name": "赵歇",
+          "titles": [
+            "赵王"
+          ],
+          "existing_skill": null,
+          "layer": "CORE_REVIEW"
+        },
+        {
+          "name": "魏咎",
+          "titles": [
+            "魏王"
+          ],
+          "existing_skill": null,
+          "layer": "CORE_REVIEW"
+        },
+        {
+          "name": "魏豹",
+          "titles": [
+            "魏王"
+          ],
+          "existing_skill": null,
+          "layer": "CORE_REVIEW"
+        },
+        {
+          "name": "田儋",
+          "titles": [
+            "齐王"
+          ],
+          "existing_skill": null,
+          "layer": "CORE_REVIEW"
+        },
+        {
+          "name": "田市",
+          "titles": [
+            "齐王"
+          ],
+          "existing_skill": null,
+          "layer": "CORE_REVIEW"
+        },
+        {
+          "name": "田荣",
+          "titles": [
+            "齐王"
+          ],
+          "existing_skill": null,
+          "layer": "CORE_REVIEW"
+        },
+        {
+          "name": "田广",
+          "titles": [
+            "齐王"
+          ],
+          "existing_skill": null,
+          "layer": "CORE_REVIEW"
+        }
+      ],
+      "qa": "Eighteen Kingdoms/anti-Qin restoration rulers require full systematic enumeration; this list is not yet complete."
+    },
+    {
+      "id": "western-han",
+      "name": "西汉",
+      "persons": [
+        {
+          "name": "刘邦",
+          "title": "高祖",
+          "existing_skill": "skills/xihan/liubang-perspective"
+        },
+        {
+          "name": "刘盈",
+          "title": "惠帝",
+          "existing_skill": "skills/xihan/liuying-perspective"
+        },
+        {
+          "name": "刘恭",
+          "title": "少帝恭",
+          "existing_skill": "skills/xihan/liugong-perspective"
+        },
+        {
+          "name": "刘弘",
+          "title": "少帝弘",
+          "existing_skill": "skills/xihan/liuhong-perspective"
+        },
+        {
+          "name": "刘恒",
+          "title": "文帝",
+          "existing_skill": "skills/xihan/liuheng-xihan-perspective"
+        },
+        {
+          "name": "刘启",
+          "title": "景帝",
+          "existing_skill": "skills/xihan/liuqi-perspective"
+        },
+        {
+          "name": "刘彻",
+          "title": "武帝",
+          "existing_skill": "skills/xihan/liuche-perspective"
+        },
+        {
+          "name": "刘弗陵",
+          "title": "昭帝",
+          "existing_skill": "skills/xihan/liufoling-perspective"
+        },
+        {
+          "name": "刘贺",
+          "title": "昌邑王/废帝",
+          "existing_skill": "skills/xihan/liuhe-perspective",
+          "basis": "actual enthronement despite 27-day reign"
+        },
+        {
+          "name": "刘询",
+          "title": "宣帝",
+          "existing_skill": "skills/xihan/liuxun-perspective"
+        },
+        {
+          "name": "刘奭",
+          "title": "元帝",
+          "existing_skill": "skills/xihan/liushi-perspective"
+        },
+        {
+          "name": "刘骜",
+          "title": "成帝",
+          "existing_skill": "skills/xihan/liuao-perspective"
+        },
+        {
+          "name": "刘欣",
+          "title": "哀帝",
+          "existing_skill": "skills/xihan/liuxin-perspective"
+        },
+        {
+          "name": "刘衎",
+          "title": "平帝",
+          "existing_skill": "skills/xihan/liukan-perspective"
+        },
+        {
+          "name": "刘婴",
+          "title": "孺子婴",
+          "existing_skill": "skills/xihan/ruziying-perspective",
+          "qa": "regency/nominal-sovereign status encoded separately; preserve because existing corpus and official chronology treat the episode distinctly"
+        }
+      ]
+    },
+    {
+      "id": "xin",
+      "name": "新",
+      "persons": [
+        {
+          "name": "王莽",
+          "title": "新皇帝",
+          "existing_skill": null,
+          "layer": "CORE"
+        }
+      ]
+    },
+    {
+      "id": "gengshi",
+      "name": "更始政权/玄汉",
+      "persons": [
+        {
+          "name": "刘玄",
+          "title": "更始帝",
+          "existing_skill": null,
+          "layer": "CORE"
+        }
+      ]
+    },
+    {
+      "id": "chimei-han",
+      "name": "赤眉汉",
+      "persons": [
+        {
+          "name": "刘盆子",
+          "title": "建世帝",
+          "existing_skill": null,
+          "layer": "CORE",
+          "qa": "puppet/agency is a model-quality issue, not grounds to erase the sovereign episode"
+        }
+      ]
+    },
+    {
+      "id": "chengjia",
+      "name": "成家",
+      "persons": [
+        {
+          "name": "公孙述",
+          "title": "白帝",
+          "existing_skill": null,
+          "layer": "CORE",
+          "basis": "sustained independent regime in Sichuan during Han restoration"
+        }
+      ]
+    },
+    {
+      "id": "transition-review",
+      "name": "两汉之际其他竞争政权",
+      "persons": [
+        {
+          "name": "王郎",
+          "title": "皇帝",
+          "layer": "CORE_REVIEW"
+        },
+        {
+          "name": "卢芳",
+          "title": "皇帝",
+          "layer": "CORE_REVIEW"
+        }
+      ],
+      "qa": "Systematically enumerate other actual sovereign entities; do not include every rebel who merely assumed a title."
+    },
+    {
+      "id": "eastern-han",
+      "name": "东汉",
+      "persons": [
+        {
+          "name": "刘秀",
+          "title": "光武帝",
+          "existing_skill": "skills/donghan/guangwudi-perspective"
+        },
+        {
+          "name": "刘庄",
+          "title": "明帝",
+          "existing_skill": "skills/donghan/mingdi-perspective"
+        },
+        {
+          "name": "刘炟",
+          "title": "章帝",
+          "existing_skill": "skills/donghan/zhangdi-perspective"
+        },
+        {
+          "name": "刘肇",
+          "title": "和帝",
+          "existing_skill": "skills/donghan/hedi-perspective"
+        },
+        {
+          "name": "刘隆",
+          "title": "殇帝",
+          "existing_skill": "skills/donghan/shangdi-perspective"
+        },
+        {
+          "name": "刘祜",
+          "title": "安帝",
+          "existing_skill": "skills/donghan/andi-perspective"
+        },
+        {
+          "name": "刘懿",
+          "title": "北乡侯",
+          "existing_skill": null,
+          "layer": "CORE",
+          "basis": "official chronology records enthroned rule in 125; existing 13-skill corpus omits him"
+        },
+        {
+          "name": "刘保",
+          "title": "顺帝",
+          "existing_skill": "skills/donghan/shundi-perspective"
+        },
+        {
+          "name": "刘炳",
+          "title": "冲帝",
+          "existing_skill": "skills/donghan/chongdi-perspective"
+        },
+        {
+          "name": "刘缵",
+          "title": "质帝",
+          "existing_skill": "skills/donghan/zhidi-perspective"
+        },
+        {
+          "name": "刘志",
+          "title": "桓帝",
+          "existing_skill": "skills/donghan/huandi-perspective"
+        },
+        {
+          "name": "刘宏",
+          "title": "灵帝",
+          "existing_skill": "skills/donghan/lingdi-perspective"
+        },
+        {
+          "name": "刘辩",
+          "title": "少帝/弘农王",
+          "existing_skill": "skills/donghan/shaodi-perspective"
+        },
+        {
+          "name": "刘协",
+          "title": "献帝",
+          "existing_skill": "skills/donghan/xiandi-perspective"
+        }
+      ]
+    }
+  ],
+  "coverage_findings": {
+    "existing_qin": 3,
+    "existing_chuhan": 2,
+    "existing_xihan": 15,
+    "existing_donghan": 13,
+    "confirmed_missing_primary": [
+      "王莽",
+      "刘玄",
+      "刘盆子",
+      "公孙述",
+      "刘懿（北乡侯）"
+    ],
+    "note": "Missing list grows after full Qin-collapse and Han-restoration parallel-polity enumeration."
+  },
+  "qa_open": [
+    "Complete all Qin-collapse restoration states/Eighteen Kingdoms using actual-rule test.",
+    "Resolve whether nominal regency cases such as 孺子婴 belong CORE or EXTENDED while preserving identity.",
+    "Enumerate Nanyue/Minyue/Dong'ou and other long-lived parallel Chinese-historiographic polities under a separate geographic-scope review, rather than silently omit them."
+  ]
+}
