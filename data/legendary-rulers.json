@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "layer": "LEGENDARY",
+  "policy": "Traditional ruler figures are included for maximal-set completeness but are excluded from historical CORE completion. Their records model transmitted cultural traditions, not verified historical personalities.",
+  "persons": [
+    {"name":"盘古氏","status":"traditional-mythic","distillation":"LIMITED-EVIDENCE"},
+    {"name":"天皇氏","status":"traditional-mythic","distillation":"LIMITED-EVIDENCE"},
+    {"name":"地皇氏","status":"traditional-mythic","distillation":"LIMITED-EVIDENCE"},
+    {"name":"人皇氏","status":"traditional-mythic","distillation":"LIMITED-EVIDENCE"},
+    {"name":"有巢氏","status":"traditional-mythic","distillation":"LIMITED-EVIDENCE"},
+    {"name":"燧人氏","status":"traditional-mythic","distillation":"LIMITED-EVIDENCE"},
+    {"name":"伏羲氏","aliases":["伏羲"],"status":"traditional-legendary","distillation":"LIMITED-EVIDENCE"},
+    {"name":"女娲氏","aliases":["女娲"],"status":"traditional-mythic","distillation":"LIMITED-EVIDENCE"},
+    {"name":"神农氏","aliases":["炎帝"],"status":"traditional-legendary","distillation":"LIMITED-EVIDENCE","note":"炎帝/神农同一性依传统版本而异，保留 alias/variant，不强制历史实体同一。"},
+    {"name":"黄帝轩辕氏","aliases":["黄帝","轩辕氏"],"status":"traditional-legendary","distillation":"LIMITED-EVIDENCE"},
+    {"name":"少昊金天氏","aliases":["少昊"],"status":"traditional-legendary","distillation":"LIMITED-EVIDENCE"},
+    {"name":"颛顼高阳氏","aliases":["颛顼"],"status":"traditional-legendary","distillation":"LIMITED-EVIDENCE"},
+    {"name":"帝喾高辛氏","aliases":["帝喾"],"status":"traditional-legendary","distillation":"LIMITED-EVIDENCE"},
+    {"name":"帝挚高辛氏","aliases":["帝挚"],"status":"traditional-legendary","distillation":"LIMITED-EVIDENCE"},
+    {"name":"唐尧","aliases":["尧","帝尧"],"status":"traditional-legendary","distillation":"LIMITED-EVIDENCE"},
+    {"name":"虞舜","aliases":["舜","帝舜"],"status":"traditional-legendary","distillation":"LIMITED-EVIDENCE"}
+  ],
+  "variant_policy": "Additional pre-Huangdi traditional ruler sequences may be added when attested in named transmitted traditions. Conflicting sequences coexist as tradition variants; no synthetic chronology is presented as fact."
+}
