@@ -1,0 +1,318 @@
+{
+  "schema_version": "1.0",
+  "batch": "H10-ming-southern-ming-transition",
+  "status": "MING_COMPLETE_SOUTHERN_MING_AND_TRANSITION_ENUMERATED_V1_QA_OPEN",
+  "principle": "The 1644 transition is modeled as overlapping rule episodes, not a one-line dynasty handoff. Southern Ming regents and rival regimes are evaluated by actual supreme rule, not emperor title or later recognition.",
+  "polities": [
+    {
+      "id": "ming",
+      "name": "明",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "朱元璋",
+          "existing_skill": "skills/ming/zhuyuanzhang-perspective",
+          "identity_link": "same person as H9 Wu episode"
+        },
+        {
+          "name": "朱允炆",
+          "existing_skill": "skills/ming/zhuyunwen-perspective"
+        },
+        {
+          "name": "朱棣",
+          "existing_skill": "skills/ming/zhudi-perspective"
+        },
+        {
+          "name": "朱高炽",
+          "existing_skill": "skills/ming/zhugaochi-perspective"
+        },
+        {
+          "name": "朱瞻基",
+          "existing_skill": "skills/ming/zhuzhanji-perspective"
+        },
+        {
+          "name": "朱祁镇",
+          "existing_skill": "skills/ming/zhuqizhen-perspective",
+          "qa": "two reign episodes"
+        },
+        {
+          "name": "朱祁钰",
+          "existing_skill": "skills/ming/zhuqiyu-perspective"
+        },
+        {
+          "name": "朱见深",
+          "existing_skill": "skills/ming/zhujianshen-perspective"
+        },
+        {
+          "name": "朱祐樘",
+          "existing_skill": "skills/ming/zhuyoutang-perspective"
+        },
+        {
+          "name": "朱厚照",
+          "existing_skill": "skills/ming/zhuhouzhao-perspective"
+        },
+        {
+          "name": "朱厚熜",
+          "existing_skill": "skills/ming/zhuhoucong-perspective"
+        },
+        {
+          "name": "朱载坖",
+          "existing_skill": "skills/ming/zhuzaihou-perspective"
+        },
+        {
+          "name": "朱翊钧",
+          "existing_skill": "skills/ming/zhuyijun-perspective"
+        },
+        {
+          "name": "朱常洛",
+          "existing_skill": "skills/ming/zhuchangluo-perspective"
+        },
+        {
+          "name": "朱由校",
+          "existing_skill": "skills/ming/zhuyouxiao-perspective"
+        },
+        {
+          "name": "朱由检",
+          "existing_skill": "skills/ming/zhuyoujian-perspective"
+        }
+      ],
+      "coverage": {
+        "existing": 16,
+        "missing": []
+      }
+    },
+    {
+      "id": "southern-ming-imperial",
+      "name": "南明皇帝",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "朱由崧",
+          "titles": [
+            "弘光帝"
+          ]
+        },
+        {
+          "name": "朱聿键",
+          "titles": [
+            "隆武帝"
+          ]
+        },
+        {
+          "name": "朱聿鐭",
+          "titles": [
+            "绍武帝"
+          ],
+          "aliases": [
+            "朱聿𨮁",
+            "朱聿粤"
+          ]
+        },
+        {
+          "name": "朱由榔",
+          "titles": [
+            "永历帝"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "southern-ming-regencies",
+      "name": "南明监国/并立政权",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "朱以海",
+          "titles": [
+            "鲁王监国"
+          ],
+          "status": "CORE",
+          "episode": "1645-1653",
+          "reason": "sustained competing court and territorial/military government; imperial title not required"
+        },
+        {
+          "name": "朱常淓",
+          "titles": [
+            "潞王监国"
+          ],
+          "episode": "1645 brief",
+          "status": "CORE_REVIEW"
+        },
+        {
+          "name": "朱亨嘉",
+          "titles": [
+            "靖江王/监国"
+          ],
+          "episode": "1645",
+          "status": "CORE_REVIEW"
+        },
+        {
+          "name": "朱常清",
+          "titles": [
+            "淮王/东武监国"
+          ],
+          "episode": "1648",
+          "status": "CORE_REVIEW"
+        },
+        {
+          "name": "朱容藩",
+          "titles": [
+            "楚世子/自称监国"
+          ],
+          "episode": "1649",
+          "status": "CORE_REVIEW"
+        },
+        {
+          "name": "朱慈𤆃",
+          "titles": [
+            "益王监国"
+          ],
+          "episode": "1645",
+          "status": "CORE_REVIEW"
+        },
+        {
+          "name": "朱由榛",
+          "titles": [
+            "监国"
+          ],
+          "episode": "1647",
+          "status": "CORE_REVIEW"
+        }
+      ],
+      "qa": "Some ultra-short claimants may fail actual-control test; retain candidate until evidence-based exclusion."
+    },
+    {
+      "id": "dashun",
+      "name": "大顺",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "李自成",
+          "titles": [
+            "大顺皇帝"
+          ],
+          "episode": "1644-1645"
+        }
+      ],
+      "successor_review": [
+        {
+          "name": "李过",
+          "status": "EXCLUDE_OR_EXTENDED_REVIEW",
+          "reason": "post-Li Zicheng military leadership of remnants; no automatic sovereign succession"
+        },
+        {
+          "name": "李自敬",
+          "status": "EXCLUDE_OR_EXTENDED_REVIEW",
+          "reason": "do not infer ruler status from kinship"
+        }
+      ]
+    },
+    {
+      "id": "daxi",
+      "name": "大西",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "张献忠",
+          "titles": [
+            "大西皇帝"
+          ],
+          "episode": "1644-1647"
+        }
+      ],
+      "successor_review": [
+        {
+          "name": "孙可望",
+          "status": "CORE_REVIEW",
+          "episode": "1647 continuation of Daxi before dropping state name",
+          "reason": "source records Daxi remnant retaining state/era name briefly after Zhang's death; verify whether Sun was the person-level supreme ruler"
+        }
+      ]
+    },
+    {
+      "id": "later-jin",
+      "name": "后金",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "努尔哈赤",
+          "titles": [
+            "天命汗"
+          ],
+          "existing_skill": "skills/qing/nurhaci-perspective",
+          "identity_link": "same person as Qing corpus predecessor episode"
+        },
+        {
+          "name": "皇太极",
+          "titles": [
+            "天聪汗"
+          ],
+          "existing_skill": "skills/qing/hongtaiji-perspective",
+          "identity_link": "same person later founds Qing state-name episode in H11"
+        }
+      ]
+    },
+    {
+      "id": "ming-zheng",
+      "name": "明郑/东宁",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "郑成功",
+          "titles": [
+            "延平王"
+          ],
+          "episode": "1661-1662"
+        },
+        {
+          "name": "郑经",
+          "titles": [
+            "延平王"
+          ],
+          "episode": "1662-1681"
+        },
+        {
+          "name": "郑克塽",
+          "titles": [
+            "延平王"
+          ],
+          "episode": "1681-1683"
+        }
+      ],
+      "reason": "Actual autonomous Taiwan polity while formally using Southern Ming legitimacy. Encode recognition and claimed allegiance separately from actual supreme control.",
+      "qa": [
+        "郑袭 brief succession conflict and 郑克臧 designated succession do not automatically become sovereign persons; verify actual episode."
+      ]
+    },
+    {
+      "id": "other-transition-review",
+      "name": "明清鼎革其他实际政权",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "刘守分",
+          "polity": "不详/地方称帝政权",
+          "status": "DISCOVERY_REQUIRED"
+        },
+        {
+          "name": "王光泰等夔东集团",
+          "status": "NOT_PERSON_ENUMERATED",
+          "reason": "military coalition does not imply a single sovereign polity; research before inclusion"
+        }
+      ]
+    }
+  ],
+  "existing_skill_coverage": {
+    "ming": 16,
+    "standard_ming_missing": [],
+    "southern_ming_dedicated": 0,
+    "dashun": 0,
+    "daxi": 0,
+    "note": "Nurhaci/Hong Taiji already exist under Qing directory but require multi-episode identity mapping rather than duplicate Skills."
+  },
+  "qa_open": [
+    "Verify every Southern Ming short regency against actual territorial/government control.",
+    "Resolve Ming Zheng CORE vs EXTENDED with one global autonomy-under-claimed-overlord rule.",
+    "Do not create separate person entries for Zhu Qizhen's two reigns or Hong Taiji's Later Jin/Qing title change."
+  ]
+}
