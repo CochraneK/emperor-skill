@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "batch": "H2-H3-preqin-other-polities",
+  "status": "ENUMERATION_IN_PROGRESS",
+  "purpose": "Prevent the maximum-set build from collapsing into only the famous states. These polities must be enumerated and admitted by the same actual-autonomous-rule test.",
+  "candidate_polities": [
+    {
+      "name": "杞",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "许",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "邾",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "莒",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "滕",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "薛",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "郳/小邾",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "唐",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "贾",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "胡",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "聃",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "郯",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "南燕",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "徐",
+      "status": "ENUMERATE_NEXT",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "巴",
+      "status": "SOURCE_DISCOVERY",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "蜀",
+      "status": "SOURCE_DISCOVERY",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "虢",
+      "status": "SOURCE_DISCOVERY",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    },
+    {
+      "name": "虞",
+      "status": "SOURCE_DISCOVERY",
+      "default_layer": "CORE_IF_AUTONOMOUS"
+    }
+  ],
+  "admission_note": "Small size, later destruction, non-king title, or absence from 'Five Hegemons/Seven Powers' lists is not an exclusion reason. Actual autonomous sovereignty is the criterion.",
+  "qa": [
+    "Avoid inventing missing names where genealogies are fragmentary.",
+    "Founders receiving a fief but never exercising local rule need episode verification.",
+    "Merge identical persons appearing under multiple polity traditions.",
+    "Record explicit exclusion reason for candidates that fail the sovereignty test."
+  ]
+}
