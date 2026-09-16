@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "batch": "H9-mongol-yuan-late-yuan-rivals",
+  "status": "MONGOL_YUAN_SEQUENCE_ENUMERATED_V1_LATE_YUAN_RIVALS_ENUMERATED_V1_QA_OPEN",
+  "principle": "Mongol imperial succession, Yuan dynastic succession, competing khaganates, and late-Yuan Chinese rival regimes are represented as person-level rule episodes. Posthumous Yuan titles do not create rulers.",
+  "polities": [
+    {
+      "id": "great-mongol-state",
+      "name": "大蒙古国",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "铁木真",
+          "titles": [
+            "成吉思汗"
+          ],
+          "existing_skill": "skills/yuan/temujin-perspective"
+        },
+        {
+          "name": "窝阔台",
+          "existing_skill": "skills/yuan/ogodei-perspective"
+        },
+        {
+          "name": "贵由",
+          "existing_skill": "skills/yuan/guyuk-perspective"
+        },
+        {
+          "name": "蒙哥",
+          "existing_skill": "skills/yuan/mongke-perspective"
+        }
+      ],
+      "regency_extended": [
+        {
+          "name": "拖雷",
+          "status": "EXTENDED",
+          "episode": "1227-1229监国",
+          "reason": "highest acting authority between khagans; encode as regency rather than posthumous emperor"
+        },
+        {
+          "name": "脱列哥那",
+          "status": "EXTENDED",
+          "episode": "1242-1246称制/摄政"
+        },
+        {
+          "name": "海迷失",
+          "status": "EXTENDED",
+          "episode": "1248-1251摄政"
+        }
+      ],
+      "competing_succession": [
+        {
+          "name": "阿里不哥",
+          "status": "CORE",
+          "episode": "1260-1264 competing Great Khan",
+          "reason": "rival kurultai elected him and he exercised actual sovereign control; defeat does not erase episode"
+        },
+        {
+          "name": "忽必烈",
+          "status": "CORE",
+          "episode": "1260-1271 Great Khan before Yuan proclamation",
+          "identity_link": "same person as Yuan founder"
+        }
+      ]
+    },
+    {
+      "id": "yuan",
+      "name": "大元",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "忽必烈",
+          "existing_skill": "skills/yuan/hubilie-perspective"
+        },
+        {
+          "name": "铁穆耳",
+          "existing_skill": "skills/yuan/temuer-perspective"
+        },
+        {
+          "name": "海山",
+          "existing_skill": "skills/yuan/haishan-perspective"
+        },
+        {
+          "name": "爱育黎拔力八达",
+          "existing_skill": "skills/yuan/ayurbarwada-perspective"
+        },
+        {
+          "name": "硕德八剌",
+          "existing_skill": "skills/yuan/shidibala-perspective"
+        },
+        {
+          "name": "也孙铁木儿",
+          "existing_skill": "skills/yuan/yesuntemuer-perspective"
+        },
+        {
+          "name": "阿速吉八",
+          "aliases": [
+            "阿速吉八/阿剌吉八",
+            "Ragibagh"
+          ],
+          "existing_skill": "skills/yuan/ashuqibu-perspective",
+          "qa": "stable transliteration aliases required"
+        },
+        {
+          "name": "图帖睦尔",
+          "existing_skill": "skills/yuan/tutemuer-perspective",
+          "qa": "two reign episodes"
+        },
+        {
+          "name": "和世㻋",
+          "aliases": [
+            "和世琜",
+            "和世㻋"
+          ],
+          "existing_skill": "skills/yuan/hoshila-perspective"
+        },
+        {
+          "name": "懿璘质班",
+          "existing_skill": "skills/yuan/yilinzhiban-perspective"
+        },
+        {
+          "name": "妥懽帖睦尔",
+          "aliases": [
+            "脱欢帖木儿"
+          ],
+          "existing_skill": "skills/yuan/toghontemur-perspective"
+        }
+      ],
+      "qa": [
+        "1328两都之战的阿速吉八 vs 图帖睦尔是并立 episode，不按胜败删除",
+        "图帖睦尔复位为 one person/multiple episodes"
+      ]
+    },
+    {
+      "id": "northern-yuan",
+      "name": "北元/1368后大元残余",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "妥懽帖睦尔",
+          "identity_link": "same Yuan person; post-1368 northern episode"
+        },
+        {
+          "name": "爱猷识理达腊",
+          "titles": [
+            "必里克图汗"
+          ]
+        },
+        {
+          "name": "脱古思帖木儿",
+          "titles": [
+            "乌萨哈尔汗"
+          ]
+        }
+      ],
+      "qa": "Whether post-1368 Northern Yuan remains in historical CORE or moves to EXTENDED is a geographic/polity-continuity decision; do not duplicate Toghon Temur."
+    },
+    {
+      "id": "han-song",
+      "name": "韩宋",
+      "layer": "CORE",
+      "persons": [
+        "韩林儿"
+      ],
+      "reason": "1355-1366 rival central regime with institutions and territorial control; later dependency on Zhu Yuanzhang is episode metadata, not retroactive erasure."
+    },
+    {
+      "id": "tianwan",
+      "name": "天完/徐宋",
+      "layer": "CORE",
+      "persons": [
+        "徐寿辉"
+      ],
+      "reason": "1351-1360 established state institutions and controlled substantial territory."
+    },
+    {
+      "id": "chen-han",
+      "name": "陈汉",
+      "layer": "CORE",
+      "persons": [
+        "陈友谅",
+        "陈理"
+      ],
+      "reason": "1360-1364 independent imperial regime succeeding Tianwan."
+    },
+    {
+      "id": "ming-xia",
+      "name": "明夏/大夏",
+      "layer": "CORE",
+      "persons": [
+        "明玉珍",
+        "明昇"
+      ],
+      "reason": "1363-1371 sustained independent Sichuan polity."
+    },
+    {
+      "id": "zhang-zhou-wu",
+      "name": "张士诚大周/吴",
+      "layer": "CORE",
+      "persons": [
+        "张士诚"
+      ],
+      "reason": "1354 Great Zhou and later Wu rule over a durable Jiangnan polity; title changes are episodes of one person."
+    },
+    {
+      "id": "zhu-wu",
+      "name": "朱元璋吴政权",
+      "layer": "CORE",
+      "persons": [
+        "朱元璋"
+      ],
+      "reason": "pre-1368 Wu King/competing regime episode; same person continues as Ming founder in H10."
+    },
+    {
+      "id": "late-yuan-regional-review",
+      "name": "元末其他自治政权",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "方国珍",
+          "polity": "浙东割据政权",
+          "reason": "long-lived actual regional autonomy but repeatedly accepted Yuan/Ming titles; verify whether highest-sovereign threshold is met"
+        },
+        {
+          "name": "王保保/扩廓帖木儿",
+          "status": "EXCLUDE_PENDING_EVIDENCE",
+          "reason": "powerful Yuan commander, not automatically a sovereign polity ruler"
+        }
+      ]
+    }
+  ],
+  "identity_and_scope_rules": [
+    "追尊元皇帝的也速该、真金、答剌麻八剌等没有 lifetime sovereign episode，不因庙号进入 ruler denominator。",
+    "拖雷、脱列哥那、海迷失 encode as regency EXTENDED unless global regency policy later promotes them.",
+    "朱元璋 appears once in final person master with Wu and Ming episodes.",
+    "妥懽帖睦尔 appears once with pre- and post-1368 episodes if Northern Yuan retained."
+  ],
+  "existing_skill_coverage": {
+    "existing_yuan_directory": 15,
+    "mapped_existing": "4 Great Mongol khagans + 11 Yuan dynastic rulers",
+    "confirmed_missing_core_or_core_review": [
+      "阿里不哥",
+      "韩林儿",
+      "徐寿辉",
+      "陈友谅",
+      "陈理",
+      "明玉珍",
+      "明昇",
+      "张士诚"
+    ],
+    "missing_extended_regents": [
+      "拖雷",
+      "脱列哥那",
+      "海迷失"
+    ],
+    "northern_yuan_missing_if_in_scope": [
+      "爱猷识理达腊",
+      "脱古思帖木儿"
+    ]
+  },
+  "qa_open": [
+    "Resolve Northern Yuan layer after a global geographic-continuity rule.",
+    "Complete late-Yuan smaller autonomous polities using actual-sovereignty criteria.",
+    "Normalize Mongolian transliterations across existing Skill slugs and Chinese aliases."
+  ]
+}
