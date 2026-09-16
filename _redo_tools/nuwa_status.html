@@ -1,0 +1,387 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<title>nuwa 合规现状 · emperor-skill</title><style>
+body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f7f8fa;color:#1a1d21;margin:0;padding:28px}
+h1{font-size:22px;margin:0 0 4px}h2{font-size:17px;margin:28px 0 10px;padding-left:9px;border-left:4px solid #2f6feb}
+.sub{color:#5b6472;font-size:13px;margin-bottom:18px}
+.cards{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0 6px}
+.card{background:#fff;border:1px solid #e3e6ec;border-radius:10px;padding:12px 16px;min-width:118px}
+.card .n{font-size:24px;font-weight:700}.card .l{font-size:12px;color:#5b6472;margin-top:2px}
+.ok{color:#1a7f37}.bad{color:#b42318}.warn{color:#b54708}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:13px;border:1px solid #e3e6ec;border-radius:8px;overflow:hidden}
+th{background:#f0f2f5;text-align:left;padding:8px 10px;font-weight:600;border-bottom:1px solid #e3e6ec}
+td{padding:7px 10px;border-bottom:1px solid #f0f2f5;vertical-align:top}
+tr:last-child td{border-bottom:none}
+.dyn{font-weight:600;color:#2f6feb}
+.mono{font-family:Consolas,monospace;font-size:12px}
+.tag{display:inline-block;padding:1px 7px;border-radius:10px;font-size:11px;margin-right:5px}
+.t-bad{background:#fee4e2;color:#b42318}.t-susp{background:#fef0c7;color:#b54708}
+.t-ok{background:#d1fadf;color:#1a7f37}
+details{margin:8px 0}summary{cursor:pointer;font-size:14px;padding:6px 0;color:#2f6feb}
+.chips{line-height:2}
+.chip{display:inline-block;background:#fff;border:1px solid #e3e6ec;border-radius:6px;padding:2px 8px;margin:2px 4px 2px 0;font-size:12px;font-family:Consolas,monospace}
+</style></head><body>
+<h1>nuwa 合规现状 · emperor-skill 全仓</h1>
+<div class='sub'>判定口径：8 文件 ＋ 六维各 ≥2.5KB 且带排除声明 ＋ quality_check 实跑 6/6 ＋ SKILL.md&gt;1KB ＋ 「诚实边界」恰 1 次 ＋ module/group 非空。生成时间 2026-09-16 23:40</div>
+<div class='cards'>
+<div class='card'><div class='n'>266</div><div class='l'>包总数</div></div>
+<div class='card'><div class='n ok'>174</div><div class='l'>完全符合</div></div>
+<div class='card'><div class='n bad'>92</div><div class='l'>要重来（体量不足）</div></div>
+<div class='card'><div class='n warn'>39</div><div class='l'>倒序嫌疑（流程倒）</div></div>
+</div>
+<div class='sub'>倒序嫌疑 39 个中：38 个结构已合规（只需按六维重蒸馏 SKILL.md），1 个已在「要重来」队列（扩写时一并正序）。</div>
+<h2>一、逐朝总览</h2><table><tr><th>朝代</th><th>完全符合</th><th>要重来</th><th>合计</th><th>状态</th></tr>
+<tr><td class='dyn'>夏 <span class='mono'>xia</span></td><td class='ok'>17</td><td class=''>0</td><td>17</td><td class='ok'>全线达标</td></tr>
+<tr><td class='dyn'>商 <span class='mono'>shang</span></td><td class='ok'>31</td><td class=''>0</td><td>31</td><td class='ok'>全线达标</td></tr>
+<tr><td class='dyn'>周 <span class='mono'>zhou</span></td><td class='ok'>27</td><td class='bad'>10</td><td>37</td><td class='warn'>部分待修</td></tr>
+<tr><td class='dyn'>秦 <span class='mono'>qin</span></td><td class='ok'>2</td><td class='bad'>1</td><td>3</td><td class='warn'>部分待修</td></tr>
+<tr><td class='dyn'>楚汉 <span class='mono'>chuhan</span></td><td class='ok'>2</td><td class=''>0</td><td>2</td><td class='ok'>全线达标</td></tr>
+<tr><td class='dyn'>西汉 <span class='mono'>xihan</span></td><td class='ok'>15</td><td class=''>0</td><td>15</td><td class='ok'>全线达标</td></tr>
+<tr><td class='dyn'>东汉 <span class='mono'>donghan</span></td><td class='ok'>4</td><td class='bad'>9</td><td>13</td><td class='warn'>部分待修</td></tr>
+<tr><td class='dyn'>三国 <span class='mono'>sanguo</span></td><td class='ok'>11</td><td class=''>0</td><td>11</td><td class='ok'>全线达标</td></tr>
+<tr><td class='dyn'>两晋 <span class='mono'>jin</span></td><td class='ok'>15</td><td class=''>0</td><td>15</td><td class='ok'>全线达标</td></tr>
+<tr><td class='dyn'>南北朝 <span class='mono'>nanbeichao</span></td><td class='ok'>37</td><td class=''>0</td><td>37</td><td class='ok'>全线达标</td></tr>
+<tr><td class='dyn'>隋 <span class='mono'>sui</span></td><td class=''>0</td><td class='bad'>3</td><td>3</td><td class='bad'>整朝待修</td></tr>
+<tr><td class='dyn'>唐 <span class='mono'>tang</span></td><td class=''>0</td><td class='bad'>21</td><td>21</td><td class='bad'>整朝待修</td></tr>
+<tr><td class='dyn'>宋 <span class='mono'>song</span></td><td class=''>0</td><td class='bad'>18</td><td>18</td><td class='bad'>整朝待修</td></tr>
+<tr><td class='dyn'>元 <span class='mono'>yuan</span></td><td class='ok'>8</td><td class='bad'>7</td><td>15</td><td class='warn'>部分待修</td></tr>
+<tr><td class='dyn'>明 <span class='mono'>ming</span></td><td class='ok'>5</td><td class='bad'>11</td><td>16</td><td class='warn'>部分待修</td></tr>
+<tr><td class='dyn'>清 <span class='mono'>qing</span></td><td class=''>0</td><td class='bad'>12</td><td>12</td><td class='bad'>整朝待修</td></tr>
+</table>
+<h2>二、要重来的 92 个包（卡点：底稿体量不足 2.5KB）</h2>
+<div class='sub'>「需补」= 把该包全部不足的底稿补到 2.5KB 所需的字节总量。凡标 <span class='tag t-susp'>倒序</span> 者，重做时须按六维→SKILL.md 正序。</div>
+<table><tr><th>朝代</th><th>包</th><th>缺口份数</th><th>需补(约)</th><th>具体卡点</th></tr>
+<tr><td class='dyn'>东汉</td><td class='mono'>chongdi-perspective </td><td>6</td><td>4022B</td><td>01-writings 仅 2038B（需补 ≥462B）；02-conversations 仅 1857B（需补 ≥643B）；03-expression-dna 仅 1596B（需补 ≥904B）；04-external-views 仅 1774B（需补 ≥726B）；05-decisions 仅 1993B（需补 ≥507B）；06-timeline 仅 1720B（需补 ≥780B）</td></tr>
+<tr><td class='dyn'>东汉</td><td class='mono'>shaodi-perspective </td><td>4</td><td>2324B</td><td>03-expression-dna 仅 2004B（需补 ≥496B）；04-external-views 仅 1860B（需补 ≥640B）；05-decisions 仅 2142B（需补 ≥358B）；06-timeline 仅 1670B（需补 ≥830B）</td></tr>
+<tr><td class='dyn'>东汉</td><td class='mono'>shangdi-perspective </td><td>5</td><td>1818B</td><td>02-conversations 仅 2481B（需补 ≥19B）；03-expression-dna 仅 1906B（需补 ≥594B）；04-external-views 仅 2039B（需补 ≥461B）；05-decisions 仅 2123B（需补 ≥377B）；06-timeline 仅 2133B（需补 ≥367B）</td></tr>
+<tr><td class='dyn'>东汉</td><td class='mono'>zhidi-perspective </td><td>3</td><td>1140B</td><td>01-writings 仅 2041B（需补 ≥459B）；03-expression-dna 仅 1825B（需补 ≥675B）；04-external-views 仅 2494B（需补 ≥6B）</td></tr>
+<tr><td class='dyn'>东汉</td><td class='mono'>xiandi-perspective </td><td>3</td><td>970B</td><td>01-writings 仅 2357B（需补 ≥143B）；03-expression-dna 仅 2172B（需补 ≥328B）；04-external-views 仅 2001B（需补 ≥499B）</td></tr>
+<tr><td class='dyn'>东汉</td><td class='mono'>lingdi-perspective </td><td>1</td><td>350B</td><td>03-expression-dna 仅 2150B（需补 ≥350B）</td></tr>
+<tr><td class='dyn'>东汉</td><td class='mono'>huandi-perspective </td><td>1</td><td>234B</td><td>03-expression-dna 仅 2266B（需补 ≥234B）</td></tr>
+<tr><td class='dyn'>东汉</td><td class='mono'>guangwudi-perspective </td><td>2</td><td>205B</td><td>03-expression-dna 仅 2475B（需补 ≥25B）；04-external-views 仅 2320B（需补 ≥180B）</td></tr>
+<tr><td class='dyn'>东汉</td><td class='mono'>andi-perspective </td><td>1</td><td>54B</td><td>06-timeline 仅 2446B（需补 ≥54B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhuyoujian-perspective </td><td>6</td><td>3807B</td><td>01-writings 仅 2126B（需补 ≥374B）；02-conversations 仅 1763B（需补 ≥737B）；03-expression-dna 仅 1783B（需补 ≥717B）；04-external-views 仅 1651B（需补 ≥849B）；05-decisions 仅 1830B（需补 ≥670B）；06-timeline 仅 2040B（需补 ≥460B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhuzhanji-perspective </td><td>6</td><td>3294B</td><td>01-writings 仅 2117B（需补 ≥383B）；02-conversations 仅 1850B（需补 ≥650B）；03-expression-dna 仅 1811B（需补 ≥689B）；04-external-views 仅 1925B（需补 ≥575B）；05-decisions 仅 1999B（需补 ≥501B）；06-timeline 仅 2004B（需补 ≥496B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhuhouzhao-perspective </td><td>6</td><td>2543B</td><td>01-writings 仅 2299B（需补 ≥201B）；02-conversations 仅 1940B（需补 ≥560B）；03-expression-dna 仅 1987B（需补 ≥513B）；04-external-views 仅 2081B（需补 ≥419B）；05-decisions 仅 2031B（需补 ≥469B）；06-timeline 仅 2119B（需补 ≥381B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhujianshen-perspective </td><td>6</td><td>1817B</td><td>01-writings 仅 2387B（需补 ≥113B）；02-conversations 仅 2186B（需补 ≥314B）；03-expression-dna 仅 1998B（需补 ≥502B）；04-external-views 仅 2053B（需补 ≥447B）；05-decisions 仅 2249B（需补 ≥251B）；06-timeline 仅 2310B（需补 ≥190B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhuzaihou-perspective </td><td>3</td><td>659B</td><td>02-conversations 仅 2439B（需补 ≥61B）；03-expression-dna 仅 2424B（需补 ≥76B）；06-timeline 仅 1978B（需补 ≥522B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhuhoucong-perspective </td><td>3</td><td>523B</td><td>03-expression-dna 仅 2320B（需补 ≥180B）；04-external-views 仅 2362B（需补 ≥138B）；06-timeline 仅 2295B（需补 ≥205B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhugaochi-perspective </td><td>3</td><td>298B</td><td>03-expression-dna 仅 2324B（需补 ≥176B）；04-external-views 仅 2439B（需补 ≥61B）；06-timeline 仅 2439B（需补 ≥61B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhuchangluo-perspective </td><td>1</td><td>111B</td><td>04-external-views 仅 2389B（需补 ≥111B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhuyunwen-perspective </td><td>1</td><td>103B</td><td>01-writings 仅 2397B（需补 ≥103B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhuqizhen-perspective </td><td>1</td><td>75B</td><td>06-timeline 仅 2425B（需补 ≥75B）</td></tr>
+<tr><td class='dyn'>明</td><td class='mono'>zhuyouxiao-perspective </td><td>1</td><td>10B</td><td>03-expression-dna 仅 2490B（需补 ≥10B）</td></tr>
+<tr><td class='dyn'>秦</td><td class='mono'>ershi-perspective </td><td>5</td><td>2522B</td><td>02-conversations 仅 2453B（需补 ≥47B）；03-expression-dna 仅 1567B（需补 ≥933B）；04-external-views 仅 1691B（需补 ≥809B）；05-decisions 仅 2152B（需补 ≥348B）；06-timeline 仅 2115B（需补 ≥385B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>fulin-perspective </td><td>6</td><td>2925B</td><td>01-writings 仅 2479B（需补 ≥21B）；02-conversations 仅 2117B（需补 ≥383B）；03-expression-dna 仅 1895B（需补 ≥605B）；04-external-views 仅 1640B（需补 ≥860B）；05-decisions 仅 2176B（需补 ≥324B）；06-timeline 仅 1768B（需补 ≥732B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>yinzhen-perspective </td><td>6</td><td>2731B</td><td>01-writings 仅 2341B（需补 ≥159B）；02-conversations 仅 1884B（需补 ≥616B）；03-expression-dna 仅 1747B（需补 ≥753B）；04-external-views 仅 1976B（需补 ≥524B）；05-decisions 仅 2041B（需补 ≥459B）；06-timeline 仅 2280B（需补 ≥220B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>hongli-perspective </td><td>5</td><td>2221B</td><td>02-conversations 仅 2166B（需补 ≥334B）；03-expression-dna 仅 2100B（需补 ≥400B）；04-external-views 仅 1940B（需补 ≥560B）；05-decisions 仅 2148B（需补 ≥352B）；06-timeline 仅 1925B（需补 ≥575B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>yongyan-perspective </td><td>4</td><td>1498B</td><td>02-conversations 仅 2134B（需补 ≥366B）；03-expression-dna 仅 1970B（需补 ≥530B）；04-external-views 仅 2211B（需补 ≥289B）；05-decisions 仅 2187B（需补 ≥313B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>puyi-perspective </td><td>4</td><td>1298B</td><td>02-conversations 仅 2281B（需补 ≥219B）；03-expression-dna 仅 2061B（需补 ≥439B）；04-external-views 仅 2228B（需补 ≥272B）；06-timeline 仅 2132B（需补 ≥368B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>minning-perspective </td><td>4</td><td>660B</td><td>02-conversations 仅 2486B（需补 ≥14B）；04-external-views 仅 2092B（需补 ≥408B）；05-decisions 仅 2421B（需补 ≥79B）；06-timeline 仅 2341B（需补 ≥159B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>zaitian-perspective </td><td>4</td><td>531B</td><td>02-conversations 仅 2445B（需补 ≥55B）；03-expression-dna 仅 2304B（需补 ≥196B）；04-external-views 仅 2235B（需补 ≥265B）；05-decisions 仅 2485B（需补 ≥15B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>hongtaiji-perspective </td><td>3</td><td>525B</td><td>03-expression-dna 仅 2443B（需补 ≥57B）；04-external-views 仅 2375B（需补 ≥125B）；06-timeline 仅 2157B（需补 ≥343B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>zaichun-perspective </td><td>2</td><td>520B</td><td>05-decisions 仅 2164B（需补 ≥336B）；06-timeline 仅 2316B（需补 ≥184B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>yizhu-perspective </td><td>2</td><td>398B</td><td>03-expression-dna 仅 2140B（需补 ≥360B）；04-external-views 仅 2462B（需补 ≥38B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>xuanye-perspective </td><td>1</td><td>179B</td><td>06-timeline 仅 2321B（需补 ≥179B）</td></tr>
+<tr><td class='dyn'>清</td><td class='mono'>nurhaci-perspective </td><td>3</td><td>102B</td><td>03-expression-dna 仅 2467B（需补 ≥33B）；04-external-views 仅 2433B（需补 ≥67B）；05-decisions 仅 2498B（需补 ≥2B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoqi-perspective </td><td>6</td><td>6218B</td><td>01-writings 仅 1864B（需补 ≥636B）；02-conversations 仅 1512B（需补 ≥988B）；03-expression-dna 仅 1351B（需补 ≥1149B）；04-external-views 仅 995B（需补 ≥1505B）；05-decisions 仅 1586B（需补 ≥914B）；06-timeline 仅 1474B（需补 ≥1026B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoshi-perspective </td><td>6</td><td>4704B</td><td>01-writings 仅 1609B（需补 ≥891B）；02-conversations 仅 1328B（需补 ≥1172B）；03-expression-dna 仅 1394B（需补 ≥1106B）；04-external-views 仅 1975B（需补 ≥525B）；05-decisions 仅 2041B（需补 ≥459B）；06-timeline 仅 1949B（需补 ≥551B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoheng-perspective </td><td>5</td><td>3523B</td><td>02-conversations 仅 2117B（需补 ≥383B）；03-expression-dna 仅 1607B（需补 ≥893B）；04-external-views 仅 1767B（需补 ≥733B）；05-decisions 仅 2079B（需补 ≥421B）；06-timeline 仅 1407B（需补 ≥1093B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoguangyi-perspective </td><td>6</td><td>3492B</td><td>01-writings 仅 2487B（需补 ≥13B）；02-conversations 仅 2202B（需补 ≥298B）；03-expression-dna 仅 1635B（需补 ≥865B）；04-external-views 仅 1716B（需补 ≥784B）；05-decisions 仅 1997B（需补 ≥503B）；06-timeline 仅 1471B（需补 ≥1029B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoyun-perspective </td><td>4</td><td>3386B</td><td>03-expression-dna 仅 1921B（需补 ≥579B）；04-external-views 仅 1152B（需补 ≥1348B）；05-decisions 仅 1886B（需补 ≥614B）；06-timeline 仅 1655B（需补 ≥845B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaokuangyin-perspective </td><td>5</td><td>2950B</td><td>02-conversations 仅 2191B（需补 ≥309B）；03-expression-dna 仅 1801B（需补 ≥699B）；04-external-views 仅 1972B（需补 ≥528B）；05-decisions 仅 1987B（需补 ≥513B）；06-timeline 仅 1599B（需补 ≥901B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaohuan-perspective </td><td>6</td><td>2779B</td><td>01-writings 仅 2325B（需补 ≥175B）；02-conversations 仅 2398B（需补 ≥102B）；03-expression-dna 仅 1842B（需补 ≥658B）；04-external-views 仅 2267B（需补 ≥233B）；05-decisions 仅 1774B（需补 ≥726B）；06-timeline 仅 1615B（需补 ≥885B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoxian-perspective </td><td>5</td><td>1866B</td><td>02-conversations 仅 2464B（需补 ≥36B）；03-expression-dna 仅 2409B（需补 ≥91B）；04-external-views 仅 2171B（需补 ≥329B）；05-decisions 仅 2269B（需补 ≥231B）；06-timeline 仅 1321B（需补 ≥1179B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaodun-perspective </td><td>4</td><td>1602B</td><td>02-conversations 仅 2258B（需补 ≥242B）；03-expression-dna 仅 2267B（需补 ≥233B）；04-external-views 仅 2487B（需补 ≥13B）；06-timeline 仅 1386B（需补 ≥1114B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoxu_z-perspective </td><td>4</td><td>1519B</td><td>03-expression-dna 仅 2023B（需补 ≥477B）；04-external-views 仅 2322B（需补 ≥178B）；05-decisions 仅 2290B（需补 ≥210B）；06-timeline 仅 1846B（需补 ≥654B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoshu-perspective </td><td>4</td><td>1459B</td><td>03-expression-dna 仅 2281B（需补 ≥219B）；04-external-views 仅 2261B（需补 ≥239B）；05-decisions 仅 2233B（需补 ≥267B）；06-timeline 仅 1766B（需补 ≥734B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoji-perspective </td><td>4</td><td>1123B</td><td>03-expression-dna 仅 2159B（需补 ≥341B）；04-external-views 仅 2493B（需补 ≥7B）；05-decisions 仅 2263B（需补 ≥237B）；06-timeline 仅 1962B（需补 ≥538B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoshen-perspective </td><td>2</td><td>942B</td><td>04-external-views 仅 2437B（需补 ≥63B）；06-timeline 仅 1621B（需补 ≥879B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaobing-perspective </td><td>2</td><td>935B</td><td>03-expression-dna 仅 2388B（需补 ≥112B）；06-timeline 仅 1677B（需补 ≥823B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaoxu_s-perspective </td><td>2</td><td>735B</td><td>04-external-views 仅 2171B（需补 ≥329B）；06-timeline 仅 2094B（需补 ≥406B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaogou-perspective </td><td>1</td><td>564B</td><td>06-timeline 仅 1936B（需补 ≥564B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaozhen-perspective </td><td>3</td><td>486B</td><td>03-expression-dna 仅 2450B（需补 ≥50B）；04-external-views 仅 2434B（需补 ≥66B）；06-timeline 仅 2130B（需补 ≥370B）</td></tr>
+<tr><td class='dyn'>宋</td><td class='mono'>zhaokuo-perspective </td><td>1</td><td>337B</td><td>03-expression-dna 仅 2163B（需补 ≥337B）</td></tr>
+<tr><td class='dyn'>隋</td><td class='mono'>gongdi-perspective </td><td>5</td><td>2900B</td><td>02-conversations 仅 2032B（需补 ≥468B）；03-expression-dna 仅 2239B（需补 ≥261B）；04-external-views 仅 1839B（需补 ≥661B）；05-decisions 仅 2083B（需补 ≥417B）；06-timeline 仅 1407B（需补 ≥1093B）</td></tr>
+<tr><td class='dyn'>隋</td><td class='mono'>wendi-perspective </td><td>4</td><td>1016B</td><td>03-expression-dna 仅 2087B（需补 ≥413B）；04-external-views 仅 2144B（需补 ≥356B）；05-decisions 仅 2363B（需补 ≥137B）；06-timeline 仅 2390B（需补 ≥110B）</td></tr>
+<tr><td class='dyn'>隋</td><td class='mono'>yangdi-perspective </td><td>5</td><td>600B</td><td>01-writings 仅 2431B（需补 ≥69B）；03-expression-dna 仅 2412B（需补 ≥88B）；04-external-views 仅 2186B（需补 ≥314B）；05-decisions 仅 2478B（需补 ≥22B）；06-timeline 仅 2393B（需补 ≥107B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lizhu-perspective </td><td>6</td><td>5933B</td><td>01-writings 仅 1597B（需补 ≥903B）；02-conversations 仅 1407B（需补 ≥1093B）；03-expression-dna 仅 1717B（需补 ≥783B）；04-external-views 仅 1760B（需补 ≥740B）；05-decisions 仅 1279B（需补 ≥1221B）；06-timeline 仅 1307B（需补 ≥1193B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lixuan-perspective </td><td>6</td><td>5201B</td><td>01-writings 仅 1714B（需补 ≥786B）；02-conversations 仅 1549B（需补 ≥951B）；03-expression-dna 仅 1717B（需补 ≥783B）；04-external-views 仅 1826B（需补 ≥674B）；05-decisions 仅 1457B（需补 ≥1043B）；06-timeline 仅 1536B（需补 ≥964B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>licui-perspective </td><td>6</td><td>4587B</td><td>01-writings 仅 2052B（需补 ≥448B）；02-conversations 仅 1645B（需补 ≥855B）；03-expression-dna 仅 1723B（需补 ≥777B）；04-external-views 仅 1844B（需补 ≥656B）；05-decisions 仅 1534B（需补 ≥966B）；06-timeline 仅 1615B（需补 ≥885B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lizhan-perspective </td><td>5</td><td>3906B</td><td>02-conversations 仅 1877B（需补 ≥623B）；03-expression-dna 仅 1810B（需补 ≥690B）；04-external-views 仅 1670B（需补 ≥830B）；05-decisions 仅 1821B（需补 ≥679B）；06-timeline 仅 1416B（需补 ≥1084B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>liyan-perspective </td><td>5</td><td>3416B</td><td>02-conversations 仅 1965B（需补 ≥535B）；03-expression-dna 仅 1822B（需补 ≥678B）；04-external-views 仅 1892B（需补 ≥608B）；05-decisions 仅 1995B（需补 ≥505B）；06-timeline 仅 1410B（需补 ≥1090B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>liang-perspective </td><td>5</td><td>3236B</td><td>02-conversations 仅 2004B（需补 ≥496B）；03-expression-dna 仅 1924B（需补 ≥576B）；04-external-views 仅 1841B（需补 ≥659B）；05-decisions 仅 1977B（需补 ≥523B）；06-timeline 仅 1518B（需补 ≥982B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>liheng_m-perspective </td><td>5</td><td>2864B</td><td>02-conversations 仅 2151B（需补 ≥349B）；03-expression-dna 仅 1905B（需补 ≥595B）；04-external-views 仅 1733B（需补 ≥767B）；05-decisions 仅 2203B（需补 ≥297B）；06-timeline 仅 1644B（需补 ≥856B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lichen-perspective </td><td>5</td><td>1693B</td><td>02-conversations 仅 2476B（需补 ≥24B）；03-expression-dna 仅 2241B（需补 ≥259B）；04-external-views 仅 2216B（需补 ≥284B）；05-decisions 仅 2056B（需补 ≥444B）；06-timeline 仅 1818B（需补 ≥682B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lichun-perspective </td><td>4</td><td>1554B</td><td>02-conversations 仅 2278B（需补 ≥222B）；03-expression-dna 仅 2028B（需补 ≥472B）；04-external-views 仅 1924B（需补 ≥576B）；05-decisions 仅 2216B（需补 ≥284B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lisong-perspective </td><td>5</td><td>1479B</td><td>02-conversations 仅 2410B（需补 ≥90B）；03-expression-dna 仅 1921B（需补 ≥579B）；04-external-views 仅 1957B（需补 ≥543B）；05-decisions 仅 2412B（需补 ≥88B）；06-timeline 仅 2321B（需补 ≥179B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lixian-perspective </td><td>3</td><td>1471B</td><td>03-expression-dna 仅 1960B（需补 ≥540B）；04-external-views 仅 2365B（需补 ≥135B）；06-timeline 仅 1704B（需补 ≥796B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>liheng_s-perspective </td><td>2</td><td>1107B</td><td>04-external-views 仅 2181B（需补 ≥319B）；06-timeline 仅 1712B（需补 ≥788B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>liye-perspective </td><td>4</td><td>1035B</td><td>03-expression-dna 仅 2254B（需补 ≥246B）；04-external-views 仅 2083B（需补 ≥417B）；05-decisions 仅 2323B（需补 ≥177B）；06-timeline 仅 2305B（需补 ≥195B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lidan-perspective </td><td>4</td><td>974B</td><td>03-expression-dna 仅 2231B（需补 ≥269B）；04-external-views 仅 2223B（需补 ≥277B）；05-decisions 仅 2234B（需补 ≥266B）；06-timeline 仅 2338B（需补 ≥162B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lizhi-perspective </td><td>4</td><td>895B</td><td>02-conversations 仅 2316B（需补 ≥184B）；03-expression-dna 仅 2419B（需补 ≥81B）；04-external-views 仅 2204B（需补 ≥296B）；06-timeline 仅 2166B（需补 ≥334B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>liyu-perspective </td><td>2</td><td>862B</td><td>04-external-views 仅 2195B（需补 ≥305B）；06-timeline 仅 1943B（需补 ≥557B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lishimin-perspective </td><td>2</td><td>830B</td><td>04-external-views 仅 2334B（需补 ≥166B）；06-timeline 仅 1836B（需补 ≥664B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lishi-perspective </td><td>2</td><td>689B</td><td>03-expression-dna 仅 2238B（需补 ≥262B）；04-external-views 仅 2073B（需补 ≥427B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>wuzetian-perspective </td><td>1</td><td>513B</td><td>06-timeline 仅 1987B（需补 ≥513B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>lilongji-perspective </td><td>1</td><td>444B</td><td>06-timeline 仅 2056B（需补 ≥444B）</td></tr>
+<tr><td class='dyn'>唐</td><td class='mono'>liyuan-perspective </td><td>3</td><td>359B</td><td>03-expression-dna 仅 2476B（需补 ≥24B）；04-external-views 仅 2407B（需补 ≥93B）；06-timeline 仅 2258B（需补 ≥242B）</td></tr>
+<tr><td class='dyn'>元</td><td class='mono'>shidibala-perspective </td><td>3</td><td>976B</td><td>03-expression-dna 仅 2371B（需补 ≥129B）；05-decisions 仅 2396B（需补 ≥104B）；06-timeline 仅 1757B（需补 ≥743B）</td></tr>
+<tr><td class='dyn'>元</td><td class='mono'>yesuntemuer-perspective </td><td>3</td><td>734B</td><td>02-conversations 仅 2178B（需补 ≥322B）；03-expression-dna 仅 2189B（需补 ≥311B）；04-external-views 仅 2399B（需补 ≥101B）</td></tr>
+<tr><td class='dyn'>元</td><td class='mono'>tutemuer-perspective </td><td>3</td><td>291B</td><td>02-conversations 仅 2461B（需补 ≥39B）；04-external-views 仅 2489B（需补 ≥11B）；06-timeline 仅 2259B（需补 ≥241B）</td></tr>
+<tr><td class='dyn'>元</td><td class='mono'>hoshila-perspective </td><td>3</td><td>261B</td><td>03-expression-dna 仅 2347B（需补 ≥153B）；04-external-views 仅 2465B（需补 ≥35B）；05-decisions 仅 2427B（需补 ≥73B）</td></tr>
+<tr><td class='dyn'>元</td><td class='mono'>hubilie-perspective </td><td>2</td><td>117B</td><td>03-expression-dna 仅 2445B（需补 ≥55B）；04-external-views 仅 2438B（需补 ≥62B）</td></tr>
+<tr><td class='dyn'>元</td><td class='mono'>haishan-perspective </td><td>1</td><td>85B</td><td>04-external-views 仅 2415B（需补 ≥85B）</td></tr>
+<tr><td class='dyn'>元</td><td class='mono'>yilinzhiban-perspective </td><td>1</td><td>29B</td><td>06-timeline 仅 2471B（需补 ≥29B）</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>yuanwang-perspective </td><td>5</td><td>2465B</td><td>01-writings 仅 2133B（需补 ≥367B）；02-conversations 仅 1760B（需补 ≥740B）；03-expression-dna 仅 1957B（需补 ≥543B）；04-external-views 仅 2233B（需补 ≥267B）；05-decisions 仅 1952B（需补 ≥548B）</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>kuangwang-perspective </td><td>4</td><td>1824B</td><td>02-conversations 仅 2120B（需补 ≥380B）；03-expression-dna 仅 2097B（需补 ≥403B）；04-external-views 仅 1911B（需补 ≥589B）；05-decisions 仅 2048B（需补 ≥452B）</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>kaowang-perspective </td><td>5</td><td>1380B</td><td>02-conversations 仅 2086B（需补 ≥414B）；03-expression-dna 仅 2481B（需补 ≥19B）；04-external-views 仅 2244B（需补 ≥256B）；05-decisions 仅 1966B（需补 ≥534B）；06-timeline 仅 2343B（需补 ≥157B）</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>xuanwang-perspective </td><td>4</td><td>803B</td><td>03-expression-dna 仅 2281B（需补 ≥219B）；04-external-views 仅 2128B（需补 ≥372B）；05-decisions 仅 2356B（需补 ≥144B）；06-timeline 仅 2432B（需补 ≥68B）</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>jianwang-perspective </td><td>1</td><td>400B</td><td>04-external-views 仅 2100B（需补 ≥400B）</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>daowang-perspective <span class='tag t-susp'>倒序</span></td><td>3</td><td>346B</td><td>04-external-views 仅 2368B（需补 ≥132B）；05-decisions 仅 2497B（需补 ≥3B）；06-timeline 仅 2289B（需补 ≥211B）</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>yiwang-zhou-perspective </td><td>2</td><td>326B</td><td>03-expression-dna 仅 2216B（需补 ≥284B）；04-external-views 仅 2458B（需补 ≥42B）</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>youwang-perspective </td><td>1</td><td>164B</td><td>05-decisions 仅 2336B（需补 ≥164B）</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>shenjingwang-perspective </td><td>1</td><td>52B</td><td>02-conversations 仅 2448B（需补 ≥52B）</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>xiaowang-zhou-perspective </td><td>1</td><td>35B</td><td>02-conversations 仅 2465B（需补 ≥35B）</td></tr>
+</table>
+<h2>三、38 个「结构合规但流程倒」的包（只需重蒸馏 SKILL.md，不必重做底稿）</h2>
+<div class='sub'>判据：SKILL.md 的修改时间早于其六维底稿 —— 即先出 SKILL、后补底稿。这批底稿已达标，重做时以底稿为唯一依据重写 SKILL.md 即可。</div>
+<table><tr><th>朝代</th><th>包</th><th>SKILL 早于底稿</th></tr>
+<tr><td class='dyn'>两晋</td><td class='mono'>simadewen-perspective</td><td>152s</td></tr>
+<tr><td class='dyn'>两晋</td><td class='mono'>simadezong-perspective</td><td>164s</td></tr>
+<tr><td class='dyn'>两晋</td><td class='mono'>simashao-perspective</td><td>356s</td></tr>
+<tr><td class='dyn'>两晋</td><td class='mono'>simaye-perspective</td><td>118s</td></tr>
+<tr><td class='dyn'>两晋</td><td class='mono'>simayi-perspective</td><td>178s</td></tr>
+<tr><td class='dyn'>两晋</td><td class='mono'>simayu-perspective</td><td>54s</td></tr>
+<tr><td class='dyn'>两晋</td><td class='mono'>simazhong-perspective</td><td>123s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>chenxuan-perspective</td><td>142s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>liushao-perspective</td><td>26s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>liuyilong-perspective</td><td>144s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>liuyu-ming-perspective</td><td>97s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>tuobajun-perspective</td><td>124s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>tuobasi-perspective</td><td>199s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>tuobatao-perspective</td><td>149s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>xiaodong-perspective</td><td>78s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>xiaofangzhi-perspective</td><td>234s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>xiaogang-perspective</td><td>155s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>xiaoyan-perspective</td><td>216s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>xiaozhaoye-perspective</td><td>128s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>yuanhong-perspective</td><td>78s</td></tr>
+<tr><td class='dyn'>南北朝</td><td class='mono'>yuanziyou-perspective</td><td>135s</td></tr>
+<tr><td class='dyn'>三国</td><td class='mono'>caohuan-perspective</td><td>102s</td></tr>
+<tr><td class='dyn'>三国</td><td class='mono'>caomao-perspective</td><td>90s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>diyi-perspective</td><td>740s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>hedanja-perspective</td><td>1398s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>kangding-perspective</td><td>632s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>linxin-perspective</td><td>1193s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>taiding-shang-perspective</td><td>182s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>taigeng-perspective</td><td>146s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>tang-shang-perspective</td><td>41s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>waibing-perspective</td><td>16s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>woding-perspective</td><td>2158s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>xiaojia-shang-perspective</td><td>91s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>zhongren-shang-perspective</td><td>677s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>zujia-perspective</td><td>1684s</td></tr>
+<tr><td class='dyn'>商</td><td class='mono'>zuxin-perspective</td><td>93s</td></tr>
+<tr><td class='dyn'>夏</td><td class='mono'>shaojang-perspective</td><td>541s</td></tr>
+<tr><td class='dyn'>周</td><td class='mono'>huiwang-perspective</td><td>3414s</td></tr>
+</table>
+<h2>四、完全符合的 174 个包（按朝）</h2>
+<details><summary>夏 · 17 个</summary><div class='chips'>
+<span class='chip'>bujiang-perspective</span>
+<span class='chip'>fa-xia-perspective</span>
+<span class='chip'>gao-xia-perspective</span>
+<span class='chip'>huai-xia-perspective</span>
+<span class='chip'>jie-perspective</span>
+<span class='chip'>jin-xia-perspective</span>
+<span class='chip'>jiong-xia-perspective</span>
+<span class='chip'>kongjia-perspective</span>
+<span class='chip'>mang-xia-perspective</span>
+<span class='chip'>qi-perspective</span>
+<span class='chip'>shaojang-perspective ⚠</span>
+<span class='chip'>taikang-perspective</span>
+<span class='chip'>xiang-perspective</span>
+<span class='chip'>xie-xia-perspective</span>
+<span class='chip'>yu-perspective</span>
+<span class='chip'>zhongkang-perspective</span>
+<span class='chip'>zhu-xia-perspective</span>
+</div></details>
+<details><summary>商 · 31 个</summary><div class='chips'>
+<span class='chip'>dixin-perspective</span>
+<span class='chip'>diyi-perspective ⚠</span>
+<span class='chip'>hedanja-perspective ⚠</span>
+<span class='chip'>kangding-perspective ⚠</span>
+<span class='chip'>linxin-perspective ⚠</span>
+<span class='chip'>nangeng-perspective</span>
+<span class='chip'>pangeng-perspective</span>
+<span class='chip'>taiding-shang-perspective ⚠</span>
+<span class='chip'>taigeng-perspective ⚠</span>
+<span class='chip'>taijia-perspective</span>
+<span class='chip'>taiwu-perspective</span>
+<span class='chip'>tang-shang-perspective ⚠</span>
+<span class='chip'>waibing-perspective ⚠</span>
+<span class='chip'>wairen-perspective</span>
+<span class='chip'>wending-shang-perspective</span>
+<span class='chip'>woding-perspective ⚠</span>
+<span class='chip'>wojia-perspective</span>
+<span class='chip'>wuding-perspective</span>
+<span class='chip'>wuyi-perspective</span>
+<span class='chip'>xiaojia-shang-perspective ⚠</span>
+<span class='chip'>xiaoxin-shang-perspective</span>
+<span class='chip'>xiaoyi-shang-perspective</span>
+<span class='chip'>yangjia-perspective</span>
+<span class='chip'>yongji-perspective</span>
+<span class='chip'>zhongding-perspective</span>
+<span class='chip'>zhongren-shang-perspective ⚠</span>
+<span class='chip'>zuding-shang-perspective</span>
+<span class='chip'>zugeng-perspective</span>
+<span class='chip'>zujia-perspective ⚠</span>
+<span class='chip'>zuxin-perspective ⚠</span>
+<span class='chip'>zuyi-perspective</span>
+</div></details>
+<details><summary>周 · 27 个</summary><div class='chips'>
+<span class='chip'>aiwang-perspective</span>
+<span class='chip'>anwang-perspective</span>
+<span class='chip'>chengwang-perspective</span>
+<span class='chip'>dingwang-perspective</span>
+<span class='chip'>gongwang-perspective</span>
+<span class='chip'>huanwang-perspective</span>
+<span class='chip'>huiwang-perspective ⚠</span>
+<span class='chip'>jingwang-perspective</span>
+<span class='chip'>jingwang2-perspective</span>
+<span class='chip'>kangwang-perspective</span>
+<span class='chip'>liewang-perspective</span>
+<span class='chip'>lingwang-perspective</span>
+<span class='chip'>liwang-perspective</span>
+<span class='chip'>muwang-perspective</span>
+<span class='chip'>nanwang-perspective</span>
+<span class='chip'>pingwang-perspective</span>
+<span class='chip'>qingwang-perspective</span>
+<span class='chip'>siwang-perspective</span>
+<span class='chip'>weiiliewang-perspective</span>
+<span class='chip'>wuwang-perspective</span>
+<span class='chip'>xiangwang-perspective</span>
+<span class='chip'>xianwang-perspective</span>
+<span class='chip'>xiwang-perspective</span>
+<span class='chip'>yixie-perspective</span>
+<span class='chip'>zhaowang-perspective</span>
+<span class='chip'>zhendingwang-perspective</span>
+<span class='chip'>zhuangwang-perspective</span>
+</div></details>
+<details><summary>秦 · 2 个</summary><div class='chips'>
+<span class='chip'>shihuang-perspective</span>
+<span class='chip'>ziying-perspective</span>
+</div></details>
+<details><summary>楚汉 · 2 个</summary><div class='chips'>
+<span class='chip'>xiangyu-perspective</span>
+<span class='chip'>yidi-perspective</span>
+</div></details>
+<details><summary>西汉 · 15 个</summary><div class='chips'>
+<span class='chip'>liuao-perspective</span>
+<span class='chip'>liubang-perspective</span>
+<span class='chip'>liuche-perspective</span>
+<span class='chip'>liufoling-perspective</span>
+<span class='chip'>liugong-perspective</span>
+<span class='chip'>liuhe-perspective</span>
+<span class='chip'>liuheng-xihan-perspective</span>
+<span class='chip'>liuhong-perspective</span>
+<span class='chip'>liukan-perspective</span>
+<span class='chip'>liuqi-perspective</span>
+<span class='chip'>liushi-perspective</span>
+<span class='chip'>liuxin-perspective</span>
+<span class='chip'>liuxun-perspective</span>
+<span class='chip'>liuying-perspective</span>
+<span class='chip'>ruziying-perspective</span>
+</div></details>
+<details><summary>东汉 · 4 个</summary><div class='chips'>
+<span class='chip'>hedi-perspective</span>
+<span class='chip'>mingdi-perspective</span>
+<span class='chip'>shundi-perspective</span>
+<span class='chip'>zhangdi-perspective</span>
+</div></details>
+<details><summary>三国 · 11 个</summary><div class='chips'>
+<span class='chip'>caofang-perspective</span>
+<span class='chip'>caohuan-perspective ⚠</span>
+<span class='chip'>caomao-perspective ⚠</span>
+<span class='chip'>caopi-perspective</span>
+<span class='chip'>caorui-perspective</span>
+<span class='chip'>liubei-perspective</span>
+<span class='chip'>liushan-perspective</span>
+<span class='chip'>sunhao-perspective</span>
+<span class='chip'>sunliang-perspective</span>
+<span class='chip'>sunquan-perspective</span>
+<span class='chip'>sunxiu-perspective</span>
+</div></details>
+<details><summary>两晋 · 15 个</summary><div class='chips'>
+<span class='chip'>simachi-perspective</span>
+<span class='chip'>simadan-perspective</span>
+<span class='chip'>simadewen-perspective ⚠</span>
+<span class='chip'>simadezong-perspective ⚠</span>
+<span class='chip'>simapi-perspective</span>
+<span class='chip'>simarui-perspective</span>
+<span class='chip'>simashao-perspective ⚠</span>
+<span class='chip'>simayan-perspective</span>
+<span class='chip'>simayancheng-perspective</span>
+<span class='chip'>simayao-perspective</span>
+<span class='chip'>simaye-perspective ⚠</span>
+<span class='chip'>simayi-perspective ⚠</span>
+<span class='chip'>simayu-perspective ⚠</span>
+<span class='chip'>simayue-perspective</span>
+<span class='chip'>simazhong-perspective ⚠</span>
+</div></details>
+<details><summary>南北朝 · 37 个</summary><div class='chips'>
+<span class='chip'>chenbaixian-perspective</span>
+<span class='chip'>chenbozong-perspective</span>
+<span class='chip'>chenqian-perspective</span>
+<span class='chip'>chenshubao-perspective</span>
+<span class='chip'>chenxuan-perspective ⚠</span>
+<span class='chip'>liujun-perspective</span>
+<span class='chip'>liushao-perspective ⚠</span>
+<span class='chip'>liuyifu-perspective</span>
+<span class='chip'>liuyilong-perspective ⚠</span>
+<span class='chip'>liuyu-cangwu-perspective</span>
+<span class='chip'>liuyu-ming-perspective ⚠</span>
+<span class='chip'>liuyu-perspective</span>
+<span class='chip'>liuziye-perspective</span>
+<span class='chip'>tuobagui-perspective</span>
+<span class='chip'>tuobahong-perspective</span>
+<span class='chip'>tuobajun-perspective ⚠</span>
+<span class='chip'>tuobasi-perspective ⚠</span>
+<span class='chip'>tuobatao-perspective ⚠</span>
+<span class='chip'>tuobayu-perspective</span>
+<span class='chip'>xiaobaojuan-perspective</span>
+<span class='chip'>xiaobaorong-perspective</span>
+<span class='chip'>xiaodaochang-perspective</span>
+<span class='chip'>xiaodong-perspective ⚠</span>
+<span class='chip'>xiaofangzhi-perspective ⚠</span>
+<span class='chip'>xiaogang-perspective ⚠</span>
+<span class='chip'>xiaoluan-perspective</span>
+<span class='chip'>xiaoyan-perspective ⚠</span>
+<span class='chip'>xiaoyi-perspective</span>
+<span class='chip'>xiaozhaowen-perspective</span>
+<span class='chip'>xiaozhaoye-perspective ⚠</span>
+<span class='chip'>xiaozhe-perspective</span>
+<span class='chip'>xiaozhengde-perspective</span>
+<span class='chip'>yuanhong-perspective ⚠</span>
+<span class='chip'>yuanke-perspective</span>
+<span class='chip'>yuanxu-perspective</span>
+<span class='chip'>yuanye-perspective</span>
+<span class='chip'>yuanziyou-perspective ⚠</span>
+</div></details>
+<details><summary>元 · 8 个</summary><div class='chips'>
+<span class='chip'>ashuqibu-perspective</span>
+<span class='chip'>ayurbarwada-perspective</span>
+<span class='chip'>guyuk-perspective</span>
+<span class='chip'>mongke-perspective</span>
+<span class='chip'>ogodei-perspective</span>
+<span class='chip'>temuer-perspective</span>
+<span class='chip'>temujin-perspective</span>
+<span class='chip'>toghontemur-perspective</span>
+</div></details>
+<details><summary>明 · 5 个</summary><div class='chips'>
+<span class='chip'>zhudi-perspective</span>
+<span class='chip'>zhuqiyu-perspective</span>
+<span class='chip'>zhuyijun-perspective</span>
+<span class='chip'>zhuyoutang-perspective</span>
+<span class='chip'>zhuyuanzhang-perspective</span>
+</div></details>
+</body></html>
