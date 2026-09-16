@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "batch": "H12-republic-era-competing-central-governments",
+  "status": "ENUMERATED_V1_ACTING_HEADS_INCLUDED_COLLECTIVE_GOVERNMENTS_MODELED_SEPARATELY",
+  "historical_endpoint": {
+    "rule": "Working historical corpus cutoff is 1949-12-31 for mainland-era Republic central-government episodes. Post-1949 PRC/ROC political leadership is deliberately a separate modern-leadership dataset, not silently appended to an imperial/historical ruler corpus.",
+    "status": "WORKING_SCOPE_REVIEWABLE",
+    "reason": "Prevents an open-ended current-politics list while preserving the complete late-imperial→Republic historical transition."
+  },
+  "principles": [
+    "Republic-era inclusion is office/episode based and politically neutral: a person enters only for a formal or de facto supreme central-government episode satisfying the common ruler rule.",
+    "Ordinary regional warlord command is not enough. Zhang Zuolin qualifies through the 1927-1928 Beijing military-government head-of-state episode, not simply because he led the Fengtian clique.",
+    "Short acting heads are retained for maximal-set completeness but can be LIMITED-EVIDENCE for cognitive distillation.",
+    "Collective governments with no unique supreme office are represented as institutional episodes rather than arbitrarily inventing a single 'ruler'.",
+    "Foreign-sponsored regimes with heavily constrained sovereignty are tracked as EXTENDED rather than normalized into CORE."
+  ],
+  "polities": [
+    {
+      "id": "roc-nanjing-provisional",
+      "name": "中华民国南京临时政府",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "孙中山",
+          "titles": [
+            "临时大总统"
+          ],
+          "episode": "1912-01-01 to 1912-04-01"
+        }
+      ]
+    },
+    {
+      "id": "roc-beijing-provisional-and-beiyang",
+      "name": "中华民国北京政府/北洋政府",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "袁世凯",
+          "titles": [
+            "临时大总统",
+            "大总统"
+          ],
+          "episodes": [
+            "1912-03-10 to 1913-10-10",
+            "1913-10-10 to 1916-06-06"
+          ]
+        },
+        {
+          "name": "黎元洪",
+          "titles": [
+            "大总统"
+          ],
+          "episodes": [
+            "1916-06-07 to 1917-07",
+            "1922-06-11 to 1923-06-13"
+          ]
+        },
+        {
+          "name": "冯国璋",
+          "titles": [
+            "代理大总统"
+          ],
+          "episode": "1917-07 to 1918-10-10"
+        },
+        {
+          "name": "徐世昌",
+          "titles": [
+            "大总统"
+          ],
+          "episode": "1918-10-10 to 1922-06-02"
+        },
+        {
+          "name": "周自齐",
+          "titles": [
+            "国务院摄行大总统职权"
+          ],
+          "episode": "1922-06-02 to 1922-06-11",
+          "evidence_level": "LIMITED-EVIDENCE_FOR_COGNITIVE_MODEL"
+        },
+        {
+          "name": "高凌霨",
+          "titles": [
+            "国务院摄行大总统职权"
+          ],
+          "episode": "1923-06-14 to 1923-10-10"
+        },
+        {
+          "name": "曹锟",
+          "titles": [
+            "大总统"
+          ],
+          "episode": "1923-10-10 to 1924-11-02"
+        },
+        {
+          "name": "黄郛",
+          "titles": [
+            "国务院摄行大总统职权"
+          ],
+          "episode": "1924-11-02 to 1924-11-24"
+        },
+        {
+          "name": "段祺瑞",
+          "titles": [
+            "临时执政"
+          ],
+          "episode": "1924-11-24 to 1926-04-20"
+        },
+        {
+          "name": "胡惟德",
+          "titles": [
+            "代行临时执政职权",
+            "摄行大总统职权"
+          ],
+          "episodes": [
+            "1926-04-20 to 1926-05-13",
+            "1927-06-16 to 1927-06-18"
+          ]
+        },
+        {
+          "name": "颜惠庆",
+          "titles": [
+            "国务院摄行大总统职权"
+          ],
+          "episode": "1926-05-13 to 1926-06-23"
+        },
+        {
+          "name": "杜锡珪",
+          "titles": [
+            "国务院摄行大总统职权"
+          ],
+          "episode": "1926-06-23 to 1926-10-01"
+        },
+        {
+          "name": "顾维钧",
+          "titles": [
+            "国务院摄行大总统职权"
+          ],
+          "episode": "1926-10-01 to 1927-06-16"
+        },
+        {
+          "name": "张作霖",
+          "titles": [
+            "中华民国陆海军大元帅"
+          ],
+          "episode": "1927-06-18 to 1928-06-03",
+          "basis": "formal head of the Beijing military government; regional warlord status alone is not the inclusion basis"
+        }
+      ]
+    },
+    {
+      "id": "hongxian",
+      "name": "中华帝国/洪宪 episode",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "袁世凯",
+          "titles": [
+            "中华帝国皇帝（宣布/筹备称帝）"
+          ],
+          "episode": "1915-12 to 1916-03",
+          "identity_link": "same Yuan Shikai person as Republic presidency",
+          "qa": "encode proclamation/aborted enthronement precisely; do not create a second person"
+        }
+      ]
+    },
+    {
+      "id": "zhang-xun-restoration",
+      "name": "1917清室复辟",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "溥仪",
+          "titles": [
+            "大清皇帝"
+          ],
+          "episode": "1917-07-01 to 1917-07-12",
+          "identity_link": "same person as Qing Puyi and Manchukuo episode"
+        }
+      ],
+      "extended": [
+        {
+          "name": "张勋",
+          "status": "EXTENDED",
+          "role": "restoration power broker/premier",
+          "reason": "not the sovereign person"
+        }
+      ]
+    },
+    {
+      "id": "guangzhou-constitutional-protection",
+      "name": "广州护法/非常政府",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "孙中山",
+          "titles": [
+            "陆海军大元帅"
+          ],
+          "episode": "1917-09 to 1918-05"
+        },
+        {
+          "name": "孙中山",
+          "titles": [
+            "非常大总统"
+          ],
+          "episode": "1921-05-05 to 1923-02-21"
+        },
+        {
+          "name": "孙中山",
+          "titles": [
+            "陆海军大元帅"
+          ],
+          "episode": "1923-03-02 to 1925-03-12"
+        },
+        {
+          "name": "胡汉民",
+          "titles": [
+            "代理陆海军大元帅"
+          ],
+          "episode": "1925",
+          "status": "CORE_REVIEW"
+        }
+      ],
+      "collective_episodes": [
+        {
+          "episode": "1918-1920 护法军政府总裁合议制",
+          "person_ruler": null,
+          "reason": "No unique supreme person should be fabricated from a collective executive."
+        }
+      ]
+    },
+    {
+      "id": "guangzhou-wuhan-national-government",
+      "name": "广州/武汉国民政府（1925-1927）",
+      "layer": "INSTITUTIONAL_EPISODE",
+      "persons": [],
+      "governance": "国民政府委员会合议制",
+      "note": "The committee was the highest decision body; its meeting chair did not by itself hold a unique supreme office. Preserve as institutional comparative data, not a forced person-level ruler.",
+      "review": [
+        {
+          "name": "汪兆铭",
+          "status": "EXTENDED_REVIEW",
+          "roles": [
+            "广州国民政府委员会会议主席",
+            "军事委员会主席"
+          ],
+          "reason": "important leadership role, but source states the committee chair itself had no privilege; do not automatically classify as sole ruler"
+        },
+        {
+          "name": "徐谦",
+          "status": "EXTENDED_REVIEW",
+          "role": "迁汉期间临时联席会议主席"
+        }
+      ]
+    },
+    {
+      "id": "nanjing-national-government",
+      "name": "南京国民政府",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "胡汉民",
+          "titles": [
+            "国民政府主席"
+          ],
+          "episode": "1927 Nanjing split government",
+          "status": "CORE_REVIEW",
+          "qa": "verify exact institutional dates and chair powers before final CORE lock"
+        },
+        {
+          "name": "谭延闿",
+          "titles": [
+            "国民政府主席（临时）"
+          ],
+          "episode": "1928-02-07 to 1928-10-10"
+        },
+        {
+          "name": "蒋中正",
+          "aliases": [
+            "蒋介石"
+          ],
+          "titles": [
+            "国民政府主席"
+          ],
+          "episodes": [
+            "1928-10-10 to 1931-12-15",
+            "1943-06-01 acting to 1943-10-10",
+            "1943-10-10 to 1948-05-20"
+          ]
+        },
+        {
+          "name": "林森",
+          "titles": [
+            "国民政府主席"
+          ],
+          "episode": "1931-12-15 to 1943-08-01",
+          "agency_note": "chairmanship became largely ceremonial under the 1931 organization; formal head-of-state episode retained separately from actual decision-power features"
+        },
+        {
+          "name": "蒋中正",
+          "aliases": [
+            "蒋介石"
+          ],
+          "titles": [
+            "中华民国总统"
+          ],
+          "episode": "1948-05-20 to 1949-01-21 within current historical cutoff"
+        },
+        {
+          "name": "李宗仁",
+          "titles": [
+            "中华民国代总统"
+          ],
+          "episode": "1949-01-21 onward within 1949 cutoff",
+          "qa": "post-1949 continuation belongs modern ROC dataset, not this historical denominator"
+        }
+      ]
+    },
+    {
+      "id": "chinese-soviet-republic",
+      "name": "中华苏维埃共和国",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "毛泽东",
+          "titles": [
+            "中央执行委员会主席",
+            "临时中央政府主席"
+          ],
+          "episode": "1931-1937 institutional continuity",
+          "basis": "national-level rival central government with autonomous governed territory; classify without endorsement or delegitimization"
+        }
+      ],
+      "qa": "Separate formal state-office episode from party leadership and military command; do not infer a single-person regime from later political prominence."
+    },
+    {
+      "id": "reorganized-national-government",
+      "name": "1940-1945南京国民政府（汪兆铭政权）",
+      "layer": "EXTENDED",
+      "persons": [
+        {
+          "name": "汪兆铭",
+          "aliases": [
+            "汪精卫"
+          ],
+          "titles": [
+            "国民政府主席"
+          ],
+          "episode": "1940-1944"
+        },
+        {
+          "name": "陈公博",
+          "titles": [
+            "国民政府主席"
+          ],
+          "episode": "1944-1945"
+        }
+      ],
+      "reason": "Tracked because it claimed central-government form and controlled institutions, but sovereignty was heavily constrained by Imperial Japan; autonomy limitation prevents automatic CORE status."
+    },
+    {
+      "id": "north-china-provisional-1937",
+      "name": "中华民国临时政府（华北，1937-1940）",
+      "layer": "EXTENDED",
+      "persons": [
+        {
+          "name": "王克敏",
+          "titles": [
+            "行政委员会委员长"
+          ],
+          "episode": "1937-1940"
+        }
+      ],
+      "reason": "Japanese-sponsored subordinate regime; territorial administration existed but political autonomy was heavily constrained."
+    },
+    {
+      "id": "reformed-government-1938",
+      "name": "中华民国维新政府（1938-1940）",
+      "layer": "EXTENDED",
+      "persons": [
+        {
+          "name": "梁鸿志",
+          "titles": [
+            "行政院院长"
+          ],
+          "episode": "1938-1940"
+        }
+      ],
+      "reason": "No government-chair office and sovereignty heavily constrained; tracked as edge-case regime rather than historical CORE ruler."
+    },
+    {
+      "id": "manchukuo",
+      "name": "满洲国",
+      "layer": "EXTENDED",
+      "persons": [
+        {
+          "name": "溥仪",
+          "titles": [
+            "执政",
+            "皇帝"
+          ],
+          "episodes": [
+            "1932-1934",
+            "1934-1945"
+          ],
+          "identity_link": "same canonical person as Qing and 1917 restoration"
+        }
+      ],
+      "reason": "Actual state institutions and head-of-state episode existed, but major decisions were subject to Japanese Kwantung Army approval; encode constrained sovereignty explicitly."
+    }
+  ],
+  "exclusions_and_edges": [
+    {
+      "category": "ordinary warlords",
+      "reason": "Regional military command without a qualifying central-government supreme office is not enough."
+    },
+    {
+      "category": "collective committees",
+      "reason": "A committee is modeled as an institutional episode; members are not automatically person-level rulers."
+    },
+    {
+      "category": "post-1949 heads of PRC/ROC",
+      "reason": "Separate modern political leadership dataset under working historical cutoff; avoids mixing current politics into the ruler-corpus denominator."
+    },
+    {
+      "category": "regional separatist/revolutionary states not claiming central Chinese government",
+      "reason": "Require a separate geographic/polity-scope layer; do not silently add or erase them inside H12."
+    }
+  ],
+  "identity_links": [
+    "孙中山: one person with Nanjing provisional + Guangzhou military/extraordinary-president episodes.",
+    "袁世凯: one person with provisional president + president + Hongxian episode.",
+    "溥仪: one person with Qing + 1917 restoration + Manchukuo episodes.",
+    "胡汉民: one person across Guangzhou acting role and 1927 Nanjing review episode.",
+    "蒋中正: one person across National Government and constitutional presidency episodes."
+  ],
+  "qa_open": [
+    "Verify exact 1927 Hu Hanmin Nanjing chair dates/powers.",
+    "Decide whether Chinese Soviet Republic is CORE or a dedicated competing-central-government sublayer after applying the same autonomy test to all rival regimes.",
+    "Keep Japanese-sponsored regimes EXTENDED unless evidence supports meaningful political autonomy; do not use recognition or ideology as the sole criterion.",
+    "Run a final acting-head chronology check against Liu Shoulin et al., Minguo Zhiguan Nianbiao / state-head tables.",
+    "Do not extend beyond the 1949 working cutoff without an explicit modern-leadership scope decision."
+  ]
+}
