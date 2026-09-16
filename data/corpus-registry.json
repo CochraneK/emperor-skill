@@ -1,0 +1,40 @@
+{
+  "schema_version": "0.1",
+  "generated_from": "repository snapshot 2026-09-17",
+  "canonical_audit": "NUWA_AUDIT_V2.md",
+  "status_note": "Counts are current repository snapshot; per-emperor L1-L3 statuses remain pending recovery audit.",
+  "totals": {
+    "skills": 267,
+    "dynasty_directories": 17
+  },
+  "dynasties": [
+    {"id":"xia","name":"夏","count":17},
+    {"id":"shang","name":"商","count":31},
+    {"id":"zhou","name":"周","count":37},
+    {"id":"qin","name":"秦","count":3},
+    {"id":"chuhan","name":"楚汉","count":2},
+    {"id":"xihan","name":"西汉","count":15},
+    {"id":"donghan","name":"东汉","count":13},
+    {"id":"sanguo","name":"三国","count":11},
+    {"id":"jin","name":"晋","count":15},
+    {"id":"nanbeichao","name":"南北朝","count":38},
+    {"id":"sui","name":"隋","count":3},
+    {"id":"tang","name":"唐","count":21},
+    {"id":"song","name":"宋","count":18},
+    {"id":"yuan","name":"元","count":15},
+    {"id":"ming","name":"明","count":16},
+    {"id":"qing","name":"清","count":12}
+  ],
+  "audit": {
+    "provenance_review_snapshot": 39,
+    "provenance_review_source": "_redo_tools/_order_suspects_39.md",
+    "legacy_size_queue": 92,
+    "legacy_size_queue_status": "deprecated-as-quality-gate",
+    "l1_l3_full_audit": "pending"
+  },
+  "reports": [
+    {"id":"solo-index","type":"simulation-index","path":"simulation/by-dynasty/solo/solo-index.html"},
+    {"id":"solo-ranking","type":"analysis","path":"simulation/by-dynasty/solo/solo-ranking.html"},
+    {"id":"reversal-validity","type":"validity","path":"simulation/validity/reversal-validity-report.html"}
+  ]
+}
