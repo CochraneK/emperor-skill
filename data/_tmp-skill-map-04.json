@@ -1,0 +1,146 @@
+{
+  "offset": 56,
+  "count": 14,
+  "rows": [
+    {
+      "skill_path": "skills/nanbeichao/liuyu-ming-perspective",
+      "skill_file": "skills/nanbeichao/liuyu-ming-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuyu-ming-perspective",
+      "cn": "刘彧（宋明帝）",
+      "en": "Liu Yu (Emperor Ming of Song)",
+      "era": "466–472",
+      "frontmatter_name": "liuyu-ming-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyu-perspective",
+      "skill_file": "skills/nanbeichao/liuyu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuyu-perspective",
+      "cn": "刘裕（宋武帝）",
+      "en": "Liu Yu",
+      "era": "420–422",
+      "frontmatter_name": "liuyu-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuziye-perspective",
+      "skill_file": "skills/nanbeichao/liuziye-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuziye-perspective",
+      "cn": "刘子业（宋前废帝）",
+      "en": "Liu Ziye",
+      "era": "464–466",
+      "frontmatter_name": "liuziye-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobagui-perspective",
+      "skill_file": "skills/nanbeichao/tuobagui-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobagui-perspective",
+      "cn": "拓跋珪（北魏道武帝）",
+      "en": "Tuoba Gui",
+      "era": "386–409",
+      "frontmatter_name": "tuobagui-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobahong-perspective",
+      "skill_file": "skills/nanbeichao/tuobahong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobahong-perspective",
+      "cn": "拓跋弘（北魏献文帝）",
+      "en": "Tuoba Hong",
+      "era": "465–471",
+      "frontmatter_name": "tuobahong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobajun-perspective",
+      "skill_file": "skills/nanbeichao/tuobajun-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobajun-perspective",
+      "cn": "拓跋濬（北魏文成帝）",
+      "en": "Tuoba Jun",
+      "era": "452–465",
+      "frontmatter_name": "tuobajun-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobasi-perspective",
+      "skill_file": "skills/nanbeichao/tuobasi-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobasi-perspective",
+      "cn": "拓跋嗣（北魏明元帝）",
+      "en": "Tuoba Si",
+      "era": "409–423",
+      "frontmatter_name": "tuobasi-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobatao-perspective",
+      "skill_file": "skills/nanbeichao/tuobatao-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobatao-perspective",
+      "cn": "拓跋焘（北魏太武帝）",
+      "en": "Tuoba Tao",
+      "era": "423–452",
+      "frontmatter_name": "tuobatao-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobayu-perspective",
+      "skill_file": "skills/nanbeichao/tuobayu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobayu-perspective",
+      "cn": "拓跋余（北魏南安王）",
+      "en": "Tuoba Yu",
+      "era": "452",
+      "frontmatter_name": "tuobayu-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaobaojuan-perspective",
+      "skill_file": "skills/nanbeichao/xiaobaojuan-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaobaojuan-perspective",
+      "cn": "萧宝卷（南齐东昏侯）",
+      "en": "Xiao Baojuan",
+      "era": "498–501",
+      "frontmatter_name": "xiaobaojuan-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaobaorong-perspective",
+      "skill_file": "skills/nanbeichao/xiaobaorong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaobaorong-perspective",
+      "cn": "萧宝融（南齐和帝）",
+      "en": "Xiao Baorong",
+      "era": "501–502",
+      "frontmatter_name": "xiaobaorong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaodaochang-perspective",
+      "skill_file": "skills/nanbeichao/xiaodaochang-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaodaochang-perspective",
+      "cn": "萧道成（南齐高帝）",
+      "en": "Xiao Daocheng",
+      "era": "479–482",
+      "frontmatter_name": "xiaodaochang-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaodong-perspective",
+      "skill_file": "skills/nanbeichao/xiaodong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaodong-perspective",
+      "cn": "萧栋（南梁豫章王）",
+      "en": "Xiao Dong",
+      "era": "551",
+      "frontmatter_name": "xiaodong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaofangzhi-perspective",
+      "skill_file": "skills/nanbeichao/xiaofangzhi-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaofangzhi-perspective",
+      "cn": "萧方智（南梁敬帝）",
+      "en": "Xiao Fangzhi",
+      "era": "555–557",
+      "frontmatter_name": "xiaofangzhi-perspective"
+    }
+  ]
+}
