@@ -1,0 +1,146 @@
+{
+  "offset": 196,
+  "count": 14,
+  "rows": [
+    {
+      "skill_path": "skills/xia/xie-xia-perspective",
+      "skill_file": "skills/xia/xie-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "xie-xia-perspective",
+      "cn": "泄",
+      "en": "Xie",
+      "era": "约前1903–约前1884",
+      "frontmatter_name": "xie-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/yu-perspective",
+      "skill_file": "skills/xia/yu-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "yu-perspective",
+      "cn": "禹",
+      "en": "Yu",
+      "era": "约前2070–约前2060（在位年数异说：约10年／约45年，见文末说明）",
+      "frontmatter_name": "yu-perspective"
+    },
+    {
+      "skill_path": "skills/xia/zhongkang-perspective",
+      "skill_file": "skills/xia/zhongkang-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "zhongkang-perspective",
+      "cn": "仲康",
+      "en": "Zhongkang",
+      "era": "约前2090–约前2076",
+      "frontmatter_name": "zhongkang-perspective"
+    },
+    {
+      "skill_path": "skills/xia/zhu-xia-perspective",
+      "skill_file": "skills/xia/zhu-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "zhu-xia-perspective",
+      "cn": "杼",
+      "en": "Zhu",
+      "era": "约前19世纪（在位约十七年，一说）",
+      "frontmatter_name": "zhu-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuao-perspective",
+      "skill_file": "skills/xihan/liuao-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuao-perspective",
+      "cn": "刘骜",
+      "en": "Liu Ao",
+      "era": "前33–前7（成帝在位）",
+      "frontmatter_name": "liuao-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liubang-perspective",
+      "skill_file": "skills/xihan/liubang-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liubang-perspective",
+      "cn": "刘邦",
+      "en": "Liu Bang",
+      "era": "前202–前195",
+      "frontmatter_name": "liubang-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuche-perspective",
+      "skill_file": "skills/xihan/liuche-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuche-perspective",
+      "cn": "刘彻",
+      "en": "Liu Che",
+      "era": "前141–前87（武帝在位）",
+      "frontmatter_name": "liuche-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liufoling-perspective",
+      "skill_file": "skills/xihan/liufoling-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liufoling-perspective",
+      "cn": "刘弗陵",
+      "en": "Liu Fuling",
+      "era": "前87–前74（昭帝在位）",
+      "frontmatter_name": "liufoling-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liugong-perspective",
+      "skill_file": "skills/xihan/liugong-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liugong-perspective",
+      "cn": "刘恭",
+      "en": "Liu Gong",
+      "era": "前188–前184（前少帝，在位约四年）",
+      "frontmatter_name": "liugong-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuhe-perspective",
+      "skill_file": "skills/xihan/liuhe-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuhe-perspective",
+      "cn": "刘贺",
+      "en": "Liu He",
+      "era": "前74（昌邑王即位，在位二十七日）",
+      "frontmatter_name": "liuhe-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuheng-xihan-perspective",
+      "skill_file": "skills/xihan/liuheng-xihan-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuheng-xihan-perspective",
+      "cn": "刘恒",
+      "en": "Liu Heng",
+      "era": "前180–前157（文帝在位）",
+      "frontmatter_name": "liuheng-xihan-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuhong-perspective",
+      "skill_file": "skills/xihan/liuhong-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuhong-perspective",
+      "cn": "刘弘",
+      "en": "Liu Hong",
+      "era": "前184–前180（后少帝，在位约四年）",
+      "frontmatter_name": "liuhong-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liukan-perspective",
+      "skill_file": "skills/xihan/liukan-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liukan-perspective",
+      "cn": "刘衎",
+      "en": "Liu Kan",
+      "era": "前1–公元6（平帝在位，9岁即位）",
+      "frontmatter_name": "liukan-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuqi-perspective",
+      "skill_file": "skills/xihan/liuqi-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuqi-perspective",
+      "cn": "刘启",
+      "en": "Liu Qi",
+      "era": "前157–前141（景帝在位）",
+      "frontmatter_name": "liuqi-perspective"
+    }
+  ]
+}
