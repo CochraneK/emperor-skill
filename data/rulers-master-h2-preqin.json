@@ -1,0 +1,17 @@
+{
+  "schema_version":"1.0",
+  "batch":"H2-preqin-parallel-polities",
+  "status":"polity-scope-locked; person-enumeration-next",
+  "principle":"Do not select only famous hegemon rulers. Enumerate qualifying ruler sequences for each in-scope autonomous polity, then filter by the common rule.",
+  "spring_autumn_core_polities":["鲁","齐","晋","秦","楚","宋","卫","陈","蔡","曹","郑","燕","吴","越"],
+  "spring_autumn_extended_review":["邾","莒","滕","杞","许","虢","虞","徐","巴","蜀","中山及其他有持续自主统治谱系者"],
+  "warring_states_core_polities":["齐（田齐）","楚","燕","韩","赵","魏","秦","中山"],
+  "transition_rules":[
+    "晋→韩/赵/魏 is modeled as polity succession/split, not duplicate persons.",
+    "姜齐→田齐 preserves polity/dynastic-house distinction.",
+    "秦 rulers before imperial unification remain Qin-polity episodes; 嬴政 later has an imperial episode in the same person record.",
+    "吴、越 and other cross-period polities are not duplicated merely because historiographic period labels change."
+  ],
+  "evidence_policy":"Pre-Qin transmitted chronologies require source/variant flags; uncertain ruler names and dates stay explicit rather than silently normalized.",
+  "qa":"The 37 existing Zhou packages are the Zhou royal house only and must never be used as evidence that Spring-and-Autumn/Warring-States coverage is complete."
+}
