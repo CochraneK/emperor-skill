@@ -1,0 +1,146 @@
+{
+  "offset": 42,
+  "count": 14,
+  "rows": [
+    {
+      "skill_path": "skills/ming/zhuyuanzhang-perspective",
+      "skill_file": "skills/ming/zhuyuanzhang-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuyuanzhang-perspective",
+      "cn": "朱元璋",
+      "en": "Zhu Yuanzhang",
+      "era": "1328–1398",
+      "frontmatter_name": "zhuyuanzhang-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuyunwen-perspective",
+      "skill_file": "skills/ming/zhuyunwen-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuyunwen-perspective",
+      "cn": "朱允炆",
+      "en": "Zhu Yunwen",
+      "era": "1377–1402",
+      "frontmatter_name": "zhuyunwen-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuzaihou-perspective",
+      "skill_file": "skills/ming/zhuzaihou-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuzaihou-perspective",
+      "cn": "朱载垕",
+      "en": "Zhu Zaihou",
+      "era": "1537–1572",
+      "frontmatter_name": "zhuzaihou-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuzhanji-perspective",
+      "skill_file": "skills/ming/zhuzhanji-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuzhanji-perspective",
+      "cn": "朱瞻基",
+      "en": "Zhu Zhanji",
+      "era": "1399–1435",
+      "frontmatter_name": "zhuzhanji-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenbaixian-perspective",
+      "skill_file": "skills/nanbeichao/chenbaixian-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "chenbaixian-perspective",
+      "cn": "陈霸先（南陈武帝）",
+      "en": "Chen Baxian",
+      "era": "557–559",
+      "frontmatter_name": "chenbaixian-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenbozong-perspective",
+      "skill_file": "skills/nanbeichao/chenbozong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "chenbozong-perspective",
+      "cn": "陈伯宗（南陈废帝）",
+      "en": "Chen Bozong",
+      "era": "566–568",
+      "frontmatter_name": "chenbozong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenqian-perspective",
+      "skill_file": "skills/nanbeichao/chenqian-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "chenqian-perspective",
+      "cn": "陈蒨（南陈文帝）",
+      "en": "Chen Qian",
+      "era": "559–566",
+      "frontmatter_name": "chenqian-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenshubao-perspective",
+      "skill_file": "skills/nanbeichao/chenshubao-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "chenshubao-perspective",
+      "cn": "陈叔宝（南陈后主）",
+      "en": "Chen Shubao",
+      "era": "582–589",
+      "frontmatter_name": "chenshubao-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenxuan-perspective",
+      "skill_file": "skills/nanbeichao/chenxuan-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "chenxuan-perspective",
+      "cn": "陈顼（南陈宣帝）",
+      "en": "Chen Xu",
+      "era": "568–582",
+      "frontmatter_name": "chenxuan-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liujun-perspective",
+      "skill_file": "skills/nanbeichao/liujun-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liujun-perspective",
+      "cn": "刘骏（宋孝武帝）",
+      "en": "Liu Jun",
+      "era": "453–464",
+      "frontmatter_name": "liujun-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liushao-perspective",
+      "skill_file": "skills/nanbeichao/liushao-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liushao-perspective",
+      "cn": "刘劭（宋元凶）",
+      "en": "Liu Shao",
+      "era": "453",
+      "frontmatter_name": "liushao-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyifu-perspective",
+      "skill_file": "skills/nanbeichao/liuyifu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuyifu-perspective",
+      "cn": "刘义符（宋少帝）",
+      "en": "Liu Yifu",
+      "era": "422–424",
+      "frontmatter_name": "liuyifu-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyilong-perspective",
+      "skill_file": "skills/nanbeichao/liuyilong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuyilong-perspective",
+      "cn": "刘义隆（宋文帝）",
+      "en": "Liu Yilong",
+      "era": "424–453",
+      "frontmatter_name": "liuyilong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyu-cangwu-perspective",
+      "skill_file": "skills/nanbeichao/liuyu-cangwu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuyu-cangwu-perspective",
+      "cn": "刘昱（宋后废帝/苍梧王）",
+      "en": "Liu Yu (Cangwu Wang)",
+      "era": "473–477",
+      "frontmatter_name": "liuyu-cangwu-perspective"
+    }
+  ]
+}
