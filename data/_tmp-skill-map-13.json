@@ -1,0 +1,146 @@
+{
+  "offset": 182,
+  "count": 14,
+  "rows": [
+    {
+      "skill_path": "skills/tang/wuzetian-perspective",
+      "skill_file": "skills/tang/wuzetian-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "wuzetian-perspective",
+      "cn": "武则天",
+      "en": "Wu Zetian",
+      "era": "624–705",
+      "frontmatter_name": "wuzetian-perspective"
+    },
+    {
+      "skill_path": "skills/xia/bujiang-perspective",
+      "skill_file": "skills/xia/bujiang-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "bujiang-perspective",
+      "cn": "不降",
+      "en": "Bujiang",
+      "era": "约前1712–约前1643（在位约五十九年，逊位后又十年乃崩）",
+      "frontmatter_name": "bujiang-perspective"
+    },
+    {
+      "skill_path": "skills/xia/fa-xia-perspective",
+      "skill_file": "skills/xia/fa-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "fa-xia-perspective",
+      "cn": "发",
+      "en": "Fa",
+      "era": "约前1665–约前1650",
+      "frontmatter_name": "fa-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/gao-xia-perspective",
+      "skill_file": "skills/xia/gao-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "gao-xia-perspective",
+      "cn": "皋",
+      "en": "Gao",
+      "era": "约前17世纪（《夏商周年表》夏代约前2070–前1600 之内，无确年）",
+      "frontmatter_name": "gao-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/huai-xia-perspective",
+      "skill_file": "skills/xia/huai-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "huai-xia-perspective",
+      "cn": "槐",
+      "en": "Huai",
+      "era": "约前1833–约前1790",
+      "frontmatter_name": "huai-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/jie-perspective",
+      "skill_file": "skills/xia/jie-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "jie-perspective",
+      "cn": "桀",
+      "en": "Jie",
+      "era": "约前1650–约前1600",
+      "frontmatter_name": "jie-perspective"
+    },
+    {
+      "skill_path": "skills/xia/jin-xia-perspective",
+      "skill_file": "skills/xia/jin-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "jin-xia-perspective",
+      "cn": "廑",
+      "en": "Jin",
+      "era": "约前1750–约前1730（依断代工程框架粗估，异说存）",
+      "frontmatter_name": "jin-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/jiong-xia-perspective",
+      "skill_file": "skills/xia/jiong-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "jiong-xia-perspective",
+      "cn": "扃",
+      "en": "Jiong",
+      "era": "约前1685–约前1665（在位约18年，《帝王世纪》异说21年）",
+      "frontmatter_name": "jiong-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/kongjia-perspective",
+      "skill_file": "skills/xia/kongjia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "kongjia-perspective",
+      "cn": "孔甲",
+      "en": "Kongjia",
+      "era": "约前1740–约前1710",
+      "frontmatter_name": "kongjia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/mang-xia-perspective",
+      "skill_file": "skills/xia/mang-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "mang-xia-perspective",
+      "cn": "芒",
+      "en": "Mang",
+      "era": "约前19世纪（异说：约前1897–约前1833 / 约前2014–约前1997）",
+      "frontmatter_name": "mang-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/qi-perspective",
+      "skill_file": "skills/xia/qi-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "qi-perspective",
+      "cn": "启",
+      "en": "Qi",
+      "era": "约前2057–约前2038",
+      "frontmatter_name": "qi-perspective"
+    },
+    {
+      "skill_path": "skills/xia/shaojang-perspective",
+      "skill_file": "skills/xia/shaojang-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "shaojang-perspective",
+      "cn": "少康",
+      "en": "Shao Kang",
+      "era": "约前1935–约前1914",
+      "frontmatter_name": "shaojang-perspective"
+    },
+    {
+      "skill_path": "skills/xia/taikang-perspective",
+      "skill_file": "skills/xia/taikang-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "taikang-perspective",
+      "cn": "太康",
+      "en": "Taikang",
+      "era": "约前2038–约前2026",
+      "frontmatter_name": "taikang-perspective"
+    },
+    {
+      "skill_path": "skills/xia/xiang-perspective",
+      "skill_file": "skills/xia/xiang-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "xiang-perspective",
+      "cn": "相",
+      "en": "Xiang",
+      "era": "约前 19 世纪（约前 1870–约前 1842，传说/半信史，纪年不可定）",
+      "frontmatter_name": "xiang-perspective"
+    }
+  ]
+}
