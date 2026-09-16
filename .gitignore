@@ -22,13 +22,16 @@ Thumbs.db
 .vscode/
 .idea/
 
+# 本机 agent / WorkBuddy 状态：不是 corpus 数据
+.workbuddy/
+
 # 本机产物 / 临时
 *.log
 *.tmp
 *.bak
 *~
-.workbuddy/closeout-audit.json
-# 校验脚本的中间输出（可由 _redo_tools/*.py 重新生成）
+
+# 校验脚本的中间输出（可由工具重新生成）
 _redo_tools/*.txt
 
 # 限流中断的残缺包暂存区（待重派补全，不入库）
