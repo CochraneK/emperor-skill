@@ -1,7 +1,20 @@
-# 帝王工程（emperor-skill）
+<div align="center">
 
-把中国主要王朝帝王蒸馏为可运行的 `-perspective` Skill，并在其上做**模拟场**与**人格测验**。
-本仓库与蒸馏主项目（nuwa-skill）解耦，便于独立分发与复用。
+# 帝王工程 · emperor-skill
+
+**把中国主要王朝帝王蒸馏为可运行的 Perspective Skills，并在其上构建模拟场与人格测验。**
+
+<p>
+  <img alt="Skills" src="https://img.shields.io/badge/emperor%20packages-94-6C63FF">
+  <img alt="Architecture" src="https://img.shields.io/badge/architecture-skill%20%C2%B7%20simulation%20%C2%B7%20assessment-2F80ED">
+  <img alt="Distribution" src="https://img.shields.io/badge/design-independent%20distribution-27AE60">
+</p>
+
+**Skill Library · Historical Simulation · Personality Assessment**
+
+</div>
+
+本仓库与蒸馏主项目 `nuwa-skill` 解耦，便于独立分发与复用；重点不是做静态帝王百科，而是把人物视角做成可运行、可审计、可组合的 Skill。
 
 ## 三大块
 
