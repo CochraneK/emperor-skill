@@ -30,3 +30,6 @@ Thumbs.db
 .workbuddy/closeout-audit.json
 # 校验脚本的中间输出（可由 _redo_tools/*.py 重新生成）
 _redo_tools/*.txt
+
+# 限流中断的残缺包暂存区（待重派补全，不入库）
+_pending/
