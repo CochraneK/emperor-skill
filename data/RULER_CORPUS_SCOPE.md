@@ -1,187 +1,147 @@
-# Canonical Ruler Corpus Scope · 帝王蒸馏全库口径
+# Canonical Ruler Corpus Scope · 中国历史统治者蒸馏全库口径
 
-> Status: canonical scope v1.0
-> Purpose: define **who should eventually have a research → distillation package**. This is broader than the current 267-package corpus and is intentionally separated from `data/corpus-registry.json`.
+> Status: canonical scope v2.0
+> Purpose: define **who should eventually have a research → distillation package**. The denominator is broader than a conventional emperor list and broader than the current 267 packages.
 
-## 1. Construction rule: 朝代歌取最大集，而不是只取一首
+## 1. Canonical admission rule
 
-Common dynasty mnemonics compress history differently. The canonical scope therefore uses the **union of major dynasty-song / chronology traditions**, then expands umbrella periods into their constituent regimes.
+The master corpus is a **Chinese Historical Rulers Corpus**, not merely an orthodox-dynasty emperor list.
 
-A minimal mnemonic often gives:
+A historical person enters `CORE` when the evidence supports all three conditions:
+1. the person is treated as a historical person rather than a purely legendary culture hero;
+2. the person was the highest sovereign decision-maker of a politically autonomous polity for a rule episode;
+3. the polity had observable actual rule/control (territorial, administrative, military or equivalent), rather than only a posthumous title or unsupported throne claim.
 
-`夏 → 商 → 周 → 秦 → 汉 → 三国 → 两晋 → 南北朝 → 隋 → 唐 → 五代十国 → 宋 → 辽 → 夏 → 金 → 元 → 明 → 清`
+Admission does **not** require:
+- traditional orthodox recognition;
+- the title 皇帝;
+- nationwide unification;
+- a long reign;
+- later historiographical approval.
 
-For corpus construction this is insufficient because `汉`, `三国`, `两晋`, `南北朝`, `五代十国`, `宋` hide parallel or successor regimes, and many versions omit `新` and `十六国`. Our maximum-set canonical backbone is therefore:
+Therefore parallel sovereign polities are first-class data, not footnotes.
 
-`夏 → 商 → 西周 → 东周 → 秦 → 西汉 → 新 → 东汉 → 三国 → 西晋 → 东晋 / 十六国 → 南北朝 → 隋 → 唐（含武周作为统治序列） → 五代十国 → 北宋 / 南宋 → 辽 → 西夏 → 金 → 元 → 明 → 清`
+## 2. Person ≠ rule episode
 
-This is a **corpus taxonomy**, not a claim that all listed regimes formed one linear orthodox succession.
+The canonical entity is the **person**. Offices, reigns, titles and polities are represented as `rule_episode`s.
 
-## 2. Expanded regime set
+One person must not be duplicated merely because title or constitutional form changed. For example, Yuan Shikai is one person entity; a republican presidency and the Hongxian imperial episode can be encoded as separate episodes. Likewise aliases, temple names and posthumous names do not create duplicate people.
 
-### A. Three Dynasties / pre-imperial royal line
-- Xia 夏
-- Shang 商
-- Western Zhou 西周
-- Eastern Zhou 东周
-
-### B. Qin–Han transition
-- Qin 秦
-- Western Han 西汉
-- Xin 新
-- Eastern Han 东汉
-
-`楚汉` may remain as a project analytical grouping for the transition, but it is not a substitute for the canonical dynasty/regime registry. Xiang Yu and other non-emperor hegemonic rulers should be tagged separately if retained.
-
-### C. Three Kingdoms
-- Cao Wei 曹魏
-- Shu Han 蜀汉
-- Eastern Wu 孙吴
-
-### D. Jin and Sixteen Kingdoms
-- Western Jin 西晋
-- Eastern Jin 东晋
-- Cheng-Han 成汉
-- Han-Zhao / Former Zhao 汉赵（前赵）
-- Later Zhao 后赵
-- Former Liang 前凉
-- Former Yan 前燕
-- Former Qin 前秦
-- Later Qin 后秦
-- Later Yan 后燕
-- Western Qin 西秦
-- Later Liang 后凉
-- Southern Liang 南凉
-- Southern Yan 南燕
-- Western Liang 西凉
-- Northern Liang 北凉
-- Xia / Hu Xia 胡夏
-- Northern Yan 北燕
-
-`冉魏` is tracked as an **extended parallel regime** because it matters to the political sequence but is not one of the conventional “Sixteen”. Other short-lived parallel regimes can be represented in an extension layer rather than silently omitted.
-
-### E. Northern and Southern Dynasties
-South:
-- Liu Song 刘宋
-- Southern Qi 南齐
-- Liang 梁
-- Chen 陈
-
-North:
-- Northern Wei 北魏
-- Eastern Wei 东魏
-- Western Wei 西魏
-- Northern Qi 北齐
-- Northern Zhou 北周
-
-### F. Sui–Tang
-- Sui 隋
-- Tang 唐
-- Wu Zhou 武周 — represented explicitly in ruler metadata so Wu Zetian is not lost inside a Tang-only label
-
-### G. Five Dynasties
-- Later Liang 后梁
-- Later Tang 后唐
-- Later Jin 后晋
-- Later Han 后汉
-- Later Zhou 后周
-
-### H. Ten Kingdoms
-- Former Shu 前蜀
-- Later Shu 后蜀
-- Yang Wu 杨吴
-- Southern Tang 南唐
-- Wuyue 吴越
-- Min 闽
-- Ma Chu 马楚
-- Southern Han 南汉
-- Jingnan / Nanping 荆南（南平）
-- Northern Han 北汉
-
-### I. Song and contemporary major dynasties
-- Northern Song 北宋
-- Southern Song 南宋
-- Liao 辽
-- Western Xia 西夏
-- Jin 金
-
-### J. Yuan–Ming–Qing
-- Yuan 元
-- Ming 明
-- Qing 清
-
-## 3. Inclusion levels
-
-The master ruler library uses explicit levels so “maximum set” does not become an uncontrolled list of every person who ever claimed a throne.
-
-### CORE — must distill
-Include every **actually enthroned / reigning sovereign** in the canonical regimes above, including:
-- child rulers;
-- deposed rulers;
-- very short reigns;
-- rulers known by posthumous titles rather than personal names;
-- female sovereigns such as Wu Zetian;
-- rulers whose historical evidence is sparse, provided the package is marked `LIMITED-EVIDENCE` when necessary.
-
-Sparse evidence is **not** a reason to silently omit a ruler.
-
-### EXTENDED — distill after CORE
-Parallel regimes important to the political sequence but outside the conventional dynasty-song maximum set, e.g. Ran Wei, Huan Chu and selected transition regimes. These must be explicitly tagged `scope: extended`, never mixed invisibly into CORE.
-
-### EXCLUDED BY DEFAULT
-Do not automatically create emperor-perspective Skills for:
-- purely posthumously elevated ancestors who never reigned;
-- pretenders with no durable regime/control;
-- rebel leaders merely because they briefly adopted an imperial title;
-- mythic Three Sovereigns/Five Emperors before Xia;
-- princes/regents who never became sovereign;
-- modern heads of state.
-
-They can enter separate analytical datasets later.
-
-## 4. Evidence-era policy
-
-Coverage and evidence confidence are separate dimensions.
-
-- Xia: include canonical ruler sequence but normally mark `LIMITED-EVIDENCE`; transmitted texts and archaeology must not be represented as contemporary personal testimony.
-- Shang: include canonical ruler sequence; oracle-bone/bronze evidence must be separated from later transmitted historiography and modern reconstruction.
-- Zhou/pre-Qin: distinguish contemporaneous/near-contemporaneous inscriptions and transmitted texts from later histories.
-- Imperial periods: standard histories are important transmitted evidence, but “正史” does not automatically mean “contemporary primary source”.
-
-The goal is a complete ruler index with honest uncertainty, **not false symmetry of evidence quality across 4,000 years**.
-
-## 5. Relationship to the current repository
-
-`data/corpus-registry.json` answers: **what packages exist now?**
-
-This scope document answers: **what rulers should eventually exist?**
-
-The next canonical data artifact is `data/rulers-master.json`, one row/object per ruler with at least:
-
-- `id`
-- `canonical_name`
-- `personal_name`
-- `regime_id`
+Every episode should encode orthogonal dimensions rather than one overloaded legitimacy label:
+- `polity_id`
 - `macro_period`
-- `reign_start`
-- `reign_end`
-- `sequence`
-- `scope` (`core` / `extended`)
-- `evidence_class`
-- `existing_skill_id` or `null`
+- `start` / `end`
+- `title`
+- `polity_type`
+- `sovereignty_status`
+- `control_scope`
+- `recognition_status`
+- `evidence_level`
+- `inclusion_basis`
+- `source_refs`
+
+## 3. Scope tiers
+
+### CORE — historical denominator
+Every person with at least one qualifying actual-sovereign episode under §1. This includes child rulers, deposed rulers, short reigns, female sovereigns, non-orthodox rival rulers, and rulers with sparse evidence. Sparse evidence produces `LIMITED-EVIDENCE`; it does not justify invention or silent deletion.
+
+### EXTENDED — analytical supplement, not denominator
+Borderline actors worth retaining for comparison: regents exercising exceptional autonomous power, claimants whose actual sovereignty is uncertain, very short transitional entities with disputed control, or figures whose political entity falls near the admission boundary. Each requires an explicit reason.
+
+### LEGENDARY — separate traditional-history layer
+Pre-Xia culture heroes and legendary sovereign traditions are preserved because they matter to Chinese political memory and the user's maximum-set goal, but are **not counted as historical CORE** unless evidence warrants reclassification. This includes traditions around 盘古、女娲、伏羲、神农/炎帝、黄帝、少昊、颛顼、帝喾、尧、舜 and other tradition-dependent 三皇五帝 lists. Conflicting lists coexist; we do not fabricate a single false genealogy.
+
+### OUT-OF-SCOPE
+Purely posthumously elevated ancestors, claim-only pretenders with no demonstrated rule, fictional persons, and subordinate officials/warlords who did not constitute the highest sovereign authority of a qualifying autonomous polity.
+
+## 4. Maximum-set historical backbone
+
+A dynasty mnemonic is only a discovery seed. The corpus expands compressed umbrella periods and overlapping polities.
+
+Historical work batches are:
+- Xia, Shang, Western Zhou, Eastern Zhou royal house;
+- **Spring-and-Autumn autonomous states**, enumerated by polity sequence rather than fame;
+- **Warring States autonomous states**, including but not limited to the Seven Powers when another polity satisfies the same rule;
+- Qin, Chu-Han transition, Western Han, Xin, Gengshi, Eastern Han;
+- Three Kingdoms, Western/Eastern Jin, Sixteen Kingdoms and qualifying contemporaries;
+- Northern/Southern Dynasties, Sui, Tang, Wu Zhou and qualifying Sui–Tang/late-Tang rival sovereign regimes;
+- Five Dynasties, Ten Kingdoms and qualifying contemporaries;
+- Song, Liao, Western Xia, Jin, Western Liao, Dali and qualifying parallel polities;
+- Mongol/Yuan and qualifying late-Yuan rival regimes;
+- Ming, Southern Ming, Later Jin/Qing, Dashun, Daxi and qualifying transition regimes;
+- Qing and sustained late-Qing rival sovereign regimes such as Taiping;
+- competing central-government rule episodes in the early Republic only where the same sovereignty test is met.
+
+This taxonomy does **not** assert one linear orthodox succession.
+
+## 5. Explicit boundary examples
+
+These examples lock the rule so later workers do not revert to an emperor-title filter:
+- 齐桓公、晋文公、楚庄王、秦穆公、越王勾践、魏文侯、齐威王、赵武灵王、燕昭王、秦孝公: eligible through autonomous-state rule, subject to systematic polity enumeration rather than fame selection.
+- 黄巢: eligible because the Daqi episode involved an asserted sovereign regime plus observable territorial rule; the title alone is not the reason.
+- 李自成: eligible through Dashun actual rule.
+- 洪秀全: eligible through the sustained Taiping polity; 天王 rather than 皇帝 is irrelevant to admission.
+- 袁世凯: one person entity; Hongxian is a distinct rule episode. Republican office alone does not imply that every later president enters this historical ruler corpus.
+- 孙中山 and 张作霖 must be resolved through the same episode-level sovereignty test, not fame, ideology or title. Their inclusion/exclusion decision must carry explicit evidence and scope reasoning.
+
+## 6. Evidence policy
+
+Coverage and evidence confidence are independent dimensions.
+
+- Legendary layer: preserve tradition variants; never present mythic chronology as established history.
+- Xia: usually `LIMITED-EVIDENCE`; transmitted texts and archaeology are not contemporary personal testimony.
+- Shang: distinguish oracle-bone/bronze evidence, transmitted historiography and modern reconstruction.
+- Zhou/pre-Qin: distinguish inscriptions/near-contemporaneous evidence from later transmitted histories.
+- Imperial and later periods: 正史 is important transmitted evidence but is not automatically contemporary primary evidence.
+
+`LIMITED-EVIDENCE` means reduce claims and model count when necessary. It never means pad six generic mental models.
+
+## 7. Master data model
+
+`data/corpus-registry.json` answers **what Skill packages exist now**.
+
+`data/rulers-master.json` answers **which historical persons are in the canonical ruler universe**.
+
+`data/legendary-rulers.json` answers **which pre-Xia/traditional sovereign figures are preserved outside the historical denominator**.
+
+The person schema should include:
+- stable `id`
+- `name_zh`
+- `aliases`
+- `historicity`
+- `episodes[]`
+- `scope_tier`
+- `evidence_level`
+- `existing_skill_ids[]`
 - `distillation_status`
 - `notes`
 
-Then:
+The episode schema should include the orthogonal fields in §2.
 
-`rulers-master.json − corpus-registry = missing distillation queue`
+The future missing-work equation is person/entity based, not directory-count based:
 
-No future README/Page should call the current 267 packages “the complete emperor library” until this set-difference is zero for CORE.
+`CORE persons − matched existing persons = missing research/distillation queue`
 
-## 6. Canonical macro-period order for UI / visualization
+No README/Page should describe the current 267 packages as the complete ruler library until the CORE set difference is zero.
 
-For Page and analysis ordering use:
+## 8. QA invariants
 
-`三代 → 秦汉 → 三国 → 晋十六国 → 南北朝 → 隋唐 → 五代十国 → 宋辽夏金 → 元 → 明 → 清`
+- no fame filter;
+- no orthodoxy filter;
+- no emperor-title filter;
+- one person, one canonical ID;
+- multiple offices/reigns = multiple episodes;
+- posthumous title ≠ reign;
+- evidence poverty ≠ exclusion;
+- evidence poverty ≠ permission to invent;
+- every borderline inclusion/exclusion has a reason;
+- every polity sequence is enumerated systematically before individual selection;
+- historical CORE, EXTENDED and LEGENDARY denominators are never silently mixed.
 
-This avoids forcing overlapping regimes into a false single line while remaining readable as a historical timeline.
+## 9. Visualization order
+
+The UI must support overlapping timelines rather than force a false single line. Recommended macro lanes:
+
+`传说层 → 三代 → 春秋列国 → 战国列国 → 秦汉 → 三国 → 晋十六国 → 南北朝 → 隋唐及并行政权 → 五代十国 → 宋辽夏金及并行政权 → 元及并行政权 → 明清及竞争政权 → 晚清/民初边界层`
+
+Visualization should be polity-lane + person-episode based, enabling comparisons, simulation selection, evidence-confidence filters and alternative recognition views.
