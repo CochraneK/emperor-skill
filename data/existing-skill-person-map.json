@@ -1,0 +1,2680 @@
+{
+  "schema_version": "1.0",
+  "status": "EXACT_FRONTMATTER_INVENTORY",
+  "generated_from": "all tracked skills/*/*/SKILL.md on main",
+  "count": 267,
+  "missing_cn_count": 0,
+  "duplicate_cn": [],
+  "skills": [
+    {
+      "skill_path": "skills/chuhan/xiangyu-perspective",
+      "skill_file": "skills/chuhan/xiangyu-perspective/SKILL.md",
+      "dynasty_dir": "chuhan",
+      "package_slug": "xiangyu-perspective",
+      "cn": "项羽",
+      "en": "Xiang Yu",
+      "era": "前232–前202",
+      "frontmatter_name": "xiangyu-perspective"
+    },
+    {
+      "skill_path": "skills/chuhan/yidi-perspective",
+      "skill_file": "skills/chuhan/yidi-perspective/SKILL.md",
+      "dynasty_dir": "chuhan",
+      "package_slug": "yidi-perspective",
+      "cn": "熊心",
+      "en": "Yidi",
+      "era": "前208–前206",
+      "frontmatter_name": "yidi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/andi-perspective",
+      "skill_file": "skills/donghan/andi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "andi-perspective",
+      "cn": "刘祜",
+      "en": "Liu Hu",
+      "era": "106–125",
+      "frontmatter_name": "andi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/chongdi-perspective",
+      "skill_file": "skills/donghan/chongdi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "chongdi-perspective",
+      "cn": "刘炳",
+      "en": "Liu Bing",
+      "era": "144–145",
+      "frontmatter_name": "chongdi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/guangwudi-perspective",
+      "skill_file": "skills/donghan/guangwudi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "guangwudi-perspective",
+      "cn": "刘秀",
+      "en": "Liu Xiu",
+      "era": "25–57",
+      "frontmatter_name": "guangwudi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/hedi-perspective",
+      "skill_file": "skills/donghan/hedi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "hedi-perspective",
+      "cn": "刘肇",
+      "en": "Liu Zhao",
+      "era": "88–105",
+      "frontmatter_name": "hedi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/huandi-perspective",
+      "skill_file": "skills/donghan/huandi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "huandi-perspective",
+      "cn": "刘志",
+      "en": "Liu Zhi",
+      "era": "146–168",
+      "frontmatter_name": "huandi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/lingdi-perspective",
+      "skill_file": "skills/donghan/lingdi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "lingdi-perspective",
+      "cn": "刘宏",
+      "en": "Liu Hong",
+      "era": "168–189",
+      "frontmatter_name": "lingdi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/mingdi-perspective",
+      "skill_file": "skills/donghan/mingdi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "mingdi-perspective",
+      "cn": "刘庄",
+      "en": "Liu Zhuang",
+      "era": "57–75",
+      "frontmatter_name": "mingdi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/shangdi-perspective",
+      "skill_file": "skills/donghan/shangdi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "shangdi-perspective",
+      "cn": "刘隆",
+      "en": "Liu Long",
+      "era": "105–106",
+      "frontmatter_name": "shangdi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/shaodi-perspective",
+      "skill_file": "skills/donghan/shaodi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "shaodi-perspective",
+      "cn": "刘辩",
+      "en": "Liu Bian",
+      "era": "189",
+      "frontmatter_name": "shaodi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/shundi-perspective",
+      "skill_file": "skills/donghan/shundi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "shundi-perspective",
+      "cn": "刘保",
+      "en": "Liu Bao",
+      "era": "125–144",
+      "frontmatter_name": "shundi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/xiandi-perspective",
+      "skill_file": "skills/donghan/xiandi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "xiandi-perspective",
+      "cn": "刘协",
+      "en": "Liu Xie",
+      "era": "189–220",
+      "frontmatter_name": "xiandi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/zhangdi-perspective",
+      "skill_file": "skills/donghan/zhangdi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "zhangdi-perspective",
+      "cn": "刘炟",
+      "en": "Liu Da",
+      "era": "75–88",
+      "frontmatter_name": "zhangdi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/zhidi-perspective",
+      "skill_file": "skills/donghan/zhidi-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "zhidi-perspective",
+      "cn": "刘缵",
+      "en": "Liu Zuan",
+      "era": "145–146",
+      "frontmatter_name": "zhidi-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simachi-perspective",
+      "skill_file": "skills/jin/simachi-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simachi-perspective",
+      "cn": "司马炽（晋怀帝）",
+      "en": "Sima Chi",
+      "era": "307–313",
+      "frontmatter_name": "simachi-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simadan-perspective",
+      "skill_file": "skills/jin/simadan-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simadan-perspective",
+      "cn": "司马聃（晋穆帝）",
+      "en": "Sima Dan",
+      "era": "344–361",
+      "frontmatter_name": "simadan-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simadewen-perspective",
+      "skill_file": "skills/jin/simadewen-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simadewen-perspective",
+      "cn": "司马德文（晋恭帝）",
+      "en": "Sima Dewen",
+      "era": "418–420",
+      "frontmatter_name": "simadewen-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simadezong-perspective",
+      "skill_file": "skills/jin/simadezong-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simadezong-perspective",
+      "cn": "司马德宗（晋安帝）",
+      "en": "Sima Dezong",
+      "era": "396–418",
+      "frontmatter_name": "simadezong-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simapi-perspective",
+      "skill_file": "skills/jin/simapi-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simapi-perspective",
+      "cn": "司马丕（晋哀帝）",
+      "en": "Sima Pi",
+      "era": "361–365",
+      "frontmatter_name": "simapi-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simarui-perspective",
+      "skill_file": "skills/jin/simarui-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simarui-perspective",
+      "cn": "司马睿（晋元帝）",
+      "en": "Sima Rui",
+      "era": "317–323",
+      "frontmatter_name": "simarui-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simashao-perspective",
+      "skill_file": "skills/jin/simashao-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simashao-perspective",
+      "cn": "司马绍（晋明帝）",
+      "en": "Sima Shao",
+      "era": "323–325",
+      "frontmatter_name": "simashao-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simayan-perspective",
+      "skill_file": "skills/jin/simayan-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simayan-perspective",
+      "cn": "司马炎（晋武帝）",
+      "en": "Sima Yan",
+      "era": "265–290",
+      "frontmatter_name": "simayan-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simayancheng-perspective",
+      "skill_file": "skills/jin/simayancheng-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simayancheng-perspective",
+      "cn": "司马衍（晋成帝）",
+      "en": "Sima Yan (Chengdi)",
+      "era": "325–342",
+      "frontmatter_name": "simayancheng-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simayao-perspective",
+      "skill_file": "skills/jin/simayao-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simayao-perspective",
+      "cn": "司马曜（晋孝武帝）",
+      "en": "Sima Yao",
+      "era": "372–396",
+      "frontmatter_name": "simayao-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simaye-perspective",
+      "skill_file": "skills/jin/simaye-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simaye-perspective",
+      "cn": "司马邺（晋愍帝）",
+      "en": "Sima Ye",
+      "era": "313–316",
+      "frontmatter_name": "simaye-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simayi-perspective",
+      "skill_file": "skills/jin/simayi-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simayi-perspective",
+      "cn": "司马奕（晋废帝/海西公）",
+      "en": "Sima Yi",
+      "era": "365–371",
+      "frontmatter_name": "simayi-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simayu-perspective",
+      "skill_file": "skills/jin/simayu-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simayu-perspective",
+      "cn": "司马昱（晋简文帝）",
+      "en": "Sima Yi",
+      "era": "371–372",
+      "frontmatter_name": "simayu-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simayue-perspective",
+      "skill_file": "skills/jin/simayue-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simayue-perspective",
+      "cn": "司马岳（晋康帝）",
+      "en": "Sima Yue",
+      "era": "342–344",
+      "frontmatter_name": "simayue-perspective"
+    },
+    {
+      "skill_path": "skills/jin/simazhong-perspective",
+      "skill_file": "skills/jin/simazhong-perspective/SKILL.md",
+      "dynasty_dir": "jin",
+      "package_slug": "simazhong-perspective",
+      "cn": "司马衷（晋惠帝）",
+      "en": "Sima Zhong",
+      "era": "290–307",
+      "frontmatter_name": "simazhong-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuchangluo-perspective",
+      "skill_file": "skills/ming/zhuchangluo-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuchangluo-perspective",
+      "cn": "朱常洛",
+      "en": "Zhu Changluo",
+      "era": "1582–1620",
+      "frontmatter_name": "zhuchangluo-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhudi-perspective",
+      "skill_file": "skills/ming/zhudi-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhudi-perspective",
+      "cn": "朱棣",
+      "en": "Zhu Di",
+      "era": "1360–1424",
+      "frontmatter_name": "zhudi-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhugaochi-perspective",
+      "skill_file": "skills/ming/zhugaochi-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhugaochi-perspective",
+      "cn": "朱高炽",
+      "en": "Zhu Gaochi",
+      "era": "1378–1425",
+      "frontmatter_name": "zhugaochi-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuhoucong-perspective",
+      "skill_file": "skills/ming/zhuhoucong-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuhoucong-perspective",
+      "cn": "朱厚熜",
+      "en": "Zhu Houcong",
+      "era": "1507–1567",
+      "frontmatter_name": "zhuhoucong-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuhouzhao-perspective",
+      "skill_file": "skills/ming/zhuhouzhao-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuhouzhao-perspective",
+      "cn": "朱厚照",
+      "en": "Zhu Houzhao",
+      "era": "1491–1521",
+      "frontmatter_name": "zhuhouzhao-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhujianshen-perspective",
+      "skill_file": "skills/ming/zhujianshen-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhujianshen-perspective",
+      "cn": "朱见深",
+      "en": "Zhu Jianshen",
+      "era": "1447–1487",
+      "frontmatter_name": "zhujianshen-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuqiyu-perspective",
+      "skill_file": "skills/ming/zhuqiyu-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuqiyu-perspective",
+      "cn": "朱祁钰",
+      "en": "Zhu Qiyu",
+      "era": "1428–1457",
+      "frontmatter_name": "zhuqiyu-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuqizhen-perspective",
+      "skill_file": "skills/ming/zhuqizhen-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuqizhen-perspective",
+      "cn": "朱祁镇",
+      "en": "Zhu Qizhen",
+      "era": "1427–1464",
+      "frontmatter_name": "zhuqizhen-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuyijun-perspective",
+      "skill_file": "skills/ming/zhuyijun-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuyijun-perspective",
+      "cn": "朱翊钧",
+      "en": "Zhu Yijun",
+      "era": "1563–1620",
+      "frontmatter_name": "zhuyijun-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuyoujian-perspective",
+      "skill_file": "skills/ming/zhuyoujian-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuyoujian-perspective",
+      "cn": "朱由检",
+      "en": "Zhu Youjian",
+      "era": "1611–1644",
+      "frontmatter_name": "zhuyoujian-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuyoutang-perspective",
+      "skill_file": "skills/ming/zhuyoutang-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuyoutang-perspective",
+      "cn": "朱祐樘",
+      "en": "Zhu Youcheng",
+      "era": "1470–1505",
+      "frontmatter_name": "zhuyoutang-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuyouxiao-perspective",
+      "skill_file": "skills/ming/zhuyouxiao-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuyouxiao-perspective",
+      "cn": "朱由校",
+      "en": "Zhu Youxiao",
+      "era": "1605–1627",
+      "frontmatter_name": "zhuyouxiao-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuyuanzhang-perspective",
+      "skill_file": "skills/ming/zhuyuanzhang-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuyuanzhang-perspective",
+      "cn": "朱元璋",
+      "en": "Zhu Yuanzhang",
+      "era": "1328–1398",
+      "frontmatter_name": "zhuyuanzhang-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuyunwen-perspective",
+      "skill_file": "skills/ming/zhuyunwen-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuyunwen-perspective",
+      "cn": "朱允炆",
+      "en": "Zhu Yunwen",
+      "era": "1377–1402",
+      "frontmatter_name": "zhuyunwen-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuzaihou-perspective",
+      "skill_file": "skills/ming/zhuzaihou-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuzaihou-perspective",
+      "cn": "朱载垕",
+      "en": "Zhu Zaihou",
+      "era": "1537–1572",
+      "frontmatter_name": "zhuzaihou-perspective"
+    },
+    {
+      "skill_path": "skills/ming/zhuzhanji-perspective",
+      "skill_file": "skills/ming/zhuzhanji-perspective/SKILL.md",
+      "dynasty_dir": "ming",
+      "package_slug": "zhuzhanji-perspective",
+      "cn": "朱瞻基",
+      "en": "Zhu Zhanji",
+      "era": "1399–1435",
+      "frontmatter_name": "zhuzhanji-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenbaixian-perspective",
+      "skill_file": "skills/nanbeichao/chenbaixian-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "chenbaixian-perspective",
+      "cn": "陈霸先（南陈武帝）",
+      "en": "Chen Baxian",
+      "era": "557–559",
+      "frontmatter_name": "chenbaixian-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenbozong-perspective",
+      "skill_file": "skills/nanbeichao/chenbozong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "chenbozong-perspective",
+      "cn": "陈伯宗（南陈废帝）",
+      "en": "Chen Bozong",
+      "era": "566–568",
+      "frontmatter_name": "chenbozong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenqian-perspective",
+      "skill_file": "skills/nanbeichao/chenqian-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "chenqian-perspective",
+      "cn": "陈蒨（南陈文帝）",
+      "en": "Chen Qian",
+      "era": "559–566",
+      "frontmatter_name": "chenqian-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenshubao-perspective",
+      "skill_file": "skills/nanbeichao/chenshubao-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "chenshubao-perspective",
+      "cn": "陈叔宝（南陈后主）",
+      "en": "Chen Shubao",
+      "era": "582–589",
+      "frontmatter_name": "chenshubao-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenxuan-perspective",
+      "skill_file": "skills/nanbeichao/chenxuan-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "chenxuan-perspective",
+      "cn": "陈顼（南陈宣帝）",
+      "en": "Chen Xu",
+      "era": "568–582",
+      "frontmatter_name": "chenxuan-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liujun-perspective",
+      "skill_file": "skills/nanbeichao/liujun-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liujun-perspective",
+      "cn": "刘骏（宋孝武帝）",
+      "en": "Liu Jun",
+      "era": "453–464",
+      "frontmatter_name": "liujun-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liushao-perspective",
+      "skill_file": "skills/nanbeichao/liushao-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liushao-perspective",
+      "cn": "刘劭（宋元凶）",
+      "en": "Liu Shao",
+      "era": "453",
+      "frontmatter_name": "liushao-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyifu-perspective",
+      "skill_file": "skills/nanbeichao/liuyifu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuyifu-perspective",
+      "cn": "刘义符（宋少帝）",
+      "en": "Liu Yifu",
+      "era": "422–424",
+      "frontmatter_name": "liuyifu-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyilong-perspective",
+      "skill_file": "skills/nanbeichao/liuyilong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuyilong-perspective",
+      "cn": "刘义隆（宋文帝）",
+      "en": "Liu Yilong",
+      "era": "424–453",
+      "frontmatter_name": "liuyilong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyu-cangwu-perspective",
+      "skill_file": "skills/nanbeichao/liuyu-cangwu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuyu-cangwu-perspective",
+      "cn": "刘昱（宋后废帝/苍梧王）",
+      "en": "Liu Yu (Cangwu Wang)",
+      "era": "473–477",
+      "frontmatter_name": "liuyu-cangwu-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyu-ming-perspective",
+      "skill_file": "skills/nanbeichao/liuyu-ming-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuyu-ming-perspective",
+      "cn": "刘彧（宋明帝）",
+      "en": "Liu Yu (Emperor Ming of Song)",
+      "era": "466–472",
+      "frontmatter_name": "liuyu-ming-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyu-perspective",
+      "skill_file": "skills/nanbeichao/liuyu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuyu-perspective",
+      "cn": "刘裕（宋武帝）",
+      "en": "Liu Yu",
+      "era": "420–422",
+      "frontmatter_name": "liuyu-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuziye-perspective",
+      "skill_file": "skills/nanbeichao/liuziye-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuziye-perspective",
+      "cn": "刘子业（宋前废帝）",
+      "en": "Liu Ziye",
+      "era": "464–466",
+      "frontmatter_name": "liuziye-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobagui-perspective",
+      "skill_file": "skills/nanbeichao/tuobagui-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobagui-perspective",
+      "cn": "拓跋珪（北魏道武帝）",
+      "en": "Tuoba Gui",
+      "era": "386–409",
+      "frontmatter_name": "tuobagui-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobahong-perspective",
+      "skill_file": "skills/nanbeichao/tuobahong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobahong-perspective",
+      "cn": "拓跋弘（北魏献文帝）",
+      "en": "Tuoba Hong",
+      "era": "465–471",
+      "frontmatter_name": "tuobahong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobajun-perspective",
+      "skill_file": "skills/nanbeichao/tuobajun-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobajun-perspective",
+      "cn": "拓跋濬（北魏文成帝）",
+      "en": "Tuoba Jun",
+      "era": "452–465",
+      "frontmatter_name": "tuobajun-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobasi-perspective",
+      "skill_file": "skills/nanbeichao/tuobasi-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobasi-perspective",
+      "cn": "拓跋嗣（北魏明元帝）",
+      "en": "Tuoba Si",
+      "era": "409–423",
+      "frontmatter_name": "tuobasi-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobatao-perspective",
+      "skill_file": "skills/nanbeichao/tuobatao-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobatao-perspective",
+      "cn": "拓跋焘（北魏太武帝）",
+      "en": "Tuoba Tao",
+      "era": "423–452",
+      "frontmatter_name": "tuobatao-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobayu-perspective",
+      "skill_file": "skills/nanbeichao/tuobayu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "tuobayu-perspective",
+      "cn": "拓跋余（北魏南安王）",
+      "en": "Tuoba Yu",
+      "era": "452",
+      "frontmatter_name": "tuobayu-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaobaojuan-perspective",
+      "skill_file": "skills/nanbeichao/xiaobaojuan-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaobaojuan-perspective",
+      "cn": "萧宝卷（南齐东昏侯）",
+      "en": "Xiao Baojuan",
+      "era": "498–501",
+      "frontmatter_name": "xiaobaojuan-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaobaorong-perspective",
+      "skill_file": "skills/nanbeichao/xiaobaorong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaobaorong-perspective",
+      "cn": "萧宝融（南齐和帝）",
+      "en": "Xiao Baorong",
+      "era": "501–502",
+      "frontmatter_name": "xiaobaorong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaodaochang-perspective",
+      "skill_file": "skills/nanbeichao/xiaodaochang-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaodaochang-perspective",
+      "cn": "萧道成（南齐高帝）",
+      "en": "Xiao Daocheng",
+      "era": "479–482",
+      "frontmatter_name": "xiaodaochang-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaodong-perspective",
+      "skill_file": "skills/nanbeichao/xiaodong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaodong-perspective",
+      "cn": "萧栋（南梁豫章王）",
+      "en": "Xiao Dong",
+      "era": "551",
+      "frontmatter_name": "xiaodong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaofangzhi-perspective",
+      "skill_file": "skills/nanbeichao/xiaofangzhi-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaofangzhi-perspective",
+      "cn": "萧方智（南梁敬帝）",
+      "en": "Xiao Fangzhi",
+      "era": "555–557",
+      "frontmatter_name": "xiaofangzhi-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaogang-perspective",
+      "skill_file": "skills/nanbeichao/xiaogang-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaogang-perspective",
+      "cn": "萧纲（南梁简文帝）",
+      "en": "Xiao Gang",
+      "era": "549–551",
+      "frontmatter_name": "xiaogang-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaoluan-perspective",
+      "skill_file": "skills/nanbeichao/xiaoluan-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaoluan-perspective",
+      "cn": "萧鸾（南齐明帝）",
+      "en": "Xiao Luan",
+      "era": "494–498",
+      "frontmatter_name": "xiaoluan-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaoyan-perspective",
+      "skill_file": "skills/nanbeichao/xiaoyan-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaoyan-perspective",
+      "cn": "萧衍（南梁武帝）",
+      "en": "Xiao Yan",
+      "era": "502–549",
+      "frontmatter_name": "xiaoyan-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaoyi-perspective",
+      "skill_file": "skills/nanbeichao/xiaoyi-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaoyi-perspective",
+      "cn": "萧绎（南梁元帝）",
+      "en": "Xiao Yi",
+      "era": "552–554",
+      "frontmatter_name": "xiaoyi-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaozhaowen-perspective",
+      "skill_file": "skills/nanbeichao/xiaozhaowen-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaozhaowen-perspective",
+      "cn": "萧昭文（南齐海陵王）",
+      "en": "Xiao Zhaowen",
+      "era": "494",
+      "frontmatter_name": "xiaozhaowen-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaozhaoye-perspective",
+      "skill_file": "skills/nanbeichao/xiaozhaoye-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaozhaoye-perspective",
+      "cn": "萧昭业（南齐郁林王）",
+      "en": "Xiao Zhaoye",
+      "era": "493–494",
+      "frontmatter_name": "xiaozhaoye-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaozhe-perspective",
+      "skill_file": "skills/nanbeichao/xiaozhe-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaozhe-perspective",
+      "cn": "萧赜（南齐武帝）",
+      "en": "Xiao Ze",
+      "era": "482–493",
+      "frontmatter_name": "xiaozhe-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaozhengde-perspective",
+      "skill_file": "skills/nanbeichao/xiaozhengde-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "xiaozhengde-perspective",
+      "cn": "萧正德（南梁临贺王）",
+      "en": "Xiao Zhengde",
+      "era": "548–549",
+      "frontmatter_name": "xiaozhengde-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuangong-perspective",
+      "skill_file": "skills/nanbeichao/yuangong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuangong-perspective",
+      "cn": "元恭（北魏节闵帝／前废帝）",
+      "en": "Yuan Gong",
+      "era": "约 498/499–532（531–532 在位）",
+      "frontmatter_name": "yuangong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanhong-perspective",
+      "skill_file": "skills/nanbeichao/yuanhong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanhong-perspective",
+      "cn": "元宏（北魏孝文帝）",
+      "en": "Yuan Hong",
+      "era": "471–499",
+      "frontmatter_name": "yuanhong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanke-perspective",
+      "skill_file": "skills/nanbeichao/yuanke-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanke-perspective",
+      "cn": "元恪（北魏宣武帝）",
+      "en": "Yuan Ke",
+      "era": "499–515",
+      "frontmatter_name": "yuanke-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanxu-perspective",
+      "skill_file": "skills/nanbeichao/yuanxu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanxu-perspective",
+      "cn": "元诩（北魏孝明帝）",
+      "en": "Yuan Xu",
+      "era": "515–528",
+      "frontmatter_name": "yuanxu-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanye-perspective",
+      "skill_file": "skills/nanbeichao/yuanye-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanye-perspective",
+      "cn": "元晔（北魏长广王）",
+      "en": "Yuan Ye",
+      "era": "530–532",
+      "frontmatter_name": "yuanye-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanziyou-perspective",
+      "skill_file": "skills/nanbeichao/yuanziyou-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanziyou-perspective",
+      "cn": "元子攸（北魏孝庄帝）",
+      "en": "Yuan Ziyou",
+      "era": "528–530",
+      "frontmatter_name": "yuanziyou-perspective"
+    },
+    {
+      "skill_path": "skills/qin/ershi-perspective",
+      "skill_file": "skills/qin/ershi-perspective/SKILL.md",
+      "dynasty_dir": "qin",
+      "package_slug": "ershi-perspective",
+      "cn": "秦二世胡亥",
+      "en": "Qin Ershi (Hu Hai)",
+      "era": "前230–前207（在位前210–前207）",
+      "frontmatter_name": "ershi-perspective"
+    },
+    {
+      "skill_path": "skills/qin/shihuang-perspective",
+      "skill_file": "skills/qin/shihuang-perspective/SKILL.md",
+      "dynasty_dir": "qin",
+      "package_slug": "shihuang-perspective",
+      "cn": "嬴政",
+      "en": "Shihuang",
+      "era": "前259–前210",
+      "frontmatter_name": "shihuang-perspective"
+    },
+    {
+      "skill_path": "skills/qin/ziying-perspective",
+      "skill_file": "skills/qin/ziying-perspective/SKILL.md",
+      "dynasty_dir": "qin",
+      "package_slug": "ziying-perspective",
+      "cn": "子婴",
+      "en": "Ziying",
+      "era": "生年不详–前207（在位 46 日）",
+      "frontmatter_name": "ziying-perspective"
+    },
+    {
+      "skill_path": "skills/qing/fulin-perspective",
+      "skill_file": "skills/qing/fulin-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "fulin-perspective",
+      "cn": "福临",
+      "en": "Fulin (Shunzhi)",
+      "era": "1638–1661",
+      "frontmatter_name": "fulin-perspective"
+    },
+    {
+      "skill_path": "skills/qing/hongli-perspective",
+      "skill_file": "skills/qing/hongli-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "hongli-perspective",
+      "cn": "弘历",
+      "en": "Hongli (Qianlong)",
+      "era": "1711–1799",
+      "frontmatter_name": "hongli-perspective"
+    },
+    {
+      "skill_path": "skills/qing/hongtaiji-perspective",
+      "skill_file": "skills/qing/hongtaiji-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "hongtaiji-perspective",
+      "cn": "皇太极",
+      "en": "Hong Taiji",
+      "era": "1592–1643",
+      "frontmatter_name": "hongtaiji-perspective"
+    },
+    {
+      "skill_path": "skills/qing/minning-perspective",
+      "skill_file": "skills/qing/minning-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "minning-perspective",
+      "cn": "旻宁",
+      "en": "Minning (Daoguang)",
+      "era": "1782–1850",
+      "frontmatter_name": "minning-perspective"
+    },
+    {
+      "skill_path": "skills/qing/nurhaci-perspective",
+      "skill_file": "skills/qing/nurhaci-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "nurhaci-perspective",
+      "cn": "努尔哈赤",
+      "en": "Nurhaci",
+      "era": "1559–1626",
+      "frontmatter_name": "nurhaci-perspective"
+    },
+    {
+      "skill_path": "skills/qing/puyi-perspective",
+      "skill_file": "skills/qing/puyi-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "puyi-perspective",
+      "cn": "溥仪",
+      "en": "Puyi (Xuantong)",
+      "era": "1906–1967",
+      "frontmatter_name": "puyi-perspective"
+    },
+    {
+      "skill_path": "skills/qing/xuanye-perspective",
+      "skill_file": "skills/qing/xuanye-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "xuanye-perspective",
+      "cn": "玄烨",
+      "en": "Xuanye (Kangxi)",
+      "era": "1654–1722",
+      "frontmatter_name": "xuanye-perspective"
+    },
+    {
+      "skill_path": "skills/qing/yinzhen-perspective",
+      "skill_file": "skills/qing/yinzhen-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "yinzhen-perspective",
+      "cn": "胤禛",
+      "en": "Yinzhen (Yongzheng)",
+      "era": "1678–1735",
+      "frontmatter_name": "yinzhen-perspective"
+    },
+    {
+      "skill_path": "skills/qing/yizhu-perspective",
+      "skill_file": "skills/qing/yizhu-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "yizhu-perspective",
+      "cn": "奕詝",
+      "en": "Yizhu (Xianfeng)",
+      "era": "1831–1861",
+      "frontmatter_name": "yizhu-perspective"
+    },
+    {
+      "skill_path": "skills/qing/yongyan-perspective",
+      "skill_file": "skills/qing/yongyan-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "yongyan-perspective",
+      "cn": "颙琰",
+      "en": "Yongyan (Jiaqing)",
+      "era": "1760–1820",
+      "frontmatter_name": "yongyan-perspective"
+    },
+    {
+      "skill_path": "skills/qing/zaichun-perspective",
+      "skill_file": "skills/qing/zaichun-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "zaichun-perspective",
+      "cn": "载淳",
+      "en": "Zaichun (Tongzhi)",
+      "era": "1856–1875",
+      "frontmatter_name": "zaichun-perspective"
+    },
+    {
+      "skill_path": "skills/qing/zaitian-perspective",
+      "skill_file": "skills/qing/zaitian-perspective/SKILL.md",
+      "dynasty_dir": "qing",
+      "package_slug": "zaitian-perspective",
+      "cn": "载湉",
+      "en": "Zaitian (Guangxu)",
+      "era": "1871–1908",
+      "frontmatter_name": "zaitian-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/caofang-perspective",
+      "skill_file": "skills/sanguo/caofang-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "caofang-perspective",
+      "cn": "曹芳",
+      "en": "Cao Fang",
+      "era": "239–254（齐王在位，8岁即位，后被司马师废）",
+      "frontmatter_name": "caofang-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/caohuan-perspective",
+      "skill_file": "skills/sanguo/caohuan-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "caohuan-perspective",
+      "cn": "曹奂",
+      "en": "Cao Huan",
+      "era": "246–302（曹魏元帝，260–265 在位）",
+      "frontmatter_name": "caohuan-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/caomao-perspective",
+      "skill_file": "skills/sanguo/caomao-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "caomao-perspective",
+      "cn": "曹髦",
+      "en": "Cao Mao",
+      "era": "254–260（高贵乡公在位）",
+      "frontmatter_name": "caomao-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/caopi-perspective",
+      "skill_file": "skills/sanguo/caopi-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "caopi-perspective",
+      "cn": "曹丕",
+      "en": "Cao Pi",
+      "era": "220–226（魏文帝在位，220 代汉称帝）",
+      "frontmatter_name": "caopi-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/caorui-perspective",
+      "skill_file": "skills/sanguo/caorui-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "caorui-perspective",
+      "cn": "曹叡",
+      "en": "Cao Rui",
+      "era": "226–239（魏明帝在位）",
+      "frontmatter_name": "caorui-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/liubei-perspective",
+      "skill_file": "skills/sanguo/liubei-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "liubei-perspective",
+      "cn": "刘备",
+      "en": "Liu Bei",
+      "era": "221–223（昭烈帝在位，221 于成都称帝）",
+      "frontmatter_name": "liubei-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/liushan-perspective",
+      "skill_file": "skills/sanguo/liushan-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "liushan-perspective",
+      "cn": "刘禅",
+      "en": "Liu Shan",
+      "era": "223–263（后主在位，降魏）",
+      "frontmatter_name": "liushan-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/sunhao-perspective",
+      "skill_file": "skills/sanguo/sunhao-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "sunhao-perspective",
+      "cn": "孙皓",
+      "en": "Sun Hao",
+      "era": "264–280（吴末帝在位，280 年亡国降晋）",
+      "frontmatter_name": "sunhao-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/sunliang-perspective",
+      "skill_file": "skills/sanguo/sunliang-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "sunliang-perspective",
+      "cn": "孙亮",
+      "en": "Sun Liang",
+      "era": "252–258（吴废帝在位，10岁即位，后被废）",
+      "frontmatter_name": "sunliang-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/sunquan-perspective",
+      "skill_file": "skills/sanguo/sunquan-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "sunquan-perspective",
+      "cn": "孙权",
+      "en": "Sun Quan",
+      "era": "229–252（吴大帝在位，229 称帝；222 受封吴王）",
+      "frontmatter_name": "sunquan-perspective"
+    },
+    {
+      "skill_path": "skills/sanguo/sunxiu-perspective",
+      "skill_file": "skills/sanguo/sunxiu-perspective/SKILL.md",
+      "dynasty_dir": "sanguo",
+      "package_slug": "sunxiu-perspective",
+      "cn": "孙休",
+      "en": "Sun Xiu",
+      "era": "258–264（吴景帝在位）",
+      "frontmatter_name": "sunxiu-perspective"
+    },
+    {
+      "skill_path": "skills/shang/dixin-perspective",
+      "skill_file": "skills/shang/dixin-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "dixin-perspective",
+      "cn": "帝辛",
+      "en": "Di Xin",
+      "era": "约前1075–约前1046",
+      "frontmatter_name": "dixin-perspective"
+    },
+    {
+      "skill_path": "skills/shang/diyi-perspective",
+      "skill_file": "skills/shang/diyi-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "diyi-perspective",
+      "cn": "帝乙",
+      "en": "Di Yi",
+      "era": "约前1101–约前1076（本区间系依夏商周断代工程之推定，非定点；《竹书纪年》所载王年有异。）",
+      "frontmatter_name": "diyi-perspective"
+    },
+    {
+      "skill_path": "skills/shang/hedanja-perspective",
+      "skill_file": "skills/shang/hedanja-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "hedanja-perspective",
+      "cn": "河亶甲",
+      "en": "Hedanjia",
+      "era": "约前1400–约前1390（在位约9年，异说）",
+      "frontmatter_name": "hedanja-perspective"
+    },
+    {
+      "skill_path": "skills/shang/kangding-perspective",
+      "skill_file": "skills/shang/kangding-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "kangding-perspective",
+      "cn": "康丁",
+      "en": "Kangding",
+      "era": "约前12世纪（生卒年不详，在位年数有异说）",
+      "frontmatter_name": "kangding-perspective"
+    },
+    {
+      "skill_path": "skills/shang/linxin-perspective",
+      "skill_file": "skills/shang/linxin-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "linxin-perspective",
+      "cn": "廪辛",
+      "en": "Lin Xin",
+      "era": "约前1145–约前1137",
+      "frontmatter_name": "linxin-perspective"
+    },
+    {
+      "skill_path": "skills/shang/nangeng-perspective",
+      "skill_file": "skills/shang/nangeng-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "nangeng-perspective",
+      "cn": "南庚",
+      "en": "Nan Geng",
+      "era": "约前14世纪末（生卒年不详，在位年数有异说）",
+      "frontmatter_name": "nangeng-perspective"
+    },
+    {
+      "skill_path": "skills/shang/pangeng-perspective",
+      "skill_file": "skills/shang/pangeng-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "pangeng-perspective",
+      "cn": "盘庚",
+      "en": "Pangeng",
+      "era": "约前14世纪–约前13世纪（生卒年不详，在位年数有异说）",
+      "frontmatter_name": "pangeng-perspective"
+    },
+    {
+      "skill_path": "skills/shang/taiding-shang-perspective",
+      "skill_file": "skills/shang/taiding-shang-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "taiding-shang-perspective",
+      "cn": "太丁",
+      "en": "Taiding",
+      "era": "约前1580前后（未立而卒，卒于成汤之世；仅示其在汤与其弟外丙之间的相对位置，不作定点）",
+      "frontmatter_name": "taiding-shang-perspective"
+    },
+    {
+      "skill_path": "skills/shang/taigeng-perspective",
+      "skill_file": "skills/shang/taigeng-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "taigeng-perspective",
+      "cn": "太庚",
+      "en": "Taigeng",
+      "era": "约前1541–约前1516",
+      "frontmatter_name": "taigeng-perspective"
+    },
+    {
+      "skill_path": "skills/shang/taijia-perspective",
+      "skill_file": "skills/shang/taijia-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "taijia-perspective",
+      "cn": "太甲",
+      "en": "Taijia",
+      "era": "约前1573–约前1561（年数依今本《竹书纪年》系，径取十二年；异说《通鉴前编》作三十三年；仅示相对先后，非定点）",
+      "frontmatter_name": "taijia-perspective"
+    },
+    {
+      "skill_path": "skills/shang/taiwu-perspective",
+      "skill_file": "skills/shang/taiwu-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "taiwu-perspective",
+      "cn": "太戊",
+      "en": "Taiwu",
+      "era": "约前16世纪末–约前15世纪中叶（推拟，非确证）",
+      "frontmatter_name": "taiwu-perspective"
+    },
+    {
+      "skill_path": "skills/shang/tang-shang-perspective",
+      "skill_file": "skills/shang/tang-shang-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "tang-shang-perspective",
+      "cn": "汤",
+      "en": "Tang of Shang",
+      "era": "约前1600–约前1580（灭夏约前1600为夏商周断代工程框架值；在位年数有异说，今本《竹书纪年》作二十九年；仅示相对先后，非定点）",
+      "frontmatter_name": "tang-shang-perspective"
+    },
+    {
+      "skill_path": "skills/shang/waibing-perspective",
+      "skill_file": "skills/shang/waibing-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "waibing-perspective",
+      "cn": "外丙",
+      "en": "Waibing",
+      "era": "约前1580–约前1577（径取异说上限三年，不作定点；本区间系依《竹书纪年》干支相对序推拟，仅示相对先后，非定点；商前期王年学界无定论，断代工程未颁。生卒年不详，在位二年或三年异说并存）",
+      "frontmatter_name": "waibing-perspective"
+    },
+    {
+      "skill_path": "skills/shang/wairen-perspective",
+      "skill_file": "skills/shang/wairen-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "wairen-perspective",
+      "cn": "外壬",
+      "en": "Wairen",
+      "era": "约前1400–约前1390（依《竹书纪年》干支推算，仅备一说）",
+      "frontmatter_name": "wairen-perspective"
+    },
+    {
+      "skill_path": "skills/shang/wending-shang-perspective",
+      "skill_file": "skills/shang/wending-shang-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "wending-shang-perspective",
+      "cn": "文丁",
+      "en": "Wending",
+      "era": "约前12世纪末–约前11世纪中（在位年数有异说）",
+      "frontmatter_name": "wending-shang-perspective"
+    },
+    {
+      "skill_path": "skills/shang/woding-perspective",
+      "skill_file": "skills/shang/woding-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "woding-perspective",
+      "cn": "沃丁",
+      "en": "Woding",
+      "era": "约前1570–约前1541",
+      "frontmatter_name": "woding-perspective"
+    },
+    {
+      "skill_path": "skills/shang/wojia-perspective",
+      "skill_file": "skills/shang/wojia-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "wojia-perspective",
+      "cn": "沃甲",
+      "en": "Wo Jia",
+      "era": "约前1372–约前1367（年数依今本《竹书纪年》系，径取五年；异说作二十年／二十五年；仅示相对先后，非定点）",
+      "frontmatter_name": "wojia-perspective"
+    },
+    {
+      "skill_path": "skills/shang/wuding-perspective",
+      "skill_file": "skills/shang/wuding-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "wuding-perspective",
+      "cn": "武丁",
+      "en": "Wuding",
+      "era": "约前1250–约前1192",
+      "frontmatter_name": "wuding-perspective"
+    },
+    {
+      "skill_path": "skills/shang/wuyi-perspective",
+      "skill_file": "skills/shang/wuyi-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "wuyi-perspective",
+      "cn": "武乙",
+      "en": "Wuyi",
+      "era": "约前1147–约前1113",
+      "frontmatter_name": "wuyi-perspective"
+    },
+    {
+      "skill_path": "skills/shang/xiaojia-shang-perspective",
+      "skill_file": "skills/shang/xiaojia-shang-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "xiaojia-shang-perspective",
+      "cn": "小甲",
+      "en": "Xiaojia",
+      "era": "约前16—前15世纪（在位约十七年，卒年不可确考，异说见正文）",
+      "frontmatter_name": "xiaojia-shang-perspective"
+    },
+    {
+      "skill_path": "skills/shang/xiaoxin-shang-perspective",
+      "skill_file": "skills/shang/xiaoxin-shang-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "xiaoxin-shang-perspective",
+      "cn": "小辛",
+      "en": "Xiaoxin",
+      "era": "约前1287–约前1267",
+      "frontmatter_name": "xiaoxin-shang-perspective"
+    },
+    {
+      "skill_path": "skills/shang/xiaoyi-shang-perspective",
+      "skill_file": "skills/shang/xiaoyi-shang-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "xiaoyi-shang-perspective",
+      "cn": "小乙",
+      "en": "Xiaoyi",
+      "era": "约前13世纪（生卒年不详，在位年数有异说）",
+      "frontmatter_name": "xiaoyi-shang-perspective"
+    },
+    {
+      "skill_path": "skills/shang/yangjia-perspective",
+      "skill_file": "skills/shang/yangjia-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "yangjia-perspective",
+      "cn": "阳甲",
+      "en": "Yangjia",
+      "era": "约前1317–约前1314（在位约4年；异说见文末）",
+      "frontmatter_name": "yangjia-perspective"
+    },
+    {
+      "skill_path": "skills/shang/yongji-perspective",
+      "skill_file": "skills/shang/yongji-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "yongji-perspective",
+      "cn": "雍己",
+      "en": "Yongji",
+      "era": "约前16世纪（生卒年不详，在位年数有异说）",
+      "frontmatter_name": "yongji-perspective"
+    },
+    {
+      "skill_path": "skills/shang/zhongding-perspective",
+      "skill_file": "skills/shang/zhongding-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "zhongding-perspective",
+      "cn": "中丁",
+      "en": "Zhongding",
+      "era": "约前1433–约前1424（年数依今本《竹书纪年》系，径取九年；异说作十三年；仅示相对先后，非定点）",
+      "frontmatter_name": "zhongding-perspective"
+    },
+    {
+      "skill_path": "skills/shang/zhongren-shang-perspective",
+      "skill_file": "skills/shang/zhongren-shang-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "zhongren-shang-perspective",
+      "cn": "中壬",
+      "en": "Zhongren",
+      "era": "约前1577–约前1573（在位约四年；一说未即位为王，异说并存）〔本区间系依《竹书纪年》干支相对序推拟，仅示相对先后，非定点；商前期王年学界无定论〕",
+      "frontmatter_name": "zhongren-shang-perspective"
+    },
+    {
+      "skill_path": "skills/shang/zuding-shang-perspective",
+      "skill_file": "skills/shang/zuding-shang-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "zuding-shang-perspective",
+      "cn": "祖丁",
+      "en": "Zuding",
+      "era": "约前14世纪（生卒年不详，在位年数有异说：九年/三十二年）",
+      "frontmatter_name": "zuding-shang-perspective"
+    },
+    {
+      "skill_path": "skills/shang/zugeng-perspective",
+      "skill_file": "skills/shang/zugeng-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "zugeng-perspective",
+      "cn": "祖庚",
+      "en": "Zugeng",
+      "era": "约前1191–约前1189",
+      "frontmatter_name": "zugeng-perspective"
+    },
+    {
+      "skill_path": "skills/shang/zujia-perspective",
+      "skill_file": "skills/shang/zujia-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "zujia-perspective",
+      "cn": "祖甲",
+      "en": "Zujia",
+      "era": "约前12世纪（生卒年不详；在位年数有三十三年与十六年两说）",
+      "frontmatter_name": "zujia-perspective"
+    },
+    {
+      "skill_path": "skills/shang/zuxin-perspective",
+      "skill_file": "skills/shang/zuxin-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "zuxin-perspective",
+      "cn": "祖辛",
+      "en": "Zuxin",
+      "era": "约前1386–约前1372（年数依今本《竹书纪年》系，径取十四年；异说《太平御览》引作十六年；仅示相对先后，非定点）",
+      "frontmatter_name": "zuxin-perspective"
+    },
+    {
+      "skill_path": "skills/shang/zuyi-perspective",
+      "skill_file": "skills/shang/zuyi-perspective/SKILL.md",
+      "dynasty_dir": "shang",
+      "package_slug": "zuyi-perspective",
+      "cn": "祖乙",
+      "en": "Zuyi",
+      "era": "约前1400–约前1381",
+      "frontmatter_name": "zuyi-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaobing-perspective",
+      "skill_file": "skills/song/zhaobing-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaobing-perspective",
+      "cn": "赵昺",
+      "en": "Zhao Bing",
+      "era": "1272–1279",
+      "frontmatter_name": "zhaobing-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaodun-perspective",
+      "skill_file": "skills/song/zhaodun-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaodun-perspective",
+      "cn": "赵惇",
+      "en": "Zhao Dun",
+      "era": "1147–1200",
+      "frontmatter_name": "zhaodun-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaogou-perspective",
+      "skill_file": "skills/song/zhaogou-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaogou-perspective",
+      "cn": "赵构",
+      "en": "Zhao Gou",
+      "era": "1107–1187",
+      "frontmatter_name": "zhaogou-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoguangyi-perspective",
+      "skill_file": "skills/song/zhaoguangyi-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoguangyi-perspective",
+      "cn": "赵光义",
+      "en": "Zhao Guangyi",
+      "era": "939–997",
+      "frontmatter_name": "zhaoguangyi-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoheng-perspective",
+      "skill_file": "skills/song/zhaoheng-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoheng-perspective",
+      "cn": "赵恒",
+      "en": "Zhao Heng",
+      "era": "968–1022",
+      "frontmatter_name": "zhaoheng-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaohuan-perspective",
+      "skill_file": "skills/song/zhaohuan-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaohuan-perspective",
+      "cn": "赵桓",
+      "en": "Zhao Huan",
+      "era": "1100–1156",
+      "frontmatter_name": "zhaohuan-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoji-perspective",
+      "skill_file": "skills/song/zhaoji-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoji-perspective",
+      "cn": "赵佶",
+      "en": "Zhao Ji",
+      "era": "1082–1135",
+      "frontmatter_name": "zhaoji-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaokuangyin-perspective",
+      "skill_file": "skills/song/zhaokuangyin-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaokuangyin-perspective",
+      "cn": "赵匡胤",
+      "en": "Zhao Kuangyin",
+      "era": "927–976",
+      "frontmatter_name": "zhaokuangyin-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaokuo-perspective",
+      "skill_file": "skills/song/zhaokuo-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaokuo-perspective",
+      "cn": "赵扩",
+      "en": "Zhao Kuo",
+      "era": "1168–1224",
+      "frontmatter_name": "zhaokuo-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoqi-perspective",
+      "skill_file": "skills/song/zhaoqi-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoqi-perspective",
+      "cn": "赵禥",
+      "en": "Zhao Qi",
+      "era": "1240–1274",
+      "frontmatter_name": "zhaoqi-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoshen-perspective",
+      "skill_file": "skills/song/zhaoshen-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoshen-perspective",
+      "cn": "赵昚",
+      "en": "Zhao Shen",
+      "era": "1127–1194",
+      "frontmatter_name": "zhaoshen-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoshi-perspective",
+      "skill_file": "skills/song/zhaoshi-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoshi-perspective",
+      "cn": "赵昰",
+      "en": "Zhao Shi",
+      "era": "1269–1278",
+      "frontmatter_name": "zhaoshi-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoshu-perspective",
+      "skill_file": "skills/song/zhaoshu-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoshu-perspective",
+      "cn": "赵曙",
+      "en": "Zhao Shu",
+      "era": "1032–1067",
+      "frontmatter_name": "zhaoshu-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoxian-perspective",
+      "skill_file": "skills/song/zhaoxian-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoxian-perspective",
+      "cn": "赵㬎",
+      "en": "Zhao Xian",
+      "era": "1271–1323",
+      "frontmatter_name": "zhaoxian-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoxu_s-perspective",
+      "skill_file": "skills/song/zhaoxu_s-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoxu_s-perspective",
+      "cn": "赵顼",
+      "en": "Zhao Xu",
+      "era": "1048–1085",
+      "frontmatter_name": "zhaoxu_s-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoxu_z-perspective",
+      "skill_file": "skills/song/zhaoxu_z-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoxu_z-perspective",
+      "cn": "赵煦",
+      "en": "Zhao Xu",
+      "era": "1077–1100",
+      "frontmatter_name": "zhaoxu_z-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaoyun-perspective",
+      "skill_file": "skills/song/zhaoyun-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaoyun-perspective",
+      "cn": "赵昀",
+      "en": "Zhao Yun",
+      "era": "1205–1264",
+      "frontmatter_name": "zhaoyun-perspective"
+    },
+    {
+      "skill_path": "skills/song/zhaozhen-perspective",
+      "skill_file": "skills/song/zhaozhen-perspective/SKILL.md",
+      "dynasty_dir": "song",
+      "package_slug": "zhaozhen-perspective",
+      "cn": "赵祯",
+      "en": "Zhao Zhen",
+      "era": "1010–1063",
+      "frontmatter_name": "zhaozhen-perspective"
+    },
+    {
+      "skill_path": "skills/sui/gongdi-perspective",
+      "skill_file": "skills/sui/gongdi-perspective/SKILL.md",
+      "dynasty_dir": "sui",
+      "package_slug": "gongdi-perspective",
+      "cn": "杨侑",
+      "en": "Yang You",
+      "era": "617–618",
+      "frontmatter_name": "gongdi-perspective"
+    },
+    {
+      "skill_path": "skills/sui/wendi-perspective",
+      "skill_file": "skills/sui/wendi-perspective/SKILL.md",
+      "dynasty_dir": "sui",
+      "package_slug": "wendi-perspective",
+      "cn": "杨坚",
+      "en": "Yang Jian",
+      "era": "581–604",
+      "frontmatter_name": "wendi-perspective"
+    },
+    {
+      "skill_path": "skills/sui/yangdi-perspective",
+      "skill_file": "skills/sui/yangdi-perspective/SKILL.md",
+      "dynasty_dir": "sui",
+      "package_slug": "yangdi-perspective",
+      "cn": "杨广",
+      "en": "Yang Guang",
+      "era": "604–618",
+      "frontmatter_name": "yangdi-perspective"
+    },
+    {
+      "skill_path": "skills/tang/liang-perspective",
+      "skill_file": "skills/tang/liang-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "liang-perspective",
+      "cn": "李昂",
+      "en": "Li Ang",
+      "era": "809–840",
+      "frontmatter_name": "liang-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lichen-perspective",
+      "skill_file": "skills/tang/lichen-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lichen-perspective",
+      "cn": "李忱",
+      "en": "Li Chen",
+      "era": "810–859",
+      "frontmatter_name": "lichen-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lichun-perspective",
+      "skill_file": "skills/tang/lichun-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lichun-perspective",
+      "cn": "李纯",
+      "en": "Li Chun",
+      "era": "778–820",
+      "frontmatter_name": "lichun-perspective"
+    },
+    {
+      "skill_path": "skills/tang/licui-perspective",
+      "skill_file": "skills/tang/licui-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "licui-perspective",
+      "cn": "李漼",
+      "en": "Li Cui",
+      "era": "833–873",
+      "frontmatter_name": "licui-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lidan-perspective",
+      "skill_file": "skills/tang/lidan-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lidan-perspective",
+      "cn": "李旦",
+      "en": "Li Dan",
+      "era": "662–716",
+      "frontmatter_name": "lidan-perspective"
+    },
+    {
+      "skill_path": "skills/tang/liheng_m-perspective",
+      "skill_file": "skills/tang/liheng_m-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "liheng_m-perspective",
+      "cn": "李恒",
+      "en": "Li Heng",
+      "era": "795–824",
+      "frontmatter_name": "liheng_m-perspective"
+    },
+    {
+      "skill_path": "skills/tang/liheng_s-perspective",
+      "skill_file": "skills/tang/liheng_s-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "liheng_s-perspective",
+      "cn": "李亨",
+      "en": "Li Heng",
+      "era": "711–762",
+      "frontmatter_name": "liheng_s-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lilongji-perspective",
+      "skill_file": "skills/tang/lilongji-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lilongji-perspective",
+      "cn": "李隆基",
+      "en": "Li Longji",
+      "era": "685–762",
+      "frontmatter_name": "lilongji-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lishi-perspective",
+      "skill_file": "skills/tang/lishi-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lishi-perspective",
+      "cn": "李适",
+      "en": "Li Shi",
+      "era": "742–805",
+      "frontmatter_name": "lishi-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lishimin-perspective",
+      "skill_file": "skills/tang/lishimin-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lishimin-perspective",
+      "cn": "李世民",
+      "en": "Li Shimin",
+      "era": "598–649",
+      "frontmatter_name": "lishimin-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lisong-perspective",
+      "skill_file": "skills/tang/lisong-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lisong-perspective",
+      "cn": "李诵",
+      "en": "Li Song",
+      "era": "761–806",
+      "frontmatter_name": "lisong-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lixian-perspective",
+      "skill_file": "skills/tang/lixian-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lixian-perspective",
+      "cn": "李显",
+      "en": "Li Xian",
+      "era": "656–710",
+      "frontmatter_name": "lixian-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lixuan-perspective",
+      "skill_file": "skills/tang/lixuan-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lixuan-perspective",
+      "cn": "李儇",
+      "en": "Li Xuan",
+      "era": "862–888",
+      "frontmatter_name": "lixuan-perspective"
+    },
+    {
+      "skill_path": "skills/tang/liyan-perspective",
+      "skill_file": "skills/tang/liyan-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "liyan-perspective",
+      "cn": "李炎",
+      "en": "Li Yan",
+      "era": "814–846",
+      "frontmatter_name": "liyan-perspective"
+    },
+    {
+      "skill_path": "skills/tang/liye-perspective",
+      "skill_file": "skills/tang/liye-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "liye-perspective",
+      "cn": "李晔",
+      "en": "Li Ye",
+      "era": "867–904",
+      "frontmatter_name": "liye-perspective"
+    },
+    {
+      "skill_path": "skills/tang/liyu-perspective",
+      "skill_file": "skills/tang/liyu-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "liyu-perspective",
+      "cn": "李豫",
+      "en": "Li Yu",
+      "era": "726–779",
+      "frontmatter_name": "liyu-perspective"
+    },
+    {
+      "skill_path": "skills/tang/liyuan-perspective",
+      "skill_file": "skills/tang/liyuan-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "liyuan-perspective",
+      "cn": "李渊",
+      "en": "Li Yuan",
+      "era": "566–635",
+      "frontmatter_name": "liyuan-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lizhan-perspective",
+      "skill_file": "skills/tang/lizhan-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lizhan-perspective",
+      "cn": "李湛",
+      "en": "Li Zhan",
+      "era": "809–826",
+      "frontmatter_name": "lizhan-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lizhi-perspective",
+      "skill_file": "skills/tang/lizhi-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lizhi-perspective",
+      "cn": "李治",
+      "en": "Li Zhi",
+      "era": "628–683",
+      "frontmatter_name": "lizhi-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lizhu-perspective",
+      "skill_file": "skills/tang/lizhu-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lizhu-perspective",
+      "cn": "李柷",
+      "en": "Li Zhu",
+      "era": "892–908",
+      "frontmatter_name": "lizhu-perspective"
+    },
+    {
+      "skill_path": "skills/tang/wuzetian-perspective",
+      "skill_file": "skills/tang/wuzetian-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "wuzetian-perspective",
+      "cn": "武则天",
+      "en": "Wu Zetian",
+      "era": "624–705",
+      "frontmatter_name": "wuzetian-perspective"
+    },
+    {
+      "skill_path": "skills/xia/bujiang-perspective",
+      "skill_file": "skills/xia/bujiang-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "bujiang-perspective",
+      "cn": "不降",
+      "en": "Bujiang",
+      "era": "约前1712–约前1643（在位约五十九年，逊位后又十年乃崩）",
+      "frontmatter_name": "bujiang-perspective"
+    },
+    {
+      "skill_path": "skills/xia/fa-xia-perspective",
+      "skill_file": "skills/xia/fa-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "fa-xia-perspective",
+      "cn": "发",
+      "en": "Fa",
+      "era": "约前1665–约前1650",
+      "frontmatter_name": "fa-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/gao-xia-perspective",
+      "skill_file": "skills/xia/gao-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "gao-xia-perspective",
+      "cn": "皋",
+      "en": "Gao",
+      "era": "约前17世纪（《夏商周年表》夏代约前2070–前1600 之内，无确年）",
+      "frontmatter_name": "gao-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/huai-xia-perspective",
+      "skill_file": "skills/xia/huai-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "huai-xia-perspective",
+      "cn": "槐",
+      "en": "Huai",
+      "era": "约前1833–约前1790",
+      "frontmatter_name": "huai-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/jie-perspective",
+      "skill_file": "skills/xia/jie-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "jie-perspective",
+      "cn": "桀",
+      "en": "Jie",
+      "era": "约前1650–约前1600",
+      "frontmatter_name": "jie-perspective"
+    },
+    {
+      "skill_path": "skills/xia/jin-xia-perspective",
+      "skill_file": "skills/xia/jin-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "jin-xia-perspective",
+      "cn": "廑",
+      "en": "Jin",
+      "era": "约前1750–约前1730（依断代工程框架粗估，异说存）",
+      "frontmatter_name": "jin-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/jiong-xia-perspective",
+      "skill_file": "skills/xia/jiong-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "jiong-xia-perspective",
+      "cn": "扃",
+      "en": "Jiong",
+      "era": "约前1685–约前1665（在位约18年，《帝王世纪》异说21年）",
+      "frontmatter_name": "jiong-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/kongjia-perspective",
+      "skill_file": "skills/xia/kongjia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "kongjia-perspective",
+      "cn": "孔甲",
+      "en": "Kongjia",
+      "era": "约前1740–约前1710",
+      "frontmatter_name": "kongjia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/mang-xia-perspective",
+      "skill_file": "skills/xia/mang-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "mang-xia-perspective",
+      "cn": "芒",
+      "en": "Mang",
+      "era": "约前19世纪（异说：约前1897–约前1833 / 约前2014–约前1997）",
+      "frontmatter_name": "mang-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/qi-perspective",
+      "skill_file": "skills/xia/qi-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "qi-perspective",
+      "cn": "启",
+      "en": "Qi",
+      "era": "约前2057–约前2038",
+      "frontmatter_name": "qi-perspective"
+    },
+    {
+      "skill_path": "skills/xia/shaojang-perspective",
+      "skill_file": "skills/xia/shaojang-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "shaojang-perspective",
+      "cn": "少康",
+      "en": "Shao Kang",
+      "era": "约前1935–约前1914",
+      "frontmatter_name": "shaojang-perspective"
+    },
+    {
+      "skill_path": "skills/xia/taikang-perspective",
+      "skill_file": "skills/xia/taikang-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "taikang-perspective",
+      "cn": "太康",
+      "en": "Taikang",
+      "era": "约前2038–约前2026",
+      "frontmatter_name": "taikang-perspective"
+    },
+    {
+      "skill_path": "skills/xia/xiang-perspective",
+      "skill_file": "skills/xia/xiang-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "xiang-perspective",
+      "cn": "相",
+      "en": "Xiang",
+      "era": "约前 19 世纪（约前 1870–约前 1842，传说/半信史，纪年不可定）",
+      "frontmatter_name": "xiang-perspective"
+    },
+    {
+      "skill_path": "skills/xia/xie-xia-perspective",
+      "skill_file": "skills/xia/xie-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "xie-xia-perspective",
+      "cn": "泄",
+      "en": "Xie",
+      "era": "约前1903–约前1884",
+      "frontmatter_name": "xie-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xia/yu-perspective",
+      "skill_file": "skills/xia/yu-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "yu-perspective",
+      "cn": "禹",
+      "en": "Yu",
+      "era": "约前2070–约前2060（在位年数异说：约10年／约45年，见文末说明）",
+      "frontmatter_name": "yu-perspective"
+    },
+    {
+      "skill_path": "skills/xia/zhongkang-perspective",
+      "skill_file": "skills/xia/zhongkang-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "zhongkang-perspective",
+      "cn": "仲康",
+      "en": "Zhongkang",
+      "era": "约前2090–约前2076",
+      "frontmatter_name": "zhongkang-perspective"
+    },
+    {
+      "skill_path": "skills/xia/zhu-xia-perspective",
+      "skill_file": "skills/xia/zhu-xia-perspective/SKILL.md",
+      "dynasty_dir": "xia",
+      "package_slug": "zhu-xia-perspective",
+      "cn": "杼",
+      "en": "Zhu",
+      "era": "约前19世纪（在位约十七年，一说）",
+      "frontmatter_name": "zhu-xia-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuao-perspective",
+      "skill_file": "skills/xihan/liuao-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuao-perspective",
+      "cn": "刘骜",
+      "en": "Liu Ao",
+      "era": "前33–前7（成帝在位）",
+      "frontmatter_name": "liuao-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liubang-perspective",
+      "skill_file": "skills/xihan/liubang-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liubang-perspective",
+      "cn": "刘邦",
+      "en": "Liu Bang",
+      "era": "前202–前195",
+      "frontmatter_name": "liubang-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuche-perspective",
+      "skill_file": "skills/xihan/liuche-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuche-perspective",
+      "cn": "刘彻",
+      "en": "Liu Che",
+      "era": "前141–前87（武帝在位）",
+      "frontmatter_name": "liuche-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liufoling-perspective",
+      "skill_file": "skills/xihan/liufoling-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liufoling-perspective",
+      "cn": "刘弗陵",
+      "en": "Liu Fuling",
+      "era": "前87–前74（昭帝在位）",
+      "frontmatter_name": "liufoling-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liugong-perspective",
+      "skill_file": "skills/xihan/liugong-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liugong-perspective",
+      "cn": "刘恭",
+      "en": "Liu Gong",
+      "era": "前188–前184（前少帝，在位约四年）",
+      "frontmatter_name": "liugong-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuhe-perspective",
+      "skill_file": "skills/xihan/liuhe-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuhe-perspective",
+      "cn": "刘贺",
+      "en": "Liu He",
+      "era": "前74（昌邑王即位，在位二十七日）",
+      "frontmatter_name": "liuhe-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuheng-xihan-perspective",
+      "skill_file": "skills/xihan/liuheng-xihan-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuheng-xihan-perspective",
+      "cn": "刘恒",
+      "en": "Liu Heng",
+      "era": "前180–前157（文帝在位）",
+      "frontmatter_name": "liuheng-xihan-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuhong-perspective",
+      "skill_file": "skills/xihan/liuhong-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuhong-perspective",
+      "cn": "刘弘",
+      "en": "Liu Hong",
+      "era": "前184–前180（后少帝，在位约四年）",
+      "frontmatter_name": "liuhong-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liukan-perspective",
+      "skill_file": "skills/xihan/liukan-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liukan-perspective",
+      "cn": "刘衎",
+      "en": "Liu Kan",
+      "era": "前1–公元6（平帝在位，9岁即位）",
+      "frontmatter_name": "liukan-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuqi-perspective",
+      "skill_file": "skills/xihan/liuqi-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuqi-perspective",
+      "cn": "刘启",
+      "en": "Liu Qi",
+      "era": "前157–前141（景帝在位）",
+      "frontmatter_name": "liuqi-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liushi-perspective",
+      "skill_file": "skills/xihan/liushi-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liushi-perspective",
+      "cn": "刘奭",
+      "en": "Liu Shi",
+      "era": "前48–前33（元帝在位）",
+      "frontmatter_name": "liushi-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuxin-perspective",
+      "skill_file": "skills/xihan/liuxin-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuxin-perspective",
+      "cn": "刘欣",
+      "en": "Liu Xin",
+      "era": "前7–前1（哀帝在位）",
+      "frontmatter_name": "liuxin-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuxun-perspective",
+      "skill_file": "skills/xihan/liuxun-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuxun-perspective",
+      "cn": "刘询",
+      "en": "Liu Xun",
+      "era": "前74–前48",
+      "frontmatter_name": "liuxun-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/liuying-perspective",
+      "skill_file": "skills/xihan/liuying-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "liuying-perspective",
+      "cn": "刘盈",
+      "en": "Liu Ying",
+      "era": "前195–前188（惠帝在位）",
+      "frontmatter_name": "liuying-perspective"
+    },
+    {
+      "skill_path": "skills/xihan/ruziying-perspective",
+      "skill_file": "skills/xihan/ruziying-perspective/SKILL.md",
+      "dynasty_dir": "xihan",
+      "package_slug": "ruziying-perspective",
+      "cn": "刘婴",
+      "en": "Liu Ying",
+      "era": "公元6–公元9（王莽居摄，未即帝位）",
+      "frontmatter_name": "ruziying-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/ashuqibu-perspective",
+      "skill_file": "skills/yuan/ashuqibu-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "ashuqibu-perspective",
+      "cn": "阿速吉八",
+      "en": "Ragibagh",
+      "era": "1320–1328",
+      "frontmatter_name": "ashuqibu-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/ayurbarwada-perspective",
+      "skill_file": "skills/yuan/ayurbarwada-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "ayurbarwada-perspective",
+      "cn": "爱育黎拔力八达",
+      "en": "Ayurbarwada",
+      "era": "1285–1320",
+      "frontmatter_name": "ayurbarwada-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/guyuk-perspective",
+      "skill_file": "skills/yuan/guyuk-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "guyuk-perspective",
+      "cn": "贵由",
+      "en": "Güyük",
+      "era": "1246–1248",
+      "frontmatter_name": "guyuk-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/haishan-perspective",
+      "skill_file": "skills/yuan/haishan-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "haishan-perspective",
+      "cn": "海山",
+      "en": "Khaishan",
+      "era": "1281–1311",
+      "frontmatter_name": "haishan-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/hoshila-perspective",
+      "skill_file": "skills/yuan/hoshila-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "hoshila-perspective",
+      "cn": "和世㻋",
+      "en": "Khoshila",
+      "era": "1300–1329",
+      "frontmatter_name": "hoshila-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/hubilie-perspective",
+      "skill_file": "skills/yuan/hubilie-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "hubilie-perspective",
+      "cn": "忽必烈",
+      "en": "Kublai Khan",
+      "era": "1215–1294",
+      "frontmatter_name": "hubilie-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/mongke-perspective",
+      "skill_file": "skills/yuan/mongke-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "mongke-perspective",
+      "cn": "蒙哥",
+      "en": "Möngke",
+      "era": "1251–1259",
+      "frontmatter_name": "mongke-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/ogodei-perspective",
+      "skill_file": "skills/yuan/ogodei-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "ogodei-perspective",
+      "cn": "窝阔台",
+      "en": "Ögedei",
+      "era": "1229–1241",
+      "frontmatter_name": "ogodei-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/shidibala-perspective",
+      "skill_file": "skills/yuan/shidibala-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "shidibala-perspective",
+      "cn": "硕德八剌",
+      "en": "Shidibala",
+      "era": "1303–1323",
+      "frontmatter_name": "shidibala-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/temuer-perspective",
+      "skill_file": "skills/yuan/temuer-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "temuer-perspective",
+      "cn": "铁穆耳",
+      "en": "Temur",
+      "era": "1265–1307",
+      "frontmatter_name": "temuer-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/temujin-perspective",
+      "skill_file": "skills/yuan/temujin-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "temujin-perspective",
+      "cn": "铁木真",
+      "en": "Temujin",
+      "era": "1206–1227",
+      "frontmatter_name": "temujin-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/toghontemur-perspective",
+      "skill_file": "skills/yuan/toghontemur-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "toghontemur-perspective",
+      "cn": "妥懽帖睦尔",
+      "en": "Toghon Temur",
+      "era": "1320–1370",
+      "frontmatter_name": "toghontemur-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/tutemuer-perspective",
+      "skill_file": "skills/yuan/tutemuer-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "tutemuer-perspective",
+      "cn": "图帖睦尔",
+      "en": "Tugh Temur",
+      "era": "1304–1332",
+      "frontmatter_name": "tutemuer-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/yesuntemuer-perspective",
+      "skill_file": "skills/yuan/yesuntemuer-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "yesuntemuer-perspective",
+      "cn": "也孙铁木儿",
+      "en": "Yesun Temur",
+      "era": "1276–1328",
+      "frontmatter_name": "yesuntemuer-perspective"
+    },
+    {
+      "skill_path": "skills/yuan/yilinzhiban-perspective",
+      "skill_file": "skills/yuan/yilinzhiban-perspective/SKILL.md",
+      "dynasty_dir": "yuan",
+      "package_slug": "yilinzhiban-perspective",
+      "cn": "懿璘质班",
+      "en": "Rinchinbal",
+      "era": "1326–1332",
+      "frontmatter_name": "yilinzhiban-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/aiwang-perspective",
+      "skill_file": "skills/zhou/aiwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "aiwang-perspective",
+      "cn": "姬去疾",
+      "en": "Ai Wang of Zhou",
+      "era": "？–前441（在位前441）",
+      "frontmatter_name": "aiwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/anwang-perspective",
+      "skill_file": "skills/zhou/anwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "anwang-perspective",
+      "cn": "姬骄",
+      "en": "King An of Zhou",
+      "era": "约前401–前376",
+      "frontmatter_name": "anwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/chengwang-perspective",
+      "skill_file": "skills/zhou/chengwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "chengwang-perspective",
+      "cn": "姬诵",
+      "en": "King Cheng of Zhou",
+      "era": "前1042/前1035–前1021 在位",
+      "frontmatter_name": "chengwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/daowang-perspective",
+      "skill_file": "skills/zhou/daowang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "daowang-perspective",
+      "cn": "姬猛",
+      "en": "Ji Meng (King Daowang of Zhou)",
+      "era": "前520在位（数月至年余）",
+      "frontmatter_name": "daowang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/dingwang-perspective",
+      "skill_file": "skills/zhou/dingwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "dingwang-perspective",
+      "cn": "姬瑜",
+      "en": "Dingwang (King Ding of Zhou)",
+      "era": "前606–前586（在位）",
+      "frontmatter_name": "dingwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/gongwang-perspective",
+      "skill_file": "skills/zhou/gongwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "gongwang-perspective",
+      "cn": "姬繄扈",
+      "en": "Gongwang",
+      "era": "前922–前900（在位）",
+      "frontmatter_name": "gongwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/huanwang-perspective",
+      "skill_file": "skills/zhou/huanwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "huanwang-perspective",
+      "cn": "姬林",
+      "en": "Huanwang",
+      "era": "前720–前697 在位（东周第二代王）",
+      "frontmatter_name": "huanwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/huiwang-perspective",
+      "skill_file": "skills/zhou/huiwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "huiwang-perspective",
+      "cn": "姬阆",
+      "en": "Huiwang",
+      "era": "前676–前652",
+      "frontmatter_name": "huiwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/jianwang-perspective",
+      "skill_file": "skills/zhou/jianwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "jianwang-perspective",
+      "cn": "姬夷",
+      "en": "King Jian of Zhou",
+      "era": "前586–前572",
+      "frontmatter_name": "jianwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/jingwang-perspective",
+      "skill_file": "skills/zhou/jingwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "jingwang-perspective",
+      "cn": "姬贵",
+      "en": "King Jing of Zhou",
+      "era": "前544–前520",
+      "frontmatter_name": "jingwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/jingwang2-perspective",
+      "skill_file": "skills/zhou/jingwang2-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "jingwang2-perspective",
+      "cn": "姬匄",
+      "en": "Jingwang2",
+      "era": "约前519–前476",
+      "frontmatter_name": "jingwang2-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/kangwang-perspective",
+      "skill_file": "skills/zhou/kangwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "kangwang-perspective",
+      "cn": "姬钊",
+      "en": "Kangwang",
+      "era": "前1020–前996",
+      "frontmatter_name": "kangwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/kaowang-perspective",
+      "skill_file": "skills/zhou/kaowang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "kaowang-perspective",
+      "cn": "姬嵬",
+      "en": "Kaowang",
+      "era": "前440–前426",
+      "frontmatter_name": "kaowang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/kuangwang-perspective",
+      "skill_file": "skills/zhou/kuangwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "kuangwang-perspective",
+      "cn": "姬班",
+      "en": "Kuangwang",
+      "era": "前 612–前 607",
+      "frontmatter_name": "kuangwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/liewang-perspective",
+      "skill_file": "skills/zhou/liewang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "liewang-perspective",
+      "cn": "姬喜",
+      "en": "King Lie of Zhou",
+      "era": "前375–前369（在位）",
+      "frontmatter_name": "liewang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/lingwang-perspective",
+      "skill_file": "skills/zhou/lingwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "lingwang-perspective",
+      "cn": "姬泄心",
+      "en": "King Ling of Zhou",
+      "era": "前571–前545",
+      "frontmatter_name": "lingwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/liwang-perspective",
+      "skill_file": "skills/zhou/liwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "liwang-perspective",
+      "cn": "姬胡",
+      "en": "King Li of Zhou",
+      "era": "前877–前841",
+      "frontmatter_name": "liwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/muwang-perspective",
+      "skill_file": "skills/zhou/muwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "muwang-perspective",
+      "cn": "姬满",
+      "en": "Muwang",
+      "era": "前976–前922",
+      "frontmatter_name": "muwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/nanwang-perspective",
+      "skill_file": "skills/zhou/nanwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "nanwang-perspective",
+      "cn": "姬延",
+      "en": "King Nan of Zhou (Nanwang)",
+      "era": "前314–前256",
+      "frontmatter_name": "nanwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/pingwang-perspective",
+      "skill_file": "skills/zhou/pingwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "pingwang-perspective",
+      "cn": "姬宜臼",
+      "en": "King Ping of Zhou",
+      "era": "约前781–前720（在位 前770–前720）",
+      "frontmatter_name": "pingwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/qingwang-perspective",
+      "skill_file": "skills/zhou/qingwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "qingwang-perspective",
+      "cn": "周顷王",
+      "en": "King Qing of Zhou",
+      "era": "约前7世纪（在位前618–前613）",
+      "frontmatter_name": "qingwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/shenjingwang-perspective",
+      "skill_file": "skills/zhou/shenjingwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "shenjingwang-perspective",
+      "cn": "周慎靓王",
+      "en": "King Shenjing of Zhou",
+      "era": "在位 前320–前315（崩于前315）",
+      "frontmatter_name": "shenjingwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/siwang-perspective",
+      "skill_file": "skills/zhou/siwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "siwang-perspective",
+      "cn": "姬叔",
+      "en": "Siwang",
+      "era": "前441（在位五月）",
+      "frontmatter_name": "siwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/weiiliewang-perspective",
+      "skill_file": "skills/zhou/weiiliewang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "weiiliewang-perspective",
+      "cn": "姬午",
+      "en": "King Weilie of Zhou",
+      "era": "前425–前402",
+      "frontmatter_name": "weiiliewang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/wuwang-perspective",
+      "skill_file": "skills/zhou/wuwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "wuwang-perspective",
+      "cn": "姬发",
+      "en": "King Wu of Zhou (Wuwang)",
+      "era": "约前1046–前1043 在位",
+      "frontmatter_name": "wuwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/xiangwang-perspective",
+      "skill_file": "skills/zhou/xiangwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "xiangwang-perspective",
+      "cn": "姬郑",
+      "en": "Xiangwang",
+      "era": "前651–前619",
+      "frontmatter_name": "xiangwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/xianwang-perspective",
+      "skill_file": "skills/zhou/xianwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "xianwang-perspective",
+      "cn": "姬扁",
+      "en": "King Xian of Zhou",
+      "era": "前368–前321",
+      "frontmatter_name": "xianwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/xiaowang-zhou-perspective",
+      "skill_file": "skills/zhou/xiaowang-zhou-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "xiaowang-zhou-perspective",
+      "cn": "姬辟方",
+      "en": "Xiaowang",
+      "era": "前891–前886",
+      "frontmatter_name": "xiaowang-zhou-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/xiwang-perspective",
+      "skill_file": "skills/zhou/xiwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "xiwang-perspective",
+      "cn": "姬胡齐",
+      "en": "Xiwang",
+      "era": "前681–前677 在位（东周第四代王）",
+      "frontmatter_name": "xiwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/xuanwang-perspective",
+      "skill_file": "skills/zhou/xuanwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "xuanwang-perspective",
+      "cn": "姬静",
+      "en": "Xuanwang of Zhou",
+      "era": "前827–前782",
+      "frontmatter_name": "xuanwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/yiwang-zhou-perspective",
+      "skill_file": "skills/zhou/yiwang-zhou-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "yiwang-zhou-perspective",
+      "cn": "姬囏",
+      "en": "King Yi of Zhou",
+      "era": "约前899–前892（在位）",
+      "frontmatter_name": "yiwang-zhou-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/yixie-perspective",
+      "skill_file": "skills/zhou/yixie-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "yixie-perspective",
+      "cn": "姬燮",
+      "en": "Yixie of Zhou",
+      "era": "约前885–前878",
+      "frontmatter_name": "yixie-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/youwang-perspective",
+      "skill_file": "skills/zhou/youwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "youwang-perspective",
+      "cn": "姬宫湦",
+      "en": "King You of Zhou",
+      "era": "前781–前771",
+      "frontmatter_name": "youwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/yuanwang-perspective",
+      "skill_file": "skills/zhou/yuanwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "yuanwang-perspective",
+      "cn": "姬仁",
+      "en": "Yuanwang",
+      "era": "前476–前469",
+      "frontmatter_name": "yuanwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/zhaowang-perspective",
+      "skill_file": "skills/zhou/zhaowang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "zhaowang-perspective",
+      "cn": "姬瑕",
+      "en": "Zhaowang",
+      "era": "前995–前977",
+      "frontmatter_name": "zhaowang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/zhendingwang-perspective",
+      "skill_file": "skills/zhou/zhendingwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "zhendingwang-perspective",
+      "cn": "姬介",
+      "en": "Zhendingwang of Zhou",
+      "era": "前468–前441",
+      "frontmatter_name": "zhendingwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/zhuangwang-perspective",
+      "skill_file": "skills/zhou/zhuangwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "zhuangwang-perspective",
+      "cn": "姬佗",
+      "en": "Zhuangwang",
+      "era": "前696–前682（在位）",
+      "frontmatter_name": "zhuangwang-perspective"
+    }
+  ]
+}
