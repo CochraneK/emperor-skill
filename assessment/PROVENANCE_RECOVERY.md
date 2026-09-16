@@ -14,28 +14,29 @@ Shared issue: WorkBuddy's old evidence taxonomy frequently equated canonical/sta
 Special notes:
 - `simadewen`: patch over-strong inference around prophecy/psychology and transmitted-history labels.
 - `simadezong`: strongest targeted-verification need; claims around compiled sources and ancillary texts need source-specific checking.
-- `simashao`, `simaye`, `simayi`, `simayu`, `simazhong`: independent disagreement/ historiography layers are visible; retain them, patch taxonomy, then redistill.
+- `simashao`, `simaye`, `simayi`, `simayu`, `simazhong`: independent disagreement/historiography layers are visible; retain them, patch taxonomy, then redistill.
 
 ## Batch B · Sanguo · 2/2 classified
 
-### caohuan-perspective
-**Action: PATCH → REDISTILL-CANDIDATE.**
+`caohuan-perspective` and `caomao-perspective` are **PATCH → REDISTILL candidates**. Their external-view research preserves distinct historiographical layers and variant accounts rather than merely paraphrasing six Skill models. Source taxonomy still needs patching. Batch result: 2 research-reusable; 0 automatic RERESEARCH.
 
-The external-view research separates Chen Shou historiography, Xi Zuochi, Pei annotations, abdication details, post-abdication ritual treatment and modern interpretation. This is independently useful research rather than a six-model paraphrase. However it still calls the later `Zizhi Tongjian` event chain and `Jinshu` material “primary”; taxonomy must be patched before reuse.
+## Batch C1 · Nanbeichao · 3/14 classified
 
-### caomao-perspective
-**Action: PATCH → REDISTILL-CANDIDATE.**
+### chenxuan-perspective
+**Action: PATCH → REDISTILL-CANDIDATE.** The research contains independent historiography, competing interpretations, archaeological side evidence, explicit uncertainty, and distinguishes later historian judgment from ruler speech. It is reusable. Patch the inherited convention that treats transmitted standard histories / Tongjian as generic “primary”, and downgrade framework claims such as stable motives when the record only supports public justification or later interpretation.
 
-This package handles Chen Shou, Sun Sheng, Xi Zuochi, Sima Guang, Pei Songzhi and modern scholarship as distinct historiographical layers and explicitly keeps variant accounts. That is a positive provenance signal. The remaining problem is inconsistent use of “first-hand narrative” language elsewhere in the corpus, not a demonstrated need to throw the research away.
+### liushao-perspective
+**Action: PATCH + TARGETED VERIFY → REDISTILL-CANDIDATE.** The research explicitly records the legitimacy dispute, uncertainty around witchcraft narratives, scarcity of reign-specific material, and varying evidential confidence. That independence argues against reverse-paraphrase. It also contains reconstructed speech and labels later histories as “primary”; verify quotation status and taxonomy before reuse.
 
-**Sanguo batch result:** 2 PATCH/REDISTILL candidates; 0 automatic RERESEARCH.
+### liuyilong-perspective
+**Action: PATCH + TARGETED VERIFY → REDISTILL-CANDIDATE.** The research separates policy evidence, later literary reception, modern interpretation, variant chronology and cross-dynasty corroboration. It is independently useful, but repeatedly labels `Nan Shi` and `Zizhi Tongjian` as first-hand/primary and occasionally compresses policy programs into ruler intent. Patch these before redistillation.
 
 ## Recovery count
 
 Legacy mtime snapshot: 39.
 
-- Classified: **9** (Jin 7 + Sanguo 2)
-- Remaining: **30** (Nanbeichao 14 + Shang 13 + Xia 1 + Zhou 2)
+- Classified: **12** (Jin 7 + Sanguo 2 + Nanbeichao 3)
+- Remaining: **27** (Nanbeichao 11 + Shang 13 + Xia 1 + Zhou 2)
 - RERESEARCH justified by mtime alone: **0**
 
 The old 92-item size queue remains deprecated and is not a repair priority.
