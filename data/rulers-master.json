@@ -1,24 +1,95 @@
 {
-  "schema_version": "1.0-draft",
+  "schema_version": "1.1",
   "title": "Chinese Historical Rulers Corpus — Canonical Master",
-  "status": "building",
-  "purpose": "Canonical denominator for all rulers to research/distill; never infer completeness from existing skills.",
+  "status": "maximal-set-enumeration",
+  "purpose": "Canonical denominator for all rulers/traditional sovereign figures to research or distill; completeness is never inferred from existing skills.",
+  "principle": "Maximize historically relevant sovereign coverage first; represent uncertainty with orthogonal evidence/status fields instead of silently excluding difficult cases.",
   "inclusion_rule": {
-    "required": ["historical person", "highest decision-maker of a politically autonomous entity or competing central government", "observable actual rule/control rather than pure posthumous honor or unsupported claim"],
-    "not_required": ["traditional legitimacy", "imperial title", "unified China", "long reign"],
-    "default_exclusions": ["purely posthumous rulers with no rule episode", "claimants with no observable governing entity", "legendary rulers unless separately tagged legendary", "ordinary regional warlords without sovereign/central-government rule episode"],
-    "low_evidence_policy": "Keep qualifying rulers in master but mark LIMITED-EVIDENCE; never fabricate mental models to fill quota."
+    "historical_core_required": [
+      "identifiable person",
+      "highest decision-maker of a politically autonomous entity, sovereign polity, or competing central government",
+      "observable rule/control or institutionally recognized supreme-rule episode rather than pure posthumous honor"
+    ],
+    "not_required": ["traditional legitimacy", "imperial title", "unified China", "long reign", "victory", "later recognition as orthodox"],
+    "legendary_rule": "Named traditional sovereign/culture-ruler figures enter LEGENDARY rather than being discarded; legendary status must never be presented as historical certainty.",
+    "default_exclusions": ["purely posthumous ruler with no lifetime rule episode", "unsupported claimant with no governing entity", "ordinary regional warlord without sovereign or central-government supreme-rule episode", "deity with no meaningful ruler tradition"],
+    "low_evidence_policy": "Keep qualifying figures but mark LIMITED-EVIDENCE; never fabricate mental models to fill a quota."
   },
   "corpus_layers": {
-    "CORE": "qualifying sovereign/highest rulers under the common rule",
-    "EXTENDED": "borderline autonomous regimes or analytically valuable non-core rulers",
-    "LEGENDARY": "traditional/legendary rulers kept separate from historical completion rate"
+    "CORE": "historically attested qualifying sovereign/highest rulers under the common rule",
+    "EXTENDED": "borderline autonomous regimes, exceptional de facto rulers, or analytically valuable edge cases",
+    "LEGENDARY": "traditional/legendary sovereign figures; included in maximal master but excluded from historical CORE completion denominator"
   },
+  "historic_status_values": ["historically-attested", "historically-disputed", "traditional-legendary", "mythic-traditional"],
   "periods": [
-    {"id":"xia","polities":["夏"]},{"id":"shang","polities":["商"]},{"id":"zhou","polities":["西周","东周王室"]},{"id":"spring-autumn","polities":["春秋主要诸侯国"],"parallel":true},{"id":"warring-states","polities":["战国主要诸侯国（含战国七雄及满足统一准入规则者）"],"parallel":true},{"id":"qin-han","polities":["秦","西楚","西汉","新","更始政权","东汉"]},{"id":"three-kingdoms","polities":["曹魏","蜀汉","孙吴"]},{"id":"jin-sixteen","polities":["西晋","东晋","汉赵/前赵","成汉","后赵","前凉","前燕","前秦","后秦","后燕","西秦","后凉","南凉","南燕","西凉","北凉","胡夏","北燕"],"parallel":true},{"id":"north-south","polities":["刘宋","南齐","南梁","南陈","北魏","东魏","西魏","北齐","北周"],"parallel":true},{"id":"sui-tang","polities":["隋","唐","武周"]},{"id":"late-tang-rivals","polities":["大齐（黄巢）"],"parallel":true},{"id":"five-ten","polities":["后梁","后唐","后晋","后汉","后周","杨吴","南唐","吴越","闽","马楚","南汉","荆南","前蜀","后蜀","北汉"],"parallel":true},{"id":"song-liao-xia-jin","polities":["北宋","南宋","辽","西辽","西夏","金"],"parallel":true},{"id":"yuan","polities":["元"]},{"id":"ming-qing-transition","polities":["明","南明","大顺（李自成）","大西（张献忠）","后金/清"],"parallel":true},{"id":"qing","polities":["清"]},{"id":"late-qing-rivals","polities":["太平天国"],"parallel":true},{"id":"republic","polities":["中华民国临时政府","北洋政府/北京政府","具有竞争性中央政府性质的广州政权","南京国民政府"],"parallel":true,"episode_model":true}
+    {"id":"legendary","polities":["上古统治者传统","三皇传统（多版本）","五帝传统（多版本）","尧舜传统"],"parallel":true,"layer":"LEGENDARY"},
+    {"id":"xia","polities":["夏"]},
+    {"id":"shang","polities":["商"]},
+    {"id":"zhou","polities":["西周","东周王室"]},
+    {"id":"spring-autumn","polities":["齐","晋","楚","秦","鲁","宋","卫","郑","陈","蔡","曹","燕","吴","越","其他满足统一准入规则的诸侯国"],"parallel":true},
+    {"id":"warring-states","polities":["秦","齐","楚","燕","韩","赵","魏","中山","宋","越","其他满足统一准入规则的存续诸侯国"],"parallel":true},
+    {"id":"qin-han","polities":["秦","西楚","西汉","新","更始政权","赤眉汉等达到准入门槛的竞争政权","东汉"]},
+    {"id":"three-kingdoms","polities":["曹魏","蜀汉","孙吴"]},
+    {"id":"jin-sixteen","polities":["西晋","东晋","汉赵/前赵","成汉","后赵","前凉","前燕","前秦","后秦","后燕","西秦","后凉","南凉","南燕","西凉","北凉","胡夏","北燕","冉魏等达到统一准入门槛的同期政权"],"parallel":true},
+    {"id":"north-south","polities":["刘宋","南齐","南梁","南陈","北魏","东魏","西魏","北齐","北周","同期达到统一准入门槛的短期竞争政权"],"parallel":true},
+    {"id":"sui-tang","polities":["隋","唐","武周","隋末唐初达到统一准入门槛的竞争政权"]},
+    {"id":"late-tang-rivals","polities":["大齐（黄巢）","晚唐达到统一准入门槛的竞争政权"],"parallel":true},
+    {"id":"five-ten","polities":["后梁","后唐","后晋","后汉","后周","杨吴","南唐","吴越","闽","马楚","南汉","荆南","前蜀","后蜀","北汉","同期达到统一准入门槛的其他自主政权"],"parallel":true},
+    {"id":"song-liao-xia-jin","polities":["北宋","南宋","辽","西辽","西夏","金","大理等达到统一准入门槛的长期自主政权"],"parallel":true},
+    {"id":"yuan","polities":["蒙古帝国/元","元末达到统一准入门槛的竞争政权"]},
+    {"id":"ming-qing-transition","polities":["明","南明","大顺（李自成）","大西（张献忠）","后金/清","明清之际达到统一准入门槛的竞争政权"],"parallel":true},
+    {"id":"qing","polities":["清"]},
+    {"id":"late-qing-rivals","polities":["太平天国","晚清达到统一准入门槛的竞争性政权"],"parallel":true},
+    {"id":"republic","polities":["中华民国临时政府","北洋政府/北京政府","护国/护法及具有竞争性中央政府性质的广州政权","南京国民政府","其他达到统一准入门槛的竞争性中央政府"],"parallel":true,"episode_model":true}
   ],
-  "explicit_boundary_examples": [{"person":"黄巢","status":"CORE"},{"person":"李自成","status":"CORE"},{"person":"洪秀全","status":"CORE"},{"person":"袁世凯","status":"CORE","note":"one person, multiple rule episodes"},{"person":"孙中山","status":"CORE"},{"person":"张作霖","status":"CORE","note":"qualifies through Beijing-government supreme-rule episode, not ordinary warlord status"}],
-  "person_schema": {"id":"stable slug","name":"canonical Chinese name","aliases":[],"period":"period id","polity":"political entity","titles":[],"rule_episodes":[],"corpus_layer":"CORE|EXTENDED|LEGENDARY","evidence_level":"A|B|C|D|LIMITED-EVIDENCE","existing_skill":null,"distillation_status":"MISSING|KEEP|PATCH|REDISTILL|RESEARCH-GAP|LIMITED-EVIDENCE","notes":""},
-  "completion_rule": "CORE completion = matched existing/distilled CORE persons / all CORE persons. Episodes never duplicate a person.",
-  "next_build_step": "Enumerate every person per polity, normalize aliases, then match against data/corpus-registry.json and skills/*/*-perspective."
+  "legendary_seed": [
+    {"person":"伏羲","corpus_layer":"LEGENDARY","historic_status":"mythic-traditional","tradition_variant":"三皇之一（版本之一）"},
+    {"person":"女娲","corpus_layer":"LEGENDARY","historic_status":"mythic-traditional","tradition_variant":"三皇之一（部分传统）"},
+    {"person":"神农/炎帝","corpus_layer":"LEGENDARY","historic_status":"traditional-legendary","tradition_variant":"三皇/炎帝传统，需保留神农与炎帝是否同一实体的版本差异"},
+    {"person":"黄帝","corpus_layer":"LEGENDARY","historic_status":"traditional-legendary","tradition_variant":"五帝/上古帝王传统"},
+    {"person":"少昊","corpus_layer":"LEGENDARY","historic_status":"traditional-legendary","tradition_variant":"五帝名单部分版本"},
+    {"person":"颛顼","corpus_layer":"LEGENDARY","historic_status":"traditional-legendary","tradition_variant":"五帝传统"},
+    {"person":"帝喾","corpus_layer":"LEGENDARY","historic_status":"traditional-legendary","tradition_variant":"五帝传统"},
+    {"person":"帝挚","corpus_layer":"LEGENDARY","historic_status":"traditional-legendary","tradition_variant":"传统帝系"},
+    {"person":"尧","corpus_layer":"LEGENDARY","historic_status":"traditional-legendary","tradition_variant":"唐尧传统"},
+    {"person":"舜","corpus_layer":"LEGENDARY","historic_status":"traditional-legendary","tradition_variant":"虞舜传统"}
+  ],
+  "explicit_boundary_examples": [
+    {"person":"黄巢","status":"CORE","basis":"大齐最高统治者，有实际占领与政权统治"},
+    {"person":"李自成","status":"CORE","basis":"大顺最高统治者"},
+    {"person":"张献忠","status":"CORE","basis":"大西最高统治者"},
+    {"person":"洪秀全","status":"CORE","basis":"太平天国最高统治者"},
+    {"person":"袁世凯","status":"CORE","note":"one person, multiple rule episodes including Republic presidency and Hongxian monarchy"},
+    {"person":"孙中山","status":"CORE","note":"qualifying supreme-rule episodes in competing central governments"},
+    {"person":"张作霖","status":"CORE","note":"qualifies through Beijing-government supreme-rule episode, not ordinary warlord status"}
+  ],
+  "person_schema": {
+    "id":"stable slug",
+    "name":"canonical Chinese name",
+    "aliases":[],
+    "period":"period id",
+    "polity":"political entity",
+    "titles":[],
+    "rule_episodes":[],
+    "corpus_layer":"CORE|EXTENDED|LEGENDARY",
+    "historic_status":"historically-attested|historically-disputed|traditional-legendary|mythic-traditional",
+    "evidence_level":"A|B|C|D|LIMITED-EVIDENCE",
+    "tradition_variants":[],
+    "existing_skill":null,
+    "distillation_status":"MISSING|KEEP|PATCH|REDISTILL|RESEARCH-GAP|LIMITED-EVIDENCE",
+    "notes":""
+  },
+  "completion_rule": {
+    "historical_core":"matched existing/distilled CORE persons / all CORE persons",
+    "maximal_master":"CORE + EXTENDED + LEGENDARY tracked separately; never collapse legendary figures into historical completion percentage",
+    "identity":"one person is counted once even when multiple titles, regimes, or rule episodes exist"
+  },
+  "enumeration_policy": [
+    "Use multiple chronological/ruler-list sources and take their union before exclusions.",
+    "Never exclude merely because a regime is non-orthodox, defeated, short-lived, parallel, or uses a non-imperial title.",
+    "For Spring-Autumn/Warring States and fragmentation eras, enumerate polity-by-polity rather than sampling famous rulers.",
+    "For legendary traditions, preserve competing genealogies/lists as variants rather than forcing false consensus.",
+    "Every exclusion from a source-derived candidate set must have an explicit exclusion reason."
+  ],
+  "next_build_step": "Enumerate every candidate person polity-by-polity into persons[], normalize aliases/duplicate identities, record exclusions, then machine-match against corpus-registry and skills paths."
 }
