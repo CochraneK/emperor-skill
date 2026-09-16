@@ -1,22 +1,128 @@
 {
-  "schema_version":"1.1",
-  "goal":"Build the maximum defensible person-level ruler universe before further bulk distillation.",
-  "denominators":{"historical":"CORE only","traditional":"LEGENDARY separately","borderline":"EXTENDED separately"},
-  "source_priority":["polity-specific scholarly/official chronology or primary transmitted tables","MOE/academic Chinese chronology and ruler tables as baseline/cross-check","CBDB/person authority data for identity normalization where covered","secondary ruler lists only as discovery leads, requiring verification"],
-  "batches":[
-    {"id":"L0","scope":"pre-Xia traditional rulers","target":"LEGENDARY","status":"SEEDED","file":"data/legendary-rulers.json"},
-    {"id":"H1","scope":"Xia-Shang-Western Zhou + Eastern Zhou royal house","target":"CORE","status":"ENUMERATED_V1_QA_OPEN","file":"data/rulers-master-h1-early.json","qa_open":["Shang 30-person transmitted reigning sequence vs 31 existing packages"]},
-    {"id":"H2","scope":"Spring-and-Autumn autonomous states","target":"CORE/EXTENDED","status":"POLITY_SCOPE_LOCKED_PERSON_ENUMERATION_NEXT","file":"data/rulers-master-h2-preqin.json","rule":"enumerate polity sequences systematically; no fame filter"},
-    {"id":"H3","scope":"Warring States autonomous states","target":"CORE/EXTENDED","status":"POLITY_SCOPE_LOCKED_PERSON_ENUMERATION_NEXT","file":"data/rulers-master-h2-preqin.json","rule":"Seven Powers plus other entities satisfying same sovereignty rule"},
-    {"id":"H4","scope":"Qin, Chu-Han, Western Han, Xin, Gengshi, Eastern Han","target":"CORE","status":"TODO"},
-    {"id":"H5","scope":"Three Kingdoms, Jin, Sixteen Kingdoms and qualifying contemporaries","target":"CORE/EXTENDED","status":"TODO"},
-    {"id":"H6","scope":"Northern and Southern Dynasties, Sui, Tang, Wu Zhou, qualifying Sui-Tang and late-Tang rival sovereign regimes","target":"CORE/EXTENDED","status":"TODO"},
-    {"id":"H7","scope":"Five Dynasties and Ten Kingdoms plus qualifying contemporaries","target":"CORE/EXTENDED","status":"TODO"},
-    {"id":"H8","scope":"Song, Liao, Western Xia, Jin, Western Liao, Dali and qualifying parallel polities","target":"CORE/EXTENDED","status":"TODO"},
-    {"id":"H9","scope":"Mongol/Yuan and qualifying late-Yuan rival regimes","target":"CORE/EXTENDED","status":"TODO"},
-    {"id":"H10","scope":"Ming, Southern Ming, Later Jin/Qing, Dashun, Daxi and qualifying transition regimes","target":"CORE/EXTENDED","status":"TODO"},
-    {"id":"H11","scope":"Qing and sustained late-Qing rival sovereign regimes including Taiping","target":"CORE/EXTENDED","status":"TODO"},
-    {"id":"H12","scope":"Republic-era competing central governments through the agreed historical-ruler endpoint","target":"CORE/EXTENDED","status":"TODO","note":"Do not auto-include all presidents or warlords; apply rule_episode and actual-central-rule test."}
+  "schema_version": "2.0",
+  "goal": "Build the maximum defensible person-level Chinese historical ruler universe before further bulk distillation.",
+  "denominator_policy": {
+    "historical_core": "CORE persons only",
+    "traditional": "LEGENDARY separately",
+    "borderline": "EXTENDED separately",
+    "review": "CORE_REVIEW / EXTENDED_REVIEW are not counted as locked CORE until QA resolves",
+    "collective": "collective governments without a unique supreme person are institutional episodes, not fake person rulers"
+  },
+  "source_priority": [
+    "polity-specific scholarly/official chronology or primary transmitted tables",
+    "MOE/academic chronology and ruler tables as baseline/cross-check",
+    "CBDB/person authority data for identity normalization where covered",
+    "secondary ruler lists only as discovery leads requiring verification"
   ],
-  "qa":["one person one canonical id","multiple reigns/offices are episodes, not duplicate persons","posthumous title is not a rule episode","regency is encoded separately from sovereign office","conflicting legendary traditions coexist","no minimum evidence length","LIMITED-EVIDENCE never triggers invented models","every inclusion/exclusion boundary carries a reason"]
+  "batches": [
+    {
+      "id": "L0",
+      "scope": "pre-Xia traditional rulers",
+      "target": "LEGENDARY",
+      "status": "SEEDED_QA_OPEN",
+      "file": "data/legendary-rulers.json",
+      "open": "expand named tradition variants without synthesizing false chronology"
+    },
+    {
+      "id": "H1",
+      "scope": "Xia-Shang-Zhou royal house",
+      "target": "CORE",
+      "status": "ENUMERATED_V1_QA_OPEN",
+      "file": "data/rulers-master-h1-early.json",
+      "open": "resolve Shang 30 reigning sequence vs 31 existing packages; 周携王/共和 episode"
+    },
+    {
+      "id": "H2-H3",
+      "scope": "Spring-and-Autumn + Warring States autonomous polities",
+      "target": "CORE/EXTENDED",
+      "status": "MAJOR_POLITIES_ENUMERATED_V1_SMALLER_POLITIES_OPEN",
+      "file": "data/rulers-master-h2-preqin.json",
+      "queue": "data/ruler-candidates-preqin-other.json"
+    },
+    {
+      "id": "H4",
+      "scope": "Qin, Chu-Han, Western Han, Xin/restoration, Eastern Han",
+      "target": "CORE/EXTENDED",
+      "status": "ENUMERATED_V1_TRANSITION_POLITIES_OPEN",
+      "file": "data/rulers-master-h4-qin-han.json"
+    },
+    {
+      "id": "H5",
+      "scope": "Three Kingdoms, Jin, Sixteen Kingdoms and contemporaries",
+      "target": "CORE/EXTENDED",
+      "status": "ENUMERATED_V1_EDGE_POLITIES_OPEN",
+      "file": "data/rulers-master-h5-jin-sixteen.json"
+    },
+    {
+      "id": "H6",
+      "scope": "Northern/Southern dynasties, Sui, Tang, Wu Zhou and rivals",
+      "target": "CORE/EXTENDED",
+      "status": "ENUMERATED_V1_RIVAL_QA_OPEN",
+      "file": "data/rulers-master-h6-north-south-sui-tang.json"
+    },
+    {
+      "id": "H7",
+      "scope": "Five Dynasties, Ten Kingdoms and extra contemporaries",
+      "target": "CORE/EXTENDED",
+      "status": "ENUMERATED_V1_EXTRA_POLITIES_QA_OPEN",
+      "file": "data/rulers-master-h7-five-ten.json"
+    },
+    {
+      "id": "H8",
+      "scope": "Song, Liao, Western Liao, Western Xia, Jin, Nanzhao/Dali and contemporaries",
+      "target": "CORE/EXTENDED",
+      "status": "ENUMERATED_V1_GEOGRAPHIC_EDGE_QA_OPEN",
+      "file": "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+    },
+    {
+      "id": "H9",
+      "scope": "Mongol/Yuan, Northern Yuan review and late-Yuan rivals",
+      "target": "CORE/EXTENDED",
+      "status": "ENUMERATED_V1_QA_OPEN",
+      "file": "data/rulers-master-h9-yuan-rivals.json"
+    },
+    {
+      "id": "H10",
+      "scope": "Ming, Southern Ming, Dashun, Daxi, Later Jin, Ming-Zheng transition",
+      "target": "CORE/EXTENDED",
+      "status": "ENUMERATED_V1_QA_OPEN",
+      "file": "data/rulers-master-h10-ming-transition.json"
+    },
+    {
+      "id": "H11",
+      "scope": "Qing and sustained late-Qing rival sovereign regimes",
+      "target": "CORE/EXTENDED",
+      "status": "ENUMERATED_V1_DISCOVERY_OPEN",
+      "file": "data/rulers-master-h11-qing-rivals.json"
+    },
+    {
+      "id": "H12",
+      "scope": "Republic-era central and competing central governments",
+      "target": "CORE/EXTENDED",
+      "status": "ENUMERATED_V1_POLITICAL_HISTORICAL_QA_OPEN",
+      "file": "data/rulers-master-h12-republic.json",
+      "endpoint": "working cutoff 1949-12-31; post-1949 leadership is a separate modern dataset"
+    }
+  ],
+  "current_phase": "ENTITY_NORMALIZATION_AND_DENOMINATOR_BUILD",
+  "next_machine_outputs": [
+    "data/rulers-person-index.json",
+    "data/corpus-gap.json",
+    "assessment/CORPUS_COVERAGE.md",
+    "update data/rulers-master.json into canonical segment manifest with exact locked/review counts",
+    "update data/corpus-registry.json with maximal-corpus coverage"
+  ],
+  "qa": [
+    "one person one canonical id",
+    "multiple reigns/offices/polities are episodes, not duplicate persons",
+    "posthumous title is not a rule episode",
+    "regency is encoded separately unless global policy promotes it",
+    "conflicting legendary traditions coexist",
+    "no minimum evidence length",
+    "LIMITED-EVIDENCE never triggers invented models",
+    "every inclusion/exclusion boundary carries a reason",
+    "no fame/orthodoxy/emperor-title filter",
+    "collective government is not forced into a single person",
+    "current 267 packages are existing coverage, never the completeness denominator"
+  ]
 }
