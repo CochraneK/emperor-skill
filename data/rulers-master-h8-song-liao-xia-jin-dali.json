@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0",
+  "batch": "H8-song-liao-xia-jin-dali-western-liao",
+  "status": "MAJOR_POLITIES_ENUMERATED_V1_PARALLEL_AND_GEOGRAPHIC_EDGE_REVIEW_OPEN",
+  "principle": "Parallel dynasties are coequal corpus lanes. Emperor title, orthodox status, Han ethnicity, and later unification are not admission gates; actual autonomous supreme rule is.",
+  "polities": [
+    {
+      "id": "northern-song",
+      "name": "北宋",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "赵匡胤",
+          "existing_skill": "skills/song/zhaokuangyin-perspective"
+        },
+        {
+          "name": "赵光义",
+          "existing_skill": "skills/song/zhaoguangyi-perspective"
+        },
+        {
+          "name": "赵恒",
+          "existing_skill": "skills/song/zhaoheng-perspective"
+        },
+        {
+          "name": "赵祯",
+          "existing_skill": "skills/song/zhaozhen-perspective"
+        },
+        {
+          "name": "赵曙",
+          "existing_skill": "skills/song/zhaoshu-perspective"
+        },
+        {
+          "name": "赵顼",
+          "existing_skill": "skills/song/zhaoxu_s-perspective"
+        },
+        {
+          "name": "赵煦",
+          "existing_skill": "skills/song/zhaoxu_z-perspective"
+        },
+        {
+          "name": "赵佶",
+          "existing_skill": "skills/song/zhaoji-perspective"
+        },
+        {
+          "name": "赵桓",
+          "existing_skill": "skills/song/zhaohuan-perspective"
+        }
+      ]
+    },
+    {
+      "id": "southern-song",
+      "name": "南宋",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "赵构",
+          "existing_skill": "skills/song/zhaogou-perspective"
+        },
+        {
+          "name": "赵昚",
+          "existing_skill": "skills/song/zhaoshen-perspective"
+        },
+        {
+          "name": "赵惇",
+          "existing_skill": "skills/song/zhaodun-perspective"
+        },
+        {
+          "name": "赵扩",
+          "existing_skill": "skills/song/zhaokuo-perspective"
+        },
+        {
+          "name": "赵昀",
+          "existing_skill": "skills/song/zhaoyun-perspective"
+        },
+        {
+          "name": "赵禥",
+          "existing_skill": "skills/song/zhaoqi-perspective"
+        },
+        {
+          "name": "赵㬎",
+          "aliases": [
+            "赵显"
+          ],
+          "existing_skill": "skills/song/zhaoxian-perspective"
+        },
+        {
+          "name": "赵昰",
+          "existing_skill": "skills/song/zhaoshi-perspective"
+        },
+        {
+          "name": "赵昺",
+          "existing_skill": "skills/song/zhaobing-perspective"
+        }
+      ],
+      "coverage": {
+        "existing": 18,
+        "missing": []
+      }
+    },
+    {
+      "id": "liao",
+      "name": "辽",
+      "layer": "CORE",
+      "persons": [
+        "耶律阿保机",
+        "耶律德光",
+        "耶律阮",
+        "耶律璟",
+        "耶律贤",
+        "耶律隆绪",
+        "耶律宗真",
+        "耶律洪基",
+        "耶律延禧"
+      ],
+      "extended_or_review": [
+        {
+          "name": "述律平",
+          "status": "EXTENDED",
+          "episode": "926-927称制",
+          "reason": "de facto regency/supreme control but not standard sovereign succession"
+        },
+        {
+          "name": "耶律察割",
+          "status": "CORE_REVIEW",
+          "episode": "951 four-day usurpation",
+          "reason": "actual seizure of supreme power is more relevant than recognition; verify governing episode"
+        }
+      ]
+    },
+    {
+      "id": "northern-liao",
+      "name": "北辽及辽末并行政权",
+      "layer": "CORE",
+      "persons": [
+        "耶律淳",
+        "耶律雅里",
+        "耶律术烈"
+      ],
+      "extended": [
+        {
+          "name": "萧普贤女",
+          "status": "EXTENDED",
+          "episode": "1122称制",
+          "reason": "regent/de facto supreme episode"
+        }
+      ]
+    },
+    {
+      "id": "western-liao",
+      "name": "西辽",
+      "layer": "CORE",
+      "persons": [
+        "耶律大石",
+        "耶律夷列",
+        "耶律直鲁古",
+        "屈出律"
+      ],
+      "extended": [
+        {
+          "name": "萧塔不烟",
+          "title": "感天皇后",
+          "status": "EXTENDED",
+          "episode": "1143-1150称制"
+        },
+        {
+          "name": "耶律普速完",
+          "title": "承天太后",
+          "status": "EXTENDED",
+          "episode": "1163-1177称制"
+        }
+      ],
+      "qa": [
+        "屈出律通过夺取最高权力统治西辽末期，title/族属不影响 actual-rule admission"
+      ]
+    },
+    {
+      "id": "east-liao",
+      "name": "东辽",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        "耶律留哥",
+        "耶律厮不",
+        "耶律乞奴",
+        "耶律金山",
+        "耶律统古与",
+        "耶律喊舍"
+      ],
+      "identity_note": "耶律留哥复位为 one person/multiple episodes",
+      "qa": "其对蒙古的臣属与内部并立需要 sovereignty_status 字段，不应直接删除"
+    },
+    {
+      "id": "western-xia-pre-imperial",
+      "name": "夏国/西夏前身",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        "李继迁",
+        "李德明"
+      ],
+      "reason": "Both exercised sustained supreme rule of the Xia polity before imperial proclamation; emperor title is not required under corpus rules."
+    },
+    {
+      "id": "western-xia",
+      "name": "西夏",
+      "layer": "CORE",
+      "persons": [
+        "李元昊",
+        "李谅祚",
+        "李秉常",
+        "李乾顺",
+        "李仁孝",
+        "李纯祐",
+        "李安全",
+        "李遵顼",
+        "李德旺",
+        "李睍"
+      ],
+      "parallel_review": [
+        {
+          "name": "任得敬",
+          "status": "CORE_REVIEW",
+          "polity": "楚国",
+          "episode": "1170",
+          "reason": "brief partition/separate rule attempt; verify actual autonomous control"
+        }
+      ]
+    },
+    {
+      "id": "jurchen-jin",
+      "name": "金",
+      "layer": "CORE",
+      "persons": [
+        "完颜阿骨打",
+        "完颜晟",
+        "完颜亶",
+        "完颜亮",
+        "完颜雍",
+        "完颜璟",
+        "完颜永济",
+        "完颜珣",
+        "完颜守绪",
+        "完颜承麟"
+      ],
+      "late_parallel_review": [
+        {
+          "name": "高永昌",
+          "polity": "大渤海/大元",
+          "status": "CORE_REVIEW",
+          "episode": "1116"
+        },
+        {
+          "name": "萧干",
+          "polity": "奚/回奚",
+          "status": "CORE_REVIEW",
+          "episode": "1123"
+        },
+        {
+          "name": "张鲸",
+          "polity": "辽西",
+          "status": "CORE_REVIEW",
+          "episode": "1214-1215"
+        },
+        {
+          "name": "张致",
+          "polity": "辽西汉兴",
+          "status": "CORE_REVIEW",
+          "episode": "1215-1216"
+        },
+        {
+          "name": "郝定",
+          "polity": "大汉",
+          "status": "CORE_REVIEW",
+          "episode": "1216"
+        },
+        {
+          "name": "蒲鲜万奴",
+          "polity": "大真/东夏",
+          "status": "CORE",
+          "episode": "1215-1233",
+          "reason": "sustained autonomous polity in Jin-Mongol transition"
+        }
+      ]
+    },
+    {
+      "id": "nanzhao",
+      "name": "南诏/蒙舍诏—大礼—大封民",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        "细奴逻",
+        "逻盛",
+        "盛逻皮",
+        "皮逻阁",
+        "阁罗凤",
+        "异牟寻",
+        "寻阁劝",
+        "劝龙晟",
+        "劝利晟",
+        "劝丰祐",
+        "世隆",
+        "隆舜",
+        "舜化贞"
+      ],
+      "reason": "Sustained autonomous Yunnan polity. Geographic-scope tagging remains explicit, but maximum-set logic should not silently omit it."
+    },
+    {
+      "id": "dachanghe",
+      "name": "大长和",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        "郑买嗣",
+        "郑仁旻",
+        "郑隆亶"
+      ]
+    },
+    {
+      "id": "datianxing",
+      "name": "大天兴",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        "赵善政"
+      ]
+    },
+    {
+      "id": "dayining",
+      "name": "大义宁",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        "杨干贞",
+        "杨诏/杨明"
+      ]
+    },
+    {
+      "id": "dali",
+      "name": "大理",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        "段思平",
+        "段思英",
+        "段思良",
+        "段思聪",
+        "段素顺",
+        "段素英",
+        "段素廉",
+        "段素隆",
+        "段素真",
+        "段素兴",
+        "段思廉",
+        "段廉义",
+        "段寿辉",
+        "段正明",
+        "段正淳",
+        "段正严",
+        "段正兴",
+        "段智兴",
+        "段智廉",
+        "段智祥",
+        "段祥兴",
+        "段兴智"
+      ],
+      "interlude": [
+        {
+          "name": "高升泰",
+          "polity": "大中国",
+          "status": "CORE",
+          "episode": "1094-1096",
+          "reason": "actual sovereign interlude between former and later Dali"
+        }
+      ],
+      "exclusion_note": "Post-Mongol hereditary Dali zongguan are not automatically sovereign rulers; require a separate autonomy test rather than continuation by genealogy."
+    }
+  ],
+  "southwest_scope_review": {
+    "status": "OPEN_BUT_INCLUDED_AS_REVIEW_LANE",
+    "principle": "Nanzhao/Dali and transitional Yunnan states are captured because they were long-lived autonomous polities in the historical Chinese political sphere. Earlier Six Zhao polities and later Yuan Dali zongguan require a consistent geographic/statehood boundary before CORE classification.",
+    "next_candidates": [
+      "蒙嶲诏",
+      "浪穹诏",
+      "邆赕诏",
+      "越析诏",
+      "施浪诏",
+      "其他六诏政体"
+    ]
+  },
+  "counts": {
+    "song_core": 18,
+    "liao_standard_core": 9,
+    "western_liao_sovereigns_excluding_regents": 4,
+    "western_xia_imperial": 10,
+    "jurchen_jin_core": 10,
+    "dali_dynastic_rulers": 22,
+    "nanzhao_main_sequence": 13,
+    "note": "These are lane counts, not a deduplicated master total; cross-polity identities and review candidates remain separate until stable IDs are minted."
+  },
+  "existing_skill_coverage": {
+    "song": 18,
+    "liao": 0,
+    "western_liao": 0,
+    "western_xia": 0,
+    "jurchen_jin": 0,
+    "nanzhao_dali": 0,
+    "structural_gap": "Current 267 corpus covers Song but omits all other major H8 parallel-polity ruler sequences as dedicated Skill groups."
+  },
+  "qa_open": [
+    "Decide final CORE vs EXTENDED for de facto regents using one global regency policy.",
+    "Verify East Liao episode-level autonomy under Mongol overlordship.",
+    "Resolve Six Zhao/Nanzhao/Dali geographic boundary consistently instead of dynasty-by-dynasty cherry-picking.",
+    "Enumerate any other sustained Jin-Song-Mongol transition polities under the same rule."
+  ]
+}
