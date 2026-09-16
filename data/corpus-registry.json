@@ -1,52 +1,32 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "generated_from": "repository snapshot 2026-09-17",
   "canonical_audit": "NUWA_AUDIT_V2.md",
-  "status_note": "Counts are repository snapshot. Per-emperor recovery audit is incremental; unknown is not failure.",
-  "totals": {
-    "skills": 267,
-    "dynasty_directories": 17
-  },
+  "worker_brief": "WORKER_BRIEF_V2.md",
+  "status_note": "Per-emperor recovery audit is incremental; unknown is not failure.",
+  "totals": {"skills":267,"dynasty_directories":17},
   "dynasties": [
-    {"id":"xia","name":"夏","count":17},
-    {"id":"shang","name":"商","count":31},
-    {"id":"zhou","name":"周","count":37},
-    {"id":"qin","name":"秦","count":3},
-    {"id":"chuhan","name":"楚汉","count":2},
-    {"id":"xihan","name":"西汉","count":15},
-    {"id":"donghan","name":"东汉","count":13},
-    {"id":"sanguo","name":"三国","count":11},
-    {"id":"jin","name":"晋","count":15},
-    {"id":"nanbeichao","name":"南北朝","count":38},
-    {"id":"sui","name":"隋","count":3},
-    {"id":"tang","name":"唐","count":21},
-    {"id":"song","name":"宋","count":18},
-    {"id":"yuan","name":"元","count":15},
-    {"id":"ming","name":"明","count":16},
-    {"id":"qing","name":"清","count":12}
+    {"id":"xia","name":"夏","count":17},{"id":"shang","name":"商","count":31},{"id":"zhou","name":"周","count":37},{"id":"qin","name":"秦","count":3},{"id":"chuhan","name":"楚汉","count":2},{"id":"xihan","name":"西汉","count":15},{"id":"donghan","name":"东汉","count":13},{"id":"sanguo","name":"三国","count":11},{"id":"jin","name":"晋","count":15},{"id":"nanbeichao","name":"南北朝","count":38},{"id":"sui","name":"隋","count":3},{"id":"tang","name":"唐","count":21},{"id":"song","name":"宋","count":18},{"id":"yuan","name":"元","count":15},{"id":"ming","name":"明","count":16},{"id":"qing","name":"清","count":12}
   ],
   "audit": {
-    "provenance_review_snapshot": 39,
-    "provenance_review_source": "_redo_tools/_order_suspects_39.md",
-    "provenance_review_policy": "assessment/PROVENANCE_RECOVERY.md",
-    "legacy_size_queue": 92,
-    "legacy_size_queue_status": "deprecated-as-quality-gate",
-    "l1_l3_full_audit": "in-progress",
-    "reviewed": 1,
-    "remaining_snapshot_reviews": 38
+    "provenance_review_snapshot":39,
+    "provenance_review_source":"_redo_tools/_order_suspects_39.md",
+    "provenance_review_policy":"assessment/PROVENANCE_RECOVERY.md",
+    "legacy_size_queue":92,
+    "legacy_size_queue_status":"deprecated-as-quality-gate",
+    "l1_l3_full_audit":"in-progress",
+    "reviewed":7,
+    "remaining_snapshot_reviews":32,
+    "rere research_due_to_mtime_only":0
   },
   "emperor_audit": [
-    {
-      "id": "simadewen-perspective",
-      "dynasty": "jin",
-      "legacy_signal": "skill-mtime-before-research-152s",
-      "l1_provenance": "UNCERTAIN-BUT-RESEARCH-REUSABLE",
-      "l2_evidence": "PARTIAL",
-      "l3_semantic": "REDISTILL-CANDIDATE",
-      "action": "PATCH_THEN_REDISTILL",
-      "rere research_required": false,
-      "notes": "Six research views contain independent evidence structure and uncertainty labels, but evidence taxonomy and some psychological inference require patching before redistillation."
-    }
+    {"id":"simadewen-perspective","dynasty":"jin","legacy_signal":"152s","l1":"UNCERTAIN-RESEARCH-REUSABLE","l2":"PARTIAL","action":"PATCH_THEN_REDISTILL"},
+    {"id":"simadezong-perspective","dynasty":"jin","legacy_signal":"164s","l1":"UNCERTAIN-RESEARCH-REUSABLE","l2":"PARTIAL_VERIFY","action":"PATCH_VERIFY_REDISTILL"},
+    {"id":"simashao-perspective","dynasty":"jin","legacy_signal":"356s","l1":"UNCERTAIN-RESEARCH-REUSABLE","l2":"PARTIAL","action":"PATCH_THEN_REDISTILL"},
+    {"id":"simaye-perspective","dynasty":"jin","legacy_signal":"118s","l1":"UNCERTAIN-RESEARCH-REUSABLE","l2":"PARTIAL","action":"PATCH_THEN_REDISTILL"},
+    {"id":"simayi-perspective","dynasty":"jin","legacy_signal":"178s","l1":"UNCERTAIN-RESEARCH-REUSABLE","l2":"PARTIAL","action":"PATCH_THEN_REDISTILL"},
+    {"id":"simayu-perspective","dynasty":"jin","legacy_signal":"54s","l1":"UNCERTAIN-RESEARCH-REUSABLE","l2":"PARTIAL","action":"PATCH_THEN_REDISTILL"},
+    {"id":"simazhong-perspective","dynasty":"jin","legacy_signal":"123s","l1":"UNCERTAIN-RESEARCH-REUSABLE","l2":"PARTIAL","action":"PATCH_THEN_REDISTILL"}
   ],
   "reports": [
     {"id":"solo-index","type":"simulation-index","path":"simulation/by-dynasty/solo/solo-index.html"},
