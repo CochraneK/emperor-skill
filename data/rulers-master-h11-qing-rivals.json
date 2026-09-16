@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "batch": "H11-qing-and-late-qing-rivals",
+  "status": "QING_COMPLETE_MAJOR_RIVAL_POLITIES_ENUMERATED_V1_DISCOVERY_OPEN",
+  "principle": "Qing standard succession is already covered by existing Skills. Late-Qing rival states are added when they maintained an actual autonomous government; movement size or ideological framing is not the gate.",
+  "polities": [
+    {
+      "id": "qing",
+      "name": "清",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "努尔哈赤",
+          "existing_skill": "skills/qing/nurhaci-perspective",
+          "episode_note": "Later Jin founder; pre-Qing episode linked from H10"
+        },
+        {
+          "name": "皇太极",
+          "existing_skill": "skills/qing/hongtaiji-perspective",
+          "episode_note": "Later Jin then Qing"
+        },
+        {
+          "name": "福临",
+          "existing_skill": "skills/qing/fulin-perspective"
+        },
+        {
+          "name": "玄烨",
+          "existing_skill": "skills/qing/xuanye-perspective"
+        },
+        {
+          "name": "胤禛",
+          "existing_skill": "skills/qing/yinzhen-perspective"
+        },
+        {
+          "name": "弘历",
+          "existing_skill": "skills/qing/hongli-perspective"
+        },
+        {
+          "name": "颙琰",
+          "aliases": [
+            "永琰"
+          ],
+          "existing_skill": "skills/qing/yongyan-perspective"
+        },
+        {
+          "name": "旻宁",
+          "existing_skill": "skills/qing/minning-perspective"
+        },
+        {
+          "name": "奕詝",
+          "existing_skill": "skills/qing/yizhu-perspective"
+        },
+        {
+          "name": "载淳",
+          "existing_skill": "skills/qing/zaichun-perspective"
+        },
+        {
+          "name": "载湉",
+          "existing_skill": "skills/qing/zaitian-perspective"
+        },
+        {
+          "name": "溥仪",
+          "existing_skill": "skills/qing/puyi-perspective"
+        }
+      ],
+      "coverage": {
+        "existing": 12,
+        "missing": []
+      }
+    },
+    {
+      "id": "taiping",
+      "name": "太平天国",
+      "layer": "CORE",
+      "persons": [
+        {
+          "name": "洪秀全",
+          "titles": [
+            "天王"
+          ],
+          "episode": "1851-1864"
+        },
+        {
+          "name": "洪天贵福",
+          "titles": [
+            "幼天王"
+          ],
+          "episode": "1864",
+          "basis": "43-day actual succession; short reign is not exclusion"
+        }
+      ],
+      "qa": "Other kings such as 杨秀清/石达开 are deputies or breakaway military leaders unless a separate actual sovereign polity episode is demonstrated."
+    },
+    {
+      "id": "dacheng",
+      "name": "大成国",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "陈开",
+          "titles": [
+            "平浔王/镇南王"
+          ],
+          "episode": "1855-1861",
+          "reason": "state institutions, capital, coinage and territorial administration"
+        },
+        {
+          "name": "黄鼎凤",
+          "status": "CORE_REVIEW",
+          "episode": "post-1861 resistance to 1864",
+          "reason": "source chronology associates Hongde state continuation; verify whether he succeeded as supreme ruler rather than military commander"
+        }
+      ]
+    },
+    {
+      "id": "dali-sultanate",
+      "name": "杜文秀大理政权/平南国",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "杜文秀",
+          "titles": [
+            "总统兵马大元帅/苏丹（外文材料）"
+          ],
+          "episode": "1856-1872",
+          "reason": "sustained autonomous government centered on Dali; exact state-name/title traditions require source-normalization"
+        }
+      ]
+    },
+    {
+      "id": "shengping",
+      "name": "升平天国",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "朱洪英",
+          "episode": "1854-1856"
+        },
+        {
+          "name": "胡有禄",
+          "episode": "1854-1856"
+        }
+      ],
+      "qa": "co-leadership vs single supreme authority needs evidence; may require polity-council model rather than forcing one ruler"
+    },
+    {
+      "id": "shuntian-li-lan",
+      "name": "顺天政权（李永和、蓝朝鼎）",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "李永和",
+          "episode": "1859-1862"
+        },
+        {
+          "name": "蓝朝鼎",
+          "episode": "1859-1861"
+        }
+      ],
+      "qa": "verify territorial government and whether co-leaders meet person-level supreme-rule rule"
+    },
+    {
+      "id": "zhu-mingyue",
+      "name": "朱明月政权",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "朱明月",
+          "episode": "1859-1868",
+          "reason": "used independent era/state claims; actual government/control requires targeted verification"
+        }
+      ]
+    },
+    {
+      "id": "small-sword",
+      "name": "上海小刀会政权",
+      "layer": "CORE_REVIEW",
+      "persons": [
+        {
+          "name": "刘丽川",
+          "episode": "1853-1855",
+          "reason": "controlled Shanghai county/city areas and used independent-era/state claims; verify sovereignty threshold"
+        }
+      ]
+    }
+  ],
+  "excluded_or_not_automatic": [
+    {
+      "category": "捻军各首领",
+      "reason": "A large insurgent coalition is not automatically a sovereign polity; include only if a specific autonomous state and highest ruler episode is established."
+    },
+    {
+      "category": "地方督抚/军阀",
+      "reason": "Administrative or military autonomy inside Qing is not by itself sovereign rule."
+    },
+    {
+      "category": "兰芳共和国等海外华人政体",
+      "reason": "Potentially valuable separate diaspora/overseas-Chinese-polity dataset, but outside current geographic historical-ruler denominator until scope decision."
+    }
+  ],
+  "existing_skill_coverage": {
+    "qing": 12,
+    "qing_standard_missing": [],
+    "taiping": 0,
+    "other_late_qing_rival_polities": 0,
+    "implication": "Existing Qing directory is complete for the standard dynastic succession but not for the maximal parallel-ruler universe."
+  },
+  "qa_open": [
+    "Run a systematic late-Qing independent-state discovery pass rather than relying on famous rebellions.",
+    "Require actual governing institutions/control before promoting a rebel leader from candidate to CORE.",
+    "Normalize state names/titles in multiethnic and translated sources without imposing later labels."
+  ]
+}
