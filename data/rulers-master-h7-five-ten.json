@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0",
+  "batch": "H7-five-dynasties-ten-kingdoms",
+  "status": "CONVENTIONAL_FIVE_TEN_ENUMERATED_V1_EXTRA_POLITIES_REVIEW_OPEN",
+  "principle": "The conventional 'Five Dynasties and Ten Kingdoms' label is a historiographic grouping, not the corpus boundary. Every ruler of an actually autonomous polity is tested under the same sovereignty rule.",
+  "conventional_five_dynasties": [
+    {
+      "id": "later-liang",
+      "name": "后梁",
+      "persons": [
+        "朱温/朱晃",
+        "朱友珪",
+        "朱友贞"
+      ],
+      "count": 3
+    },
+    {
+      "id": "later-tang",
+      "name": "后唐",
+      "persons": [
+        "李存勖",
+        "李嗣源",
+        "李从厚",
+        "李从珂"
+      ],
+      "count": 4
+    },
+    {
+      "id": "later-jin",
+      "name": "后晋",
+      "persons": [
+        "石敬瑭",
+        "石重贵"
+      ],
+      "count": 2
+    },
+    {
+      "id": "later-han",
+      "name": "后汉",
+      "persons": [
+        "刘知远",
+        "刘承祐"
+      ],
+      "count": 2
+    },
+    {
+      "id": "later-zhou",
+      "name": "后周",
+      "persons": [
+        "郭威",
+        "柴荣",
+        "柴宗训"
+      ],
+      "count": 3
+    }
+  ],
+  "conventional_ten_kingdoms": [
+    {
+      "id": "yang-wu",
+      "name": "杨吴",
+      "persons": [
+        "杨行密",
+        "杨渥",
+        "杨隆演",
+        "杨溥"
+      ],
+      "count": 4
+    },
+    {
+      "id": "former-shu",
+      "name": "前蜀",
+      "persons": [
+        "王建",
+        "王衍"
+      ],
+      "count": 2
+    },
+    {
+      "id": "wuyue",
+      "name": "吴越",
+      "persons": [
+        "钱镠",
+        "钱元瓘",
+        "钱弘佐",
+        "钱弘倧",
+        "钱俶"
+      ],
+      "count": 5
+    },
+    {
+      "id": "ma-chu",
+      "name": "马楚",
+      "persons": [
+        "马殷",
+        "马希声",
+        "马希范",
+        "马希广",
+        "马希萼",
+        "马希崇"
+      ],
+      "count": 6,
+      "qa": [
+        "951年以后湖南武平军进入额外政权 review，不应被十国标签截断"
+      ]
+    },
+    {
+      "id": "min",
+      "name": "闽",
+      "persons": [
+        "王审知",
+        "王延翰",
+        "王延钧/王鏻",
+        "王继鹏/王昶",
+        "王延羲/王曦",
+        "王延政"
+      ],
+      "count": 6,
+      "parallel_review": [
+        {
+          "name": "朱文进",
+          "status": "CORE_REVIEW",
+          "reason": "944-945实际掌握福州政权并称闽王；是否纳入同一 polity 或单列 episode 不影响 person 收录判断"
+        },
+        {
+          "name": "卓俨明",
+          "status": "CORE_REVIEW",
+          "reason": "945福州短期称帝并形成最高统治 episode"
+        },
+        {
+          "name": "李仁达",
+          "status": "CORE_REVIEW",
+          "reason": "945-947知闽国事/威武军最高统治，需判 autonomous sovereignty"
+        }
+      ]
+    },
+    {
+      "id": "southern-han",
+      "name": "南汉",
+      "persons": [
+        "刘龑",
+        "刘玢",
+        "刘晟",
+        "刘鋹"
+      ],
+      "count": 4
+    },
+    {
+      "id": "jingnan",
+      "name": "荆南/南平",
+      "persons": [
+        "高季兴",
+        "高从诲",
+        "高保融",
+        "高保勗",
+        "高继冲"
+      ],
+      "count": 5,
+      "qa": [
+        "多数用王/节度使而非皇帝称号，但实际 autonomous-rule test 决定 CORE"
+      ]
+    },
+    {
+      "id": "later-shu",
+      "name": "后蜀",
+      "persons": [
+        "孟知祥",
+        "孟昶"
+      ],
+      "count": 2
+    },
+    {
+      "id": "southern-tang",
+      "name": "南唐",
+      "persons": [
+        "李昪",
+        "李璟",
+        "李煜"
+      ],
+      "count": 3,
+      "aliases": [
+        {
+          "person": "李昪",
+          "aliases": [
+            "徐知诰"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "northern-han",
+      "name": "北汉",
+      "persons": [
+        "刘旻",
+        "刘钧",
+        "刘继恩",
+        "刘继元"
+      ],
+      "count": 4
+    }
+  ],
+  "extra_polities": [
+    {
+      "id": "qi-late-tang",
+      "name": "岐",
+      "persons": [
+        "李茂贞/宋文通"
+      ],
+      "status": "CORE_REVIEW",
+      "reason": "late Tang/Five Dynasties autonomous Northwest polity; no imperial-title requirement"
+    },
+    {
+      "id": "yan-liushouguang",
+      "name": "燕/桀燕",
+      "persons": [
+        "刘守光"
+      ],
+      "status": "CORE",
+      "reason": "911-913 independent imperial regime with territorial control",
+      "predecessor_review": [
+        {
+          "name": "刘仁恭",
+          "status": "CORE_REVIEW",
+          "reason": "autonomous Youzhou ruler before Liu Shouguang; verify polity sovereignty threshold"
+        }
+      ]
+    },
+    {
+      "id": "wuping",
+      "name": "武平军/湖南后楚",
+      "persons": [
+        "刘言",
+        "王逵",
+        "周行逢",
+        "周保权"
+      ],
+      "status": "CORE_REVIEW",
+      "reason": "post-Chu autonomous Hunan sequence; verify formal subordination vs actual sovereignty episode-by-episode"
+    },
+    {
+      "id": "qingyuan",
+      "name": "清源军/平海军",
+      "persons": [
+        "留从效",
+        "留绍镃",
+        "张汉思",
+        "陈洪进"
+      ],
+      "status": "CORE_REVIEW",
+      "reason": "Quanzhou autonomous/semi-autonomous sequence; encode recognition separately from actual control"
+    },
+    {
+      "id": "fuzhou-post-min",
+      "name": "福州/威武军后闽",
+      "persons": [
+        "卓俨明",
+        "李仁达"
+      ],
+      "status": "CORE_REVIEW",
+      "identity_note": "卓俨明 already appears under Min parallel review; same person record, separate polity episode if needed"
+    },
+    {
+      "id": "zhang-yuxian",
+      "name": "张遇贤政权",
+      "persons": [
+        "张遇贤"
+      ],
+      "status": "CORE_REVIEW",
+      "reason": "942-943称中天八国王并据有区域；verify sustained governing structure"
+    }
+  ],
+  "excluded_or_separate_review": [
+    {
+      "category": "Vietnamese successor polities",
+      "reason": "Do not auto-expand geographically outside the Chinese historical-polity scope merely because Five Dynasties tables list them; geographic boundary requires its own ontology decision."
+    },
+    {
+      "category": "posthumous founders",
+      "reason": "No lifetime sovereign episode."
+    }
+  ],
+  "counts": {
+    "conventional_five_dynasties_persons": 14,
+    "conventional_ten_kingdoms_persons": 41,
+    "conventional_total_persons": 55,
+    "note": "Counts are person-level conventional sequences only; extra-polity candidates and duplicate cross-polity identities are tracked separately."
+  },
+  "existing_skill_coverage": {
+    "dedicated_five_dynasties_or_ten_kingdoms_directories": 0,
+    "implication": "The current 267-package corpus has no dedicated Five Dynasties/Ten Kingdoms ruler group, so virtually the entire H7 conventional set is a missing research/distillation block."
+  },
+  "qa_open": [
+    "Verify actual sovereignty of Wuping and Qingyuan rulers episode-by-episode.",
+    "Enumerate any other sustained autonomous polities omitted by the conventional Ten Kingdoms label.",
+    "Normalize aliases such as 朱温/朱晃, 李茂贞/宋文通, 李昪/徐知诰 before person counting.",
+    "Do not double-count 卓俨明 across Min and post-Min episode descriptions."
+  ]
+}
