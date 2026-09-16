@@ -1,0 +1,22 @@
+{
+  "schema_version":"1.0",
+  "purpose":"Polity-level normalization for person/rule-episode enumeration. A polity is included here for discovery and boundary adjudication; inclusion of each ruler still requires episode-level evidence.",
+  "groups":[
+    {"period":"legendary","layer":"LEGENDARY","polities":["上古统治者传统","三皇传统","五帝传统","尧舜传统"]},
+    {"period":"three-dynasties","polities":["夏","商","西周","东周王室"]},
+    {"period":"spring-autumn","parallel":true,"polities":["齐（姜齐）","晋","楚","秦","鲁","宋","卫","郑","陈","蔡","曹","燕","吴","越","杞","莒","滕","邾/邹","小邾","薛","郯","中山","巴","蜀","其他经证据确认具有自主最高统治序列的周代政治实体"]},
+    {"period":"warring-states","parallel":true,"polities":["秦","田齐","楚","燕","韩","赵","魏","中山","宋","越","鲁","卫","其他在战国期仍满足自主统治门槛的政治实体"]},
+    {"period":"qin-han","parallel":true,"polities":["秦","西楚","秦末复国/封国中具有实际自主最高统治的实体","西汉","新","更始","赤眉汉及其他达到门槛的竞争政权","东汉"]},
+    {"period":"three-kingdoms","parallel":true,"polities":["曹魏","蜀汉","孙吴"]},
+    {"period":"jin-sixteen","parallel":true,"polities":["西晋","东晋","汉赵/前赵","成汉","后赵","前凉","前燕","前秦","后秦","后燕","西秦","后凉","南凉","南燕","西凉","北凉","胡夏","北燕","冉魏","其他达到统一门槛的同期自主政权"]},
+    {"period":"north-south","parallel":true,"polities":["刘宋","南齐","梁","陈","北魏","东魏","西魏","北齐","北周","侯景汉等达到门槛的短期竞争政权"]},
+    {"period":"sui-tang","parallel":true,"polities":["隋","唐","武周","隋末唐初达到门槛的竞争政权","大燕（安史）","大齐（黄巢）","其他达到门槛的晚唐竞争政权"]},
+    {"period":"five-ten","parallel":true,"polities":["后梁","后唐","后晋","后汉","后周","前蜀","后蜀","杨吴","南唐","吴越","闽","马楚","南汉","荆南/南平","北汉","其他达到门槛的同期自主政权"]},
+    {"period":"song-liao-xia-jin","parallel":true,"polities":["北宋","南宋","辽","西辽","西夏","金","大理","其他达到门槛的长期并行政权"]},
+    {"period":"mongol-yuan","parallel":true,"polities":["蒙古帝国/元","北元边界另行判定","元末达到门槛的竞争政权"]},
+    {"period":"ming-qing-transition","parallel":true,"polities":["明","南明","后金/清","大顺","大西","其他达到门槛的明清转型竞争政权"]},
+    {"period":"late-qing","parallel":true,"polities":["清","太平天国","其他达到自主最高统治门槛的晚清竞争政权"]},
+    {"period":"early-republic-boundary","parallel":true,"polities":["中华民国临时政府","北京政府","洪宪帝制","具有竞争性中央政府性质的广州政权","南京国民政府（用于边界判定）"],"note":"This is a boundary layer, not an instruction to include every president or warlord. Stop expansion into generic modern political-leader coverage."}
+  ],
+  "qa":["enumerate polity before selecting famous rulers","polity membership does not by itself prove ruler admission","aliases/renames must map to stable polity ids in later normalization","overlapping polities are intentional","orthodoxy is metadata, not admission gate"]
+}
