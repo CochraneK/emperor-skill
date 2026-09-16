@@ -33,3 +33,6 @@ _redo_tools/*.txt
 
 # 限流中断的残缺包暂存区（待重派补全，不入库）
 _pending/
+
+# git 故障备份目录（不入库）
+.git.bak_rebase/
