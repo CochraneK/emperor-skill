@@ -1,8 +1,8 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "generated_from": "repository snapshot 2026-09-17",
   "canonical_audit": "NUWA_AUDIT_V2.md",
-  "status_note": "Counts are current repository snapshot; per-emperor L1-L3 statuses remain pending recovery audit.",
+  "status_note": "Counts are repository snapshot. Per-emperor recovery audit is incremental; unknown is not failure.",
   "totals": {
     "skills": 267,
     "dynasty_directories": 17
@@ -28,10 +28,26 @@
   "audit": {
     "provenance_review_snapshot": 39,
     "provenance_review_source": "_redo_tools/_order_suspects_39.md",
+    "provenance_review_policy": "assessment/PROVENANCE_RECOVERY.md",
     "legacy_size_queue": 92,
     "legacy_size_queue_status": "deprecated-as-quality-gate",
-    "l1_l3_full_audit": "pending"
+    "l1_l3_full_audit": "in-progress",
+    "reviewed": 1,
+    "remaining_snapshot_reviews": 38
   },
+  "emperor_audit": [
+    {
+      "id": "simadewen-perspective",
+      "dynasty": "jin",
+      "legacy_signal": "skill-mtime-before-research-152s",
+      "l1_provenance": "UNCERTAIN-BUT-RESEARCH-REUSABLE",
+      "l2_evidence": "PARTIAL",
+      "l3_semantic": "REDISTILL-CANDIDATE",
+      "action": "PATCH_THEN_REDISTILL",
+      "rere research_required": false,
+      "notes": "Six research views contain independent evidence structure and uncertainty labels, but evidence taxonomy and some psychological inference require patching before redistillation."
+    }
+  ],
   "reports": [
     {"id":"solo-index","type":"simulation-index","path":"simulation/by-dynasty/solo/solo-index.html"},
     {"id":"solo-ranking","type":"analysis","path":"simulation/by-dynasty/solo/solo-ranking.html"},
