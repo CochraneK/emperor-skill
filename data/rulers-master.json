@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0-draft",
+  "title": "Chinese Historical Rulers Corpus — Canonical Master",
+  "status": "building",
+  "purpose": "Canonical denominator for all rulers to research/distill; never infer completeness from existing skills.",
+  "inclusion_rule": {
+    "required": ["historical person", "highest decision-maker of a politically autonomous entity or competing central government", "observable actual rule/control rather than pure posthumous honor or unsupported claim"],
+    "not_required": ["traditional legitimacy", "imperial title", "unified China", "long reign"],
+    "default_exclusions": ["purely posthumous rulers with no rule episode", "claimants with no observable governing entity", "legendary rulers unless separately tagged legendary", "ordinary regional warlords without sovereign/central-government rule episode"],
+    "low_evidence_policy": "Keep qualifying rulers in master but mark LIMITED-EVIDENCE; never fabricate mental models to fill quota."
+  },
+  "corpus_layers": {
+    "CORE": "qualifying sovereign/highest rulers under the common rule",
+    "EXTENDED": "borderline autonomous regimes or analytically valuable non-core rulers",
+    "LEGENDARY": "traditional/legendary rulers kept separate from historical completion rate"
+  },
+  "periods": [
+    {"id":"xia","polities":["夏"]},{"id":"shang","polities":["商"]},{"id":"zhou","polities":["西周","东周王室"]},{"id":"spring-autumn","polities":["春秋主要诸侯国"],"parallel":true},{"id":"warring-states","polities":["战国主要诸侯国（含战国七雄及满足统一准入规则者）"],"parallel":true},{"id":"qin-han","polities":["秦","西楚","西汉","新","更始政权","东汉"]},{"id":"three-kingdoms","polities":["曹魏","蜀汉","孙吴"]},{"id":"jin-sixteen","polities":["西晋","东晋","汉赵/前赵","成汉","后赵","前凉","前燕","前秦","后秦","后燕","西秦","后凉","南凉","南燕","西凉","北凉","胡夏","北燕"],"parallel":true},{"id":"north-south","polities":["刘宋","南齐","南梁","南陈","北魏","东魏","西魏","北齐","北周"],"parallel":true},{"id":"sui-tang","polities":["隋","唐","武周"]},{"id":"late-tang-rivals","polities":["大齐（黄巢）"],"parallel":true},{"id":"five-ten","polities":["后梁","后唐","后晋","后汉","后周","杨吴","南唐","吴越","闽","马楚","南汉","荆南","前蜀","后蜀","北汉"],"parallel":true},{"id":"song-liao-xia-jin","polities":["北宋","南宋","辽","西辽","西夏","金"],"parallel":true},{"id":"yuan","polities":["元"]},{"id":"ming-qing-transition","polities":["明","南明","大顺（李自成）","大西（张献忠）","后金/清"],"parallel":true},{"id":"qing","polities":["清"]},{"id":"late-qing-rivals","polities":["太平天国"],"parallel":true},{"id":"republic","polities":["中华民国临时政府","北洋政府/北京政府","具有竞争性中央政府性质的广州政权","南京国民政府"],"parallel":true,"episode_model":true}
+  ],
+  "explicit_boundary_examples": [{"person":"黄巢","status":"CORE"},{"person":"李自成","status":"CORE"},{"person":"洪秀全","status":"CORE"},{"person":"袁世凯","status":"CORE","note":"one person, multiple rule episodes"},{"person":"孙中山","status":"CORE"},{"person":"张作霖","status":"CORE","note":"qualifies through Beijing-government supreme-rule episode, not ordinary warlord status"}],
+  "person_schema": {"id":"stable slug","name":"canonical Chinese name","aliases":[],"period":"period id","polity":"political entity","titles":[],"rule_episodes":[],"corpus_layer":"CORE|EXTENDED|LEGENDARY","evidence_level":"A|B|C|D|LIMITED-EVIDENCE","existing_skill":null,"distillation_status":"MISSING|KEEP|PATCH|REDISTILL|RESEARCH-GAP|LIMITED-EVIDENCE","notes":""},
+  "completion_rule": "CORE completion = matched existing/distilled CORE persons / all CORE persons. Episodes never duplicate a person.",
+  "next_build_step": "Enumerate every person per polity, normalize aliases, then match against data/corpus-registry.json and skills/*/*-perspective."
+}
