@@ -5,46 +5,50 @@
 ## Rule
 Research that independently contains evidence, disagreements, limitations, and material not copied from the Skill can be reused. Use the minimum sufficient repair: KEEP / CLEAN / PATCH / REDISTILL / RESEARCH-GAP / RERESEARCH / REBUILD / REVIEW.
 
-## Batch A · Jin · 7/7 classified
-All seven legacy suspects are research-reusable **PATCH → REDISTILL** candidates. Shared issue: old evidence taxonomy often equated canonical/standard histories with “primary”; some psychological inference is too strong. No sufficient evidence currently shows these research sets are merely Skill text rewritten backwards.
+## Completed snapshot review · 39/39
 
-## Batch B · Sanguo · 2/2 classified
-`caohuan-perspective` and `caomao-perspective` are research-reusable **PATCH → REDISTILL** candidates. Their research preserves distinct historiographical layers and variant accounts. Source taxonomy still needs patching. 0 automatic RERESEARCH.
+The historical mtime queue has now been semantically triaged in full. **No package is assigned RERESEARCH merely because its Skill mtime preceded later research mtimes.** Across the queue, the dominant pattern is reusable research with evidence-taxonomy drift and some claims requiring source-level verification. Therefore the default recovery action is **PATCH / TARGETED VERIFY → REDISTILL**, not blind full research reruns.
 
-## Batch C · Nanbeichao · 14/14 classified
-All fourteen historical mtime suspects are classified. None is condemned by mtime alone. Common action: **PATCH / TARGETED VERIFY → REDISTILL**. Package-specific notes retained in Git history; the recurring issues are later histories/commentaries mislabeled primary, reconstructed quotations, inferred motives, and claims that need source-level verification. Positive signals include independent historiography, competing explanations, archaeology/material evidence, chronology corrections and explicit uncertainty.
+### Jin · 7/7
+All seven (`simadewen`, `simadezong`, `simashao`, `simaye`, `simayi`, `simayu`, `simazhong`) are research-reusable. Common issues: transmitted histories flattened into “primary”, over-strong psychological inference, and some quotation/source checks. Action: PATCH / VERIFY → REDISTILL.
 
-## Batch D · Shang · 8/13 classified
+### Sanguo · 2/2
+`caohuan`, `caomao`: independent historiography and variant accounts are present. Action: PATCH → REDISTILL.
 
-### diyi-perspective
-**PATCH + TARGETED VERIFY → REDISTILL.** Independent oracle-bone periodization disputes, `帝乙归妹` variants, bronze-inscription material and Renfang uncertainty. Patch `Shiji`/transmitted `Zhouyi` as “一手”; verify vessel/inscription claims.
+### Nanbeichao · 14/14
+`chenxuan`, `liushao`, `liuyilong`, `liuyu-ming`, `tuobajun`, `tuobasi`, `tuobatao`, `xiaodong`, `xiaofangzhi`, `xiaogang`, `xiaoyan`, `xiaozhaoye`, `yuanhong`, `yuanziyou`: all show independent layers such as competing explanations, archaeology/material evidence, literary reception, chronology correction or explicit uncertainty. Common repairs: later histories/commentaries are not contemporary primary evidence; reconstructed quotations and inferred motives need verification; material evidence must be separated from interpretation. Action: PATCH / TARGETED VERIFY → REDISTILL.
 
-### hedanja-perspective
-**PATCH + TARGETED VERIFY → REDISTILL.** Strong independent structure across received histories, contested Bamboo Annals, oracle-bone name identification, succession debate and competing site identifications. Patch the category error that treats modern oracle-bone scholarship itself as primary evidence.
+### Shang · 13/13
+All thirteen are research-reusable, but the early-history evidence ontology needs especially careful normalization.
 
-### kangding-perspective
-**PATCH + TARGETED VERIFY → REDISTILL.** This file is notably better at distinguishing `甲骨/一手`, `考订/学界`, `二手` and `框架推断`; it also actively excludes unsupported internet narratives. Reusable. Remaining patch: `Shiji`/`Guoyu` are transmitted textual witnesses rather than contemporary primary evidence, and quoted oracle-bone catalogue numbers/interpretations should be spot-verified.
+- `diyi`: oracle-bone periodization, `帝乙归妹`, bronze evidence and Renfang debate are independent; patch `Shiji`/received `Zhouyi` labels and verify vessel claims.
+- `hedanja`: strong source criticism across received histories, Bamboo Annals, oracle-bone naming, succession and site debates; separate inscriptions from modern scholarship.
+- `kangding`: good `甲骨/一手` vs `考订/学界` distinction and explicit exclusion of unsupported internet stories; patch received-text labels and verify catalogue readings.
+- `linxin`: rich debate over Zhouji absence, name variants and succession theories; separate Chen Mengjia/Guo Moruo/Dong Zuobin interpretation from inscription evidence.
+- `taiding-shang`: excellent negative-evidence discipline; patch later texts/commentaries and verify reconstructed Zhouji placement.
+- `taigeng`: strong genealogy/ritual-order criticism; verify `合集36218` reading and remove received histories from the primary bucket.
+- `tang-shang`: strong separation of oracle/bronze, ritual memory, later reinterpretation and archaeology; verify Shuyi-bell wording and do not map Erlitou→Erligang directly onto named people/events.
+- `waibing`: exceptionally rich competing traditions on whether he reigned, reign length and ritual order. Reusable; patch `Shiji/Mencius/Shangshu` blanket primary labels, distinguish Zhouji inscriptions from modern reconstruction, and keep the “ritual order ≠ accession order” limitation.
+- `woding`: independent lost-text, Yi Yin, Zhouji-absence, candidate-inscription and chronology analysis; patch received-history labels and verify candidate `羌丁` claims.
+- `xiaojia-shang`: strong ambiguity analysis around the subject of “殷道衰”, genealogy conflicts, chronology variance and ritual-order debate. Reusable; patch received texts/modern reconstructions mislabeled primary and verify specific catalogue/table claims.
+- `zhongren-shang`: independent conflict between received traditions, Zhouji absence, modern methodological caution and “absence cannot prove nonexistence”. Reusable; patch the primary taxonomy and verify exact quotations/page-level attributions before redistillation.
+- `zujia`: unusually strong contradictory reception history (`无逸` praise vs `国语/史记` blame), Zhouji/reform debate and explicit limits of oracle evidence. Reusable; patch the anachronistic primary labels for later texts and keep reform claims as scholarship/inference, not oracle fact.
+- `zuxin`: strong “textual silence vs ritual visibility” model, inscription catalogue evidence, site uncertainty and explicit rejection of fabricated oracle quotations. Reusable; patch received-history labels and verify `合集32385` reading/ritual-status inference.
 
-### linxin-perspective
-**PATCH + TARGETED VERIFY → REDISTILL.** Rich independent evidence structure: received-text contradictions around Zu Jia, name variants, the debate over Lin Xin's absence from the Zhouji sequence, specific oracle-bone references, and competing succession theories. Strong anti-hallucination boundary. Patch the repeated `Shiji/Shangshu/Guoyu = 一手` convention and clearly separate an inscription itself from Chen Mengjia/Guo Moruo/Dong Zuobin interpretations.
+### Xia · 1/1
+`shaojang`: **PATCH + TARGETED VERIFY → REDISTILL.** The package correctly declares Xia semi-historical and no contemporary textual self-evidence, preserves multiple early received traditions and explicitly limits archaeological mapping to the individual. The main taxonomy problem is calling Spring-and-Autumn/Warring-States/Han texts “一手” for a Xia ruler; they are early textual witnesses, not contemporary evidence. Erlitou/Xinzhai/Wangchenggang are archaeological contexts, not “史料原文/一手” for Shao Kang. Keep the uncertainty boundary and verify quotations/chronology claims.
 
-### taiding-shang-perspective
-**PATCH + TARGETED VERIFY → REDISTILL.** Especially good negative-evidence discipline: it explicitly says Zhouji inclusion cannot prove lifetime achievements and that Tai Ding's deeds lack contemporary documents. Reusable. Patch later transmitted texts/commentaries categorized as primary/near-primary, and verify the precise reconstructed Zhouji placement before redistillation.
+### Zhou · 2/2
+- `daowang`: **PATCH + TARGETED VERIFY → REDISTILL.** `Zuo Zhuan` is an important early textual witness, but `Shiji`, Du Yu/Yang Bojun and especially `Zizhi Tongjian` are not all “一手/近手”. The research still contains independent succession-conflict and institutional context, so it is reusable.
+- `huiwang`: **PATCH + TARGETED VERIFY → REDISTILL.** Strong chronology comparison and explicit uncertainty are positive signals. Patch `Shiji` and `Zizhi Tongjian` as primary/compiled-primary, distinguish commentary from source text, and verify chronology discrepancies before redistillation.
 
-### taigeng-perspective
-**PATCH + TARGETED VERIFY → REDISTILL.** Independent source criticism is strong: conflicting genealogies, received Bamboo Annals, later commentary, Zhouji reconstruction and warning that ritual order need not equal accession order. Patch `Shiji` and reconstructed ancient-text traditions out of the primary bucket; verify the specific `合集36218` reading and modern-study attributions.
+## Final recovery count for the frozen mtime snapshot
 
-### tang-shang-perspective
-**PATCH + TARGETED VERIFY → REDISTILL.** The research separates oracle-bone/bronze evidence, Song-descendant ritual memory, Warring States reinterpretation, transmitted pseudo-ancient text, archaeology and chronology uncertainty. This is clearly independent. Patch `Shijing/Mencius/Shiji` blanket primary labels according to evidence type/date; verify the Shuyi-bell inscription wording and avoid treating Erlitou→Erligang transition as direct confirmation of a named Tang/Jie event.
-
-### woding-perspective
-**PATCH + TARGETED VERIFY → REDISTILL.** Strong independent discussion of the lost `Woding` chapter, conflicting Yi Yin traditions, Zhouji absence, candidate `Qiang Ding`, chronology limits and later commemorative folklore. Reusable. Patch the received-history-as-primary labels, verify claims about Zhouji absence/candidate inscriptions, and keep “absence is not nonexistence” as a central limitation.
-
-## Recovery count
-Legacy mtime snapshot: 39.
-
-- Classified: **31** (Jin 7 + Sanguo 2 + Nanbeichao 14 + Shang 8)
-- Remaining: **8** (Shang 5 + Xia 1 + Zhou 2)
+- Classified: **39 / 39**
+- Remaining: **0**
 - RERESEARCH justified by mtime alone: **0**
+- Dominant action: **PATCH / TARGETED VERIFY → REDISTILL**
+- Historical 92-item size queue: **deprecated as a quality gate**
 
-The old 92-item size queue remains deprecated and is not a repair priority.
+## Next phase
+The mtime snapshot is now closed as a triage task. Next work is not more classification: patch evidence ontology and high-risk claims, then redistill Skills from corrected research. The wider 267-package corpus still requires L1–L3 screening; the 39-package result must not be generalized into an automatic PASS for the other packages.
