@@ -3436,11 +3436,15 @@
     },
     {
       "candidate_id": "ruler-0160",
-      "canonical_name": "卫疌伯/挚伯",
-      "aliases": [],
-      "identity_hints": [
-        "卫疌伯",
+      "canonical_name": "卫疌伯",
+      "aliases": [
+        "卫挚伯",
         "卫疌伯/挚伯",
+        "挚伯"
+      ],
+      "identity_hints": [
+        "卫挚伯",
+        "卫疌伯",
         "挚伯"
       ],
       "corpus_status": "REVIEW",
@@ -3455,7 +3459,11 @@
       ],
       "existing_skill_paths": [],
       "episodes": [],
-      "identity_status": "CANDIDATE_ID_NOT_LOCKED"
+      "identity_status": "CANDIDATE_ID_NOT_LOCKED",
+      "identity_resolution": {
+        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "source": "data/corpus-identity-overrides.json"
+      }
     },
     {
       "candidate_id": "ruler-0161",
@@ -3532,11 +3540,15 @@
     },
     {
       "candidate_id": "ruler-0164",
-      "canonical_name": "卫贞伯/箕伯",
-      "aliases": [],
-      "identity_hints": [
-        "卫贞伯",
+      "canonical_name": "卫贞伯",
+      "aliases": [
+        "卫箕伯",
         "卫贞伯/箕伯",
+        "箕伯"
+      ],
+      "identity_hints": [
+        "卫箕伯",
+        "卫贞伯",
         "箕伯"
       ],
       "corpus_status": "REVIEW",
@@ -3551,7 +3563,11 @@
       ],
       "existing_skill_paths": [],
       "episodes": [],
-      "identity_status": "CANDIDATE_ID_NOT_LOCKED"
+      "identity_status": "CANDIDATE_ID_NOT_LOCKED",
+      "identity_resolution": {
+        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "source": "data/corpus-identity-overrides.json"
+      }
     },
     {
       "candidate_id": "ruler-0165",
@@ -6667,12 +6683,10 @@
       "candidate_id": "ruler-0311",
       "canonical_name": "帝挚",
       "aliases": [
-        "帝挚高辛氏",
-        "高辛氏"
+        "帝挚高辛氏"
       ],
       "identity_hints": [
-        "帝挚",
-        "高辛氏"
+        "帝挚"
       ],
       "corpus_status": "LEGENDARY",
       "status_signals": [
@@ -27280,12 +27294,16 @@
     },
     {
       "candidate_id": "ruler-1267",
-      "canonical_name": "鲁真公/慎公",
-      "aliases": [],
+      "canonical_name": "鲁真公",
+      "aliases": [
+        "慎公",
+        "鲁慎公",
+        "鲁真公/慎公"
+      ],
       "identity_hints": [
         "慎公",
-        "鲁真公",
-        "鲁真公/慎公"
+        "鲁慎公",
+        "鲁真公"
       ],
       "corpus_status": "CORE",
       "status_signals": [
@@ -27299,7 +27317,11 @@
       ],
       "existing_skill_paths": [],
       "episodes": [],
-      "identity_status": "CANDIDATE_ID_NOT_LOCKED"
+      "identity_status": "CANDIDATE_ID_NOT_LOCKED",
+      "identity_resolution": {
+        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "source": "data/corpus-identity-overrides.json"
+      }
     },
     {
       "candidate_id": "ruler-1268",
@@ -28240,8 +28262,8 @@
   ],
   "identity_override_file": "data/corpus-identity-overrides.json",
   "identity_override_stats": {
-    "canonical_overrides": 17,
+    "canonical_overrides": 20,
     "excluded_non_person_placeholders": 1,
-    "unresolved_review": 8
+    "unresolved_review": 5
   }
 }

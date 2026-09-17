@@ -15,8 +15,8 @@
 
 - Skill → multiple-person collisions: **0**
 - Person → multiple-Skill matches: **0**
-- Shared identity-hint collisions: **1**
-- Suspicious canonical-name strings: **8**
+- Shared identity-hint collisions: **0**
+- Suspicious canonical-name strings: **5**
 
 ## Generated queues
 

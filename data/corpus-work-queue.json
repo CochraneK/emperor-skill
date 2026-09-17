@@ -18,7 +18,7 @@
     "missing_core_total": 648,
     "review_total": 364,
     "existing_skill_unresolved": 0,
-    "identity_blockers": 1
+    "identity_blockers": 0
   },
   "queues": {
     "A_CORE_MAJOR_SEQUENCE_MISSING": [
@@ -7700,7 +7700,7 @@
       },
       {
         "candidate_id": "ruler-1267",
-        "canonical_name": "鲁真公/慎公",
+        "canonical_name": "鲁真公",
         "polities": [
           "鲁"
         ],
@@ -9736,7 +9736,7 @@
       },
       {
         "candidate_id": "ruler-0160",
-        "canonical_name": "卫疌伯/挚伯",
+        "canonical_name": "卫疌伯",
         "polities": [
           "卫"
         ],
@@ -9780,7 +9780,7 @@
       },
       {
         "candidate_id": "ruler-0164",
-        "canonical_name": "卫贞伯/箕伯",
+        "canonical_name": "卫贞伯",
         "polities": [
           "卫"
         ],

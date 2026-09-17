@@ -4,59 +4,15 @@
   "summary": {
     "skill_to_multiple_person_collisions": 0,
     "person_to_multiple_skill_matches": 0,
-    "identity_hint_collisions": 1,
-    "suspicious_canonical_names": 8,
+    "identity_hint_collisions": 0,
+    "suspicious_canonical_names": 5,
     "unresolved_existing_skills": 0,
     "scope_exception_existing_skills": 1
   },
   "skill_to_multiple_person_collisions": [],
   "person_to_multiple_skill_matches": [],
-  "identity_hint_collisions": [
-    {
-      "identity_hint": "高辛氏",
-      "people": [
-        {
-          "candidate_id": "ruler-0310",
-          "canonical_name": "帝喾",
-          "polities": []
-        },
-        {
-          "candidate_id": "ruler-0311",
-          "canonical_name": "帝挚",
-          "polities": []
-        }
-      ]
-    }
-  ],
+  "identity_hint_collisions": [],
   "suspicious_canonical_names": [
-    {
-      "candidate_id": "ruler-0160",
-      "canonical_name": "卫疌伯/挚伯",
-      "corpus_status": "REVIEW",
-      "polities": [
-        "卫"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0164",
-      "canonical_name": "卫贞伯/箕伯",
-      "corpus_status": "REVIEW",
-      "polities": [
-        "卫"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
     {
       "candidate_id": "ruler-0218",
       "canonical_name": "夫谭/无谭",
@@ -126,20 +82,6 @@
       "reasons": [
         "VARIANT_STRING_NOT_NORMALIZED",
         "LONG_COMPOSITE_NAME_REVIEW"
-      ]
-    },
-    {
-      "candidate_id": "ruler-1267",
-      "canonical_name": "鲁真公/慎公",
-      "corpus_status": "CORE",
-      "polities": [
-        "鲁"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
       ]
     }
   ],
