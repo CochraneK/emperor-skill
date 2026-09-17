@@ -1,60 +1,158 @@
 # HANDOFF.md —— 换台电脑 / 换个人怎么接上
 
-## 1. 环境
+> 先读 `AGENTS.md` 与 `NUWA_AUDIT_V2.md`。本文件只记录**当前可执行状态与停点**，不要把历史数字当永久规范。
 
-- **Python 3.13**（只用标准库，无需 `pip install`）。
-- 无环境变量依赖（脚本全部走命令行参数），故**没有 `.env` / `.env.example`**。
-- 报告里的图表走 Chart.js CDN，离线看图需联网首次加载；其余完全离线。
+## 1. 环境与重建入口
 
-clone 后直接跑，无需改代码：
+- Python 3.13 优先；当前 corpus build / QA 只依赖标准库。
+- 无 `.env` 依赖；脚本从仓库文件和命令行参数读取输入。
+- GitHub Actions `Corpus Sync` 会在 master corpus / builder 相关文件变更后自动重建 coverage、identity QA 与 work queue。
+
+本地检查：
 
 ```bash
-git clone <repo-url> emperor-skill && cd emperor-skill
-python simulation/_engine/check_solo.py            # 应输出 78/78 通过
-python simulation/_engine/eval_solo_rank.py        # 重生成排名报告，数字应与已提交版本一致
+python _redo_tools/_build_ruler_corpus.py
+python _redo_tools/_build_corpus_queue.py
 ```
 
-## 2. 数据从哪来、长什么样
+Simulation 的历史 solo 子集另有自己的重建链，见 `simulation/README.md`。
 
-| 数据 | 位置 | 说明 |
-|---|---|---|
-| 推演数据 | `simulation/_engine/travelers/<key>.json` | 78 份，每份 `rows` 恰好 77 条（排除自身处境）。一条 = `[策, 分, 断语]`，分为 0–100 整数 |
-| 处境全集 | `simulation/_engine/situations.json` | 78 条，含 `key / dyn / typ`（9 类困局受控词表） |
-| 即位年表 | `simulation/_engine/reign_order.json` | `{key: [即位年, 同年次序]}`，**时间序排序的唯一依据** |
-| 模块映射 | `simulation/_engine/modules_solo.json` | 94 个帝王包 → `module` / `group`，由 `build_module_map.py` 从各 SKILL.md frontmatter 抽取 |
-| 报告产物 | `simulation/by-dynasty/solo/*.html` | 生成物，勿手改 |
+## 2. 2026-09-17 当前 corpus 快照
 
-产出物重建顺序：`build_module_map.py` → `eval_crossing_solo.py --all` → `eval_solo_rank.py`。
+### 已有 Perspective Skills
 
-## 3. 当前卡在哪
+- **267** 个 Skill package。
+- **16** 个朝代 corpus 目录；`skills/_audit` 是非朝代目录，因此 `skills/` 顶层目录总数为 17。
+- 266 个现有 Skill 已匹配统治者人物。
+- 1 个现有 Skill（太丁）是明确 scope exception：保留 evidence/history package，但因“未立而卒”不进入 ruler CORE 分母。
+- 现有 Skill unresolved = **0**；Skill → 多人物冲突 = **0**；人物 → 多 Skill 冲突 = **0**。
 
-**语料缺口**：`skills/` 里已有 **94** 个帝王包，但 `situations.json` 只有 78 条处境，
-故 **东汉 13 帝 + 隋 3 帝（共 16 包）尚未进入 solo 推演**，排名报告里这两个模块标「尚未纳入」。
+### 最大统治者候选主名单
 
-若补齐，矩阵从 78×77 扩到 **94×93 = 8742 条**，四步：
+机器索引 `data/rulers-person-index.json` 当前包含：
 
-1. 扩 `situations.json`（+16 条处境，含 `typ` 归类）；
-2. 扩 `reign_order.json`（东汉 25–220、隋 581–618）；
-3. 78 份旧 `travelers/*.json` **各补 16 条**（且新增处境不能再含自身）；
-4. 新增 16 份 travelers，**各 93 条**。
+| 状态 | 数量 |
+|---|---:|
+| Candidate persons | 1312 |
+| Locked-candidate CORE | 913 |
+| CORE 已有 Skill | 265 |
+| CORE 缺失 | 648 |
+| REVIEW | 365 |
+| EXTENDED | 15 |
+| LEGENDARY | 16 |
 
-完成后重跑 `check_solo.py`（此时条数断言是 93，需同步改）与 `cross_check_solo.py`。
+CORE coverage 当前约 **29.03%**。REVIEW / EXTENDED / LEGENDARY 不得静默进入 CORE 分母。
 
-**下一步（按优先级）**：① 评分卡**去结局化**（补「机会利用度」维度，解决亡国危局档底部塌陷：78 人全压 39–51，组内不可分）→ ② `duel/` 与 `coop/` 引擎 → ③ `one-life/` 血量推进 → ④ `assessment/` 人格测验内容。
+### 当前缺口队列
 
-## 4. 已知坑（踩过，别再踩）
+`data/corpus-work-queue.json` 当前拆成：
 
-- ⚠️ **Python 源码字符串内的引号用全角「」**：ASCII 双引号会破坏语法。
-- ⚠️ **Windows 传路径参数用 `D:/...`**：git-bash 的 `/d/...` 会被解析成 `D:\d\...`。
-- ⚠️ **别在同一轮里对同一文件发多个并行编辑**：会互相覆盖，改完要 grep 复核。
-- ⚠️ **预览过的 HTML 会被宿主注入 `data-page-node-id`**，造成 `git diff` 伪变更；重渲即清。
-- ⚠️ **同一个词可能是两种口径**：「全库均分（合并）」（合并全部记录求平均，用于难度排行）与「人均极差」（各人均分之间的最高−最低，用于人定胜负）**不同源**，改口径后必须**逐节独立复算**（曾误把后者当「全库均分」写进表，差 0.1）。
-- ⚠️ **改排序逻辑后要验证统计量复现**：只改排序时，逐项统计必须分毫不变 —— 先单份试渲比对基准值，再全量。
-- ⚠️ **文件写盘后用独立脚本复算**，不要采信子代理口头回报的数字（曾出现回报值与实际落盘不一致）。
+- `A_CORE_MAJOR_SEQUENCE_MISSING`: **70**
+- `B_CORE_PARALLEL_POLITY_MISSING`: **174**
+- `D_CORE_EARLY_OR_PREQIN_MISSING`: **404**
+- `Q1_SCOPE_OR_IDENTITY_REVIEW`: **365**
 
-## 5. 相关文档
+A + B + D = 648，正好等于当前缺失 CORE。
 
-- [`README.md`](README.md) —— 这是什么、三大块结构
-- [`AGENTS.md`](AGENTS.md) —— 给 AI 的硬约束与常用命令
-- [`simulation/README.md`](simulation/README.md) —— 模拟场规范、引擎清单、效度检验结论
-- [`CHANGELOG.md`](CHANGELOG.md) —— 版本叙事
+## 3. 现在真正卡在哪
+
+### P0 — identity / canonical-name QA，然后冻结 ID
+
+`candidate_id` 仍是临时编号，当前由候选规范名排序生成。**在 ID freeze 前修改 canonical name 会引发后续 ID 漂移。**
+
+`data/corpus-identity-issues.json` 当前有 **26 个 suspicious canonical-name strings**。这里既有：
+
+- 多个名称/别名被塞进一个 `canonical_name`；
+- “称号 + 人名”拼接；
+- 可能不是单一人物的 placeholder；
+- REVIEW 身份仍需史料确认。
+
+执行顺序：
+
+1. 对 26 个 identity/name issue 做人工/来源核验；
+2. 把 canonical name 与 aliases 分开表达，不丢原始写法和 provenance；
+3. 重新跑 corpus builder + queue；
+4. 确认无新的跨人物碰撞；
+5. 冻结 stable person ID；
+6. 冻结后才允许大规模生成下游外键、Skill、simulation matrix。
+
+**不要为了尽快补 648 人而跳过这一步。**
+
+### P1 — 补 locked CORE，而不是无差别补候选
+
+ID freeze 后，优先顺序是：
+
+1. `A_CORE_MAJOR_SEQUENCE_MISSING` 70；
+2. `B_CORE_PARALLEL_POLITY_MISSING` 174；
+3. `D_CORE_EARLY_OR_PREQIN_MISSING` 404。
+
+每个人都必须走：
+
+`Sources → Research / References → Evidence synthesis → Nuwa distillation → Audit`
+
+不得从旧 Skill 倒推 References。证据稀薄者降低推断强度，不靠 filler 补六个模型。
+
+### P1 — REVIEW 队列不批量蒸馏
+
+365 个 Q1 先解决“这个人是否在 scope、是不是同一人物、是否确有 qualifying sovereign episode”。未解决前不进入 CORE denominator，也不批量建 Skill。
+
+### P2 — provenance recovery 继续，但不要把历史快照当全库 PASS
+
+历史 39 个 mtime provenance signal 已经全部分类，remaining snapshot review = 0；这只是 forensic triage，不代表 267 个包 L1–L3 全部合格。全库 Nuwa semantic audit 仍是 in-progress。
+
+## 4. Simulation 当前状态怎么理解
+
+旧 `HANDOFF` 曾写“94 个包、78 个处境”。那是 **solo simulation 历史子集**，不是当前 corpus 总量。
+
+当前已有 solo 报告、ranking 与 reversal validity；旧引擎的 78 situations / 94 mapped packages 仍可作为 simulation regression fixture，但在 1,312 人主名单完成 identity freeze 前，不应把“扩到 94×93”当项目 P0。
+
+后续 simulation 方向仍保留：
+
+- 评分卡去结局化 / 机会利用度；
+- duel；
+- coop；
+- one-life；
+- assessment 与帝王模型共同空间。
+
+但这些属于 Skill/corpus 基础层稳定后的下游实验。
+
+## 5. Canonical 数据与生成物
+
+| 角色 | 路径 |
+|---|---|
+| 质量正典 | `NUWA_AUDIT_V2.md` |
+| Worker 规则 | `WORKER_BRIEF_V2.md` |
+| 最大候选 scope | `data/RULER_CORPUS_SCOPE.md` |
+| 候选人物索引 | `data/rulers-person-index.json` |
+| 覆盖缺口 | `data/corpus-gap.json` |
+| identity issues | `data/corpus-identity-issues.json` |
+| work queue | `data/corpus-work-queue.json` |
+| Page / overview registry | `data/corpus-registry.json` |
+| Coverage 报告 | `assessment/CORPUS_COVERAGE.md` |
+| QA 报告 | `assessment/CORPUS_QA.md` |
+| provenance recovery | `assessment/PROVENANCE_RECOVERY.md` |
+| corpus builder | `_redo_tools/_build_ruler_corpus.py` |
+| queue builder | `_redo_tools/_build_corpus_queue.py` |
+
+生成文件不要手改；改上游 master / builder 后重建。
+
+## 6. 已知坑
+
+- `candidate_id` 未冻结前不要作为永久外键发布。
+- 不要把 `/` 连接的多个名字直接当一个规范姓名；canonical 与 aliases 要分层。
+- 不要把“文件够大 / checker 全绿 / mtime 合理”当 Nuwa 质量证明。
+- 不要在同一轮对同一文件做并行写入；GitHub contents API 会产生 SHA 冲突或覆盖。
+- Simulation 生成 HTML 不是 canonical data source。
+- 史料稀薄人物允许 `LIMITED-EVIDENCE`；不要为完整感发明心理、台词或确定性动机。
+- 任何 corpus 自动化都只能机械维护 scope / identity / coverage；历史身份与来源质量仍需人工/agent evidence review。
+
+## 7. 下一位 agent 的第一动作
+
+直接打开：
+
+1. `data/corpus-identity-issues.json`
+2. `data/RULER_CORPUS_SCOPE.md`
+3. `data/ruler-corpus-sources.md`
+4. `_redo_tools/_build_ruler_corpus.py`
+
+从 **26 个 canonical-name / identity issue** 开始收口；不要退回去重复统计 267 个 Skill，也不要先扩 solo matrix。
