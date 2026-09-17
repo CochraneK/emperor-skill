@@ -9,6 +9,11 @@ high-leverage anchors, then finish other post-Qin CORE, then bulk early/pre-Qin 
 The P0 sequence is read from data/distillation-priority-policy.json and the source
 master files themselves, so ruler order follows the curated historical sequence rather
 than alphabetical person IDs.
+
+IMPORTANT: completion is derived from corpus-gap.person_matches, not from
+rulers-person-index.existing_skill_paths. The latter only preserves Skill paths that
+were explicitly declared in a source master record and therefore undercounts legacy
+Skill coverage (e.g. Three Kingdoms string-form master entries).
 """
 from __future__ import annotations
 
@@ -60,7 +65,6 @@ def item_labels(item: Any) -> list[str]:
             if alias:
                 labels.append(alias)
                 labels.extend(x.strip() for x in re.split(r"[/／]", alias) if x.strip())
-    # stable de-dup preserving source preference
     return list(dict.fromkeys(labels))
 
 
@@ -83,7 +87,12 @@ def build_label_index(persons: list[dict[str, Any]]) -> dict[str, set[str]]:
     return lookup
 
 
-def resolve_person(item: Any, lane_name: str, persons_by_id: dict[str, dict[str, Any]], label_index: dict[str, set[str]]) -> tuple[str | None, dict[str, Any]]:
+def resolve_person(
+    item: Any,
+    lane_name: str,
+    persons_by_id: dict[str, dict[str, Any]],
+    label_index: dict[str, set[str]],
+) -> tuple[str | None, dict[str, Any]]:
     labels = item_labels(item)
     ids: set[str] = set()
     for label in labels:
@@ -116,15 +125,32 @@ def build() -> dict[str, Any]:
     persons = index["persons"]
     by_id = {str(p["candidate_id"]): p for p in persons}
     label_index = build_label_index(persons)
-    missing_ids = {str(p["candidate_id"]) for p in gap.get("missing_core", [])}
+
+    # corpus-gap is the canonical coverage matcher output. Do not infer coverage from
+    # source-master explicit Skill links because many valid legacy packages were
+    # discovered through frontmatter identity matching rather than an `existing_skill`
+    # field in the master JSON.
+    match_by_id = {
+        str(row["candidate_id"]): row
+        for row in gap.get("person_matches", [])
+        if row.get("candidate_id")
+    }
+    missing_ids = {
+        pid
+        for pid, row in match_by_id.items()
+        if row.get("corpus_status") == "CORE" and row.get("match_status") == "MISSING"
+    }
 
     lanes_out: list[dict[str, Any]] = []
     p0_queue: list[dict[str, Any]] = []
     p0_ids: set[str] = set()
     mapping_issues: list[dict[str, Any]] = []
 
-    lanes = sorted(policy["phases"]["P0_DYNASTIC_BACKBONE_FULL_CHAIN"]["lanes"], key=lambda x: x["order"])
-    for lane_index, lane_cfg in enumerate(lanes, start=1):
+    lanes = sorted(
+        policy["phases"]["P0_DYNASTIC_BACKBONE_FULL_CHAIN"]["lanes"],
+        key=lambda x: x["order"],
+    )
+    for lane_cfg in lanes:
         source = load(ROOT / lane_cfg["file"])
         lane = find_lane(source, lane_cfg["collection"], lane_cfg["polity_id"])
         lane_name = str(lane.get("name") or lane_cfg["label"])
@@ -167,8 +193,22 @@ def build() -> dict[str, Any]:
                 continue
 
             p0_ids.add(pid)
-            has_skill = bool(person.get("existing_skill_paths"))
-            is_missing = pid in missing_ids or not has_skill
+            coverage = match_by_id.get(pid)
+            if coverage is None:
+                mapping_issues.append({
+                    "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+                    "lane": lane_cfg["label"],
+                    "source_file": lane_cfg["file"],
+                    "person_id": pid,
+                    "raw_name": raw_name,
+                    "resolution": "PERSON_MISSING_FROM_CORPUS_GAP_MATCHER_OUTPUT",
+                })
+                matched_skill_paths: list[str] = []
+                is_missing = True
+            else:
+                matched_skill_paths = list(coverage.get("matched_skill_paths", []))
+                is_missing = coverage.get("match_status") == "MISSING"
+
             state = "MISSING" if is_missing else "COMPLETE"
             if is_missing:
                 missing += 1
@@ -191,7 +231,7 @@ def build() -> dict[str, Any]:
                 "person_id": pid,
                 "canonical_name": person.get("canonical_name"),
                 "corpus_status": status,
-                "existing_skill_paths": person.get("existing_skill_paths", []),
+                "matched_skill_paths": matched_skill_paths,
                 "status": state,
             })
 
@@ -215,20 +255,20 @@ def build() -> dict[str, Any]:
     active_lane_order = first_incomplete["lane_order"] if first_incomplete else None
     for row in p0_queue:
         row["execution_state"] = (
-            "ACTIVE_NOW" if row["backbone_lane_order"] == active_lane_order
+            "ACTIVE_NOW"
+            if row["backbone_lane_order"] == active_lane_order
             else "WAIT_FOR_PRIOR_BACKBONE_LANES"
         )
 
     all_missing_core = [by_id[str(r["candidate_id"])] for r in gap.get("missing_core", [])]
     early_missing = [p for p in all_missing_core if set(p.get("source_files", [])) & EARLY_FILES]
     remaining_post_qin = [
-        p for p in all_missing_core
-        if p["candidate_id"] not in p0_ids and not (set(p.get("source_files", [])) & EARLY_FILES)
+        p
+        for p in all_missing_core
+        if p["candidate_id"] not in p0_ids
+        and not (set(p.get("source_files", [])) & EARLY_FILES)
     ]
 
-    # P1 is intentionally not auto-ranked yet. It is a selection problem, not a fame
-    # list. The whole candidate pool is exposed so a later evidence/leverage scorer can
-    # select anchors only after P0 is closed.
     p1_candidate_pool = [
         {
             "person_id": p["candidate_id"],
@@ -241,9 +281,10 @@ def build() -> dict[str, Any]:
     ]
 
     return {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "status": "CANONICAL_DISTILLATION_PRIORITY_GENERATED",
         "policy_file": "data/distillation-priority-policy.json",
+        "coverage_source": "data/corpus-gap.json#person_matches",
         "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
         "summary": {
             "all_missing_core": len(all_missing_core),
@@ -251,7 +292,9 @@ def build() -> dict[str, Any]:
             "p0_backbone_complete": sum(l["complete"] for l in lanes_out),
             "p0_backbone_missing": len(p0_queue),
             "p0_backbone_completion_ratio": round(
-                sum(l["complete"] for l in lanes_out) / max(1, sum(l["core_sequence_total"] for l in lanes_out)), 4
+                sum(l["complete"] for l in lanes_out)
+                / max(1, sum(l["core_sequence_total"] for l in lanes_out)),
+                4,
             ),
             "p1_post_qin_anchor_candidate_pool": len(p1_candidate_pool),
             "p2_remaining_post_qin_core_pool": len(remaining_post_qin),
@@ -286,23 +329,30 @@ def build() -> dict[str, Any]:
 def write_report(doc: dict[str, Any]) -> None:
     s = doc["summary"]
     lines = [
-        "# Distillation Priority · Qin → Qing Backbone", "",
-        "> Canonical **work scheduling** plan, not a ranking of historical worth, legitimacy, ethnicity, or orthodoxy.", "",
-        "## Current state", "",
+        "# Distillation Priority · Qin → Qing Backbone",
+        "",
+        "> Canonical **work scheduling** plan, not a ranking of historical worth, legitimacy, ethnicity, or orthodoxy.",
+        "",
+        "## Current state",
+        "",
         f"- All missing locked CORE: **{s['all_missing_core']}**",
         f"- P0 backbone CORE persons: **{s['p0_backbone_core_persons']}**",
         f"- P0 already distilled: **{s['p0_backbone_complete']}**",
         f"- P0 still missing: **{s['p0_backbone_missing']}**",
         f"- P0 completion: **{s['p0_backbone_completion_ratio']:.1%}**",
         f"- Current focus lane: **{s['current_focus_lane'] or 'P0 complete'}**",
-        f"- Mapping issues: **{s['mapping_issues']}**", "",
-        "## Execution order", "",
+        f"- Mapping issues: **{s['mapping_issues']}**",
+        "",
+        "## Execution order",
+        "",
         "1. **P0 · Qin→Qing major dynastic backbone** — finish each lane before advancing.",
         "2. **P1 · High-leverage anchors** — select from remaining post-Qin CORE only after P0 closes.",
         "3. **P2 · Remaining post-Qin CORE** — parallel and transition polities systematically.",
         "4. **P3 · Early/pre-Qin CORE** — bulk completion with sparse-evidence discipline.",
-        "5. **REVIEW/EXTENDED/LEGENDARY** — resolve scope/evidence first; never bulk-distill to inflate coverage.", "",
-        "## P0 lanes", "",
+        "5. **REVIEW/EXTENDED/LEGENDARY** — resolve scope/evidence first; never bulk-distill to inflate coverage.",
+        "",
+        "## P0 lanes",
+        "",
         "| Order | Lane | Complete | Missing | Coverage |",
         "|---:|---|---:|---:|---:|",
     ]
@@ -311,15 +361,26 @@ def write_report(doc: dict[str, Any]) -> None:
             f"| {lane['lane_order']} | {lane['label']} | {lane['complete']} | {lane['missing']} | {lane['completion_ratio']:.0%} |"
         )
     lines += ["", "## Next P0 tasks", ""]
-    active = [r for r in doc["p0_backbone"]["queue"] if r["execution_state"] == "ACTIVE_NOW"]
+    active = [
+        r
+        for r in doc["p0_backbone"]["queue"]
+        if r["execution_state"] == "ACTIVE_NOW"
+    ]
     if not active:
         lines.append("P0 backbone is complete; proceed to P1 anchor scoring.")
     else:
         for row in active:
-            lines.append(f"- `{row['person_id']}` · **{row['canonical_name']}** · {row['lane']} · succession #{row['succession_order']}")
-    lines += ["", "Machine-readable schedule: `data/distillation-priority.json`. Policy: `data/distillation-priority-policy.json`."]
+            lines.append(
+                f"- `{row['person_id']}` · **{row['canonical_name']}** · {row['lane']} · succession #{row['succession_order']}"
+            )
+    lines += [
+        "",
+        "Machine-readable schedule: `data/distillation-priority.json`. Policy: `data/distillation-priority-policy.json`.",
+    ]
     ASSESSMENT.mkdir(parents=True, exist_ok=True)
-    (ASSESSMENT / "DISTILLATION_PRIORITY.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (ASSESSMENT / "DISTILLATION_PRIORITY.md").write_text(
+        "\n".join(lines) + "\n", encoding="utf-8"
+    )
 
 
 def main() -> None:
