@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 913,
-    "matched_core_persons": 266,
-    "missing_core_persons": 647,
+    "matched_core_persons": 267,
+    "missing_core_persons": 646,
     "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 268,
-    "matched_existing_skills": 267,
+    "existing_skills": 269,
+    "matched_existing_skills": 268,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 268,
-    "core_coverage_ratio": 0.2913
+    "accounted_existing_skills": 269,
+    "core_coverage_ratio": 0.2924
   },
   "missing_core": [
     {
@@ -394,16 +394,6 @@
       "corpus_status": "CORE",
       "polities": [
         "燕/桀燕"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0083",
-      "canonical_name": "刘懿",
-      "corpus_status": "CORE",
-      "polities": [
-        "东汉"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -11064,8 +11054,10 @@
       "polities": [
         "东汉"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/donghan/liuyi-beixianghou-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0084",

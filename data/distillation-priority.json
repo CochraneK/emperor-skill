@@ -5,21 +5,21 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 647,
+    "all_missing_core": 646,
     "p0_backbone_core_persons": 216,
-    "p0_backbone_complete": 180,
-    "p0_backbone_missing": 36,
-    "p0_backbone_completion_ratio": 0.8333,
+    "p0_backbone_complete": 181,
+    "p0_backbone_missing": 35,
+    "p0_backbone_completion_ratio": 0.838,
     "p1_post_qin_anchor_candidate_pool": 207,
     "p2_remaining_post_qin_core_pool": 207,
     "p3_early_and_preqin_missing_core": 404,
     "mapping_issues": 0,
-    "current_focus_lane": "东汉",
+    "current_focus_lane": "刘宋",
     "current_focus_missing": 1
   },
   "p0_backbone": {
     "rule": "Work chronologically. Finish every currently locked-CORE missing ruler in the current backbone lane before advancing to the next lane. Short reigns remain included when they are CORE. REVIEW claimants do not block the lane.",
-    "current_focus_lane": "东汉",
+    "current_focus_lane": "刘宋",
     "lanes": [
       {
         "lane_order": 10,
@@ -260,10 +260,10 @@
         "source_file": "data/rulers-master-h4-qin-han.json",
         "source_polity_id": "eastern-han",
         "core_sequence_total": 14,
-        "complete": 13,
-        "missing": 1,
+        "complete": 14,
+        "missing": 0,
         "noncore_primary_entries": 0,
-        "completion_ratio": 0.9286,
+        "completion_ratio": 1.0,
         "persons": [
           {
             "succession_order": 1,
@@ -330,8 +330,10 @@
             "person_id": "ruler-0083",
             "canonical_name": "刘懿",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/donghan/liuyi-beixianghou-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 8,
@@ -2554,20 +2556,6 @@
     "queue": [
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 40,
-        "lane": "东汉",
-        "polity_name": "东汉",
-        "succession_order": 7,
-        "person_id": "ruler-0083",
-        "canonical_name": "刘懿",
-        "source_files": [
-          "data/rulers-master-h4-qin-han.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
         "backbone_lane_order": 70,
         "lane": "刘宋",
         "polity_name": "刘宋",
@@ -2578,7 +2566,7 @@
           "data/rulers-master-h6-north-south-sui-tang.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",

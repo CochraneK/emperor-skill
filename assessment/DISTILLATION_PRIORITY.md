@@ -4,12 +4,12 @@
 
 ## Current state
 
-- All missing locked CORE: **647**
+- All missing locked CORE: **646**
 - P0 backbone CORE persons: **216**
-- P0 already distilled: **180**
-- P0 still missing: **36**
-- P0 completion: **83.3%**
-- Current focus lane: **东汉**
+- P0 already distilled: **181**
+- P0 still missing: **35**
+- P0 completion: **83.8%**
+- Current focus lane: **刘宋**
 - Mapping issues: **0**
 
 ## Execution order
@@ -27,7 +27,7 @@
 | 10 | 秦 | 3 | 0 | 100% |
 | 20 | 西汉 | 15 | 0 | 100% |
 | 30 | 新 | 1 | 0 | 100% |
-| 40 | 东汉 | 13 | 1 | 93% |
+| 40 | 东汉 | 14 | 0 | 100% |
 | 50 | 曹魏 | 5 | 0 | 100% |
 | 51 | 蜀汉 | 2 | 0 | 100% |
 | 52 | 孙吴 | 4 | 0 | 100% |
@@ -58,6 +58,6 @@
 
 ## Next P0 tasks
 
-- `ruler-0083` · **刘懿** · 东汉 · succession #7
+- `ruler-0060` · **刘准** · 刘宋 · succession #9
 
 Machine-readable schedule: `data/distillation-priority.json`. Policy: `data/distillation-priority-policy.json`.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 268,
+  "count": 269,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -127,6 +127,21 @@
       "en": "Liu Hong",
       "era": "168–189",
       "frontmatter_name": "lingdi-perspective"
+    },
+    {
+      "skill_path": "skills/donghan/liuyi-beixianghou-perspective",
+      "skill_file": "skills/donghan/liuyi-beixianghou-perspective/SKILL.md",
+      "dynasty_dir": "donghan",
+      "package_slug": "liuyi-beixianghou-perspective",
+      "cn": "刘懿",
+      "normalized_cn": "刘懿",
+      "name_hints": [
+        "刘懿",
+        "北乡侯"
+      ],
+      "en": "Liu Yi (Marquess of Beixiang)",
+      "era": "125年即位，在位二百余日",
+      "frontmatter_name": "liuyi-beixianghou-perspective"
     },
     {
       "skill_path": "skills/donghan/mingdi-perspective",
