@@ -1,36 +1,55 @@
-name: Deploy Emperor Lab Pages
+name: Emperor Lab Pages QA
 
 on:
   push:
     branches: [main]
+    paths:
+      - 'index.html'
+      - 'assets/**'
+      - 'data/**'
+      - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: emperor-pages-qa-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+
+      - name: Validate static dashboard inputs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          required = [
+              Path('index.html'),
+              Path('data/rulers-person-index.json'),
+              Path('data/corpus-gap.json'),
+              Path('data/corpus-identity-issues.json'),
+              Path('data/corpus-work-queue.json'),
+          ]
+          missing = [str(p) for p in required if not p.exists()]
+          if missing:
+              raise SystemExit(f'Missing Pages inputs: {missing}')
+
+          for p in required[1:]:
+              json.loads(p.read_text(encoding='utf-8'))
+
+          html = required[0].read_text(encoding='utf-8')
+          if '<html' not in html.lower():
+              raise SystemExit('index.html does not look like an HTML document')
+          print('Emperor Lab dashboard inputs are present and parseable.')
+          PY
+
+# Publishing itself is intentionally left to the repository's configured GitHub Pages
+# branch deployment. Keeping a second deploy-pages workflow caused competing deployments
+# whenever Corpus Sync committed generated data.
