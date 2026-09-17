@@ -4,12 +4,12 @@
 
 ## Current state
 
-- All missing locked CORE: **643**
+- All missing locked CORE: **642**
 - P0 backbone CORE persons: **216**
-- P0 already distilled: **184**
-- P0 still missing: **32**
-- P0 completion: **85.2%**
-- Current focus lane: **北魏**
+- P0 already distilled: **185**
+- P0 still missing: **31**
+- P0 completion: **85.7%**
+- Current focus lane: **东魏**
 - Mapping issues: **0**
 
 ## Execution order
@@ -37,7 +37,7 @@
 | 71 | 南齐 | 7 | 0 | 100% |
 | 72 | 南梁 | 5 | 0 | 100% |
 | 73 | 陈 | 5 | 0 | 100% |
-| 74 | 北魏 | 14 | 1 | 93% |
+| 74 | 北魏 | 15 | 0 | 100% |
 | 75 | 东魏 | 0 | 1 | 0% |
 | 76 | 西魏 | 0 | 3 | 0% |
 | 77 | 北齐 | 0 | 6 | 0% |
@@ -58,6 +58,6 @@
 
 ## Next P0 tasks
 
-- `ruler-0041` · **元脩** · 北魏 · succession #15
+- `ruler-0031` · **元善见** · 东魏 · succession #1
 
 Machine-readable schedule: `data/distillation-priority.json`. Policy: `data/distillation-priority-policy.json`.

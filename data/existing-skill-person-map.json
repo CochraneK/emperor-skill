@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 272,
+  "count": 273,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -1338,6 +1338,22 @@
       "en": "Yuan Lang",
       "era": "约513–532；531–532在位",
       "frontmatter_name": "yuanlang-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanxiu-perspective",
+      "skill_file": "skills/nanbeichao/yuanxiu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanxiu-perspective",
+      "cn": "元脩",
+      "normalized_cn": "元脩",
+      "name_hints": [
+        "元脩",
+        "北魏孝武帝",
+        "孝武帝"
+      ],
+      "en": "Yuan Xiu",
+      "era": "510–535；532–535皇帝episode",
+      "frontmatter_name": "yuanxiu-perspective"
     },
     {
       "skill_path": "skills/nanbeichao/yuanxu-perspective",
