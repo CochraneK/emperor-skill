@@ -1,15 +1,18 @@
 {
-  "schema_version": "1.0",
-  "status": "P0_IDENTITY_REVIEW_IN_PROGRESS",
+  "schema_version": "1.1",
+  "status": "P0_CANONICAL_LABELS_RESOLVED_REVIEW_RELATIONS_EXPLICIT",
   "policy": {
-    "purpose": "Normalize only evidence-backed same-person aliases or obvious non-person placeholders before stable person-ID freeze.",
-    "raw_provenance": "Segment source strings remain unchanged; this file is an auditable interpretation layer.",
-    "disputed_identity": "Do not merge when the evidence itself preserves a material identity dispute. Leave the raw candidate in REVIEW until resolved."
+    "purpose": "Normalize evidence-backed same-person identities, correct synthetic discovery labels, and split disputed composites before stable person-ID freeze.",
+    "raw_provenance": "Segment source strings remain unchanged. Synthetic raw labels are preserved in identity_resolution.source_raw_labels but need not become searchable aliases.",
+    "disputed_identity": "When evidence does not justify a merge, create separate REVIEW candidates and preserve an explicit possible-same-person relation.",
+    "core_gate": "CORE candidates must not retain unresolved composite canonical labels. REVIEW-only disputes may remain explicit without blocking CORE distillation."
   },
   "canonical_overrides": {
     "之侯/初无余/莽安": {
       "canonical_name": "越王之侯",
       "aliases": ["之侯", "初无余", "初无余之", "莽安"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "EVIDENCE_BACKED_SAME_PERSON",
       "confidence": "HIGH",
       "basis": "Shiji Suoyin / Bamboo Annals tradition explicitly connects 王之侯, 初无余之 and 莽安 as the same ruler.",
       "evidence": [
@@ -20,6 +23,8 @@
     "代王嘉赵嘉": {
       "canonical_name": "赵嘉",
       "aliases": ["代王嘉", "王子嘉"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TITLE_PERSON_NAME_NORMALIZATION",
       "confidence": "HIGH",
       "basis": "赵嘉 was established as 代王 after the fall of Handan; title and personal name refer to one person.",
       "evidence": ["https://zh.wikipedia.org/wiki/%E4%BB%A3%E7%8E%8B%E5%98%89"]
@@ -27,6 +32,8 @@
     "卫疌伯/挚伯": {
       "canonical_name": "卫疌伯",
       "aliases": ["卫挚伯", "挚伯"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_TITLE_VARIANT",
       "confidence": "HIGH",
       "basis": "The received Wei ruler sequence records 卫疌伯; Shiben transmits the same ruler as 卫挚伯.",
       "evidence": ["https://ctext.org/dictionary.pl?if=gb&char=%E7%96%8C"]
@@ -34,6 +41,8 @@
     "卫考伯/孝伯": {
       "canonical_name": "卫考伯",
       "aliases": ["卫孝伯", "孝伯"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_TITLE_VARIANT",
       "confidence": "HIGH",
       "basis": "The transmitted title variant is recorded as 卫考伯, also called 卫孝伯.",
       "evidence": ["https://zh.wikipedia.org/wiki/%E5%AD%9D%E4%BC%AF"]
@@ -41,6 +50,8 @@
     "卫贞伯/箕伯": {
       "canonical_name": "卫贞伯",
       "aliases": ["卫箕伯", "箕伯"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_TITLE_VARIANT",
       "confidence": "HIGH",
       "basis": "The received Wei ruler sequence records 卫贞伯; Shiben transmits the same ruler as 卫箕伯.",
       "evidence": ["https://ctext.org/dictionary.pl?if=gb&char=%E8%B2%9E"]
@@ -48,6 +59,8 @@
     "帝喾高辛氏": {
       "canonical_name": "帝喾",
       "aliases": ["高辛氏"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "LEGENDARY_LABEL_NORMALIZATION",
       "confidence": "HIGH",
       "basis": "Structural normalization of a legendary ruler label: title/name and traditional clan-style designation are stored separately.",
       "evidence": []
@@ -55,13 +68,17 @@
     "帝挚高辛氏": {
       "canonical_name": "帝挚",
       "aliases": [],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "LEGENDARY_LABEL_NORMALIZATION",
       "confidence": "MEDIUM",
-      "basis": "Structural normalization only. The raw source string remains preserved, but 高辛氏 is not emitted as an identity hint because that designation is also attached to 帝喾 and would create a false cross-person collision.",
+      "basis": "Structural normalization only. 高辛氏 is not emitted as an identity hint because that designation is also attached to 帝喾 and would create a false cross-person collision.",
       "evidence": []
     },
     "晋哀公/懿公/敬公": {
       "canonical_name": "晋哀公",
       "aliases": ["晋懿公", "晋敬公"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_TITLE_VARIANT",
       "confidence": "HIGH",
       "basis": "Different transmitted sources use 哀公, 懿公 and 敬公 for the same ruler 骄.",
       "evidence": ["https://zh.wikipedia.org/wiki/%E6%99%8B%E5%93%80%E5%85%AC"]
@@ -69,6 +86,8 @@
     "晋孝公/桓公": {
       "canonical_name": "晋孝公",
       "aliases": ["晋桓公"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_TITLE_VARIANT",
       "confidence": "HIGH",
       "basis": "The ancient Bamboo Annals tradition calls 晋孝公 晋桓公.",
       "evidence": ["https://zh.wikipedia.org/wiki/%E6%99%8B%E5%AD%9D%E5%85%AC"]
@@ -76,6 +95,8 @@
     "晋静公/靖公": {
       "canonical_name": "晋静公",
       "aliases": ["晋靖公", "静公俱酒", "姬俱酒"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_TITLE_VARIANT",
       "confidence": "HIGH",
       "basis": "静/靖 is a transmitted title variant for the final Jin ruler 俱酒.",
       "evidence": ["https://ctext.org/dictionary.pl?did=2411&if=gb"]
@@ -83,6 +104,8 @@
     "曲沃武公/晋武公": {
       "canonical_name": "曲沃武公",
       "aliases": ["晋武公", "姬称"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TITLE_EPISODE_NORMALIZATION",
       "confidence": "HIGH",
       "basis": "曲沃武公 was later recognized as 晋侯 and is the same person conventionally called 晋武公.",
       "evidence": [
@@ -93,6 +116,8 @@
     "楚王比熊比": {
       "canonical_name": "楚王比",
       "aliases": ["熊比", "公子比", "子干"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TITLE_PERSON_NAME_NORMALIZATION",
       "confidence": "HIGH",
       "basis": "CTP identifies 楚王比 and 熊比 as the same person.",
       "evidence": ["https://ctext.org/datawiki.pl?if=gb&remap=gb&res=418895"]
@@ -100,6 +125,8 @@
     "楚王负刍熊负刍": {
       "canonical_name": "楚王负刍",
       "aliases": ["熊负刍"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TITLE_PERSON_NAME_NORMALIZATION",
       "confidence": "HIGH",
       "basis": "CTP identifies 楚王负刍 and 熊负刍 as the same person.",
       "evidence": ["https://ctext.org/datawiki.pl?if=gb&remap=gb&res=19258"]
@@ -107,6 +134,8 @@
     "王保保/扩廓帖木儿": {
       "canonical_name": "扩廓帖木儿",
       "aliases": ["王保保", "保保"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "PERSON_NAME_VARIANT",
       "confidence": "HIGH",
       "basis": "王保保 and 扩廓帖木儿 are names used for the same Yuan/Northern Yuan figure.",
       "evidence": ["https://zh.wikipedia.org/wiki/%E6%93%B4%E5%BB%93%E5%B8%96%E6%9C%A8%E5%85%92"]
@@ -114,6 +143,8 @@
     "王延羲/王曦": {
       "canonical_name": "王延羲",
       "aliases": ["王曦", "闽景宗"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "ACCESSION_NAME_CHANGE",
       "confidence": "HIGH",
       "basis": "王延羲 changed his name to 王曦 after accession.",
       "evidence": ["https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E7%BE%B2"]
@@ -121,6 +152,8 @@
     "王延钧/王鏻": {
       "canonical_name": "王延钧",
       "aliases": ["王鏻", "王璘", "闽惠宗"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "ACCESSION_NAME_CHANGE",
       "confidence": "HIGH",
       "basis": "王延钧 used 王鏻 after accession; the records describe one person.",
       "evidence": ["https://wapbaike.baidu.com/item/%E7%8E%8B%E5%BB%B6%E9%92%A7/2229461"]
@@ -128,6 +161,8 @@
     "王继鹏/王昶": {
       "canonical_name": "王继鹏",
       "aliases": ["王昶", "闽康宗"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "ACCESSION_NAME_CHANGE",
       "confidence": "HIGH",
       "basis": "王继鹏 later changed his name to 王昶.",
       "evidence": ["https://zh.wikisource.org/zh-hans/Author%3A%E7%8E%8B%E7%B9%BC%E9%B5%AC"]
@@ -135,6 +170,8 @@
     "翁/朱句": {
       "canonical_name": "越王翁",
       "aliases": ["翁", "朱句", "州句"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_NAME_VARIANT",
       "confidence": "HIGH",
       "basis": "The Yue ruler is transmitted as 王翁 and also as 朱句/州句.",
       "evidence": ["https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3000/site/attach/0/67ee13b418234711bdaf01cb41e729ae.pdf"]
@@ -142,6 +179,8 @@
     "鲁真公/慎公": {
       "canonical_name": "鲁真公",
       "aliases": ["鲁慎公", "慎公"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_TITLE_VARIANT",
       "confidence": "HIGH",
       "basis": "Transmitted sources preserve 真公/慎公 as posthumous-title variants for the same Lu ruler; Shiji uses 真公 while Hanshu Lülü zhi uses 慎公.",
       "evidence": ["https://ctext.org/wiki.pl?if=gb&chapter=471674"]
@@ -149,9 +188,82 @@
     "鼫与/鹿郢/与夷": {
       "canonical_name": "越王鼫与",
       "aliases": ["鼫与", "鹿郢", "与夷", "适郢", "者旨於赐"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_NAME_VARIANT",
       "confidence": "HIGH",
       "basis": "The same Yue ruler is transmitted under 鼫/鼫与, 鹿郢 and 与夷/适郢 variants.",
       "evidence": ["https://zh.wikipedia.org/wiki/%E9%B9%BF%E9%83%A2"]
+    }
+  },
+  "source_corrections": {
+    "夫谭/无谭": {
+      "canonical_name": "夫谭",
+      "aliases": ["夫镡"],
+      "reported_aliases_unverified": ["无谭"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "CANONICAL_LABEL_WITH_UNVERIFIED_VARIANT",
+      "confidence": "HIGH_FOR_CANONICAL_MEDIUM_FOR_VARIANT",
+      "basis": "夫谭 is directly transmitted as the predecessor/father of 允常. The synthetic composite is removed; 无谭 remains a reported variant for later verification and is not promoted to an identity hint.",
+      "evidence": [
+        "https://ctext.org/wiki.pl?chapter=573370&if=en&remap=gb",
+        "https://ctext.org/wiki.pl?chapter=2158425&if=gb&remap=gb"
+      ]
+    },
+    "虞公/虞惠公": {
+      "canonical_name": "虞公",
+      "aliases": [],
+      "reported_aliases_unverified": ["虞惠公"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "CANONICAL_LABEL_WITH_UNVERIFIED_VARIANT",
+      "confidence": "HIGH_FOR_CANONICAL_LOW_FOR_VARIANT",
+      "basis": "The last ruler is directly transmitted as 虞公; a secure primary-source basis for the label 虞惠公 was not established in this pass. Keep the latter as a review note, not a true alias.",
+      "evidence": [
+        "https://ctext.org/wiki.pl?chapter=8536407&if=gb",
+        "https://ehipassa.org/classics/zuo/02/"
+      ]
+    },
+    "许庄公茀/苴人": {
+      "canonical_name": "许庄公",
+      "aliases": ["许庄公茀", "茀"],
+      "reported_aliases_unverified": ["苴人"],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_PRIVATE_NAME_RECONCILIATION",
+      "confidence": "MEDIUM",
+      "basis": "The ruler identity 许庄公 is secure, while transmitted scholarship differs over the private-name reading 茀/苴人 and even questions whether 苴人 is a style rather than a personal name. Canonicalize the ruler title without forcing the disputed token into identity matching.",
+      "evidence": [
+        "https://ctext.org/wiki.pl?chapter=236114&if=gb&remap=gb",
+        "https://ctext.org/wiki.pl?chapter=2158425&if=gb&remap=gb"
+      ]
+    },
+    "韩共侯/懿侯韩若山": {
+      "canonical_name": "韩懿侯",
+      "aliases": ["韩若山", "韩共侯", "韩庄侯"],
+      "reported_aliases_unverified": [],
+      "suppress_raw_identity_hint": true,
+      "resolution_type": "TRANSMITTED_TITLE_VARIANT",
+      "confidence": "HIGH",
+      "basis": "Shiji/Suoyin and Bamboo Annals scholarship explicitly connect 韩若山 with 懿侯, while 共侯/庄侯 are transmitted title variants for the same ruler rather than a second CORE person.",
+      "evidence": ["https://ctext.org/wiki.pl?chapter=262040&if=gb&remap=gb"]
+    }
+  },
+  "ambiguous_splits": {
+    "虢宣公/虢季子白": {
+      "relation": "POSSIBLE_SAME_PERSON_DISPUTED",
+      "confidence": "DISPUTED",
+      "basis": "The discovery label conflated a debated identification. Scholarship has treated 虢季子白 as 虢宣公 in some reconstructions and as a distinct figure / different generational placement in others. The corpus therefore keeps two REVIEW candidates rather than deciding the controversy by normalization.",
+      "evidence": ["https://www.fdgwz.org.cn/Web/Show/2991"],
+      "candidates": [
+        {
+          "name": "虢宣公",
+          "aliases": [],
+          "status": "IDENTITY_REVIEW"
+        },
+        {
+          "name": "虢季子白",
+          "aliases": ["子白"],
+          "status": "IDENTITY_REVIEW"
+        }
+      ]
     }
   },
   "excluded_non_person_placeholders": {
@@ -162,11 +274,22 @@
       "source_file": "data/rulers-master-h10-ming-transition.json"
     }
   },
-  "unresolved_review": {
-    "夫谭/无谭": "夫谭 is independently attested; evidence that 无谭 is the same person has not yet been established here.",
-    "虞公/虞惠公": "Identity/title relation remains under REVIEW.",
-    "虢宣公/虢季子白": "Do not force-merge: scholarship preserves competing views that 虢季子白 may be 虢宣公 or a distinct related person.",
-    "许庄公茀/苴人": "Transmitted naming is unclear; retain REVIEW pending source reconciliation.",
-    "韩共侯/懿侯韩若山": "Sources connect 若山 with 懿侯, but the 共侯/庄侯 sequence has textual disagreement; keep REVIEW before canonical merge."
+  "open_identity_questions": {
+    "夫谭_无谭_variant": {
+      "status": "NON_BLOCKING_VARIANT_REVIEW",
+      "note": "CORE canonical identity is fixed as 夫谭; verify whether 无谭 has an independent textual witness before ever promoting it to an alias."
+    },
+    "虞公_虞惠公_variant": {
+      "status": "REVIEW_ONLY_UNVERIFIED_ALIAS",
+      "note": "虞公 remains REVIEW and is canonicalized only to remove a synthetic slash label; 虞惠公 is not treated as an identity hint."
+    },
+    "虢宣公_虢季子白_relation": {
+      "status": "REVIEW_ONLY_DISPUTED_IDENTITY",
+      "note": "Both are separate REVIEW candidates with an explicit possible-same-person relation; no merge is assumed."
+    },
+    "许庄公_private_name": {
+      "status": "REVIEW_ONLY_NAME_INTERPRETATION",
+      "note": "许庄公 is secure; whether 苴人 is a personal name, style, or textual variant remains open and does not affect ruler-level identity."
+    }
   }
 }
