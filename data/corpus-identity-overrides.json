@@ -24,12 +24,26 @@
       "basis": "赵嘉 was established as 代王 after the fall of Handan; title and personal name refer to one person.",
       "evidence": ["https://zh.wikipedia.org/wiki/%E4%BB%A3%E7%8E%8B%E5%98%89"]
     },
+    "卫疌伯/挚伯": {
+      "canonical_name": "卫疌伯",
+      "aliases": ["卫挚伯", "挚伯"],
+      "confidence": "HIGH",
+      "basis": "The received Wei ruler sequence records 卫疌伯; Shiben transmits the same ruler as 卫挚伯.",
+      "evidence": ["https://ctext.org/dictionary.pl?if=gb&char=%E7%96%8C"]
+    },
     "卫考伯/孝伯": {
       "canonical_name": "卫考伯",
       "aliases": ["卫孝伯", "孝伯"],
       "confidence": "HIGH",
       "basis": "The transmitted title variant is recorded as 卫考伯, also called 卫孝伯.",
       "evidence": ["https://zh.wikipedia.org/wiki/%E5%AD%9D%E4%BC%AF"]
+    },
+    "卫贞伯/箕伯": {
+      "canonical_name": "卫贞伯",
+      "aliases": ["卫箕伯", "箕伯"],
+      "confidence": "HIGH",
+      "basis": "The received Wei ruler sequence records 卫贞伯; Shiben transmits the same ruler as 卫箕伯.",
+      "evidence": ["https://ctext.org/dictionary.pl?if=gb&char=%E8%B2%9E"]
     },
     "帝喾高辛氏": {
       "canonical_name": "帝喾",
@@ -40,9 +54,9 @@
     },
     "帝挚高辛氏": {
       "canonical_name": "帝挚",
-      "aliases": ["高辛氏"],
+      "aliases": [],
       "confidence": "MEDIUM",
-      "basis": "Structural normalization only; legendary identity remains in the LEGENDARY evidence layer and the raw string is preserved.",
+      "basis": "Structural normalization only. The raw source string remains preserved, but 高辛氏 is not emitted as an identity hint because that designation is also attached to 帝喾 and would create a false cross-person collision.",
       "evidence": []
     },
     "晋哀公/懿公/敬公": {
@@ -125,6 +139,13 @@
       "basis": "The Yue ruler is transmitted as 王翁 and also as 朱句/州句.",
       "evidence": ["https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3000/site/attach/0/67ee13b418234711bdaf01cb41e729ae.pdf"]
     },
+    "鲁真公/慎公": {
+      "canonical_name": "鲁真公",
+      "aliases": ["鲁慎公", "慎公"],
+      "confidence": "HIGH",
+      "basis": "Transmitted sources preserve 真公/慎公 as posthumous-title variants for the same Lu ruler; Shiji uses 真公 while Hanshu Lülü zhi uses 慎公.",
+      "evidence": ["https://ctext.org/wiki.pl?if=gb&chapter=471674"]
+    },
     "鼫与/鹿郢/与夷": {
       "canonical_name": "越王鼫与",
       "aliases": ["鼫与", "鹿郢", "与夷", "适郢", "者旨於赐"],
@@ -142,13 +163,10 @@
     }
   },
   "unresolved_review": {
-    "卫疌伯/挚伯": "Keep pending direct source verification of the title/name variant.",
-    "卫贞伯/箕伯": "Likely a transmitted title variant; direct source verification still required before normalization.",
     "夫谭/无谭": "夫谭 is independently attested; evidence that 无谭 is the same person has not yet been established here.",
     "虞公/虞惠公": "Identity/title relation remains under REVIEW.",
     "虢宣公/虢季子白": "Do not force-merge: scholarship preserves competing views that 虢季子白 may be 虢宣公 or a distinct related person.",
     "许庄公茀/苴人": "Transmitted naming is unclear; retain REVIEW pending source reconciliation.",
-    "韩共侯/懿侯韩若山": "Sources connect 若山 with 懿侯, but the 共侯/庄侯 sequence has textual disagreement; keep REVIEW before canonical merge.",
-    "鲁真公/慎公": "Likely posthumous-title variant; direct source verification still required before normalization."
+    "韩共侯/懿侯韩若山": "Sources connect 若山 with 懿侯, but the 共侯/庄侯 sequence has textual disagreement; keep REVIEW before canonical merge."
   }
 }
