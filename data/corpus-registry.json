@@ -1,32 +1,186 @@
 {
-  "schema_version":"0.8",
-  "generated_from":"repository snapshot 2026-09-17",
-  "canonical_audit":"NUWA_AUDIT_V2.md",
-  "worker_brief":"WORKER_BRIEF_V2.md",
-  "status_note":"The frozen 39-package mtime provenance snapshot is fully classified. This is triage, not a corpus-wide PASS.",
-  "totals":{"skills":267,"dynasty_directories":16,"skills_top_level_directories":17},
-  "non_dynasty_directories":["_audit"],
-  "dynasties":[{"id":"xia","name":"夏","count":17},{"id":"shang","name":"商","count":31},{"id":"zhou","name":"周","count":37},{"id":"qin","name":"秦","count":3},{"id":"chuhan","name":"楚汉","count":2},{"id":"xihan","name":"西汉","count":15},{"id":"donghan","name":"东汉","count":13},{"id":"sanguo","name":"三国","count":11},{"id":"jin","name":"晋","count":15},{"id":"nanbeichao","name":"南北朝","count":38},{"id":"sui","name":"隋","count":3},{"id":"tang","name":"唐","count":21},{"id":"song","name":"宋","count":18},{"id":"yuan","name":"元","count":15},{"id":"ming","name":"明","count":16},{"id":"qing","name":"清","count":12}],
-  "audit":{
-    "provenance_review_snapshot":39,
-    "provenance_review_source":"_redo_tools/_order_suspects_39.md",
-    "provenance_review_policy":"assessment/PROVENANCE_RECOVERY.md",
-    "provenance_snapshot_status":"classified",
-    "reviewed":39,
-    "remaining_snapshot_reviews":0,
-    "reresearch_due_to_mtime_only":0,
-    "dominant_repair":"PATCH_OR_TARGETED_VERIFY_THEN_REDISTILL",
-    "legacy_size_queue":92,
-    "legacy_size_queue_status":"deprecated-as-quality-gate",
-    "l1_l3_full_audit":"in-progress"
+  "schema_version": "0.8",
+  "generated_from": "repository snapshot 2026-09-17",
+  "canonical_audit": "NUWA_AUDIT_V2.md",
+  "worker_brief": "WORKER_BRIEF_V2.md",
+  "status_note": "The frozen 39-package mtime provenance snapshot is fully classified. This is triage, not a corpus-wide PASS.",
+  "totals": {
+    "skills": 267,
+    "dynasty_directories": 16,
+    "skills_top_level_directories": 17
   },
-  "recovery_batches":[
-    {"dynasty":"jin","reviewed":7,"remaining":0,"default_action":"PATCH_VERIFY_REDISTILL"},
-    {"dynasty":"sanguo","reviewed":2,"remaining":0,"default_action":"PATCH_REDISTILL"},
-    {"dynasty":"nanbeichao","reviewed":14,"remaining":0,"default_action":"PATCH_VERIFY_REDISTILL"},
-    {"dynasty":"shang","reviewed":13,"remaining":0,"default_action":"PATCH_VERIFY_REDISTILL"},
-    {"dynasty":"xia","reviewed":1,"remaining":0,"default_action":"PATCH_VERIFY_REDISTILL"},
-    {"dynasty":"zhou","reviewed":2,"remaining":0,"default_action":"PATCH_VERIFY_REDISTILL"}
+  "non_dynasty_directories": [
+    "_audit"
   ],
-  "reports":[{"id":"solo-index","type":"simulation-index","path":"simulation/by-dynasty/solo/solo-index.html"},{"id":"solo-ranking","type":"analysis","path":"simulation/by-dynasty/solo/solo-ranking.html"},{"id":"reversal-validity","type":"validity","path":"simulation/validity/reversal-validity-report.html"},{"id":"provenance-recovery","type":"audit","path":"assessment/PROVENANCE_RECOVERY.md"}]
+  "dynasties": [
+    {
+      "id": "xia",
+      "name": "夏",
+      "count": 17
+    },
+    {
+      "id": "shang",
+      "name": "商",
+      "count": 31
+    },
+    {
+      "id": "zhou",
+      "name": "周",
+      "count": 37
+    },
+    {
+      "id": "qin",
+      "name": "秦",
+      "count": 3
+    },
+    {
+      "id": "chuhan",
+      "name": "楚汉",
+      "count": 2
+    },
+    {
+      "id": "xihan",
+      "name": "西汉",
+      "count": 15
+    },
+    {
+      "id": "donghan",
+      "name": "东汉",
+      "count": 13
+    },
+    {
+      "id": "sanguo",
+      "name": "三国",
+      "count": 11
+    },
+    {
+      "id": "jin",
+      "name": "晋",
+      "count": 15
+    },
+    {
+      "id": "nanbeichao",
+      "name": "南北朝",
+      "count": 38
+    },
+    {
+      "id": "sui",
+      "name": "隋",
+      "count": 3
+    },
+    {
+      "id": "tang",
+      "name": "唐",
+      "count": 21
+    },
+    {
+      "id": "song",
+      "name": "宋",
+      "count": 18
+    },
+    {
+      "id": "yuan",
+      "name": "元",
+      "count": 15
+    },
+    {
+      "id": "ming",
+      "name": "明",
+      "count": 16
+    },
+    {
+      "id": "qing",
+      "name": "清",
+      "count": 12
+    }
+  ],
+  "audit": {
+    "provenance_review_snapshot": 39,
+    "provenance_review_source": "_redo_tools/_order_suspects_39.md",
+    "provenance_review_policy": "assessment/PROVENANCE_RECOVERY.md",
+    "provenance_snapshot_status": "classified",
+    "reviewed": 39,
+    "remaining_snapshot_reviews": 0,
+    "reresearch_due_to_mtime_only": 0,
+    "dominant_repair": "PATCH_OR_TARGETED_VERIFY_THEN_REDISTILL",
+    "legacy_size_queue": 92,
+    "legacy_size_queue_status": "deprecated-as-quality-gate",
+    "l1_l3_full_audit": "in-progress"
+  },
+  "recovery_batches": [
+    {
+      "dynasty": "jin",
+      "reviewed": 7,
+      "remaining": 0,
+      "default_action": "PATCH_VERIFY_REDISTILL"
+    },
+    {
+      "dynasty": "sanguo",
+      "reviewed": 2,
+      "remaining": 0,
+      "default_action": "PATCH_REDISTILL"
+    },
+    {
+      "dynasty": "nanbeichao",
+      "reviewed": 14,
+      "remaining": 0,
+      "default_action": "PATCH_VERIFY_REDISTILL"
+    },
+    {
+      "dynasty": "shang",
+      "reviewed": 13,
+      "remaining": 0,
+      "default_action": "PATCH_VERIFY_REDISTILL"
+    },
+    {
+      "dynasty": "xia",
+      "reviewed": 1,
+      "remaining": 0,
+      "default_action": "PATCH_VERIFY_REDISTILL"
+    },
+    {
+      "dynasty": "zhou",
+      "reviewed": 2,
+      "remaining": 0,
+      "default_action": "PATCH_VERIFY_REDISTILL"
+    }
+  ],
+  "reports": [
+    {
+      "id": "solo-index",
+      "type": "simulation-index",
+      "path": "simulation/by-dynasty/solo/solo-index.html"
+    },
+    {
+      "id": "solo-ranking",
+      "type": "analysis",
+      "path": "simulation/by-dynasty/solo/solo-ranking.html"
+    },
+    {
+      "id": "reversal-validity",
+      "type": "validity",
+      "path": "simulation/validity/reversal-validity-report.html"
+    },
+    {
+      "id": "provenance-recovery",
+      "type": "audit",
+      "path": "assessment/PROVENANCE_RECOVERY.md"
+    }
+  ],
+  "master_corpus": {
+    "status": "GENERATED_CANDIDATE_INDEX_NOT_YET_ID_LOCKED",
+    "candidate_index": "data/rulers-person-index.json",
+    "coverage_report": "assessment/CORPUS_COVERAGE.md",
+    "gap_file": "data/corpus-gap.json",
+    "candidate_persons": 1336,
+    "locked_core_persons": 1040,
+    "matched_core_persons": 174,
+    "missing_core_persons": 866,
+    "review_persons": 264,
+    "existing_skills": 267,
+    "matched_existing_skills": 174,
+    "unmatched_existing_skills": 93,
+    "core_coverage_ratio": 0.1673,
+    "note": "Coverage is provisional until identity QA and remaining polity discovery are closed; REVIEW is excluded from locked CORE."
+  }
 }
