@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "status": "SOURCE_REVIEW_IN_PROGRESS",
+  "status": "INITIAL_TRANCHE_READY",
   "policy_file": "data/p1-anchor-selection-policy.json",
   "review_file": "data/p1-anchor-reviews.json",
   "source_priority_file": "data/distillation-priority.json",
@@ -8,16 +8,15 @@
   "summary": {
     "p0_missing": 0,
     "candidate_pool": 207,
-    "source_reviews_recorded": 0,
-    "source_reviews_complete": 0,
-    "needs_or_partial_review": 207,
+    "source_reviews_recorded": 24,
+    "source_reviews_complete": 24,
+    "needs_or_partial_review": 183,
     "initial_anchor_tranche_target": 24,
-    "initial_anchor_tranche_selected": 0,
+    "initial_anchor_tranche_selected": 24,
     "minimum_cross_polity_diversity": 8,
-    "selected_polity_diversity": 0
+    "selected_polity_diversity": 24
   },
-  "initial_anchor_tranche": [],
-  "review_sequence": [
+  "initial_anchor_tranche": [
     {
       "sequence": 1,
       "person_id": "ruler-0046",
@@ -29,8 +28,34 @@
         "data/rulers-master-h4-qin-han.json"
       ],
       "source_segment": 4,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0046",
+        "canonical_name": "公孙述",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《后汉书》有独立长篇列传，覆盖地方治理、蜀地割据、自立、外交与对东汉战争，足以建立人物特异模型。",
+        "evidence_pointers": [
+          "《后汉书》卷13《隗嚣公孙述列传》",
+          "《后汉书》卷1上、卷1下《光武帝纪》相关纪事"
+        ],
+        "transition_contexts": [
+          "新莽崩解",
+          "地方行政长官转为割据君主",
+          "成家建立与东汉统一战争"
+        ],
+        "comparison_links": [
+          "刘玄：新莽崩解后的不同政权形成路径",
+          "刘秀：区域政权与统一型政权的组织差异"
+        ],
+        "simulation_contexts": [
+          "蜀地防御与外向扩张取舍",
+          "面对统一压力时的联盟与守势选择"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 2,
@@ -43,8 +68,35 @@
         "data/rulers-master-h4-qin-han.json"
       ],
       "source_segment": 4,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0095",
+        "canonical_name": "刘玄",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《后汉书》卷11为刘玄、刘盆子专传，保存起兵、被拥立、入长安、政权内部结构与败亡过程；另可与光武纪交叉。",
+        "evidence_pointers": [
+          "《后汉书》卷11《刘玄刘盆子列传》",
+          "《后汉书》卷1上《光武帝纪上》相关纪事"
+        ],
+        "transition_contexts": [
+          "新莽末群雄起兵",
+          "联盟推举式即位",
+          "更始政权进入长安后失序",
+          "赤眉与东汉夹击"
+        ],
+        "comparison_links": [
+          "刘盆子：被军事集团推举的统治约束",
+          "刘秀：同宗起兵后不同组织化路径"
+        ],
+        "simulation_contexts": [
+          "松散联盟转化为中央政权",
+          "进入首都后的组织整合与人事配置"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 3,
@@ -57,8 +109,35 @@
         "data/rulers-master-h4-qin-han.json"
       ],
       "source_segment": 4,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0097",
+        "canonical_name": "刘盆子",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "正史有专传且事件链清楚，但许多关键行为由赤眉将领与组织推动，个人自主决策材料明显少于刘玄、公孙述；适合约束性模型而非补写性格。",
+        "evidence_pointers": [
+          "《后汉书》卷11《刘玄刘盆子列传》",
+          "《后汉书》卷1上、卷1下《光武帝纪》相关赤眉纪事"
+        ],
+        "transition_contexts": [
+          "赤眉军推举宗室",
+          "象征性君主",
+          "长安占领与撤退",
+          "向东汉投降"
+        ],
+        "comparison_links": [
+          "刘玄：军事集团推举君主的不同程度能动性",
+          "石世：短期受制于权臣/监国集团的统治"
+        ],
+        "simulation_contexts": [
+          "低自主权君主在强军事集团中的行动空间",
+          "败局中投降与存续选择"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 4,
@@ -71,8 +150,32 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0049",
+        "canonical_name": "冉智",
+        "source_review_complete": true,
+        "evidence_state": "LIMITED",
+        "evidence_note": "材料主要依附冉闵政权末期叙事，能确认太子身份、邺城陷落及被俘等事件，但几乎没有可独立归因的统治决策；后续 Skill 必须显著限制模型数量与强度。",
+        "evidence_pointers": [
+          "《晋书》卷107《石季龙载记下》冉闵及冉智相关纪事"
+        ],
+        "transition_contexts": [
+          "冉魏覆亡",
+          "都城失守",
+          "继承人被俘"
+        ],
+        "comparison_links": [
+          "石世：极低自主权的短期统治/继承情境",
+          "柴宗训：幼弱或低能动统治者的证据约束建模"
+        ],
+        "simulation_contexts": [
+          "政权崩溃末期继承人的有限选择集"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 5,
@@ -85,8 +188,35 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0326",
+        "canonical_name": "张天锡",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷86有独立较长段落，包含即位、政务、用人、军事行动、对东晋与前秦关系、亡国后经历及本人答书，可进行多角度交叉。",
+        "evidence_pointers": [
+          "《晋书》卷86《张轨传》附张天锡",
+          "《全晋文》卷154张天锡文"
+        ],
+        "transition_contexts": [
+          "前凉末期统治",
+          "东晋名义关系",
+          "前秦扩张压力",
+          "亡国后进入前秦与东晋政治秩序"
+        ],
+        "comparison_links": [
+          "吕光：河西政权的军政路径差异",
+          "苻丕：强邻压力下的政权存续"
+        ],
+        "simulation_contexts": [
+          "边疆政权在两大强权之间的外交选择",
+          "外压下的继承与用人风险"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 6,
@@ -99,8 +229,33 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0359",
+        "canonical_name": "慕容儁",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷110为慕容儁专载记，覆盖继位、利用后赵崩解扩张、军事组织、称帝及内部治理，个人行动链非常完整。",
+        "evidence_pointers": [
+          "《晋书》卷110《慕容儁载记》"
+        ],
+        "transition_contexts": [
+          "后赵崩解后的北方权力真空",
+          "前燕扩张",
+          "由燕王到皇帝的制度升级"
+        ],
+        "comparison_links": [
+          "慕容德：同一宗室在不同崩解节点建立政权",
+          "苻丕：北方帝国崩解后的再组织"
+        ],
+        "simulation_contexts": [
+          "竞争性真空中的扩张时机",
+          "宗室与将领配置对快速扩张的影响"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 7,
@@ -113,8 +268,34 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0916",
+        "canonical_name": "苻丕",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷115为苻丕专载记，记录其邺城防守、前秦崩解后的迁转、即位、重新组织力量与败亡，证据足以区分继承、复国与危机决策。",
+        "evidence_pointers": [
+          "《晋书》卷115《苻丕苻登载记》"
+        ],
+        "transition_contexts": [
+          "淝水后前秦崩解",
+          "邺城防守",
+          "晋阳即位",
+          "多方割据竞争"
+        ],
+        "comparison_links": [
+          "慕容儁：权力真空中的扩张与重组",
+          "张天锡：前秦扩张链条两端的统治者"
+        ],
+        "simulation_contexts": [
+          "帝国崩解后的残余资源重组",
+          "多战线压力下的迁都与联盟选择"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 8,
@@ -127,8 +308,35 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0665",
+        "canonical_name": "段业",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "段业没有独立长传，但《晋书》沮渠蒙逊载记与《资治通鉴》连续记录其被推举、任用蒙逊、军事判断与最终被杀；信息足以建模权力依赖，但必须区分蒙逊主导的行动。",
+        "evidence_pointers": [
+          "《晋书》卷129《沮渠蒙逊载记》段业相关纪事",
+          "《资治通鉴》卷110段业、沮渠蒙逊相关纪事"
+        ],
+        "transition_contexts": [
+          "后凉分裂",
+          "被军事集团推举建政",
+          "君主与强将权力失衡",
+          "北凉权力转移"
+        ],
+        "comparison_links": [
+          "刘玄：联盟推举式统治",
+          "兰汗：短期夺权与内部权力重组"
+        ],
+        "simulation_contexts": [
+          "弱组织基础下如何约束强将",
+          "依赖型建政的委任与猜忌困境"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 9,
@@ -141,8 +349,36 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0052",
+        "canonical_name": "冯弘",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "北燕末期材料分散于《魏书》、北魏帝纪与《资治通鉴》，但其夺取继承、对北魏关系、出奔高句丽及最终死亡的事件链可重建；个人内政材料相对有限。",
+        "evidence_pointers": [
+          "《魏书》卷97《海夷冯跋列传》冯弘相关部分",
+          "《资治通鉴》卷122—123北燕冯弘相关纪事",
+          "《北史》卷2太武帝纪相关纪事"
+        ],
+        "transition_contexts": [
+          "北燕继承危机",
+          "北魏扩张",
+          "出奔高句丽",
+          "流亡政权终结"
+        ],
+        "comparison_links": [
+          "李势：末代政权面对外部征服",
+          "谯纵：区域政权在强邻夹击下的结局"
+        ],
+        "simulation_contexts": [
+          "外部压迫下的投降、迁徙与求援选择",
+          "流亡君主与接纳国之间的权力不对称"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 10,
@@ -155,8 +391,33 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0831",
+        "canonical_name": "秃发乌孤",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷126以秃发乌孤开篇并有独立传段，涵盖部族基础、与吕光关系、独立建政、农业与邻交策略、军事扩张，人物行动可观察度高。",
+        "evidence_pointers": [
+          "《晋书》卷126《秃发乌孤秃发利鹿孤秃发傉檀载记》"
+        ],
+        "transition_contexts": [
+          "河西多政权竞争",
+          "由受封到独立",
+          "南凉建政"
+        ],
+        "comparison_links": [
+          "吕光：河西统治网络中的中心与分裂者",
+          "乞伏乾归：西北多族群政权的联盟与战争"
+        ],
+        "simulation_contexts": [
+          "受封关系何时转化为独立",
+          "小型边疆政权的农业、联盟与军事资源配置"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 11,
@@ -169,8 +430,33 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0363",
+        "canonical_name": "慕容德",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷127为慕容德专载记，前燕、后燕任职经历和南燕建政过程连续，且保留多处本人主张与决策，可支持长期模型。",
+        "evidence_pointers": [
+          "《晋书》卷127《慕容德载记》"
+        ],
+        "transition_contexts": [
+          "前燕亡国遗臣",
+          "后燕分裂",
+          "南迁与南燕建立"
+        ],
+        "comparison_links": [
+          "慕容儁：慕容宗室在不同扩张/崩解阶段的治理路径",
+          "冯弘：燕系政权末端的迁徙与存续"
+        ],
+        "simulation_contexts": [
+          "母体政权崩解后是否另建中心",
+          "跨区域迁徙中的组织重建"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 12,
@@ -183,8 +469,34 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0192",
+        "canonical_name": "吕光",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷122为吕光专载记，覆盖前秦将领经历、西域远征、回师河西、自立、治理与晚年继承问题，时间跨度和个人决策材料都很充足。",
+        "evidence_pointers": [
+          "《晋书》卷122《吕光吕纂吕隆载记》"
+        ],
+        "transition_contexts": [
+          "前秦帝国崩解",
+          "西域远征军转化为地方政权",
+          "后凉建政",
+          "河西再分裂"
+        ],
+        "comparison_links": [
+          "张天锡：前凉末端与后凉起点",
+          "秃发乌孤、段业：后凉分裂出的竞争政权"
+        ],
+        "simulation_contexts": [
+          "远征军在母国崩溃后如何选择归属",
+          "军事创始人与继承安排的冲突"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 13,
@@ -197,8 +509,35 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0047",
+        "canonical_name": "兰汗",
+        "source_review_complete": true,
+        "evidence_state": "LIMITED",
+        "evidence_note": "兰汗的材料主要嵌在慕容宝、慕容盛叙事中，能确认其参与政变、弑慕容宝、自称昌黎王及很快被慕容盛诛杀，但独立内政和长期偏好不可观察。",
+        "evidence_pointers": [
+          "《晋书》卷124《慕容宝慕容盛慕容熙慕容云载记》兰汗相关纪事",
+          "《晋书》卷10《安帝纪》隆安二年相关纪事"
+        ],
+        "transition_contexts": [
+          "后燕内乱",
+          "宫廷政变",
+          "短期篡位",
+          "慕容盛复权"
+        ],
+        "comparison_links": [
+          "刘和：极短继承危机与内部暴力",
+          "段业：统治基础依赖内部集团"
+        ],
+        "simulation_contexts": [
+          "政变成功后的短窗口稳定化",
+          "高不信任宫廷中的联盟维持"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 14,
@@ -211,8 +550,37 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0224",
+        "canonical_name": "姚兴",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷117—118连续两卷为姚兴载记，军事、行政、边疆、宗室继承、文化宗教与对外关系材料密集，适合高分辨率研究。",
+        "evidence_pointers": [
+          "《晋书》卷117《姚兴载记上》",
+          "《晋书》卷118《姚兴载记下》",
+          "《全晋文》卷153姚兴文"
+        ],
+        "transition_contexts": [
+          "后秦继承",
+          "消灭苻登",
+          "长期统治与多边外交",
+          "晚年储位冲突"
+        ],
+        "comparison_links": [
+          "赫连勃勃：任用与反叛关系中的边疆治理",
+          "乞伏乾归：臣属、复起与西北均势"
+        ],
+        "simulation_contexts": [
+          "多边边疆均势",
+          "长期统治后期的储位与宗室风险",
+          "对叛降势力的吸纳策略"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 15,
@@ -225,8 +593,33 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0812",
+        "canonical_name": "石世",
+        "source_review_complete": true,
+        "evidence_state": "LIMITED",
+        "evidence_note": "《晋书》卷107有石世短段，但即位后刘太后临朝、张豺主政，石世本人的独立决策几乎不可识别；应将模型中心放在受制结构而非虚构人格。",
+        "evidence_pointers": [
+          "《晋书》卷107《石季龙载记下》石世段"
+        ],
+        "transition_contexts": [
+          "后赵继承危机",
+          "皇太后临朝",
+          "权臣张豺控制",
+          "石遵政变"
+        ],
+        "comparison_links": [
+          "刘盆子：受强组织约束的名义最高统治者",
+          "冉智：政权崩解阶段的低能动继承人"
+        ],
+        "simulation_contexts": [
+          "幼弱继承下的摄政与权臣博弈"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 16,
@@ -239,8 +632,34 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0522",
+        "canonical_name": "李势",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "《晋书》卷121有独立李势段落，包含继位、宗室与辅臣处置、叛乱、纪纲变化及东晋灭成汉过程；材料足以建立末代统治模型但不宜过度心理化。",
+        "evidence_pointers": [
+          "《晋书》卷121《李雄李班李期李寿李势载记》李势段"
+        ],
+        "transition_contexts": [
+          "成汉末期继承",
+          "宗室清洗",
+          "内部叛乱",
+          "桓温西征与亡国"
+        ],
+        "comparison_links": [
+          "冯弘：区域政权末代在强敌压力下的选择",
+          "张天锡：西部政权末期的内外压力"
+        ],
+        "simulation_contexts": [
+          "末代政权中宗室安全与政治包容的取舍",
+          "强敌入侵前的内部整合"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 17,
@@ -253,8 +672,36 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0625",
+        "canonical_name": "桓玄",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷99为桓玄长传，另有本人檄文、赋文与东晋帝纪交叉，覆盖地方任职、军事联盟、控制中央、篡位、政策与败亡。",
+        "evidence_pointers": [
+          "《晋书》卷99《桓玄卞范之殷仲文列传》",
+          "《晋书》卷10《安帝纪》相关纪事",
+          "《全晋文》及桓玄存文"
+        ],
+        "transition_contexts": [
+          "东晋门阀政治危机",
+          "军阀联盟",
+          "控制中央政府",
+          "桓楚建立与刘裕复晋"
+        ],
+        "comparison_links": [
+          "侯景：军事强人夺取首都并建立短命政权",
+          "谯纵：东晋末地方军政割据"
+        ],
+        "simulation_contexts": [
+          "从强臣到改朝换代的阈值",
+          "控制中央后如何处理合法性与地方军力"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 18,
@@ -267,8 +714,34 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0066",
+        "canonical_name": "刘和",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "刘和短期统治附载于《晋书》刘元海载记，继承安排、顾命集团、刘聪等宗室军事力量及宫廷冲突均有记载，但在位极短，长期政策偏好不可观察。",
+        "evidence_pointers": [
+          "《晋书》卷101《刘元海载记》末段及刘和继位相关纪事"
+        ],
+        "transition_contexts": [
+          "汉赵创始人去世后的继承",
+          "顾命结构失灵",
+          "宗室军事集团冲突",
+          "短期宫廷政变"
+        ],
+        "comparison_links": [
+          "兰汗：超短统治中的高不信任联盟",
+          "石世：继承结构被权臣/宗室迅速颠覆"
+        ],
+        "simulation_contexts": [
+          "创始人死后的继承安全",
+          "先发清洗与联盟反噬"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 19,
@@ -281,8 +754,35 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-1049",
+        "canonical_name": "赫连勃勃",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷130整卷为赫连勃勃载记，覆盖家族背景、后秦任用、反叛建夏、战争、统万城建设、用人与继承，个人决策材料极丰富。",
+        "evidence_pointers": [
+          "《晋书》卷130《赫连勃勃载记》",
+          "《晋书》卷117—118姚兴载记中的赫连勃勃相关交叉纪事"
+        ],
+        "transition_contexts": [
+          "后秦边疆将领转为独立君主",
+          "胡夏建立",
+          "朔方与关中竞争",
+          "统万城建设与国家化"
+        ],
+        "comparison_links": [
+          "姚兴：任用—反叛关系的双方视角",
+          "吕光：军事资源转化为边疆政权"
+        ],
+        "simulation_contexts": [
+          "边疆代理人反叛风险",
+          "机动战争与定都建制的资源转换"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 20,
@@ -295,8 +795,35 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0534",
+        "canonical_name": "李恂",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "《十六国春秋》西凉录三有李恂专段，清楚记录其敦煌任职、被地方人士迎回、守城与最终覆亡；时间短且材料集中于复国末段，适合中等证据模型。",
+        "evidence_pointers": [
+          "《十六国春秋》卷93《西凉录三·李恂》",
+          "《晋书》凉武昭王李暠家族相关传记可作谱系交叉"
+        ],
+        "transition_contexts": [
+          "西凉亡后复起",
+          "敦煌地方支持",
+          "北凉围城",
+          "西凉最终覆亡"
+        ],
+        "comparison_links": [
+          "冯弘：亡国边缘的撤退/求存路径",
+          "段业：河西政权对沮渠集团的不同关系"
+        ],
+        "simulation_contexts": [
+          "失国后依靠地方支持复起",
+          "围城中的坚守、突围与投降选择"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 21,
@@ -309,8 +836,35 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0360",
+        "canonical_name": "慕容冲",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "没有独立长传，但《晋书》苻坚载记、相关编年史与存留答书提供从前燕宗室、前秦控制、起兵、围取长安到短暂称帝的连续事件；需谨慎处理后世轶说。",
+        "evidence_pointers": [
+          "《晋书》卷114《苻坚载记下》慕容冲相关纪事",
+          "《全晋文》卷150《慕容冲命詹事答苻坚》"
+        ],
+        "transition_contexts": [
+          "前燕亡国宗室",
+          "淝水后前秦崩解",
+          "西燕起兵",
+          "攻占长安与短期称帝"
+        ],
+        "comparison_links": [
+          "苻丕：前秦崩解时敌对政权的同时重组",
+          "慕容德：慕容宗室在不同地理方向的再建政"
+        ],
+        "simulation_contexts": [
+          "被征服宗室在母国崩解时的复国窗口",
+          "攻取核心城市后是否迁移/固守"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 22,
@@ -323,8 +877,34 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0012",
+        "canonical_name": "乞伏乾归",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷125有乞伏乾归独立长段，覆盖继位、联盟与征战、败降后秦、再度复起等多个阶段，特别适合研究可逆臣属和政权恢复。",
+        "evidence_pointers": [
+          "《晋书》卷125《乞伏国仁乞伏乾归乞伏炽磐载记》"
+        ],
+        "transition_contexts": [
+          "西秦继承",
+          "河陇多方竞争",
+          "败于后秦后的臣属",
+          "再次复国"
+        ],
+        "comparison_links": [
+          "姚兴：臣属关系双方的策略",
+          "秃发乌孤：河陇小型政权的联盟与扩张"
+        ],
+        "simulation_contexts": [
+          "战败后臣属是否保留复起能力",
+          "多方势力夹击下的机动联盟"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 23,
@@ -337,8 +917,34 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-1045",
+        "canonical_name": "谯纵",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "《晋书》卷100有谯纵独立传段，从被军士强推、占成都、与后秦关系到刘裕方面西征及败亡均较完整；但早期被迫推举使动机归因需严格区分事实与解释。",
+        "evidence_pointers": [
+          "《晋书》卷100《卢循谯纵列传》"
+        ],
+        "transition_contexts": [
+          "东晋末益州兵变",
+          "被推举建立成都政权",
+          "向后秦称藩",
+          "刘裕集团西征"
+        ],
+        "comparison_links": [
+          "段业：被他人推举后统治自主性的变化",
+          "公孙述：以蜀地为基础的区域政权"
+        ],
+        "simulation_contexts": [
+          "非主动起兵者被推为主后的控制权",
+          "区域政权在宗主关系与独立之间的选择"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 24,
@@ -351,8 +957,1011 @@
         "data/rulers-master-h6-north-south-sui-tang.json"
       ],
       "source_segment": 6,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0028",
+        "canonical_name": "侯景",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《梁书》卷56为侯景独立长传，横跨北魏末、东魏、高氏体系、投梁、侯景之乱、控制建康与称帝全过程；另可由梁帝纪、南史交叉，证据层次充足。",
+        "evidence_pointers": [
+          "《梁书》卷56《侯景列传》",
+          "《梁书》武帝、简文帝、元帝诸纪侯景相关纪事",
+          "《南史》侯景相关列传与纪事"
+        ],
+        "transition_contexts": [
+          "北朝军阀体系转移",
+          "投梁",
+          "侯景之乱",
+          "攻占建康",
+          "短命政权建立与覆亡"
+        ],
+        "comparison_links": [
+          "桓玄：军事强人控制中央并改朝换代",
+          "吕光：军事集团脱离原政治中心后自立"
+        ],
+        "simulation_contexts": [
+          "叛将被接纳后的委托风险",
+          "夺取首都后从军事控制转为政权治理"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    }
+  ],
+  "review_sequence": [
+    {
+      "sequence": 1,
+      "person_id": "ruler-0046",
+      "canonical_name": "公孙述",
+      "polities": [
+        "成家"
+      ],
+      "source_files": [
+        "data/rulers-master-h4-qin-han.json"
+      ],
+      "source_segment": 4,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0046",
+        "canonical_name": "公孙述",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《后汉书》有独立长篇列传，覆盖地方治理、蜀地割据、自立、外交与对东汉战争，足以建立人物特异模型。",
+        "evidence_pointers": [
+          "《后汉书》卷13《隗嚣公孙述列传》",
+          "《后汉书》卷1上、卷1下《光武帝纪》相关纪事"
+        ],
+        "transition_contexts": [
+          "新莽崩解",
+          "地方行政长官转为割据君主",
+          "成家建立与东汉统一战争"
+        ],
+        "comparison_links": [
+          "刘玄：新莽崩解后的不同政权形成路径",
+          "刘秀：区域政权与统一型政权的组织差异"
+        ],
+        "simulation_contexts": [
+          "蜀地防御与外向扩张取舍",
+          "面对统一压力时的联盟与守势选择"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 2,
+      "person_id": "ruler-0095",
+      "canonical_name": "刘玄",
+      "polities": [
+        "更始政权/玄汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h4-qin-han.json"
+      ],
+      "source_segment": 4,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0095",
+        "canonical_name": "刘玄",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《后汉书》卷11为刘玄、刘盆子专传，保存起兵、被拥立、入长安、政权内部结构与败亡过程；另可与光武纪交叉。",
+        "evidence_pointers": [
+          "《后汉书》卷11《刘玄刘盆子列传》",
+          "《后汉书》卷1上《光武帝纪上》相关纪事"
+        ],
+        "transition_contexts": [
+          "新莽末群雄起兵",
+          "联盟推举式即位",
+          "更始政权进入长安后失序",
+          "赤眉与东汉夹击"
+        ],
+        "comparison_links": [
+          "刘盆子：被军事集团推举的统治约束",
+          "刘秀：同宗起兵后不同组织化路径"
+        ],
+        "simulation_contexts": [
+          "松散联盟转化为中央政权",
+          "进入首都后的组织整合与人事配置"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 3,
+      "person_id": "ruler-0097",
+      "canonical_name": "刘盆子",
+      "polities": [
+        "赤眉汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h4-qin-han.json"
+      ],
+      "source_segment": 4,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0097",
+        "canonical_name": "刘盆子",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "正史有专传且事件链清楚，但许多关键行为由赤眉将领与组织推动，个人自主决策材料明显少于刘玄、公孙述；适合约束性模型而非补写性格。",
+        "evidence_pointers": [
+          "《后汉书》卷11《刘玄刘盆子列传》",
+          "《后汉书》卷1上、卷1下《光武帝纪》相关赤眉纪事"
+        ],
+        "transition_contexts": [
+          "赤眉军推举宗室",
+          "象征性君主",
+          "长安占领与撤退",
+          "向东汉投降"
+        ],
+        "comparison_links": [
+          "刘玄：军事集团推举君主的不同程度能动性",
+          "石世：短期受制于权臣/监国集团的统治"
+        ],
+        "simulation_contexts": [
+          "低自主权君主在强军事集团中的行动空间",
+          "败局中投降与存续选择"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 4,
+      "person_id": "ruler-0049",
+      "canonical_name": "冉智",
+      "polities": [
+        "冉魏"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0049",
+        "canonical_name": "冉智",
+        "source_review_complete": true,
+        "evidence_state": "LIMITED",
+        "evidence_note": "材料主要依附冉闵政权末期叙事，能确认太子身份、邺城陷落及被俘等事件，但几乎没有可独立归因的统治决策；后续 Skill 必须显著限制模型数量与强度。",
+        "evidence_pointers": [
+          "《晋书》卷107《石季龙载记下》冉闵及冉智相关纪事"
+        ],
+        "transition_contexts": [
+          "冉魏覆亡",
+          "都城失守",
+          "继承人被俘"
+        ],
+        "comparison_links": [
+          "石世：极低自主权的短期统治/继承情境",
+          "柴宗训：幼弱或低能动统治者的证据约束建模"
+        ],
+        "simulation_contexts": [
+          "政权崩溃末期继承人的有限选择集"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 5,
+      "person_id": "ruler-0326",
+      "canonical_name": "张天锡",
+      "polities": [
+        "前凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0326",
+        "canonical_name": "张天锡",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷86有独立较长段落，包含即位、政务、用人、军事行动、对东晋与前秦关系、亡国后经历及本人答书，可进行多角度交叉。",
+        "evidence_pointers": [
+          "《晋书》卷86《张轨传》附张天锡",
+          "《全晋文》卷154张天锡文"
+        ],
+        "transition_contexts": [
+          "前凉末期统治",
+          "东晋名义关系",
+          "前秦扩张压力",
+          "亡国后进入前秦与东晋政治秩序"
+        ],
+        "comparison_links": [
+          "吕光：河西政权的军政路径差异",
+          "苻丕：强邻压力下的政权存续"
+        ],
+        "simulation_contexts": [
+          "边疆政权在两大强权之间的外交选择",
+          "外压下的继承与用人风险"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 6,
+      "person_id": "ruler-0359",
+      "canonical_name": "慕容儁",
+      "polities": [
+        "前燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0359",
+        "canonical_name": "慕容儁",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷110为慕容儁专载记，覆盖继位、利用后赵崩解扩张、军事组织、称帝及内部治理，个人行动链非常完整。",
+        "evidence_pointers": [
+          "《晋书》卷110《慕容儁载记》"
+        ],
+        "transition_contexts": [
+          "后赵崩解后的北方权力真空",
+          "前燕扩张",
+          "由燕王到皇帝的制度升级"
+        ],
+        "comparison_links": [
+          "慕容德：同一宗室在不同崩解节点建立政权",
+          "苻丕：北方帝国崩解后的再组织"
+        ],
+        "simulation_contexts": [
+          "竞争性真空中的扩张时机",
+          "宗室与将领配置对快速扩张的影响"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 7,
+      "person_id": "ruler-0916",
+      "canonical_name": "苻丕",
+      "polities": [
+        "前秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0916",
+        "canonical_name": "苻丕",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷115为苻丕专载记，记录其邺城防守、前秦崩解后的迁转、即位、重新组织力量与败亡，证据足以区分继承、复国与危机决策。",
+        "evidence_pointers": [
+          "《晋书》卷115《苻丕苻登载记》"
+        ],
+        "transition_contexts": [
+          "淝水后前秦崩解",
+          "邺城防守",
+          "晋阳即位",
+          "多方割据竞争"
+        ],
+        "comparison_links": [
+          "慕容儁：权力真空中的扩张与重组",
+          "张天锡：前秦扩张链条两端的统治者"
+        ],
+        "simulation_contexts": [
+          "帝国崩解后的残余资源重组",
+          "多战线压力下的迁都与联盟选择"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 8,
+      "person_id": "ruler-0665",
+      "canonical_name": "段业",
+      "polities": [
+        "北凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0665",
+        "canonical_name": "段业",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "段业没有独立长传，但《晋书》沮渠蒙逊载记与《资治通鉴》连续记录其被推举、任用蒙逊、军事判断与最终被杀；信息足以建模权力依赖，但必须区分蒙逊主导的行动。",
+        "evidence_pointers": [
+          "《晋书》卷129《沮渠蒙逊载记》段业相关纪事",
+          "《资治通鉴》卷110段业、沮渠蒙逊相关纪事"
+        ],
+        "transition_contexts": [
+          "后凉分裂",
+          "被军事集团推举建政",
+          "君主与强将权力失衡",
+          "北凉权力转移"
+        ],
+        "comparison_links": [
+          "刘玄：联盟推举式统治",
+          "兰汗：短期夺权与内部权力重组"
+        ],
+        "simulation_contexts": [
+          "弱组织基础下如何约束强将",
+          "依赖型建政的委任与猜忌困境"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 9,
+      "person_id": "ruler-0052",
+      "canonical_name": "冯弘",
+      "polities": [
+        "北燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0052",
+        "canonical_name": "冯弘",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "北燕末期材料分散于《魏书》、北魏帝纪与《资治通鉴》，但其夺取继承、对北魏关系、出奔高句丽及最终死亡的事件链可重建；个人内政材料相对有限。",
+        "evidence_pointers": [
+          "《魏书》卷97《海夷冯跋列传》冯弘相关部分",
+          "《资治通鉴》卷122—123北燕冯弘相关纪事",
+          "《北史》卷2太武帝纪相关纪事"
+        ],
+        "transition_contexts": [
+          "北燕继承危机",
+          "北魏扩张",
+          "出奔高句丽",
+          "流亡政权终结"
+        ],
+        "comparison_links": [
+          "李势：末代政权面对外部征服",
+          "谯纵：区域政权在强邻夹击下的结局"
+        ],
+        "simulation_contexts": [
+          "外部压迫下的投降、迁徙与求援选择",
+          "流亡君主与接纳国之间的权力不对称"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 10,
+      "person_id": "ruler-0831",
+      "canonical_name": "秃发乌孤",
+      "polities": [
+        "南凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0831",
+        "canonical_name": "秃发乌孤",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷126以秃发乌孤开篇并有独立传段，涵盖部族基础、与吕光关系、独立建政、农业与邻交策略、军事扩张，人物行动可观察度高。",
+        "evidence_pointers": [
+          "《晋书》卷126《秃发乌孤秃发利鹿孤秃发傉檀载记》"
+        ],
+        "transition_contexts": [
+          "河西多政权竞争",
+          "由受封到独立",
+          "南凉建政"
+        ],
+        "comparison_links": [
+          "吕光：河西统治网络中的中心与分裂者",
+          "乞伏乾归：西北多族群政权的联盟与战争"
+        ],
+        "simulation_contexts": [
+          "受封关系何时转化为独立",
+          "小型边疆政权的农业、联盟与军事资源配置"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 11,
+      "person_id": "ruler-0363",
+      "canonical_name": "慕容德",
+      "polities": [
+        "南燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0363",
+        "canonical_name": "慕容德",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷127为慕容德专载记，前燕、后燕任职经历和南燕建政过程连续，且保留多处本人主张与决策，可支持长期模型。",
+        "evidence_pointers": [
+          "《晋书》卷127《慕容德载记》"
+        ],
+        "transition_contexts": [
+          "前燕亡国遗臣",
+          "后燕分裂",
+          "南迁与南燕建立"
+        ],
+        "comparison_links": [
+          "慕容儁：慕容宗室在不同扩张/崩解阶段的治理路径",
+          "冯弘：燕系政权末端的迁徙与存续"
+        ],
+        "simulation_contexts": [
+          "母体政权崩解后是否另建中心",
+          "跨区域迁徙中的组织重建"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 12,
+      "person_id": "ruler-0192",
+      "canonical_name": "吕光",
+      "polities": [
+        "后凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0192",
+        "canonical_name": "吕光",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷122为吕光专载记，覆盖前秦将领经历、西域远征、回师河西、自立、治理与晚年继承问题，时间跨度和个人决策材料都很充足。",
+        "evidence_pointers": [
+          "《晋书》卷122《吕光吕纂吕隆载记》"
+        ],
+        "transition_contexts": [
+          "前秦帝国崩解",
+          "西域远征军转化为地方政权",
+          "后凉建政",
+          "河西再分裂"
+        ],
+        "comparison_links": [
+          "张天锡：前凉末端与后凉起点",
+          "秃发乌孤、段业：后凉分裂出的竞争政权"
+        ],
+        "simulation_contexts": [
+          "远征军在母国崩溃后如何选择归属",
+          "军事创始人与继承安排的冲突"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 13,
+      "person_id": "ruler-0047",
+      "canonical_name": "兰汗",
+      "polities": [
+        "后燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0047",
+        "canonical_name": "兰汗",
+        "source_review_complete": true,
+        "evidence_state": "LIMITED",
+        "evidence_note": "兰汗的材料主要嵌在慕容宝、慕容盛叙事中，能确认其参与政变、弑慕容宝、自称昌黎王及很快被慕容盛诛杀，但独立内政和长期偏好不可观察。",
+        "evidence_pointers": [
+          "《晋书》卷124《慕容宝慕容盛慕容熙慕容云载记》兰汗相关纪事",
+          "《晋书》卷10《安帝纪》隆安二年相关纪事"
+        ],
+        "transition_contexts": [
+          "后燕内乱",
+          "宫廷政变",
+          "短期篡位",
+          "慕容盛复权"
+        ],
+        "comparison_links": [
+          "刘和：极短继承危机与内部暴力",
+          "段业：统治基础依赖内部集团"
+        ],
+        "simulation_contexts": [
+          "政变成功后的短窗口稳定化",
+          "高不信任宫廷中的联盟维持"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 14,
+      "person_id": "ruler-0224",
+      "canonical_name": "姚兴",
+      "polities": [
+        "后秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0224",
+        "canonical_name": "姚兴",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷117—118连续两卷为姚兴载记，军事、行政、边疆、宗室继承、文化宗教与对外关系材料密集，适合高分辨率研究。",
+        "evidence_pointers": [
+          "《晋书》卷117《姚兴载记上》",
+          "《晋书》卷118《姚兴载记下》",
+          "《全晋文》卷153姚兴文"
+        ],
+        "transition_contexts": [
+          "后秦继承",
+          "消灭苻登",
+          "长期统治与多边外交",
+          "晚年储位冲突"
+        ],
+        "comparison_links": [
+          "赫连勃勃：任用与反叛关系中的边疆治理",
+          "乞伏乾归：臣属、复起与西北均势"
+        ],
+        "simulation_contexts": [
+          "多边边疆均势",
+          "长期统治后期的储位与宗室风险",
+          "对叛降势力的吸纳策略"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 15,
+      "person_id": "ruler-0812",
+      "canonical_name": "石世",
+      "polities": [
+        "后赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0812",
+        "canonical_name": "石世",
+        "source_review_complete": true,
+        "evidence_state": "LIMITED",
+        "evidence_note": "《晋书》卷107有石世短段，但即位后刘太后临朝、张豺主政，石世本人的独立决策几乎不可识别；应将模型中心放在受制结构而非虚构人格。",
+        "evidence_pointers": [
+          "《晋书》卷107《石季龙载记下》石世段"
+        ],
+        "transition_contexts": [
+          "后赵继承危机",
+          "皇太后临朝",
+          "权臣张豺控制",
+          "石遵政变"
+        ],
+        "comparison_links": [
+          "刘盆子：受强组织约束的名义最高统治者",
+          "冉智：政权崩解阶段的低能动继承人"
+        ],
+        "simulation_contexts": [
+          "幼弱继承下的摄政与权臣博弈"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 16,
+      "person_id": "ruler-0522",
+      "canonical_name": "李势",
+      "polities": [
+        "成汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0522",
+        "canonical_name": "李势",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "《晋书》卷121有独立李势段落，包含继位、宗室与辅臣处置、叛乱、纪纲变化及东晋灭成汉过程；材料足以建立末代统治模型但不宜过度心理化。",
+        "evidence_pointers": [
+          "《晋书》卷121《李雄李班李期李寿李势载记》李势段"
+        ],
+        "transition_contexts": [
+          "成汉末期继承",
+          "宗室清洗",
+          "内部叛乱",
+          "桓温西征与亡国"
+        ],
+        "comparison_links": [
+          "冯弘：区域政权末代在强敌压力下的选择",
+          "张天锡：西部政权末期的内外压力"
+        ],
+        "simulation_contexts": [
+          "末代政权中宗室安全与政治包容的取舍",
+          "强敌入侵前的内部整合"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 17,
+      "person_id": "ruler-0625",
+      "canonical_name": "桓玄",
+      "polities": [
+        "桓楚"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0625",
+        "canonical_name": "桓玄",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷99为桓玄长传，另有本人檄文、赋文与东晋帝纪交叉，覆盖地方任职、军事联盟、控制中央、篡位、政策与败亡。",
+        "evidence_pointers": [
+          "《晋书》卷99《桓玄卞范之殷仲文列传》",
+          "《晋书》卷10《安帝纪》相关纪事",
+          "《全晋文》及桓玄存文"
+        ],
+        "transition_contexts": [
+          "东晋门阀政治危机",
+          "军阀联盟",
+          "控制中央政府",
+          "桓楚建立与刘裕复晋"
+        ],
+        "comparison_links": [
+          "侯景：军事强人夺取首都并建立短命政权",
+          "谯纵：东晋末地方军政割据"
+        ],
+        "simulation_contexts": [
+          "从强臣到改朝换代的阈值",
+          "控制中央后如何处理合法性与地方军力"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 18,
+      "person_id": "ruler-0066",
+      "canonical_name": "刘和",
+      "polities": [
+        "汉赵/前赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0066",
+        "canonical_name": "刘和",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "刘和短期统治附载于《晋书》刘元海载记，继承安排、顾命集团、刘聪等宗室军事力量及宫廷冲突均有记载，但在位极短，长期政策偏好不可观察。",
+        "evidence_pointers": [
+          "《晋书》卷101《刘元海载记》末段及刘和继位相关纪事"
+        ],
+        "transition_contexts": [
+          "汉赵创始人去世后的继承",
+          "顾命结构失灵",
+          "宗室军事集团冲突",
+          "短期宫廷政变"
+        ],
+        "comparison_links": [
+          "兰汗：超短统治中的高不信任联盟",
+          "石世：继承结构被权臣/宗室迅速颠覆"
+        ],
+        "simulation_contexts": [
+          "创始人死后的继承安全",
+          "先发清洗与联盟反噬"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 19,
+      "person_id": "ruler-1049",
+      "canonical_name": "赫连勃勃",
+      "polities": [
+        "胡夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-1049",
+        "canonical_name": "赫连勃勃",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷130整卷为赫连勃勃载记，覆盖家族背景、后秦任用、反叛建夏、战争、统万城建设、用人与继承，个人决策材料极丰富。",
+        "evidence_pointers": [
+          "《晋书》卷130《赫连勃勃载记》",
+          "《晋书》卷117—118姚兴载记中的赫连勃勃相关交叉纪事"
+        ],
+        "transition_contexts": [
+          "后秦边疆将领转为独立君主",
+          "胡夏建立",
+          "朔方与关中竞争",
+          "统万城建设与国家化"
+        ],
+        "comparison_links": [
+          "姚兴：任用—反叛关系的双方视角",
+          "吕光：军事资源转化为边疆政权"
+        ],
+        "simulation_contexts": [
+          "边疆代理人反叛风险",
+          "机动战争与定都建制的资源转换"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 20,
+      "person_id": "ruler-0534",
+      "canonical_name": "李恂",
+      "polities": [
+        "西凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0534",
+        "canonical_name": "李恂",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "《十六国春秋》西凉录三有李恂专段，清楚记录其敦煌任职、被地方人士迎回、守城与最终覆亡；时间短且材料集中于复国末段，适合中等证据模型。",
+        "evidence_pointers": [
+          "《十六国春秋》卷93《西凉录三·李恂》",
+          "《晋书》凉武昭王李暠家族相关传记可作谱系交叉"
+        ],
+        "transition_contexts": [
+          "西凉亡后复起",
+          "敦煌地方支持",
+          "北凉围城",
+          "西凉最终覆亡"
+        ],
+        "comparison_links": [
+          "冯弘：亡国边缘的撤退/求存路径",
+          "段业：河西政权对沮渠集团的不同关系"
+        ],
+        "simulation_contexts": [
+          "失国后依靠地方支持复起",
+          "围城中的坚守、突围与投降选择"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 21,
+      "person_id": "ruler-0360",
+      "canonical_name": "慕容冲",
+      "polities": [
+        "西燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0360",
+        "canonical_name": "慕容冲",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "没有独立长传，但《晋书》苻坚载记、相关编年史与存留答书提供从前燕宗室、前秦控制、起兵、围取长安到短暂称帝的连续事件；需谨慎处理后世轶说。",
+        "evidence_pointers": [
+          "《晋书》卷114《苻坚载记下》慕容冲相关纪事",
+          "《全晋文》卷150《慕容冲命詹事答苻坚》"
+        ],
+        "transition_contexts": [
+          "前燕亡国宗室",
+          "淝水后前秦崩解",
+          "西燕起兵",
+          "攻占长安与短期称帝"
+        ],
+        "comparison_links": [
+          "苻丕：前秦崩解时敌对政权的同时重组",
+          "慕容德：慕容宗室在不同地理方向的再建政"
+        ],
+        "simulation_contexts": [
+          "被征服宗室在母国崩解时的复国窗口",
+          "攻取核心城市后是否迁移/固守"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 22,
+      "person_id": "ruler-0012",
+      "canonical_name": "乞伏乾归",
+      "polities": [
+        "西秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0012",
+        "canonical_name": "乞伏乾归",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《晋书》卷125有乞伏乾归独立长段，覆盖继位、联盟与征战、败降后秦、再度复起等多个阶段，特别适合研究可逆臣属和政权恢复。",
+        "evidence_pointers": [
+          "《晋书》卷125《乞伏国仁乞伏乾归乞伏炽磐载记》"
+        ],
+        "transition_contexts": [
+          "西秦继承",
+          "河陇多方竞争",
+          "败于后秦后的臣属",
+          "再次复国"
+        ],
+        "comparison_links": [
+          "姚兴：臣属关系双方的策略",
+          "秃发乌孤：河陇小型政权的联盟与扩张"
+        ],
+        "simulation_contexts": [
+          "战败后臣属是否保留复起能力",
+          "多方势力夹击下的机动联盟"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 23,
+      "person_id": "ruler-1045",
+      "canonical_name": "谯纵",
+      "polities": [
+        "谯蜀"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-1045",
+        "canonical_name": "谯纵",
+        "source_review_complete": true,
+        "evidence_state": "MODERATE",
+        "evidence_note": "《晋书》卷100有谯纵独立传段，从被军士强推、占成都、与后秦关系到刘裕方面西征及败亡均较完整；但早期被迫推举使动机归因需严格区分事实与解释。",
+        "evidence_pointers": [
+          "《晋书》卷100《卢循谯纵列传》"
+        ],
+        "transition_contexts": [
+          "东晋末益州兵变",
+          "被推举建立成都政权",
+          "向后秦称藩",
+          "刘裕集团西征"
+        ],
+        "comparison_links": [
+          "段业：被他人推举后统治自主性的变化",
+          "公孙述：以蜀地为基础的区域政权"
+        ],
+        "simulation_contexts": [
+          "非主动起兵者被推为主后的控制权",
+          "区域政权在宗主关系与独立之间的选择"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
+    },
+    {
+      "sequence": 24,
+      "person_id": "ruler-0028",
+      "canonical_name": "侯景",
+      "polities": [
+        "侯景汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h6-north-south-sui-tang.json"
+      ],
+      "source_segment": 6,
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
+      "source_review": {
+        "person_id": "ruler-0028",
+        "canonical_name": "侯景",
+        "source_review_complete": true,
+        "evidence_state": "RICH",
+        "evidence_note": "《梁书》卷56为侯景独立长传，横跨北魏末、东魏、高氏体系、投梁、侯景之乱、控制建康与称帝全过程；另可由梁帝纪、南史交叉，证据层次充足。",
+        "evidence_pointers": [
+          "《梁书》卷56《侯景列传》",
+          "《梁书》武帝、简文帝、元帝诸纪侯景相关纪事",
+          "《南史》侯景相关列传与纪事"
+        ],
+        "transition_contexts": [
+          "北朝军阀体系转移",
+          "投梁",
+          "侯景之乱",
+          "攻占建康",
+          "短命政权建立与覆亡"
+        ],
+        "comparison_links": [
+          "桓玄：军事强人控制中央并改朝换代",
+          "吕光：军事集团脱离原政治中心后自立"
+        ],
+        "simulation_contexts": [
+          "叛将被接纳后的委托风险",
+          "夺取首都后从军事控制转为政权治理"
+        ],
+        "reviewed_by": "GPT-5.6 Sol",
+        "reviewed_on": "2026-09-18"
+      }
     },
     {
       "sequence": 25,
