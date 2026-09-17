@@ -34,13 +34,15 @@ CANONICAL_ALIAS = {
     "朱温/朱晃": "朱温", "李茂贞/宋文通": "李茂贞", "杨诏/杨明": "杨诏",
     "阿速吉八/阿剌吉八": "阿速吉八", "阿速吉八/阿剌吉八/Ragibagh": "阿速吉八",
     "神农/炎帝": "神农氏", "武曌": "武则天", "汪兆铭": "汪精卫", "蒋中正": "蒋介石",
+    # Traditional orthographic / regnal-title variants already present in the legacy corpus.
+    "中丁": "仲丁", "中壬": "仲壬", "僖王": "釐王", "周僖王": "釐王",
+    "周顷王": "顷王", "周慎靓王": "慎靓王",
 }
 SKILL_NAME_ALIAS = {
     "义帝": "熊心", "秦始皇": "嬴政", "秦二世": "胡亥", "汉高祖": "刘邦",
     "汉光武帝": "刘秀", "唐高祖": "李渊", "唐太宗": "李世民", "武则天": "武则天",
 }
 
-# Existing legacy directory -> candidate polity lanes that may be matched using title/name hints.
 DIR_POLITY_HINTS = {
     "xia": {"夏"}, "shang": {"商"}, "zhou": {"周王室"},
     "qin": {"秦帝国"}, "chuhan": {"秦末楚汉竞争政权"}, "xihan": {"西汉"}, "donghan": {"东汉"},
@@ -51,10 +53,12 @@ DIR_POLITY_HINTS = {
 }
 
 DYNASTY_PREFIXES = [
-    "周", "夏", "商", "秦", "汉", "晋", "魏", "蜀", "吴", "唐", "宋", "元", "明", "清",
-    "齐", "楚", "燕", "韩", "赵", "郑", "鲁", "卫", "陈", "蔡", "曹", "越", "辽", "金",
-    "北魏", "东魏", "西魏", "北齐", "北周", "南齐", "刘宋", "西夏", "后梁", "后唐", "后晋", "后汉", "后周",
+    "西周", "东周", "北魏", "东魏", "西魏", "北齐", "北周", "南齐", "刘宋", "西夏",
+    "后梁", "后唐", "后晋", "后汉", "后周", "周", "夏", "商", "秦", "汉", "晋", "魏",
+    "蜀", "吴", "唐", "宋", "元", "明", "清", "齐", "楚", "燕", "韩", "赵", "郑", "鲁",
+    "卫", "陈", "蔡", "曹", "越", "辽", "金",
 ]
+TITLE_ENDINGS = ("王", "公", "帝", "侯", "君", "祖", "宗")
 
 
 def load_json(path: Path) -> Any:
@@ -77,8 +81,16 @@ def normalize_name(name: str | None) -> str | None:
     if not name:
         return None
     s = re.sub(r"\s+", "", str(name).strip()).replace("／", "/")
-    # Skill cn often stores "司马炽（晋怀帝）" while master uses "司马炽".
     s = re.sub(r"[（(][^）)]*[）)]$", "", s)
+    s = CANONICAL_ALIAS.get(s, SKILL_NAME_ALIAS.get(s, s))
+    # Legacy cn sometimes stores a dynasty prefix + regnal title (周顷王) while the
+    # early master stores the title (顷王). Restrict this to title-shaped strings.
+    for prefix in sorted(DYNASTY_PREFIXES, key=len, reverse=True):
+        if s.startswith(prefix):
+            rest = s[len(prefix):]
+            if len(rest) >= 2 and rest.endswith(TITLE_ENDINGS):
+                s = rest
+                break
     return CANONICAL_ALIAS.get(s, SKILL_NAME_ALIAS.get(s, s)) or None
 
 
@@ -97,13 +109,11 @@ def parse_skill(path: Path) -> dict[str, Any]:
     cn = out.get("cn")
     if cn:
         hints.add(str(cn))
-        base = re.split(r"[（(]", str(cn), 1)[0]
-        hints.add(base)
+        hints.add(re.split(r"[（(]", str(cn), 1)[0])
         par = re.search(r"[（(]([^）)]+)", str(cn))
         if par:
             hints.add(re.split(r"[，,·;；]", par.group(1))[0])
 
-    # First indented description line usually has "personal name（dynastic title, dates...）".
     dm = re.search(r"(?ms)^description:\s*\|\s*\n\s+([^\n]+)", block)
     if dm:
         first = dm.group(1).strip()
@@ -115,7 +125,6 @@ def parse_skill(path: Path) -> dict[str, Any]:
             first_par = re.split(r"[，,·;；]", pm.group(1))[0].strip()
             if first_par:
                 hints.add(first_par)
-                # "周武王" -> "武王"; useful only with dynasty-dir restriction later.
                 for prefix in sorted(DYNASTY_PREFIXES, key=len, reverse=True):
                     if first_par.startswith(prefix) and len(first_par) > len(prefix) + 1:
                         hints.add(first_par[len(prefix):])
@@ -126,7 +135,6 @@ def parse_skill(path: Path) -> dict[str, Any]:
         h = hm.group(1).strip()
         if 1 <= len(h) <= 16:
             hints.add(h)
-
     out["name_hints"] = sorted({x for x in (normalize_name(h) for h in hints) if x})
     return out
 
@@ -134,8 +142,6 @@ def parse_skill(path: Path) -> dict[str, Any]:
 def status_for(item: Any, parent: dict[str, Any] | None, source: Path, key: str) -> str:
     if source.name == "legendary-rulers.json":
         return "LEGENDARY"
-
-    # Review/candidate containers stay REVIEW unless the item explicitly says CORE.
     key_review = "review" in key.lower() or "candidate" in key.lower()
     if isinstance(item, dict):
         status = str(item.get("status", "")).upper()
@@ -152,10 +158,8 @@ def status_for(item: Any, parent: dict[str, Any] | None, source: Path, key: str)
             return "CORE"
         if layer == "LEGENDARY":
             return "LEGENDARY"
-
     if key_review:
         return "REVIEW"
-
     if parent:
         layer = str(parent.get("layer", "")).upper()
         status = str(parent.get("status", "")).upper()
@@ -170,8 +174,6 @@ def status_for(item: Any, parent: dict[str, Any] | None, source: Path, key: str)
 
 
 def emit_person(item: Any, parent: dict[str, Any], key: str, source: Path, out: list[dict[str, Any]]) -> None:
-    # A plain string under generic `candidates` is frequently a polity discovery queue,
-    # not a person. Person-candidate lists in the corpus use dicts with a name field.
     if key == "candidates" and isinstance(item, str) and not (parent.get("name") or parent.get("id")):
         return
     status = status_for(item, parent, source, key)
@@ -229,8 +231,6 @@ def segment_paths() -> list[Path]:
 
 
 def final_status(signals: set[str]) -> str:
-    # Any explicit REVIEW signal blocks accidental promotion unless a separate source
-    # explicitly locks CORE. CORE wins only when actually present.
     if "CORE" in signals:
         return "CORE"
     return max(signals or {"REVIEW"}, key=lambda x: STATUS_ORDER.get(x, 0))
@@ -238,7 +238,6 @@ def final_status(signals: set[str]) -> str:
 
 def person_alias_hints(name: str, aliases: list[str]) -> set[str]:
     hints = {normalize_name(name)} | {normalize_name(a) for a in aliases}
-    # Slash-separated variant spellings are safe as identity hints.
     for raw in [name, *aliases]:
         for part in re.split(r"[/／]", str(raw)):
             if normalize_name(part):
@@ -285,7 +284,7 @@ def build_candidate_index() -> dict[str, Any]:
         })
     counts = Counter(p["corpus_status"] for p in people)
     return {
-        "schema_version": "0.3", "status": "GENERATED_CANDIDATE_INDEX_NOT_YET_ID_LOCKED",
+        "schema_version": "0.4", "status": "GENERATED_CANDIDATE_INDEX_NOT_YET_ID_LOCKED",
         "warning": "candidate_id is temporary. REVIEW/EXTENDED and cross-polity identities must be QA'd before final IDs are frozen.",
         "generated_from": [str(p.relative_to(ROOT)) for p in sources],
         "stats": {"total_unique_candidates": len(people), **{k.lower(): v for k, v in sorted(counts.items())}},
@@ -307,18 +306,24 @@ def build_skill_inventory() -> dict[str, Any]:
         })
     dup = Counter(r["normalized_cn"] for r in rows if r["normalized_cn"])
     return {
-        "schema_version": "1.1", "status": "EXACT_FRONTMATTER_INVENTORY",
+        "schema_version": "1.2", "status": "EXACT_FRONTMATTER_INVENTORY",
         "count": len(rows), "missing_cn_count": sum(not r["cn"] for r in rows),
         "duplicate_normalized_cn": [{"name": k, "count": v} for k, v in sorted(dup.items()) if v > 1],
         "skills": rows,
     }
 
 
+def load_scope_exceptions() -> dict[str, dict[str, Any]]:
+    path = DATA / "corpus-scope-exceptions.json"
+    if not path.exists():
+        return {}
+    doc = load_json(path)
+    return {x["skill_path"]: x for x in doc.get("existing_skill_exceptions", []) if x.get("skill_path")}
+
+
 def allowed_for_dir(person: dict[str, Any], dynasty_dir: str) -> bool:
     hints = DIR_POLITY_HINTS.get(dynasty_dir)
-    if not hints:
-        return False
-    return bool(set(person.get("polities", [])) & hints)
+    return bool(hints and (set(person.get("polities", [])) & hints))
 
 
 def match(candidate: dict[str, Any], inventory: dict[str, Any]) -> dict[str, Any]:
@@ -337,8 +342,6 @@ def match(candidate: dict[str, Any], inventory: dict[str, Any]) -> dict[str, Any
             if not hint:
                 continue
             for row in by_hint.get(hint, []):
-                # Exact personal-name matches are accepted. Short dynastic titles such as 武王
-                # require the legacy-directory/polity restriction to avoid cross-dynasty collisions.
                 if len(hint) <= 3 and row["normalized_cn"] != hint and not allowed_for_dir(p, row["dynasty_dir"]):
                     continue
                 matches[row["skill_path"]] = row
@@ -355,7 +358,17 @@ def match(candidate: dict[str, Any], inventory: dict[str, Any]) -> dict[str, Any
             "matched_skill_paths": ms, "match_status": "MATCHED" if ms else "MISSING",
         })
 
-    unmatched_skills = [r for r in inventory["skills"] if r["skill_path"] not in matched_skills]
+    exceptions = load_scope_exceptions()
+    scope_exception_rows = []
+    unresolved_rows = []
+    for row in inventory["skills"]:
+        if row["skill_path"] in matched_skills:
+            continue
+        if row["skill_path"] in exceptions:
+            scope_exception_rows.append({**row, "scope_exception": exceptions[row["skill_path"]]})
+        else:
+            unresolved_rows.append(row)
+
     locked_core = [p for p in person_rows if p["corpus_status"] == "CORE"]
     matched_core = [p for p in locked_core if p["match_status"] == "MATCHED"]
     missing_core = [p for p in locked_core if p["match_status"] == "MISSING"]
@@ -363,17 +376,21 @@ def match(candidate: dict[str, Any], inventory: dict[str, Any]) -> dict[str, Any
     extended = [p for p in person_rows if p["corpus_status"] == "EXTENDED"]
     legendary = [p for p in person_rows if p["corpus_status"] == "LEGENDARY"]
     return {
-        "schema_version": "0.2", "status": "AUTOMATED_CONSERVATIVE_IDENTITY_MATCH_V2",
-        "matching_policy": "Exact normalized cn/name-hint/explicit-path matching; short title hints require compatible legacy dynasty-dir. No fuzzy matching.",
+        "schema_version": "0.3", "status": "AUTOMATED_CONSERVATIVE_IDENTITY_MATCH_V3",
+        "matching_policy": "Exact normalized cn/name-hint/explicit-path matching; short title hints require compatible legacy dynasty-dir. No fuzzy matching. Explicit scope exceptions are preserved but excluded from ruler coverage.",
         "summary": {
             "candidate_persons": len(person_rows), "locked_core_persons": len(locked_core),
             "matched_core_persons": len(matched_core), "missing_core_persons": len(missing_core),
             "review_persons": len(review), "extended_persons": len(extended), "legendary_persons": len(legendary),
             "existing_skills": inventory["count"], "matched_existing_skills": len(matched_skills),
-            "unmatched_existing_skills": len(unmatched_skills),
+            "scope_exception_existing_skills": len(scope_exception_rows),
+            "unresolved_existing_skills": len(unresolved_rows),
+            "accounted_existing_skills": len(matched_skills) + len(scope_exception_rows),
             "core_coverage_ratio": round(len(matched_core) / len(locked_core), 4) if locked_core else None,
         },
-        "missing_core": missing_core, "review_queue": review, "unmatched_existing_skills": unmatched_skills,
+        "missing_core": missing_core, "review_queue": review,
+        "scope_exception_existing_skills": scope_exception_rows,
+        "unmatched_existing_skills": unresolved_rows,
         "person_matches": person_rows,
     }
 
@@ -387,26 +404,26 @@ def write_report(gap: dict[str, Any]) -> None:
         "## Working denominator", "",
         f"- Candidate persons: **{s['candidate_persons']}**",
         f"- Locked historical CORE: **{s['locked_core_persons']}**",
-        f"- REVIEW: **{s['review_persons']}**",
-        f"- EXTENDED: **{s['extended_persons']}**",
-        f"- LEGENDARY: **{s['legendary_persons']}**",
-        "", "## Existing Skill coverage", "",
+        f"- REVIEW: **{s['review_persons']}**", f"- EXTENDED: **{s['extended_persons']}**",
+        f"- LEGENDARY: **{s['legendary_persons']}**", "", "## Existing Skill coverage", "",
         f"- Existing Skills scanned: **{s['existing_skills']}**",
-        f"- Existing Skills matched to a master person: **{s['matched_existing_skills']}**",
-        f"- Existing Skills still needing identity normalization: **{s['unmatched_existing_skills']}**",
+        f"- Matched to a ruler person: **{s['matched_existing_skills']}**",
+        f"- Explicit non-ruler/scope exceptions preserved: **{s['scope_exception_existing_skills']}**",
+        f"- Accounted existing Skills: **{s['accounted_existing_skills']} / {s['existing_skills']}**",
+        f"- Still unresolved existing Skill identities: **{s['unresolved_existing_skills']}**",
         f"- Matched CORE persons: **{s['matched_core_persons']}**",
         f"- Missing CORE persons: **{s['missing_core_persons']}**",
         f"- Working CORE coverage: **{ratio}**", "",
         "## Interpretation", "",
         "These are engineering counts, not final historical totals. Small-polity discovery, REVIEW decisions and cross-polity identity QA remain open. REVIEW is excluded from locked CORE until evidence resolves it.",
         "",
-        "One person may have multiple rule episodes/titles/polities but must ultimately receive one stable person ID. Coverage is deliberately separate from Nuwa provenance and semantic-quality audit.",
+        "One person may have multiple rule episodes/titles/polities but must ultimately receive one stable person ID. Existing analytically useful Skills that fail the ruler admission rule are kept through explicit scope exceptions rather than deleted or falsely promoted into CORE.",
         "", "## Automated next gates", "",
-        "1. Resolve unmatched existing Skill identities conservatively; no fuzzy guessing.",
+        "1. Drive unresolved existing Skill identities to zero conservatively.",
         "2. Resolve REVIEW candidates and cross-polity aliases, then freeze stable IDs.",
         "3. Recompute `CORE − matched Skill persons` as the research/distillation queue.",
         "4. Feed only that queue into research → evidence synthesis → Nuwa distillation.",
-        "", "See `data/corpus-gap.json`, `data/existing-skill-person-map.json`, and `data/rulers-person-index.json`.",
+        "", "See `data/corpus-gap.json`, `data/existing-skill-person-map.json`, `data/corpus-scope-exceptions.json`, and `data/rulers-person-index.json`.",
     ]
     ASSESSMENT.mkdir(parents=True, exist_ok=True)
     (ASSESSMENT / "CORPUS_COVERAGE.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -418,7 +435,7 @@ def update_registry(gap: dict[str, Any], candidate: dict[str, Any]) -> None:
     reg["master_corpus"] = {
         "status": candidate["status"], "candidate_index": "data/rulers-person-index.json",
         "coverage_report": "assessment/CORPUS_COVERAGE.md", "gap_file": "data/corpus-gap.json",
-        **gap["summary"],
+        "scope_exceptions": "data/corpus-scope-exceptions.json", **gap["summary"],
         "note": "Provisional until identity QA and remaining polity discovery close; REVIEW excluded from locked CORE.",
     }
     dump_json(path, reg)
@@ -428,11 +445,11 @@ def write_manifest(candidate: dict[str, Any]) -> None:
     path = DATA / "rulers-master.json"
     old = load_json(path) if path.exists() else {}
     dump_json(path, {
-        "schema_version": "2.1", "title": old.get("title", "Chinese Historical Rulers Corpus — Canonical Master"),
+        "schema_version": "2.2", "title": old.get("title", "Chinese Historical Rulers Corpus — Canonical Master"),
         "status": "SEGMENTED_MASTER_IDENTITY_NORMALIZATION_IN_PROGRESS",
         "canonical_scope": "data/RULER_CORPUS_SCOPE.md", "build_plan": "data/corpus-build-plan.json",
-        "person_index": "data/rulers-person-index.json", "segments": candidate["generated_from"],
-        "candidate_stats": candidate["stats"],
+        "person_index": "data/rulers-person-index.json", "scope_exceptions": "data/corpus-scope-exceptions.json",
+        "segments": candidate["generated_from"], "candidate_stats": candidate["stats"],
         "identity_rule": "one person = one final stable ID; reigns/titles/polities are rule episodes",
         "completion_rule": "matched locked CORE persons / all locked CORE persons; REVIEW/EXTENDED/LEGENDARY separate",
         "warning": "Do not publish candidate counts as final historical totals until polity discovery and identity QA close.",
