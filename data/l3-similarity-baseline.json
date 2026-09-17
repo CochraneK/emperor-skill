@@ -1,0 +1,503 @@
+{
+  "schema_version": "1.0",
+  "status": "DIAGNOSTIC_BASELINE_NOT_QUALITY_VERDICT",
+  "summary": {
+    "packages": 267,
+    "pairs_with_overlap_at_least_30": 4371,
+    "jaccard_max": 0.116167,
+    "jaccard_p95": 0.0272705,
+    "jaccard_p99": 0.044835400000000025,
+    "jaccard_p995": 0.05103339999999993,
+    "containment_max": 0.209459,
+    "containment_p95": 0.056444499999999995,
+    "containment_p99": 0.08859740000000021,
+    "containment_p995": 0.10009934999999967,
+    "jaccard_median": 0.008277,
+    "containment_median": 0.017732
+  },
+  "top_30_by_jaccard": [
+    {
+      "left": "skills/nanbeichao/liuyu-perspective",
+      "right": "skills/nanbeichao/xiaodaochang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.116167,
+      "containment": 0.209459,
+      "overlap_shingles": 651
+    },
+    {
+      "left": "skills/zhou/huanwang-perspective",
+      "right": "skills/zhou/xiwang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.10894,
+      "containment": 0.197284,
+      "overlap_shingles": 552
+    },
+    {
+      "left": "skills/donghan/chongdi-perspective",
+      "right": "skills/donghan/shangdi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.094299,
+      "containment": 0.177889,
+      "overlap_shingles": 354
+    },
+    {
+      "left": "skills/nanbeichao/chenbaixian-perspective",
+      "right": "skills/nanbeichao/liuyu-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.0925,
+      "containment": 0.171815,
+      "overlap_shingles": 534
+    },
+    {
+      "left": "skills/tang/liheng_s-perspective",
+      "right": "skills/tang/liyu-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.089116,
+      "containment": 0.169859,
+      "overlap_shingles": 470
+    },
+    {
+      "left": "skills/jin/simachi-perspective",
+      "right": "skills/qin/ziying-perspective",
+      "same_dynasty": false,
+      "jaccard": 0.07654,
+      "containment": 0.145799,
+      "overlap_shingles": 446
+    },
+    {
+      "left": "skills/jin/simaye-perspective",
+      "right": "skills/qin/ziying-perspective",
+      "same_dynasty": false,
+      "jaccard": 0.069468,
+      "containment": 0.134031,
+      "overlap_shingles": 410
+    },
+    {
+      "left": "skills/tang/liheng_s-perspective",
+      "right": "skills/tang/lilongji-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.068341,
+      "containment": 0.137694,
+      "overlap_shingles": 381
+    },
+    {
+      "left": "skills/donghan/andi-perspective",
+      "right": "skills/donghan/shundi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.064191,
+      "containment": 0.122824,
+      "overlap_shingles": 261
+    },
+    {
+      "left": "skills/donghan/hedi-perspective",
+      "right": "skills/donghan/zhangdi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.061491,
+      "containment": 0.116457,
+      "overlap_shingles": 259
+    },
+    {
+      "left": "skills/nanbeichao/chenbaixian-perspective",
+      "right": "skills/nanbeichao/xiaodaochang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.059963,
+      "containment": 0.114077,
+      "overlap_shingles": 359
+    },
+    {
+      "left": "skills/nanbeichao/tuobagui-perspective",
+      "right": "skills/nanbeichao/yuanziyou-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.057577,
+      "containment": 0.11343,
+      "overlap_shingles": 337
+    },
+    {
+      "left": "skills/zhou/kaowang-perspective",
+      "right": "skills/zhou/yuanwang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.057216,
+      "containment": 0.109535,
+      "overlap_shingles": 224
+    },
+    {
+      "left": "skills/nanbeichao/tuobagui-perspective",
+      "right": "skills/nanbeichao/yuanhong-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.057176,
+      "containment": 0.116796,
+      "overlap_shingles": 347
+    },
+    {
+      "left": "skills/donghan/mingdi-perspective",
+      "right": "skills/donghan/zhangdi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.056444,
+      "containment": 0.109924,
+      "overlap_shingles": 247
+    },
+    {
+      "left": "skills/donghan/andi-perspective",
+      "right": "skills/donghan/hedi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.054814,
+      "containment": 0.106353,
+      "overlap_shingles": 226
+    },
+    {
+      "left": "skills/tang/lilongji-perspective",
+      "right": "skills/tang/liyu-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.053297,
+      "containment": 0.104803,
+      "overlap_shingles": 312
+    },
+    {
+      "left": "skills/nanbeichao/liuyu-perspective",
+      "right": "skills/nanbeichao/xiaoyi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.053162,
+      "containment": 0.105212,
+      "overlap_shingles": 327
+    },
+    {
+      "left": "skills/jin/simayi-perspective",
+      "right": "skills/jin/simazhong-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.051942,
+      "containment": 0.099085,
+      "overlap_shingles": 325
+    },
+    {
+      "left": "skills/sanguo/caorui-perspective",
+      "right": "skills/sanguo/sunxiu-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.051671,
+      "containment": 0.099202,
+      "overlap_shingles": 286
+    },
+    {
+      "left": "skills/nanbeichao/tuobagui-perspective",
+      "right": "skills/nanbeichao/tuobahong-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.051634,
+      "containment": 0.099966,
+      "overlap_shingles": 297
+    },
+    {
+      "left": "skills/nanbeichao/tuobagui-perspective",
+      "right": "skills/nanbeichao/yuanke-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.0512,
+      "containment": 0.097893,
+      "overlap_shingles": 288
+    },
+    {
+      "left": "skills/xia/bujiang-perspective",
+      "right": "skills/xia/huai-xia-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.051004,
+      "containment": 0.102304,
+      "overlap_shingles": 564
+    },
+    {
+      "left": "skills/nanbeichao/yuanhong-perspective",
+      "right": "skills/nanbeichao/yuanke-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.050148,
+      "containment": 0.103671,
+      "overlap_shingles": 305
+    },
+    {
+      "left": "skills/nanbeichao/liuyu-perspective",
+      "right": "skills/nanbeichao/xiaoluan-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.050059,
+      "containment": 0.095882,
+      "overlap_shingles": 298
+    },
+    {
+      "left": "skills/nanbeichao/xiaodaochang-perspective",
+      "right": "skills/nanbeichao/xiaoyi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.049944,
+      "containment": 0.098507,
+      "overlap_shingles": 310
+    },
+    {
+      "left": "skills/nanbeichao/xiaodaochang-perspective",
+      "right": "skills/nanbeichao/xiaoluan-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.049908,
+      "containment": 0.095132,
+      "overlap_shingles": 299
+    },
+    {
+      "left": "skills/nanbeichao/liuyu-perspective",
+      "right": "skills/nanbeichao/xiaoyan-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.049807,
+      "containment": 0.09556,
+      "overlap_shingles": 297
+    },
+    {
+      "left": "skills/zhou/dingwang-perspective",
+      "right": "skills/zhou/kuangwang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.04908,
+      "containment": 0.100855,
+      "overlap_shingles": 224
+    },
+    {
+      "left": "skills/nanbeichao/chenxuan-perspective",
+      "right": "skills/nanbeichao/liuyu-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.048902,
+      "containment": 0.094595,
+      "overlap_shingles": 294
+    }
+  ],
+  "top_30_by_containment": [
+    {
+      "left": "skills/nanbeichao/liuyu-perspective",
+      "right": "skills/nanbeichao/xiaodaochang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.116167,
+      "containment": 0.209459,
+      "overlap_shingles": 651
+    },
+    {
+      "left": "skills/zhou/huanwang-perspective",
+      "right": "skills/zhou/xiwang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.10894,
+      "containment": 0.197284,
+      "overlap_shingles": 552
+    },
+    {
+      "left": "skills/donghan/chongdi-perspective",
+      "right": "skills/donghan/shangdi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.094299,
+      "containment": 0.177889,
+      "overlap_shingles": 354
+    },
+    {
+      "left": "skills/nanbeichao/chenbaixian-perspective",
+      "right": "skills/nanbeichao/liuyu-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.0925,
+      "containment": 0.171815,
+      "overlap_shingles": 534
+    },
+    {
+      "left": "skills/tang/liheng_s-perspective",
+      "right": "skills/tang/liyu-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.089116,
+      "containment": 0.169859,
+      "overlap_shingles": 470
+    },
+    {
+      "left": "skills/jin/simachi-perspective",
+      "right": "skills/qin/ziying-perspective",
+      "same_dynasty": false,
+      "jaccard": 0.07654,
+      "containment": 0.145799,
+      "overlap_shingles": 446
+    },
+    {
+      "left": "skills/tang/liheng_s-perspective",
+      "right": "skills/tang/lilongji-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.068341,
+      "containment": 0.137694,
+      "overlap_shingles": 381
+    },
+    {
+      "left": "skills/jin/simaye-perspective",
+      "right": "skills/qin/ziying-perspective",
+      "same_dynasty": false,
+      "jaccard": 0.069468,
+      "containment": 0.134031,
+      "overlap_shingles": 410
+    },
+    {
+      "left": "skills/donghan/andi-perspective",
+      "right": "skills/donghan/shundi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.064191,
+      "containment": 0.122824,
+      "overlap_shingles": 261
+    },
+    {
+      "left": "skills/nanbeichao/tuobagui-perspective",
+      "right": "skills/nanbeichao/yuanhong-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.057176,
+      "containment": 0.116796,
+      "overlap_shingles": 347
+    },
+    {
+      "left": "skills/donghan/hedi-perspective",
+      "right": "skills/donghan/zhangdi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.061491,
+      "containment": 0.116457,
+      "overlap_shingles": 259
+    },
+    {
+      "left": "skills/nanbeichao/chenbaixian-perspective",
+      "right": "skills/nanbeichao/xiaodaochang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.059963,
+      "containment": 0.114077,
+      "overlap_shingles": 359
+    },
+    {
+      "left": "skills/nanbeichao/tuobagui-perspective",
+      "right": "skills/nanbeichao/yuanziyou-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.057577,
+      "containment": 0.11343,
+      "overlap_shingles": 337
+    },
+    {
+      "left": "skills/donghan/mingdi-perspective",
+      "right": "skills/donghan/zhangdi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.056444,
+      "containment": 0.109924,
+      "overlap_shingles": 247
+    },
+    {
+      "left": "skills/zhou/kaowang-perspective",
+      "right": "skills/zhou/yuanwang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.057216,
+      "containment": 0.109535,
+      "overlap_shingles": 224
+    },
+    {
+      "left": "skills/donghan/andi-perspective",
+      "right": "skills/donghan/hedi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.054814,
+      "containment": 0.106353,
+      "overlap_shingles": 226
+    },
+    {
+      "left": "skills/zhou/yuanwang-perspective",
+      "right": "skills/zhou/zhendingwang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.045512,
+      "containment": 0.106112,
+      "overlap_shingles": 217
+    },
+    {
+      "left": "skills/nanbeichao/liuyu-perspective",
+      "right": "skills/nanbeichao/xiaoyi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.053162,
+      "containment": 0.105212,
+      "overlap_shingles": 327
+    },
+    {
+      "left": "skills/tang/lilongji-perspective",
+      "right": "skills/tang/liyu-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.053297,
+      "containment": 0.104803,
+      "overlap_shingles": 312
+    },
+    {
+      "left": "skills/nanbeichao/yuanhong-perspective",
+      "right": "skills/nanbeichao/yuanke-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.050148,
+      "containment": 0.103671,
+      "overlap_shingles": 305
+    },
+    {
+      "left": "skills/xia/bujiang-perspective",
+      "right": "skills/xia/huai-xia-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.051004,
+      "containment": 0.102304,
+      "overlap_shingles": 564
+    },
+    {
+      "left": "skills/zhou/dingwang-perspective",
+      "right": "skills/zhou/kuangwang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.04908,
+      "containment": 0.100855,
+      "overlap_shingles": 224
+    },
+    {
+      "left": "skills/nanbeichao/tuobagui-perspective",
+      "right": "skills/nanbeichao/tuobahong-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.051634,
+      "containment": 0.099966,
+      "overlap_shingles": 297
+    },
+    {
+      "left": "skills/sanguo/caorui-perspective",
+      "right": "skills/sanguo/sunxiu-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.051671,
+      "containment": 0.099202,
+      "overlap_shingles": 286
+    },
+    {
+      "left": "skills/jin/simayi-perspective",
+      "right": "skills/jin/simazhong-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.051942,
+      "containment": 0.099085,
+      "overlap_shingles": 325
+    },
+    {
+      "left": "skills/zhou/kuangwang-perspective",
+      "right": "skills/zhou/lingwang-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.046715,
+      "containment": 0.098604,
+      "overlap_shingles": 219
+    },
+    {
+      "left": "skills/nanbeichao/xiaodaochang-perspective",
+      "right": "skills/nanbeichao/xiaoyi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.049944,
+      "containment": 0.098507,
+      "overlap_shingles": 310
+    },
+    {
+      "left": "skills/nanbeichao/tuobagui-perspective",
+      "right": "skills/nanbeichao/yuanke-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.0512,
+      "containment": 0.097893,
+      "overlap_shingles": 288
+    },
+    {
+      "left": "skills/yuan/guyuk-perspective",
+      "right": "skills/yuan/mongke-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.044578,
+      "containment": 0.097511,
+      "overlap_shingles": 474
+    },
+    {
+      "left": "skills/donghan/hedi-perspective",
+      "right": "skills/donghan/mingdi-perspective",
+      "same_dynasty": true,
+      "jaccard": 0.048792,
+      "containment": 0.096223,
+      "overlap_shingles": 214
+    }
+  ],
+  "note": "Use this distribution to choose conservative REVIEW thresholds. Never translate a percentile directly into PASS/FAIL."
+}
