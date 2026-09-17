@@ -11,12 +11,12 @@
     "A_CORE_MAJOR_SEQUENCE_MISSING": 70,
     "B_CORE_PARALLEL_POLITY_MISSING": 174,
     "D_CORE_EARLY_OR_PREQIN_MISSING": 404,
-    "Q1_SCOPE_OR_IDENTITY_REVIEW": 364,
+    "Q1_SCOPE_OR_IDENTITY_REVIEW": 365,
     "Q2_EXTENDED_REVIEW": 0,
     "Q3_LEGENDARY_LIMITED_EVIDENCE": 0,
     "Q4_OTHER_REVIEW": 0,
     "missing_core_total": 648,
-    "review_total": 364,
+    "review_total": 365,
     "existing_skill_unresolved": 0,
     "identity_blockers": 0
   },
@@ -155,7 +155,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1224",
+        "candidate_id": "ruler-1225",
         "canonical_name": "高恒",
         "polities": [
           "北齐"
@@ -167,7 +167,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1225",
+        "candidate_id": "ruler-1226",
         "canonical_name": "高殷",
         "polities": [
           "北齐"
@@ -179,7 +179,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1227",
+        "candidate_id": "ruler-1228",
         "canonical_name": "高洋",
         "polities": [
           "北齐"
@@ -191,7 +191,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1228",
+        "candidate_id": "ruler-1229",
         "canonical_name": "高湛",
         "polities": [
           "北齐"
@@ -203,7 +203,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1229",
+        "candidate_id": "ruler-1230",
         "canonical_name": "高演",
         "polities": [
           "北齐"
@@ -215,7 +215,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1230",
+        "candidate_id": "ruler-1231",
         "canonical_name": "高纬",
         "polities": [
           "北齐"
@@ -323,7 +323,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1127",
+        "candidate_id": "ruler-1128",
         "canonical_name": "郭威",
         "polities": [
           "后周"
@@ -973,7 +973,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1023",
+        "candidate_id": "ruler-1024",
         "canonical_name": "袁世凯",
         "polities": [
           "中华帝国/洪宪 episode",
@@ -1082,7 +1082,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1204",
+        "candidate_id": "ruler-1205",
         "canonical_name": "顾维钧",
         "polities": [
           "中华民国北京政府/北洋政府"
@@ -1094,7 +1094,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1208",
+        "candidate_id": "ruler-1209",
         "canonical_name": "颜惠庆",
         "polities": [
           "中华民国北京政府/北洋政府"
@@ -1106,7 +1106,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1219",
+        "candidate_id": "ruler-1220",
         "canonical_name": "高凌霨",
         "polities": [
           "中华民国北京政府/北洋政府"
@@ -1118,7 +1118,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1278",
+        "candidate_id": "ruler-1279",
         "canonical_name": "黄郛",
         "polities": [
           "中华民国北京政府/北洋政府"
@@ -1130,7 +1130,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1280",
+        "candidate_id": "ruler-1281",
         "canonical_name": "黎元洪",
         "polities": [
           "中华民国北京政府/北洋政府"
@@ -1191,7 +1191,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1043",
+        "candidate_id": "ruler-1044",
         "canonical_name": "谭延闿",
         "polities": [
           "南京国民政府"
@@ -1539,7 +1539,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1215",
+        "candidate_id": "ruler-1216",
         "canonical_name": "高云",
         "polities": [
           "北燕"
@@ -2007,7 +2007,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1048",
+        "candidate_id": "ruler-1049",
         "canonical_name": "赫连勃勃",
         "polities": [
           "胡夏"
@@ -2019,7 +2019,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1049",
+        "candidate_id": "ruler-1050",
         "canonical_name": "赫连定",
         "polities": [
           "胡夏"
@@ -2031,7 +2031,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1050",
+        "candidate_id": "ruler-1051",
         "canonical_name": "赫连昌",
         "polities": [
           "胡夏"
@@ -2211,7 +2211,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1044",
+        "candidate_id": "ruler-1045",
         "canonical_name": "谯纵",
         "polities": [
           "谯蜀"
@@ -2235,7 +2235,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1276",
+        "candidate_id": "ruler-1277",
         "canonical_name": "黄巢",
         "polities": [
           "大齐"
@@ -2475,7 +2475,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1136",
+        "candidate_id": "ruler-1137",
         "canonical_name": "钱俶",
         "polities": [
           "吴越"
@@ -2487,7 +2487,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1137",
+        "candidate_id": "ruler-1138",
         "canonical_name": "钱元瓘",
         "polities": [
           "吴越"
@@ -2499,7 +2499,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1138",
+        "candidate_id": "ruler-1139",
         "canonical_name": "钱弘佐",
         "polities": [
           "吴越"
@@ -2511,7 +2511,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1139",
+        "candidate_id": "ruler-1140",
         "canonical_name": "钱弘倧",
         "polities": [
           "吴越"
@@ -2523,7 +2523,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1140",
+        "candidate_id": "ruler-1141",
         "canonical_name": "钱镠",
         "polities": [
           "吴越"
@@ -2595,7 +2595,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1216",
+        "candidate_id": "ruler-1217",
         "canonical_name": "高从诲",
         "polities": [
           "荆南/南平"
@@ -2607,7 +2607,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1217",
+        "candidate_id": "ruler-1218",
         "canonical_name": "高保勗",
         "polities": [
           "荆南/南平"
@@ -2619,7 +2619,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1218",
+        "candidate_id": "ruler-1219",
         "canonical_name": "高保融",
         "polities": [
           "荆南/南平"
@@ -2631,7 +2631,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1221",
+        "candidate_id": "ruler-1222",
         "canonical_name": "高季兴",
         "polities": [
           "荆南/南平"
@@ -2643,7 +2643,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1231",
+        "candidate_id": "ruler-1232",
         "canonical_name": "高继冲",
         "polities": [
           "荆南/南平"
@@ -2727,7 +2727,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1209",
+        "candidate_id": "ruler-1210",
         "canonical_name": "马希声",
         "polities": [
           "马楚"
@@ -2739,7 +2739,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1210",
+        "candidate_id": "ruler-1211",
         "canonical_name": "马希崇",
         "polities": [
           "马楚"
@@ -2751,7 +2751,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1211",
+        "candidate_id": "ruler-1212",
         "canonical_name": "马希广",
         "polities": [
           "马楚"
@@ -2763,7 +2763,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1212",
+        "candidate_id": "ruler-1213",
         "canonical_name": "马希范",
         "polities": [
           "马楚"
@@ -2775,7 +2775,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1213",
+        "candidate_id": "ruler-1214",
         "canonical_name": "马希萼",
         "polities": [
           "马楚"
@@ -2787,7 +2787,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1214",
+        "candidate_id": "ruler-1215",
         "canonical_name": "马殷",
         "polities": [
           "马楚"
@@ -2835,7 +2835,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1220",
+        "candidate_id": "ruler-1221",
         "canonical_name": "高升泰",
         "polities": [
           "大中国"
@@ -2859,7 +2859,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1149",
+        "candidate_id": "ruler-1150",
         "canonical_name": "阿里不哥",
         "polities": [
           "大蒙古国"
@@ -2919,7 +2919,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1155",
+        "candidate_id": "ruler-1156",
         "canonical_name": "陈友谅",
         "polities": [
           "陈汉"
@@ -2931,7 +2931,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1176",
+        "candidate_id": "ruler-1177",
         "canonical_name": "陈理",
         "polities": [
           "陈汉"
@@ -2943,7 +2943,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1195",
+        "candidate_id": "ruler-1196",
         "canonical_name": "韩林儿",
         "polities": [
           "韩宋"
@@ -3293,7 +3293,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1042",
+        "candidate_id": "ruler-1043",
         "canonical_name": "诸樊",
         "polities": [
           "吴"
@@ -3305,7 +3305,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1085",
+        "candidate_id": "ruler-1086",
         "canonical_name": "转",
         "polities": [
           "吴"
@@ -3317,7 +3317,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1146",
+        "candidate_id": "ruler-1147",
         "canonical_name": "阖闾",
         "polities": [
           "吴"
@@ -3329,7 +3329,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1205",
+        "candidate_id": "ruler-1206",
         "canonical_name": "颇高",
         "polities": [
           "吴"
@@ -3353,7 +3353,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1281",
+        "candidate_id": "ruler-1282",
         "canonical_name": "齐丁公吕伋",
         "polities": [
           "姜齐"
@@ -3365,7 +3365,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1282",
+        "candidate_id": "ruler-1283",
         "canonical_name": "齐乙公得",
         "polities": [
           "姜齐"
@@ -3377,7 +3377,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1283",
+        "candidate_id": "ruler-1284",
         "canonical_name": "齐侯无亏",
         "polities": [
           "姜齐"
@@ -3389,7 +3389,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1284",
+        "candidate_id": "ruler-1285",
         "canonical_name": "齐侯舍",
         "polities": [
           "姜齐"
@@ -3401,7 +3401,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1285",
+        "candidate_id": "ruler-1286",
         "canonical_name": "齐僖公禄甫",
         "polities": [
           "姜齐"
@@ -3413,7 +3413,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1286",
+        "candidate_id": "ruler-1287",
         "canonical_name": "齐厉公无忌",
         "polities": [
           "姜齐"
@@ -3425,7 +3425,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1287",
+        "candidate_id": "ruler-1288",
         "canonical_name": "齐哀公不辰",
         "polities": [
           "姜齐"
@@ -3437,7 +3437,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1288",
+        "candidate_id": "ruler-1289",
         "canonical_name": "齐太公吕尚",
         "polities": [
           "姜齐"
@@ -3449,7 +3449,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1289",
+        "candidate_id": "ruler-1290",
         "canonical_name": "齐孝公昭",
         "polities": [
           "姜齐"
@@ -3461,7 +3461,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1290",
+        "candidate_id": "ruler-1291",
         "canonical_name": "齐宣公积",
         "polities": [
           "姜齐"
@@ -3473,7 +3473,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1291",
+        "candidate_id": "ruler-1292",
         "canonical_name": "齐平公骜",
         "polities": [
           "姜齐"
@@ -3485,7 +3485,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1292",
+        "candidate_id": "ruler-1293",
         "canonical_name": "齐庄公光",
         "polities": [
           "姜齐"
@@ -3497,7 +3497,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1293",
+        "candidate_id": "ruler-1294",
         "canonical_name": "齐庄公购",
         "polities": [
           "姜齐"
@@ -3509,7 +3509,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1294",
+        "candidate_id": "ruler-1295",
         "canonical_name": "齐康公贷",
         "polities": [
           "姜齐"
@@ -3521,7 +3521,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1295",
+        "candidate_id": "ruler-1296",
         "canonical_name": "齐悼公阳生",
         "polities": [
           "姜齐"
@@ -3533,7 +3533,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1296",
+        "candidate_id": "ruler-1297",
         "canonical_name": "齐惠公元",
         "polities": [
           "姜齐"
@@ -3545,7 +3545,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1297",
+        "candidate_id": "ruler-1298",
         "canonical_name": "齐懿公商人",
         "polities": [
           "姜齐"
@@ -3557,7 +3557,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1298",
+        "candidate_id": "ruler-1299",
         "canonical_name": "齐成公脱",
         "polities": [
           "姜齐"
@@ -3569,7 +3569,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1299",
+        "candidate_id": "ruler-1300",
         "canonical_name": "齐文公赤",
         "polities": [
           "姜齐"
@@ -3581,7 +3581,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1300",
+        "candidate_id": "ruler-1301",
         "canonical_name": "齐昭公潘",
         "polities": [
           "姜齐"
@@ -3593,7 +3593,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1301",
+        "candidate_id": "ruler-1302",
         "canonical_name": "齐晏孺子荼",
         "polities": [
           "姜齐"
@@ -3605,7 +3605,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1302",
+        "candidate_id": "ruler-1303",
         "canonical_name": "齐景公杵臼",
         "polities": [
           "姜齐"
@@ -3617,7 +3617,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1303",
+        "candidate_id": "ruler-1304",
         "canonical_name": "齐桓公小白",
         "polities": [
           "姜齐"
@@ -3629,7 +3629,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1304",
+        "candidate_id": "ruler-1305",
         "canonical_name": "齐武公寿",
         "polities": [
           "姜齐"
@@ -3641,7 +3641,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1305",
+        "candidate_id": "ruler-1306",
         "canonical_name": "齐灵公环",
         "polities": [
           "姜齐"
@@ -3653,7 +3653,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1306",
+        "candidate_id": "ruler-1307",
         "canonical_name": "齐献公山",
         "polities": [
           "姜齐"
@@ -3665,7 +3665,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1307",
+        "candidate_id": "ruler-1308",
         "canonical_name": "齐癸公慈母",
         "polities": [
           "姜齐"
@@ -3677,7 +3677,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1308",
+        "candidate_id": "ruler-1309",
         "canonical_name": "齐简公壬",
         "polities": [
           "姜齐"
@@ -3689,7 +3689,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1309",
+        "candidate_id": "ruler-1310",
         "canonical_name": "齐胡公静",
         "polities": [
           "姜齐"
@@ -3701,7 +3701,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1310",
+        "candidate_id": "ruler-1311",
         "canonical_name": "齐襄公诸儿",
         "polities": [
           "姜齐"
@@ -3713,7 +3713,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1311",
+        "candidate_id": "ruler-1312",
         "canonical_name": "齐顷公无野",
         "polities": [
           "姜齐"
@@ -5467,7 +5467,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1232",
+        "candidate_id": "ruler-1233",
         "canonical_name": "鬻熊",
         "polities": [
           "楚"
@@ -6295,7 +6295,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1056",
+        "candidate_id": "ruler-1057",
         "canonical_name": "赵嘉",
         "polities": [
           "赵"
@@ -6307,7 +6307,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1057",
+        "candidate_id": "ruler-1058",
         "canonical_name": "赵孝成王赵丹",
         "polities": [
           "赵"
@@ -6319,7 +6319,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1058",
+        "candidate_id": "ruler-1059",
         "canonical_name": "赵幽缪王赵迁",
         "polities": [
           "赵"
@@ -6331,7 +6331,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1060",
+        "candidate_id": "ruler-1061",
         "canonical_name": "赵悼襄王赵偃",
         "polities": [
           "赵"
@@ -6343,7 +6343,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1062",
+        "candidate_id": "ruler-1063",
         "canonical_name": "赵惠文王赵何",
         "polities": [
           "赵"
@@ -6355,7 +6355,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1063",
+        "candidate_id": "ruler-1064",
         "canonical_name": "赵成侯赵种",
         "polities": [
           "赵"
@@ -6367,7 +6367,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1065",
+        "candidate_id": "ruler-1066",
         "canonical_name": "赵敬侯赵章",
         "polities": [
           "赵"
@@ -6379,7 +6379,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1074",
+        "candidate_id": "ruler-1075",
         "canonical_name": "赵武侯",
         "polities": [
           "赵"
@@ -6391,7 +6391,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1075",
+        "candidate_id": "ruler-1076",
         "canonical_name": "赵武灵王赵雍",
         "polities": [
           "赵"
@@ -6403,7 +6403,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1076",
+        "candidate_id": "ruler-1077",
         "canonical_name": "赵烈侯赵籍",
         "polities": [
           "赵"
@@ -6415,7 +6415,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1080",
+        "candidate_id": "ruler-1081",
         "canonical_name": "赵肃侯赵语",
         "polities": [
           "赵"
@@ -6464,7 +6464,7 @@
       },
       {
         "candidate_id": "ruler-0218",
-        "canonical_name": "夫谭/无谭",
+        "canonical_name": "夫谭",
         "polities": [
           "越"
         ],
@@ -6535,7 +6535,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1041",
+        "candidate_id": "ruler-1042",
         "canonical_name": "诸咎",
         "polities": [
           "越"
@@ -6547,7 +6547,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1082",
+        "candidate_id": "ruler-1083",
         "canonical_name": "越王之侯",
         "polities": [
           "越"
@@ -6559,7 +6559,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1083",
+        "candidate_id": "ruler-1084",
         "canonical_name": "越王翁",
         "polities": [
           "越"
@@ -6571,7 +6571,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1084",
+        "candidate_id": "ruler-1085",
         "canonical_name": "越王鼫与",
         "polities": [
           "越"
@@ -6583,7 +6583,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1144",
+        "candidate_id": "ruler-1145",
         "canonical_name": "错枝",
         "polities": [
           "越"
@@ -6595,7 +6595,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1096",
+        "candidate_id": "ruler-1097",
         "canonical_name": "郑僖公髡顽",
         "polities": [
           "郑"
@@ -6607,7 +6607,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1098",
+        "candidate_id": "ruler-1099",
         "canonical_name": "郑共公丑",
         "polities": [
           "郑"
@@ -6619,7 +6619,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1099",
+        "candidate_id": "ruler-1100",
         "canonical_name": "郑厉公突",
         "polities": [
           "郑"
@@ -6631,7 +6631,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1100",
+        "candidate_id": "ruler-1101",
         "canonical_name": "郑哀公易",
         "polities": [
           "郑"
@@ -6643,7 +6643,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1101",
+        "candidate_id": "ruler-1102",
         "canonical_name": "郑声公胜",
         "polities": [
           "郑"
@@ -6655,7 +6655,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1102",
+        "candidate_id": "ruler-1103",
         "canonical_name": "郑子亹",
         "polities": [
           "郑"
@@ -6667,7 +6667,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1103",
+        "candidate_id": "ruler-1104",
         "canonical_name": "郑子婴",
         "polities": [
           "郑"
@@ -6679,7 +6679,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1104",
+        "candidate_id": "ruler-1105",
         "canonical_name": "郑定公宁",
         "polities": [
           "郑"
@@ -6691,7 +6691,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1105",
+        "candidate_id": "ruler-1106",
         "canonical_name": "郑幽公已",
         "polities": [
           "郑"
@@ -6703,7 +6703,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1106",
+        "candidate_id": "ruler-1107",
         "canonical_name": "郑庄公寤生",
         "polities": [
           "郑"
@@ -6715,7 +6715,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1107",
+        "candidate_id": "ruler-1108",
         "canonical_name": "郑康公乙",
         "polities": [
           "郑"
@@ -6727,7 +6727,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1108",
+        "candidate_id": "ruler-1109",
         "canonical_name": "郑悼公沸",
         "polities": [
           "郑"
@@ -6739,7 +6739,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1109",
+        "candidate_id": "ruler-1110",
         "canonical_name": "郑成公睔",
         "polities": [
           "郑"
@@ -6751,7 +6751,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1111",
+        "candidate_id": "ruler-1112",
         "canonical_name": "郑文公踕",
         "polities": [
           "郑"
@@ -6763,7 +6763,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1112",
+        "candidate_id": "ruler-1113",
         "canonical_name": "郑昭公忽",
         "polities": [
           "郑"
@@ -6775,7 +6775,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1113",
+        "candidate_id": "ruler-1114",
         "canonical_name": "郑桓公友",
         "polities": [
           "郑"
@@ -6787,7 +6787,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1114",
+        "candidate_id": "ruler-1115",
         "canonical_name": "郑武公掘突",
         "polities": [
           "郑"
@@ -6799,7 +6799,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1115",
+        "candidate_id": "ruler-1116",
         "canonical_name": "郑灵公夷",
         "polities": [
           "郑"
@@ -6811,7 +6811,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1116",
+        "candidate_id": "ruler-1117",
         "canonical_name": "郑献公趸",
         "polities": [
           "郑"
@@ -6823,7 +6823,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1117",
+        "candidate_id": "ruler-1118",
         "canonical_name": "郑穆公兰",
         "polities": [
           "郑"
@@ -6835,7 +6835,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1118",
+        "candidate_id": "ruler-1119",
         "canonical_name": "郑简公嘉",
         "polities": [
           "郑"
@@ -6847,7 +6847,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1119",
+        "candidate_id": "ruler-1120",
         "canonical_name": "郑繻公骀",
         "polities": [
           "郑"
@@ -6859,7 +6859,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1121",
+        "candidate_id": "ruler-1122",
         "canonical_name": "郑襄公坚",
         "polities": [
           "郑"
@@ -6871,7 +6871,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1151",
+        "candidate_id": "ruler-1152",
         "canonical_name": "陈公佗",
         "polities": [
           "陈"
@@ -6883,7 +6883,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1153",
+        "candidate_id": "ruler-1154",
         "canonical_name": "陈共公朔",
         "polities": [
           "陈"
@@ -6895,7 +6895,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1154",
+        "candidate_id": "ruler-1155",
         "canonical_name": "陈厉公跃",
         "polities": [
           "陈"
@@ -6907,7 +6907,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1157",
+        "candidate_id": "ruler-1158",
         "canonical_name": "陈君留",
         "polities": [
           "陈"
@@ -6919,7 +6919,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1158",
+        "candidate_id": "ruler-1159",
         "canonical_name": "陈哀公弱",
         "polities": [
           "陈"
@@ -6931,7 +6931,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1159",
+        "candidate_id": "ruler-1160",
         "canonical_name": "陈夷公说",
         "polities": [
           "陈"
@@ -6943,7 +6943,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1160",
+        "candidate_id": "ruler-1161",
         "canonical_name": "陈孝公突",
         "polities": [
           "陈"
@@ -6955,7 +6955,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1161",
+        "candidate_id": "ruler-1162",
         "canonical_name": "陈宣公杵臼",
         "polities": [
           "陈"
@@ -6967,7 +6967,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1162",
+        "candidate_id": "ruler-1163",
         "canonical_name": "陈平公燮",
         "polities": [
           "陈"
@@ -6979,7 +6979,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1163",
+        "candidate_id": "ruler-1164",
         "canonical_name": "陈幽公宁",
         "polities": [
           "陈"
@@ -6991,7 +6991,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1164",
+        "candidate_id": "ruler-1165",
         "canonical_name": "陈庄公林",
         "polities": [
           "陈"
@@ -7003,7 +7003,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1166",
+        "candidate_id": "ruler-1167",
         "canonical_name": "陈怀公柳",
         "polities": [
           "陈"
@@ -7015,7 +7015,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1167",
+        "candidate_id": "ruler-1168",
         "canonical_name": "陈惠公吴",
         "polities": [
           "陈"
@@ -7027,7 +7027,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1168",
+        "candidate_id": "ruler-1169",
         "canonical_name": "陈慎公圉戎",
         "polities": [
           "陈"
@@ -7039,7 +7039,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1169",
+        "candidate_id": "ruler-1170",
         "canonical_name": "陈成公午",
         "polities": [
           "陈"
@@ -7051,7 +7051,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1170",
+        "candidate_id": "ruler-1171",
         "canonical_name": "陈文公圉",
         "polities": [
           "陈"
@@ -7063,7 +7063,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1171",
+        "candidate_id": "ruler-1172",
         "canonical_name": "陈桓公鲍",
         "polities": [
           "陈"
@@ -7075,7 +7075,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1172",
+        "candidate_id": "ruler-1173",
         "canonical_name": "陈武公灵",
         "polities": [
           "陈"
@@ -7087,7 +7087,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1174",
+        "candidate_id": "ruler-1175",
         "canonical_name": "陈湣公越",
         "polities": [
           "陈"
@@ -7099,7 +7099,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1175",
+        "candidate_id": "ruler-1176",
         "canonical_name": "陈灵公平国",
         "polities": [
           "陈"
@@ -7111,7 +7111,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1177",
+        "candidate_id": "ruler-1178",
         "canonical_name": "陈申公犀侯",
         "polities": [
           "陈"
@@ -7123,7 +7123,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1178",
+        "candidate_id": "ruler-1179",
         "canonical_name": "陈相公皋羊",
         "polities": [
           "陈"
@@ -7135,7 +7135,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1179",
+        "candidate_id": "ruler-1180",
         "canonical_name": "陈穆公款",
         "polities": [
           "陈"
@@ -7147,7 +7147,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1181",
+        "candidate_id": "ruler-1182",
         "canonical_name": "陈胡公满",
         "polities": [
           "陈"
@@ -7159,22 +7159,10 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1183",
+        "candidate_id": "ruler-1184",
         "canonical_name": "陈釐公孝",
         "polities": [
           "陈"
-        ],
-        "source_files": [
-          "data/rulers-master-h2-preqin.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-1189",
-        "canonical_name": "韩共侯/懿侯韩若山",
-        "polities": [
-          "韩"
         ],
         "source_files": [
           "data/rulers-master-h2-preqin.json"
@@ -7208,7 +7196,7 @@
       },
       {
         "candidate_id": "ruler-1193",
-        "canonical_name": "韩文侯韩猷",
+        "canonical_name": "韩懿侯",
         "polities": [
           "韩"
         ],
@@ -7220,6 +7208,18 @@
       },
       {
         "candidate_id": "ruler-1194",
+        "canonical_name": "韩文侯韩猷",
+        "polities": [
+          "韩"
+        ],
+        "source_files": [
+          "data/rulers-master-h2-preqin.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "existing_skill_paths": []
+      },
+      {
+        "candidate_id": "ruler-1195",
         "canonical_name": "韩景侯韩虔",
         "polities": [
           "韩"
@@ -7231,7 +7231,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1196",
+        "candidate_id": "ruler-1197",
         "canonical_name": "韩桓惠王韩然",
         "polities": [
           "韩"
@@ -7243,7 +7243,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1197",
+        "candidate_id": "ruler-1198",
         "canonical_name": "韩烈侯韩取",
         "polities": [
           "韩"
@@ -7255,7 +7255,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1198",
+        "candidate_id": "ruler-1199",
         "canonical_name": "韩王安",
         "polities": [
           "韩"
@@ -7267,7 +7267,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1199",
+        "candidate_id": "ruler-1200",
         "canonical_name": "韩襄王韩仓",
         "polities": [
           "韩"
@@ -7279,7 +7279,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1200",
+        "candidate_id": "ruler-1201",
         "canonical_name": "韩釐侯韩武",
         "polities": [
           "韩"
@@ -7291,7 +7291,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1201",
+        "candidate_id": "ruler-1202",
         "canonical_name": "韩釐王韩咎",
         "polities": [
           "韩"
@@ -7303,7 +7303,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1234",
+        "candidate_id": "ruler-1235",
         "canonical_name": "魏安僖王魏圉",
         "polities": [
           "魏"
@@ -7315,7 +7315,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1235",
+        "candidate_id": "ruler-1236",
         "canonical_name": "魏惠成王魏罃",
         "polities": [
           "魏"
@@ -7327,7 +7327,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1236",
+        "candidate_id": "ruler-1237",
         "canonical_name": "魏文侯魏斯",
         "polities": [
           "魏"
@@ -7339,7 +7339,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1237",
+        "candidate_id": "ruler-1238",
         "canonical_name": "魏昭王魏遫",
         "polities": [
           "魏"
@@ -7351,7 +7351,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1238",
+        "candidate_id": "ruler-1239",
         "canonical_name": "魏景湣王魏午",
         "polities": [
           "魏"
@@ -7363,7 +7363,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1239",
+        "candidate_id": "ruler-1240",
         "canonical_name": "魏武侯魏击",
         "polities": [
           "魏"
@@ -7375,7 +7375,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1240",
+        "candidate_id": "ruler-1241",
         "canonical_name": "魏王假",
         "polities": [
           "魏"
@@ -7387,7 +7387,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1241",
+        "candidate_id": "ruler-1242",
         "canonical_name": "魏襄王魏嗣",
         "polities": [
           "魏"
@@ -7411,7 +7411,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1243",
+        "candidate_id": "ruler-1244",
         "canonical_name": "鲁元公",
         "polities": [
           "鲁"
@@ -7423,7 +7423,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1244",
+        "candidate_id": "ruler-1245",
         "canonical_name": "鲁公伯御",
         "polities": [
           "鲁"
@@ -7435,7 +7435,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1245",
+        "candidate_id": "ruler-1246",
         "canonical_name": "鲁共公",
         "polities": [
           "鲁"
@@ -7447,7 +7447,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1246",
+        "candidate_id": "ruler-1247",
         "canonical_name": "鲁厉公",
         "polities": [
           "鲁"
@@ -7459,7 +7459,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1247",
+        "candidate_id": "ruler-1248",
         "canonical_name": "鲁君野",
         "polities": [
           "鲁"
@@ -7471,7 +7471,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1248",
+        "candidate_id": "ruler-1249",
         "canonical_name": "鲁哀公",
         "polities": [
           "鲁"
@@ -7483,7 +7483,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1249",
+        "candidate_id": "ruler-1250",
         "canonical_name": "鲁孝公",
         "polities": [
           "鲁"
@@ -7495,7 +7495,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1250",
+        "candidate_id": "ruler-1251",
         "canonical_name": "鲁定公",
         "polities": [
           "鲁"
@@ -7507,7 +7507,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1251",
+        "candidate_id": "ruler-1252",
         "canonical_name": "鲁宣公",
         "polities": [
           "鲁"
@@ -7519,7 +7519,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1252",
+        "candidate_id": "ruler-1253",
         "canonical_name": "鲁平公",
         "polities": [
           "鲁"
@@ -7531,7 +7531,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1253",
+        "candidate_id": "ruler-1254",
         "canonical_name": "鲁幽公",
         "polities": [
           "鲁"
@@ -7543,7 +7543,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1254",
+        "candidate_id": "ruler-1255",
         "canonical_name": "鲁庄公",
         "polities": [
           "鲁"
@@ -7555,7 +7555,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1255",
+        "candidate_id": "ruler-1256",
         "canonical_name": "鲁康公",
         "polities": [
           "鲁"
@@ -7567,7 +7567,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1256",
+        "candidate_id": "ruler-1257",
         "canonical_name": "鲁悼公",
         "polities": [
           "鲁"
@@ -7579,7 +7579,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1257",
+        "candidate_id": "ruler-1258",
         "canonical_name": "鲁惠公",
         "polities": [
           "鲁"
@@ -7591,7 +7591,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1258",
+        "candidate_id": "ruler-1259",
         "canonical_name": "鲁懿公",
         "polities": [
           "鲁"
@@ -7603,7 +7603,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1259",
+        "candidate_id": "ruler-1260",
         "canonical_name": "鲁成公",
         "polities": [
           "鲁"
@@ -7615,7 +7615,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1260",
+        "candidate_id": "ruler-1261",
         "canonical_name": "鲁文公",
         "polities": [
           "鲁"
@@ -7627,7 +7627,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1261",
+        "candidate_id": "ruler-1262",
         "canonical_name": "鲁昭公",
         "polities": [
           "鲁"
@@ -7639,7 +7639,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1262",
+        "candidate_id": "ruler-1263",
         "canonical_name": "鲁景公",
         "polities": [
           "鲁"
@@ -7651,7 +7651,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1263",
+        "candidate_id": "ruler-1264",
         "canonical_name": "鲁桓公",
         "polities": [
           "鲁"
@@ -7663,7 +7663,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1264",
+        "candidate_id": "ruler-1265",
         "canonical_name": "鲁武公",
         "polities": [
           "鲁"
@@ -7675,7 +7675,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1265",
+        "candidate_id": "ruler-1266",
         "canonical_name": "鲁炀公",
         "polities": [
           "鲁"
@@ -7687,7 +7687,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1266",
+        "candidate_id": "ruler-1267",
         "canonical_name": "鲁献公",
         "polities": [
           "鲁"
@@ -7699,7 +7699,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1267",
+        "candidate_id": "ruler-1268",
         "canonical_name": "鲁真公",
         "polities": [
           "鲁"
@@ -7711,7 +7711,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1268",
+        "candidate_id": "ruler-1269",
         "canonical_name": "鲁穆公",
         "polities": [
           "鲁"
@@ -7723,7 +7723,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1269",
+        "candidate_id": "ruler-1270",
         "canonical_name": "鲁考公",
         "polities": [
           "鲁"
@@ -7735,7 +7735,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1270",
+        "candidate_id": "ruler-1271",
         "canonical_name": "鲁襄公",
         "polities": [
           "鲁"
@@ -7747,7 +7747,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1271",
+        "candidate_id": "ruler-1272",
         "canonical_name": "鲁釐公",
         "polities": [
           "鲁"
@@ -7759,7 +7759,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1272",
+        "candidate_id": "ruler-1273",
         "canonical_name": "鲁闵公",
         "polities": [
           "鲁"
@@ -7771,7 +7771,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1273",
+        "candidate_id": "ruler-1274",
         "canonical_name": "鲁隐公",
         "polities": [
           "鲁"
@@ -7783,7 +7783,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1274",
+        "candidate_id": "ruler-1275",
         "canonical_name": "鲁顷公",
         "polities": [
           "鲁"
@@ -7795,7 +7795,7 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-1275",
+        "candidate_id": "ruler-1276",
         "canonical_name": "鲁魏公",
         "polities": [
           "鲁"
@@ -8304,7 +8304,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1143",
+        "candidate_id": "ruler-1144",
         "canonical_name": "错叔绣",
         "polities": [
           "滕"
@@ -8723,7 +8723,7 @@
       },
       {
         "candidate_id": "ruler-1010",
-        "canonical_name": "虞公/虞惠公",
+        "canonical_name": "虞公",
         "polities": [
           "虞"
         ],
@@ -8822,7 +8822,7 @@
       },
       {
         "candidate_id": "ruler-1020",
-        "canonical_name": "虢宣公/虢季子白",
+        "canonical_name": "虢季子白",
         "polities": [
           "西虢/南虢"
         ],
@@ -8833,7 +8833,7 @@
       },
       {
         "candidate_id": "ruler-1021",
-        "canonical_name": "虢文公",
+        "canonical_name": "虢宣公",
         "polities": [
           "西虢/南虢"
         ],
@@ -8844,6 +8844,17 @@
       },
       {
         "candidate_id": "ruler-1022",
+        "canonical_name": "虢文公",
+        "polities": [
+          "西虢/南虢"
+        ],
+        "source_files": [
+          "data/ruler-candidates-preqin-other.json"
+        ],
+        "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
+      },
+      {
+        "candidate_id": "ruler-1023",
         "canonical_name": "虢石父",
         "polities": [
           "西虢/南虢"
@@ -8854,7 +8865,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1126",
+        "candidate_id": "ruler-1127",
         "canonical_name": "郭叔",
         "polities": [
           "西虢/南虢"
@@ -8865,7 +8876,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1025",
+        "candidate_id": "ruler-1026",
         "canonical_name": "许僖公业",
         "polities": [
           "许"
@@ -8876,7 +8887,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1026",
+        "candidate_id": "ruler-1027",
         "canonical_name": "许孝男",
         "polities": [
           "许"
@@ -8887,19 +8898,8 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1027",
-        "canonical_name": "许庄公茀/苴人",
-        "polities": [
-          "许"
-        ],
-        "source_files": [
-          "data/ruler-candidates-preqin-other.json"
-        ],
-        "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
-      },
-      {
         "candidate_id": "ruler-1028",
-        "canonical_name": "许康男",
+        "canonical_name": "许庄公",
         "polities": [
           "许"
         ],
@@ -8910,7 +8910,7 @@
       },
       {
         "candidate_id": "ruler-1029",
-        "canonical_name": "许德男",
+        "canonical_name": "许康男",
         "polities": [
           "许"
         ],
@@ -8921,7 +8921,7 @@
       },
       {
         "candidate_id": "ruler-1030",
-        "canonical_name": "许悼公买",
+        "canonical_name": "许德男",
         "polities": [
           "许"
         ],
@@ -8932,7 +8932,7 @@
       },
       {
         "candidate_id": "ruler-1031",
-        "canonical_name": "许文公兴父",
+        "canonical_name": "许悼公买",
         "polities": [
           "许"
         ],
@@ -8943,7 +8943,7 @@
       },
       {
         "candidate_id": "ruler-1032",
-        "canonical_name": "许文叔丁",
+        "canonical_name": "许文公兴父",
         "polities": [
           "许"
         ],
@@ -8954,7 +8954,7 @@
       },
       {
         "candidate_id": "ruler-1033",
-        "canonical_name": "许昭公锡我",
+        "canonical_name": "许文叔丁",
         "polities": [
           "许"
         ],
@@ -8965,7 +8965,7 @@
       },
       {
         "candidate_id": "ruler-1034",
-        "canonical_name": "许桓公郑",
+        "canonical_name": "许昭公锡我",
         "polities": [
           "许"
         ],
@@ -8976,7 +8976,7 @@
       },
       {
         "candidate_id": "ruler-1035",
-        "canonical_name": "许武公",
+        "canonical_name": "许桓公郑",
         "polities": [
           "许"
         ],
@@ -8987,7 +8987,7 @@
       },
       {
         "candidate_id": "ruler-1036",
-        "canonical_name": "许灵公宁",
+        "canonical_name": "许武公",
         "polities": [
           "许"
         ],
@@ -8998,7 +8998,7 @@
       },
       {
         "candidate_id": "ruler-1037",
-        "canonical_name": "许男伯封",
+        "canonical_name": "许灵公宁",
         "polities": [
           "许"
         ],
@@ -9009,7 +9009,7 @@
       },
       {
         "candidate_id": "ruler-1038",
-        "canonical_name": "许男斯",
+        "canonical_name": "许男伯封",
         "polities": [
           "许"
         ],
@@ -9020,7 +9020,7 @@
       },
       {
         "candidate_id": "ruler-1039",
-        "canonical_name": "许穆公新臣",
+        "canonical_name": "许男斯",
         "polities": [
           "许"
         ],
@@ -9031,6 +9031,17 @@
       },
       {
         "candidate_id": "ruler-1040",
+        "canonical_name": "许穆公新臣",
+        "polities": [
+          "许"
+        ],
+        "source_files": [
+          "data/ruler-candidates-preqin-other.json"
+        ],
+        "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
+      },
+      {
+        "candidate_id": "ruler-1041",
         "canonical_name": "许靖男",
         "polities": [
           "许"
@@ -9041,7 +9052,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1092",
+        "candidate_id": "ruler-1093",
         "canonical_name": "邾子挟",
         "polities": [
           "邾"
@@ -9052,7 +9063,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1093",
+        "candidate_id": "ruler-1094",
         "canonical_name": "邾子非",
         "polities": [
           "邾"
@@ -9085,7 +9096,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1123",
+        "candidate_id": "ruler-1124",
         "canonical_name": "郕伯",
         "polities": [
           "郕/成"
@@ -9096,7 +9107,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1124",
+        "candidate_id": "ruler-1125",
         "canonical_name": "郕叔武",
         "polities": [
           "郕/成"
@@ -9129,7 +9140,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1091",
+        "candidate_id": "ruler-1092",
         "canonical_name": "邾公子害",
         "polities": [
           "郳/小邾"
@@ -9140,7 +9151,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1129",
+        "candidate_id": "ruler-1130",
         "canonical_name": "郳公皮父",
         "polities": [
           "郳/小邾"
@@ -9151,7 +9162,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1130",
+        "candidate_id": "ruler-1131",
         "canonical_name": "郳友",
         "polities": [
           "郳/小邾"
@@ -9162,7 +9173,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1131",
+        "candidate_id": "ruler-1132",
         "canonical_name": "郳庆",
         "polities": [
           "郳/小邾"
@@ -9173,7 +9184,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1132",
+        "candidate_id": "ruler-1133",
         "canonical_name": "郳恭公克",
         "polities": [
           "郳/小邾"
@@ -9184,7 +9195,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1133",
+        "candidate_id": "ruler-1134",
         "canonical_name": "郳犁来",
         "polities": [
           "郳/小邾"
@@ -9195,7 +9206,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1134",
+        "candidate_id": "ruler-1135",
         "canonical_name": "鄅子",
         "polities": [
           "鄅"
@@ -9294,7 +9305,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1097",
+        "candidate_id": "ruler-1098",
         "canonical_name": "郑克塽",
         "polities": [
           "明郑/东宁"
@@ -9305,7 +9316,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1110",
+        "candidate_id": "ruler-1111",
         "canonical_name": "郑成功",
         "polities": [
           "明郑/东宁"
@@ -9316,7 +9327,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1120",
+        "candidate_id": "ruler-1121",
         "canonical_name": "郑经",
         "polities": [
           "明郑/东宁"
@@ -9360,7 +9371,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1165",
+        "candidate_id": "ruler-1166",
         "canonical_name": "陈开",
         "polities": [
           "大成国"
@@ -9371,7 +9382,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1279",
+        "candidate_id": "ruler-1280",
         "canonical_name": "黄鼎凤",
         "polities": [
           "大成国"
@@ -10351,7 +10362,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1073",
+        "candidate_id": "ruler-1074",
         "canonical_name": "赵歇",
         "polities": [
           "秦末楚汉竞争政权"
@@ -10362,7 +10373,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1180",
+        "candidate_id": "ruler-1181",
         "canonical_name": "陈胜",
         "polities": [
           "秦末楚汉竞争政权"
@@ -10384,7 +10395,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1233",
+        "candidate_id": "ruler-1234",
         "canonical_name": "魏咎",
         "polities": [
           "秦末楚汉竞争政权"
@@ -10395,7 +10406,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1242",
+        "candidate_id": "ruler-1243",
         "canonical_name": "魏豹",
         "polities": [
           "秦末楚汉竞争政权"
@@ -10714,7 +10725,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1188",
+        "candidate_id": "ruler-1189",
         "canonical_name": "靳准",
         "polities": [
           "靳汉"
@@ -10736,7 +10747,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1222",
+        "candidate_id": "ruler-1223",
         "canonical_name": "高延宗",
         "polities": [
           "北齐"
@@ -10780,7 +10791,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1088",
+        "candidate_id": "ruler-1089",
         "canonical_name": "辅公祏",
         "polities": [
           "宋"
@@ -10879,7 +10890,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1128",
+        "candidate_id": "ruler-1129",
         "canonical_name": "郭子和",
         "polities": [
           "永乐"
@@ -10901,7 +10912,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1223",
+        "candidate_id": "ruler-1224",
         "canonical_name": "高开道",
         "polities": [
           "燕"
@@ -11110,7 +11121,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1173",
+        "candidate_id": "ruler-1174",
         "canonical_name": "陈洪进",
         "polities": [
           "清源军/平海军"
@@ -11343,7 +11354,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1090",
+        "candidate_id": "ruler-1091",
         "canonical_name": "逻盛",
         "polities": [
           "南诏/蒙舍诏—大礼—大封民"
@@ -11354,7 +11365,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1145",
+        "candidate_id": "ruler-1146",
         "canonical_name": "阁罗凤",
         "polities": [
           "南诏/蒙舍诏—大礼—大封民"
@@ -11365,7 +11376,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1186",
+        "candidate_id": "ruler-1187",
         "canonical_name": "隆舜",
         "polities": [
           "南诏/蒙舍诏—大礼—大封民"
@@ -11420,7 +11431,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1055",
+        "candidate_id": "ruler-1056",
         "canonical_name": "赵善政",
         "polities": [
           "大天兴"
@@ -11431,7 +11442,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1125",
+        "candidate_id": "ruler-1126",
         "canonical_name": "郝定",
         "polities": [
           "大汉"
@@ -11442,7 +11453,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1226",
+        "candidate_id": "ruler-1227",
         "canonical_name": "高永昌",
         "polities": [
           "大渤海/大元"
@@ -11695,7 +11706,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1094",
+        "candidate_id": "ruler-1095",
         "canonical_name": "郑买嗣",
         "polities": [
           "大长和"
@@ -11706,7 +11717,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1095",
+        "candidate_id": "ruler-1096",
         "canonical_name": "郑仁旻",
         "polities": [
           "大长和"
@@ -11717,7 +11728,7 @@
         "action": "RESOLVE_SCOPE_AND_IDENTITY_BEFORE_DISTILL"
       },
       {
-        "candidate_id": "ruler-1122",
+        "candidate_id": "ruler-1123",
         "canonical_name": "郑隆亶",
         "polities": [
           "大长和"

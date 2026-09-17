@@ -3,11 +3,11 @@
   "status": "AUTOMATED_CONSERVATIVE_IDENTITY_MATCH_V4",
   "matching_policy": "Master identity normalization never strips polity/dynasty prefixes. Skill-side title variants may be prefix-stripped only for matching and short titles require a compatible legacy dynasty lane. No fuzzy matching.",
   "summary": {
-    "candidate_persons": 1311,
+    "candidate_persons": 1312,
     "locked_core_persons": 913,
     "matched_core_persons": 265,
     "missing_core_persons": 648,
-    "review_persons": 364,
+    "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
     "existing_skills": 267,
@@ -740,7 +740,7 @@
     },
     {
       "candidate_id": "ruler-0218",
-      "canonical_name": "夫谭/无谭",
+      "canonical_name": "夫谭",
       "corpus_status": "CORE",
       "polities": [
         "越"
@@ -4572,7 +4572,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1023",
+      "candidate_id": "ruler-1024",
       "canonical_name": "袁世凯",
       "corpus_status": "CORE",
       "polities": [
@@ -4583,7 +4583,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1041",
+      "candidate_id": "ruler-1042",
       "canonical_name": "诸咎",
       "corpus_status": "CORE",
       "polities": [
@@ -4593,7 +4593,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1042",
+      "candidate_id": "ruler-1043",
       "canonical_name": "诸樊",
       "corpus_status": "CORE",
       "polities": [
@@ -4603,7 +4603,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1043",
+      "candidate_id": "ruler-1044",
       "canonical_name": "谭延闿",
       "corpus_status": "CORE",
       "polities": [
@@ -4613,7 +4613,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1044",
+      "candidate_id": "ruler-1045",
       "canonical_name": "谯纵",
       "corpus_status": "CORE",
       "polities": [
@@ -4623,7 +4623,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1048",
+      "candidate_id": "ruler-1049",
       "canonical_name": "赫连勃勃",
       "corpus_status": "CORE",
       "polities": [
@@ -4633,7 +4633,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1049",
+      "candidate_id": "ruler-1050",
       "canonical_name": "赫连定",
       "corpus_status": "CORE",
       "polities": [
@@ -4643,7 +4643,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1050",
+      "candidate_id": "ruler-1051",
       "canonical_name": "赫连昌",
       "corpus_status": "CORE",
       "polities": [
@@ -4653,7 +4653,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1056",
+      "candidate_id": "ruler-1057",
       "canonical_name": "赵嘉",
       "corpus_status": "CORE",
       "polities": [
@@ -4663,7 +4663,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1057",
+      "candidate_id": "ruler-1058",
       "canonical_name": "赵孝成王赵丹",
       "corpus_status": "CORE",
       "polities": [
@@ -4673,7 +4673,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1058",
+      "candidate_id": "ruler-1059",
       "canonical_name": "赵幽缪王赵迁",
       "corpus_status": "CORE",
       "polities": [
@@ -4683,7 +4683,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1060",
+      "candidate_id": "ruler-1061",
       "canonical_name": "赵悼襄王赵偃",
       "corpus_status": "CORE",
       "polities": [
@@ -4693,7 +4693,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1062",
+      "candidate_id": "ruler-1063",
       "canonical_name": "赵惠文王赵何",
       "corpus_status": "CORE",
       "polities": [
@@ -4703,7 +4703,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1063",
+      "candidate_id": "ruler-1064",
       "canonical_name": "赵成侯赵种",
       "corpus_status": "CORE",
       "polities": [
@@ -4713,7 +4713,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1065",
+      "candidate_id": "ruler-1066",
       "canonical_name": "赵敬侯赵章",
       "corpus_status": "CORE",
       "polities": [
@@ -4723,7 +4723,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1074",
+      "candidate_id": "ruler-1075",
       "canonical_name": "赵武侯",
       "corpus_status": "CORE",
       "polities": [
@@ -4733,7 +4733,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1075",
+      "candidate_id": "ruler-1076",
       "canonical_name": "赵武灵王赵雍",
       "corpus_status": "CORE",
       "polities": [
@@ -4743,7 +4743,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1076",
+      "candidate_id": "ruler-1077",
       "canonical_name": "赵烈侯赵籍",
       "corpus_status": "CORE",
       "polities": [
@@ -4753,7 +4753,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1080",
+      "candidate_id": "ruler-1081",
       "canonical_name": "赵肃侯赵语",
       "corpus_status": "CORE",
       "polities": [
@@ -4763,7 +4763,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1082",
+      "candidate_id": "ruler-1083",
       "canonical_name": "越王之侯",
       "corpus_status": "CORE",
       "polities": [
@@ -4773,7 +4773,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1083",
+      "candidate_id": "ruler-1084",
       "canonical_name": "越王翁",
       "corpus_status": "CORE",
       "polities": [
@@ -4783,7 +4783,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1084",
+      "candidate_id": "ruler-1085",
       "canonical_name": "越王鼫与",
       "corpus_status": "CORE",
       "polities": [
@@ -4793,7 +4793,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1085",
+      "candidate_id": "ruler-1086",
       "canonical_name": "转",
       "corpus_status": "CORE",
       "polities": [
@@ -4803,7 +4803,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1096",
+      "candidate_id": "ruler-1097",
       "canonical_name": "郑僖公髡顽",
       "corpus_status": "CORE",
       "polities": [
@@ -4813,7 +4813,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1098",
+      "candidate_id": "ruler-1099",
       "canonical_name": "郑共公丑",
       "corpus_status": "CORE",
       "polities": [
@@ -4823,7 +4823,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1099",
+      "candidate_id": "ruler-1100",
       "canonical_name": "郑厉公突",
       "corpus_status": "CORE",
       "polities": [
@@ -4833,7 +4833,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1100",
+      "candidate_id": "ruler-1101",
       "canonical_name": "郑哀公易",
       "corpus_status": "CORE",
       "polities": [
@@ -4843,7 +4843,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1101",
+      "candidate_id": "ruler-1102",
       "canonical_name": "郑声公胜",
       "corpus_status": "CORE",
       "polities": [
@@ -4853,7 +4853,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1102",
+      "candidate_id": "ruler-1103",
       "canonical_name": "郑子亹",
       "corpus_status": "CORE",
       "polities": [
@@ -4863,7 +4863,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1103",
+      "candidate_id": "ruler-1104",
       "canonical_name": "郑子婴",
       "corpus_status": "CORE",
       "polities": [
@@ -4873,7 +4873,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1104",
+      "candidate_id": "ruler-1105",
       "canonical_name": "郑定公宁",
       "corpus_status": "CORE",
       "polities": [
@@ -4883,7 +4883,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1105",
+      "candidate_id": "ruler-1106",
       "canonical_name": "郑幽公已",
       "corpus_status": "CORE",
       "polities": [
@@ -4893,7 +4893,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1106",
+      "candidate_id": "ruler-1107",
       "canonical_name": "郑庄公寤生",
       "corpus_status": "CORE",
       "polities": [
@@ -4903,7 +4903,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1107",
+      "candidate_id": "ruler-1108",
       "canonical_name": "郑康公乙",
       "corpus_status": "CORE",
       "polities": [
@@ -4913,7 +4913,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1108",
+      "candidate_id": "ruler-1109",
       "canonical_name": "郑悼公沸",
       "corpus_status": "CORE",
       "polities": [
@@ -4923,7 +4923,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1109",
+      "candidate_id": "ruler-1110",
       "canonical_name": "郑成公睔",
       "corpus_status": "CORE",
       "polities": [
@@ -4933,7 +4933,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1111",
+      "candidate_id": "ruler-1112",
       "canonical_name": "郑文公踕",
       "corpus_status": "CORE",
       "polities": [
@@ -4943,7 +4943,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1112",
+      "candidate_id": "ruler-1113",
       "canonical_name": "郑昭公忽",
       "corpus_status": "CORE",
       "polities": [
@@ -4953,7 +4953,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1113",
+      "candidate_id": "ruler-1114",
       "canonical_name": "郑桓公友",
       "corpus_status": "CORE",
       "polities": [
@@ -4963,7 +4963,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1114",
+      "candidate_id": "ruler-1115",
       "canonical_name": "郑武公掘突",
       "corpus_status": "CORE",
       "polities": [
@@ -4973,7 +4973,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1115",
+      "candidate_id": "ruler-1116",
       "canonical_name": "郑灵公夷",
       "corpus_status": "CORE",
       "polities": [
@@ -4983,7 +4983,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1116",
+      "candidate_id": "ruler-1117",
       "canonical_name": "郑献公趸",
       "corpus_status": "CORE",
       "polities": [
@@ -4993,7 +4993,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1117",
+      "candidate_id": "ruler-1118",
       "canonical_name": "郑穆公兰",
       "corpus_status": "CORE",
       "polities": [
@@ -5003,7 +5003,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1118",
+      "candidate_id": "ruler-1119",
       "canonical_name": "郑简公嘉",
       "corpus_status": "CORE",
       "polities": [
@@ -5013,7 +5013,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1119",
+      "candidate_id": "ruler-1120",
       "canonical_name": "郑繻公骀",
       "corpus_status": "CORE",
       "polities": [
@@ -5023,7 +5023,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1121",
+      "candidate_id": "ruler-1122",
       "canonical_name": "郑襄公坚",
       "corpus_status": "CORE",
       "polities": [
@@ -5033,7 +5033,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1127",
+      "candidate_id": "ruler-1128",
       "canonical_name": "郭威",
       "corpus_status": "CORE",
       "polities": [
@@ -5043,7 +5043,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1136",
+      "candidate_id": "ruler-1137",
       "canonical_name": "钱俶",
       "corpus_status": "CORE",
       "polities": [
@@ -5053,7 +5053,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1137",
+      "candidate_id": "ruler-1138",
       "canonical_name": "钱元瓘",
       "corpus_status": "CORE",
       "polities": [
@@ -5063,7 +5063,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1138",
+      "candidate_id": "ruler-1139",
       "canonical_name": "钱弘佐",
       "corpus_status": "CORE",
       "polities": [
@@ -5073,7 +5073,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1139",
+      "candidate_id": "ruler-1140",
       "canonical_name": "钱弘倧",
       "corpus_status": "CORE",
       "polities": [
@@ -5083,7 +5083,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1140",
+      "candidate_id": "ruler-1141",
       "canonical_name": "钱镠",
       "corpus_status": "CORE",
       "polities": [
@@ -5093,7 +5093,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1144",
+      "candidate_id": "ruler-1145",
       "canonical_name": "错枝",
       "corpus_status": "CORE",
       "polities": [
@@ -5103,7 +5103,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1146",
+      "candidate_id": "ruler-1147",
       "canonical_name": "阖闾",
       "corpus_status": "CORE",
       "polities": [
@@ -5113,7 +5113,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1149",
+      "candidate_id": "ruler-1150",
       "canonical_name": "阿里不哥",
       "corpus_status": "CORE",
       "polities": [
@@ -5123,7 +5123,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1151",
+      "candidate_id": "ruler-1152",
       "canonical_name": "陈公佗",
       "corpus_status": "CORE",
       "polities": [
@@ -5133,7 +5133,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1153",
+      "candidate_id": "ruler-1154",
       "canonical_name": "陈共公朔",
       "corpus_status": "CORE",
       "polities": [
@@ -5143,7 +5143,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1154",
+      "candidate_id": "ruler-1155",
       "canonical_name": "陈厉公跃",
       "corpus_status": "CORE",
       "polities": [
@@ -5153,7 +5153,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1155",
+      "candidate_id": "ruler-1156",
       "canonical_name": "陈友谅",
       "corpus_status": "CORE",
       "polities": [
@@ -5163,7 +5163,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1157",
+      "candidate_id": "ruler-1158",
       "canonical_name": "陈君留",
       "corpus_status": "CORE",
       "polities": [
@@ -5173,7 +5173,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1158",
+      "candidate_id": "ruler-1159",
       "canonical_name": "陈哀公弱",
       "corpus_status": "CORE",
       "polities": [
@@ -5183,7 +5183,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1159",
+      "candidate_id": "ruler-1160",
       "canonical_name": "陈夷公说",
       "corpus_status": "CORE",
       "polities": [
@@ -5193,7 +5193,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1160",
+      "candidate_id": "ruler-1161",
       "canonical_name": "陈孝公突",
       "corpus_status": "CORE",
       "polities": [
@@ -5203,7 +5203,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1161",
+      "candidate_id": "ruler-1162",
       "canonical_name": "陈宣公杵臼",
       "corpus_status": "CORE",
       "polities": [
@@ -5213,7 +5213,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1162",
+      "candidate_id": "ruler-1163",
       "canonical_name": "陈平公燮",
       "corpus_status": "CORE",
       "polities": [
@@ -5223,7 +5223,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1163",
+      "candidate_id": "ruler-1164",
       "canonical_name": "陈幽公宁",
       "corpus_status": "CORE",
       "polities": [
@@ -5233,7 +5233,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1164",
+      "candidate_id": "ruler-1165",
       "canonical_name": "陈庄公林",
       "corpus_status": "CORE",
       "polities": [
@@ -5243,7 +5243,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1166",
+      "candidate_id": "ruler-1167",
       "canonical_name": "陈怀公柳",
       "corpus_status": "CORE",
       "polities": [
@@ -5253,7 +5253,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1167",
+      "candidate_id": "ruler-1168",
       "canonical_name": "陈惠公吴",
       "corpus_status": "CORE",
       "polities": [
@@ -5263,7 +5263,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1168",
+      "candidate_id": "ruler-1169",
       "canonical_name": "陈慎公圉戎",
       "corpus_status": "CORE",
       "polities": [
@@ -5273,7 +5273,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1169",
+      "candidate_id": "ruler-1170",
       "canonical_name": "陈成公午",
       "corpus_status": "CORE",
       "polities": [
@@ -5283,7 +5283,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1170",
+      "candidate_id": "ruler-1171",
       "canonical_name": "陈文公圉",
       "corpus_status": "CORE",
       "polities": [
@@ -5293,7 +5293,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1171",
+      "candidate_id": "ruler-1172",
       "canonical_name": "陈桓公鲍",
       "corpus_status": "CORE",
       "polities": [
@@ -5303,7 +5303,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1172",
+      "candidate_id": "ruler-1173",
       "canonical_name": "陈武公灵",
       "corpus_status": "CORE",
       "polities": [
@@ -5313,7 +5313,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1174",
+      "candidate_id": "ruler-1175",
       "canonical_name": "陈湣公越",
       "corpus_status": "CORE",
       "polities": [
@@ -5323,7 +5323,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1175",
+      "candidate_id": "ruler-1176",
       "canonical_name": "陈灵公平国",
       "corpus_status": "CORE",
       "polities": [
@@ -5333,7 +5333,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1176",
+      "candidate_id": "ruler-1177",
       "canonical_name": "陈理",
       "corpus_status": "CORE",
       "polities": [
@@ -5343,7 +5343,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1177",
+      "candidate_id": "ruler-1178",
       "canonical_name": "陈申公犀侯",
       "corpus_status": "CORE",
       "polities": [
@@ -5353,7 +5353,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1178",
+      "candidate_id": "ruler-1179",
       "canonical_name": "陈相公皋羊",
       "corpus_status": "CORE",
       "polities": [
@@ -5363,7 +5363,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1179",
+      "candidate_id": "ruler-1180",
       "canonical_name": "陈穆公款",
       "corpus_status": "CORE",
       "polities": [
@@ -5373,7 +5373,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1181",
+      "candidate_id": "ruler-1182",
       "canonical_name": "陈胡公满",
       "corpus_status": "CORE",
       "polities": [
@@ -5383,21 +5383,11 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1183",
+      "candidate_id": "ruler-1184",
       "canonical_name": "陈釐公孝",
       "corpus_status": "CORE",
       "polities": [
         "陈"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-1189",
-      "canonical_name": "韩共侯/懿侯韩若山",
-      "corpus_status": "CORE",
-      "polities": [
-        "韩"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -5424,7 +5414,7 @@
     },
     {
       "candidate_id": "ruler-1193",
-      "canonical_name": "韩文侯韩猷",
+      "canonical_name": "韩懿侯",
       "corpus_status": "CORE",
       "polities": [
         "韩"
@@ -5434,7 +5424,7 @@
     },
     {
       "candidate_id": "ruler-1194",
-      "canonical_name": "韩景侯韩虔",
+      "canonical_name": "韩文侯韩猷",
       "corpus_status": "CORE",
       "polities": [
         "韩"
@@ -5444,6 +5434,16 @@
     },
     {
       "candidate_id": "ruler-1195",
+      "canonical_name": "韩景侯韩虔",
+      "corpus_status": "CORE",
+      "polities": [
+        "韩"
+      ],
+      "matched_skill_paths": [],
+      "match_status": "MISSING"
+    },
+    {
+      "candidate_id": "ruler-1196",
       "canonical_name": "韩林儿",
       "corpus_status": "CORE",
       "polities": [
@@ -5453,7 +5453,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1196",
+      "candidate_id": "ruler-1197",
       "canonical_name": "韩桓惠王韩然",
       "corpus_status": "CORE",
       "polities": [
@@ -5463,7 +5463,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1197",
+      "candidate_id": "ruler-1198",
       "canonical_name": "韩烈侯韩取",
       "corpus_status": "CORE",
       "polities": [
@@ -5473,7 +5473,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1198",
+      "candidate_id": "ruler-1199",
       "canonical_name": "韩王安",
       "corpus_status": "CORE",
       "polities": [
@@ -5483,7 +5483,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1199",
+      "candidate_id": "ruler-1200",
       "canonical_name": "韩襄王韩仓",
       "corpus_status": "CORE",
       "polities": [
@@ -5493,7 +5493,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1200",
+      "candidate_id": "ruler-1201",
       "canonical_name": "韩釐侯韩武",
       "corpus_status": "CORE",
       "polities": [
@@ -5503,7 +5503,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1201",
+      "candidate_id": "ruler-1202",
       "canonical_name": "韩釐王韩咎",
       "corpus_status": "CORE",
       "polities": [
@@ -5513,7 +5513,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1204",
+      "candidate_id": "ruler-1205",
       "canonical_name": "顾维钧",
       "corpus_status": "CORE",
       "polities": [
@@ -5523,7 +5523,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1205",
+      "candidate_id": "ruler-1206",
       "canonical_name": "颇高",
       "corpus_status": "CORE",
       "polities": [
@@ -5533,7 +5533,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1208",
+      "candidate_id": "ruler-1209",
       "canonical_name": "颜惠庆",
       "corpus_status": "CORE",
       "polities": [
@@ -5543,7 +5543,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1209",
+      "candidate_id": "ruler-1210",
       "canonical_name": "马希声",
       "corpus_status": "CORE",
       "polities": [
@@ -5553,7 +5553,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1210",
+      "candidate_id": "ruler-1211",
       "canonical_name": "马希崇",
       "corpus_status": "CORE",
       "polities": [
@@ -5563,7 +5563,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1211",
+      "candidate_id": "ruler-1212",
       "canonical_name": "马希广",
       "corpus_status": "CORE",
       "polities": [
@@ -5573,7 +5573,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1212",
+      "candidate_id": "ruler-1213",
       "canonical_name": "马希范",
       "corpus_status": "CORE",
       "polities": [
@@ -5583,7 +5583,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1213",
+      "candidate_id": "ruler-1214",
       "canonical_name": "马希萼",
       "corpus_status": "CORE",
       "polities": [
@@ -5593,7 +5593,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1214",
+      "candidate_id": "ruler-1215",
       "canonical_name": "马殷",
       "corpus_status": "CORE",
       "polities": [
@@ -5603,7 +5603,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1215",
+      "candidate_id": "ruler-1216",
       "canonical_name": "高云",
       "corpus_status": "CORE",
       "polities": [
@@ -5613,7 +5613,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1216",
+      "candidate_id": "ruler-1217",
       "canonical_name": "高从诲",
       "corpus_status": "CORE",
       "polities": [
@@ -5623,7 +5623,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1217",
+      "candidate_id": "ruler-1218",
       "canonical_name": "高保勗",
       "corpus_status": "CORE",
       "polities": [
@@ -5633,7 +5633,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1218",
+      "candidate_id": "ruler-1219",
       "canonical_name": "高保融",
       "corpus_status": "CORE",
       "polities": [
@@ -5643,7 +5643,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1219",
+      "candidate_id": "ruler-1220",
       "canonical_name": "高凌霨",
       "corpus_status": "CORE",
       "polities": [
@@ -5653,7 +5653,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1220",
+      "candidate_id": "ruler-1221",
       "canonical_name": "高升泰",
       "corpus_status": "CORE",
       "polities": [
@@ -5663,7 +5663,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1221",
+      "candidate_id": "ruler-1222",
       "canonical_name": "高季兴",
       "corpus_status": "CORE",
       "polities": [
@@ -5673,7 +5673,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1224",
+      "candidate_id": "ruler-1225",
       "canonical_name": "高恒",
       "corpus_status": "CORE",
       "polities": [
@@ -5683,7 +5683,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1225",
+      "candidate_id": "ruler-1226",
       "canonical_name": "高殷",
       "corpus_status": "CORE",
       "polities": [
@@ -5693,7 +5693,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1227",
+      "candidate_id": "ruler-1228",
       "canonical_name": "高洋",
       "corpus_status": "CORE",
       "polities": [
@@ -5703,7 +5703,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1228",
+      "candidate_id": "ruler-1229",
       "canonical_name": "高湛",
       "corpus_status": "CORE",
       "polities": [
@@ -5713,7 +5713,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1229",
+      "candidate_id": "ruler-1230",
       "canonical_name": "高演",
       "corpus_status": "CORE",
       "polities": [
@@ -5723,7 +5723,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1230",
+      "candidate_id": "ruler-1231",
       "canonical_name": "高纬",
       "corpus_status": "CORE",
       "polities": [
@@ -5733,7 +5733,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1231",
+      "candidate_id": "ruler-1232",
       "canonical_name": "高继冲",
       "corpus_status": "CORE",
       "polities": [
@@ -5743,7 +5743,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1232",
+      "candidate_id": "ruler-1233",
       "canonical_name": "鬻熊",
       "corpus_status": "CORE",
       "polities": [
@@ -5753,7 +5753,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1234",
+      "candidate_id": "ruler-1235",
       "canonical_name": "魏安僖王魏圉",
       "corpus_status": "CORE",
       "polities": [
@@ -5763,7 +5763,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1235",
+      "candidate_id": "ruler-1236",
       "canonical_name": "魏惠成王魏罃",
       "corpus_status": "CORE",
       "polities": [
@@ -5773,7 +5773,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1236",
+      "candidate_id": "ruler-1237",
       "canonical_name": "魏文侯魏斯",
       "corpus_status": "CORE",
       "polities": [
@@ -5783,7 +5783,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1237",
+      "candidate_id": "ruler-1238",
       "canonical_name": "魏昭王魏遫",
       "corpus_status": "CORE",
       "polities": [
@@ -5793,7 +5793,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1238",
+      "candidate_id": "ruler-1239",
       "canonical_name": "魏景湣王魏午",
       "corpus_status": "CORE",
       "polities": [
@@ -5803,7 +5803,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1239",
+      "candidate_id": "ruler-1240",
       "canonical_name": "魏武侯魏击",
       "corpus_status": "CORE",
       "polities": [
@@ -5813,7 +5813,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1240",
+      "candidate_id": "ruler-1241",
       "canonical_name": "魏王假",
       "corpus_status": "CORE",
       "polities": [
@@ -5823,7 +5823,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1241",
+      "candidate_id": "ruler-1242",
       "canonical_name": "魏襄王魏嗣",
       "corpus_status": "CORE",
       "polities": [
@@ -5833,7 +5833,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1243",
+      "candidate_id": "ruler-1244",
       "canonical_name": "鲁元公",
       "corpus_status": "CORE",
       "polities": [
@@ -5843,7 +5843,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1244",
+      "candidate_id": "ruler-1245",
       "canonical_name": "鲁公伯御",
       "corpus_status": "CORE",
       "polities": [
@@ -5853,7 +5853,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1245",
+      "candidate_id": "ruler-1246",
       "canonical_name": "鲁共公",
       "corpus_status": "CORE",
       "polities": [
@@ -5863,7 +5863,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1246",
+      "candidate_id": "ruler-1247",
       "canonical_name": "鲁厉公",
       "corpus_status": "CORE",
       "polities": [
@@ -5873,7 +5873,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1247",
+      "candidate_id": "ruler-1248",
       "canonical_name": "鲁君野",
       "corpus_status": "CORE",
       "polities": [
@@ -5883,7 +5883,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1248",
+      "candidate_id": "ruler-1249",
       "canonical_name": "鲁哀公",
       "corpus_status": "CORE",
       "polities": [
@@ -5893,7 +5893,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1249",
+      "candidate_id": "ruler-1250",
       "canonical_name": "鲁孝公",
       "corpus_status": "CORE",
       "polities": [
@@ -5903,7 +5903,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1250",
+      "candidate_id": "ruler-1251",
       "canonical_name": "鲁定公",
       "corpus_status": "CORE",
       "polities": [
@@ -5913,7 +5913,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1251",
+      "candidate_id": "ruler-1252",
       "canonical_name": "鲁宣公",
       "corpus_status": "CORE",
       "polities": [
@@ -5923,7 +5923,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1252",
+      "candidate_id": "ruler-1253",
       "canonical_name": "鲁平公",
       "corpus_status": "CORE",
       "polities": [
@@ -5933,7 +5933,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1253",
+      "candidate_id": "ruler-1254",
       "canonical_name": "鲁幽公",
       "corpus_status": "CORE",
       "polities": [
@@ -5943,7 +5943,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1254",
+      "candidate_id": "ruler-1255",
       "canonical_name": "鲁庄公",
       "corpus_status": "CORE",
       "polities": [
@@ -5953,7 +5953,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1255",
+      "candidate_id": "ruler-1256",
       "canonical_name": "鲁康公",
       "corpus_status": "CORE",
       "polities": [
@@ -5963,7 +5963,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1256",
+      "candidate_id": "ruler-1257",
       "canonical_name": "鲁悼公",
       "corpus_status": "CORE",
       "polities": [
@@ -5973,7 +5973,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1257",
+      "candidate_id": "ruler-1258",
       "canonical_name": "鲁惠公",
       "corpus_status": "CORE",
       "polities": [
@@ -5983,7 +5983,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1258",
+      "candidate_id": "ruler-1259",
       "canonical_name": "鲁懿公",
       "corpus_status": "CORE",
       "polities": [
@@ -5993,7 +5993,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1259",
+      "candidate_id": "ruler-1260",
       "canonical_name": "鲁成公",
       "corpus_status": "CORE",
       "polities": [
@@ -6003,7 +6003,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1260",
+      "candidate_id": "ruler-1261",
       "canonical_name": "鲁文公",
       "corpus_status": "CORE",
       "polities": [
@@ -6013,7 +6013,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1261",
+      "candidate_id": "ruler-1262",
       "canonical_name": "鲁昭公",
       "corpus_status": "CORE",
       "polities": [
@@ -6023,7 +6023,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1262",
+      "candidate_id": "ruler-1263",
       "canonical_name": "鲁景公",
       "corpus_status": "CORE",
       "polities": [
@@ -6033,7 +6033,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1263",
+      "candidate_id": "ruler-1264",
       "canonical_name": "鲁桓公",
       "corpus_status": "CORE",
       "polities": [
@@ -6043,7 +6043,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1264",
+      "candidate_id": "ruler-1265",
       "canonical_name": "鲁武公",
       "corpus_status": "CORE",
       "polities": [
@@ -6053,7 +6053,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1265",
+      "candidate_id": "ruler-1266",
       "canonical_name": "鲁炀公",
       "corpus_status": "CORE",
       "polities": [
@@ -6063,7 +6063,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1266",
+      "candidate_id": "ruler-1267",
       "canonical_name": "鲁献公",
       "corpus_status": "CORE",
       "polities": [
@@ -6073,7 +6073,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1267",
+      "candidate_id": "ruler-1268",
       "canonical_name": "鲁真公",
       "corpus_status": "CORE",
       "polities": [
@@ -6083,7 +6083,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1268",
+      "candidate_id": "ruler-1269",
       "canonical_name": "鲁穆公",
       "corpus_status": "CORE",
       "polities": [
@@ -6093,7 +6093,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1269",
+      "candidate_id": "ruler-1270",
       "canonical_name": "鲁考公",
       "corpus_status": "CORE",
       "polities": [
@@ -6103,7 +6103,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1270",
+      "candidate_id": "ruler-1271",
       "canonical_name": "鲁襄公",
       "corpus_status": "CORE",
       "polities": [
@@ -6113,7 +6113,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1271",
+      "candidate_id": "ruler-1272",
       "canonical_name": "鲁釐公",
       "corpus_status": "CORE",
       "polities": [
@@ -6123,7 +6123,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1272",
+      "candidate_id": "ruler-1273",
       "canonical_name": "鲁闵公",
       "corpus_status": "CORE",
       "polities": [
@@ -6133,7 +6133,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1273",
+      "candidate_id": "ruler-1274",
       "canonical_name": "鲁隐公",
       "corpus_status": "CORE",
       "polities": [
@@ -6143,7 +6143,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1274",
+      "candidate_id": "ruler-1275",
       "canonical_name": "鲁顷公",
       "corpus_status": "CORE",
       "polities": [
@@ -6153,7 +6153,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1275",
+      "candidate_id": "ruler-1276",
       "canonical_name": "鲁魏公",
       "corpus_status": "CORE",
       "polities": [
@@ -6163,7 +6163,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1276",
+      "candidate_id": "ruler-1277",
       "canonical_name": "黄巢",
       "corpus_status": "CORE",
       "polities": [
@@ -6173,7 +6173,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1278",
+      "candidate_id": "ruler-1279",
       "canonical_name": "黄郛",
       "corpus_status": "CORE",
       "polities": [
@@ -6183,7 +6183,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1280",
+      "candidate_id": "ruler-1281",
       "canonical_name": "黎元洪",
       "corpus_status": "CORE",
       "polities": [
@@ -6193,7 +6193,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1281",
+      "candidate_id": "ruler-1282",
       "canonical_name": "齐丁公吕伋",
       "corpus_status": "CORE",
       "polities": [
@@ -6203,7 +6203,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1282",
+      "candidate_id": "ruler-1283",
       "canonical_name": "齐乙公得",
       "corpus_status": "CORE",
       "polities": [
@@ -6213,7 +6213,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1283",
+      "candidate_id": "ruler-1284",
       "canonical_name": "齐侯无亏",
       "corpus_status": "CORE",
       "polities": [
@@ -6223,7 +6223,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1284",
+      "candidate_id": "ruler-1285",
       "canonical_name": "齐侯舍",
       "corpus_status": "CORE",
       "polities": [
@@ -6233,7 +6233,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1285",
+      "candidate_id": "ruler-1286",
       "canonical_name": "齐僖公禄甫",
       "corpus_status": "CORE",
       "polities": [
@@ -6243,7 +6243,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1286",
+      "candidate_id": "ruler-1287",
       "canonical_name": "齐厉公无忌",
       "corpus_status": "CORE",
       "polities": [
@@ -6253,7 +6253,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1287",
+      "candidate_id": "ruler-1288",
       "canonical_name": "齐哀公不辰",
       "corpus_status": "CORE",
       "polities": [
@@ -6263,7 +6263,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1288",
+      "candidate_id": "ruler-1289",
       "canonical_name": "齐太公吕尚",
       "corpus_status": "CORE",
       "polities": [
@@ -6273,7 +6273,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1289",
+      "candidate_id": "ruler-1290",
       "canonical_name": "齐孝公昭",
       "corpus_status": "CORE",
       "polities": [
@@ -6283,7 +6283,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1290",
+      "candidate_id": "ruler-1291",
       "canonical_name": "齐宣公积",
       "corpus_status": "CORE",
       "polities": [
@@ -6293,7 +6293,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1291",
+      "candidate_id": "ruler-1292",
       "canonical_name": "齐平公骜",
       "corpus_status": "CORE",
       "polities": [
@@ -6303,7 +6303,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1292",
+      "candidate_id": "ruler-1293",
       "canonical_name": "齐庄公光",
       "corpus_status": "CORE",
       "polities": [
@@ -6313,7 +6313,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1293",
+      "candidate_id": "ruler-1294",
       "canonical_name": "齐庄公购",
       "corpus_status": "CORE",
       "polities": [
@@ -6323,7 +6323,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1294",
+      "candidate_id": "ruler-1295",
       "canonical_name": "齐康公贷",
       "corpus_status": "CORE",
       "polities": [
@@ -6333,7 +6333,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1295",
+      "candidate_id": "ruler-1296",
       "canonical_name": "齐悼公阳生",
       "corpus_status": "CORE",
       "polities": [
@@ -6343,7 +6343,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1296",
+      "candidate_id": "ruler-1297",
       "canonical_name": "齐惠公元",
       "corpus_status": "CORE",
       "polities": [
@@ -6353,7 +6353,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1297",
+      "candidate_id": "ruler-1298",
       "canonical_name": "齐懿公商人",
       "corpus_status": "CORE",
       "polities": [
@@ -6363,7 +6363,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1298",
+      "candidate_id": "ruler-1299",
       "canonical_name": "齐成公脱",
       "corpus_status": "CORE",
       "polities": [
@@ -6373,7 +6373,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1299",
+      "candidate_id": "ruler-1300",
       "canonical_name": "齐文公赤",
       "corpus_status": "CORE",
       "polities": [
@@ -6383,7 +6383,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1300",
+      "candidate_id": "ruler-1301",
       "canonical_name": "齐昭公潘",
       "corpus_status": "CORE",
       "polities": [
@@ -6393,7 +6393,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1301",
+      "candidate_id": "ruler-1302",
       "canonical_name": "齐晏孺子荼",
       "corpus_status": "CORE",
       "polities": [
@@ -6403,7 +6403,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1302",
+      "candidate_id": "ruler-1303",
       "canonical_name": "齐景公杵臼",
       "corpus_status": "CORE",
       "polities": [
@@ -6413,7 +6413,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1303",
+      "candidate_id": "ruler-1304",
       "canonical_name": "齐桓公小白",
       "corpus_status": "CORE",
       "polities": [
@@ -6423,7 +6423,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1304",
+      "candidate_id": "ruler-1305",
       "canonical_name": "齐武公寿",
       "corpus_status": "CORE",
       "polities": [
@@ -6433,7 +6433,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1305",
+      "candidate_id": "ruler-1306",
       "canonical_name": "齐灵公环",
       "corpus_status": "CORE",
       "polities": [
@@ -6443,7 +6443,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1306",
+      "candidate_id": "ruler-1307",
       "canonical_name": "齐献公山",
       "corpus_status": "CORE",
       "polities": [
@@ -6453,7 +6453,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1307",
+      "candidate_id": "ruler-1308",
       "canonical_name": "齐癸公慈母",
       "corpus_status": "CORE",
       "polities": [
@@ -6463,7 +6463,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1308",
+      "candidate_id": "ruler-1309",
       "canonical_name": "齐简公壬",
       "corpus_status": "CORE",
       "polities": [
@@ -6473,7 +6473,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1309",
+      "candidate_id": "ruler-1310",
       "canonical_name": "齐胡公静",
       "corpus_status": "CORE",
       "polities": [
@@ -6483,7 +6483,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1310",
+      "candidate_id": "ruler-1311",
       "canonical_name": "齐襄公诸儿",
       "corpus_status": "CORE",
       "polities": [
@@ -6493,7 +6493,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1311",
+      "candidate_id": "ruler-1312",
       "canonical_name": "齐顷公无野",
       "corpus_status": "CORE",
       "polities": [
@@ -9491,7 +9491,7 @@
     },
     {
       "candidate_id": "ruler-1010",
-      "canonical_name": "虞公/虞惠公",
+      "canonical_name": "虞公",
       "corpus_status": "REVIEW",
       "polities": [
         "虞"
@@ -9581,7 +9581,7 @@
     },
     {
       "candidate_id": "ruler-1020",
-      "canonical_name": "虢宣公/虢季子白",
+      "canonical_name": "虢季子白",
       "corpus_status": "REVIEW",
       "polities": [
         "西虢/南虢"
@@ -9591,7 +9591,7 @@
     },
     {
       "candidate_id": "ruler-1021",
-      "canonical_name": "虢文公",
+      "canonical_name": "虢宣公",
       "corpus_status": "REVIEW",
       "polities": [
         "西虢/南虢"
@@ -9601,6 +9601,16 @@
     },
     {
       "candidate_id": "ruler-1022",
+      "canonical_name": "虢文公",
+      "corpus_status": "REVIEW",
+      "polities": [
+        "西虢/南虢"
+      ],
+      "matched_skill_paths": [],
+      "match_status": "MISSING"
+    },
+    {
+      "candidate_id": "ruler-1023",
       "canonical_name": "虢石父",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9610,7 +9620,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1025",
+      "candidate_id": "ruler-1026",
       "canonical_name": "许僖公业",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9620,7 +9630,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1026",
+      "candidate_id": "ruler-1027",
       "canonical_name": "许孝男",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9630,18 +9640,8 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1027",
-      "canonical_name": "许庄公茀/苴人",
-      "corpus_status": "REVIEW",
-      "polities": [
-        "许"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
       "candidate_id": "ruler-1028",
-      "canonical_name": "许康男",
+      "canonical_name": "许庄公",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9651,7 +9651,7 @@
     },
     {
       "candidate_id": "ruler-1029",
-      "canonical_name": "许德男",
+      "canonical_name": "许康男",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9661,7 +9661,7 @@
     },
     {
       "candidate_id": "ruler-1030",
-      "canonical_name": "许悼公买",
+      "canonical_name": "许德男",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9671,7 +9671,7 @@
     },
     {
       "candidate_id": "ruler-1031",
-      "canonical_name": "许文公兴父",
+      "canonical_name": "许悼公买",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9681,7 +9681,7 @@
     },
     {
       "candidate_id": "ruler-1032",
-      "canonical_name": "许文叔丁",
+      "canonical_name": "许文公兴父",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9691,7 +9691,7 @@
     },
     {
       "candidate_id": "ruler-1033",
-      "canonical_name": "许昭公锡我",
+      "canonical_name": "许文叔丁",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9701,7 +9701,7 @@
     },
     {
       "candidate_id": "ruler-1034",
-      "canonical_name": "许桓公郑",
+      "canonical_name": "许昭公锡我",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9711,7 +9711,7 @@
     },
     {
       "candidate_id": "ruler-1035",
-      "canonical_name": "许武公",
+      "canonical_name": "许桓公郑",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9721,7 +9721,7 @@
     },
     {
       "candidate_id": "ruler-1036",
-      "canonical_name": "许灵公宁",
+      "canonical_name": "许武公",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9731,7 +9731,7 @@
     },
     {
       "candidate_id": "ruler-1037",
-      "canonical_name": "许男伯封",
+      "canonical_name": "许灵公宁",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9741,7 +9741,7 @@
     },
     {
       "candidate_id": "ruler-1038",
-      "canonical_name": "许男斯",
+      "canonical_name": "许男伯封",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9751,7 +9751,7 @@
     },
     {
       "candidate_id": "ruler-1039",
-      "canonical_name": "许穆公新臣",
+      "canonical_name": "许男斯",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -9761,6 +9761,16 @@
     },
     {
       "candidate_id": "ruler-1040",
+      "canonical_name": "许穆公新臣",
+      "corpus_status": "REVIEW",
+      "polities": [
+        "许"
+      ],
+      "matched_skill_paths": [],
+      "match_status": "MISSING"
+    },
+    {
+      "candidate_id": "ruler-1041",
       "canonical_name": "许靖男",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9770,7 +9780,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1055",
+      "candidate_id": "ruler-1056",
       "canonical_name": "赵善政",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9780,7 +9790,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1073",
+      "candidate_id": "ruler-1074",
       "canonical_name": "赵歇",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9790,7 +9800,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1088",
+      "candidate_id": "ruler-1089",
       "canonical_name": "辅公祏",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9800,7 +9810,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1090",
+      "candidate_id": "ruler-1091",
       "canonical_name": "逻盛",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9810,7 +9820,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1091",
+      "candidate_id": "ruler-1092",
       "canonical_name": "邾公子害",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9820,7 +9830,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1092",
+      "candidate_id": "ruler-1093",
       "canonical_name": "邾子挟",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9830,7 +9840,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1093",
+      "candidate_id": "ruler-1094",
       "canonical_name": "邾子非",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9840,7 +9850,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1094",
+      "candidate_id": "ruler-1095",
       "canonical_name": "郑买嗣",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9850,7 +9860,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1095",
+      "candidate_id": "ruler-1096",
       "canonical_name": "郑仁旻",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9860,7 +9870,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1097",
+      "candidate_id": "ruler-1098",
       "canonical_name": "郑克塽",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9870,7 +9880,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1110",
+      "candidate_id": "ruler-1111",
       "canonical_name": "郑成功",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9880,7 +9890,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1120",
+      "candidate_id": "ruler-1121",
       "canonical_name": "郑经",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9890,7 +9900,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1122",
+      "candidate_id": "ruler-1123",
       "canonical_name": "郑隆亶",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9900,7 +9910,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1123",
+      "candidate_id": "ruler-1124",
       "canonical_name": "郕伯",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9910,7 +9920,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1124",
+      "candidate_id": "ruler-1125",
       "canonical_name": "郕叔武",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9920,7 +9930,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1125",
+      "candidate_id": "ruler-1126",
       "canonical_name": "郝定",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9930,7 +9940,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1126",
+      "candidate_id": "ruler-1127",
       "canonical_name": "郭叔",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9940,7 +9950,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1128",
+      "candidate_id": "ruler-1129",
       "canonical_name": "郭子和",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9950,7 +9960,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1129",
+      "candidate_id": "ruler-1130",
       "canonical_name": "郳公皮父",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9960,7 +9970,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1130",
+      "candidate_id": "ruler-1131",
       "canonical_name": "郳友",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9970,7 +9980,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1131",
+      "candidate_id": "ruler-1132",
       "canonical_name": "郳庆",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9980,7 +9990,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1132",
+      "candidate_id": "ruler-1133",
       "canonical_name": "郳恭公克",
       "corpus_status": "REVIEW",
       "polities": [
@@ -9990,7 +10000,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1133",
+      "candidate_id": "ruler-1134",
       "canonical_name": "郳犁来",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10000,7 +10010,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1134",
+      "candidate_id": "ruler-1135",
       "canonical_name": "鄅子",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10010,7 +10020,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1143",
+      "candidate_id": "ruler-1144",
       "canonical_name": "错叔绣",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10020,7 +10030,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1145",
+      "candidate_id": "ruler-1146",
       "canonical_name": "阁罗凤",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10030,7 +10040,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1165",
+      "candidate_id": "ruler-1166",
       "canonical_name": "陈开",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10040,7 +10050,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1173",
+      "candidate_id": "ruler-1174",
       "canonical_name": "陈洪进",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10050,7 +10060,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1180",
+      "candidate_id": "ruler-1181",
       "canonical_name": "陈胜",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10060,7 +10070,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1186",
+      "candidate_id": "ruler-1187",
       "canonical_name": "隆舜",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10070,7 +10080,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1188",
+      "candidate_id": "ruler-1189",
       "canonical_name": "靳准",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10090,7 +10100,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1222",
+      "candidate_id": "ruler-1223",
       "canonical_name": "高延宗",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10100,7 +10110,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1223",
+      "candidate_id": "ruler-1224",
       "canonical_name": "高开道",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10110,7 +10120,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1226",
+      "candidate_id": "ruler-1227",
       "canonical_name": "高永昌",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10120,7 +10130,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1233",
+      "candidate_id": "ruler-1234",
       "canonical_name": "魏咎",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10130,7 +10140,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1242",
+      "candidate_id": "ruler-1243",
       "canonical_name": "魏豹",
       "corpus_status": "REVIEW",
       "polities": [
@@ -10140,7 +10150,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1279",
+      "candidate_id": "ruler-1280",
       "canonical_name": "黄鼎凤",
       "corpus_status": "REVIEW",
       "polities": [
@@ -12504,7 +12514,7 @@
     },
     {
       "candidate_id": "ruler-0218",
-      "canonical_name": "夫谭/无谭",
+      "canonical_name": "夫谭",
       "corpus_status": "CORE",
       "polities": [
         "越"
@@ -20715,7 +20725,7 @@
     },
     {
       "candidate_id": "ruler-1010",
-      "canonical_name": "虞公/虞惠公",
+      "canonical_name": "虞公",
       "corpus_status": "REVIEW",
       "polities": [
         "虞"
@@ -20813,7 +20823,7 @@
     },
     {
       "candidate_id": "ruler-1020",
-      "canonical_name": "虢宣公/虢季子白",
+      "canonical_name": "虢季子白",
       "corpus_status": "REVIEW",
       "polities": [
         "西虢/南虢"
@@ -20823,7 +20833,7 @@
     },
     {
       "candidate_id": "ruler-1021",
-      "canonical_name": "虢文公",
+      "canonical_name": "虢宣公",
       "corpus_status": "REVIEW",
       "polities": [
         "西虢/南虢"
@@ -20833,7 +20843,7 @@
     },
     {
       "candidate_id": "ruler-1022",
-      "canonical_name": "虢石父",
+      "canonical_name": "虢文公",
       "corpus_status": "REVIEW",
       "polities": [
         "西虢/南虢"
@@ -20843,6 +20853,16 @@
     },
     {
       "candidate_id": "ruler-1023",
+      "canonical_name": "虢石父",
+      "corpus_status": "REVIEW",
+      "polities": [
+        "西虢/南虢"
+      ],
+      "matched_skill_paths": [],
+      "match_status": "MISSING"
+    },
+    {
+      "candidate_id": "ruler-1024",
       "canonical_name": "袁世凯",
       "corpus_status": "CORE",
       "polities": [
@@ -20853,7 +20873,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1024",
+      "candidate_id": "ruler-1025",
       "canonical_name": "襄王",
       "corpus_status": "CORE",
       "polities": [
@@ -20865,7 +20885,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1025",
+      "candidate_id": "ruler-1026",
       "canonical_name": "许僖公业",
       "corpus_status": "REVIEW",
       "polities": [
@@ -20875,7 +20895,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1026",
+      "candidate_id": "ruler-1027",
       "canonical_name": "许孝男",
       "corpus_status": "REVIEW",
       "polities": [
@@ -20885,18 +20905,8 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1027",
-      "canonical_name": "许庄公茀/苴人",
-      "corpus_status": "REVIEW",
-      "polities": [
-        "许"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
       "candidate_id": "ruler-1028",
-      "canonical_name": "许康男",
+      "canonical_name": "许庄公",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -20906,7 +20916,7 @@
     },
     {
       "candidate_id": "ruler-1029",
-      "canonical_name": "许德男",
+      "canonical_name": "许康男",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -20916,7 +20926,7 @@
     },
     {
       "candidate_id": "ruler-1030",
-      "canonical_name": "许悼公买",
+      "canonical_name": "许德男",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -20926,7 +20936,7 @@
     },
     {
       "candidate_id": "ruler-1031",
-      "canonical_name": "许文公兴父",
+      "canonical_name": "许悼公买",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -20936,7 +20946,7 @@
     },
     {
       "candidate_id": "ruler-1032",
-      "canonical_name": "许文叔丁",
+      "canonical_name": "许文公兴父",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -20946,7 +20956,7 @@
     },
     {
       "candidate_id": "ruler-1033",
-      "canonical_name": "许昭公锡我",
+      "canonical_name": "许文叔丁",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -20956,7 +20966,7 @@
     },
     {
       "candidate_id": "ruler-1034",
-      "canonical_name": "许桓公郑",
+      "canonical_name": "许昭公锡我",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -20966,7 +20976,7 @@
     },
     {
       "candidate_id": "ruler-1035",
-      "canonical_name": "许武公",
+      "canonical_name": "许桓公郑",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -20976,7 +20986,7 @@
     },
     {
       "candidate_id": "ruler-1036",
-      "canonical_name": "许灵公宁",
+      "canonical_name": "许武公",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -20986,7 +20996,7 @@
     },
     {
       "candidate_id": "ruler-1037",
-      "canonical_name": "许男伯封",
+      "canonical_name": "许灵公宁",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -20996,7 +21006,7 @@
     },
     {
       "candidate_id": "ruler-1038",
-      "canonical_name": "许男斯",
+      "canonical_name": "许男伯封",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -21006,7 +21016,7 @@
     },
     {
       "candidate_id": "ruler-1039",
-      "canonical_name": "许穆公新臣",
+      "canonical_name": "许男斯",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -21016,7 +21026,7 @@
     },
     {
       "candidate_id": "ruler-1040",
-      "canonical_name": "许靖男",
+      "canonical_name": "许穆公新臣",
       "corpus_status": "REVIEW",
       "polities": [
         "许"
@@ -21026,6 +21036,16 @@
     },
     {
       "candidate_id": "ruler-1041",
+      "canonical_name": "许靖男",
+      "corpus_status": "REVIEW",
+      "polities": [
+        "许"
+      ],
+      "matched_skill_paths": [],
+      "match_status": "MISSING"
+    },
+    {
+      "candidate_id": "ruler-1042",
       "canonical_name": "诸咎",
       "corpus_status": "CORE",
       "polities": [
@@ -21035,7 +21055,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1042",
+      "candidate_id": "ruler-1043",
       "canonical_name": "诸樊",
       "corpus_status": "CORE",
       "polities": [
@@ -21045,7 +21065,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1043",
+      "candidate_id": "ruler-1044",
       "canonical_name": "谭延闿",
       "corpus_status": "CORE",
       "polities": [
@@ -21055,7 +21075,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1044",
+      "candidate_id": "ruler-1045",
       "canonical_name": "谯纵",
       "corpus_status": "CORE",
       "polities": [
@@ -21065,7 +21085,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1045",
+      "candidate_id": "ruler-1046",
       "canonical_name": "贞定王",
       "corpus_status": "CORE",
       "polities": [
@@ -21077,7 +21097,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1046",
+      "candidate_id": "ruler-1047",
       "canonical_name": "贵由",
       "corpus_status": "CORE",
       "polities": [
@@ -21089,7 +21109,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1047",
+      "candidate_id": "ruler-1048",
       "canonical_name": "赧王",
       "corpus_status": "CORE",
       "polities": [
@@ -21101,7 +21121,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1048",
+      "candidate_id": "ruler-1049",
       "canonical_name": "赫连勃勃",
       "corpus_status": "CORE",
       "polities": [
@@ -21111,7 +21131,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1049",
+      "candidate_id": "ruler-1050",
       "canonical_name": "赫连定",
       "corpus_status": "CORE",
       "polities": [
@@ -21121,7 +21141,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1050",
+      "candidate_id": "ruler-1051",
       "canonical_name": "赫连昌",
       "corpus_status": "CORE",
       "polities": [
@@ -21131,7 +21151,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1051",
+      "candidate_id": "ruler-1052",
       "canonical_name": "赵㬎",
       "corpus_status": "CORE",
       "polities": [
@@ -21143,7 +21163,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1052",
+      "candidate_id": "ruler-1053",
       "canonical_name": "赵佶",
       "corpus_status": "CORE",
       "polities": [
@@ -21155,7 +21175,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1053",
+      "candidate_id": "ruler-1054",
       "canonical_name": "赵光义",
       "corpus_status": "CORE",
       "polities": [
@@ -21167,7 +21187,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1054",
+      "candidate_id": "ruler-1055",
       "canonical_name": "赵匡胤",
       "corpus_status": "CORE",
       "polities": [
@@ -21179,7 +21199,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1055",
+      "candidate_id": "ruler-1056",
       "canonical_name": "赵善政",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21189,7 +21209,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1056",
+      "candidate_id": "ruler-1057",
       "canonical_name": "赵嘉",
       "corpus_status": "CORE",
       "polities": [
@@ -21199,7 +21219,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1057",
+      "candidate_id": "ruler-1058",
       "canonical_name": "赵孝成王赵丹",
       "corpus_status": "CORE",
       "polities": [
@@ -21209,7 +21229,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1058",
+      "candidate_id": "ruler-1059",
       "canonical_name": "赵幽缪王赵迁",
       "corpus_status": "CORE",
       "polities": [
@@ -21219,7 +21239,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1059",
+      "candidate_id": "ruler-1060",
       "canonical_name": "赵恒",
       "corpus_status": "CORE",
       "polities": [
@@ -21231,7 +21251,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1060",
+      "candidate_id": "ruler-1061",
       "canonical_name": "赵悼襄王赵偃",
       "corpus_status": "CORE",
       "polities": [
@@ -21241,7 +21261,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1061",
+      "candidate_id": "ruler-1062",
       "canonical_name": "赵惇",
       "corpus_status": "CORE",
       "polities": [
@@ -21253,7 +21273,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1062",
+      "candidate_id": "ruler-1063",
       "canonical_name": "赵惠文王赵何",
       "corpus_status": "CORE",
       "polities": [
@@ -21263,7 +21283,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1063",
+      "candidate_id": "ruler-1064",
       "canonical_name": "赵成侯赵种",
       "corpus_status": "CORE",
       "polities": [
@@ -21273,7 +21293,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1064",
+      "candidate_id": "ruler-1065",
       "canonical_name": "赵扩",
       "corpus_status": "CORE",
       "polities": [
@@ -21285,7 +21305,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1065",
+      "candidate_id": "ruler-1066",
       "canonical_name": "赵敬侯赵章",
       "corpus_status": "CORE",
       "polities": [
@@ -21295,7 +21315,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1066",
+      "candidate_id": "ruler-1067",
       "canonical_name": "赵昀",
       "corpus_status": "CORE",
       "polities": [
@@ -21307,7 +21327,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1067",
+      "candidate_id": "ruler-1068",
       "canonical_name": "赵昚",
       "corpus_status": "CORE",
       "polities": [
@@ -21319,7 +21339,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1068",
+      "candidate_id": "ruler-1069",
       "canonical_name": "赵昰",
       "corpus_status": "CORE",
       "polities": [
@@ -21331,7 +21351,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1069",
+      "candidate_id": "ruler-1070",
       "canonical_name": "赵昺",
       "corpus_status": "CORE",
       "polities": [
@@ -21343,7 +21363,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1070",
+      "candidate_id": "ruler-1071",
       "canonical_name": "赵曙",
       "corpus_status": "CORE",
       "polities": [
@@ -21355,7 +21375,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1071",
+      "candidate_id": "ruler-1072",
       "canonical_name": "赵构",
       "corpus_status": "CORE",
       "polities": [
@@ -21367,7 +21387,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1072",
+      "candidate_id": "ruler-1073",
       "canonical_name": "赵桓",
       "corpus_status": "CORE",
       "polities": [
@@ -21379,7 +21399,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1073",
+      "candidate_id": "ruler-1074",
       "canonical_name": "赵歇",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21389,7 +21409,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1074",
+      "candidate_id": "ruler-1075",
       "canonical_name": "赵武侯",
       "corpus_status": "CORE",
       "polities": [
@@ -21399,7 +21419,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1075",
+      "candidate_id": "ruler-1076",
       "canonical_name": "赵武灵王赵雍",
       "corpus_status": "CORE",
       "polities": [
@@ -21409,7 +21429,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1076",
+      "candidate_id": "ruler-1077",
       "canonical_name": "赵烈侯赵籍",
       "corpus_status": "CORE",
       "polities": [
@@ -21419,7 +21439,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1077",
+      "candidate_id": "ruler-1078",
       "canonical_name": "赵煦",
       "corpus_status": "CORE",
       "polities": [
@@ -21431,7 +21451,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1078",
+      "candidate_id": "ruler-1079",
       "canonical_name": "赵祯",
       "corpus_status": "CORE",
       "polities": [
@@ -21443,7 +21463,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1079",
+      "candidate_id": "ruler-1080",
       "canonical_name": "赵禥",
       "corpus_status": "CORE",
       "polities": [
@@ -21455,7 +21475,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1080",
+      "candidate_id": "ruler-1081",
       "canonical_name": "赵肃侯赵语",
       "corpus_status": "CORE",
       "polities": [
@@ -21465,7 +21485,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1081",
+      "candidate_id": "ruler-1082",
       "canonical_name": "赵顼",
       "corpus_status": "CORE",
       "polities": [
@@ -21477,7 +21497,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1082",
+      "candidate_id": "ruler-1083",
       "canonical_name": "越王之侯",
       "corpus_status": "CORE",
       "polities": [
@@ -21487,7 +21507,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1083",
+      "candidate_id": "ruler-1084",
       "canonical_name": "越王翁",
       "corpus_status": "CORE",
       "polities": [
@@ -21497,7 +21517,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1084",
+      "candidate_id": "ruler-1085",
       "canonical_name": "越王鼫与",
       "corpus_status": "CORE",
       "polities": [
@@ -21507,7 +21527,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1085",
+      "candidate_id": "ruler-1086",
       "canonical_name": "转",
       "corpus_status": "CORE",
       "polities": [
@@ -21517,7 +21537,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1086",
+      "candidate_id": "ruler-1087",
       "canonical_name": "载淳",
       "corpus_status": "CORE",
       "polities": [
@@ -21529,7 +21549,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1087",
+      "candidate_id": "ruler-1088",
       "canonical_name": "载湉",
       "corpus_status": "CORE",
       "polities": [
@@ -21541,7 +21561,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1088",
+      "candidate_id": "ruler-1089",
       "canonical_name": "辅公祏",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21551,7 +21571,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1089",
+      "candidate_id": "ruler-1090",
       "canonical_name": "述律平",
       "corpus_status": "EXTENDED",
       "polities": [
@@ -21561,7 +21581,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1090",
+      "candidate_id": "ruler-1091",
       "canonical_name": "逻盛",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21571,7 +21591,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1091",
+      "candidate_id": "ruler-1092",
       "canonical_name": "邾公子害",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21581,7 +21601,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1092",
+      "candidate_id": "ruler-1093",
       "canonical_name": "邾子挟",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21591,7 +21611,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1093",
+      "candidate_id": "ruler-1094",
       "canonical_name": "邾子非",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21601,7 +21621,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1094",
+      "candidate_id": "ruler-1095",
       "canonical_name": "郑买嗣",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21611,7 +21631,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1095",
+      "candidate_id": "ruler-1096",
       "canonical_name": "郑仁旻",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21621,7 +21641,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1096",
+      "candidate_id": "ruler-1097",
       "canonical_name": "郑僖公髡顽",
       "corpus_status": "CORE",
       "polities": [
@@ -21631,7 +21651,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1097",
+      "candidate_id": "ruler-1098",
       "canonical_name": "郑克塽",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21641,7 +21661,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1098",
+      "candidate_id": "ruler-1099",
       "canonical_name": "郑共公丑",
       "corpus_status": "CORE",
       "polities": [
@@ -21651,7 +21671,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1099",
+      "candidate_id": "ruler-1100",
       "canonical_name": "郑厉公突",
       "corpus_status": "CORE",
       "polities": [
@@ -21661,7 +21681,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1100",
+      "candidate_id": "ruler-1101",
       "canonical_name": "郑哀公易",
       "corpus_status": "CORE",
       "polities": [
@@ -21671,7 +21691,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1101",
+      "candidate_id": "ruler-1102",
       "canonical_name": "郑声公胜",
       "corpus_status": "CORE",
       "polities": [
@@ -21681,7 +21701,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1102",
+      "candidate_id": "ruler-1103",
       "canonical_name": "郑子亹",
       "corpus_status": "CORE",
       "polities": [
@@ -21691,7 +21711,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1103",
+      "candidate_id": "ruler-1104",
       "canonical_name": "郑子婴",
       "corpus_status": "CORE",
       "polities": [
@@ -21701,7 +21721,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1104",
+      "candidate_id": "ruler-1105",
       "canonical_name": "郑定公宁",
       "corpus_status": "CORE",
       "polities": [
@@ -21711,7 +21731,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1105",
+      "candidate_id": "ruler-1106",
       "canonical_name": "郑幽公已",
       "corpus_status": "CORE",
       "polities": [
@@ -21721,7 +21741,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1106",
+      "candidate_id": "ruler-1107",
       "canonical_name": "郑庄公寤生",
       "corpus_status": "CORE",
       "polities": [
@@ -21731,7 +21751,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1107",
+      "candidate_id": "ruler-1108",
       "canonical_name": "郑康公乙",
       "corpus_status": "CORE",
       "polities": [
@@ -21741,7 +21761,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1108",
+      "candidate_id": "ruler-1109",
       "canonical_name": "郑悼公沸",
       "corpus_status": "CORE",
       "polities": [
@@ -21751,7 +21771,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1109",
+      "candidate_id": "ruler-1110",
       "canonical_name": "郑成公睔",
       "corpus_status": "CORE",
       "polities": [
@@ -21761,7 +21781,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1110",
+      "candidate_id": "ruler-1111",
       "canonical_name": "郑成功",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21771,7 +21791,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1111",
+      "candidate_id": "ruler-1112",
       "canonical_name": "郑文公踕",
       "corpus_status": "CORE",
       "polities": [
@@ -21781,7 +21801,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1112",
+      "candidate_id": "ruler-1113",
       "canonical_name": "郑昭公忽",
       "corpus_status": "CORE",
       "polities": [
@@ -21791,7 +21811,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1113",
+      "candidate_id": "ruler-1114",
       "canonical_name": "郑桓公友",
       "corpus_status": "CORE",
       "polities": [
@@ -21801,7 +21821,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1114",
+      "candidate_id": "ruler-1115",
       "canonical_name": "郑武公掘突",
       "corpus_status": "CORE",
       "polities": [
@@ -21811,7 +21831,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1115",
+      "candidate_id": "ruler-1116",
       "canonical_name": "郑灵公夷",
       "corpus_status": "CORE",
       "polities": [
@@ -21821,7 +21841,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1116",
+      "candidate_id": "ruler-1117",
       "canonical_name": "郑献公趸",
       "corpus_status": "CORE",
       "polities": [
@@ -21831,7 +21851,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1117",
+      "candidate_id": "ruler-1118",
       "canonical_name": "郑穆公兰",
       "corpus_status": "CORE",
       "polities": [
@@ -21841,7 +21861,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1118",
+      "candidate_id": "ruler-1119",
       "canonical_name": "郑简公嘉",
       "corpus_status": "CORE",
       "polities": [
@@ -21851,7 +21871,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1119",
+      "candidate_id": "ruler-1120",
       "canonical_name": "郑繻公骀",
       "corpus_status": "CORE",
       "polities": [
@@ -21861,7 +21881,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1120",
+      "candidate_id": "ruler-1121",
       "canonical_name": "郑经",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21871,7 +21891,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1121",
+      "candidate_id": "ruler-1122",
       "canonical_name": "郑襄公坚",
       "corpus_status": "CORE",
       "polities": [
@@ -21881,7 +21901,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1122",
+      "candidate_id": "ruler-1123",
       "canonical_name": "郑隆亶",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21891,7 +21911,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1123",
+      "candidate_id": "ruler-1124",
       "canonical_name": "郕伯",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21901,7 +21921,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1124",
+      "candidate_id": "ruler-1125",
       "canonical_name": "郕叔武",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21911,7 +21931,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1125",
+      "candidate_id": "ruler-1126",
       "canonical_name": "郝定",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21921,7 +21941,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1126",
+      "candidate_id": "ruler-1127",
       "canonical_name": "郭叔",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21931,7 +21951,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1127",
+      "candidate_id": "ruler-1128",
       "canonical_name": "郭威",
       "corpus_status": "CORE",
       "polities": [
@@ -21941,7 +21961,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1128",
+      "candidate_id": "ruler-1129",
       "canonical_name": "郭子和",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21951,7 +21971,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1129",
+      "candidate_id": "ruler-1130",
       "canonical_name": "郳公皮父",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21961,7 +21981,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1130",
+      "candidate_id": "ruler-1131",
       "canonical_name": "郳友",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21971,7 +21991,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1131",
+      "candidate_id": "ruler-1132",
       "canonical_name": "郳庆",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21981,7 +22001,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1132",
+      "candidate_id": "ruler-1133",
       "canonical_name": "郳恭公克",
       "corpus_status": "REVIEW",
       "polities": [
@@ -21991,7 +22011,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1133",
+      "candidate_id": "ruler-1134",
       "canonical_name": "郳犁来",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22001,7 +22021,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1134",
+      "candidate_id": "ruler-1135",
       "canonical_name": "鄅子",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22011,7 +22031,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1135",
+      "candidate_id": "ruler-1136",
       "canonical_name": "釐王",
       "corpus_status": "CORE",
       "polities": [
@@ -22023,7 +22043,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1136",
+      "candidate_id": "ruler-1137",
       "canonical_name": "钱俶",
       "corpus_status": "CORE",
       "polities": [
@@ -22033,7 +22053,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1137",
+      "candidate_id": "ruler-1138",
       "canonical_name": "钱元瓘",
       "corpus_status": "CORE",
       "polities": [
@@ -22043,7 +22063,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1138",
+      "candidate_id": "ruler-1139",
       "canonical_name": "钱弘佐",
       "corpus_status": "CORE",
       "polities": [
@@ -22053,7 +22073,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1139",
+      "candidate_id": "ruler-1140",
       "canonical_name": "钱弘倧",
       "corpus_status": "CORE",
       "polities": [
@@ -22063,7 +22083,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1140",
+      "candidate_id": "ruler-1141",
       "canonical_name": "钱镠",
       "corpus_status": "CORE",
       "polities": [
@@ -22073,7 +22093,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1141",
+      "candidate_id": "ruler-1142",
       "canonical_name": "铁木真",
       "corpus_status": "CORE",
       "polities": [
@@ -22085,7 +22105,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1142",
+      "candidate_id": "ruler-1143",
       "canonical_name": "铁穆耳",
       "corpus_status": "CORE",
       "polities": [
@@ -22097,7 +22117,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1143",
+      "candidate_id": "ruler-1144",
       "canonical_name": "错叔绣",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22107,7 +22127,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1144",
+      "candidate_id": "ruler-1145",
       "canonical_name": "错枝",
       "corpus_status": "CORE",
       "polities": [
@@ -22117,7 +22137,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1145",
+      "candidate_id": "ruler-1146",
       "canonical_name": "阁罗凤",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22127,7 +22147,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1146",
+      "candidate_id": "ruler-1147",
       "canonical_name": "阖闾",
       "corpus_status": "CORE",
       "polities": [
@@ -22137,7 +22157,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1147",
+      "candidate_id": "ruler-1148",
       "canonical_name": "阳甲",
       "corpus_status": "CORE",
       "polities": [
@@ -22149,7 +22169,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1148",
+      "candidate_id": "ruler-1149",
       "canonical_name": "阿速吉八",
       "corpus_status": "CORE",
       "polities": [
@@ -22161,7 +22181,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1149",
+      "candidate_id": "ruler-1150",
       "canonical_name": "阿里不哥",
       "corpus_status": "CORE",
       "polities": [
@@ -22171,7 +22191,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1150",
+      "candidate_id": "ruler-1151",
       "canonical_name": "陈伯宗",
       "corpus_status": "CORE",
       "polities": [
@@ -22183,7 +22203,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1151",
+      "candidate_id": "ruler-1152",
       "canonical_name": "陈公佗",
       "corpus_status": "CORE",
       "polities": [
@@ -22193,7 +22213,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1152",
+      "candidate_id": "ruler-1153",
       "canonical_name": "陈公博",
       "corpus_status": "EXTENDED",
       "polities": [
@@ -22203,7 +22223,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1153",
+      "candidate_id": "ruler-1154",
       "canonical_name": "陈共公朔",
       "corpus_status": "CORE",
       "polities": [
@@ -22213,7 +22233,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1154",
+      "candidate_id": "ruler-1155",
       "canonical_name": "陈厉公跃",
       "corpus_status": "CORE",
       "polities": [
@@ -22223,7 +22243,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1155",
+      "candidate_id": "ruler-1156",
       "canonical_name": "陈友谅",
       "corpus_status": "CORE",
       "polities": [
@@ -22233,7 +22253,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1156",
+      "candidate_id": "ruler-1157",
       "canonical_name": "陈叔宝",
       "corpus_status": "CORE",
       "polities": [
@@ -22245,7 +22265,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1157",
+      "candidate_id": "ruler-1158",
       "canonical_name": "陈君留",
       "corpus_status": "CORE",
       "polities": [
@@ -22255,7 +22275,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1158",
+      "candidate_id": "ruler-1159",
       "canonical_name": "陈哀公弱",
       "corpus_status": "CORE",
       "polities": [
@@ -22265,7 +22285,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1159",
+      "candidate_id": "ruler-1160",
       "canonical_name": "陈夷公说",
       "corpus_status": "CORE",
       "polities": [
@@ -22275,7 +22295,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1160",
+      "candidate_id": "ruler-1161",
       "canonical_name": "陈孝公突",
       "corpus_status": "CORE",
       "polities": [
@@ -22285,7 +22305,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1161",
+      "candidate_id": "ruler-1162",
       "canonical_name": "陈宣公杵臼",
       "corpus_status": "CORE",
       "polities": [
@@ -22295,7 +22315,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1162",
+      "candidate_id": "ruler-1163",
       "canonical_name": "陈平公燮",
       "corpus_status": "CORE",
       "polities": [
@@ -22305,7 +22325,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1163",
+      "candidate_id": "ruler-1164",
       "canonical_name": "陈幽公宁",
       "corpus_status": "CORE",
       "polities": [
@@ -22315,7 +22335,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1164",
+      "candidate_id": "ruler-1165",
       "canonical_name": "陈庄公林",
       "corpus_status": "CORE",
       "polities": [
@@ -22325,7 +22345,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1165",
+      "candidate_id": "ruler-1166",
       "canonical_name": "陈开",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22335,7 +22355,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1166",
+      "candidate_id": "ruler-1167",
       "canonical_name": "陈怀公柳",
       "corpus_status": "CORE",
       "polities": [
@@ -22345,7 +22365,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1167",
+      "candidate_id": "ruler-1168",
       "canonical_name": "陈惠公吴",
       "corpus_status": "CORE",
       "polities": [
@@ -22355,7 +22375,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1168",
+      "candidate_id": "ruler-1169",
       "canonical_name": "陈慎公圉戎",
       "corpus_status": "CORE",
       "polities": [
@@ -22365,7 +22385,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1169",
+      "candidate_id": "ruler-1170",
       "canonical_name": "陈成公午",
       "corpus_status": "CORE",
       "polities": [
@@ -22375,7 +22395,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1170",
+      "candidate_id": "ruler-1171",
       "canonical_name": "陈文公圉",
       "corpus_status": "CORE",
       "polities": [
@@ -22385,7 +22405,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1171",
+      "candidate_id": "ruler-1172",
       "canonical_name": "陈桓公鲍",
       "corpus_status": "CORE",
       "polities": [
@@ -22395,7 +22415,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1172",
+      "candidate_id": "ruler-1173",
       "canonical_name": "陈武公灵",
       "corpus_status": "CORE",
       "polities": [
@@ -22405,7 +22425,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1173",
+      "candidate_id": "ruler-1174",
       "canonical_name": "陈洪进",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22415,7 +22435,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1174",
+      "candidate_id": "ruler-1175",
       "canonical_name": "陈湣公越",
       "corpus_status": "CORE",
       "polities": [
@@ -22425,7 +22445,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1175",
+      "candidate_id": "ruler-1176",
       "canonical_name": "陈灵公平国",
       "corpus_status": "CORE",
       "polities": [
@@ -22435,7 +22455,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1176",
+      "candidate_id": "ruler-1177",
       "canonical_name": "陈理",
       "corpus_status": "CORE",
       "polities": [
@@ -22445,7 +22465,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1177",
+      "candidate_id": "ruler-1178",
       "canonical_name": "陈申公犀侯",
       "corpus_status": "CORE",
       "polities": [
@@ -22455,7 +22475,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1178",
+      "candidate_id": "ruler-1179",
       "canonical_name": "陈相公皋羊",
       "corpus_status": "CORE",
       "polities": [
@@ -22465,7 +22485,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1179",
+      "candidate_id": "ruler-1180",
       "canonical_name": "陈穆公款",
       "corpus_status": "CORE",
       "polities": [
@@ -22475,7 +22495,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1180",
+      "candidate_id": "ruler-1181",
       "canonical_name": "陈胜",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22485,7 +22505,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1181",
+      "candidate_id": "ruler-1182",
       "canonical_name": "陈胡公满",
       "corpus_status": "CORE",
       "polities": [
@@ -22495,7 +22515,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1182",
+      "candidate_id": "ruler-1183",
       "canonical_name": "陈蒨",
       "corpus_status": "CORE",
       "polities": [
@@ -22507,7 +22527,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1183",
+      "candidate_id": "ruler-1184",
       "canonical_name": "陈釐公孝",
       "corpus_status": "CORE",
       "polities": [
@@ -22517,7 +22537,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1184",
+      "candidate_id": "ruler-1185",
       "canonical_name": "陈霸先",
       "corpus_status": "CORE",
       "polities": [
@@ -22529,7 +22549,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1185",
+      "candidate_id": "ruler-1186",
       "canonical_name": "陈顼",
       "corpus_status": "CORE",
       "polities": [
@@ -22541,7 +22561,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1186",
+      "candidate_id": "ruler-1187",
       "canonical_name": "隆舜",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22551,7 +22571,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1187",
+      "candidate_id": "ruler-1188",
       "canonical_name": "雍己",
       "corpus_status": "CORE",
       "polities": [
@@ -22563,21 +22583,11 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1188",
+      "candidate_id": "ruler-1189",
       "canonical_name": "靳准",
       "corpus_status": "REVIEW",
       "polities": [
         "靳汉"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-1189",
-      "canonical_name": "韩共侯/懿侯韩若山",
-      "corpus_status": "CORE",
-      "polities": [
-        "韩"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -22614,7 +22624,7 @@
     },
     {
       "candidate_id": "ruler-1193",
-      "canonical_name": "韩文侯韩猷",
+      "canonical_name": "韩懿侯",
       "corpus_status": "CORE",
       "polities": [
         "韩"
@@ -22624,7 +22634,7 @@
     },
     {
       "candidate_id": "ruler-1194",
-      "canonical_name": "韩景侯韩虔",
+      "canonical_name": "韩文侯韩猷",
       "corpus_status": "CORE",
       "polities": [
         "韩"
@@ -22634,6 +22644,16 @@
     },
     {
       "candidate_id": "ruler-1195",
+      "canonical_name": "韩景侯韩虔",
+      "corpus_status": "CORE",
+      "polities": [
+        "韩"
+      ],
+      "matched_skill_paths": [],
+      "match_status": "MISSING"
+    },
+    {
+      "candidate_id": "ruler-1196",
       "canonical_name": "韩林儿",
       "corpus_status": "CORE",
       "polities": [
@@ -22643,7 +22663,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1196",
+      "candidate_id": "ruler-1197",
       "canonical_name": "韩桓惠王韩然",
       "corpus_status": "CORE",
       "polities": [
@@ -22653,7 +22673,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1197",
+      "candidate_id": "ruler-1198",
       "canonical_name": "韩烈侯韩取",
       "corpus_status": "CORE",
       "polities": [
@@ -22663,7 +22683,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1198",
+      "candidate_id": "ruler-1199",
       "canonical_name": "韩王安",
       "corpus_status": "CORE",
       "polities": [
@@ -22673,7 +22693,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1199",
+      "candidate_id": "ruler-1200",
       "canonical_name": "韩襄王韩仓",
       "corpus_status": "CORE",
       "polities": [
@@ -22683,7 +22703,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1200",
+      "candidate_id": "ruler-1201",
       "canonical_name": "韩釐侯韩武",
       "corpus_status": "CORE",
       "polities": [
@@ -22693,7 +22713,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1201",
+      "candidate_id": "ruler-1202",
       "canonical_name": "韩釐王韩咎",
       "corpus_status": "CORE",
       "polities": [
@@ -22703,7 +22723,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1202",
+      "candidate_id": "ruler-1203",
       "canonical_name": "顷王",
       "corpus_status": "CORE",
       "polities": [
@@ -22715,7 +22735,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1203",
+      "candidate_id": "ruler-1204",
       "canonical_name": "项羽",
       "corpus_status": "CORE",
       "polities": [
@@ -22727,7 +22747,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1204",
+      "candidate_id": "ruler-1205",
       "canonical_name": "顾维钧",
       "corpus_status": "CORE",
       "polities": [
@@ -22737,7 +22757,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1205",
+      "candidate_id": "ruler-1206",
       "canonical_name": "颇高",
       "corpus_status": "CORE",
       "polities": [
@@ -22747,7 +22767,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1206",
+      "candidate_id": "ruler-1207",
       "canonical_name": "颙琰",
       "corpus_status": "CORE",
       "polities": [
@@ -22759,7 +22779,7 @@
       "match_status": "MATCHED"
     },
     {
-      "candidate_id": "ruler-1207",
+      "candidate_id": "ruler-1208",
       "canonical_name": "颛顼高阳氏",
       "corpus_status": "LEGENDARY",
       "polities": [],
@@ -22767,7 +22787,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1208",
+      "candidate_id": "ruler-1209",
       "canonical_name": "颜惠庆",
       "corpus_status": "CORE",
       "polities": [
@@ -22777,7 +22797,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1209",
+      "candidate_id": "ruler-1210",
       "canonical_name": "马希声",
       "corpus_status": "CORE",
       "polities": [
@@ -22787,7 +22807,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1210",
+      "candidate_id": "ruler-1211",
       "canonical_name": "马希崇",
       "corpus_status": "CORE",
       "polities": [
@@ -22797,7 +22817,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1211",
+      "candidate_id": "ruler-1212",
       "canonical_name": "马希广",
       "corpus_status": "CORE",
       "polities": [
@@ -22807,7 +22827,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1212",
+      "candidate_id": "ruler-1213",
       "canonical_name": "马希范",
       "corpus_status": "CORE",
       "polities": [
@@ -22817,7 +22837,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1213",
+      "candidate_id": "ruler-1214",
       "canonical_name": "马希萼",
       "corpus_status": "CORE",
       "polities": [
@@ -22827,7 +22847,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1214",
+      "candidate_id": "ruler-1215",
       "canonical_name": "马殷",
       "corpus_status": "CORE",
       "polities": [
@@ -22837,7 +22857,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1215",
+      "candidate_id": "ruler-1216",
       "canonical_name": "高云",
       "corpus_status": "CORE",
       "polities": [
@@ -22847,7 +22867,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1216",
+      "candidate_id": "ruler-1217",
       "canonical_name": "高从诲",
       "corpus_status": "CORE",
       "polities": [
@@ -22857,7 +22877,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1217",
+      "candidate_id": "ruler-1218",
       "canonical_name": "高保勗",
       "corpus_status": "CORE",
       "polities": [
@@ -22867,7 +22887,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1218",
+      "candidate_id": "ruler-1219",
       "canonical_name": "高保融",
       "corpus_status": "CORE",
       "polities": [
@@ -22877,7 +22897,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1219",
+      "candidate_id": "ruler-1220",
       "canonical_name": "高凌霨",
       "corpus_status": "CORE",
       "polities": [
@@ -22887,7 +22907,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1220",
+      "candidate_id": "ruler-1221",
       "canonical_name": "高升泰",
       "corpus_status": "CORE",
       "polities": [
@@ -22897,7 +22917,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1221",
+      "candidate_id": "ruler-1222",
       "canonical_name": "高季兴",
       "corpus_status": "CORE",
       "polities": [
@@ -22907,7 +22927,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1222",
+      "candidate_id": "ruler-1223",
       "canonical_name": "高延宗",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22917,7 +22937,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1223",
+      "candidate_id": "ruler-1224",
       "canonical_name": "高开道",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22927,7 +22947,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1224",
+      "candidate_id": "ruler-1225",
       "canonical_name": "高恒",
       "corpus_status": "CORE",
       "polities": [
@@ -22937,7 +22957,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1225",
+      "candidate_id": "ruler-1226",
       "canonical_name": "高殷",
       "corpus_status": "CORE",
       "polities": [
@@ -22947,7 +22967,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1226",
+      "candidate_id": "ruler-1227",
       "canonical_name": "高永昌",
       "corpus_status": "REVIEW",
       "polities": [
@@ -22957,7 +22977,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1227",
+      "candidate_id": "ruler-1228",
       "canonical_name": "高洋",
       "corpus_status": "CORE",
       "polities": [
@@ -22967,7 +22987,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1228",
+      "candidate_id": "ruler-1229",
       "canonical_name": "高湛",
       "corpus_status": "CORE",
       "polities": [
@@ -22977,7 +22997,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1229",
+      "candidate_id": "ruler-1230",
       "canonical_name": "高演",
       "corpus_status": "CORE",
       "polities": [
@@ -22987,7 +23007,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1230",
+      "candidate_id": "ruler-1231",
       "canonical_name": "高纬",
       "corpus_status": "CORE",
       "polities": [
@@ -22997,7 +23017,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1231",
+      "candidate_id": "ruler-1232",
       "canonical_name": "高继冲",
       "corpus_status": "CORE",
       "polities": [
@@ -23007,7 +23027,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1232",
+      "candidate_id": "ruler-1233",
       "canonical_name": "鬻熊",
       "corpus_status": "CORE",
       "polities": [
@@ -23017,7 +23037,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1233",
+      "candidate_id": "ruler-1234",
       "canonical_name": "魏咎",
       "corpus_status": "REVIEW",
       "polities": [
@@ -23027,7 +23047,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1234",
+      "candidate_id": "ruler-1235",
       "canonical_name": "魏安僖王魏圉",
       "corpus_status": "CORE",
       "polities": [
@@ -23037,7 +23057,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1235",
+      "candidate_id": "ruler-1236",
       "canonical_name": "魏惠成王魏罃",
       "corpus_status": "CORE",
       "polities": [
@@ -23047,7 +23067,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1236",
+      "candidate_id": "ruler-1237",
       "canonical_name": "魏文侯魏斯",
       "corpus_status": "CORE",
       "polities": [
@@ -23057,7 +23077,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1237",
+      "candidate_id": "ruler-1238",
       "canonical_name": "魏昭王魏遫",
       "corpus_status": "CORE",
       "polities": [
@@ -23067,7 +23087,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1238",
+      "candidate_id": "ruler-1239",
       "canonical_name": "魏景湣王魏午",
       "corpus_status": "CORE",
       "polities": [
@@ -23077,7 +23097,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1239",
+      "candidate_id": "ruler-1240",
       "canonical_name": "魏武侯魏击",
       "corpus_status": "CORE",
       "polities": [
@@ -23087,7 +23107,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1240",
+      "candidate_id": "ruler-1241",
       "canonical_name": "魏王假",
       "corpus_status": "CORE",
       "polities": [
@@ -23097,7 +23117,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1241",
+      "candidate_id": "ruler-1242",
       "canonical_name": "魏襄王魏嗣",
       "corpus_status": "CORE",
       "polities": [
@@ -23107,7 +23127,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1242",
+      "candidate_id": "ruler-1243",
       "canonical_name": "魏豹",
       "corpus_status": "REVIEW",
       "polities": [
@@ -23117,7 +23137,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1243",
+      "candidate_id": "ruler-1244",
       "canonical_name": "鲁元公",
       "corpus_status": "CORE",
       "polities": [
@@ -23127,7 +23147,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1244",
+      "candidate_id": "ruler-1245",
       "canonical_name": "鲁公伯御",
       "corpus_status": "CORE",
       "polities": [
@@ -23137,7 +23157,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1245",
+      "candidate_id": "ruler-1246",
       "canonical_name": "鲁共公",
       "corpus_status": "CORE",
       "polities": [
@@ -23147,7 +23167,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1246",
+      "candidate_id": "ruler-1247",
       "canonical_name": "鲁厉公",
       "corpus_status": "CORE",
       "polities": [
@@ -23157,7 +23177,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1247",
+      "candidate_id": "ruler-1248",
       "canonical_name": "鲁君野",
       "corpus_status": "CORE",
       "polities": [
@@ -23167,7 +23187,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1248",
+      "candidate_id": "ruler-1249",
       "canonical_name": "鲁哀公",
       "corpus_status": "CORE",
       "polities": [
@@ -23177,7 +23197,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1249",
+      "candidate_id": "ruler-1250",
       "canonical_name": "鲁孝公",
       "corpus_status": "CORE",
       "polities": [
@@ -23187,7 +23207,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1250",
+      "candidate_id": "ruler-1251",
       "canonical_name": "鲁定公",
       "corpus_status": "CORE",
       "polities": [
@@ -23197,7 +23217,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1251",
+      "candidate_id": "ruler-1252",
       "canonical_name": "鲁宣公",
       "corpus_status": "CORE",
       "polities": [
@@ -23207,7 +23227,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1252",
+      "candidate_id": "ruler-1253",
       "canonical_name": "鲁平公",
       "corpus_status": "CORE",
       "polities": [
@@ -23217,7 +23237,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1253",
+      "candidate_id": "ruler-1254",
       "canonical_name": "鲁幽公",
       "corpus_status": "CORE",
       "polities": [
@@ -23227,7 +23247,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1254",
+      "candidate_id": "ruler-1255",
       "canonical_name": "鲁庄公",
       "corpus_status": "CORE",
       "polities": [
@@ -23237,7 +23257,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1255",
+      "candidate_id": "ruler-1256",
       "canonical_name": "鲁康公",
       "corpus_status": "CORE",
       "polities": [
@@ -23247,7 +23267,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1256",
+      "candidate_id": "ruler-1257",
       "canonical_name": "鲁悼公",
       "corpus_status": "CORE",
       "polities": [
@@ -23257,7 +23277,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1257",
+      "candidate_id": "ruler-1258",
       "canonical_name": "鲁惠公",
       "corpus_status": "CORE",
       "polities": [
@@ -23267,7 +23287,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1258",
+      "candidate_id": "ruler-1259",
       "canonical_name": "鲁懿公",
       "corpus_status": "CORE",
       "polities": [
@@ -23277,7 +23297,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1259",
+      "candidate_id": "ruler-1260",
       "canonical_name": "鲁成公",
       "corpus_status": "CORE",
       "polities": [
@@ -23287,7 +23307,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1260",
+      "candidate_id": "ruler-1261",
       "canonical_name": "鲁文公",
       "corpus_status": "CORE",
       "polities": [
@@ -23297,7 +23317,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1261",
+      "candidate_id": "ruler-1262",
       "canonical_name": "鲁昭公",
       "corpus_status": "CORE",
       "polities": [
@@ -23307,7 +23327,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1262",
+      "candidate_id": "ruler-1263",
       "canonical_name": "鲁景公",
       "corpus_status": "CORE",
       "polities": [
@@ -23317,7 +23337,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1263",
+      "candidate_id": "ruler-1264",
       "canonical_name": "鲁桓公",
       "corpus_status": "CORE",
       "polities": [
@@ -23327,7 +23347,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1264",
+      "candidate_id": "ruler-1265",
       "canonical_name": "鲁武公",
       "corpus_status": "CORE",
       "polities": [
@@ -23337,7 +23357,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1265",
+      "candidate_id": "ruler-1266",
       "canonical_name": "鲁炀公",
       "corpus_status": "CORE",
       "polities": [
@@ -23347,7 +23367,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1266",
+      "candidate_id": "ruler-1267",
       "canonical_name": "鲁献公",
       "corpus_status": "CORE",
       "polities": [
@@ -23357,7 +23377,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1267",
+      "candidate_id": "ruler-1268",
       "canonical_name": "鲁真公",
       "corpus_status": "CORE",
       "polities": [
@@ -23367,7 +23387,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1268",
+      "candidate_id": "ruler-1269",
       "canonical_name": "鲁穆公",
       "corpus_status": "CORE",
       "polities": [
@@ -23377,7 +23397,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1269",
+      "candidate_id": "ruler-1270",
       "canonical_name": "鲁考公",
       "corpus_status": "CORE",
       "polities": [
@@ -23387,7 +23407,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1270",
+      "candidate_id": "ruler-1271",
       "canonical_name": "鲁襄公",
       "corpus_status": "CORE",
       "polities": [
@@ -23397,7 +23417,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1271",
+      "candidate_id": "ruler-1272",
       "canonical_name": "鲁釐公",
       "corpus_status": "CORE",
       "polities": [
@@ -23407,7 +23427,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1272",
+      "candidate_id": "ruler-1273",
       "canonical_name": "鲁闵公",
       "corpus_status": "CORE",
       "polities": [
@@ -23417,7 +23437,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1273",
+      "candidate_id": "ruler-1274",
       "canonical_name": "鲁隐公",
       "corpus_status": "CORE",
       "polities": [
@@ -23427,7 +23447,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1274",
+      "candidate_id": "ruler-1275",
       "canonical_name": "鲁顷公",
       "corpus_status": "CORE",
       "polities": [
@@ -23437,7 +23457,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1275",
+      "candidate_id": "ruler-1276",
       "canonical_name": "鲁魏公",
       "corpus_status": "CORE",
       "polities": [
@@ -23447,7 +23467,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1276",
+      "candidate_id": "ruler-1277",
       "canonical_name": "黄巢",
       "corpus_status": "CORE",
       "polities": [
@@ -23457,7 +23477,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1277",
+      "candidate_id": "ruler-1278",
       "canonical_name": "黄帝轩辕氏",
       "corpus_status": "LEGENDARY",
       "polities": [],
@@ -23465,7 +23485,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1278",
+      "candidate_id": "ruler-1279",
       "canonical_name": "黄郛",
       "corpus_status": "CORE",
       "polities": [
@@ -23475,7 +23495,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1279",
+      "candidate_id": "ruler-1280",
       "canonical_name": "黄鼎凤",
       "corpus_status": "REVIEW",
       "polities": [
@@ -23485,7 +23505,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1280",
+      "candidate_id": "ruler-1281",
       "canonical_name": "黎元洪",
       "corpus_status": "CORE",
       "polities": [
@@ -23495,7 +23515,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1281",
+      "candidate_id": "ruler-1282",
       "canonical_name": "齐丁公吕伋",
       "corpus_status": "CORE",
       "polities": [
@@ -23505,7 +23525,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1282",
+      "candidate_id": "ruler-1283",
       "canonical_name": "齐乙公得",
       "corpus_status": "CORE",
       "polities": [
@@ -23515,7 +23535,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1283",
+      "candidate_id": "ruler-1284",
       "canonical_name": "齐侯无亏",
       "corpus_status": "CORE",
       "polities": [
@@ -23525,7 +23545,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1284",
+      "candidate_id": "ruler-1285",
       "canonical_name": "齐侯舍",
       "corpus_status": "CORE",
       "polities": [
@@ -23535,7 +23555,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1285",
+      "candidate_id": "ruler-1286",
       "canonical_name": "齐僖公禄甫",
       "corpus_status": "CORE",
       "polities": [
@@ -23545,7 +23565,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1286",
+      "candidate_id": "ruler-1287",
       "canonical_name": "齐厉公无忌",
       "corpus_status": "CORE",
       "polities": [
@@ -23555,7 +23575,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1287",
+      "candidate_id": "ruler-1288",
       "canonical_name": "齐哀公不辰",
       "corpus_status": "CORE",
       "polities": [
@@ -23565,7 +23585,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1288",
+      "candidate_id": "ruler-1289",
       "canonical_name": "齐太公吕尚",
       "corpus_status": "CORE",
       "polities": [
@@ -23575,7 +23595,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1289",
+      "candidate_id": "ruler-1290",
       "canonical_name": "齐孝公昭",
       "corpus_status": "CORE",
       "polities": [
@@ -23585,7 +23605,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1290",
+      "candidate_id": "ruler-1291",
       "canonical_name": "齐宣公积",
       "corpus_status": "CORE",
       "polities": [
@@ -23595,7 +23615,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1291",
+      "candidate_id": "ruler-1292",
       "canonical_name": "齐平公骜",
       "corpus_status": "CORE",
       "polities": [
@@ -23605,7 +23625,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1292",
+      "candidate_id": "ruler-1293",
       "canonical_name": "齐庄公光",
       "corpus_status": "CORE",
       "polities": [
@@ -23615,7 +23635,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1293",
+      "candidate_id": "ruler-1294",
       "canonical_name": "齐庄公购",
       "corpus_status": "CORE",
       "polities": [
@@ -23625,7 +23645,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1294",
+      "candidate_id": "ruler-1295",
       "canonical_name": "齐康公贷",
       "corpus_status": "CORE",
       "polities": [
@@ -23635,7 +23655,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1295",
+      "candidate_id": "ruler-1296",
       "canonical_name": "齐悼公阳生",
       "corpus_status": "CORE",
       "polities": [
@@ -23645,7 +23665,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1296",
+      "candidate_id": "ruler-1297",
       "canonical_name": "齐惠公元",
       "corpus_status": "CORE",
       "polities": [
@@ -23655,7 +23675,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1297",
+      "candidate_id": "ruler-1298",
       "canonical_name": "齐懿公商人",
       "corpus_status": "CORE",
       "polities": [
@@ -23665,7 +23685,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1298",
+      "candidate_id": "ruler-1299",
       "canonical_name": "齐成公脱",
       "corpus_status": "CORE",
       "polities": [
@@ -23675,7 +23695,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1299",
+      "candidate_id": "ruler-1300",
       "canonical_name": "齐文公赤",
       "corpus_status": "CORE",
       "polities": [
@@ -23685,7 +23705,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1300",
+      "candidate_id": "ruler-1301",
       "canonical_name": "齐昭公潘",
       "corpus_status": "CORE",
       "polities": [
@@ -23695,7 +23715,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1301",
+      "candidate_id": "ruler-1302",
       "canonical_name": "齐晏孺子荼",
       "corpus_status": "CORE",
       "polities": [
@@ -23705,7 +23725,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1302",
+      "candidate_id": "ruler-1303",
       "canonical_name": "齐景公杵臼",
       "corpus_status": "CORE",
       "polities": [
@@ -23715,7 +23735,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1303",
+      "candidate_id": "ruler-1304",
       "canonical_name": "齐桓公小白",
       "corpus_status": "CORE",
       "polities": [
@@ -23725,7 +23745,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1304",
+      "candidate_id": "ruler-1305",
       "canonical_name": "齐武公寿",
       "corpus_status": "CORE",
       "polities": [
@@ -23735,7 +23755,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1305",
+      "candidate_id": "ruler-1306",
       "canonical_name": "齐灵公环",
       "corpus_status": "CORE",
       "polities": [
@@ -23745,7 +23765,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1306",
+      "candidate_id": "ruler-1307",
       "canonical_name": "齐献公山",
       "corpus_status": "CORE",
       "polities": [
@@ -23755,7 +23775,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1307",
+      "candidate_id": "ruler-1308",
       "canonical_name": "齐癸公慈母",
       "corpus_status": "CORE",
       "polities": [
@@ -23765,7 +23785,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1308",
+      "candidate_id": "ruler-1309",
       "canonical_name": "齐简公壬",
       "corpus_status": "CORE",
       "polities": [
@@ -23775,7 +23795,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1309",
+      "candidate_id": "ruler-1310",
       "canonical_name": "齐胡公静",
       "corpus_status": "CORE",
       "polities": [
@@ -23785,7 +23805,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1310",
+      "candidate_id": "ruler-1311",
       "canonical_name": "齐襄公诸儿",
       "corpus_status": "CORE",
       "polities": [
@@ -23795,7 +23815,7 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-1311",
+      "candidate_id": "ruler-1312",
       "canonical_name": "齐顷公无野",
       "corpus_status": "CORE",
       "polities": [

@@ -4,7 +4,7 @@
 
 ## Coverage state
 
-- Candidate persons: **1311**
+- Candidate persons: **1312**
 - Locked CORE: **913**
 - Matched CORE: **265**
 - Missing CORE: **648**
@@ -16,14 +16,14 @@
 - Skill → multiple-person collisions: **0**
 - Person → multiple-Skill matches: **0**
 - Shared identity-hint collisions: **0**
-- Suspicious canonical-name strings: **5**
+- Suspicious canonical-name strings: **0**
 
 ## Generated queues
 
 - `A_CORE_MAJOR_SEQUENCE_MISSING`: **70**
 - `B_CORE_PARALLEL_POLITY_MISSING`: **174**
 - `D_CORE_EARLY_OR_PREQIN_MISSING`: **404**
-- `Q1_SCOPE_OR_IDENTITY_REVIEW`: **364**
+- `Q1_SCOPE_OR_IDENTITY_REVIEW`: **365**
 - `Q2_EXTENDED_REVIEW`: **0**
 - `Q3_LEGENDARY_LIMITED_EVIDENCE`: **0**
 - `Q4_OTHER_REVIEW`: **0**

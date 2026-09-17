@@ -5,86 +5,14 @@
     "skill_to_multiple_person_collisions": 0,
     "person_to_multiple_skill_matches": 0,
     "identity_hint_collisions": 0,
-    "suspicious_canonical_names": 5,
+    "suspicious_canonical_names": 0,
     "unresolved_existing_skills": 0,
     "scope_exception_existing_skills": 1
   },
   "skill_to_multiple_person_collisions": [],
   "person_to_multiple_skill_matches": [],
   "identity_hint_collisions": [],
-  "suspicious_canonical_names": [
-    {
-      "candidate_id": "ruler-0218",
-      "canonical_name": "夫谭/无谭",
-      "corpus_status": "CORE",
-      "polities": [
-        "越"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-1010",
-      "canonical_name": "虞公/虞惠公",
-      "corpus_status": "REVIEW",
-      "polities": [
-        "虞"
-      ],
-      "source_files": [
-        "data/ruler-candidates-preqin-other.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-1020",
-      "canonical_name": "虢宣公/虢季子白",
-      "corpus_status": "REVIEW",
-      "polities": [
-        "西虢/南虢"
-      ],
-      "source_files": [
-        "data/ruler-candidates-preqin-other.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-1027",
-      "canonical_name": "许庄公茀/苴人",
-      "corpus_status": "REVIEW",
-      "polities": [
-        "许"
-      ],
-      "source_files": [
-        "data/ruler-candidates-preqin-other.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-1189",
-      "canonical_name": "韩共侯/懿侯韩若山",
-      "corpus_status": "CORE",
-      "polities": [
-        "韩"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED",
-        "LONG_COMPOSITE_NAME_REVIEW"
-      ]
-    }
-  ],
+  "suspicious_canonical_names": [],
   "unresolved_existing_skills": [],
   "scope_exception_existing_skills": [
     {

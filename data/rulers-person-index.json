@@ -18,12 +18,12 @@
     "data/rulers-master-h9-yuan-rivals.json"
   ],
   "stats": {
-    "total_unique_candidates": 1311,
+    "total_unique_candidates": 1312,
     "core": 913,
     "excluded_review": 3,
     "extended": 15,
     "legendary": 16,
-    "review": 364
+    "review": 365
   },
   "persons": [
     {
@@ -3439,7 +3439,6 @@
       "canonical_name": "卫疌伯",
       "aliases": [
         "卫挚伯",
-        "卫疌伯/挚伯",
         "挚伯"
       ],
       "identity_hints": [
@@ -3461,7 +3460,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TRANSMITTED_TITLE_VARIANT",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "The received Wei ruler sequence records 卫疌伯; Shiben transmits the same ruler as 卫挚伯.",
@@ -3500,7 +3499,6 @@
       "canonical_name": "卫考伯",
       "aliases": [
         "卫孝伯",
-        "卫考伯/孝伯",
         "孝伯"
       ],
       "identity_hints": [
@@ -3522,7 +3520,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TRANSMITTED_TITLE_VARIANT",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "The transmitted title variant is recorded as 卫考伯, also called 卫孝伯.",
@@ -3561,7 +3559,6 @@
       "canonical_name": "卫贞伯",
       "aliases": [
         "卫箕伯",
-        "卫贞伯/箕伯",
         "箕伯"
       ],
       "identity_hints": [
@@ -3583,7 +3580,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TRANSMITTED_TITLE_VARIANT",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "The received Wei ruler sequence records 卫贞伯; Shiben transmits the same ruler as 卫箕伯.",
@@ -4720,12 +4717,13 @@
     },
     {
       "candidate_id": "ruler-0218",
-      "canonical_name": "夫谭/无谭",
-      "aliases": [],
+      "canonical_name": "夫谭",
+      "aliases": [
+        "夫镡"
+      ],
       "identity_hints": [
         "夫谭",
-        "夫谭/无谭",
-        "无谭"
+        "夫镡"
       ],
       "corpus_status": "CORE",
       "status_signals": [
@@ -4739,7 +4737,23 @@
       ],
       "existing_skill_paths": [],
       "episodes": [],
-      "identity_status": "CANDIDATE_ID_NOT_LOCKED"
+      "identity_status": "CANDIDATE_ID_NOT_LOCKED",
+      "identity_resolution": {
+        "status": "CANONICAL_LABEL_WITH_UNVERIFIED_VARIANT",
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH_FOR_CANONICAL_MEDIUM_FOR_VARIANT",
+        "basis": "夫谭 is directly transmitted as the predecessor/father of 允常. The synthetic composite is removed; 无谭 remains a reported variant for later verification and is not promoted to an identity hint.",
+        "source_raw_labels": [
+          "夫谭/无谭"
+        ],
+        "evidence": [
+          "https://ctext.org/wiki.pl?chapter=573370&if=en&remap=gb",
+          "https://ctext.org/wiki.pl?chapter=2158425&if=gb&remap=gb"
+        ],
+        "reported_aliases_unverified": [
+          "无谭"
+        ]
+      }
     },
     {
       "candidate_id": "ruler-0219",
@@ -6683,7 +6697,6 @@
       "candidate_id": "ruler-0310",
       "canonical_name": "帝喾",
       "aliases": [
-        "帝喾高辛氏",
         "高辛氏"
       ],
       "identity_hints": [
@@ -6702,7 +6715,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "LEGENDARY_LABEL_NORMALIZATION",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "Structural normalization of a legendary ruler label: title/name and traditional clan-style designation are stored separately.",
@@ -6716,9 +6729,7 @@
     {
       "candidate_id": "ruler-0311",
       "canonical_name": "帝挚",
-      "aliases": [
-        "帝挚高辛氏"
-      ],
+      "aliases": [],
       "identity_hints": [
         "帝挚"
       ],
@@ -6734,10 +6745,10 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "LEGENDARY_LABEL_NORMALIZATION",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "MEDIUM",
-        "basis": "Structural normalization only. The raw source string remains preserved, but 高辛氏 is not emitted as an identity hint because that designation is also attached to 帝喾 and would create a false cross-person collision.",
+        "basis": "Structural normalization only. 高辛氏 is not emitted as an identity hint because that designation is also attached to 帝喾 and would create a false cross-person collision.",
         "source_raw_labels": [
           "帝挚高辛氏"
         ],
@@ -8239,8 +8250,7 @@
       "canonical_name": "扩廓帖木儿",
       "aliases": [
         "保保",
-        "王保保",
-        "王保保/扩廓帖木儿"
+        "王保保"
       ],
       "identity_hints": [
         "保保",
@@ -8261,7 +8271,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "PERSON_NAME_VARIANT",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "王保保 and 扩廓帖木儿 are names used for the same Yuan/Northern Yuan figure.",
@@ -8870,13 +8880,10 @@
       "candidate_id": "ruler-0411",
       "canonical_name": "晋哀公",
       "aliases": [
-        "晋哀公/懿公/敬公",
         "晋懿公",
         "晋敬公"
       ],
       "identity_hints": [
-        "懿公",
-        "敬公",
         "晋哀公",
         "晋懿公",
         "晋敬公"
@@ -8895,7 +8902,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TRANSMITTED_TITLE_VARIANT",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "Different transmitted sources use 哀公, 懿公 and 敬公 for the same ruler 骄.",
@@ -8933,13 +8940,11 @@
       "candidate_id": "ruler-0413",
       "canonical_name": "晋孝公",
       "aliases": [
-        "晋孝公/桓公",
         "晋桓公"
       ],
       "identity_hints": [
         "晋孝公",
-        "晋桓公",
-        "桓公"
+        "晋桓公"
       ],
       "corpus_status": "CORE",
       "status_signals": [
@@ -8955,7 +8960,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TRANSMITTED_TITLE_VARIANT",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "The ancient Bamboo Annals tradition calls 晋孝公 晋桓公.",
@@ -9499,14 +9504,12 @@
       "aliases": [
         "姬俱酒",
         "晋靖公",
-        "晋静公/靖公",
         "静公俱酒"
       ],
       "identity_hints": [
         "姬俱酒",
         "晋靖公",
         "晋静公",
-        "靖公",
         "静公俱酒"
       ],
       "corpus_status": "CORE",
@@ -9523,7 +9526,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TRANSMITTED_TITLE_VARIANT",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "静/靖 is a transmitted title variant for the final Jin ruler 俱酒.",
@@ -9625,8 +9628,7 @@
       "canonical_name": "曲沃武公",
       "aliases": [
         "姬称",
-        "晋武公",
-        "曲沃武公/晋武公"
+        "晋武公"
       ],
       "identity_hints": [
         "姬称",
@@ -9647,7 +9649,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TITLE_EPISODE_NORMALIZATION",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "曲沃武公 was later recognized as 晋侯 and is the same person conventionally called 晋武公.",
@@ -14086,7 +14088,6 @@
       "aliases": [
         "公子比",
         "子干",
-        "楚王比熊比",
         "熊比"
       ],
       "identity_hints": [
@@ -14109,7 +14110,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TITLE_PERSON_NAME_NORMALIZATION",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "CTP identifies 楚王比 and 熊比 as the same person.",
@@ -14126,7 +14127,6 @@
       "candidate_id": "ruler-0650",
       "canonical_name": "楚王负刍",
       "aliases": [
-        "楚王负刍熊负刍",
         "熊负刍"
       ],
       "identity_hints": [
@@ -14147,7 +14147,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TITLE_PERSON_NAME_NORMALIZATION",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "CTP identifies 楚王负刍 and 熊负刍 as the same person.",
@@ -16960,7 +16960,6 @@
       "candidate_id": "ruler-0782",
       "canonical_name": "王延羲",
       "aliases": [
-        "王延羲/王曦",
         "王曦",
         "闽景宗"
       ],
@@ -16983,7 +16982,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "ACCESSION_NAME_CHANGE",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "王延羲 changed his name to 王曦 after accession.",
@@ -17021,7 +17020,6 @@
       "candidate_id": "ruler-0784",
       "canonical_name": "王延钧",
       "aliases": [
-        "王延钧/王鏻",
         "王璘",
         "王鏻",
         "闽惠宗"
@@ -17046,7 +17044,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "ACCESSION_NAME_CHANGE",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "王延钧 used 王鏻 after accession; the records describe one person.",
@@ -17085,7 +17083,6 @@
       "canonical_name": "王继鹏",
       "aliases": [
         "王昶",
-        "王继鹏/王昶",
         "闽康宗"
       ],
       "identity_hints": [
@@ -17107,7 +17104,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "ACCESSION_NAME_CHANGE",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "王继鹏 later changed his name to 王昶.",
@@ -21863,12 +21860,10 @@
     },
     {
       "candidate_id": "ruler-1010",
-      "canonical_name": "虞公/虞惠公",
+      "canonical_name": "虞公",
       "aliases": [],
       "identity_hints": [
-        "虞公",
-        "虞公/虞惠公",
-        "虞惠公"
+        "虞公"
       ],
       "corpus_status": "REVIEW",
       "status_signals": [
@@ -21882,7 +21877,23 @@
       ],
       "existing_skill_paths": [],
       "episodes": [],
-      "identity_status": "CANDIDATE_ID_NOT_LOCKED"
+      "identity_status": "CANDIDATE_ID_NOT_LOCKED",
+      "identity_resolution": {
+        "status": "CANONICAL_LABEL_WITH_UNVERIFIED_VARIANT",
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH_FOR_CANONICAL_LOW_FOR_VARIANT",
+        "basis": "The last ruler is directly transmitted as 虞公; a secure primary-source basis for the label 虞惠公 was not established in this pass. Keep the latter as a review note, not a true alias.",
+        "source_raw_labels": [
+          "虞公/虞惠公"
+        ],
+        "evidence": [
+          "https://ctext.org/wiki.pl?chapter=8536407&if=gb",
+          "https://ehipassa.org/classics/zuo/02/"
+        ],
+        "reported_aliases_unverified": [
+          "虞惠公"
+        ]
+      }
     },
     {
       "candidate_id": "ruler-1011",
@@ -22078,12 +22089,13 @@
     },
     {
       "candidate_id": "ruler-1020",
-      "canonical_name": "虢宣公/虢季子白",
-      "aliases": [],
+      "canonical_name": "虢季子白",
+      "aliases": [
+        "子白"
+      ],
       "identity_hints": [
-        "虢季子白",
-        "虢宣公",
-        "虢宣公/虢季子白"
+        "子白",
+        "虢季子白"
       ],
       "corpus_status": "REVIEW",
       "status_signals": [
@@ -22097,10 +22109,63 @@
       ],
       "existing_skill_paths": [],
       "episodes": [],
-      "identity_status": "CANDIDATE_ID_NOT_LOCKED"
+      "identity_status": "CANDIDATE_ID_NOT_LOCKED",
+      "identity_resolution": {
+        "status": "AMBIGUOUS_SPLIT_REVIEW",
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "DISPUTED",
+        "basis": "The discovery label conflated a debated identification. Scholarship has treated 虢季子白 as 虢宣公 in some reconstructions and as a distinct figure / different generational placement in others. The corpus therefore keeps two REVIEW candidates rather than deciding the controversy by normalization.",
+        "source_raw_labels": [
+          "虢宣公/虢季子白"
+        ],
+        "evidence": [
+          "https://www.fdgwz.org.cn/Web/Show/2991"
+        ],
+        "related_candidates": [
+          "虢宣公"
+        ],
+        "relation": "POSSIBLE_SAME_PERSON_DISPUTED"
+      }
     },
     {
       "candidate_id": "ruler-1021",
+      "canonical_name": "虢宣公",
+      "aliases": [],
+      "identity_hints": [
+        "虢宣公"
+      ],
+      "corpus_status": "REVIEW",
+      "status_signals": [
+        "REVIEW"
+      ],
+      "polities": [
+        "西虢/南虢"
+      ],
+      "source_files": [
+        "data/ruler-candidates-preqin-other.json"
+      ],
+      "existing_skill_paths": [],
+      "episodes": [],
+      "identity_status": "CANDIDATE_ID_NOT_LOCKED",
+      "identity_resolution": {
+        "status": "AMBIGUOUS_SPLIT_REVIEW",
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "DISPUTED",
+        "basis": "The discovery label conflated a debated identification. Scholarship has treated 虢季子白 as 虢宣公 in some reconstructions and as a distinct figure / different generational placement in others. The corpus therefore keeps two REVIEW candidates rather than deciding the controversy by normalization.",
+        "source_raw_labels": [
+          "虢宣公/虢季子白"
+        ],
+        "evidence": [
+          "https://www.fdgwz.org.cn/Web/Show/2991"
+        ],
+        "related_candidates": [
+          "虢季子白"
+        ],
+        "relation": "POSSIBLE_SAME_PERSON_DISPUTED"
+      }
+    },
+    {
+      "candidate_id": "ruler-1022",
       "canonical_name": "虢文公",
       "aliases": [],
       "identity_hints": [
@@ -22121,7 +22186,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1022",
+      "candidate_id": "ruler-1023",
       "canonical_name": "虢石父",
       "aliases": [],
       "identity_hints": [
@@ -22142,7 +22207,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1023",
+      "candidate_id": "ruler-1024",
       "canonical_name": "袁世凯",
       "aliases": [],
       "identity_hints": [
@@ -22170,7 +22235,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1024",
+      "candidate_id": "ruler-1025",
       "canonical_name": "襄王",
       "aliases": [],
       "identity_hints": [
@@ -22191,7 +22256,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1025",
+      "candidate_id": "ruler-1026",
       "canonical_name": "许僖公业",
       "aliases": [],
       "identity_hints": [
@@ -22212,7 +22277,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1026",
+      "candidate_id": "ruler-1027",
       "canonical_name": "许孝男",
       "aliases": [],
       "identity_hints": [
@@ -22233,13 +22298,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1027",
-      "canonical_name": "许庄公茀/苴人",
-      "aliases": [],
+      "candidate_id": "ruler-1028",
+      "canonical_name": "许庄公",
+      "aliases": [
+        "茀",
+        "许庄公茀"
+      ],
       "identity_hints": [
-        "苴人",
-        "许庄公茀",
-        "许庄公茀/苴人"
+        "茀",
+        "许庄公",
+        "许庄公茀"
       ],
       "corpus_status": "REVIEW",
       "status_signals": [
@@ -22253,10 +22321,26 @@
       ],
       "existing_skill_paths": [],
       "episodes": [],
-      "identity_status": "CANDIDATE_ID_NOT_LOCKED"
+      "identity_status": "CANDIDATE_ID_NOT_LOCKED",
+      "identity_resolution": {
+        "status": "TRANSMITTED_PRIVATE_NAME_RECONCILIATION",
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "MEDIUM",
+        "basis": "The ruler identity 许庄公 is secure, while transmitted scholarship differs over the private-name reading 茀/苴人 and even questions whether 苴人 is a style rather than a personal name. Canonicalize the ruler title without forcing the disputed token into identity matching.",
+        "source_raw_labels": [
+          "许庄公茀/苴人"
+        ],
+        "evidence": [
+          "https://ctext.org/wiki.pl?chapter=236114&if=gb&remap=gb",
+          "https://ctext.org/wiki.pl?chapter=2158425&if=gb&remap=gb"
+        ],
+        "reported_aliases_unverified": [
+          "苴人"
+        ]
+      }
     },
     {
-      "candidate_id": "ruler-1028",
+      "candidate_id": "ruler-1029",
       "canonical_name": "许康男",
       "aliases": [],
       "identity_hints": [
@@ -22277,7 +22361,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1029",
+      "candidate_id": "ruler-1030",
       "canonical_name": "许德男",
       "aliases": [],
       "identity_hints": [
@@ -22298,7 +22382,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1030",
+      "candidate_id": "ruler-1031",
       "canonical_name": "许悼公买",
       "aliases": [],
       "identity_hints": [
@@ -22319,7 +22403,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1031",
+      "candidate_id": "ruler-1032",
       "canonical_name": "许文公兴父",
       "aliases": [],
       "identity_hints": [
@@ -22340,7 +22424,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1032",
+      "candidate_id": "ruler-1033",
       "canonical_name": "许文叔丁",
       "aliases": [],
       "identity_hints": [
@@ -22361,7 +22445,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1033",
+      "candidate_id": "ruler-1034",
       "canonical_name": "许昭公锡我",
       "aliases": [],
       "identity_hints": [
@@ -22382,7 +22466,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1034",
+      "candidate_id": "ruler-1035",
       "canonical_name": "许桓公郑",
       "aliases": [],
       "identity_hints": [
@@ -22403,7 +22487,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1035",
+      "candidate_id": "ruler-1036",
       "canonical_name": "许武公",
       "aliases": [],
       "identity_hints": [
@@ -22424,7 +22508,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1036",
+      "candidate_id": "ruler-1037",
       "canonical_name": "许灵公宁",
       "aliases": [],
       "identity_hints": [
@@ -22445,7 +22529,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1037",
+      "candidate_id": "ruler-1038",
       "canonical_name": "许男伯封",
       "aliases": [],
       "identity_hints": [
@@ -22466,7 +22550,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1038",
+      "candidate_id": "ruler-1039",
       "canonical_name": "许男斯",
       "aliases": [],
       "identity_hints": [
@@ -22487,7 +22571,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1039",
+      "candidate_id": "ruler-1040",
       "canonical_name": "许穆公新臣",
       "aliases": [],
       "identity_hints": [
@@ -22508,7 +22592,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1040",
+      "candidate_id": "ruler-1041",
       "canonical_name": "许靖男",
       "aliases": [],
       "identity_hints": [
@@ -22529,7 +22613,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1041",
+      "candidate_id": "ruler-1042",
       "canonical_name": "诸咎",
       "aliases": [],
       "identity_hints": [
@@ -22550,7 +22634,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1042",
+      "candidate_id": "ruler-1043",
       "canonical_name": "诸樊",
       "aliases": [],
       "identity_hints": [
@@ -22571,7 +22655,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1043",
+      "candidate_id": "ruler-1044",
       "canonical_name": "谭延闿",
       "aliases": [],
       "identity_hints": [
@@ -22594,7 +22678,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1044",
+      "candidate_id": "ruler-1045",
       "canonical_name": "谯纵",
       "aliases": [],
       "identity_hints": [
@@ -22615,7 +22699,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1045",
+      "candidate_id": "ruler-1046",
       "canonical_name": "贞定王",
       "aliases": [],
       "identity_hints": [
@@ -22636,7 +22720,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1046",
+      "candidate_id": "ruler-1047",
       "canonical_name": "贵由",
       "aliases": [],
       "identity_hints": [
@@ -22659,7 +22743,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1047",
+      "candidate_id": "ruler-1048",
       "canonical_name": "赧王",
       "aliases": [],
       "identity_hints": [
@@ -22680,7 +22764,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1048",
+      "candidate_id": "ruler-1049",
       "canonical_name": "赫连勃勃",
       "aliases": [],
       "identity_hints": [
@@ -22701,7 +22785,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1049",
+      "candidate_id": "ruler-1050",
       "canonical_name": "赫连定",
       "aliases": [],
       "identity_hints": [
@@ -22722,7 +22806,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1050",
+      "candidate_id": "ruler-1051",
       "canonical_name": "赫连昌",
       "aliases": [],
       "identity_hints": [
@@ -22743,7 +22827,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1051",
+      "candidate_id": "ruler-1052",
       "canonical_name": "赵㬎",
       "aliases": [
         "赵显"
@@ -22769,7 +22853,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1052",
+      "candidate_id": "ruler-1053",
       "canonical_name": "赵佶",
       "aliases": [],
       "identity_hints": [
@@ -22792,7 +22876,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1053",
+      "candidate_id": "ruler-1054",
       "canonical_name": "赵光义",
       "aliases": [],
       "identity_hints": [
@@ -22815,7 +22899,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1054",
+      "candidate_id": "ruler-1055",
       "canonical_name": "赵匡胤",
       "aliases": [],
       "identity_hints": [
@@ -22838,7 +22922,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1055",
+      "candidate_id": "ruler-1056",
       "canonical_name": "赵善政",
       "aliases": [],
       "identity_hints": [
@@ -22859,11 +22943,10 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1056",
+      "candidate_id": "ruler-1057",
       "canonical_name": "赵嘉",
       "aliases": [
         "代王嘉",
-        "代王嘉赵嘉",
         "王子嘉"
       ],
       "identity_hints": [
@@ -22885,7 +22968,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TITLE_PERSON_NAME_NORMALIZATION",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "赵嘉 was established as 代王 after the fall of Handan; title and personal name refer to one person.",
@@ -22899,7 +22982,7 @@
       }
     },
     {
-      "candidate_id": "ruler-1057",
+      "candidate_id": "ruler-1058",
       "canonical_name": "赵孝成王赵丹",
       "aliases": [],
       "identity_hints": [
@@ -22920,7 +23003,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1058",
+      "candidate_id": "ruler-1059",
       "canonical_name": "赵幽缪王赵迁",
       "aliases": [],
       "identity_hints": [
@@ -22941,7 +23024,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1059",
+      "candidate_id": "ruler-1060",
       "canonical_name": "赵恒",
       "aliases": [],
       "identity_hints": [
@@ -22964,7 +23047,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1060",
+      "candidate_id": "ruler-1061",
       "canonical_name": "赵悼襄王赵偃",
       "aliases": [],
       "identity_hints": [
@@ -22985,7 +23068,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1061",
+      "candidate_id": "ruler-1062",
       "canonical_name": "赵惇",
       "aliases": [],
       "identity_hints": [
@@ -23008,7 +23091,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1062",
+      "candidate_id": "ruler-1063",
       "canonical_name": "赵惠文王赵何",
       "aliases": [],
       "identity_hints": [
@@ -23029,7 +23112,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1063",
+      "candidate_id": "ruler-1064",
       "canonical_name": "赵成侯赵种",
       "aliases": [],
       "identity_hints": [
@@ -23050,7 +23133,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1064",
+      "candidate_id": "ruler-1065",
       "canonical_name": "赵扩",
       "aliases": [],
       "identity_hints": [
@@ -23073,7 +23156,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1065",
+      "candidate_id": "ruler-1066",
       "canonical_name": "赵敬侯赵章",
       "aliases": [],
       "identity_hints": [
@@ -23094,7 +23177,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1066",
+      "candidate_id": "ruler-1067",
       "canonical_name": "赵昀",
       "aliases": [],
       "identity_hints": [
@@ -23117,7 +23200,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1067",
+      "candidate_id": "ruler-1068",
       "canonical_name": "赵昚",
       "aliases": [],
       "identity_hints": [
@@ -23140,7 +23223,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1068",
+      "candidate_id": "ruler-1069",
       "canonical_name": "赵昰",
       "aliases": [],
       "identity_hints": [
@@ -23163,7 +23246,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1069",
+      "candidate_id": "ruler-1070",
       "canonical_name": "赵昺",
       "aliases": [],
       "identity_hints": [
@@ -23186,7 +23269,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1070",
+      "candidate_id": "ruler-1071",
       "canonical_name": "赵曙",
       "aliases": [],
       "identity_hints": [
@@ -23209,7 +23292,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1071",
+      "candidate_id": "ruler-1072",
       "canonical_name": "赵构",
       "aliases": [],
       "identity_hints": [
@@ -23232,7 +23315,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1072",
+      "candidate_id": "ruler-1073",
       "canonical_name": "赵桓",
       "aliases": [],
       "identity_hints": [
@@ -23255,7 +23338,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1073",
+      "candidate_id": "ruler-1074",
       "canonical_name": "赵歇",
       "aliases": [],
       "identity_hints": [
@@ -23276,7 +23359,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1074",
+      "candidate_id": "ruler-1075",
       "canonical_name": "赵武侯",
       "aliases": [],
       "identity_hints": [
@@ -23297,7 +23380,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1075",
+      "candidate_id": "ruler-1076",
       "canonical_name": "赵武灵王赵雍",
       "aliases": [],
       "identity_hints": [
@@ -23318,7 +23401,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1076",
+      "candidate_id": "ruler-1077",
       "canonical_name": "赵烈侯赵籍",
       "aliases": [],
       "identity_hints": [
@@ -23339,7 +23422,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1077",
+      "candidate_id": "ruler-1078",
       "canonical_name": "赵煦",
       "aliases": [],
       "identity_hints": [
@@ -23362,7 +23445,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1078",
+      "candidate_id": "ruler-1079",
       "canonical_name": "赵祯",
       "aliases": [],
       "identity_hints": [
@@ -23385,7 +23468,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1079",
+      "candidate_id": "ruler-1080",
       "canonical_name": "赵禥",
       "aliases": [],
       "identity_hints": [
@@ -23408,7 +23491,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1080",
+      "candidate_id": "ruler-1081",
       "canonical_name": "赵肃侯赵语",
       "aliases": [],
       "identity_hints": [
@@ -23429,7 +23512,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1081",
+      "candidate_id": "ruler-1082",
       "canonical_name": "赵顼",
       "aliases": [],
       "identity_hints": [
@@ -23452,11 +23535,10 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1082",
+      "candidate_id": "ruler-1083",
       "canonical_name": "越王之侯",
       "aliases": [
         "之侯",
-        "之侯/初无余/莽安",
         "初无余",
         "初无余之",
         "莽安"
@@ -23482,7 +23564,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "EVIDENCE_BACKED_SAME_PERSON",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "Shiji Suoyin / Bamboo Annals tradition explicitly connects 王之侯, 初无余之 and 莽安 as the same ruler.",
@@ -23497,13 +23579,12 @@
       }
     },
     {
-      "candidate_id": "ruler-1083",
+      "candidate_id": "ruler-1084",
       "canonical_name": "越王翁",
       "aliases": [
         "州句",
         "朱句",
-        "翁",
-        "翁/朱句"
+        "翁"
       ],
       "identity_hints": [
         "州句",
@@ -23525,7 +23606,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TRANSMITTED_NAME_VARIANT",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "The Yue ruler is transmitted as 王翁 and also as 朱句/州句.",
@@ -23539,15 +23620,14 @@
       }
     },
     {
-      "candidate_id": "ruler-1084",
+      "candidate_id": "ruler-1085",
       "canonical_name": "越王鼫与",
       "aliases": [
         "与夷",
         "者旨於赐",
         "适郢",
         "鹿郢",
-        "鼫与",
-        "鼫与/鹿郢/与夷"
+        "鼫与"
       ],
       "identity_hints": [
         "与夷",
@@ -23571,7 +23651,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TRANSMITTED_NAME_VARIANT",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "The same Yue ruler is transmitted under 鼫/鼫与, 鹿郢 and 与夷/适郢 variants.",
@@ -23585,7 +23665,7 @@
       }
     },
     {
-      "candidate_id": "ruler-1085",
+      "candidate_id": "ruler-1086",
       "canonical_name": "转",
       "aliases": [],
       "identity_hints": [
@@ -23606,7 +23686,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1086",
+      "candidate_id": "ruler-1087",
       "canonical_name": "载淳",
       "aliases": [],
       "identity_hints": [
@@ -23629,7 +23709,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1087",
+      "candidate_id": "ruler-1088",
       "canonical_name": "载湉",
       "aliases": [],
       "identity_hints": [
@@ -23652,7 +23732,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1088",
+      "candidate_id": "ruler-1089",
       "canonical_name": "辅公祏",
       "aliases": [],
       "identity_hints": [
@@ -23673,7 +23753,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1089",
+      "candidate_id": "ruler-1090",
       "canonical_name": "述律平",
       "aliases": [],
       "identity_hints": [
@@ -23696,7 +23776,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1090",
+      "candidate_id": "ruler-1091",
       "canonical_name": "逻盛",
       "aliases": [],
       "identity_hints": [
@@ -23717,7 +23797,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1091",
+      "candidate_id": "ruler-1092",
       "canonical_name": "邾公子害",
       "aliases": [],
       "identity_hints": [
@@ -23738,7 +23818,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1092",
+      "candidate_id": "ruler-1093",
       "canonical_name": "邾子挟",
       "aliases": [],
       "identity_hints": [
@@ -23759,7 +23839,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1093",
+      "candidate_id": "ruler-1094",
       "canonical_name": "邾子非",
       "aliases": [],
       "identity_hints": [
@@ -23780,7 +23860,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1094",
+      "candidate_id": "ruler-1095",
       "canonical_name": "郑买嗣",
       "aliases": [],
       "identity_hints": [
@@ -23801,7 +23881,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1095",
+      "candidate_id": "ruler-1096",
       "canonical_name": "郑仁旻",
       "aliases": [],
       "identity_hints": [
@@ -23822,7 +23902,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1096",
+      "candidate_id": "ruler-1097",
       "canonical_name": "郑僖公髡顽",
       "aliases": [],
       "identity_hints": [
@@ -23843,7 +23923,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1097",
+      "candidate_id": "ruler-1098",
       "canonical_name": "郑克塽",
       "aliases": [],
       "identity_hints": [
@@ -23866,7 +23946,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1098",
+      "candidate_id": "ruler-1099",
       "canonical_name": "郑共公丑",
       "aliases": [],
       "identity_hints": [
@@ -23887,7 +23967,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1099",
+      "candidate_id": "ruler-1100",
       "canonical_name": "郑厉公突",
       "aliases": [],
       "identity_hints": [
@@ -23908,7 +23988,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1100",
+      "candidate_id": "ruler-1101",
       "canonical_name": "郑哀公易",
       "aliases": [],
       "identity_hints": [
@@ -23929,7 +24009,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1101",
+      "candidate_id": "ruler-1102",
       "canonical_name": "郑声公胜",
       "aliases": [],
       "identity_hints": [
@@ -23950,7 +24030,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1102",
+      "candidate_id": "ruler-1103",
       "canonical_name": "郑子亹",
       "aliases": [],
       "identity_hints": [
@@ -23971,7 +24051,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1103",
+      "candidate_id": "ruler-1104",
       "canonical_name": "郑子婴",
       "aliases": [],
       "identity_hints": [
@@ -23992,7 +24072,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1104",
+      "candidate_id": "ruler-1105",
       "canonical_name": "郑定公宁",
       "aliases": [],
       "identity_hints": [
@@ -24013,7 +24093,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1105",
+      "candidate_id": "ruler-1106",
       "canonical_name": "郑幽公已",
       "aliases": [],
       "identity_hints": [
@@ -24034,7 +24114,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1106",
+      "candidate_id": "ruler-1107",
       "canonical_name": "郑庄公寤生",
       "aliases": [],
       "identity_hints": [
@@ -24055,7 +24135,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1107",
+      "candidate_id": "ruler-1108",
       "canonical_name": "郑康公乙",
       "aliases": [],
       "identity_hints": [
@@ -24076,7 +24156,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1108",
+      "candidate_id": "ruler-1109",
       "canonical_name": "郑悼公沸",
       "aliases": [],
       "identity_hints": [
@@ -24097,7 +24177,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1109",
+      "candidate_id": "ruler-1110",
       "canonical_name": "郑成公睔",
       "aliases": [],
       "identity_hints": [
@@ -24118,7 +24198,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1110",
+      "candidate_id": "ruler-1111",
       "canonical_name": "郑成功",
       "aliases": [],
       "identity_hints": [
@@ -24141,7 +24221,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1111",
+      "candidate_id": "ruler-1112",
       "canonical_name": "郑文公踕",
       "aliases": [],
       "identity_hints": [
@@ -24162,7 +24242,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1112",
+      "candidate_id": "ruler-1113",
       "canonical_name": "郑昭公忽",
       "aliases": [],
       "identity_hints": [
@@ -24183,7 +24263,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1113",
+      "candidate_id": "ruler-1114",
       "canonical_name": "郑桓公友",
       "aliases": [],
       "identity_hints": [
@@ -24204,7 +24284,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1114",
+      "candidate_id": "ruler-1115",
       "canonical_name": "郑武公掘突",
       "aliases": [],
       "identity_hints": [
@@ -24225,7 +24305,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1115",
+      "candidate_id": "ruler-1116",
       "canonical_name": "郑灵公夷",
       "aliases": [],
       "identity_hints": [
@@ -24246,7 +24326,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1116",
+      "candidate_id": "ruler-1117",
       "canonical_name": "郑献公趸",
       "aliases": [],
       "identity_hints": [
@@ -24267,7 +24347,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1117",
+      "candidate_id": "ruler-1118",
       "canonical_name": "郑穆公兰",
       "aliases": [],
       "identity_hints": [
@@ -24288,7 +24368,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1118",
+      "candidate_id": "ruler-1119",
       "canonical_name": "郑简公嘉",
       "aliases": [],
       "identity_hints": [
@@ -24309,7 +24389,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1119",
+      "candidate_id": "ruler-1120",
       "canonical_name": "郑繻公骀",
       "aliases": [],
       "identity_hints": [
@@ -24330,7 +24410,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1120",
+      "candidate_id": "ruler-1121",
       "canonical_name": "郑经",
       "aliases": [],
       "identity_hints": [
@@ -24353,7 +24433,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1121",
+      "candidate_id": "ruler-1122",
       "canonical_name": "郑襄公坚",
       "aliases": [],
       "identity_hints": [
@@ -24374,7 +24454,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1122",
+      "candidate_id": "ruler-1123",
       "canonical_name": "郑隆亶",
       "aliases": [],
       "identity_hints": [
@@ -24395,7 +24475,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1123",
+      "candidate_id": "ruler-1124",
       "canonical_name": "郕伯",
       "aliases": [],
       "identity_hints": [
@@ -24416,7 +24496,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1124",
+      "candidate_id": "ruler-1125",
       "canonical_name": "郕叔武",
       "aliases": [],
       "identity_hints": [
@@ -24437,7 +24517,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1125",
+      "candidate_id": "ruler-1126",
       "canonical_name": "郝定",
       "aliases": [],
       "identity_hints": [
@@ -24460,7 +24540,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1126",
+      "candidate_id": "ruler-1127",
       "canonical_name": "郭叔",
       "aliases": [],
       "identity_hints": [
@@ -24481,7 +24561,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1127",
+      "candidate_id": "ruler-1128",
       "canonical_name": "郭威",
       "aliases": [],
       "identity_hints": [
@@ -24502,7 +24582,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1128",
+      "candidate_id": "ruler-1129",
       "canonical_name": "郭子和",
       "aliases": [],
       "identity_hints": [
@@ -24523,7 +24603,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1129",
+      "candidate_id": "ruler-1130",
       "canonical_name": "郳公皮父",
       "aliases": [],
       "identity_hints": [
@@ -24544,7 +24624,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1130",
+      "candidate_id": "ruler-1131",
       "canonical_name": "郳友",
       "aliases": [],
       "identity_hints": [
@@ -24565,7 +24645,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1131",
+      "candidate_id": "ruler-1132",
       "canonical_name": "郳庆",
       "aliases": [],
       "identity_hints": [
@@ -24586,7 +24666,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1132",
+      "candidate_id": "ruler-1133",
       "canonical_name": "郳恭公克",
       "aliases": [],
       "identity_hints": [
@@ -24607,7 +24687,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1133",
+      "candidate_id": "ruler-1134",
       "canonical_name": "郳犁来",
       "aliases": [],
       "identity_hints": [
@@ -24628,7 +24708,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1134",
+      "candidate_id": "ruler-1135",
       "canonical_name": "鄅子",
       "aliases": [
         "鄅子（春秋末）"
@@ -24651,7 +24731,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1135",
+      "candidate_id": "ruler-1136",
       "canonical_name": "釐王",
       "aliases": [],
       "identity_hints": [
@@ -24672,7 +24752,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1136",
+      "candidate_id": "ruler-1137",
       "canonical_name": "钱俶",
       "aliases": [],
       "identity_hints": [
@@ -24693,7 +24773,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1137",
+      "candidate_id": "ruler-1138",
       "canonical_name": "钱元瓘",
       "aliases": [],
       "identity_hints": [
@@ -24714,7 +24794,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1138",
+      "candidate_id": "ruler-1139",
       "canonical_name": "钱弘佐",
       "aliases": [],
       "identity_hints": [
@@ -24735,7 +24815,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1139",
+      "candidate_id": "ruler-1140",
       "canonical_name": "钱弘倧",
       "aliases": [],
       "identity_hints": [
@@ -24756,7 +24836,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1140",
+      "candidate_id": "ruler-1141",
       "canonical_name": "钱镠",
       "aliases": [],
       "identity_hints": [
@@ -24777,7 +24857,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1141",
+      "candidate_id": "ruler-1142",
       "canonical_name": "铁木真",
       "aliases": [],
       "identity_hints": [
@@ -24800,7 +24880,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1142",
+      "candidate_id": "ruler-1143",
       "canonical_name": "铁穆耳",
       "aliases": [],
       "identity_hints": [
@@ -24823,7 +24903,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1143",
+      "candidate_id": "ruler-1144",
       "canonical_name": "错叔绣",
       "aliases": [],
       "identity_hints": [
@@ -24844,7 +24924,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1144",
+      "candidate_id": "ruler-1145",
       "canonical_name": "错枝",
       "aliases": [],
       "identity_hints": [
@@ -24865,7 +24945,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1145",
+      "candidate_id": "ruler-1146",
       "canonical_name": "阁罗凤",
       "aliases": [],
       "identity_hints": [
@@ -24886,7 +24966,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1146",
+      "candidate_id": "ruler-1147",
       "canonical_name": "阖闾",
       "aliases": [],
       "identity_hints": [
@@ -24907,7 +24987,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1147",
+      "candidate_id": "ruler-1148",
       "canonical_name": "阳甲",
       "aliases": [],
       "identity_hints": [
@@ -24928,7 +25008,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1148",
+      "candidate_id": "ruler-1149",
       "canonical_name": "阿速吉八",
       "aliases": [
         "Ragibagh",
@@ -24956,7 +25036,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1149",
+      "candidate_id": "ruler-1150",
       "canonical_name": "阿里不哥",
       "aliases": [],
       "identity_hints": [
@@ -24979,7 +25059,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1150",
+      "candidate_id": "ruler-1151",
       "canonical_name": "陈伯宗",
       "aliases": [],
       "identity_hints": [
@@ -25000,7 +25080,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1151",
+      "candidate_id": "ruler-1152",
       "canonical_name": "陈公佗",
       "aliases": [],
       "identity_hints": [
@@ -25021,7 +25101,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1152",
+      "candidate_id": "ruler-1153",
       "canonical_name": "陈公博",
       "aliases": [],
       "identity_hints": [
@@ -25044,7 +25124,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1153",
+      "candidate_id": "ruler-1154",
       "canonical_name": "陈共公朔",
       "aliases": [],
       "identity_hints": [
@@ -25065,7 +25145,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1154",
+      "candidate_id": "ruler-1155",
       "canonical_name": "陈厉公跃",
       "aliases": [],
       "identity_hints": [
@@ -25086,7 +25166,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1155",
+      "candidate_id": "ruler-1156",
       "canonical_name": "陈友谅",
       "aliases": [],
       "identity_hints": [
@@ -25107,7 +25187,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1156",
+      "candidate_id": "ruler-1157",
       "canonical_name": "陈叔宝",
       "aliases": [],
       "identity_hints": [
@@ -25128,7 +25208,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1157",
+      "candidate_id": "ruler-1158",
       "canonical_name": "陈君留",
       "aliases": [],
       "identity_hints": [
@@ -25149,7 +25229,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1158",
+      "candidate_id": "ruler-1159",
       "canonical_name": "陈哀公弱",
       "aliases": [],
       "identity_hints": [
@@ -25170,7 +25250,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1159",
+      "candidate_id": "ruler-1160",
       "canonical_name": "陈夷公说",
       "aliases": [],
       "identity_hints": [
@@ -25191,7 +25271,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1160",
+      "candidate_id": "ruler-1161",
       "canonical_name": "陈孝公突",
       "aliases": [],
       "identity_hints": [
@@ -25212,7 +25292,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1161",
+      "candidate_id": "ruler-1162",
       "canonical_name": "陈宣公杵臼",
       "aliases": [],
       "identity_hints": [
@@ -25233,7 +25313,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1162",
+      "candidate_id": "ruler-1163",
       "canonical_name": "陈平公燮",
       "aliases": [],
       "identity_hints": [
@@ -25254,7 +25334,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1163",
+      "candidate_id": "ruler-1164",
       "canonical_name": "陈幽公宁",
       "aliases": [],
       "identity_hints": [
@@ -25275,7 +25355,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1164",
+      "candidate_id": "ruler-1165",
       "canonical_name": "陈庄公林",
       "aliases": [],
       "identity_hints": [
@@ -25296,7 +25376,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1165",
+      "candidate_id": "ruler-1166",
       "canonical_name": "陈开",
       "aliases": [],
       "identity_hints": [
@@ -25319,7 +25399,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1166",
+      "candidate_id": "ruler-1167",
       "canonical_name": "陈怀公柳",
       "aliases": [],
       "identity_hints": [
@@ -25340,7 +25420,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1167",
+      "candidate_id": "ruler-1168",
       "canonical_name": "陈惠公吴",
       "aliases": [],
       "identity_hints": [
@@ -25361,7 +25441,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1168",
+      "candidate_id": "ruler-1169",
       "canonical_name": "陈慎公圉戎",
       "aliases": [],
       "identity_hints": [
@@ -25382,7 +25462,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1169",
+      "candidate_id": "ruler-1170",
       "canonical_name": "陈成公午",
       "aliases": [],
       "identity_hints": [
@@ -25403,7 +25483,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1170",
+      "candidate_id": "ruler-1171",
       "canonical_name": "陈文公圉",
       "aliases": [],
       "identity_hints": [
@@ -25424,7 +25504,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1171",
+      "candidate_id": "ruler-1172",
       "canonical_name": "陈桓公鲍",
       "aliases": [],
       "identity_hints": [
@@ -25445,7 +25525,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1172",
+      "candidate_id": "ruler-1173",
       "canonical_name": "陈武公灵",
       "aliases": [],
       "identity_hints": [
@@ -25466,7 +25546,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1173",
+      "candidate_id": "ruler-1174",
       "canonical_name": "陈洪进",
       "aliases": [],
       "identity_hints": [
@@ -25487,7 +25567,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1174",
+      "candidate_id": "ruler-1175",
       "canonical_name": "陈湣公越",
       "aliases": [],
       "identity_hints": [
@@ -25508,7 +25588,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1175",
+      "candidate_id": "ruler-1176",
       "canonical_name": "陈灵公平国",
       "aliases": [],
       "identity_hints": [
@@ -25529,7 +25609,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1176",
+      "candidate_id": "ruler-1177",
       "canonical_name": "陈理",
       "aliases": [],
       "identity_hints": [
@@ -25550,7 +25630,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1177",
+      "candidate_id": "ruler-1178",
       "canonical_name": "陈申公犀侯",
       "aliases": [],
       "identity_hints": [
@@ -25571,7 +25651,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1178",
+      "candidate_id": "ruler-1179",
       "canonical_name": "陈相公皋羊",
       "aliases": [],
       "identity_hints": [
@@ -25592,7 +25672,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1179",
+      "candidate_id": "ruler-1180",
       "canonical_name": "陈穆公款",
       "aliases": [],
       "identity_hints": [
@@ -25613,7 +25693,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1180",
+      "candidate_id": "ruler-1181",
       "canonical_name": "陈胜",
       "aliases": [],
       "identity_hints": [
@@ -25634,7 +25714,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1181",
+      "candidate_id": "ruler-1182",
       "canonical_name": "陈胡公满",
       "aliases": [],
       "identity_hints": [
@@ -25655,7 +25735,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1182",
+      "candidate_id": "ruler-1183",
       "canonical_name": "陈蒨",
       "aliases": [],
       "identity_hints": [
@@ -25676,7 +25756,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1183",
+      "candidate_id": "ruler-1184",
       "canonical_name": "陈釐公孝",
       "aliases": [],
       "identity_hints": [
@@ -25697,7 +25777,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1184",
+      "candidate_id": "ruler-1185",
       "canonical_name": "陈霸先",
       "aliases": [],
       "identity_hints": [
@@ -25718,7 +25798,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1185",
+      "candidate_id": "ruler-1186",
       "canonical_name": "陈顼",
       "aliases": [],
       "identity_hints": [
@@ -25739,7 +25819,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1186",
+      "candidate_id": "ruler-1187",
       "canonical_name": "隆舜",
       "aliases": [],
       "identity_hints": [
@@ -25760,7 +25840,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1187",
+      "candidate_id": "ruler-1188",
       "canonical_name": "雍己",
       "aliases": [],
       "identity_hints": [
@@ -25781,7 +25861,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1188",
+      "candidate_id": "ruler-1189",
       "canonical_name": "靳准",
       "aliases": [],
       "identity_hints": [
@@ -25796,29 +25876,6 @@
       ],
       "source_files": [
         "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "existing_skill_paths": [],
-      "episodes": [],
-      "identity_status": "CANDIDATE_ID_NOT_LOCKED"
-    },
-    {
-      "candidate_id": "ruler-1189",
-      "canonical_name": "韩共侯/懿侯韩若山",
-      "aliases": [],
-      "identity_hints": [
-        "懿侯韩若山",
-        "韩共侯",
-        "韩共侯/懿侯韩若山"
-      ],
-      "corpus_status": "CORE",
-      "status_signals": [
-        "CORE"
-      ],
-      "polities": [
-        "韩"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
       ],
       "existing_skill_paths": [],
       "episodes": [],
@@ -25889,6 +25946,47 @@
     },
     {
       "candidate_id": "ruler-1193",
+      "canonical_name": "韩懿侯",
+      "aliases": [
+        "韩共侯",
+        "韩庄侯",
+        "韩若山"
+      ],
+      "identity_hints": [
+        "韩共侯",
+        "韩庄侯",
+        "韩懿侯",
+        "韩若山"
+      ],
+      "corpus_status": "CORE",
+      "status_signals": [
+        "CORE"
+      ],
+      "polities": [
+        "韩"
+      ],
+      "source_files": [
+        "data/rulers-master-h2-preqin.json"
+      ],
+      "existing_skill_paths": [],
+      "episodes": [],
+      "identity_status": "CANDIDATE_ID_NOT_LOCKED",
+      "identity_resolution": {
+        "status": "TRANSMITTED_TITLE_VARIANT",
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "Shiji/Suoyin and Bamboo Annals scholarship explicitly connect 韩若山 with 懿侯, while 共侯/庄侯 are transmitted title variants for the same ruler rather than a second CORE person.",
+        "source_raw_labels": [
+          "韩共侯/懿侯韩若山"
+        ],
+        "evidence": [
+          "https://ctext.org/wiki.pl?chapter=262040&if=gb&remap=gb"
+        ],
+        "reported_aliases_unverified": []
+      }
+    },
+    {
+      "candidate_id": "ruler-1194",
       "canonical_name": "韩文侯韩猷",
       "aliases": [],
       "identity_hints": [
@@ -25909,7 +26007,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1194",
+      "candidate_id": "ruler-1195",
       "canonical_name": "韩景侯韩虔",
       "aliases": [],
       "identity_hints": [
@@ -25930,7 +26028,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1195",
+      "candidate_id": "ruler-1196",
       "canonical_name": "韩林儿",
       "aliases": [],
       "identity_hints": [
@@ -25951,7 +26049,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1196",
+      "candidate_id": "ruler-1197",
       "canonical_name": "韩桓惠王韩然",
       "aliases": [],
       "identity_hints": [
@@ -25972,7 +26070,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1197",
+      "candidate_id": "ruler-1198",
       "canonical_name": "韩烈侯韩取",
       "aliases": [],
       "identity_hints": [
@@ -25993,7 +26091,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1198",
+      "candidate_id": "ruler-1199",
       "canonical_name": "韩王安",
       "aliases": [],
       "identity_hints": [
@@ -26014,7 +26112,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1199",
+      "candidate_id": "ruler-1200",
       "canonical_name": "韩襄王韩仓",
       "aliases": [],
       "identity_hints": [
@@ -26035,7 +26133,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1200",
+      "candidate_id": "ruler-1201",
       "canonical_name": "韩釐侯韩武",
       "aliases": [],
       "identity_hints": [
@@ -26056,7 +26154,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1201",
+      "candidate_id": "ruler-1202",
       "canonical_name": "韩釐王韩咎",
       "aliases": [],
       "identity_hints": [
@@ -26077,7 +26175,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1202",
+      "candidate_id": "ruler-1203",
       "canonical_name": "顷王",
       "aliases": [],
       "identity_hints": [
@@ -26098,7 +26196,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1203",
+      "candidate_id": "ruler-1204",
       "canonical_name": "项羽",
       "aliases": [],
       "identity_hints": [
@@ -26121,7 +26219,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1204",
+      "candidate_id": "ruler-1205",
       "canonical_name": "顾维钧",
       "aliases": [],
       "identity_hints": [
@@ -26144,7 +26242,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1205",
+      "candidate_id": "ruler-1206",
       "canonical_name": "颇高",
       "aliases": [],
       "identity_hints": [
@@ -26165,7 +26263,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1206",
+      "candidate_id": "ruler-1207",
       "canonical_name": "颙琰",
       "aliases": [
         "永琰"
@@ -26191,7 +26289,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1207",
+      "candidate_id": "ruler-1208",
       "canonical_name": "颛顼高阳氏",
       "aliases": [
         "颛顼"
@@ -26213,7 +26311,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1208",
+      "candidate_id": "ruler-1209",
       "canonical_name": "颜惠庆",
       "aliases": [],
       "identity_hints": [
@@ -26236,7 +26334,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1209",
+      "candidate_id": "ruler-1210",
       "canonical_name": "马希声",
       "aliases": [],
       "identity_hints": [
@@ -26257,7 +26355,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1210",
+      "candidate_id": "ruler-1211",
       "canonical_name": "马希崇",
       "aliases": [],
       "identity_hints": [
@@ -26278,7 +26376,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1211",
+      "candidate_id": "ruler-1212",
       "canonical_name": "马希广",
       "aliases": [],
       "identity_hints": [
@@ -26299,7 +26397,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1212",
+      "candidate_id": "ruler-1213",
       "canonical_name": "马希范",
       "aliases": [],
       "identity_hints": [
@@ -26320,7 +26418,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1213",
+      "candidate_id": "ruler-1214",
       "canonical_name": "马希萼",
       "aliases": [],
       "identity_hints": [
@@ -26341,7 +26439,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1214",
+      "candidate_id": "ruler-1215",
       "canonical_name": "马殷",
       "aliases": [],
       "identity_hints": [
@@ -26362,7 +26460,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1215",
+      "candidate_id": "ruler-1216",
       "canonical_name": "高云",
       "aliases": [],
       "identity_hints": [
@@ -26383,7 +26481,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1216",
+      "candidate_id": "ruler-1217",
       "canonical_name": "高从诲",
       "aliases": [],
       "identity_hints": [
@@ -26404,7 +26502,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1217",
+      "candidate_id": "ruler-1218",
       "canonical_name": "高保勗",
       "aliases": [],
       "identity_hints": [
@@ -26425,7 +26523,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1218",
+      "candidate_id": "ruler-1219",
       "canonical_name": "高保融",
       "aliases": [],
       "identity_hints": [
@@ -26446,7 +26544,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1219",
+      "candidate_id": "ruler-1220",
       "canonical_name": "高凌霨",
       "aliases": [],
       "identity_hints": [
@@ -26469,7 +26567,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1220",
+      "candidate_id": "ruler-1221",
       "canonical_name": "高升泰",
       "aliases": [],
       "identity_hints": [
@@ -26492,7 +26590,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1221",
+      "candidate_id": "ruler-1222",
       "canonical_name": "高季兴",
       "aliases": [],
       "identity_hints": [
@@ -26513,7 +26611,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1222",
+      "candidate_id": "ruler-1223",
       "canonical_name": "高延宗",
       "aliases": [],
       "identity_hints": [
@@ -26534,7 +26632,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1223",
+      "candidate_id": "ruler-1224",
       "canonical_name": "高开道",
       "aliases": [],
       "identity_hints": [
@@ -26555,7 +26653,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1224",
+      "candidate_id": "ruler-1225",
       "canonical_name": "高恒",
       "aliases": [],
       "identity_hints": [
@@ -26576,7 +26674,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1225",
+      "candidate_id": "ruler-1226",
       "canonical_name": "高殷",
       "aliases": [],
       "identity_hints": [
@@ -26597,7 +26695,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1226",
+      "candidate_id": "ruler-1227",
       "canonical_name": "高永昌",
       "aliases": [],
       "identity_hints": [
@@ -26620,7 +26718,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1227",
+      "candidate_id": "ruler-1228",
       "canonical_name": "高洋",
       "aliases": [],
       "identity_hints": [
@@ -26641,7 +26739,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1228",
+      "candidate_id": "ruler-1229",
       "canonical_name": "高湛",
       "aliases": [],
       "identity_hints": [
@@ -26662,7 +26760,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1229",
+      "candidate_id": "ruler-1230",
       "canonical_name": "高演",
       "aliases": [],
       "identity_hints": [
@@ -26683,7 +26781,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1230",
+      "candidate_id": "ruler-1231",
       "canonical_name": "高纬",
       "aliases": [],
       "identity_hints": [
@@ -26704,7 +26802,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1231",
+      "candidate_id": "ruler-1232",
       "canonical_name": "高继冲",
       "aliases": [],
       "identity_hints": [
@@ -26725,7 +26823,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1232",
+      "candidate_id": "ruler-1233",
       "canonical_name": "鬻熊",
       "aliases": [],
       "identity_hints": [
@@ -26746,7 +26844,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1233",
+      "candidate_id": "ruler-1234",
       "canonical_name": "魏咎",
       "aliases": [],
       "identity_hints": [
@@ -26767,7 +26865,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1234",
+      "candidate_id": "ruler-1235",
       "canonical_name": "魏安僖王魏圉",
       "aliases": [],
       "identity_hints": [
@@ -26788,7 +26886,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1235",
+      "candidate_id": "ruler-1236",
       "canonical_name": "魏惠成王魏罃",
       "aliases": [],
       "identity_hints": [
@@ -26809,7 +26907,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1236",
+      "candidate_id": "ruler-1237",
       "canonical_name": "魏文侯魏斯",
       "aliases": [],
       "identity_hints": [
@@ -26830,7 +26928,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1237",
+      "candidate_id": "ruler-1238",
       "canonical_name": "魏昭王魏遫",
       "aliases": [],
       "identity_hints": [
@@ -26851,7 +26949,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1238",
+      "candidate_id": "ruler-1239",
       "canonical_name": "魏景湣王魏午",
       "aliases": [],
       "identity_hints": [
@@ -26872,7 +26970,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1239",
+      "candidate_id": "ruler-1240",
       "canonical_name": "魏武侯魏击",
       "aliases": [],
       "identity_hints": [
@@ -26893,7 +26991,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1240",
+      "candidate_id": "ruler-1241",
       "canonical_name": "魏王假",
       "aliases": [],
       "identity_hints": [
@@ -26914,7 +27012,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1241",
+      "candidate_id": "ruler-1242",
       "canonical_name": "魏襄王魏嗣",
       "aliases": [],
       "identity_hints": [
@@ -26935,7 +27033,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1242",
+      "candidate_id": "ruler-1243",
       "canonical_name": "魏豹",
       "aliases": [],
       "identity_hints": [
@@ -26956,7 +27054,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1243",
+      "candidate_id": "ruler-1244",
       "canonical_name": "鲁元公",
       "aliases": [],
       "identity_hints": [
@@ -26977,7 +27075,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1244",
+      "candidate_id": "ruler-1245",
       "canonical_name": "鲁公伯御",
       "aliases": [],
       "identity_hints": [
@@ -26998,7 +27096,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1245",
+      "candidate_id": "ruler-1246",
       "canonical_name": "鲁共公",
       "aliases": [],
       "identity_hints": [
@@ -27019,7 +27117,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1246",
+      "candidate_id": "ruler-1247",
       "canonical_name": "鲁厉公",
       "aliases": [],
       "identity_hints": [
@@ -27040,7 +27138,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1247",
+      "candidate_id": "ruler-1248",
       "canonical_name": "鲁君野",
       "aliases": [],
       "identity_hints": [
@@ -27061,7 +27159,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1248",
+      "candidate_id": "ruler-1249",
       "canonical_name": "鲁哀公",
       "aliases": [],
       "identity_hints": [
@@ -27082,7 +27180,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1249",
+      "candidate_id": "ruler-1250",
       "canonical_name": "鲁孝公",
       "aliases": [],
       "identity_hints": [
@@ -27103,7 +27201,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1250",
+      "candidate_id": "ruler-1251",
       "canonical_name": "鲁定公",
       "aliases": [],
       "identity_hints": [
@@ -27124,7 +27222,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1251",
+      "candidate_id": "ruler-1252",
       "canonical_name": "鲁宣公",
       "aliases": [],
       "identity_hints": [
@@ -27145,7 +27243,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1252",
+      "candidate_id": "ruler-1253",
       "canonical_name": "鲁平公",
       "aliases": [],
       "identity_hints": [
@@ -27166,7 +27264,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1253",
+      "candidate_id": "ruler-1254",
       "canonical_name": "鲁幽公",
       "aliases": [],
       "identity_hints": [
@@ -27187,7 +27285,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1254",
+      "candidate_id": "ruler-1255",
       "canonical_name": "鲁庄公",
       "aliases": [],
       "identity_hints": [
@@ -27208,7 +27306,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1255",
+      "candidate_id": "ruler-1256",
       "canonical_name": "鲁康公",
       "aliases": [],
       "identity_hints": [
@@ -27229,7 +27327,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1256",
+      "candidate_id": "ruler-1257",
       "canonical_name": "鲁悼公",
       "aliases": [],
       "identity_hints": [
@@ -27250,7 +27348,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1257",
+      "candidate_id": "ruler-1258",
       "canonical_name": "鲁惠公",
       "aliases": [],
       "identity_hints": [
@@ -27271,7 +27369,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1258",
+      "candidate_id": "ruler-1259",
       "canonical_name": "鲁懿公",
       "aliases": [],
       "identity_hints": [
@@ -27292,7 +27390,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1259",
+      "candidate_id": "ruler-1260",
       "canonical_name": "鲁成公",
       "aliases": [],
       "identity_hints": [
@@ -27313,7 +27411,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1260",
+      "candidate_id": "ruler-1261",
       "canonical_name": "鲁文公",
       "aliases": [
         "鲁文公（后）"
@@ -27336,7 +27434,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1261",
+      "candidate_id": "ruler-1262",
       "canonical_name": "鲁昭公",
       "aliases": [],
       "identity_hints": [
@@ -27357,7 +27455,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1262",
+      "candidate_id": "ruler-1263",
       "canonical_name": "鲁景公",
       "aliases": [],
       "identity_hints": [
@@ -27378,7 +27476,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1263",
+      "candidate_id": "ruler-1264",
       "canonical_name": "鲁桓公",
       "aliases": [],
       "identity_hints": [
@@ -27399,7 +27497,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1264",
+      "candidate_id": "ruler-1265",
       "canonical_name": "鲁武公",
       "aliases": [],
       "identity_hints": [
@@ -27420,7 +27518,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1265",
+      "candidate_id": "ruler-1266",
       "canonical_name": "鲁炀公",
       "aliases": [],
       "identity_hints": [
@@ -27441,7 +27539,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1266",
+      "candidate_id": "ruler-1267",
       "canonical_name": "鲁献公",
       "aliases": [],
       "identity_hints": [
@@ -27462,12 +27560,11 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1267",
+      "candidate_id": "ruler-1268",
       "canonical_name": "鲁真公",
       "aliases": [
         "慎公",
-        "鲁慎公",
-        "鲁真公/慎公"
+        "鲁慎公"
       ],
       "identity_hints": [
         "慎公",
@@ -27488,7 +27585,7 @@
       "episodes": [],
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
-        "status": "EVIDENCE_BACKED_OVERRIDE",
+        "status": "TRANSMITTED_TITLE_VARIANT",
         "source": "data/corpus-identity-overrides.json",
         "confidence": "HIGH",
         "basis": "Transmitted sources preserve 真公/慎公 as posthumous-title variants for the same Lu ruler; Shiji uses 真公 while Hanshu Lülü zhi uses 慎公.",
@@ -27502,7 +27599,7 @@
       }
     },
     {
-      "candidate_id": "ruler-1268",
+      "candidate_id": "ruler-1269",
       "canonical_name": "鲁穆公",
       "aliases": [],
       "identity_hints": [
@@ -27523,7 +27620,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1269",
+      "candidate_id": "ruler-1270",
       "canonical_name": "鲁考公",
       "aliases": [],
       "identity_hints": [
@@ -27544,7 +27641,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1270",
+      "candidate_id": "ruler-1271",
       "canonical_name": "鲁襄公",
       "aliases": [],
       "identity_hints": [
@@ -27565,7 +27662,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1271",
+      "candidate_id": "ruler-1272",
       "canonical_name": "鲁釐公",
       "aliases": [],
       "identity_hints": [
@@ -27586,7 +27683,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1272",
+      "candidate_id": "ruler-1273",
       "canonical_name": "鲁闵公",
       "aliases": [],
       "identity_hints": [
@@ -27607,7 +27704,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1273",
+      "candidate_id": "ruler-1274",
       "canonical_name": "鲁隐公",
       "aliases": [],
       "identity_hints": [
@@ -27628,7 +27725,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1274",
+      "candidate_id": "ruler-1275",
       "canonical_name": "鲁顷公",
       "aliases": [],
       "identity_hints": [
@@ -27649,7 +27746,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1275",
+      "candidate_id": "ruler-1276",
       "canonical_name": "鲁魏公",
       "aliases": [],
       "identity_hints": [
@@ -27670,7 +27767,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1276",
+      "candidate_id": "ruler-1277",
       "canonical_name": "黄巢",
       "aliases": [],
       "identity_hints": [
@@ -27691,7 +27788,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1277",
+      "candidate_id": "ruler-1278",
       "canonical_name": "黄帝轩辕氏",
       "aliases": [
         "轩辕氏",
@@ -27715,7 +27812,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1278",
+      "candidate_id": "ruler-1279",
       "canonical_name": "黄郛",
       "aliases": [],
       "identity_hints": [
@@ -27738,7 +27835,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1279",
+      "candidate_id": "ruler-1280",
       "canonical_name": "黄鼎凤",
       "aliases": [],
       "identity_hints": [
@@ -27761,7 +27858,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1280",
+      "candidate_id": "ruler-1281",
       "canonical_name": "黎元洪",
       "aliases": [],
       "identity_hints": [
@@ -27787,7 +27884,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1281",
+      "candidate_id": "ruler-1282",
       "canonical_name": "齐丁公吕伋",
       "aliases": [],
       "identity_hints": [
@@ -27808,7 +27905,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1282",
+      "candidate_id": "ruler-1283",
       "canonical_name": "齐乙公得",
       "aliases": [],
       "identity_hints": [
@@ -27829,7 +27926,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1283",
+      "candidate_id": "ruler-1284",
       "canonical_name": "齐侯无亏",
       "aliases": [],
       "identity_hints": [
@@ -27850,7 +27947,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1284",
+      "candidate_id": "ruler-1285",
       "canonical_name": "齐侯舍",
       "aliases": [],
       "identity_hints": [
@@ -27871,7 +27968,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1285",
+      "candidate_id": "ruler-1286",
       "canonical_name": "齐僖公禄甫",
       "aliases": [],
       "identity_hints": [
@@ -27892,7 +27989,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1286",
+      "candidate_id": "ruler-1287",
       "canonical_name": "齐厉公无忌",
       "aliases": [],
       "identity_hints": [
@@ -27913,7 +28010,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1287",
+      "candidate_id": "ruler-1288",
       "canonical_name": "齐哀公不辰",
       "aliases": [],
       "identity_hints": [
@@ -27934,7 +28031,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1288",
+      "candidate_id": "ruler-1289",
       "canonical_name": "齐太公吕尚",
       "aliases": [],
       "identity_hints": [
@@ -27955,7 +28052,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1289",
+      "candidate_id": "ruler-1290",
       "canonical_name": "齐孝公昭",
       "aliases": [],
       "identity_hints": [
@@ -27976,7 +28073,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1290",
+      "candidate_id": "ruler-1291",
       "canonical_name": "齐宣公积",
       "aliases": [],
       "identity_hints": [
@@ -27997,7 +28094,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1291",
+      "candidate_id": "ruler-1292",
       "canonical_name": "齐平公骜",
       "aliases": [],
       "identity_hints": [
@@ -28018,7 +28115,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1292",
+      "candidate_id": "ruler-1293",
       "canonical_name": "齐庄公光",
       "aliases": [],
       "identity_hints": [
@@ -28039,7 +28136,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1293",
+      "candidate_id": "ruler-1294",
       "canonical_name": "齐庄公购",
       "aliases": [],
       "identity_hints": [
@@ -28060,7 +28157,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1294",
+      "candidate_id": "ruler-1295",
       "canonical_name": "齐康公贷",
       "aliases": [],
       "identity_hints": [
@@ -28081,7 +28178,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1295",
+      "candidate_id": "ruler-1296",
       "canonical_name": "齐悼公阳生",
       "aliases": [],
       "identity_hints": [
@@ -28102,7 +28199,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1296",
+      "candidate_id": "ruler-1297",
       "canonical_name": "齐惠公元",
       "aliases": [],
       "identity_hints": [
@@ -28123,7 +28220,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1297",
+      "candidate_id": "ruler-1298",
       "canonical_name": "齐懿公商人",
       "aliases": [],
       "identity_hints": [
@@ -28144,7 +28241,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1298",
+      "candidate_id": "ruler-1299",
       "canonical_name": "齐成公脱",
       "aliases": [],
       "identity_hints": [
@@ -28165,7 +28262,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1299",
+      "candidate_id": "ruler-1300",
       "canonical_name": "齐文公赤",
       "aliases": [],
       "identity_hints": [
@@ -28186,7 +28283,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1300",
+      "candidate_id": "ruler-1301",
       "canonical_name": "齐昭公潘",
       "aliases": [],
       "identity_hints": [
@@ -28207,7 +28304,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1301",
+      "candidate_id": "ruler-1302",
       "canonical_name": "齐晏孺子荼",
       "aliases": [],
       "identity_hints": [
@@ -28228,7 +28325,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1302",
+      "candidate_id": "ruler-1303",
       "canonical_name": "齐景公杵臼",
       "aliases": [],
       "identity_hints": [
@@ -28249,7 +28346,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1303",
+      "candidate_id": "ruler-1304",
       "canonical_name": "齐桓公小白",
       "aliases": [],
       "identity_hints": [
@@ -28270,7 +28367,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1304",
+      "candidate_id": "ruler-1305",
       "canonical_name": "齐武公寿",
       "aliases": [],
       "identity_hints": [
@@ -28291,7 +28388,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1305",
+      "candidate_id": "ruler-1306",
       "canonical_name": "齐灵公环",
       "aliases": [],
       "identity_hints": [
@@ -28312,7 +28409,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1306",
+      "candidate_id": "ruler-1307",
       "canonical_name": "齐献公山",
       "aliases": [],
       "identity_hints": [
@@ -28333,7 +28430,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1307",
+      "candidate_id": "ruler-1308",
       "canonical_name": "齐癸公慈母",
       "aliases": [],
       "identity_hints": [
@@ -28354,7 +28451,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1308",
+      "candidate_id": "ruler-1309",
       "canonical_name": "齐简公壬",
       "aliases": [],
       "identity_hints": [
@@ -28375,7 +28472,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1309",
+      "candidate_id": "ruler-1310",
       "canonical_name": "齐胡公静",
       "aliases": [],
       "identity_hints": [
@@ -28396,7 +28493,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1310",
+      "candidate_id": "ruler-1311",
       "canonical_name": "齐襄公诸儿",
       "aliases": [],
       "identity_hints": [
@@ -28417,7 +28514,7 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED"
     },
     {
-      "candidate_id": "ruler-1311",
+      "candidate_id": "ruler-1312",
       "canonical_name": "齐顷公无野",
       "aliases": [],
       "identity_hints": [
@@ -28439,12 +28536,26 @@
     }
   ],
   "identity_override_file": "data/corpus-identity-overrides.json",
-  "identity_review_relations": [],
+  "identity_review_relations": [
+    {
+      "source_raw_label": "虢宣公/虢季子白",
+      "candidates": [
+        "虢宣公",
+        "虢季子白"
+      ],
+      "relation": "POSSIBLE_SAME_PERSON_DISPUTED",
+      "status": "OPEN_REVIEW_RELATION",
+      "basis": "The discovery label conflated a debated identification. Scholarship has treated 虢季子白 as 虢宣公 in some reconstructions and as a distinct figure / different generational placement in others. The corpus therefore keeps two REVIEW candidates rather than deciding the controversy by normalization.",
+      "evidence": [
+        "https://www.fdgwz.org.cn/Web/Show/2991"
+      ]
+    }
+  ],
   "identity_override_stats": {
     "canonical_overrides": 20,
-    "source_corrections": 0,
-    "ambiguous_splits": 0,
+    "source_corrections": 4,
+    "ambiguous_splits": 1,
     "excluded_non_person_placeholders": 1,
-    "open_identity_questions": 0
+    "open_identity_questions": 4
   }
 }
