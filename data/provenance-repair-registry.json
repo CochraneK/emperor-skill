@@ -1,0 +1,540 @@
+{
+  "schema_version": "1.0",
+  "status": "TRIAGED_REPAIR_EXECUTION_TRACKING",
+  "sources": {
+    "historical_snapshot": "_redo_tools/_order_suspects_39.md",
+    "semantic_triage": "assessment/PROVENANCE_RECOVERY.md",
+    "completion_attestations": "data/provenance-repair-attestations.json"
+  },
+  "policy": {
+    "mtime_is_not_quality_evidence": true,
+    "semantic_triage_completed": true,
+    "absence_of_attestation_means": "COMPLETION_NOT_RECORDED_NOT_PROOF_OF_DEFECT",
+    "allowed_future_actions": [
+      "KEEP",
+      "CLEAN",
+      "PATCH",
+      "TARGETED_VERIFY",
+      "REDISTILL",
+      "RERESEARCH",
+      "REBUILD"
+    ]
+  },
+  "summary": {
+    "historical_snapshot_packages": 39,
+    "semantic_triage_completed_packages": 39,
+    "research_reusable_packages": 39,
+    "explicit_completion_attestations": 0,
+    "without_explicit_completion_attestation": 39,
+    "stable_person_id_linked": 38
+  },
+  "items": [
+    {
+      "skill_path": "skills/jin/simadewen-perspective",
+      "person_id": "ruler-0181",
+      "dynasty": "jin",
+      "package": "simadewen-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 152,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/jin/simadezong-perspective",
+      "person_id": "ruler-0180",
+      "dynasty": "jin",
+      "package": "simadezong-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 164,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/jin/simashao-perspective",
+      "person_id": "ruler-0187",
+      "dynasty": "jin",
+      "package": "simashao-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 356,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/jin/simaye-perspective",
+      "person_id": "ruler-0191",
+      "dynasty": "jin",
+      "package": "simaye-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 118,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/jin/simayi-perspective",
+      "person_id": "ruler-0178",
+      "dynasty": "jin",
+      "package": "simayi-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 178,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/jin/simayu-perspective",
+      "person_id": "ruler-0182",
+      "dynasty": "jin",
+      "package": "simayu-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 54,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/jin/simazhong-perspective",
+      "person_id": "ruler-0190",
+      "dynasty": "jin",
+      "package": "simazhong-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 123,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenxuan-perspective",
+      "person_id": "ruler-1186",
+      "dynasty": "nanbeichao",
+      "package": "chenxuan-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 142,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/liushao-perspective",
+      "person_id": "ruler-0062",
+      "dynasty": "nanbeichao",
+      "package": "liushao-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 26,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyilong-perspective",
+      "person_id": "ruler-0056",
+      "dynasty": "nanbeichao",
+      "package": "liuyilong-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 144,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyu-ming-perspective",
+      "person_id": "ruler-0077",
+      "dynasty": "nanbeichao",
+      "package": "liuyu-ming-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 97,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobajun-perspective",
+      "person_id": "ruler-0386",
+      "dynasty": "nanbeichao",
+      "package": "tuobajun-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 124,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobasi-perspective",
+      "person_id": "ruler-0384",
+      "dynasty": "nanbeichao",
+      "package": "tuobasi-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 199,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobatao-perspective",
+      "person_id": "ruler-0387",
+      "dynasty": "nanbeichao",
+      "package": "tuobatao-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 149,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaodong-perspective",
+      "person_id": "ruler-0935",
+      "dynasty": "nanbeichao",
+      "package": "xiaodong-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 78,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaofangzhi-perspective",
+      "person_id": "ruler-0931",
+      "dynasty": "nanbeichao",
+      "package": "xiaofangzhi-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 234,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaogang-perspective",
+      "person_id": "ruler-0939",
+      "dynasty": "nanbeichao",
+      "package": "xiaogang-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 155,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaoyan-perspective",
+      "person_id": "ruler-0941",
+      "dynasty": "nanbeichao",
+      "package": "xiaoyan-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 216,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaozhaoye-perspective",
+      "person_id": "ruler-0932",
+      "dynasty": "nanbeichao",
+      "package": "xiaozhaoye-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 128,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanhong-perspective",
+      "person_id": "ruler-0033",
+      "dynasty": "nanbeichao",
+      "package": "yuanhong-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 78,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanziyou-perspective",
+      "person_id": "ruler-0032",
+      "dynasty": "nanbeichao",
+      "package": "yuanziyou-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 135,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/sanguo/caohuan-perspective",
+      "person_id": "ruler-0454",
+      "dynasty": "sanguo",
+      "package": "caohuan-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 102,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/sanguo/caomao-perspective",
+      "person_id": "ruler-0476",
+      "dynasty": "sanguo",
+      "package": "caomao-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 90,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/diyi-perspective",
+      "person_id": "ruler-0309",
+      "dynasty": "shang",
+      "package": "diyi-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 740,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/hedanja-perspective",
+      "person_id": "ruler-0700",
+      "dynasty": "shang",
+      "package": "hedanja-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 1398,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/kangding-perspective",
+      "person_id": "ruler-0316",
+      "dynasty": "shang",
+      "package": "kangding-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 632,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/linxin-perspective",
+      "person_id": "ruler-0319",
+      "dynasty": "shang",
+      "package": "linxin-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 1193,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/taiding-shang-perspective",
+      "person_id": null,
+      "dynasty": "shang",
+      "package": "taiding-shang-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 182,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/taigeng-perspective",
+      "person_id": "ruler-0212",
+      "dynasty": "shang",
+      "package": "taigeng-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 146,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/tang-shang-perspective",
+      "person_id": "ruler-0691",
+      "dynasty": "shang",
+      "package": "tang-shang-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 41,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/waibing-perspective",
+      "person_id": "ruler-0208",
+      "dynasty": "shang",
+      "package": "waibing-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 16,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/woding-perspective",
+      "person_id": "ruler-0693",
+      "dynasty": "shang",
+      "package": "woding-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 2158,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/xiaojia-shang-perspective",
+      "person_id": "ruler-0300",
+      "dynasty": "shang",
+      "package": "xiaojia-shang-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 91,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/zhongren-shang-perspective",
+      "person_id": "ruler-0019",
+      "dynasty": "shang",
+      "package": "zhongren-shang-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 677,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/zujia-perspective",
+      "person_id": "ruler-0825",
+      "dynasty": "shang",
+      "package": "zujia-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 1684,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/shang/zuxin-perspective",
+      "person_id": "ruler-0826",
+      "dynasty": "shang",
+      "package": "zuxin-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 93,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/xia/shaojang-perspective",
+      "person_id": "ruler-0304",
+      "dynasty": "xia",
+      "package": "shaojang-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 541,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/zhou/daowang-perspective",
+      "person_id": "ruler-0356",
+      "dynasty": "zhou",
+      "package": "daowang-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 3415,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    },
+    {
+      "skill_path": "skills/zhou/huiwang-perspective",
+      "person_id": "ruler-0357",
+      "dynasty": "zhou",
+      "package": "huiwang-perspective",
+      "historical_trigger": "FROZEN_MTIME_ORDER_SNAPSHOT_ONLY",
+      "historical_mtime_delta_seconds": 3414,
+      "semantic_triage": "RESEARCH_REUSABLE",
+      "recommended_repair": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "execution_tracking": {
+        "status": "NO_EXPLICIT_ATTESTATION"
+      }
+    }
+  ]
+}
