@@ -46,12 +46,12 @@ jobs:
 
       - name: Commit generated artifacts
         run: |
-          if git diff --quiet -- data/rulers-person-index.json data/existing-skill-person-map.json data/corpus-gap.json data/rulers-master.json data/corpus-registry.json assessment/CORPUS_COVERAGE.md data/_tmp-skill-map-*.json; then
+          if git diff --quiet -- data assessment/CORPUS_COVERAGE.md; then
             echo 'No generated changes.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A -- data/rulers-person-index.json data/existing-skill-person-map.json data/corpus-gap.json data/rulers-master.json data/corpus-registry.json assessment/CORPUS_COVERAGE.md data/_tmp-skill-map-*.json
+          git add -A -- data assessment/CORPUS_COVERAGE.md
           git commit -m 'chore: sync ruler corpus coverage'
           git push
