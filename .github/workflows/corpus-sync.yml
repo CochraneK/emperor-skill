@@ -8,6 +8,7 @@ on:
       - 'data/rulers-master-h*.json'
       - 'data/legendary-rulers.json'
       - 'data/ruler-candidates-preqin-other.json'
+      - 'data/corpus-scope-exceptions.json'
       - '_redo_tools/_build_ruler_corpus.py'
       - '.github/workflows/corpus-sync.yml'
   workflow_dispatch:
