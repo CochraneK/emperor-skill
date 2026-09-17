@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "status": "MANUAL_ATTESTATION_LEDGER",
+  "policy": "A historical mtime suspect is not a failure. Add an attestation only after the package's evidence taxonomy / targeted verification / redistillation action has actually been completed and reviewed. Absence of an attestation means completion is not recorded here; it does not prove the package is currently defective.",
+  "attestations": []
+}
