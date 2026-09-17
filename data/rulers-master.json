@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "title": "Chinese Historical Rulers Corpus — Canonical Master",
   "status": "SEGMENTED_MASTER_IDENTITY_NORMALIZATION_IN_PROGRESS",
   "canonical_scope": "data/RULER_CORPUS_SCOPE.md",
@@ -21,14 +21,14 @@
     "data/rulers-master-h9-yuan-rivals.json"
   ],
   "candidate_stats": {
-    "total_unique_candidates": 1336,
-    "core": 1040,
+    "total_unique_candidates": 1312,
+    "core": 913,
     "excluded_review": 3,
-    "extended": 13,
+    "extended": 15,
     "legendary": 16,
-    "review": 264
+    "review": 365
   },
   "identity_rule": "one person = one final stable ID; reigns/titles/polities are rule episodes",
-  "completion_rule": "locked CORE persons matched to valid Skill packages / all locked CORE persons; REVIEW, EXTENDED and LEGENDARY remain separate",
-  "warning": "Do not use candidate counts as final historical totals until remaining polity discovery and identity QA are closed."
+  "completion_rule": "matched locked CORE persons / all locked CORE persons; REVIEW/EXTENDED/LEGENDARY separate",
+  "warning": "Do not publish candidate counts as final historical totals until polity discovery and identity QA close."
 }

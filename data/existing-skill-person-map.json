@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "status": "EXACT_FRONTMATTER_INVENTORY",
   "count": 267,
   "missing_cn_count": 0,
@@ -12,6 +12,10 @@
       "package_slug": "xiangyu-perspective",
       "cn": "项羽",
       "normalized_cn": "项羽",
+      "name_hints": [
+        "西楚霸王",
+        "项羽"
+      ],
       "en": "Xiang Yu",
       "era": "前232–前202",
       "frontmatter_name": "xiangyu-perspective"
@@ -23,6 +27,9 @@
       "package_slug": "yidi-perspective",
       "cn": "熊心",
       "normalized_cn": "熊心",
+      "name_hints": [
+        "熊心"
+      ],
       "en": "Yidi",
       "era": "前208–前206",
       "frontmatter_name": "yidi-perspective"
@@ -34,6 +41,11 @@
       "package_slug": "andi-perspective",
       "cn": "刘祜",
       "normalized_cn": "刘祜",
+      "name_hints": [
+        "刘祜",
+        "安帝",
+        "汉安帝"
+      ],
       "en": "Liu Hu",
       "era": "106–125",
       "frontmatter_name": "andi-perspective"
@@ -45,6 +57,11 @@
       "package_slug": "chongdi-perspective",
       "cn": "刘炳",
       "normalized_cn": "刘炳",
+      "name_hints": [
+        "冲帝",
+        "刘炳",
+        "汉冲帝"
+      ],
       "en": "Liu Bing",
       "era": "144–145",
       "frontmatter_name": "chongdi-perspective"
@@ -56,6 +73,10 @@
       "package_slug": "guangwudi-perspective",
       "cn": "刘秀",
       "normalized_cn": "刘秀",
+      "name_hints": [
+        "光武帝",
+        "刘秀"
+      ],
       "en": "Liu Xiu",
       "era": "25–57",
       "frontmatter_name": "guangwudi-perspective"
@@ -67,6 +88,11 @@
       "package_slug": "hedi-perspective",
       "cn": "刘肇",
       "normalized_cn": "刘肇",
+      "name_hints": [
+        "刘肇",
+        "和帝",
+        "汉和帝"
+      ],
       "en": "Liu Zhao",
       "era": "88–105",
       "frontmatter_name": "hedi-perspective"
@@ -78,6 +104,11 @@
       "package_slug": "huandi-perspective",
       "cn": "刘志",
       "normalized_cn": "刘志",
+      "name_hints": [
+        "刘志",
+        "桓帝",
+        "汉桓帝"
+      ],
       "en": "Liu Zhi",
       "era": "146–168",
       "frontmatter_name": "huandi-perspective"
@@ -89,6 +120,11 @@
       "package_slug": "lingdi-perspective",
       "cn": "刘宏",
       "normalized_cn": "刘宏",
+      "name_hints": [
+        "刘宏",
+        "汉灵帝",
+        "灵帝"
+      ],
       "en": "Liu Hong",
       "era": "168–189",
       "frontmatter_name": "lingdi-perspective"
@@ -100,6 +136,11 @@
       "package_slug": "mingdi-perspective",
       "cn": "刘庄",
       "normalized_cn": "刘庄",
+      "name_hints": [
+        "刘庄",
+        "明帝",
+        "汉明帝"
+      ],
       "en": "Liu Zhuang",
       "era": "57–75",
       "frontmatter_name": "mingdi-perspective"
@@ -111,6 +152,11 @@
       "package_slug": "shangdi-perspective",
       "cn": "刘隆",
       "normalized_cn": "刘隆",
+      "name_hints": [
+        "刘隆",
+        "殇帝",
+        "汉殇帝"
+      ],
       "en": "Liu Long",
       "era": "105–106",
       "frontmatter_name": "shangdi-perspective"
@@ -122,6 +168,11 @@
       "package_slug": "shaodi-perspective",
       "cn": "刘辩",
       "normalized_cn": "刘辩",
+      "name_hints": [
+        "刘辩",
+        "少帝",
+        "汉少帝"
+      ],
       "en": "Liu Bian",
       "era": "189",
       "frontmatter_name": "shaodi-perspective"
@@ -133,6 +184,11 @@
       "package_slug": "shundi-perspective",
       "cn": "刘保",
       "normalized_cn": "刘保",
+      "name_hints": [
+        "刘保",
+        "汉顺帝",
+        "顺帝"
+      ],
       "en": "Liu Bao",
       "era": "125–144",
       "frontmatter_name": "shundi-perspective"
@@ -144,6 +200,11 @@
       "package_slug": "xiandi-perspective",
       "cn": "刘协",
       "normalized_cn": "刘协",
+      "name_hints": [
+        "刘协",
+        "汉献帝",
+        "献帝"
+      ],
       "en": "Liu Xie",
       "era": "189–220",
       "frontmatter_name": "xiandi-perspective"
@@ -155,6 +216,11 @@
       "package_slug": "zhangdi-perspective",
       "cn": "刘炟",
       "normalized_cn": "刘炟",
+      "name_hints": [
+        "刘炟",
+        "汉章帝",
+        "章帝"
+      ],
       "en": "Liu Da",
       "era": "75–88",
       "frontmatter_name": "zhangdi-perspective"
@@ -166,6 +232,11 @@
       "package_slug": "zhidi-perspective",
       "cn": "刘缵",
       "normalized_cn": "刘缵",
+      "name_hints": [
+        "刘缵",
+        "汉质帝",
+        "质帝"
+      ],
       "en": "Liu Zuan",
       "era": "145–146",
       "frontmatter_name": "zhidi-perspective"
@@ -176,7 +247,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simachi-perspective",
       "cn": "司马炽（晋怀帝）",
-      "normalized_cn": "司马炽（晋怀帝）",
+      "normalized_cn": "司马炽",
+      "name_hints": [
+        "司马炽",
+        "怀帝",
+        "晋怀帝"
+      ],
       "en": "Sima Chi",
       "era": "307–313",
       "frontmatter_name": "simachi-perspective"
@@ -187,7 +263,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simadan-perspective",
       "cn": "司马聃（晋穆帝）",
-      "normalized_cn": "司马聃（晋穆帝）",
+      "normalized_cn": "司马聃",
+      "name_hints": [
+        "东晋",
+        "司马聃",
+        "晋穆帝"
+      ],
       "en": "Sima Dan",
       "era": "344–361",
       "frontmatter_name": "simadan-perspective"
@@ -198,7 +279,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simadewen-perspective",
       "cn": "司马德文（晋恭帝）",
-      "normalized_cn": "司马德文（晋恭帝）",
+      "normalized_cn": "司马德文",
+      "name_hints": [
+        "司马德文",
+        "恭帝",
+        "晋恭帝"
+      ],
       "en": "Sima Dewen",
       "era": "418–420",
       "frontmatter_name": "simadewen-perspective"
@@ -209,7 +295,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simadezong-perspective",
       "cn": "司马德宗（晋安帝）",
-      "normalized_cn": "司马德宗（晋安帝）",
+      "normalized_cn": "司马德宗",
+      "name_hints": [
+        "司马德宗",
+        "安帝",
+        "晋安帝"
+      ],
       "en": "Sima Dezong",
       "era": "396–418",
       "frontmatter_name": "simadezong-perspective"
@@ -220,7 +311,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simapi-perspective",
       "cn": "司马丕（晋哀帝）",
-      "normalized_cn": "司马丕（晋哀帝）",
+      "normalized_cn": "司马丕",
+      "name_hints": [
+        "东晋",
+        "司马丕",
+        "晋哀帝"
+      ],
       "en": "Sima Pi",
       "era": "361–365",
       "frontmatter_name": "simapi-perspective"
@@ -231,7 +327,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simarui-perspective",
       "cn": "司马睿（晋元帝）",
-      "normalized_cn": "司马睿（晋元帝）",
+      "normalized_cn": "司马睿",
+      "name_hints": [
+        "元帝",
+        "司马睿",
+        "晋元帝"
+      ],
       "en": "Sima Rui",
       "era": "317–323",
       "frontmatter_name": "simarui-perspective"
@@ -242,7 +343,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simashao-perspective",
       "cn": "司马绍（晋明帝）",
-      "normalized_cn": "司马绍（晋明帝）",
+      "normalized_cn": "司马绍",
+      "name_hints": [
+        "司马绍",
+        "明帝",
+        "晋明帝"
+      ],
       "en": "Sima Shao",
       "era": "323–325",
       "frontmatter_name": "simashao-perspective"
@@ -253,7 +359,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simayan-perspective",
       "cn": "司马炎（晋武帝）",
-      "normalized_cn": "司马炎（晋武帝）",
+      "normalized_cn": "司马炎",
+      "name_hints": [
+        "司马炎",
+        "晋武帝",
+        "武帝"
+      ],
       "en": "Sima Yan",
       "era": "265–290",
       "frontmatter_name": "simayan-perspective"
@@ -264,7 +375,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simayancheng-perspective",
       "cn": "司马衍（晋成帝）",
-      "normalized_cn": "司马衍（晋成帝）",
+      "normalized_cn": "司马衍",
+      "name_hints": [
+        "司马衍",
+        "成帝",
+        "晋成帝"
+      ],
       "en": "Sima Yan (Chengdi)",
       "era": "325–342",
       "frontmatter_name": "simayancheng-perspective"
@@ -275,7 +391,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simayao-perspective",
       "cn": "司马曜（晋孝武帝）",
-      "normalized_cn": "司马曜（晋孝武帝）",
+      "normalized_cn": "司马曜",
+      "name_hints": [
+        "司马曜",
+        "孝武帝",
+        "晋孝武帝"
+      ],
       "en": "Sima Yao",
       "era": "372–396",
       "frontmatter_name": "simayao-perspective"
@@ -286,7 +407,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simaye-perspective",
       "cn": "司马邺（晋愍帝）",
-      "normalized_cn": "司马邺（晋愍帝）",
+      "normalized_cn": "司马邺",
+      "name_hints": [
+        "司马邺",
+        "愍帝",
+        "晋愍帝"
+      ],
       "en": "Sima Ye",
       "era": "313–316",
       "frontmatter_name": "simaye-perspective"
@@ -297,7 +423,13 @@
       "dynasty_dir": "jin",
       "package_slug": "simayi-perspective",
       "cn": "司马奕（晋废帝/海西公）",
-      "normalized_cn": "司马奕（晋废帝/海西公）",
+      "normalized_cn": "司马奕",
+      "name_hints": [
+        "司马奕",
+        "废帝",
+        "晋废帝",
+        "晋废帝/海西公"
+      ],
       "en": "Sima Yi",
       "era": "365–371",
       "frontmatter_name": "simayi-perspective"
@@ -308,7 +440,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simayu-perspective",
       "cn": "司马昱（晋简文帝）",
-      "normalized_cn": "司马昱（晋简文帝）",
+      "normalized_cn": "司马昱",
+      "name_hints": [
+        "司马昱",
+        "晋简文帝",
+        "简文帝"
+      ],
       "en": "Sima Yi",
       "era": "371–372",
       "frontmatter_name": "simayu-perspective"
@@ -319,7 +456,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simayue-perspective",
       "cn": "司马岳（晋康帝）",
-      "normalized_cn": "司马岳（晋康帝）",
+      "normalized_cn": "司马岳",
+      "name_hints": [
+        "东晋",
+        "司马岳",
+        "晋康帝"
+      ],
       "en": "Sima Yue",
       "era": "342–344",
       "frontmatter_name": "simayue-perspective"
@@ -330,7 +472,12 @@
       "dynasty_dir": "jin",
       "package_slug": "simazhong-perspective",
       "cn": "司马衷（晋惠帝）",
-      "normalized_cn": "司马衷（晋惠帝）",
+      "normalized_cn": "司马衷",
+      "name_hints": [
+        "司马衷",
+        "惠帝",
+        "晋惠帝"
+      ],
       "en": "Sima Zhong",
       "era": "290–307",
       "frontmatter_name": "simazhong-perspective"
@@ -342,6 +489,11 @@
       "package_slug": "zhuchangluo-perspective",
       "cn": "朱常洛",
       "normalized_cn": "朱常洛",
+      "name_hints": [
+        "光宗",
+        "明光宗",
+        "朱常洛"
+      ],
       "en": "Zhu Changluo",
       "era": "1582–1620",
       "frontmatter_name": "zhuchangluo-perspective"
@@ -353,6 +505,11 @@
       "package_slug": "zhudi-perspective",
       "cn": "朱棣",
       "normalized_cn": "朱棣",
+      "name_hints": [
+        "成祖",
+        "明成祖",
+        "朱棣"
+      ],
       "en": "Zhu Di",
       "era": "1360–1424",
       "frontmatter_name": "zhudi-perspective"
@@ -364,6 +521,11 @@
       "package_slug": "zhugaochi-perspective",
       "cn": "朱高炽",
       "normalized_cn": "朱高炽",
+      "name_hints": [
+        "仁宗/洪熙",
+        "明仁宗/洪熙",
+        "朱高炽"
+      ],
       "en": "Zhu Gaochi",
       "era": "1378–1425",
       "frontmatter_name": "zhugaochi-perspective"
@@ -375,6 +537,11 @@
       "package_slug": "zhuhoucong-perspective",
       "cn": "朱厚熜",
       "normalized_cn": "朱厚熜",
+      "name_hints": [
+        "世宗/嘉靖1522–1567",
+        "明世宗/嘉靖1522–1567",
+        "朱厚熜"
+      ],
       "en": "Zhu Houcong",
       "era": "1507–1567",
       "frontmatter_name": "zhuhoucong-perspective"
@@ -386,6 +553,11 @@
       "package_slug": "zhuhouzhao-perspective",
       "cn": "朱厚照",
       "normalized_cn": "朱厚照",
+      "name_hints": [
+        "明武宗",
+        "朱厚照",
+        "武宗"
+      ],
       "en": "Zhu Houzhao",
       "era": "1491–1521",
       "frontmatter_name": "zhuhouzhao-perspective"
@@ -397,6 +569,11 @@
       "package_slug": "zhujianshen-perspective",
       "cn": "朱见深",
       "normalized_cn": "朱见深",
+      "name_hints": [
+        "宪宗/成化",
+        "明宪宗/成化",
+        "朱见深"
+      ],
       "en": "Zhu Jianshen",
       "era": "1447–1487",
       "frontmatter_name": "zhujianshen-perspective"
@@ -408,6 +585,11 @@
       "package_slug": "zhuqiyu-perspective",
       "cn": "朱祁钰",
       "normalized_cn": "朱祁钰",
+      "name_hints": [
+        "代宗",
+        "明代宗",
+        "朱祁钰"
+      ],
       "en": "Zhu Qiyu",
       "era": "1428–1457",
       "frontmatter_name": "zhuqiyu-perspective"
@@ -419,6 +601,11 @@
       "package_slug": "zhuqizhen-perspective",
       "cn": "朱祁镇",
       "normalized_cn": "朱祁镇",
+      "name_hints": [
+        "明英宗",
+        "朱祁镇",
+        "英宗"
+      ],
       "en": "Zhu Qizhen",
       "era": "1427–1464",
       "frontmatter_name": "zhuqizhen-perspective"
@@ -430,6 +617,10 @@
       "package_slug": "zhuyijun-perspective",
       "cn": "朱翊钧",
       "normalized_cn": "朱翊钧",
+      "name_hints": [
+        "朱翊钧",
+        "神宗/万历"
+      ],
       "en": "Zhu Yijun",
       "era": "1563–1620",
       "frontmatter_name": "zhuyijun-perspective"
@@ -441,6 +632,10 @@
       "package_slug": "zhuyoujian-perspective",
       "cn": "朱由检",
       "normalized_cn": "朱由检",
+      "name_hints": [
+        "思宗/崇祯",
+        "朱由检"
+      ],
       "en": "Zhu Youjian",
       "era": "1611–1644",
       "frontmatter_name": "zhuyoujian-perspective"
@@ -452,6 +647,11 @@
       "package_slug": "zhuyoutang-perspective",
       "cn": "朱祐樘",
       "normalized_cn": "朱祐樘",
+      "name_hints": [
+        "孝宗",
+        "明孝宗",
+        "朱祐樘"
+      ],
       "en": "Zhu Youcheng",
       "era": "1470–1505",
       "frontmatter_name": "zhuyoutang-perspective"
@@ -463,6 +663,10 @@
       "package_slug": "zhuyouxiao-perspective",
       "cn": "朱由校",
       "normalized_cn": "朱由校",
+      "name_hints": [
+        "朱由校",
+        "熹宗/天启"
+      ],
       "en": "Zhu Youxiao",
       "era": "1605–1627",
       "frontmatter_name": "zhuyouxiao-perspective"
@@ -474,6 +678,11 @@
       "package_slug": "zhuyuanzhang-perspective",
       "cn": "朱元璋",
       "normalized_cn": "朱元璋",
+      "name_hints": [
+        "太祖",
+        "明太祖",
+        "朱元璋"
+      ],
       "en": "Zhu Yuanzhang",
       "era": "1328–1398",
       "frontmatter_name": "zhuyuanzhang-perspective"
@@ -485,6 +694,10 @@
       "package_slug": "zhuyunwen-perspective",
       "cn": "朱允炆",
       "normalized_cn": "朱允炆",
+      "name_hints": [
+        "惠宗/建文",
+        "朱允炆"
+      ],
       "en": "Zhu Yunwen",
       "era": "1377–1402",
       "frontmatter_name": "zhuyunwen-perspective"
@@ -496,6 +709,11 @@
       "package_slug": "zhuzaihou-perspective",
       "cn": "朱载垕",
       "normalized_cn": "朱载垕",
+      "name_hints": [
+        "明穆宗",
+        "朱载垕",
+        "穆宗"
+      ],
       "en": "Zhu Zaihou",
       "era": "1537–1572",
       "frontmatter_name": "zhuzaihou-perspective"
@@ -507,6 +725,11 @@
       "package_slug": "zhuzhanji-perspective",
       "cn": "朱瞻基",
       "normalized_cn": "朱瞻基",
+      "name_hints": [
+        "宣宗",
+        "明宣宗",
+        "朱瞻基"
+      ],
       "en": "Zhu Zhanji",
       "era": "1399–1435",
       "frontmatter_name": "zhuzhanji-perspective"
@@ -517,7 +740,11 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "chenbaixian-perspective",
       "cn": "陈霸先（南陈武帝）",
-      "normalized_cn": "陈霸先（南陈武帝）",
+      "normalized_cn": "陈霸先",
+      "name_hints": [
+        "南陈武帝",
+        "陈霸先"
+      ],
       "en": "Chen Baxian",
       "era": "557–559",
       "frontmatter_name": "chenbaixian-perspective"
@@ -528,7 +755,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "chenbozong-perspective",
       "cn": "陈伯宗（南陈废帝）",
-      "normalized_cn": "陈伯宗（南陈废帝）",
+      "normalized_cn": "陈伯宗",
+      "name_hints": [
+        "南陈废帝",
+        "南陈废帝/临海王",
+        "陈伯宗"
+      ],
       "en": "Chen Bozong",
       "era": "566–568",
       "frontmatter_name": "chenbozong-perspective"
@@ -539,7 +771,11 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "chenqian-perspective",
       "cn": "陈蒨（南陈文帝）",
-      "normalized_cn": "陈蒨（南陈文帝）",
+      "normalized_cn": "陈蒨",
+      "name_hints": [
+        "南陈文帝",
+        "陈蒨"
+      ],
       "en": "Chen Qian",
       "era": "559–566",
       "frontmatter_name": "chenqian-perspective"
@@ -550,7 +786,11 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "chenshubao-perspective",
       "cn": "陈叔宝（南陈后主）",
-      "normalized_cn": "陈叔宝（南陈后主）",
+      "normalized_cn": "陈叔宝",
+      "name_hints": [
+        "南陈后主",
+        "陈叔宝"
+      ],
       "en": "Chen Shubao",
       "era": "582–589",
       "frontmatter_name": "chenshubao-perspective"
@@ -561,7 +801,11 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "chenxuan-perspective",
       "cn": "陈顼（南陈宣帝）",
-      "normalized_cn": "陈顼（南陈宣帝）",
+      "normalized_cn": "陈顼",
+      "name_hints": [
+        "南陈宣帝",
+        "陈顼"
+      ],
       "en": "Chen Xu",
       "era": "568–582",
       "frontmatter_name": "chenxuan-perspective"
@@ -572,7 +816,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "liujun-perspective",
       "cn": "刘骏（宋孝武帝）",
-      "normalized_cn": "刘骏（宋孝武帝）",
+      "normalized_cn": "刘骏",
+      "name_hints": [
+        "刘骏",
+        "南朝宋",
+        "宋孝武帝"
+      ],
       "en": "Liu Jun",
       "era": "453–464",
       "frontmatter_name": "liujun-perspective"
@@ -583,7 +832,13 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "liushao-perspective",
       "cn": "刘劭（宋元凶）",
-      "normalized_cn": "刘劭（宋元凶）",
+      "normalized_cn": "刘劭",
+      "name_hints": [
+        "元凶/太子",
+        "刘劭",
+        "宋元凶",
+        "宋元凶/太子"
+      ],
       "en": "Liu Shao",
       "era": "453",
       "frontmatter_name": "liushao-perspective"
@@ -594,7 +849,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "liuyifu-perspective",
       "cn": "刘义符（宋少帝）",
-      "normalized_cn": "刘义符（宋少帝）",
+      "normalized_cn": "刘义符",
+      "name_hints": [
+        "刘义符",
+        "南朝宋",
+        "宋少帝"
+      ],
       "en": "Liu Yifu",
       "era": "422–424",
       "frontmatter_name": "liuyifu-perspective"
@@ -605,7 +865,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "liuyilong-perspective",
       "cn": "刘义隆（宋文帝）",
-      "normalized_cn": "刘义隆（宋文帝）",
+      "normalized_cn": "刘义隆",
+      "name_hints": [
+        "刘义隆",
+        "宋文帝",
+        "文帝"
+      ],
       "en": "Liu Yilong",
       "era": "424–453",
       "frontmatter_name": "liuyilong-perspective"
@@ -616,7 +881,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "liuyu-cangwu-perspective",
       "cn": "刘昱（宋后废帝/苍梧王）",
-      "normalized_cn": "刘昱（宋后废帝/苍梧王）",
+      "normalized_cn": "刘昱",
+      "name_hints": [
+        "刘昱",
+        "南朝宋",
+        "宋后废帝/苍梧王"
+      ],
       "en": "Liu Yu (Cangwu Wang)",
       "era": "473–477",
       "frontmatter_name": "liuyu-cangwu-perspective"
@@ -627,7 +897,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "liuyu-ming-perspective",
       "cn": "刘彧（宋明帝）",
-      "normalized_cn": "刘彧（宋明帝）",
+      "normalized_cn": "刘彧",
+      "name_hints": [
+        "刘彧",
+        "宋明帝",
+        "明帝"
+      ],
       "en": "Liu Yu (Emperor Ming of Song)",
       "era": "466–472",
       "frontmatter_name": "liuyu-ming-perspective"
@@ -638,7 +913,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "liuyu-perspective",
       "cn": "刘裕（宋武帝）",
-      "normalized_cn": "刘裕（宋武帝）",
+      "normalized_cn": "刘裕",
+      "name_hints": [
+        "刘裕",
+        "南朝宋武帝",
+        "宋武帝"
+      ],
       "en": "Liu Yu",
       "era": "420–422",
       "frontmatter_name": "liuyu-perspective"
@@ -649,7 +929,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "liuziye-perspective",
       "cn": "刘子业（宋前废帝）",
-      "normalized_cn": "刘子业（宋前废帝）",
+      "normalized_cn": "刘子业",
+      "name_hints": [
+        "刘子业",
+        "南朝宋",
+        "宋前废帝"
+      ],
       "en": "Liu Ziye",
       "era": "464–466",
       "frontmatter_name": "liuziye-perspective"
@@ -660,7 +945,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "tuobagui-perspective",
       "cn": "拓跋珪（北魏道武帝）",
-      "normalized_cn": "拓跋珪（北魏道武帝）",
+      "normalized_cn": "拓跋珪",
+      "name_hints": [
+        "北魏道武帝",
+        "拓跋珪",
+        "道武帝"
+      ],
       "en": "Tuoba Gui",
       "era": "386–409",
       "frontmatter_name": "tuobagui-perspective"
@@ -671,7 +961,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "tuobahong-perspective",
       "cn": "拓跋弘（北魏献文帝）",
-      "normalized_cn": "拓跋弘（北魏献文帝）",
+      "normalized_cn": "拓跋弘",
+      "name_hints": [
+        "北魏献文帝",
+        "拓跋弘",
+        "献文帝"
+      ],
       "en": "Tuoba Hong",
       "era": "465–471",
       "frontmatter_name": "tuobahong-perspective"
@@ -682,7 +977,13 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "tuobajun-perspective",
       "cn": "拓跋濬（北魏文成帝）",
-      "normalized_cn": "拓跋濬（北魏文成帝）",
+      "normalized_cn": "拓跋濬",
+      "name_hints": [
+        "北魏文成帝",
+        "北魏高宗",
+        "拓跋濬",
+        "高宗"
+      ],
       "en": "Tuoba Jun",
       "era": "452–465",
       "frontmatter_name": "tuobajun-perspective"
@@ -693,7 +994,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "tuobasi-perspective",
       "cn": "拓跋嗣（北魏明元帝）",
-      "normalized_cn": "拓跋嗣（北魏明元帝）",
+      "normalized_cn": "拓跋嗣",
+      "name_hints": [
+        "北魏明元帝",
+        "拓跋嗣",
+        "明元帝"
+      ],
       "en": "Tuoba Si",
       "era": "409–423",
       "frontmatter_name": "tuobasi-perspective"
@@ -704,7 +1010,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "tuobatao-perspective",
       "cn": "拓跋焘（北魏太武帝）",
-      "normalized_cn": "拓跋焘（北魏太武帝）",
+      "normalized_cn": "拓跋焘",
+      "name_hints": [
+        "北魏太武帝",
+        "太武帝",
+        "拓跋焘"
+      ],
       "en": "Tuoba Tao",
       "era": "423–452",
       "frontmatter_name": "tuobatao-perspective"
@@ -715,7 +1026,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "tuobayu-perspective",
       "cn": "拓跋余（北魏南安王）",
-      "normalized_cn": "拓跋余（北魏南安王）",
+      "normalized_cn": "拓跋余",
+      "name_hints": [
+        "北魏南安王",
+        "南安王",
+        "拓跋余"
+      ],
       "en": "Tuoba Yu",
       "era": "452",
       "frontmatter_name": "tuobayu-perspective"
@@ -726,7 +1042,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaobaojuan-perspective",
       "cn": "萧宝卷（南齐东昏侯）",
-      "normalized_cn": "萧宝卷（南齐东昏侯）",
+      "normalized_cn": "萧宝卷",
+      "name_hints": [
+        "东昏侯",
+        "南齐东昏侯",
+        "萧宝卷"
+      ],
       "en": "Xiao Baojuan",
       "era": "498–501",
       "frontmatter_name": "xiaobaojuan-perspective"
@@ -737,7 +1058,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaobaorong-perspective",
       "cn": "萧宝融（南齐和帝）",
-      "normalized_cn": "萧宝融（南齐和帝）",
+      "normalized_cn": "萧宝融",
+      "name_hints": [
+        "南齐和帝",
+        "和帝",
+        "萧宝融"
+      ],
       "en": "Xiao Baorong",
       "era": "501–502",
       "frontmatter_name": "xiaobaorong-perspective"
@@ -748,7 +1074,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaodaochang-perspective",
       "cn": "萧道成（南齐高帝）",
-      "normalized_cn": "萧道成（南齐高帝）",
+      "normalized_cn": "萧道成",
+      "name_hints": [
+        "南齐高帝",
+        "萧道成",
+        "高帝"
+      ],
       "en": "Xiao Daocheng",
       "era": "479–482",
       "frontmatter_name": "xiaodaochang-perspective"
@@ -759,7 +1090,11 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaodong-perspective",
       "cn": "萧栋（南梁豫章王）",
-      "normalized_cn": "萧栋（南梁豫章王）",
+      "normalized_cn": "萧栋",
+      "name_hints": [
+        "南梁豫章王",
+        "萧栋"
+      ],
       "en": "Xiao Dong",
       "era": "551",
       "frontmatter_name": "xiaodong-perspective"
@@ -770,7 +1105,11 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaofangzhi-perspective",
       "cn": "萧方智（南梁敬帝）",
-      "normalized_cn": "萧方智（南梁敬帝）",
+      "normalized_cn": "萧方智",
+      "name_hints": [
+        "南梁敬帝",
+        "萧方智"
+      ],
       "en": "Xiao Fangzhi",
       "era": "555–557",
       "frontmatter_name": "xiaofangzhi-perspective"
@@ -781,7 +1120,11 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaogang-perspective",
       "cn": "萧纲（南梁简文帝）",
-      "normalized_cn": "萧纲（南梁简文帝）",
+      "normalized_cn": "萧纲",
+      "name_hints": [
+        "南梁简文帝",
+        "萧纲"
+      ],
       "en": "Xiao Gang",
       "era": "549–551",
       "frontmatter_name": "xiaogang-perspective"
@@ -792,7 +1135,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaoluan-perspective",
       "cn": "萧鸾（南齐明帝）",
-      "normalized_cn": "萧鸾（南齐明帝）",
+      "normalized_cn": "萧鸾",
+      "name_hints": [
+        "南齐明帝",
+        "明帝",
+        "萧鸾"
+      ],
       "en": "Xiao Luan",
       "era": "494–498",
       "frontmatter_name": "xiaoluan-perspective"
@@ -803,7 +1151,11 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaoyan-perspective",
       "cn": "萧衍（南梁武帝）",
-      "normalized_cn": "萧衍（南梁武帝）",
+      "normalized_cn": "萧衍",
+      "name_hints": [
+        "南梁武帝",
+        "萧衍"
+      ],
       "en": "Xiao Yan",
       "era": "502–549",
       "frontmatter_name": "xiaoyan-perspective"
@@ -814,7 +1166,11 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaoyi-perspective",
       "cn": "萧绎（南梁元帝）",
-      "normalized_cn": "萧绎（南梁元帝）",
+      "normalized_cn": "萧绎",
+      "name_hints": [
+        "南梁元帝",
+        "萧绎"
+      ],
       "en": "Xiao Yi",
       "era": "552–554",
       "frontmatter_name": "xiaoyi-perspective"
@@ -825,7 +1181,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaozhaowen-perspective",
       "cn": "萧昭文（南齐海陵王）",
-      "normalized_cn": "萧昭文（南齐海陵王）",
+      "normalized_cn": "萧昭文",
+      "name_hints": [
+        "南齐海陵王",
+        "海陵王",
+        "萧昭文"
+      ],
       "en": "Xiao Zhaowen",
       "era": "494",
       "frontmatter_name": "xiaozhaowen-perspective"
@@ -836,7 +1197,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaozhaoye-perspective",
       "cn": "萧昭业（南齐郁林王）",
-      "normalized_cn": "萧昭业（南齐郁林王）",
+      "normalized_cn": "萧昭业",
+      "name_hints": [
+        "南齐郁林王",
+        "萧昭业",
+        "郁林王"
+      ],
       "en": "Xiao Zhaoye",
       "era": "493–494",
       "frontmatter_name": "xiaozhaoye-perspective"
@@ -847,7 +1213,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaozhe-perspective",
       "cn": "萧赜（南齐武帝）",
-      "normalized_cn": "萧赜（南齐武帝）",
+      "normalized_cn": "萧赜",
+      "name_hints": [
+        "南齐武帝",
+        "武帝",
+        "萧赜"
+      ],
       "en": "Xiao Ze",
       "era": "482–493",
       "frontmatter_name": "xiaozhe-perspective"
@@ -858,7 +1229,11 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "xiaozhengde-perspective",
       "cn": "萧正德（南梁临贺王）",
-      "normalized_cn": "萧正德（南梁临贺王）",
+      "normalized_cn": "萧正德",
+      "name_hints": [
+        "南梁临贺王",
+        "萧正德"
+      ],
       "en": "Xiao Zhengde",
       "era": "548–549",
       "frontmatter_name": "xiaozhengde-perspective"
@@ -869,7 +1244,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "yuangong-perspective",
       "cn": "元恭（北魏节闵帝／前废帝）",
-      "normalized_cn": "元恭（北魏节闵帝/前废帝）",
+      "normalized_cn": "元恭",
+      "name_hints": [
+        "元恭",
+        "北魏节闵帝/前废帝",
+        "节闵帝/前废帝"
+      ],
       "en": "Yuan Gong",
       "era": "约 498/499–532（531–532 在位）",
       "frontmatter_name": "yuangong-perspective"
@@ -880,7 +1260,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "yuanhong-perspective",
       "cn": "元宏（北魏孝文帝）",
-      "normalized_cn": "元宏（北魏孝文帝）",
+      "normalized_cn": "元宏",
+      "name_hints": [
+        "元宏",
+        "北魏孝文帝",
+        "孝文帝"
+      ],
       "en": "Yuan Hong",
       "era": "471–499",
       "frontmatter_name": "yuanhong-perspective"
@@ -891,7 +1276,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "yuanke-perspective",
       "cn": "元恪（北魏宣武帝）",
-      "normalized_cn": "元恪（北魏宣武帝）",
+      "normalized_cn": "元恪",
+      "name_hints": [
+        "元恪",
+        "北魏宣武帝",
+        "宣武帝"
+      ],
       "en": "Yuan Ke",
       "era": "499–515",
       "frontmatter_name": "yuanke-perspective"
@@ -902,7 +1292,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "yuanxu-perspective",
       "cn": "元诩（北魏孝明帝）",
-      "normalized_cn": "元诩（北魏孝明帝）",
+      "normalized_cn": "元诩",
+      "name_hints": [
+        "元诩",
+        "北魏孝明帝",
+        "孝明帝"
+      ],
       "en": "Yuan Xu",
       "era": "515–528",
       "frontmatter_name": "yuanxu-perspective"
@@ -913,7 +1308,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "yuanye-perspective",
       "cn": "元晔（北魏长广王）",
-      "normalized_cn": "元晔（北魏长广王）",
+      "normalized_cn": "元晔",
+      "name_hints": [
+        "元晔",
+        "北魏长广王",
+        "长广王"
+      ],
       "en": "Yuan Ye",
       "era": "530–532",
       "frontmatter_name": "yuanye-perspective"
@@ -924,7 +1324,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "yuanziyou-perspective",
       "cn": "元子攸（北魏孝庄帝）",
-      "normalized_cn": "元子攸（北魏孝庄帝）",
+      "normalized_cn": "元子攸",
+      "name_hints": [
+        "元子攸",
+        "北魏孝庄帝",
+        "孝庄帝"
+      ],
       "en": "Yuan Ziyou",
       "era": "528–530",
       "frontmatter_name": "yuanziyou-perspective"
@@ -936,6 +1341,11 @@
       "package_slug": "ershi-perspective",
       "cn": "秦二世胡亥",
       "normalized_cn": "秦二世胡亥",
+      "name_hints": [
+        "少子",
+        "秦二世胡亥",
+        "胡亥"
+      ],
       "en": "Qin Ershi (Hu Hai)",
       "era": "前230–前207（在位前210–前207）",
       "frontmatter_name": "ershi-perspective"
@@ -947,6 +1357,10 @@
       "package_slug": "shihuang-perspective",
       "cn": "嬴政",
       "normalized_cn": "嬴政",
+      "name_hints": [
+        "始皇",
+        "嬴政"
+      ],
       "en": "Shihuang",
       "era": "前259–前210",
       "frontmatter_name": "shihuang-perspective"
@@ -958,6 +1372,11 @@
       "package_slug": "ziying-perspective",
       "cn": "子婴",
       "normalized_cn": "子婴",
+      "name_hints": [
+        "子婴",
+        "王子婴",
+        "秦王子婴"
+      ],
       "en": "Ziying",
       "era": "生年不详–前207（在位 46 日）",
       "frontmatter_name": "ziying-perspective"
@@ -969,6 +1388,11 @@
       "package_slug": "fulin-perspective",
       "cn": "福临",
       "normalized_cn": "福临",
+      "name_hints": [
+        "世祖",
+        "清世祖",
+        "福临"
+      ],
       "en": "Fulin (Shunzhi)",
       "era": "1638–1661",
       "frontmatter_name": "fulin-perspective"
@@ -980,6 +1404,11 @@
       "package_slug": "hongli-perspective",
       "cn": "弘历",
       "normalized_cn": "弘历",
+      "name_hints": [
+        "弘历",
+        "清高宗",
+        "高宗"
+      ],
       "en": "Hongli (Qianlong)",
       "era": "1711–1799",
       "frontmatter_name": "hongli-perspective"
@@ -991,6 +1420,11 @@
       "package_slug": "hongtaiji-perspective",
       "cn": "皇太极",
       "normalized_cn": "皇太极",
+      "name_hints": [
+        "太宗",
+        "清太宗",
+        "皇太极"
+      ],
       "en": "Hong Taiji",
       "era": "1592–1643",
       "frontmatter_name": "hongtaiji-perspective"
@@ -1002,6 +1436,11 @@
       "package_slug": "minning-perspective",
       "cn": "旻宁",
       "normalized_cn": "旻宁",
+      "name_hints": [
+        "宣宗",
+        "旻宁",
+        "清宣宗"
+      ],
       "en": "Minning (Daoguang)",
       "era": "1782–1850",
       "frontmatter_name": "minning-perspective"
@@ -1013,6 +1452,11 @@
       "package_slug": "nurhaci-perspective",
       "cn": "努尔哈赤",
       "normalized_cn": "努尔哈赤",
+      "name_hints": [
+        "努尔哈赤",
+        "太祖",
+        "清太祖"
+      ],
       "en": "Nurhaci",
       "era": "1559–1626",
       "frontmatter_name": "nurhaci-perspective"
@@ -1024,6 +1468,10 @@
       "package_slug": "puyi-perspective",
       "cn": "溥仪",
       "normalized_cn": "溥仪",
+      "name_hints": [
+        "溥仪",
+        "逊帝"
+      ],
       "en": "Puyi (Xuantong)",
       "era": "1906–1967",
       "frontmatter_name": "puyi-perspective"
@@ -1035,6 +1483,11 @@
       "package_slug": "xuanye-perspective",
       "cn": "玄烨",
       "normalized_cn": "玄烨",
+      "name_hints": [
+        "圣祖",
+        "清圣祖",
+        "玄烨"
+      ],
       "en": "Xuanye (Kangxi)",
       "era": "1654–1722",
       "frontmatter_name": "xuanye-perspective"
@@ -1046,6 +1499,11 @@
       "package_slug": "yinzhen-perspective",
       "cn": "胤禛",
       "normalized_cn": "胤禛",
+      "name_hints": [
+        "世宗",
+        "清世宗",
+        "胤禛"
+      ],
       "en": "Yinzhen (Yongzheng)",
       "era": "1678–1735",
       "frontmatter_name": "yinzhen-perspective"
@@ -1057,6 +1515,11 @@
       "package_slug": "yizhu-perspective",
       "cn": "奕詝",
       "normalized_cn": "奕詝",
+      "name_hints": [
+        "奕詝",
+        "文宗",
+        "清文宗"
+      ],
       "en": "Yizhu (Xianfeng)",
       "era": "1831–1861",
       "frontmatter_name": "yizhu-perspective"
@@ -1068,6 +1531,11 @@
       "package_slug": "yongyan-perspective",
       "cn": "颙琰",
       "normalized_cn": "颙琰",
+      "name_hints": [
+        "仁宗",
+        "清仁宗",
+        "颙琰"
+      ],
       "en": "Yongyan (Jiaqing)",
       "era": "1760–1820",
       "frontmatter_name": "yongyan-perspective"
@@ -1079,6 +1547,11 @@
       "package_slug": "zaichun-perspective",
       "cn": "载淳",
       "normalized_cn": "载淳",
+      "name_hints": [
+        "清穆宗",
+        "穆宗",
+        "载淳"
+      ],
       "en": "Zaichun (Tongzhi)",
       "era": "1856–1875",
       "frontmatter_name": "zaichun-perspective"
@@ -1090,6 +1563,10 @@
       "package_slug": "zaitian-perspective",
       "cn": "载湉",
       "normalized_cn": "载湉",
+      "name_hints": [
+        "德宗",
+        "载湉"
+      ],
       "en": "Zaitian (Guangxu)",
       "era": "1871–1908",
       "frontmatter_name": "zaitian-perspective"
@@ -1101,6 +1578,10 @@
       "package_slug": "caofang-perspective",
       "cn": "曹芳",
       "normalized_cn": "曹芳",
+      "name_hints": [
+        "曹芳",
+        "曹魏"
+      ],
       "en": "Cao Fang",
       "era": "239–254（齐王在位，8岁即位，后被司马师废）",
       "frontmatter_name": "caofang-perspective"
@@ -1112,6 +1593,10 @@
       "package_slug": "caohuan-perspective",
       "cn": "曹奂",
       "normalized_cn": "曹奂",
+      "name_hints": [
+        "曹奂",
+        "曹魏"
+      ],
       "en": "Cao Huan",
       "era": "246–302（曹魏元帝，260–265 在位）",
       "frontmatter_name": "caohuan-perspective"
@@ -1123,6 +1608,10 @@
       "package_slug": "caomao-perspective",
       "cn": "曹髦",
       "normalized_cn": "曹髦",
+      "name_hints": [
+        "曹髦",
+        "曹魏"
+      ],
       "en": "Cao Mao",
       "era": "254–260（高贵乡公在位）",
       "frontmatter_name": "caomao-perspective"
@@ -1134,6 +1623,11 @@
       "package_slug": "caopi-perspective",
       "cn": "曹丕",
       "normalized_cn": "曹丕",
+      "name_hints": [
+        "文帝",
+        "曹丕",
+        "魏文帝"
+      ],
       "en": "Cao Pi",
       "era": "220–226（魏文帝在位，220 代汉称帝）",
       "frontmatter_name": "caopi-perspective"
@@ -1145,6 +1639,10 @@
       "package_slug": "caorui-perspective",
       "cn": "曹叡",
       "normalized_cn": "曹叡",
+      "name_hints": [
+        "曹叡",
+        "曹魏"
+      ],
       "en": "Cao Rui",
       "era": "226–239（魏明帝在位）",
       "frontmatter_name": "caorui-perspective"
@@ -1156,6 +1654,10 @@
       "package_slug": "liubei-perspective",
       "cn": "刘备",
       "normalized_cn": "刘备",
+      "name_hints": [
+        "刘备",
+        "蜀汉"
+      ],
       "en": "Liu Bei",
       "era": "221–223（昭烈帝在位，221 于成都称帝）",
       "frontmatter_name": "liubei-perspective"
@@ -1167,6 +1669,10 @@
       "package_slug": "liushan-perspective",
       "cn": "刘禅",
       "normalized_cn": "刘禅",
+      "name_hints": [
+        "刘禅",
+        "蜀汉"
+      ],
       "en": "Liu Shan",
       "era": "223–263（后主在位，降魏）",
       "frontmatter_name": "liushan-perspective"
@@ -1178,6 +1684,11 @@
       "package_slug": "sunhao-perspective",
       "cn": "孙皓",
       "normalized_cn": "孙皓",
+      "name_hints": [
+        "吴末帝/归命侯",
+        "孙皓",
+        "末帝/归命侯"
+      ],
       "en": "Sun Hao",
       "era": "264–280（吴末帝在位，280 年亡国降晋）",
       "frontmatter_name": "sunhao-perspective"
@@ -1189,6 +1700,11 @@
       "package_slug": "sunliang-perspective",
       "cn": "孙亮",
       "normalized_cn": "孙亮",
+      "name_hints": [
+        "吴废帝/会稽王",
+        "孙亮",
+        "废帝/会稽王"
+      ],
       "en": "Sun Liang",
       "era": "252–258（吴废帝在位，10岁即位，后被废）",
       "frontmatter_name": "sunliang-perspective"
@@ -1200,6 +1716,11 @@
       "package_slug": "sunquan-perspective",
       "cn": "孙权",
       "normalized_cn": "孙权",
+      "name_hints": [
+        "吴大帝",
+        "大帝",
+        "孙权"
+      ],
       "en": "Sun Quan",
       "era": "229–252（吴大帝在位，229 称帝；222 受封吴王）",
       "frontmatter_name": "sunquan-perspective"
@@ -1211,6 +1732,10 @@
       "package_slug": "sunxiu-perspective",
       "cn": "孙休",
       "normalized_cn": "孙休",
+      "name_hints": [
+        "孙休",
+        "孙吴"
+      ],
       "en": "Sun Xiu",
       "era": "258–264（吴景帝在位）",
       "frontmatter_name": "sunxiu-perspective"
@@ -1222,6 +1747,10 @@
       "package_slug": "dixin-perspective",
       "cn": "帝辛",
       "normalized_cn": "帝辛",
+      "name_hints": [
+        "商",
+        "帝辛"
+      ],
       "en": "Di Xin",
       "era": "约前1075–约前1046",
       "frontmatter_name": "dixin-perspective"
@@ -1233,6 +1762,10 @@
       "package_slug": "diyi-perspective",
       "cn": "帝乙",
       "normalized_cn": "帝乙",
+      "name_hints": [
+        "商",
+        "帝乙"
+      ],
       "en": "Di Yi",
       "era": "约前1101–约前1076（本区间系依夏商周断代工程之推定，非定点；《竹书纪年》所载王年有异。）",
       "frontmatter_name": "diyi-perspective"
@@ -1244,6 +1777,10 @@
       "package_slug": "hedanja-perspective",
       "cn": "河亶甲",
       "normalized_cn": "河亶甲",
+      "name_hints": [
+        "商",
+        "河亶甲"
+      ],
       "en": "Hedanjia",
       "era": "约前1400–约前1390（在位约9年，异说）",
       "frontmatter_name": "hedanja-perspective"
@@ -1255,6 +1792,10 @@
       "package_slug": "kangding-perspective",
       "cn": "康丁",
       "normalized_cn": "康丁",
+      "name_hints": [
+        "商",
+        "康丁"
+      ],
       "en": "Kangding",
       "era": "约前12世纪（生卒年不详，在位年数有异说）",
       "frontmatter_name": "kangding-perspective"
@@ -1266,6 +1807,10 @@
       "package_slug": "linxin-perspective",
       "cn": "廪辛",
       "normalized_cn": "廪辛",
+      "name_hints": [
+        "商",
+        "廪辛"
+      ],
       "en": "Lin Xin",
       "era": "约前1145–约前1137",
       "frontmatter_name": "linxin-perspective"
@@ -1277,6 +1822,10 @@
       "package_slug": "nangeng-perspective",
       "cn": "南庚",
       "normalized_cn": "南庚",
+      "name_hints": [
+        "南庚",
+        "商"
+      ],
       "en": "Nan Geng",
       "era": "约前14世纪末（生卒年不详，在位年数有异说）",
       "frontmatter_name": "nangeng-perspective"
@@ -1288,6 +1837,10 @@
       "package_slug": "pangeng-perspective",
       "cn": "盘庚",
       "normalized_cn": "盘庚",
+      "name_hints": [
+        "商",
+        "盘庚"
+      ],
       "en": "Pangeng",
       "era": "约前14世纪–约前13世纪（生卒年不详，在位年数有异说）",
       "frontmatter_name": "pangeng-perspective"
@@ -1299,6 +1852,10 @@
       "package_slug": "taiding-shang-perspective",
       "cn": "太丁",
       "normalized_cn": "太丁",
+      "name_hints": [
+        "大丁",
+        "太丁"
+      ],
       "en": "Taiding",
       "era": "约前1580前后（未立而卒，卒于成汤之世；仅示其在汤与其弟外丙之间的相对位置，不作定点）",
       "frontmatter_name": "taiding-shang-perspective"
@@ -1310,6 +1867,10 @@
       "package_slug": "taigeng-perspective",
       "cn": "太庚",
       "normalized_cn": "太庚",
+      "name_hints": [
+        "商",
+        "太庚"
+      ],
       "en": "Taigeng",
       "era": "约前1541–约前1516",
       "frontmatter_name": "taigeng-perspective"
@@ -1321,6 +1882,10 @@
       "package_slug": "taijia-perspective",
       "cn": "太甲",
       "normalized_cn": "太甲",
+      "name_hints": [
+        "商",
+        "太甲"
+      ],
       "en": "Taijia",
       "era": "约前1573–约前1561（年数依今本《竹书纪年》系，径取十二年；异说《通鉴前编》作三十三年；仅示相对先后，非定点）",
       "frontmatter_name": "taijia-perspective"
@@ -1332,6 +1897,10 @@
       "package_slug": "taiwu-perspective",
       "cn": "太戊",
       "normalized_cn": "太戊",
+      "name_hints": [
+        "商",
+        "太戊"
+      ],
       "en": "Taiwu",
       "era": "约前16世纪末–约前15世纪中叶（推拟，非确证）",
       "frontmatter_name": "taiwu-perspective"
@@ -1343,6 +1912,11 @@
       "package_slug": "tang-shang-perspective",
       "cn": "汤",
       "normalized_cn": "汤",
+      "name_hints": [
+        "商",
+        "商汤",
+        "汤"
+      ],
       "en": "Tang of Shang",
       "era": "约前1600–约前1580（灭夏约前1600为夏商周断代工程框架值；在位年数有异说，今本《竹书纪年》作二十九年；仅示相对先后，非定点）",
       "frontmatter_name": "tang-shang-perspective"
@@ -1354,6 +1928,10 @@
       "package_slug": "waibing-perspective",
       "cn": "外丙",
       "normalized_cn": "外丙",
+      "name_hints": [
+        "商",
+        "外丙"
+      ],
       "en": "Waibing",
       "era": "约前1580–约前1577（径取异说上限三年，不作定点；本区间系依《竹书纪年》干支相对序推拟，仅示相对先后，非定点；商前期王年学界无定论，断代工程未颁。生卒年不详，在位二年或三年异说并存）",
       "frontmatter_name": "waibing-perspective"
@@ -1365,6 +1943,10 @@
       "package_slug": "wairen-perspective",
       "cn": "外壬",
       "normalized_cn": "外壬",
+      "name_hints": [
+        "商",
+        "外壬"
+      ],
       "en": "Wairen",
       "era": "约前1400–约前1390（依《竹书纪年》干支推算，仅备一说）",
       "frontmatter_name": "wairen-perspective"
@@ -1376,6 +1958,10 @@
       "package_slug": "wending-shang-perspective",
       "cn": "文丁",
       "normalized_cn": "文丁",
+      "name_hints": [
+        "商",
+        "文丁"
+      ],
       "en": "Wending",
       "era": "约前12世纪末–约前11世纪中（在位年数有异说）",
       "frontmatter_name": "wending-shang-perspective"
@@ -1387,6 +1973,10 @@
       "package_slug": "woding-perspective",
       "cn": "沃丁",
       "normalized_cn": "沃丁",
+      "name_hints": [
+        "商",
+        "沃丁"
+      ],
       "en": "Woding",
       "era": "约前1570–约前1541",
       "frontmatter_name": "woding-perspective"
@@ -1398,6 +1988,10 @@
       "package_slug": "wojia-perspective",
       "cn": "沃甲",
       "normalized_cn": "沃甲",
+      "name_hints": [
+        "商",
+        "沃甲"
+      ],
       "en": "Wo Jia",
       "era": "约前1372–约前1367（年数依今本《竹书纪年》系，径取五年；异说作二十年／二十五年；仅示相对先后，非定点）",
       "frontmatter_name": "wojia-perspective"
@@ -1409,6 +2003,10 @@
       "package_slug": "wuding-perspective",
       "cn": "武丁",
       "normalized_cn": "武丁",
+      "name_hints": [
+        "商",
+        "武丁"
+      ],
       "en": "Wuding",
       "era": "约前1250–约前1192",
       "frontmatter_name": "wuding-perspective"
@@ -1420,6 +2018,10 @@
       "package_slug": "wuyi-perspective",
       "cn": "武乙",
       "normalized_cn": "武乙",
+      "name_hints": [
+        "商",
+        "武乙"
+      ],
       "en": "Wuyi",
       "era": "约前1147–约前1113",
       "frontmatter_name": "wuyi-perspective"
@@ -1431,6 +2033,10 @@
       "package_slug": "xiaojia-shang-perspective",
       "cn": "小甲",
       "normalized_cn": "小甲",
+      "name_hints": [
+        "商",
+        "小甲"
+      ],
       "en": "Xiaojia",
       "era": "约前16—前15世纪（在位约十七年，卒年不可确考，异说见正文）",
       "frontmatter_name": "xiaojia-shang-perspective"
@@ -1442,6 +2048,11 @@
       "package_slug": "xiaoxin-shang-perspective",
       "cn": "小辛",
       "normalized_cn": "小辛",
+      "name_hints": [
+        "商王小辛",
+        "小辛",
+        "王小辛"
+      ],
       "en": "Xiaoxin",
       "era": "约前1287–约前1267",
       "frontmatter_name": "xiaoxin-shang-perspective"
@@ -1453,6 +2064,10 @@
       "package_slug": "xiaoyi-shang-perspective",
       "cn": "小乙",
       "normalized_cn": "小乙",
+      "name_hints": [
+        "商",
+        "小乙"
+      ],
       "en": "Xiaoyi",
       "era": "约前13世纪（生卒年不详，在位年数有异说）",
       "frontmatter_name": "xiaoyi-shang-perspective"
@@ -1464,6 +2079,10 @@
       "package_slug": "yangjia-perspective",
       "cn": "阳甲",
       "normalized_cn": "阳甲",
+      "name_hints": [
+        "商",
+        "阳甲"
+      ],
       "en": "Yangjia",
       "era": "约前1317–约前1314（在位约4年；异说见文末）",
       "frontmatter_name": "yangjia-perspective"
@@ -1475,6 +2094,10 @@
       "package_slug": "yongji-perspective",
       "cn": "雍己",
       "normalized_cn": "雍己",
+      "name_hints": [
+        "商",
+        "雍己"
+      ],
       "en": "Yongji",
       "era": "约前16世纪（生卒年不详，在位年数有异说）",
       "frontmatter_name": "yongji-perspective"
@@ -1486,6 +2109,10 @@
       "package_slug": "zhongding-perspective",
       "cn": "中丁",
       "normalized_cn": "中丁",
+      "name_hints": [
+        "中丁",
+        "商"
+      ],
       "en": "Zhongding",
       "era": "约前1433–约前1424（年数依今本《竹书纪年》系，径取九年；异说作十三年；仅示相对先后，非定点）",
       "frontmatter_name": "zhongding-perspective"
@@ -1497,6 +2124,10 @@
       "package_slug": "zhongren-shang-perspective",
       "cn": "中壬",
       "normalized_cn": "中壬",
+      "name_hints": [
+        "中壬",
+        "商"
+      ],
       "en": "Zhongren",
       "era": "约前1577–约前1573（在位约四年；一说未即位为王，异说并存）〔本区间系依《竹书纪年》干支相对序推拟，仅示相对先后，非定点；商前期王年学界无定论〕",
       "frontmatter_name": "zhongren-shang-perspective"
@@ -1508,6 +2139,10 @@
       "package_slug": "zuding-shang-perspective",
       "cn": "祖丁",
       "normalized_cn": "祖丁",
+      "name_hints": [
+        "商",
+        "祖丁"
+      ],
       "en": "Zuding",
       "era": "约前14世纪（生卒年不详，在位年数有异说：九年/三十二年）",
       "frontmatter_name": "zuding-shang-perspective"
@@ -1519,6 +2154,10 @@
       "package_slug": "zugeng-perspective",
       "cn": "祖庚",
       "normalized_cn": "祖庚",
+      "name_hints": [
+        "商",
+        "祖庚"
+      ],
       "en": "Zugeng",
       "era": "约前1191–约前1189",
       "frontmatter_name": "zugeng-perspective"
@@ -1530,6 +2169,10 @@
       "package_slug": "zujia-perspective",
       "cn": "祖甲",
       "normalized_cn": "祖甲",
+      "name_hints": [
+        "商",
+        "祖甲"
+      ],
       "en": "Zujia",
       "era": "约前12世纪（生卒年不详；在位年数有三十三年与十六年两说）",
       "frontmatter_name": "zujia-perspective"
@@ -1541,6 +2184,10 @@
       "package_slug": "zuxin-perspective",
       "cn": "祖辛",
       "normalized_cn": "祖辛",
+      "name_hints": [
+        "商",
+        "祖辛"
+      ],
       "en": "Zuxin",
       "era": "约前1386–约前1372（年数依今本《竹书纪年》系，径取十四年；异说《太平御览》引作十六年；仅示相对先后，非定点）",
       "frontmatter_name": "zuxin-perspective"
@@ -1552,6 +2199,10 @@
       "package_slug": "zuyi-perspective",
       "cn": "祖乙",
       "normalized_cn": "祖乙",
+      "name_hints": [
+        "商",
+        "祖乙"
+      ],
       "en": "Zuyi",
       "era": "约前1400–约前1381",
       "frontmatter_name": "zuyi-perspective"
@@ -1563,6 +2214,11 @@
       "package_slug": "zhaobing-perspective",
       "cn": "赵昺",
       "normalized_cn": "赵昺",
+      "name_hints": [
+        "宋末帝",
+        "末帝",
+        "赵昺"
+      ],
       "en": "Zhao Bing",
       "era": "1272–1279",
       "frontmatter_name": "zhaobing-perspective"
@@ -1574,6 +2230,11 @@
       "package_slug": "zhaodun-perspective",
       "cn": "赵惇",
       "normalized_cn": "赵惇",
+      "name_hints": [
+        "光宗",
+        "宋光宗",
+        "赵惇"
+      ],
       "en": "Zhao Dun",
       "era": "1147–1200",
       "frontmatter_name": "zhaodun-perspective"
@@ -1585,6 +2246,11 @@
       "package_slug": "zhaogou-perspective",
       "cn": "赵构",
       "normalized_cn": "赵构",
+      "name_hints": [
+        "宋高宗",
+        "赵构",
+        "高宗"
+      ],
       "en": "Zhao Gou",
       "era": "1107–1187",
       "frontmatter_name": "zhaogou-perspective"
@@ -1596,6 +2262,12 @@
       "package_slug": "zhaoguangyi-perspective",
       "cn": "赵光义",
       "normalized_cn": "赵光义",
+      "name_hints": [
+        "太宗",
+        "宋太宗",
+        "赵光义",
+        "赵炅"
+      ],
       "en": "Zhao Guangyi",
       "era": "939–997",
       "frontmatter_name": "zhaoguangyi-perspective"
@@ -1607,6 +2279,11 @@
       "package_slug": "zhaoheng-perspective",
       "cn": "赵恒",
       "normalized_cn": "赵恒",
+      "name_hints": [
+        "宋真宗",
+        "真宗",
+        "赵恒"
+      ],
       "en": "Zhao Heng",
       "era": "968–1022",
       "frontmatter_name": "zhaoheng-perspective"
@@ -1618,6 +2295,11 @@
       "package_slug": "zhaohuan-perspective",
       "cn": "赵桓",
       "normalized_cn": "赵桓",
+      "name_hints": [
+        "宋钦宗",
+        "赵桓",
+        "钦宗"
+      ],
       "en": "Zhao Huan",
       "era": "1100–1156",
       "frontmatter_name": "zhaohuan-perspective"
@@ -1629,6 +2311,11 @@
       "package_slug": "zhaoji-perspective",
       "cn": "赵佶",
       "normalized_cn": "赵佶",
+      "name_hints": [
+        "宋徽宗",
+        "徽宗",
+        "赵佶"
+      ],
       "en": "Zhao Ji",
       "era": "1082–1135",
       "frontmatter_name": "zhaoji-perspective"
@@ -1640,6 +2327,11 @@
       "package_slug": "zhaokuangyin-perspective",
       "cn": "赵匡胤",
       "normalized_cn": "赵匡胤",
+      "name_hints": [
+        "太祖",
+        "宋太祖",
+        "赵匡胤"
+      ],
       "en": "Zhao Kuangyin",
       "era": "927–976",
       "frontmatter_name": "zhaokuangyin-perspective"
@@ -1651,6 +2343,11 @@
       "package_slug": "zhaokuo-perspective",
       "cn": "赵扩",
       "normalized_cn": "赵扩",
+      "name_hints": [
+        "宁宗",
+        "宋宁宗",
+        "赵扩"
+      ],
       "en": "Zhao Kuo",
       "era": "1168–1224",
       "frontmatter_name": "zhaokuo-perspective"
@@ -1662,6 +2359,11 @@
       "package_slug": "zhaoqi-perspective",
       "cn": "赵禥",
       "normalized_cn": "赵禥",
+      "name_hints": [
+        "宋度宗",
+        "度宗",
+        "赵禥"
+      ],
       "en": "Zhao Qi",
       "era": "1240–1274",
       "frontmatter_name": "zhaoqi-perspective"
@@ -1673,6 +2375,11 @@
       "package_slug": "zhaoshen-perspective",
       "cn": "赵昚",
       "normalized_cn": "赵昚",
+      "name_hints": [
+        "孝宗",
+        "宋孝宗",
+        "赵昚"
+      ],
       "en": "Zhao Shen",
       "era": "1127–1194",
       "frontmatter_name": "zhaoshen-perspective"
@@ -1684,6 +2391,11 @@
       "package_slug": "zhaoshi-perspective",
       "cn": "赵昰",
       "normalized_cn": "赵昰",
+      "name_hints": [
+        "宋端宗",
+        "端宗",
+        "赵昰"
+      ],
       "en": "Zhao Shi",
       "era": "1269–1278",
       "frontmatter_name": "zhaoshi-perspective"
@@ -1695,6 +2407,11 @@
       "package_slug": "zhaoshu-perspective",
       "cn": "赵曙",
       "normalized_cn": "赵曙",
+      "name_hints": [
+        "宋英宗",
+        "英宗",
+        "赵曙"
+      ],
       "en": "Zhao Shu",
       "era": "1032–1067",
       "frontmatter_name": "zhaoshu-perspective"
@@ -1706,6 +2423,11 @@
       "package_slug": "zhaoxian-perspective",
       "cn": "赵㬎",
       "normalized_cn": "赵㬎",
+      "name_hints": [
+        "宋恭帝",
+        "恭帝",
+        "赵㬎"
+      ],
       "en": "Zhao Xian",
       "era": "1271–1323",
       "frontmatter_name": "zhaoxian-perspective"
@@ -1717,6 +2439,11 @@
       "package_slug": "zhaoxu_s-perspective",
       "cn": "赵顼",
       "normalized_cn": "赵顼",
+      "name_hints": [
+        "宋神宗",
+        "神宗",
+        "赵顼"
+      ],
       "en": "Zhao Xu",
       "era": "1048–1085",
       "frontmatter_name": "zhaoxu_s-perspective"
@@ -1728,6 +2455,11 @@
       "package_slug": "zhaoxu_z-perspective",
       "cn": "赵煦",
       "normalized_cn": "赵煦",
+      "name_hints": [
+        "哲宗",
+        "宋哲宗",
+        "赵煦"
+      ],
       "en": "Zhao Xu",
       "era": "1077–1100",
       "frontmatter_name": "zhaoxu_z-perspective"
@@ -1739,6 +2471,11 @@
       "package_slug": "zhaoyun-perspective",
       "cn": "赵昀",
       "normalized_cn": "赵昀",
+      "name_hints": [
+        "宋理宗",
+        "理宗",
+        "赵昀"
+      ],
       "en": "Zhao Yun",
       "era": "1205–1264",
       "frontmatter_name": "zhaoyun-perspective"
@@ -1750,6 +2487,11 @@
       "package_slug": "zhaozhen-perspective",
       "cn": "赵祯",
       "normalized_cn": "赵祯",
+      "name_hints": [
+        "仁宗",
+        "宋仁宗",
+        "赵祯"
+      ],
       "en": "Zhao Zhen",
       "era": "1010–1063",
       "frontmatter_name": "zhaozhen-perspective"
@@ -1761,6 +2503,10 @@
       "package_slug": "gongdi-perspective",
       "cn": "杨侑",
       "normalized_cn": "杨侑",
+      "name_hints": [
+        "杨侑",
+        "隋恭帝"
+      ],
       "en": "Yang You",
       "era": "617–618",
       "frontmatter_name": "gongdi-perspective"
@@ -1772,6 +2518,10 @@
       "package_slug": "wendi-perspective",
       "cn": "杨坚",
       "normalized_cn": "杨坚",
+      "name_hints": [
+        "杨坚",
+        "隋文帝"
+      ],
       "en": "Yang Jian",
       "era": "581–604",
       "frontmatter_name": "wendi-perspective"
@@ -1783,6 +2533,10 @@
       "package_slug": "yangdi-perspective",
       "cn": "杨广",
       "normalized_cn": "杨广",
+      "name_hints": [
+        "杨广",
+        "隋炀帝"
+      ],
       "en": "Yang Guang",
       "era": "604–618",
       "frontmatter_name": "yangdi-perspective"
@@ -1794,6 +2548,11 @@
       "package_slug": "liang-perspective",
       "cn": "李昂",
       "normalized_cn": "李昂",
+      "name_hints": [
+        "唐文宗",
+        "文宗",
+        "李昂"
+      ],
       "en": "Li Ang",
       "era": "809–840",
       "frontmatter_name": "liang-perspective"
@@ -1805,6 +2564,11 @@
       "package_slug": "lichen-perspective",
       "cn": "李忱",
       "normalized_cn": "李忱",
+      "name_hints": [
+        "唐宣宗",
+        "宣宗",
+        "李忱"
+      ],
       "en": "Li Chen",
       "era": "810–859",
       "frontmatter_name": "lichen-perspective"
@@ -1816,6 +2580,11 @@
       "package_slug": "lichun-perspective",
       "cn": "李纯",
       "normalized_cn": "李纯",
+      "name_hints": [
+        "唐宪宗",
+        "宪宗",
+        "李纯"
+      ],
       "en": "Li Chun",
       "era": "778–820",
       "frontmatter_name": "lichun-perspective"
@@ -1827,6 +2596,11 @@
       "package_slug": "licui-perspective",
       "cn": "李漼",
       "normalized_cn": "李漼",
+      "name_hints": [
+        "唐懿宗",
+        "懿宗",
+        "李漼"
+      ],
       "en": "Li Cui",
       "era": "833–873",
       "frontmatter_name": "licui-perspective"
@@ -1838,6 +2612,11 @@
       "package_slug": "lidan-perspective",
       "cn": "李旦",
       "normalized_cn": "李旦",
+      "name_hints": [
+        "唐睿宗",
+        "李旦",
+        "睿宗"
+      ],
       "en": "Li Dan",
       "era": "662–716",
       "frontmatter_name": "lidan-perspective"
@@ -1849,6 +2628,11 @@
       "package_slug": "liheng_m-perspective",
       "cn": "李恒",
       "normalized_cn": "李恒",
+      "name_hints": [
+        "唐穆宗",
+        "李恒",
+        "穆宗"
+      ],
       "en": "Li Heng",
       "era": "795–824",
       "frontmatter_name": "liheng_m-perspective"
@@ -1860,6 +2644,11 @@
       "package_slug": "liheng_s-perspective",
       "cn": "李亨",
       "normalized_cn": "李亨",
+      "name_hints": [
+        "唐肃宗",
+        "李亨",
+        "肃宗"
+      ],
       "en": "Li Heng",
       "era": "711–762",
       "frontmatter_name": "liheng_s-perspective"
@@ -1871,6 +2660,11 @@
       "package_slug": "lilongji-perspective",
       "cn": "李隆基",
       "normalized_cn": "李隆基",
+      "name_hints": [
+        "唐玄宗",
+        "李隆基",
+        "玄宗"
+      ],
       "en": "Li Longji",
       "era": "685–762",
       "frontmatter_name": "lilongji-perspective"
@@ -1882,6 +2676,11 @@
       "package_slug": "lishi-perspective",
       "cn": "李适",
       "normalized_cn": "李适",
+      "name_hints": [
+        "唐德宗",
+        "德宗",
+        "李适"
+      ],
       "en": "Li Shi",
       "era": "742–805",
       "frontmatter_name": "lishi-perspective"
@@ -1893,6 +2692,10 @@
       "package_slug": "lishimin-perspective",
       "cn": "李世民",
       "normalized_cn": "李世民",
+      "name_hints": [
+        "太宗",
+        "李世民"
+      ],
       "en": "Li Shimin",
       "era": "598–649",
       "frontmatter_name": "lishimin-perspective"
@@ -1904,6 +2707,11 @@
       "package_slug": "lisong-perspective",
       "cn": "李诵",
       "normalized_cn": "李诵",
+      "name_hints": [
+        "唐顺宗",
+        "李诵",
+        "顺宗"
+      ],
       "en": "Li Song",
       "era": "761–806",
       "frontmatter_name": "lisong-perspective"
@@ -1915,6 +2723,11 @@
       "package_slug": "lixian-perspective",
       "cn": "李显",
       "normalized_cn": "李显",
+      "name_hints": [
+        "中宗",
+        "唐中宗",
+        "李显"
+      ],
       "en": "Li Xian",
       "era": "656–710",
       "frontmatter_name": "lixian-perspective"
@@ -1926,6 +2739,11 @@
       "package_slug": "lixuan-perspective",
       "cn": "李儇",
       "normalized_cn": "李儇",
+      "name_hints": [
+        "僖宗",
+        "唐僖宗",
+        "李儇"
+      ],
       "en": "Li Xuan",
       "era": "862–888",
       "frontmatter_name": "lixuan-perspective"
@@ -1937,6 +2755,11 @@
       "package_slug": "liyan-perspective",
       "cn": "李炎",
       "normalized_cn": "李炎",
+      "name_hints": [
+        "唐武宗",
+        "李炎",
+        "武宗"
+      ],
       "en": "Li Yan",
       "era": "814–846",
       "frontmatter_name": "liyan-perspective"
@@ -1948,6 +2771,11 @@
       "package_slug": "liye-perspective",
       "cn": "李晔",
       "normalized_cn": "李晔",
+      "name_hints": [
+        "唐昭宗",
+        "昭宗",
+        "李晔"
+      ],
       "en": "Li Ye",
       "era": "867–904",
       "frontmatter_name": "liye-perspective"
@@ -1959,6 +2787,11 @@
       "package_slug": "liyu-perspective",
       "cn": "李豫",
       "normalized_cn": "李豫",
+      "name_hints": [
+        "代宗",
+        "唐代宗",
+        "李豫"
+      ],
       "en": "Li Yu",
       "era": "726–779",
       "frontmatter_name": "liyu-perspective"
@@ -1970,6 +2803,10 @@
       "package_slug": "liyuan-perspective",
       "cn": "李渊",
       "normalized_cn": "李渊",
+      "name_hints": [
+        "李渊",
+        "高祖"
+      ],
       "en": "Li Yuan",
       "era": "566–635",
       "frontmatter_name": "liyuan-perspective"
@@ -1981,6 +2818,11 @@
       "package_slug": "lizhan-perspective",
       "cn": "李湛",
       "normalized_cn": "李湛",
+      "name_hints": [
+        "唐敬宗",
+        "敬宗",
+        "李湛"
+      ],
       "en": "Li Zhan",
       "era": "809–826",
       "frontmatter_name": "lizhan-perspective"
@@ -1992,6 +2834,11 @@
       "package_slug": "lizhi-perspective",
       "cn": "李治",
       "normalized_cn": "李治",
+      "name_hints": [
+        "唐高宗",
+        "李治",
+        "高宗"
+      ],
       "en": "Li Zhi",
       "era": "628–683",
       "frontmatter_name": "lizhi-perspective"
@@ -2003,6 +2850,11 @@
       "package_slug": "lizhu-perspective",
       "cn": "李柷",
       "normalized_cn": "李柷",
+      "name_hints": [
+        "哀帝",
+        "唐哀帝",
+        "李柷"
+      ],
       "en": "Li Zhu",
       "era": "892–908",
       "frontmatter_name": "lizhu-perspective"
@@ -2014,6 +2866,10 @@
       "package_slug": "wuzetian-perspective",
       "cn": "武则天",
       "normalized_cn": "武则天",
+      "name_hints": [
+        "则天顺圣皇后/武周圣神皇帝",
+        "武则天"
+      ],
       "en": "Wu Zetian",
       "era": "624–705",
       "frontmatter_name": "wuzetian-perspective"
@@ -2025,6 +2881,10 @@
       "package_slug": "bujiang-perspective",
       "cn": "不降",
       "normalized_cn": "不降",
+      "name_hints": [
+        "不降",
+        "夏"
+      ],
       "en": "Bujiang",
       "era": "约前1712–约前1643（在位约五十九年，逊位后又十年乃崩）",
       "frontmatter_name": "bujiang-perspective"
@@ -2036,6 +2896,11 @@
       "package_slug": "fa-xia-perspective",
       "cn": "发",
       "normalized_cn": "发",
+      "name_hints": [
+        "发",
+        "夏",
+        "夏后发"
+      ],
       "en": "Fa",
       "era": "约前1665–约前1650",
       "frontmatter_name": "fa-xia-perspective"
@@ -2047,6 +2912,10 @@
       "package_slug": "gao-xia-perspective",
       "cn": "皋",
       "normalized_cn": "皋",
+      "name_hints": [
+        "夏",
+        "皋"
+      ],
       "en": "Gao",
       "era": "约前17世纪（《夏商周年表》夏代约前2070–前1600 之内，无确年）",
       "frontmatter_name": "gao-xia-perspective"
@@ -2058,6 +2927,10 @@
       "package_slug": "huai-xia-perspective",
       "cn": "槐",
       "normalized_cn": "槐",
+      "name_hints": [
+        "夏",
+        "槐"
+      ],
       "en": "Huai",
       "era": "约前1833–约前1790",
       "frontmatter_name": "huai-xia-perspective"
@@ -2069,6 +2942,10 @@
       "package_slug": "jie-perspective",
       "cn": "桀",
       "normalized_cn": "桀",
+      "name_hints": [
+        "夏",
+        "桀"
+      ],
       "en": "Jie",
       "era": "约前1650–约前1600",
       "frontmatter_name": "jie-perspective"
@@ -2080,6 +2957,10 @@
       "package_slug": "jin-xia-perspective",
       "cn": "廑",
       "normalized_cn": "廑",
+      "name_hints": [
+        "夏",
+        "廑"
+      ],
       "en": "Jin",
       "era": "约前1750–约前1730（依断代工程框架粗估，异说存）",
       "frontmatter_name": "jin-xia-perspective"
@@ -2091,6 +2972,10 @@
       "package_slug": "jiong-xia-perspective",
       "cn": "扃",
       "normalized_cn": "扃",
+      "name_hints": [
+        "夏",
+        "扃"
+      ],
       "en": "Jiong",
       "era": "约前1685–约前1665（在位约18年，《帝王世纪》异说21年）",
       "frontmatter_name": "jiong-xia-perspective"
@@ -2102,6 +2987,10 @@
       "package_slug": "kongjia-perspective",
       "cn": "孔甲",
       "normalized_cn": "孔甲",
+      "name_hints": [
+        "夏",
+        "孔甲"
+      ],
       "en": "Kongjia",
       "era": "约前1740–约前1710",
       "frontmatter_name": "kongjia-perspective"
@@ -2113,6 +3002,10 @@
       "package_slug": "mang-xia-perspective",
       "cn": "芒",
       "normalized_cn": "芒",
+      "name_hints": [
+        "夏",
+        "芒"
+      ],
       "en": "Mang",
       "era": "约前19世纪（异说：约前1897–约前1833 / 约前2014–约前1997）",
       "frontmatter_name": "mang-xia-perspective"
@@ -2124,6 +3017,10 @@
       "package_slug": "qi-perspective",
       "cn": "启",
       "normalized_cn": "启",
+      "name_hints": [
+        "启",
+        "夏"
+      ],
       "en": "Qi",
       "era": "约前2057–约前2038",
       "frontmatter_name": "qi-perspective"
@@ -2135,6 +3032,10 @@
       "package_slug": "shaojang-perspective",
       "cn": "少康",
       "normalized_cn": "少康",
+      "name_hints": [
+        "夏",
+        "少康"
+      ],
       "en": "Shao Kang",
       "era": "约前1935–约前1914",
       "frontmatter_name": "shaojang-perspective"
@@ -2146,6 +3047,10 @@
       "package_slug": "taikang-perspective",
       "cn": "太康",
       "normalized_cn": "太康",
+      "name_hints": [
+        "夏",
+        "太康"
+      ],
       "en": "Taikang",
       "era": "约前2038–约前2026",
       "frontmatter_name": "taikang-perspective"
@@ -2157,6 +3062,10 @@
       "package_slug": "xiang-perspective",
       "cn": "相",
       "normalized_cn": "相",
+      "name_hints": [
+        "夏",
+        "相"
+      ],
       "en": "Xiang",
       "era": "约前 19 世纪（约前 1870–约前 1842，传说/半信史，纪年不可定）",
       "frontmatter_name": "xiang-perspective"
@@ -2168,6 +3077,10 @@
       "package_slug": "xie-xia-perspective",
       "cn": "泄",
       "normalized_cn": "泄",
+      "name_hints": [
+        "夏",
+        "泄"
+      ],
       "en": "Xie",
       "era": "约前1903–约前1884",
       "frontmatter_name": "xie-xia-perspective"
@@ -2179,6 +3092,10 @@
       "package_slug": "yu-perspective",
       "cn": "禹",
       "normalized_cn": "禹",
+      "name_hints": [
+        "夏",
+        "禹"
+      ],
       "en": "Yu",
       "era": "约前2070–约前2060（在位年数异说：约10年／约45年，见文末说明）",
       "frontmatter_name": "yu-perspective"
@@ -2190,6 +3107,10 @@
       "package_slug": "zhongkang-perspective",
       "cn": "仲康",
       "normalized_cn": "仲康",
+      "name_hints": [
+        "中康",
+        "仲康"
+      ],
       "en": "Zhongkang",
       "era": "约前2090–约前2076",
       "frontmatter_name": "zhongkang-perspective"
@@ -2201,6 +3122,10 @@
       "package_slug": "zhu-xia-perspective",
       "cn": "杼",
       "normalized_cn": "杼",
+      "name_hints": [
+        "夏",
+        "杼"
+      ],
       "en": "Zhu",
       "era": "约前19世纪（在位约十七年，一说）",
       "frontmatter_name": "zhu-xia-perspective"
@@ -2212,6 +3137,11 @@
       "package_slug": "liuao-perspective",
       "cn": "刘骜",
       "normalized_cn": "刘骜",
+      "name_hints": [
+        "刘骜",
+        "成帝",
+        "汉成帝"
+      ],
       "en": "Liu Ao",
       "era": "前33–前7（成帝在位）",
       "frontmatter_name": "liuao-perspective"
@@ -2223,6 +3153,10 @@
       "package_slug": "liubang-perspective",
       "cn": "刘邦",
       "normalized_cn": "刘邦",
+      "name_hints": [
+        "刘邦",
+        "高祖"
+      ],
       "en": "Liu Bang",
       "era": "前202–前195",
       "frontmatter_name": "liubang-perspective"
@@ -2234,6 +3168,10 @@
       "package_slug": "liuche-perspective",
       "cn": "刘彻",
       "normalized_cn": "刘彻",
+      "name_hints": [
+        "刘彻",
+        "西汉"
+      ],
       "en": "Liu Che",
       "era": "前141–前87（武帝在位）",
       "frontmatter_name": "liuche-perspective"
@@ -2245,6 +3183,11 @@
       "package_slug": "liufoling-perspective",
       "cn": "刘弗陵",
       "normalized_cn": "刘弗陵",
+      "name_hints": [
+        "刘弗陵",
+        "昭帝",
+        "汉昭帝"
+      ],
       "en": "Liu Fuling",
       "era": "前87–前74（昭帝在位）",
       "frontmatter_name": "liufoling-perspective"
@@ -2256,6 +3199,10 @@
       "package_slug": "liugong-perspective",
       "cn": "刘恭",
       "normalized_cn": "刘恭",
+      "name_hints": [
+        "刘恭",
+        "西汉前少帝"
+      ],
       "en": "Liu Gong",
       "era": "前188–前184（前少帝，在位约四年）",
       "frontmatter_name": "liugong-perspective"
@@ -2267,6 +3214,10 @@
       "package_slug": "liuhe-perspective",
       "cn": "刘贺",
       "normalized_cn": "刘贺",
+      "name_hints": [
+        "刘贺",
+        "西汉"
+      ],
       "en": "Liu He",
       "era": "前74（昌邑王即位，在位二十七日）",
       "frontmatter_name": "liuhe-perspective"
@@ -2278,6 +3229,11 @@
       "package_slug": "liuheng-xihan-perspective",
       "cn": "刘恒",
       "normalized_cn": "刘恒",
+      "name_hints": [
+        "刘恒",
+        "文帝",
+        "汉文帝"
+      ],
       "en": "Liu Heng",
       "era": "前180–前157（文帝在位）",
       "frontmatter_name": "liuheng-xihan-perspective"
@@ -2289,6 +3245,10 @@
       "package_slug": "liuhong-perspective",
       "cn": "刘弘",
       "normalized_cn": "刘弘",
+      "name_hints": [
+        "刘弘",
+        "西汉后少帝"
+      ],
       "en": "Liu Hong",
       "era": "前184–前180（后少帝，在位约四年）",
       "frontmatter_name": "liuhong-perspective"
@@ -2300,6 +3260,11 @@
       "package_slug": "liukan-perspective",
       "cn": "刘衎",
       "normalized_cn": "刘衎",
+      "name_hints": [
+        "刘衎",
+        "平帝",
+        "汉平帝"
+      ],
       "en": "Liu Kan",
       "era": "前1–公元6（平帝在位，9岁即位）",
       "frontmatter_name": "liukan-perspective"
@@ -2311,6 +3276,11 @@
       "package_slug": "liuqi-perspective",
       "cn": "刘启",
       "normalized_cn": "刘启",
+      "name_hints": [
+        "刘启",
+        "景帝",
+        "汉景帝"
+      ],
       "en": "Liu Qi",
       "era": "前157–前141（景帝在位）",
       "frontmatter_name": "liuqi-perspective"
@@ -2322,6 +3292,11 @@
       "package_slug": "liushi-perspective",
       "cn": "刘奭",
       "normalized_cn": "刘奭",
+      "name_hints": [
+        "元帝",
+        "刘奭",
+        "汉元帝"
+      ],
       "en": "Liu Shi",
       "era": "前48–前33（元帝在位）",
       "frontmatter_name": "liushi-perspective"
@@ -2333,6 +3308,11 @@
       "package_slug": "liuxin-perspective",
       "cn": "刘欣",
       "normalized_cn": "刘欣",
+      "name_hints": [
+        "刘欣",
+        "哀帝",
+        "汉哀帝"
+      ],
       "en": "Liu Xin",
       "era": "前7–前1（哀帝在位）",
       "frontmatter_name": "liuxin-perspective"
@@ -2344,6 +3324,11 @@
       "package_slug": "liuxun-perspective",
       "cn": "刘询",
       "normalized_cn": "刘询",
+      "name_hints": [
+        "刘询",
+        "宣帝",
+        "汉宣帝"
+      ],
       "en": "Liu Xun",
       "era": "前74–前48",
       "frontmatter_name": "liuxun-perspective"
@@ -2355,6 +3340,10 @@
       "package_slug": "liuying-perspective",
       "cn": "刘盈",
       "normalized_cn": "刘盈",
+      "name_hints": [
+        "刘盈",
+        "西汉"
+      ],
       "en": "Liu Ying",
       "era": "前195–前188（惠帝在位）",
       "frontmatter_name": "liuying-perspective"
@@ -2366,6 +3355,10 @@
       "package_slug": "ruziying-perspective",
       "cn": "刘婴",
       "normalized_cn": "刘婴",
+      "name_hints": [
+        "刘婴",
+        "孺子婴"
+      ],
       "en": "Liu Ying",
       "era": "公元6–公元9（王莽居摄，未即帝位）",
       "frontmatter_name": "ruziying-perspective"
@@ -2377,6 +3370,10 @@
       "package_slug": "ashuqibu-perspective",
       "cn": "阿速吉八",
       "normalized_cn": "阿速吉八",
+      "name_hints": [
+        "天顺帝",
+        "阿速吉八"
+      ],
       "en": "Ragibagh",
       "era": "1320–1328",
       "frontmatter_name": "ashuqibu-perspective"
@@ -2388,6 +3385,11 @@
       "package_slug": "ayurbarwada-perspective",
       "cn": "爱育黎拔力八达",
       "normalized_cn": "爱育黎拔力八达",
+      "name_hints": [
+        "仁宗",
+        "元仁宗",
+        "爱育黎拔力八达"
+      ],
       "en": "Ayurbarwada",
       "era": "1285–1320",
       "frontmatter_name": "ayurbarwada-perspective"
@@ -2399,6 +3401,10 @@
       "package_slug": "guyuk-perspective",
       "cn": "贵由",
       "normalized_cn": "贵由",
+      "name_hints": [
+        "贵由",
+        "追尊元定宗"
+      ],
       "en": "Güyük",
       "era": "1246–1248",
       "frontmatter_name": "guyuk-perspective"
@@ -2410,6 +3416,11 @@
       "package_slug": "haishan-perspective",
       "cn": "海山",
       "normalized_cn": "海山",
+      "name_hints": [
+        "元武宗",
+        "武宗",
+        "海山"
+      ],
       "en": "Khaishan",
       "era": "1281–1311",
       "frontmatter_name": "haishan-perspective"
@@ -2421,6 +3432,11 @@
       "package_slug": "hoshila-perspective",
       "cn": "和世㻋",
       "normalized_cn": "和世㻋",
+      "name_hints": [
+        "1300–1329",
+        "元明宗和世㻋",
+        "和世㻋"
+      ],
       "en": "Khoshila",
       "era": "1300–1329",
       "frontmatter_name": "hoshila-perspective"
@@ -2432,6 +3448,11 @@
       "package_slug": "hubilie-perspective",
       "cn": "忽必烈",
       "normalized_cn": "忽必烈",
+      "name_hints": [
+        "世祖",
+        "元世祖",
+        "忽必烈"
+      ],
       "en": "Kublai Khan",
       "era": "1215–1294",
       "frontmatter_name": "hubilie-perspective"
@@ -2443,6 +3464,10 @@
       "package_slug": "mongke-perspective",
       "cn": "蒙哥",
       "normalized_cn": "蒙哥",
+      "name_hints": [
+        "蒙哥",
+        "追尊元宪宗"
+      ],
       "en": "Möngke",
       "era": "1251–1259",
       "frontmatter_name": "mongke-perspective"
@@ -2454,6 +3479,11 @@
       "package_slug": "ogodei-perspective",
       "cn": "窝阔台",
       "normalized_cn": "窝阔台",
+      "name_hints": [
+        "元太宗为其后追尊之庙号",
+        "太宗为其后追尊之庙号",
+        "窝阔台"
+      ],
       "en": "Ögedei",
       "era": "1229–1241",
       "frontmatter_name": "ogodei-perspective"
@@ -2465,6 +3495,11 @@
       "package_slug": "shidibala-perspective",
       "cn": "硕德八剌",
       "normalized_cn": "硕德八剌",
+      "name_hints": [
+        "元英宗",
+        "硕德八剌",
+        "英宗"
+      ],
       "en": "Shidibala",
       "era": "1303–1323",
       "frontmatter_name": "shidibala-perspective"
@@ -2476,6 +3511,11 @@
       "package_slug": "temuer-perspective",
       "cn": "铁穆耳",
       "normalized_cn": "铁穆耳",
+      "name_hints": [
+        "元成宗",
+        "成宗",
+        "铁穆耳"
+      ],
       "en": "Temur",
       "era": "1265–1307",
       "frontmatter_name": "temuer-perspective"
@@ -2487,6 +3527,10 @@
       "package_slug": "temujin-perspective",
       "cn": "铁木真",
       "normalized_cn": "铁木真",
+      "name_hints": [
+        "成吉思汗",
+        "铁木真"
+      ],
       "en": "Temujin",
       "era": "1206–1227",
       "frontmatter_name": "temujin-perspective"
@@ -2498,6 +3542,11 @@
       "package_slug": "toghontemur-perspective",
       "cn": "妥懽帖睦尔",
       "normalized_cn": "妥懽帖睦尔",
+      "name_hints": [
+        "元顺帝",
+        "妥懽帖睦尔",
+        "顺帝"
+      ],
       "en": "Toghon Temur",
       "era": "1320–1370",
       "frontmatter_name": "toghontemur-perspective"
@@ -2509,6 +3558,11 @@
       "package_slug": "tutemuer-perspective",
       "cn": "图帖睦尔",
       "normalized_cn": "图帖睦尔",
+      "name_hints": [
+        "元文宗",
+        "图帖睦尔",
+        "文宗"
+      ],
       "en": "Tugh Temur",
       "era": "1304–1332",
       "frontmatter_name": "tutemuer-perspective"
@@ -2520,6 +3574,10 @@
       "package_slug": "yesuntemuer-perspective",
       "cn": "也孙铁木儿",
       "normalized_cn": "也孙铁木儿",
+      "name_hints": [
+        "也孙铁木儿",
+        "泰定帝"
+      ],
       "en": "Yesun Temur",
       "era": "1276–1328",
       "frontmatter_name": "yesuntemuer-perspective"
@@ -2531,6 +3589,11 @@
       "package_slug": "yilinzhiban-perspective",
       "cn": "懿璘质班",
       "normalized_cn": "懿璘质班",
+      "name_hints": [
+        "元宁宗",
+        "宁宗",
+        "懿璘质班"
+      ],
       "en": "Rinchinbal",
       "era": "1326–1332",
       "frontmatter_name": "yilinzhiban-perspective"
@@ -2542,6 +3605,11 @@
       "package_slug": "aiwang-perspective",
       "cn": "姬去疾",
       "normalized_cn": "姬去疾",
+      "name_hints": [
+        "周哀王",
+        "哀王",
+        "姬去疾"
+      ],
       "en": "Ai Wang of Zhou",
       "era": "？–前441（在位前441）",
       "frontmatter_name": "aiwang-perspective"
@@ -2553,6 +3621,11 @@
       "package_slug": "anwang-perspective",
       "cn": "姬骄",
       "normalized_cn": "姬骄",
+      "name_hints": [
+        "周安王",
+        "姬骄",
+        "安王"
+      ],
       "en": "King An of Zhou",
       "era": "约前401–前376",
       "frontmatter_name": "anwang-perspective"
@@ -2564,6 +3637,11 @@
       "package_slug": "chengwang-perspective",
       "cn": "姬诵",
       "normalized_cn": "姬诵",
+      "name_hints": [
+        "周成王",
+        "姬诵",
+        "成王"
+      ],
       "en": "King Cheng of Zhou",
       "era": "前1042/前1035–前1021 在位",
       "frontmatter_name": "chengwang-perspective"
@@ -2575,6 +3653,11 @@
       "package_slug": "daowang-perspective",
       "cn": "姬猛",
       "normalized_cn": "姬猛",
+      "name_hints": [
+        "周悼王",
+        "姬猛",
+        "悼王"
+      ],
       "en": "Ji Meng (King Daowang of Zhou)",
       "era": "前520在位（数月至年余）",
       "frontmatter_name": "daowang-perspective"
@@ -2586,6 +3669,11 @@
       "package_slug": "dingwang-perspective",
       "cn": "姬瑜",
       "normalized_cn": "姬瑜",
+      "name_hints": [
+        "周定王",
+        "姬瑜",
+        "定王"
+      ],
       "en": "Dingwang (King Ding of Zhou)",
       "era": "前606–前586（在位）",
       "frontmatter_name": "dingwang-perspective"
@@ -2597,6 +3685,10 @@
       "package_slug": "gongwang-perspective",
       "cn": "姬繄扈",
       "normalized_cn": "姬繄扈",
+      "name_hints": [
+        "共王",
+        "姬繄扈"
+      ],
       "en": "Gongwang",
       "era": "前922–前900（在位）",
       "frontmatter_name": "gongwang-perspective"
@@ -2608,6 +3700,11 @@
       "package_slug": "huanwang-perspective",
       "cn": "姬林",
       "normalized_cn": "姬林",
+      "name_hints": [
+        "周桓王",
+        "姬林",
+        "桓王"
+      ],
       "en": "Huanwang",
       "era": "前720–前697 在位（东周第二代王）",
       "frontmatter_name": "huanwang-perspective"
@@ -2619,6 +3716,11 @@
       "package_slug": "huiwang-perspective",
       "cn": "姬阆",
       "normalized_cn": "姬阆",
+      "name_hints": [
+        "周惠王",
+        "姬阆",
+        "惠王"
+      ],
       "en": "Huiwang",
       "era": "前676–前652",
       "frontmatter_name": "huiwang-perspective"
@@ -2630,6 +3732,11 @@
       "package_slug": "jianwang-perspective",
       "cn": "姬夷",
       "normalized_cn": "姬夷",
+      "name_hints": [
+        "周简王",
+        "姬夷",
+        "简王"
+      ],
       "en": "King Jian of Zhou",
       "era": "前586–前572",
       "frontmatter_name": "jianwang-perspective"
@@ -2641,6 +3748,11 @@
       "package_slug": "jingwang-perspective",
       "cn": "姬贵",
       "normalized_cn": "姬贵",
+      "name_hints": [
+        "周景王",
+        "姬贵",
+        "景王"
+      ],
       "en": "King Jing of Zhou",
       "era": "前544–前520",
       "frontmatter_name": "jingwang-perspective"
@@ -2652,6 +3764,11 @@
       "package_slug": "jingwang2-perspective",
       "cn": "姬匄",
       "normalized_cn": "姬匄",
+      "name_hints": [
+        "周敬王",
+        "姬匄",
+        "敬王"
+      ],
       "en": "Jingwang2",
       "era": "约前519–前476",
       "frontmatter_name": "jingwang2-perspective"
@@ -2663,6 +3780,10 @@
       "package_slug": "kangwang-perspective",
       "cn": "姬钊",
       "normalized_cn": "姬钊",
+      "name_hints": [
+        "姬钊",
+        "康王"
+      ],
       "en": "Kangwang",
       "era": "前1020–前996",
       "frontmatter_name": "kangwang-perspective"
@@ -2674,6 +3795,11 @@
       "package_slug": "kaowang-perspective",
       "cn": "姬嵬",
       "normalized_cn": "姬嵬",
+      "name_hints": [
+        "周考王",
+        "姬嵬",
+        "考王"
+      ],
       "en": "Kaowang",
       "era": "前440–前426",
       "frontmatter_name": "kaowang-perspective"
@@ -2685,6 +3811,11 @@
       "package_slug": "kuangwang-perspective",
       "cn": "姬班",
       "normalized_cn": "姬班",
+      "name_hints": [
+        "匡王",
+        "周匡王",
+        "姬班"
+      ],
       "en": "Kuangwang",
       "era": "前 612–前 607",
       "frontmatter_name": "kuangwang-perspective"
@@ -2696,6 +3827,11 @@
       "package_slug": "liewang-perspective",
       "cn": "姬喜",
       "normalized_cn": "姬喜",
+      "name_hints": [
+        "周烈王",
+        "姬喜",
+        "烈王"
+      ],
       "en": "King Lie of Zhou",
       "era": "前375–前369（在位）",
       "frontmatter_name": "liewang-perspective"
@@ -2707,6 +3843,11 @@
       "package_slug": "lingwang-perspective",
       "cn": "姬泄心",
       "normalized_cn": "姬泄心",
+      "name_hints": [
+        "周灵王",
+        "姬泄心",
+        "灵王"
+      ],
       "en": "King Ling of Zhou",
       "era": "前571–前545",
       "frontmatter_name": "lingwang-perspective"
@@ -2718,6 +3859,11 @@
       "package_slug": "liwang-perspective",
       "cn": "姬胡",
       "normalized_cn": "姬胡",
+      "name_hints": [
+        "厉王",
+        "周厉王",
+        "姬胡"
+      ],
       "en": "King Li of Zhou",
       "era": "前877–前841",
       "frontmatter_name": "liwang-perspective"
@@ -2729,6 +3875,10 @@
       "package_slug": "muwang-perspective",
       "cn": "姬满",
       "normalized_cn": "姬满",
+      "name_hints": [
+        "姬满",
+        "穆王"
+      ],
       "en": "Muwang",
       "era": "前976–前922",
       "frontmatter_name": "muwang-perspective"
@@ -2740,6 +3890,11 @@
       "package_slug": "nanwang-perspective",
       "cn": "姬延",
       "normalized_cn": "姬延",
+      "name_hints": [
+        "周赧王",
+        "姬延",
+        "赧王"
+      ],
       "en": "King Nan of Zhou (Nanwang)",
       "era": "前314–前256",
       "frontmatter_name": "nanwang-perspective"
@@ -2751,6 +3906,11 @@
       "package_slug": "pingwang-perspective",
       "cn": "姬宜臼",
       "normalized_cn": "姬宜臼",
+      "name_hints": [
+        "周平王",
+        "姬宜臼",
+        "平王"
+      ],
       "en": "King Ping of Zhou",
       "era": "约前781–前720（在位 前770–前720）",
       "frontmatter_name": "pingwang-perspective"
@@ -2762,6 +3922,10 @@
       "package_slug": "qingwang-perspective",
       "cn": "周顷王",
       "normalized_cn": "周顷王",
+      "name_hints": [
+        "周顷王",
+        "姬壬臣"
+      ],
       "en": "King Qing of Zhou",
       "era": "约前7世纪（在位前618–前613）",
       "frontmatter_name": "qingwang-perspective"
@@ -2773,6 +3937,10 @@
       "package_slug": "shenjingwang-perspective",
       "cn": "周慎靓王",
       "normalized_cn": "周慎靓王",
+      "name_hints": [
+        "周慎靓王",
+        "姬定"
+      ],
       "en": "King Shenjing of Zhou",
       "era": "在位 前320–前315（崩于前315）",
       "frontmatter_name": "shenjingwang-perspective"
@@ -2784,6 +3952,11 @@
       "package_slug": "siwang-perspective",
       "cn": "姬叔",
       "normalized_cn": "姬叔",
+      "name_hints": [
+        "周思王",
+        "姬叔",
+        "思王"
+      ],
       "en": "Siwang",
       "era": "前441（在位五月）",
       "frontmatter_name": "siwang-perspective"
@@ -2795,6 +3968,11 @@
       "package_slug": "weiiliewang-perspective",
       "cn": "姬午",
       "normalized_cn": "姬午",
+      "name_hints": [
+        "周威烈王",
+        "姬午",
+        "威烈王"
+      ],
       "en": "King Weilie of Zhou",
       "era": "前425–前402",
       "frontmatter_name": "weiiliewang-perspective"
@@ -2806,6 +3984,11 @@
       "package_slug": "wuwang-perspective",
       "cn": "姬发",
       "normalized_cn": "姬发",
+      "name_hints": [
+        "周武王",
+        "姬发",
+        "武王"
+      ],
       "en": "King Wu of Zhou (Wuwang)",
       "era": "约前1046–前1043 在位",
       "frontmatter_name": "wuwang-perspective"
@@ -2817,6 +4000,11 @@
       "package_slug": "xiangwang-perspective",
       "cn": "姬郑",
       "normalized_cn": "姬郑",
+      "name_hints": [
+        "周襄王",
+        "姬郑",
+        "襄王"
+      ],
       "en": "Xiangwang",
       "era": "前651–前619",
       "frontmatter_name": "xiangwang-perspective"
@@ -2828,6 +4016,11 @@
       "package_slug": "xianwang-perspective",
       "cn": "姬扁",
       "normalized_cn": "姬扁",
+      "name_hints": [
+        "周显王",
+        "姬扁",
+        "显王"
+      ],
       "en": "King Xian of Zhou",
       "era": "前368–前321",
       "frontmatter_name": "xianwang-perspective"
@@ -2839,6 +4032,11 @@
       "package_slug": "xiaowang-zhou-perspective",
       "cn": "姬辟方",
       "normalized_cn": "姬辟方",
+      "name_hints": [
+        "周孝王",
+        "姬辟方",
+        "孝王"
+      ],
       "en": "Xiaowang",
       "era": "前891–前886",
       "frontmatter_name": "xiaowang-zhou-perspective"
@@ -2850,6 +4048,11 @@
       "package_slug": "xiwang-perspective",
       "cn": "姬胡齐",
       "normalized_cn": "姬胡齐",
+      "name_hints": [
+        "僖王",
+        "周僖王",
+        "姬胡齐"
+      ],
       "en": "Xiwang",
       "era": "前681–前677 在位（东周第四代王）",
       "frontmatter_name": "xiwang-perspective"
@@ -2861,6 +4064,11 @@
       "package_slug": "xuanwang-perspective",
       "cn": "姬静",
       "normalized_cn": "姬静",
+      "name_hints": [
+        "周宣王",
+        "姬静",
+        "宣王"
+      ],
       "en": "Xuanwang of Zhou",
       "era": "前827–前782",
       "frontmatter_name": "xuanwang-perspective"
@@ -2872,6 +4080,11 @@
       "package_slug": "yiwang-zhou-perspective",
       "cn": "姬囏",
       "normalized_cn": "姬囏",
+      "name_hints": [
+        "周懿王",
+        "姬囏",
+        "懿王"
+      ],
       "en": "King Yi of Zhou",
       "era": "约前899–前892（在位）",
       "frontmatter_name": "yiwang-zhou-perspective"
@@ -2883,6 +4096,11 @@
       "package_slug": "yixie-perspective",
       "cn": "姬燮",
       "normalized_cn": "姬燮",
+      "name_hints": [
+        "周夷王",
+        "夷王",
+        "姬燮"
+      ],
       "en": "Yixie of Zhou",
       "era": "约前885–前878",
       "frontmatter_name": "yixie-perspective"
@@ -2894,6 +4112,11 @@
       "package_slug": "youwang-perspective",
       "cn": "姬宫湦",
       "normalized_cn": "姬宫湦",
+      "name_hints": [
+        "周幽王",
+        "姬宫湦",
+        "幽王"
+      ],
       "en": "King You of Zhou",
       "era": "前781–前771",
       "frontmatter_name": "youwang-perspective"
@@ -2905,6 +4128,11 @@
       "package_slug": "yuanwang-perspective",
       "cn": "姬仁",
       "normalized_cn": "姬仁",
+      "name_hints": [
+        "元王",
+        "周元王",
+        "姬仁"
+      ],
       "en": "Yuanwang",
       "era": "前476–前469",
       "frontmatter_name": "yuanwang-perspective"
@@ -2916,6 +4144,11 @@
       "package_slug": "zhaowang-perspective",
       "cn": "姬瑕",
       "normalized_cn": "姬瑕",
+      "name_hints": [
+        "周昭王",
+        "姬瑕",
+        "昭王"
+      ],
       "en": "Zhaowang",
       "era": "前995–前977",
       "frontmatter_name": "zhaowang-perspective"
@@ -2927,6 +4160,11 @@
       "package_slug": "zhendingwang-perspective",
       "cn": "姬介",
       "normalized_cn": "姬介",
+      "name_hints": [
+        "周贞定王",
+        "姬介",
+        "贞定王"
+      ],
       "en": "Zhendingwang of Zhou",
       "era": "前468–前441",
       "frontmatter_name": "zhendingwang-perspective"
@@ -2938,6 +4176,11 @@
       "package_slug": "zhuangwang-perspective",
       "cn": "姬佗",
       "normalized_cn": "姬佗",
+      "name_hints": [
+        "周庄王",
+        "姬佗",
+        "庄王"
+      ],
       "en": "Zhuangwang",
       "era": "前696–前682（在位）",
       "frontmatter_name": "zhuangwang-perspective"

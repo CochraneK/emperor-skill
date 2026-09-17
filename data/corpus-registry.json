@@ -172,15 +172,17 @@
     "candidate_index": "data/rulers-person-index.json",
     "coverage_report": "assessment/CORPUS_COVERAGE.md",
     "gap_file": "data/corpus-gap.json",
-    "candidate_persons": 1336,
-    "locked_core_persons": 1040,
-    "matched_core_persons": 174,
-    "missing_core_persons": 866,
-    "review_persons": 264,
+    "candidate_persons": 1312,
+    "locked_core_persons": 913,
+    "matched_core_persons": 260,
+    "missing_core_persons": 653,
+    "review_persons": 365,
+    "extended_persons": 15,
+    "legendary_persons": 16,
     "existing_skills": 267,
-    "matched_existing_skills": 174,
-    "unmatched_existing_skills": 93,
-    "core_coverage_ratio": 0.1673,
-    "note": "Coverage is provisional until identity QA and remaining polity discovery are closed; REVIEW is excluded from locked CORE."
+    "matched_existing_skills": 261,
+    "unmatched_existing_skills": 6,
+    "core_coverage_ratio": 0.2848,
+    "note": "Provisional until identity QA and remaining polity discovery close; REVIEW excluded from locked CORE."
   }
 }
