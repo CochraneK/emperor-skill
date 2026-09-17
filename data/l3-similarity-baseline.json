@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "status": "DIAGNOSTIC_BASELINE_NOT_QUALITY_VERDICT",
   "summary": {
-    "packages": 304,
+    "packages": 305,
     "pairs_with_overlap_at_least_30": 4779,
     "jaccard_max": 0.22963,
     "jaccard_p95": 0.02672759999999993,

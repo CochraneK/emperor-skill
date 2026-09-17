@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 913,
-    "matched_core_persons": 302,
-    "missing_core_persons": 611,
+    "matched_core_persons": 303,
+    "missing_core_persons": 610,
     "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 304,
-    "matched_existing_skills": 303,
+    "existing_skills": 305,
+    "matched_existing_skills": 304,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 304,
-    "core_coverage_ratio": 0.3308
+    "accounted_existing_skills": 305,
+    "core_coverage_ratio": 0.3319
   },
   "missing_core": [
     {
@@ -4425,16 +4425,6 @@
     {
       "candidate_id": "ruler-1075",
       "canonical_name": "赵武侯",
-      "corpus_status": "CORE",
-      "polities": [
-        "赵"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-1076",
-      "canonical_name": "赵武灵王赵雍",
       "corpus_status": "CORE",
       "polities": [
         "赵"
@@ -21115,8 +21105,10 @@
       "polities": [
         "赵"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/zhou/zhaowulingwang-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-1077",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 304,
+  "count": 305,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -4686,6 +4686,23 @@
       "en": "Zhaowang",
       "era": "前995–前977",
       "frontmatter_name": "zhaowang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/zhaowulingwang-perspective",
+      "skill_file": "skills/zhou/zhaowulingwang-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "zhaowulingwang-perspective",
+      "cn": "赵武灵王赵雍",
+      "normalized_cn": "赵武灵王赵雍",
+      "name_hints": [
+        "武灵王",
+        "赵武灵王",
+        "赵武灵王赵雍",
+        "赵雍"
+      ],
+      "en": "King Wuling of Zhao",
+      "era": "前325–前299 在位；前299–前295 称主父",
+      "frontmatter_name": "zhaowulingwang-perspective"
     },
     {
       "skill_path": "skills/zhou/zhendingwang-perspective",

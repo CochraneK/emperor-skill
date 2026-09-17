@@ -5,7 +5,7 @@
   "worker_brief": "WORKER_BRIEF_V2.md",
   "status_note": "The frozen 39-package mtime provenance snapshot is fully classified. This is triage, not a corpus-wide PASS.",
   "totals": {
-    "skills": 304,
+    "skills": 305,
     "dynasty_directories": 18,
     "skills_top_level_directories": 19
   },
@@ -26,7 +26,7 @@
     {
       "id": "zhou",
       "name": "周",
-      "count": 37
+      "count": 38
     },
     {
       "id": "qin",
@@ -185,17 +185,17 @@
     "scope_exceptions": "data/corpus-scope-exceptions.json",
     "candidate_persons": 1312,
     "locked_core_persons": 913,
-    "matched_core_persons": 302,
-    "missing_core_persons": 611,
+    "matched_core_persons": 303,
+    "missing_core_persons": 610,
     "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 304,
-    "matched_existing_skills": 303,
+    "existing_skills": 305,
+    "matched_existing_skills": 304,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 304,
-    "core_coverage_ratio": 0.3308,
+    "accounted_existing_skills": 305,
+    "core_coverage_ratio": 0.3319,
     "note": "Canonical-label QA is clean and stable IDs are active. REVIEW disputes and polity discovery remain explicit without renumbering existing persons.",
     "person_id_registry": "data/ruler-person-id-registry.json",
     "stable_ids_active": 1312,
