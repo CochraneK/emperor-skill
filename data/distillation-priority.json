@@ -1,0 +1,6122 @@
+{
+  "schema_version": "1.0",
+  "status": "CANONICAL_DISTILLATION_PRIORITY_GENERATED",
+  "policy_file": "data/distillation-priority-policy.json",
+  "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
+  "summary": {
+    "all_missing_core": 648,
+    "p0_backbone_core_persons": 216,
+    "p0_backbone_complete": 116,
+    "p0_backbone_missing": 100,
+    "p0_backbone_completion_ratio": 0.537,
+    "p1_post_qin_anchor_candidate_pool": 207,
+    "p2_remaining_post_qin_core_pool": 207,
+    "p3_early_and_preqin_missing_core": 404,
+    "mapping_issues": 0,
+    "current_focus_lane": "新",
+    "current_focus_missing": 1
+  },
+  "p0_backbone": {
+    "rule": "Work chronologically. Finish every currently locked-CORE missing ruler in the current backbone lane before advancing to the next lane. Short reigns remain included when they are CORE. REVIEW claimants do not block the lane.",
+    "current_focus_lane": "新",
+    "lanes": [
+      {
+        "lane_order": 10,
+        "label": "秦",
+        "polity_name": "秦帝国",
+        "source_file": "data/rulers-master-h4-qin-han.json",
+        "source_polity_id": "qin-empire",
+        "core_sequence_total": 3,
+        "complete": 3,
+        "missing": 0,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 1.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0228",
+            "canonical_name": "嬴政",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qin/shihuang-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0906",
+            "canonical_name": "胡亥",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qin/ershi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0230",
+            "canonical_name": "子婴",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qin/ziying-perspective"
+            ],
+            "status": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "lane_order": 20,
+        "label": "西汉",
+        "polity_name": "西汉",
+        "source_file": "data/rulers-master-h4-qin-han.json",
+        "source_polity_id": "western-han",
+        "core_sequence_total": 15,
+        "complete": 15,
+        "missing": 0,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 1.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0116",
+            "canonical_name": "刘邦",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liubang-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0098",
+            "canonical_name": "刘盈",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liuying-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0081",
+            "canonical_name": "刘恭",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liugong-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0076",
+            "canonical_name": "刘弘",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liuhong-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0080",
+            "canonical_name": "刘恒",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liuheng-xihan-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-0065",
+            "canonical_name": "刘启",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liuqi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-0078",
+            "canonical_name": "刘彻",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liuche-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-0075",
+            "canonical_name": "刘弗陵",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liufoling-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-0114",
+            "canonical_name": "刘贺",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liuhe-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 10,
+            "person_id": "ruler-0112",
+            "canonical_name": "刘询",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liuxun-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 11,
+            "person_id": "ruler-0068",
+            "canonical_name": "刘奭",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liushi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 12,
+            "person_id": "ruler-0122",
+            "canonical_name": "刘骜",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liuao-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 13,
+            "person_id": "ruler-0089",
+            "canonical_name": "刘欣",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liuxin-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 14,
+            "person_id": "ruler-0109",
+            "canonical_name": "刘衎",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/liukan-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 15,
+            "person_id": "ruler-0069",
+            "canonical_name": "刘婴",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/xihan/ruziying-perspective"
+            ],
+            "status": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "lane_order": 30,
+        "label": "新",
+        "polity_name": "新",
+        "source_file": "data/rulers-master-h4-qin-han.json",
+        "source_polity_id": "xin",
+        "core_sequence_total": 1,
+        "complete": 0,
+        "missing": 1,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0787",
+            "canonical_name": "王莽",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 40,
+        "label": "东汉",
+        "polity_name": "东汉",
+        "source_file": "data/rulers-master-h4-qin-han.json",
+        "source_polity_id": "eastern-han",
+        "core_sequence_total": 14,
+        "complete": 13,
+        "missing": 1,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.9286,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0102",
+            "canonical_name": "刘秀",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/guangwudi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0074",
+            "canonical_name": "刘庄",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/mingdi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0092",
+            "canonical_name": "刘炟",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/zhangdi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0108",
+            "canonical_name": "刘肇",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/hedi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0120",
+            "canonical_name": "刘隆",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/shangdi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-0100",
+            "canonical_name": "刘祜",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/andi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-0083",
+            "canonical_name": "刘懿",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-0059",
+            "canonical_name": "刘保",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/shundi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-0093",
+            "canonical_name": "刘炳",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/chongdi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 10,
+            "person_id": "ruler-0106",
+            "canonical_name": "刘缵",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/zhidi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 11,
+            "person_id": "ruler-0079",
+            "canonical_name": "刘志",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/huandi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 12,
+            "person_id": "ruler-0073",
+            "canonical_name": "刘宏",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/lingdi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 13,
+            "person_id": "ruler-0115",
+            "canonical_name": "刘辩",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/shaodi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 14,
+            "person_id": "ruler-0063",
+            "canonical_name": "刘协",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/donghan/xiandi-perspective"
+            ],
+            "status": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "lane_order": 50,
+        "label": "曹魏",
+        "polity_name": "曹魏",
+        "source_file": "data/rulers-master-h5-jin-sixteen.json",
+        "source_polity_id": "cao-wei",
+        "core_sequence_total": 5,
+        "complete": 0,
+        "missing": 5,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0445",
+            "canonical_name": "曹丕",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0450",
+            "canonical_name": "曹叡",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0471",
+            "canonical_name": "曹芳",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0476",
+            "canonical_name": "曹髦",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0454",
+            "canonical_name": "曹奂",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 51,
+        "label": "蜀汉",
+        "polity_name": "蜀汉",
+        "source_file": "data/rulers-master-h5-jin-sixteen.json",
+        "source_polity_id": "shu-han",
+        "core_sequence_total": 2,
+        "complete": 0,
+        "missing": 2,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0067",
+            "canonical_name": "刘备",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0101",
+            "canonical_name": "刘禅",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 52,
+        "label": "孙吴",
+        "polity_name": "孙吴",
+        "source_file": "data/rulers-master-h5-jin-sixteen.json",
+        "source_polity_id": "eastern-wu",
+        "core_sequence_total": 4,
+        "complete": 0,
+        "missing": 4,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0236",
+            "canonical_name": "孙权",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0233",
+            "canonical_name": "孙亮",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0234",
+            "canonical_name": "孙休",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0237",
+            "canonical_name": "孙皓",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 60,
+        "label": "西晋",
+        "polity_name": "西晋",
+        "source_file": "data/rulers-master-h5-jin-sixteen.json",
+        "source_polity_id": "western-jin",
+        "core_sequence_total": 4,
+        "complete": 0,
+        "missing": 4,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0184",
+            "canonical_name": "司马炎",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0190",
+            "canonical_name": "司马衷",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0185",
+            "canonical_name": "司马炽",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0191",
+            "canonical_name": "司马邺",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 61,
+        "label": "东晋",
+        "polity_name": "东晋",
+        "source_file": "data/rulers-master-h5-jin-sixteen.json",
+        "source_polity_id": "eastern-jin",
+        "core_sequence_total": 11,
+        "complete": 0,
+        "missing": 11,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0186",
+            "canonical_name": "司马睿",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0187",
+            "canonical_name": "司马绍",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0189",
+            "canonical_name": "司马衍",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0179",
+            "canonical_name": "司马岳",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0188",
+            "canonical_name": "司马聃",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-0177",
+            "canonical_name": "司马丕",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-0178",
+            "canonical_name": "司马奕",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-0182",
+            "canonical_name": "司马昱",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-0183",
+            "canonical_name": "司马曜",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 10,
+            "person_id": "ruler-0180",
+            "canonical_name": "司马德宗",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 11,
+            "person_id": "ruler-0181",
+            "canonical_name": "司马德文",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 70,
+        "label": "刘宋",
+        "polity_name": "刘宋",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "liu-song",
+        "core_sequence_total": 9,
+        "complete": 0,
+        "missing": 9,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0110",
+            "canonical_name": "刘裕",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0055",
+            "canonical_name": "刘义符",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0056",
+            "canonical_name": "刘义隆",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0062",
+            "canonical_name": "刘劭",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0121",
+            "canonical_name": "刘骏",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-0070",
+            "canonical_name": "刘子业",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-0077",
+            "canonical_name": "刘彧",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-0086",
+            "canonical_name": "刘昱",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-0060",
+            "canonical_name": "刘准",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 71,
+        "label": "南齐",
+        "polity_name": "南齐",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "southern-qi",
+        "core_sequence_total": 7,
+        "complete": 0,
+        "missing": 7,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0944",
+            "canonical_name": "萧道成",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0943",
+            "canonical_name": "萧赜",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0932",
+            "canonical_name": "萧昭业",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0933",
+            "canonical_name": "萧昭文",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0946",
+            "canonical_name": "萧鸾",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-0927",
+            "canonical_name": "萧宝卷",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-0928",
+            "canonical_name": "萧宝融",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 72,
+        "label": "南梁",
+        "polity_name": "南梁",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "southern-liang",
+        "core_sequence_total": 5,
+        "complete": 0,
+        "missing": 5,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0941",
+            "canonical_name": "萧衍",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0939",
+            "canonical_name": "萧纲",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0935",
+            "canonical_name": "萧栋",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0940",
+            "canonical_name": "萧绎",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0931",
+            "canonical_name": "萧方智",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 73,
+        "label": "陈",
+        "polity_name": "陈",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "chen",
+        "core_sequence_total": 5,
+        "complete": 0,
+        "missing": 5,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-1185",
+            "canonical_name": "陈霸先",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-1183",
+            "canonical_name": "陈蒨",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-1151",
+            "canonical_name": "陈伯宗",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-1186",
+            "canonical_name": "陈顼",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-1157",
+            "canonical_name": "陈叔宝",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 74,
+        "label": "北魏",
+        "polity_name": "北魏",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "northern-wei",
+        "core_sequence_total": 15,
+        "complete": 0,
+        "missing": 15,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0389",
+            "canonical_name": "拓跋珪",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0384",
+            "canonical_name": "拓跋嗣",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0387",
+            "canonical_name": "拓跋焘",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0383",
+            "canonical_name": "拓跋余",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0386",
+            "canonical_name": "拓跋濬",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-0385",
+            "canonical_name": "拓跋弘",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-0033",
+            "canonical_name": "元宏",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-0036",
+            "canonical_name": "元恪",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-0042",
+            "canonical_name": "元诩",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 10,
+            "person_id": "ruler-0043",
+            "canonical_name": "元钊",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 11,
+            "person_id": "ruler-0032",
+            "canonical_name": "元子攸",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 12,
+            "person_id": "ruler-0038",
+            "canonical_name": "元晔",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 13,
+            "person_id": "ruler-0037",
+            "canonical_name": "元恭",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 14,
+            "person_id": "ruler-0039",
+            "canonical_name": "元朗",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 15,
+            "person_id": "ruler-0041",
+            "canonical_name": "元脩",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 75,
+        "label": "东魏",
+        "polity_name": "东魏",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "eastern-wei",
+        "core_sequence_total": 1,
+        "complete": 0,
+        "missing": 1,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0031",
+            "canonical_name": "元善见",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 76,
+        "label": "西魏",
+        "polity_name": "西魏",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "western-wei",
+        "core_sequence_total": 3,
+        "complete": 0,
+        "missing": 3,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0034",
+            "canonical_name": "元宝炬",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0044",
+            "canonical_name": "元钦",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0035",
+            "canonical_name": "元廓",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 77,
+        "label": "北齐",
+        "polity_name": "北齐",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "northern-qi",
+        "core_sequence_total": 6,
+        "complete": 0,
+        "missing": 6,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-1228",
+            "canonical_name": "高洋",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-1226",
+            "canonical_name": "高殷",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-1230",
+            "canonical_name": "高演",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-1229",
+            "canonical_name": "高湛",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-1231",
+            "canonical_name": "高纬",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-1225",
+            "canonical_name": "高恒",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 78,
+        "label": "北周",
+        "polity_name": "北周",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "northern-zhou",
+        "core_sequence_total": 5,
+        "complete": 0,
+        "missing": 5,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0244",
+            "canonical_name": "宇文觉",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0243",
+            "canonical_name": "宇文毓",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0246",
+            "canonical_name": "宇文邕",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0245",
+            "canonical_name": "宇文赟",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0247",
+            "canonical_name": "宇文阐",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 80,
+        "label": "隋",
+        "polity_name": "隋",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "sui",
+        "core_sequence_total": 4,
+        "complete": 3,
+        "missing": 1,
+        "noncore_primary_entries": 1,
+        "completion_ratio": 0.75,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0601",
+            "canonical_name": "杨坚",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/sui/wendi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0604",
+            "canonical_name": "杨广",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/sui/yangdi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0596",
+            "canonical_name": "杨侑",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/sui/gongdi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0606",
+            "canonical_name": "杨浩",
+            "corpus_status": "REVIEW",
+            "status": "NON_CORE_DOES_NOT_BLOCK_P0"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0597",
+            "canonical_name": "杨侗",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 90,
+        "label": "唐/武周",
+        "polity_name": "唐",
+        "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
+        "source_polity_id": "tang",
+        "core_sequence_total": 22,
+        "complete": 21,
+        "missing": 1,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.9545,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0547",
+            "canonical_name": "李渊",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/liyuan-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0513",
+            "canonical_name": "李世民",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lishimin-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0546",
+            "canonical_name": "李治",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lizhi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0539",
+            "canonical_name": "李显",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lixian-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0536",
+            "canonical_name": "李旦",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lidan-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-0663",
+            "canonical_name": "武则天",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/wuzetian-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-0569",
+            "canonical_name": "李重茂",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-0570",
+            "canonical_name": "李隆基",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lilongji-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-0515",
+            "canonical_name": "李亨",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/liheng_s-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 10,
+            "person_id": "ruler-0564",
+            "canonical_name": "李豫",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/liyu-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 11,
+            "person_id": "ruler-0567",
+            "canonical_name": "李适",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lishi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 12,
+            "person_id": "ruler-0562",
+            "canonical_name": "李诵",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lisong-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 13,
+            "person_id": "ruler-0556",
+            "canonical_name": "李纯",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lichun-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 14,
+            "person_id": "ruler-0535",
+            "canonical_name": "李恒",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/liheng_m-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 15,
+            "person_id": "ruler-0548",
+            "canonical_name": "李湛",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lizhan-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 16,
+            "person_id": "ruler-0537",
+            "canonical_name": "李昂",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/liang-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 17,
+            "person_id": "ruler-0550",
+            "canonical_name": "李炎",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/liyan-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 18,
+            "person_id": "ruler-0533",
+            "canonical_name": "李忱",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lichen-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 19,
+            "person_id": "ruler-0549",
+            "canonical_name": "李漼",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/licui-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 20,
+            "person_id": "ruler-0520",
+            "canonical_name": "李儇",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lixuan-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 21,
+            "person_id": "ruler-0540",
+            "canonical_name": "李晔",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/liye-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 22,
+            "person_id": "ruler-0543",
+            "canonical_name": "李柷",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/tang/lizhu-perspective"
+            ],
+            "status": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "lane_order": 100,
+        "label": "后梁",
+        "polity_name": "后梁",
+        "source_file": "data/rulers-master-h7-five-ten.json",
+        "source_polity_id": "later-liang",
+        "core_sequence_total": 3,
+        "complete": 0,
+        "missing": 3,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0496",
+            "canonical_name": "朱温",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0484",
+            "canonical_name": "朱友珪",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0485",
+            "canonical_name": "朱友贞",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 101,
+        "label": "后唐",
+        "polity_name": "后唐",
+        "source_file": "data/rulers-master-h7-five-ten.json",
+        "source_polity_id": "later-tang",
+        "core_sequence_total": 4,
+        "complete": 0,
+        "missing": 4,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0525",
+            "canonical_name": "李存勖",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0523",
+            "canonical_name": "李嗣源",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0518",
+            "canonical_name": "李从厚",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0519",
+            "canonical_name": "李从珂",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 102,
+        "label": "后晋",
+        "polity_name": "后晋",
+        "source_file": "data/rulers-master-h7-five-ten.json",
+        "source_polity_id": "later-jin",
+        "core_sequence_total": 2,
+        "complete": 0,
+        "missing": 2,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0815",
+            "canonical_name": "石敬瑭",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0819",
+            "canonical_name": "石重贵",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 103,
+        "label": "后汉",
+        "polity_name": "后汉",
+        "source_file": "data/rulers-master-h7-five-ten.json",
+        "source_polity_id": "later-han",
+        "core_sequence_total": 2,
+        "complete": 0,
+        "missing": 2,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0099",
+            "canonical_name": "刘知远",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0084",
+            "canonical_name": "刘承祐",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 104,
+        "label": "后周",
+        "polity_name": "后周",
+        "source_file": "data/rulers-master-h7-five-ten.json",
+        "source_polity_id": "later-zhou",
+        "core_sequence_total": 3,
+        "complete": 0,
+        "missing": 3,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 0.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-1128",
+            "canonical_name": "郭威",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0622",
+            "canonical_name": "柴荣",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0621",
+            "canonical_name": "柴宗训",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [],
+            "status": "MISSING"
+          }
+        ]
+      },
+      {
+        "lane_order": 110,
+        "label": "北宋",
+        "polity_name": "北宋",
+        "source_file": "data/rulers-master-h8-song-liao-xia-jin-dali.json",
+        "source_polity_id": "northern-song",
+        "core_sequence_total": 9,
+        "complete": 9,
+        "missing": 0,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 1.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-1055",
+            "canonical_name": "赵匡胤",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaokuangyin-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-1054",
+            "canonical_name": "赵光义",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoguangyi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-1060",
+            "canonical_name": "赵恒",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoheng-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-1079",
+            "canonical_name": "赵祯",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaozhen-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-1071",
+            "canonical_name": "赵曙",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoshu-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-1082",
+            "canonical_name": "赵顼",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoxu_s-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-1078",
+            "canonical_name": "赵煦",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoxu_z-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-1053",
+            "canonical_name": "赵佶",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoji-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-1073",
+            "canonical_name": "赵桓",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaohuan-perspective"
+            ],
+            "status": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "lane_order": 111,
+        "label": "南宋",
+        "polity_name": "南宋",
+        "source_file": "data/rulers-master-h8-song-liao-xia-jin-dali.json",
+        "source_polity_id": "southern-song",
+        "core_sequence_total": 9,
+        "complete": 9,
+        "missing": 0,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 1.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-1072",
+            "canonical_name": "赵构",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaogou-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-1068",
+            "canonical_name": "赵昚",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoshen-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-1062",
+            "canonical_name": "赵惇",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaodun-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-1065",
+            "canonical_name": "赵扩",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaokuo-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-1067",
+            "canonical_name": "赵昀",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoyun-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-1080",
+            "canonical_name": "赵禥",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoqi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-1052",
+            "canonical_name": "赵㬎",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoxian-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-1069",
+            "canonical_name": "赵昰",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaoshi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-1070",
+            "canonical_name": "赵昺",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/song/zhaobing-perspective"
+            ],
+            "status": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "lane_order": 120,
+        "label": "大蒙古国",
+        "polity_name": "大蒙古国",
+        "source_file": "data/rulers-master-h9-yuan-rivals.json",
+        "source_polity_id": "great-mongol-state",
+        "core_sequence_total": 4,
+        "complete": 4,
+        "missing": 0,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 1.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-1142",
+            "canonical_name": "铁木真",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/temujin-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0876",
+            "canonical_name": "窝阔台",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/ogodei-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-1047",
+            "canonical_name": "贵由",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/guyuk-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0948",
+            "canonical_name": "蒙哥",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/mongke-perspective"
+            ],
+            "status": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "lane_order": 121,
+        "label": "元",
+        "polity_name": "大元",
+        "source_file": "data/rulers-master-h9-yuan-rivals.json",
+        "source_polity_id": "yuan",
+        "core_sequence_total": 11,
+        "complete": 11,
+        "missing": 0,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 1.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0354",
+            "canonical_name": "忽必烈",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/hubilie-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-1143",
+            "canonical_name": "铁穆耳",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/temuer-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0704",
+            "canonical_name": "海山",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/haishan-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0776",
+            "canonical_name": "爱育黎拔力八达",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/ayurbarwada-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0821",
+            "canonical_name": "硕德八剌",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/shidibala-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-0016",
+            "canonical_name": "也孙铁木儿",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/yesuntemuer-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-1149",
+            "canonical_name": "阿速吉八",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/ashuqibu-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-0206",
+            "canonical_name": "图帖睦尔",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/tutemuer-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-0202",
+            "canonical_name": "和世㻋",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/hoshila-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 10,
+            "person_id": "ruler-0377",
+            "canonical_name": "懿璘质班",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/yilinzhiban-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 11,
+            "person_id": "ruler-0223",
+            "canonical_name": "妥懽帖睦尔",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/yuan/toghontemur-perspective"
+            ],
+            "status": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "lane_order": 130,
+        "label": "明",
+        "polity_name": "明",
+        "source_file": "data/rulers-master-h10-ming-transition.json",
+        "source_polity_id": "ming",
+        "core_sequence_total": 16,
+        "complete": 16,
+        "missing": 0,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 1.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0481",
+            "canonical_name": "朱元璋",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuyuanzhang-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0480",
+            "canonical_name": "朱允炆",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuyunwen-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0493",
+            "canonical_name": "朱棣",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhudi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0512",
+            "canonical_name": "朱高炽",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhugaochi-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0502",
+            "canonical_name": "朱瞻基",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuzhanji-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-0504",
+            "canonical_name": "朱祁镇",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuqizhen-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-0503",
+            "canonical_name": "朱祁钰",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuqiyu-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-0510",
+            "canonical_name": "朱见深",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhujianshen-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-0505",
+            "canonical_name": "朱祐樘",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuyoutang-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 10,
+            "person_id": "ruler-0482",
+            "canonical_name": "朱厚照",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuhouzhao-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 11,
+            "person_id": "ruler-0483",
+            "canonical_name": "朱厚熜",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuhoucong-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 12,
+            "person_id": "ruler-0511",
+            "canonical_name": "朱载坖",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuzaihou-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 13,
+            "person_id": "ruler-0507",
+            "canonical_name": "朱翊钧",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuyijun-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 14,
+            "person_id": "ruler-0487",
+            "canonical_name": "朱常洛",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuchangluo-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 15,
+            "person_id": "ruler-0498",
+            "canonical_name": "朱由校",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuyouxiao-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 16,
+            "person_id": "ruler-0499",
+            "canonical_name": "朱由检",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/ming/zhuyoujian-perspective"
+            ],
+            "status": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "lane_order": 140,
+        "label": "清",
+        "polity_name": "清",
+        "source_file": "data/rulers-master-h11-qing-rivals.json",
+        "source_polity_id": "qing",
+        "core_sequence_total": 12,
+        "complete": 12,
+        "missing": 0,
+        "noncore_primary_entries": 0,
+        "completion_ratio": 1.0,
+        "persons": [
+          {
+            "succession_order": 1,
+            "person_id": "ruler-0128",
+            "canonical_name": "努尔哈赤",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/nurhaci-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 2,
+            "person_id": "ruler-0805",
+            "canonical_name": "皇太极",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/hongtaiji-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 3,
+            "person_id": "ruler-0828",
+            "canonical_name": "福临",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/fulin-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 4,
+            "person_id": "ruler-0777",
+            "canonical_name": "玄烨",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/xuanye-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 5,
+            "person_id": "ruler-0910",
+            "canonical_name": "胤禛",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/yinzhen-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 6,
+            "person_id": "ruler-0321",
+            "canonical_name": "弘历",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/hongli-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 7,
+            "person_id": "ruler-1207",
+            "canonical_name": "颙琰",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/yongyan-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 8,
+            "person_id": "ruler-0399",
+            "canonical_name": "旻宁",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/minning-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 9,
+            "person_id": "ruler-0221",
+            "canonical_name": "奕詝",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/yizhu-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 10,
+            "person_id": "ruler-1087",
+            "canonical_name": "载淳",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/zaichun-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 11,
+            "person_id": "ruler-1088",
+            "canonical_name": "载湉",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/zaitian-perspective"
+            ],
+            "status": "COMPLETE"
+          },
+          {
+            "succession_order": 12,
+            "person_id": "ruler-0706",
+            "canonical_name": "溥仪",
+            "corpus_status": "CORE",
+            "existing_skill_paths": [
+              "skills/qing/puyi-perspective"
+            ],
+            "status": "COMPLETE"
+          }
+        ]
+      }
+    ],
+    "queue": [
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 30,
+        "lane": "新",
+        "polity_name": "新",
+        "succession_order": 1,
+        "person_id": "ruler-0787",
+        "canonical_name": "王莽",
+        "source_files": [
+          "data/rulers-master-h4-qin-han.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "ACTIVE_NOW"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 40,
+        "lane": "东汉",
+        "polity_name": "东汉",
+        "succession_order": 7,
+        "person_id": "ruler-0083",
+        "canonical_name": "刘懿",
+        "source_files": [
+          "data/rulers-master-h4-qin-han.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 50,
+        "lane": "曹魏",
+        "polity_name": "曹魏",
+        "succession_order": 1,
+        "person_id": "ruler-0445",
+        "canonical_name": "曹丕",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 50,
+        "lane": "曹魏",
+        "polity_name": "曹魏",
+        "succession_order": 2,
+        "person_id": "ruler-0450",
+        "canonical_name": "曹叡",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 50,
+        "lane": "曹魏",
+        "polity_name": "曹魏",
+        "succession_order": 3,
+        "person_id": "ruler-0471",
+        "canonical_name": "曹芳",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 50,
+        "lane": "曹魏",
+        "polity_name": "曹魏",
+        "succession_order": 4,
+        "person_id": "ruler-0476",
+        "canonical_name": "曹髦",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 50,
+        "lane": "曹魏",
+        "polity_name": "曹魏",
+        "succession_order": 5,
+        "person_id": "ruler-0454",
+        "canonical_name": "曹奂",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 51,
+        "lane": "蜀汉",
+        "polity_name": "蜀汉",
+        "succession_order": 1,
+        "person_id": "ruler-0067",
+        "canonical_name": "刘备",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 51,
+        "lane": "蜀汉",
+        "polity_name": "蜀汉",
+        "succession_order": 2,
+        "person_id": "ruler-0101",
+        "canonical_name": "刘禅",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 52,
+        "lane": "孙吴",
+        "polity_name": "孙吴",
+        "succession_order": 1,
+        "person_id": "ruler-0236",
+        "canonical_name": "孙权",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 52,
+        "lane": "孙吴",
+        "polity_name": "孙吴",
+        "succession_order": 2,
+        "person_id": "ruler-0233",
+        "canonical_name": "孙亮",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 52,
+        "lane": "孙吴",
+        "polity_name": "孙吴",
+        "succession_order": 3,
+        "person_id": "ruler-0234",
+        "canonical_name": "孙休",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 52,
+        "lane": "孙吴",
+        "polity_name": "孙吴",
+        "succession_order": 4,
+        "person_id": "ruler-0237",
+        "canonical_name": "孙皓",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 60,
+        "lane": "西晋",
+        "polity_name": "西晋",
+        "succession_order": 1,
+        "person_id": "ruler-0184",
+        "canonical_name": "司马炎",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 60,
+        "lane": "西晋",
+        "polity_name": "西晋",
+        "succession_order": 2,
+        "person_id": "ruler-0190",
+        "canonical_name": "司马衷",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 60,
+        "lane": "西晋",
+        "polity_name": "西晋",
+        "succession_order": 3,
+        "person_id": "ruler-0185",
+        "canonical_name": "司马炽",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 60,
+        "lane": "西晋",
+        "polity_name": "西晋",
+        "succession_order": 4,
+        "person_id": "ruler-0191",
+        "canonical_name": "司马邺",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 1,
+        "person_id": "ruler-0186",
+        "canonical_name": "司马睿",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 2,
+        "person_id": "ruler-0187",
+        "canonical_name": "司马绍",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 3,
+        "person_id": "ruler-0189",
+        "canonical_name": "司马衍",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 4,
+        "person_id": "ruler-0179",
+        "canonical_name": "司马岳",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 5,
+        "person_id": "ruler-0188",
+        "canonical_name": "司马聃",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 6,
+        "person_id": "ruler-0177",
+        "canonical_name": "司马丕",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 7,
+        "person_id": "ruler-0178",
+        "canonical_name": "司马奕",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 8,
+        "person_id": "ruler-0182",
+        "canonical_name": "司马昱",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 9,
+        "person_id": "ruler-0183",
+        "canonical_name": "司马曜",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 10,
+        "person_id": "ruler-0180",
+        "canonical_name": "司马德宗",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 61,
+        "lane": "东晋",
+        "polity_name": "东晋",
+        "succession_order": 11,
+        "person_id": "ruler-0181",
+        "canonical_name": "司马德文",
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 70,
+        "lane": "刘宋",
+        "polity_name": "刘宋",
+        "succession_order": 1,
+        "person_id": "ruler-0110",
+        "canonical_name": "刘裕",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 70,
+        "lane": "刘宋",
+        "polity_name": "刘宋",
+        "succession_order": 2,
+        "person_id": "ruler-0055",
+        "canonical_name": "刘义符",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 70,
+        "lane": "刘宋",
+        "polity_name": "刘宋",
+        "succession_order": 3,
+        "person_id": "ruler-0056",
+        "canonical_name": "刘义隆",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 70,
+        "lane": "刘宋",
+        "polity_name": "刘宋",
+        "succession_order": 4,
+        "person_id": "ruler-0062",
+        "canonical_name": "刘劭",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 70,
+        "lane": "刘宋",
+        "polity_name": "刘宋",
+        "succession_order": 5,
+        "person_id": "ruler-0121",
+        "canonical_name": "刘骏",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 70,
+        "lane": "刘宋",
+        "polity_name": "刘宋",
+        "succession_order": 6,
+        "person_id": "ruler-0070",
+        "canonical_name": "刘子业",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 70,
+        "lane": "刘宋",
+        "polity_name": "刘宋",
+        "succession_order": 7,
+        "person_id": "ruler-0077",
+        "canonical_name": "刘彧",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 70,
+        "lane": "刘宋",
+        "polity_name": "刘宋",
+        "succession_order": 8,
+        "person_id": "ruler-0086",
+        "canonical_name": "刘昱",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 70,
+        "lane": "刘宋",
+        "polity_name": "刘宋",
+        "succession_order": 9,
+        "person_id": "ruler-0060",
+        "canonical_name": "刘准",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 71,
+        "lane": "南齐",
+        "polity_name": "南齐",
+        "succession_order": 1,
+        "person_id": "ruler-0944",
+        "canonical_name": "萧道成",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 71,
+        "lane": "南齐",
+        "polity_name": "南齐",
+        "succession_order": 2,
+        "person_id": "ruler-0943",
+        "canonical_name": "萧赜",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 71,
+        "lane": "南齐",
+        "polity_name": "南齐",
+        "succession_order": 3,
+        "person_id": "ruler-0932",
+        "canonical_name": "萧昭业",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 71,
+        "lane": "南齐",
+        "polity_name": "南齐",
+        "succession_order": 4,
+        "person_id": "ruler-0933",
+        "canonical_name": "萧昭文",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 71,
+        "lane": "南齐",
+        "polity_name": "南齐",
+        "succession_order": 5,
+        "person_id": "ruler-0946",
+        "canonical_name": "萧鸾",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 71,
+        "lane": "南齐",
+        "polity_name": "南齐",
+        "succession_order": 6,
+        "person_id": "ruler-0927",
+        "canonical_name": "萧宝卷",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 71,
+        "lane": "南齐",
+        "polity_name": "南齐",
+        "succession_order": 7,
+        "person_id": "ruler-0928",
+        "canonical_name": "萧宝融",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 72,
+        "lane": "南梁",
+        "polity_name": "南梁",
+        "succession_order": 1,
+        "person_id": "ruler-0941",
+        "canonical_name": "萧衍",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 72,
+        "lane": "南梁",
+        "polity_name": "南梁",
+        "succession_order": 2,
+        "person_id": "ruler-0939",
+        "canonical_name": "萧纲",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 72,
+        "lane": "南梁",
+        "polity_name": "南梁",
+        "succession_order": 3,
+        "person_id": "ruler-0935",
+        "canonical_name": "萧栋",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 72,
+        "lane": "南梁",
+        "polity_name": "南梁",
+        "succession_order": 4,
+        "person_id": "ruler-0940",
+        "canonical_name": "萧绎",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 72,
+        "lane": "南梁",
+        "polity_name": "南梁",
+        "succession_order": 5,
+        "person_id": "ruler-0931",
+        "canonical_name": "萧方智",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 73,
+        "lane": "陈",
+        "polity_name": "陈",
+        "succession_order": 1,
+        "person_id": "ruler-1185",
+        "canonical_name": "陈霸先",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 73,
+        "lane": "陈",
+        "polity_name": "陈",
+        "succession_order": 2,
+        "person_id": "ruler-1183",
+        "canonical_name": "陈蒨",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 73,
+        "lane": "陈",
+        "polity_name": "陈",
+        "succession_order": 3,
+        "person_id": "ruler-1151",
+        "canonical_name": "陈伯宗",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 73,
+        "lane": "陈",
+        "polity_name": "陈",
+        "succession_order": 4,
+        "person_id": "ruler-1186",
+        "canonical_name": "陈顼",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 73,
+        "lane": "陈",
+        "polity_name": "陈",
+        "succession_order": 5,
+        "person_id": "ruler-1157",
+        "canonical_name": "陈叔宝",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 1,
+        "person_id": "ruler-0389",
+        "canonical_name": "拓跋珪",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 2,
+        "person_id": "ruler-0384",
+        "canonical_name": "拓跋嗣",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 3,
+        "person_id": "ruler-0387",
+        "canonical_name": "拓跋焘",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 4,
+        "person_id": "ruler-0383",
+        "canonical_name": "拓跋余",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 5,
+        "person_id": "ruler-0386",
+        "canonical_name": "拓跋濬",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 6,
+        "person_id": "ruler-0385",
+        "canonical_name": "拓跋弘",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 7,
+        "person_id": "ruler-0033",
+        "canonical_name": "元宏",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 8,
+        "person_id": "ruler-0036",
+        "canonical_name": "元恪",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 9,
+        "person_id": "ruler-0042",
+        "canonical_name": "元诩",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 10,
+        "person_id": "ruler-0043",
+        "canonical_name": "元钊",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 11,
+        "person_id": "ruler-0032",
+        "canonical_name": "元子攸",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 12,
+        "person_id": "ruler-0038",
+        "canonical_name": "元晔",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 13,
+        "person_id": "ruler-0037",
+        "canonical_name": "元恭",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 14,
+        "person_id": "ruler-0039",
+        "canonical_name": "元朗",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 74,
+        "lane": "北魏",
+        "polity_name": "北魏",
+        "succession_order": 15,
+        "person_id": "ruler-0041",
+        "canonical_name": "元脩",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 75,
+        "lane": "东魏",
+        "polity_name": "东魏",
+        "succession_order": 1,
+        "person_id": "ruler-0031",
+        "canonical_name": "元善见",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 76,
+        "lane": "西魏",
+        "polity_name": "西魏",
+        "succession_order": 1,
+        "person_id": "ruler-0034",
+        "canonical_name": "元宝炬",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 76,
+        "lane": "西魏",
+        "polity_name": "西魏",
+        "succession_order": 2,
+        "person_id": "ruler-0044",
+        "canonical_name": "元钦",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 76,
+        "lane": "西魏",
+        "polity_name": "西魏",
+        "succession_order": 3,
+        "person_id": "ruler-0035",
+        "canonical_name": "元廓",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 77,
+        "lane": "北齐",
+        "polity_name": "北齐",
+        "succession_order": 1,
+        "person_id": "ruler-1228",
+        "canonical_name": "高洋",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 77,
+        "lane": "北齐",
+        "polity_name": "北齐",
+        "succession_order": 2,
+        "person_id": "ruler-1226",
+        "canonical_name": "高殷",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 77,
+        "lane": "北齐",
+        "polity_name": "北齐",
+        "succession_order": 3,
+        "person_id": "ruler-1230",
+        "canonical_name": "高演",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 77,
+        "lane": "北齐",
+        "polity_name": "北齐",
+        "succession_order": 4,
+        "person_id": "ruler-1229",
+        "canonical_name": "高湛",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 77,
+        "lane": "北齐",
+        "polity_name": "北齐",
+        "succession_order": 5,
+        "person_id": "ruler-1231",
+        "canonical_name": "高纬",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 77,
+        "lane": "北齐",
+        "polity_name": "北齐",
+        "succession_order": 6,
+        "person_id": "ruler-1225",
+        "canonical_name": "高恒",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 78,
+        "lane": "北周",
+        "polity_name": "北周",
+        "succession_order": 1,
+        "person_id": "ruler-0244",
+        "canonical_name": "宇文觉",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 78,
+        "lane": "北周",
+        "polity_name": "北周",
+        "succession_order": 2,
+        "person_id": "ruler-0243",
+        "canonical_name": "宇文毓",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 78,
+        "lane": "北周",
+        "polity_name": "北周",
+        "succession_order": 3,
+        "person_id": "ruler-0246",
+        "canonical_name": "宇文邕",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 78,
+        "lane": "北周",
+        "polity_name": "北周",
+        "succession_order": 4,
+        "person_id": "ruler-0245",
+        "canonical_name": "宇文赟",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 78,
+        "lane": "北周",
+        "polity_name": "北周",
+        "succession_order": 5,
+        "person_id": "ruler-0247",
+        "canonical_name": "宇文阐",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 80,
+        "lane": "隋",
+        "polity_name": "隋",
+        "succession_order": 5,
+        "person_id": "ruler-0597",
+        "canonical_name": "杨侗",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 90,
+        "lane": "唐/武周",
+        "polity_name": "唐",
+        "succession_order": 7,
+        "person_id": "ruler-0569",
+        "canonical_name": "李重茂",
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 100,
+        "lane": "后梁",
+        "polity_name": "后梁",
+        "succession_order": 1,
+        "person_id": "ruler-0496",
+        "canonical_name": "朱温",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 100,
+        "lane": "后梁",
+        "polity_name": "后梁",
+        "succession_order": 2,
+        "person_id": "ruler-0484",
+        "canonical_name": "朱友珪",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 100,
+        "lane": "后梁",
+        "polity_name": "后梁",
+        "succession_order": 3,
+        "person_id": "ruler-0485",
+        "canonical_name": "朱友贞",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 101,
+        "lane": "后唐",
+        "polity_name": "后唐",
+        "succession_order": 1,
+        "person_id": "ruler-0525",
+        "canonical_name": "李存勖",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 101,
+        "lane": "后唐",
+        "polity_name": "后唐",
+        "succession_order": 2,
+        "person_id": "ruler-0523",
+        "canonical_name": "李嗣源",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 101,
+        "lane": "后唐",
+        "polity_name": "后唐",
+        "succession_order": 3,
+        "person_id": "ruler-0518",
+        "canonical_name": "李从厚",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 101,
+        "lane": "后唐",
+        "polity_name": "后唐",
+        "succession_order": 4,
+        "person_id": "ruler-0519",
+        "canonical_name": "李从珂",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 102,
+        "lane": "后晋",
+        "polity_name": "后晋",
+        "succession_order": 1,
+        "person_id": "ruler-0815",
+        "canonical_name": "石敬瑭",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 102,
+        "lane": "后晋",
+        "polity_name": "后晋",
+        "succession_order": 2,
+        "person_id": "ruler-0819",
+        "canonical_name": "石重贵",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 103,
+        "lane": "后汉",
+        "polity_name": "后汉",
+        "succession_order": 1,
+        "person_id": "ruler-0099",
+        "canonical_name": "刘知远",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 103,
+        "lane": "后汉",
+        "polity_name": "后汉",
+        "succession_order": 2,
+        "person_id": "ruler-0084",
+        "canonical_name": "刘承祐",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 104,
+        "lane": "后周",
+        "polity_name": "后周",
+        "succession_order": 1,
+        "person_id": "ruler-1128",
+        "canonical_name": "郭威",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 104,
+        "lane": "后周",
+        "polity_name": "后周",
+        "succession_order": 2,
+        "person_id": "ruler-0622",
+        "canonical_name": "柴荣",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      },
+      {
+        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
+        "backbone_lane_order": 104,
+        "lane": "后周",
+        "polity_name": "后周",
+        "succession_order": 3,
+        "person_id": "ruler-0621",
+        "canonical_name": "柴宗训",
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "action": "RESEARCH_THEN_DISTILL",
+        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+      }
+    ]
+  },
+  "p1_high_leverage_anchors": {
+    "status": "LOCKED_UNTIL_P0_COMPLETE",
+    "rule": "Only starts after P0 backbone has no locked-CORE missing rulers. Rank remaining post-Qin CORE by evidence readiness, structural coverage gain, comparative value, transition leverage, and future simulation/visualization value. Do not confuse leverage with moral or historical worth.",
+    "candidate_pool": [
+      {
+        "person_id": "ruler-0012",
+        "canonical_name": "乞伏乾归",
+        "polities": [
+          "西秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0013",
+        "canonical_name": "乞伏国仁",
+        "polities": [
+          "西秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0014",
+        "canonical_name": "乞伏暮末",
+        "polities": [
+          "西秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0015",
+        "canonical_name": "乞伏炽磐",
+        "polities": [
+          "西秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0028",
+        "canonical_name": "侯景",
+        "polities": [
+          "侯景汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0046",
+        "canonical_name": "公孙述",
+        "polities": [
+          "成家"
+        ],
+        "source_files": [
+          "data/rulers-master-h4-qin-han.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0047",
+        "canonical_name": "兰汗",
+        "polities": [
+          "后燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0049",
+        "canonical_name": "冉智",
+        "polities": [
+          "冉魏"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0050",
+        "canonical_name": "冉闵",
+        "polities": [
+          "冉魏"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0051",
+        "canonical_name": "冯国璋",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0052",
+        "canonical_name": "冯弘",
+        "polities": [
+          "北燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0053",
+        "canonical_name": "冯跋",
+        "polities": [
+          "北燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0066",
+        "canonical_name": "刘和",
+        "polities": [
+          "汉赵/前赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0071",
+        "canonical_name": "刘守光",
+        "polities": [
+          "燕/桀燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0085",
+        "canonical_name": "刘旻",
+        "polities": [
+          "北汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0087",
+        "canonical_name": "刘晟",
+        "polities": [
+          "南汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0088",
+        "canonical_name": "刘曜",
+        "polities": [
+          "汉赵/前赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0091",
+        "canonical_name": "刘渊",
+        "polities": [
+          "汉赵/前赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0094",
+        "canonical_name": "刘熙",
+        "polities": [
+          "汉赵/前赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0095",
+        "canonical_name": "刘玄",
+        "polities": [
+          "更始政权/玄汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h4-qin-han.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0096",
+        "canonical_name": "刘玢",
+        "polities": [
+          "南汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0097",
+        "canonical_name": "刘盆子",
+        "polities": [
+          "赤眉汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h4-qin-han.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0103",
+        "canonical_name": "刘粲",
+        "polities": [
+          "汉赵/前赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0104",
+        "canonical_name": "刘继元",
+        "polities": [
+          "北汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0105",
+        "canonical_name": "刘继恩",
+        "polities": [
+          "北汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0107",
+        "canonical_name": "刘聪",
+        "polities": [
+          "汉赵/前赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0117",
+        "canonical_name": "刘鋹",
+        "polities": [
+          "南汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0118",
+        "canonical_name": "刘钧",
+        "polities": [
+          "北汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0124",
+        "canonical_name": "刘龑",
+        "polities": [
+          "南汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0175",
+        "canonical_name": "史思明",
+        "polities": [
+          "安史燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0176",
+        "canonical_name": "史朝义",
+        "polities": [
+          "安史燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0192",
+        "canonical_name": "吕光",
+        "polities": [
+          "后凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0193",
+        "canonical_name": "吕纂",
+        "polities": [
+          "后凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0194",
+        "canonical_name": "吕绍",
+        "polities": [
+          "后凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0195",
+        "canonical_name": "吕隆",
+        "polities": [
+          "后凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0200",
+        "canonical_name": "周自齐",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0224",
+        "canonical_name": "姚兴",
+        "polities": [
+          "后秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0225",
+        "canonical_name": "姚泓",
+        "polities": [
+          "后秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0226",
+        "canonical_name": "姚苌",
+        "polities": [
+          "后秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0232",
+        "canonical_name": "孙中山",
+        "polities": [
+          "中华民国南京临时政府",
+          "广州护法/非常政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0239",
+        "canonical_name": "孟昶",
+        "polities": [
+          "后蜀"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0240",
+        "canonical_name": "孟知祥",
+        "polities": [
+          "后蜀"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0248",
+        "canonical_name": "安庆绪",
+        "polities": [
+          "安史燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0250",
+        "canonical_name": "安禄山",
+        "polities": [
+          "安史燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0285",
+        "canonical_name": "完颜亮",
+        "polities": [
+          "金"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0286",
+        "canonical_name": "完颜亶",
+        "polities": [
+          "金"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0287",
+        "canonical_name": "完颜守绪",
+        "polities": [
+          "金"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0288",
+        "canonical_name": "完颜承麟",
+        "polities": [
+          "金"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0289",
+        "canonical_name": "完颜晟",
+        "polities": [
+          "金"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0290",
+        "canonical_name": "完颜永济",
+        "polities": [
+          "金"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0291",
+        "canonical_name": "完颜珣",
+        "polities": [
+          "金"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0292",
+        "canonical_name": "完颜璟",
+        "polities": [
+          "金"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0293",
+        "canonical_name": "完颜阿骨打",
+        "polities": [
+          "金"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0294",
+        "canonical_name": "完颜雍",
+        "polities": [
+          "金"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0306",
+        "canonical_name": "屈出律",
+        "polities": [
+          "西辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0322",
+        "canonical_name": "张作霖",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0324",
+        "canonical_name": "张士诚",
+        "polities": [
+          "张士诚大周/吴"
+        ],
+        "source_files": [
+          "data/rulers-master-h9-yuan-rivals.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0326",
+        "canonical_name": "张天锡",
+        "polities": [
+          "前凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0327",
+        "canonical_name": "张寔",
+        "polities": [
+          "前凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0328",
+        "canonical_name": "张曜灵",
+        "polities": [
+          "前凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0330",
+        "canonical_name": "张献忠",
+        "polities": [
+          "大西"
+        ],
+        "source_files": [
+          "data/rulers-master-h10-ming-transition.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0331",
+        "canonical_name": "张玄靓",
+        "polities": [
+          "前凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0332",
+        "canonical_name": "张祚",
+        "polities": [
+          "前凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0334",
+        "canonical_name": "张茂",
+        "polities": [
+          "前凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0337",
+        "canonical_name": "张重华",
+        "polities": [
+          "前凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0338",
+        "canonical_name": "张骏",
+        "polities": [
+          "前凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0341",
+        "canonical_name": "徐世昌",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0345",
+        "canonical_name": "徐寿辉",
+        "polities": [
+          "天完/徐宋"
+        ],
+        "source_files": [
+          "data/rulers-master-h9-yuan-rivals.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0359",
+        "canonical_name": "慕容儁",
+        "polities": [
+          "前燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0360",
+        "canonical_name": "慕容冲",
+        "polities": [
+          "西燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0361",
+        "canonical_name": "慕容垂",
+        "polities": [
+          "后燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0362",
+        "canonical_name": "慕容宝",
+        "polities": [
+          "后燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0363",
+        "canonical_name": "慕容德",
+        "polities": [
+          "南燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0364",
+        "canonical_name": "慕容忠",
+        "polities": [
+          "西燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0365",
+        "canonical_name": "慕容暐",
+        "polities": [
+          "前燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0366",
+        "canonical_name": "慕容永",
+        "polities": [
+          "西燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0367",
+        "canonical_name": "慕容泓",
+        "polities": [
+          "西燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0368",
+        "canonical_name": "慕容熙",
+        "polities": [
+          "后燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0369",
+        "canonical_name": "慕容瑶",
+        "polities": [
+          "西燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0370",
+        "canonical_name": "慕容皝",
+        "polities": [
+          "前燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0371",
+        "canonical_name": "慕容盛",
+        "polities": [
+          "后燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0372",
+        "canonical_name": "慕容详",
+        "polities": [
+          "后燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0373",
+        "canonical_name": "慕容超",
+        "polities": [
+          "南燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0374",
+        "canonical_name": "慕容顗",
+        "polities": [
+          "西燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0375",
+        "canonical_name": "慕容麟",
+        "polities": [
+          "后燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0401",
+        "canonical_name": "明昇",
+        "polities": [
+          "明夏/大夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h9-yuan-rivals.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0402",
+        "canonical_name": "明玉珍",
+        "polities": [
+          "明夏/大夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h9-yuan-rivals.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0473",
+        "canonical_name": "曹锟",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0479",
+        "canonical_name": "朱以海",
+        "polities": [
+          "南明监国/并立政权"
+        ],
+        "source_files": [
+          "data/rulers-master-h10-ming-transition.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0497",
+        "canonical_name": "朱由崧",
+        "polities": [
+          "南明皇帝"
+        ],
+        "source_files": [
+          "data/rulers-master-h10-ming-transition.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0500",
+        "canonical_name": "朱由榔",
+        "polities": [
+          "南明皇帝"
+        ],
+        "source_files": [
+          "data/rulers-master-h10-ming-transition.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0508",
+        "canonical_name": "朱聿鐭",
+        "polities": [
+          "南明皇帝"
+        ],
+        "source_files": [
+          "data/rulers-master-h10-ming-transition.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0509",
+        "canonical_name": "朱聿键",
+        "polities": [
+          "南明皇帝"
+        ],
+        "source_files": [
+          "data/rulers-master-h10-ming-transition.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0514",
+        "canonical_name": "李乾顺",
+        "polities": [
+          "西夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0516",
+        "canonical_name": "李仁孝",
+        "polities": [
+          "西夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0521",
+        "canonical_name": "李元昊",
+        "polities": [
+          "西夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0522",
+        "canonical_name": "李势",
+        "polities": [
+          "成汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0526",
+        "canonical_name": "李安全",
+        "polities": [
+          "西夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0527",
+        "canonical_name": "李宗仁",
+        "polities": [
+          "南京国民政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0529",
+        "canonical_name": "李寿",
+        "polities": [
+          "成汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0531",
+        "canonical_name": "李德旺",
+        "polities": [
+          "西夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0534",
+        "canonical_name": "李恂",
+        "polities": [
+          "西凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0538",
+        "canonical_name": "李昪",
+        "polities": [
+          "南唐"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0541",
+        "canonical_name": "李暠",
+        "polities": [
+          "西凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0542",
+        "canonical_name": "李期",
+        "polities": [
+          "成汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0544",
+        "canonical_name": "李歆",
+        "polities": [
+          "西凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0551",
+        "canonical_name": "李煜",
+        "polities": [
+          "南唐"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0552",
+        "canonical_name": "李班",
+        "polities": [
+          "成汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0553",
+        "canonical_name": "李璟",
+        "polities": [
+          "南唐"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0554",
+        "canonical_name": "李睍",
+        "polities": [
+          "西夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0555",
+        "canonical_name": "李秉常",
+        "polities": [
+          "西夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0557",
+        "canonical_name": "李纯祐",
+        "polities": [
+          "西夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0559",
+        "canonical_name": "李自成",
+        "polities": [
+          "大顺"
+        ],
+        "source_files": [
+          "data/rulers-master-h10-ming-transition.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0563",
+        "canonical_name": "李谅祚",
+        "polities": [
+          "西夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0568",
+        "canonical_name": "李遵顼",
+        "polities": [
+          "西夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0571",
+        "canonical_name": "李雄",
+        "polities": [
+          "成汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0573",
+        "canonical_name": "杜锡珪",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0607",
+        "canonical_name": "杨渥",
+        "polities": [
+          "杨吴"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0608",
+        "canonical_name": "杨溥",
+        "polities": [
+          "杨吴"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0612",
+        "canonical_name": "杨行密",
+        "polities": [
+          "杨吴"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0614",
+        "canonical_name": "杨隆演",
+        "polities": [
+          "杨吴"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0618",
+        "canonical_name": "林森",
+        "polities": [
+          "南京国民政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0625",
+        "canonical_name": "桓玄",
+        "polities": [
+          "桓楚"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0665",
+        "canonical_name": "段业",
+        "polities": [
+          "北凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0682",
+        "canonical_name": "段祺瑞",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0689",
+        "canonical_name": "段随",
+        "polities": [
+          "西燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0698",
+        "canonical_name": "沮渠牧犍",
+        "polities": [
+          "北凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0699",
+        "canonical_name": "沮渠蒙逊",
+        "polities": [
+          "北凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0702",
+        "canonical_name": "洪天贵福",
+        "polities": [
+          "太平天国"
+        ],
+        "source_files": [
+          "data/rulers-master-h11-qing-rivals.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0703",
+        "canonical_name": "洪秀全",
+        "polities": [
+          "太平天国"
+        ],
+        "source_files": [
+          "data/rulers-master-h11-qing-rivals.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0780",
+        "canonical_name": "王审知",
+        "polities": [
+          "闽"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0781",
+        "canonical_name": "王延政",
+        "polities": [
+          "闽"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0782",
+        "canonical_name": "王延羲",
+        "polities": [
+          "闽"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0783",
+        "canonical_name": "王延翰",
+        "polities": [
+          "闽"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0784",
+        "canonical_name": "王延钧",
+        "polities": [
+          "闽"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0785",
+        "canonical_name": "王建",
+        "polities": [
+          "前蜀"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0786",
+        "canonical_name": "王继鹏",
+        "polities": [
+          "闽"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0788",
+        "canonical_name": "王衍",
+        "polities": [
+          "前蜀"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0812",
+        "canonical_name": "石世",
+        "polities": [
+          "后赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0813",
+        "canonical_name": "石勒",
+        "polities": [
+          "后赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0814",
+        "canonical_name": "石弘",
+        "polities": [
+          "后赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0816",
+        "canonical_name": "石祗",
+        "polities": [
+          "后赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0817",
+        "canonical_name": "石虎",
+        "polities": [
+          "后赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0818",
+        "canonical_name": "石遵",
+        "polities": [
+          "后赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0820",
+        "canonical_name": "石鉴",
+        "polities": [
+          "后赵"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0831",
+        "canonical_name": "秃发乌孤",
+        "polities": [
+          "南凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0832",
+        "canonical_name": "秃发傉檀",
+        "polities": [
+          "南凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0833",
+        "canonical_name": "秃发利鹿孤",
+        "polities": [
+          "南凉"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0886",
+        "canonical_name": "耶律大石",
+        "polities": [
+          "西辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0887",
+        "canonical_name": "耶律夷列",
+        "polities": [
+          "西辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0888",
+        "canonical_name": "耶律宗真",
+        "polities": [
+          "辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0890",
+        "canonical_name": "耶律延禧",
+        "polities": [
+          "辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0891",
+        "canonical_name": "耶律德光",
+        "polities": [
+          "辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0893",
+        "canonical_name": "耶律术烈",
+        "polities": [
+          "北辽及辽末并行政权"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0894",
+        "canonical_name": "耶律洪基",
+        "polities": [
+          "辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0895",
+        "canonical_name": "耶律淳",
+        "polities": [
+          "北辽及辽末并行政权"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0896",
+        "canonical_name": "耶律璟",
+        "polities": [
+          "辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0898",
+        "canonical_name": "耶律直鲁古",
+        "polities": [
+          "西辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0900",
+        "canonical_name": "耶律贤",
+        "polities": [
+          "辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0902",
+        "canonical_name": "耶律阮",
+        "polities": [
+          "辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0903",
+        "canonical_name": "耶律阿保机",
+        "polities": [
+          "辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0904",
+        "canonical_name": "耶律隆绪",
+        "polities": [
+          "辽"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0905",
+        "canonical_name": "耶律雅里",
+        "polities": [
+          "北辽及辽末并行政权"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0907",
+        "canonical_name": "胡惟德",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0916",
+        "canonical_name": "苻丕",
+        "polities": [
+          "前秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0917",
+        "canonical_name": "苻健",
+        "polities": [
+          "前秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0918",
+        "canonical_name": "苻坚",
+        "polities": [
+          "前秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0919",
+        "canonical_name": "苻崇",
+        "polities": [
+          "前秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0920",
+        "canonical_name": "苻生",
+        "polities": [
+          "前秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0921",
+        "canonical_name": "苻登",
+        "polities": [
+          "前秦"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0938",
+        "canonical_name": "萧纪",
+        "polities": [
+          "南梁"
+        ],
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0947",
+        "canonical_name": "蒋介石",
+        "polities": [
+          "南京国民政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-0949",
+        "canonical_name": "蒲鲜万奴",
+        "polities": [
+          "大真/东夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1024",
+        "canonical_name": "袁世凯",
+        "polities": [
+          "中华帝国/洪宪 episode",
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1044",
+        "canonical_name": "谭延闿",
+        "polities": [
+          "南京国民政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1045",
+        "canonical_name": "谯纵",
+        "polities": [
+          "谯蜀"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1049",
+        "canonical_name": "赫连勃勃",
+        "polities": [
+          "胡夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1050",
+        "canonical_name": "赫连定",
+        "polities": [
+          "胡夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1051",
+        "canonical_name": "赫连昌",
+        "polities": [
+          "胡夏"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1137",
+        "canonical_name": "钱俶",
+        "polities": [
+          "吴越"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1138",
+        "canonical_name": "钱元瓘",
+        "polities": [
+          "吴越"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1139",
+        "canonical_name": "钱弘佐",
+        "polities": [
+          "吴越"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1140",
+        "canonical_name": "钱弘倧",
+        "polities": [
+          "吴越"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1141",
+        "canonical_name": "钱镠",
+        "polities": [
+          "吴越"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1150",
+        "canonical_name": "阿里不哥",
+        "polities": [
+          "大蒙古国"
+        ],
+        "source_files": [
+          "data/rulers-master-h9-yuan-rivals.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1156",
+        "canonical_name": "陈友谅",
+        "polities": [
+          "陈汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h9-yuan-rivals.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1177",
+        "canonical_name": "陈理",
+        "polities": [
+          "陈汉"
+        ],
+        "source_files": [
+          "data/rulers-master-h9-yuan-rivals.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1196",
+        "canonical_name": "韩林儿",
+        "polities": [
+          "韩宋"
+        ],
+        "source_files": [
+          "data/rulers-master-h9-yuan-rivals.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1205",
+        "canonical_name": "顾维钧",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1209",
+        "canonical_name": "颜惠庆",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1210",
+        "canonical_name": "马希声",
+        "polities": [
+          "马楚"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1211",
+        "canonical_name": "马希崇",
+        "polities": [
+          "马楚"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1212",
+        "canonical_name": "马希广",
+        "polities": [
+          "马楚"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1213",
+        "canonical_name": "马希范",
+        "polities": [
+          "马楚"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1214",
+        "canonical_name": "马希萼",
+        "polities": [
+          "马楚"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1215",
+        "canonical_name": "马殷",
+        "polities": [
+          "马楚"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1216",
+        "canonical_name": "高云",
+        "polities": [
+          "北燕"
+        ],
+        "source_files": [
+          "data/rulers-master-h5-jin-sixteen.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1217",
+        "canonical_name": "高从诲",
+        "polities": [
+          "荆南/南平"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1218",
+        "canonical_name": "高保勗",
+        "polities": [
+          "荆南/南平"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1219",
+        "canonical_name": "高保融",
+        "polities": [
+          "荆南/南平"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1220",
+        "canonical_name": "高凌霨",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1221",
+        "canonical_name": "高升泰",
+        "polities": [
+          "大中国"
+        ],
+        "source_files": [
+          "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1222",
+        "canonical_name": "高季兴",
+        "polities": [
+          "荆南/南平"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1232",
+        "canonical_name": "高继冲",
+        "polities": [
+          "荆南/南平"
+        ],
+        "source_files": [
+          "data/rulers-master-h7-five-ten.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1277",
+        "canonical_name": "黄巢",
+        "polities": [
+          "大齐"
+        ],
+        "source_files": [
+          "data/rulers-master-h6-north-south-sui-tang.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1279",
+        "canonical_name": "黄郛",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      },
+      {
+        "person_id": "ruler-1281",
+        "canonical_name": "黎元洪",
+        "polities": [
+          "中华民国北京政府/北洋政府"
+        ],
+        "source_files": [
+          "data/rulers-master-h12-republic.json"
+        ],
+        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
+      }
+    ]
+  },
+  "p2_remaining_post_qin_core": {
+    "status": "AFTER_P1",
+    "count": 207
+  },
+  "p3_early_and_preqin_core": {
+    "status": "AFTER_POST_QIN",
+    "count": 404
+  },
+  "mapping_issues": []
+}
