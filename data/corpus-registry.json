@@ -1,13 +1,13 @@
 {
   "schema_version": "0.8",
-  "generated_from": "repository snapshot 2026-09-17",
+  "generated_from": "live repository snapshot",
   "canonical_audit": "NUWA_AUDIT_V2.md",
   "worker_brief": "WORKER_BRIEF_V2.md",
   "status_note": "The frozen 39-package mtime provenance snapshot is fully classified. This is triage, not a corpus-wide PASS.",
   "totals": {
-    "skills": 267,
-    "dynasty_directories": 16,
-    "skills_top_level_directories": 17
+    "skills": 304,
+    "dynasty_directories": 18,
+    "skills_top_level_directories": 19
   },
   "non_dynasty_directories": [
     "_audit"
@@ -46,7 +46,7 @@
     {
       "id": "donghan",
       "name": "东汉",
-      "count": 13
+      "count": 14
     },
     {
       "id": "sanguo",
@@ -61,17 +61,22 @@
     {
       "id": "nanbeichao",
       "name": "南北朝",
-      "count": 38
+      "count": 57
     },
     {
       "id": "sui",
       "name": "隋",
-      "count": 3
+      "count": 4
     },
     {
       "id": "tang",
       "name": "唐",
-      "count": 21
+      "count": 22
+    },
+    {
+      "id": "wudai",
+      "name": "五代",
+      "count": 14
     },
     {
       "id": "song",
@@ -92,6 +97,11 @@
       "id": "qing",
       "name": "清",
       "count": 12
+    },
+    {
+      "id": "xin",
+      "name": "xin",
+      "count": 1
     }
   ],
   "audit": {
@@ -186,7 +196,7 @@
     "unresolved_existing_skills": 0,
     "accounted_existing_skills": 304,
     "core_coverage_ratio": 0.3308,
-    "note": "Canonical-label P0 QA is clean and stable IDs are active. Remaining REVIEW disputes and polity discovery are modeled explicitly without renumbering existing persons.",
+    "note": "Canonical-label QA is clean and stable IDs are active. REVIEW disputes and polity discovery remain explicit without renumbering existing persons.",
     "person_id_registry": "data/ruler-person-id-registry.json",
     "stable_ids_active": 1312,
     "stable_ids_issued": 1312,
