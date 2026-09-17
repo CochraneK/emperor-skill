@@ -7,6 +7,7 @@ on:
       - 'skills/**/SKILL.md'
       - 'data/corpus-gap.json'
       - '_redo_tools/_audit_l3_semantic_similarity.py'
+      - '_redo_tools/_calibrate_l3_similarity.py'
       - '.github/workflows/nuwa-l3.yml'
   workflow_dispatch:
 
@@ -30,8 +31,13 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Compile scanner
-        run: python -m py_compile _redo_tools/_audit_l3_semantic_similarity.py
+      - name: Compile scanners
+        run: |
+          python -m py_compile _redo_tools/_audit_l3_semantic_similarity.py
+          python -m py_compile _redo_tools/_calibrate_l3_similarity.py
+
+      - name: Generate similarity baseline
+        run: python _redo_tools/_calibrate_l3_similarity.py
 
       - name: Generate L3 review signals
         run: python _redo_tools/_audit_l3_semantic_similarity.py
@@ -41,19 +47,23 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          p=Path('data/l3-semantic-review-queue.json')
-          doc=json.loads(p.read_text(encoding='utf-8'))
-          assert doc['status']=='GENERATED_REVIEW_SIGNALS_NOT_L3_VERDICTS'
-          assert doc['policy']['automatic_pass_fail'] is False
-          assert doc['summary']['packages_scanned'] > 0
-          print(json.dumps(doc['summary'], ensure_ascii=False, indent=2))
+          review=json.loads(Path('data/l3-semantic-review-queue.json').read_text(encoding='utf-8'))
+          baseline=json.loads(Path('data/l3-similarity-baseline.json').read_text(encoding='utf-8'))
+          assert review['status']=='GENERATED_REVIEW_SIGNALS_NOT_L3_VERDICTS'
+          assert review['policy']['automatic_pass_fail'] is False
+          assert baseline['status']=='DIAGNOSTIC_BASELINE_NOT_QUALITY_VERDICT'
+          assert review['summary']['packages_scanned'] > 0
+          print('L3 REVIEW')
+          print(json.dumps(review['summary'], ensure_ascii=False, indent=2))
+          print('SIMILARITY BASELINE')
+          print(json.dumps(baseline['summary'], ensure_ascii=False, indent=2))
           PY
 
       - name: Commit generated review queue
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/l3-semantic-review-queue.json assessment/L3_SEMANTIC_QA.md
+          git add -- data/l3-semantic-review-queue.json data/l3-similarity-baseline.json assessment/L3_SEMANTIC_QA.md
           if git diff --cached --quiet; then
             echo 'No L3 review-signal changes.'
             exit 0
