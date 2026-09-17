@@ -1,0 +1,4036 @@
+{
+  "schema_version": "1.0",
+  "status": "REVIEW_IN_PROGRESS",
+  "policy_file": "data/p1-anchor-scoring-policy.json",
+  "review_file": "data/p1-anchor-reviews.json",
+  "source_priority_file": "data/distillation-priority.json",
+  "warning": "P1 ordering is project scheduling only; never interpret it as historical worth or Nuwa quality.",
+  "summary": {
+    "p0_missing": 0,
+    "candidate_pool": 207,
+    "reviewed_complete": 0,
+    "needs_review": 207,
+    "initial_anchor_tranche_target": 24,
+    "initial_anchor_tranche_selected": 0,
+    "minimum_cross_polity_diversity": 8,
+    "selected_polity_diversity": 0,
+    "reviewed_dimensions": [
+      "evidence_readiness",
+      "structural_coverage_gain",
+      "comparative_value",
+      "transition_leverage",
+      "simulation_visualization_value"
+    ],
+    "weights": {
+      "evidence_readiness": 0.2,
+      "structural_coverage_gain": 0.25,
+      "comparative_value": 0.2,
+      "transition_leverage": 0.2,
+      "simulation_visualization_value": 0.15
+    }
+  },
+  "polity_candidate_counts": {
+    "中华帝国/洪宪 episode": 1,
+    "中华民国北京政府/北洋政府": 14,
+    "中华民国南京临时政府": 1,
+    "侯景汉": 1,
+    "冉魏": 2,
+    "前凉": 8,
+    "前燕": 3,
+    "前秦": 6,
+    "前蜀": 2,
+    "北凉": 3,
+    "北汉": 4,
+    "北燕": 3,
+    "北辽及辽末并行政权": 3,
+    "南京国民政府": 4,
+    "南凉": 3,
+    "南唐": 3,
+    "南明皇帝": 4,
+    "南明监国/并立政权": 1,
+    "南梁": 1,
+    "南汉": 4,
+    "南燕": 2,
+    "后凉": 4,
+    "后燕": 7,
+    "后秦": 3,
+    "后蜀": 2,
+    "后赵": 7,
+    "吴越": 5,
+    "大中国": 1,
+    "大真/东夏": 1,
+    "大蒙古国": 1,
+    "大西": 1,
+    "大顺": 1,
+    "大齐": 1,
+    "天完/徐宋": 1,
+    "太平天国": 2,
+    "安史燕": 4,
+    "广州护法/非常政府": 1,
+    "张士诚大周/吴": 1,
+    "成家": 1,
+    "成汉": 5,
+    "明夏/大夏": 2,
+    "更始政权/玄汉": 1,
+    "杨吴": 4,
+    "桓楚": 1,
+    "汉赵/前赵": 6,
+    "燕/桀燕": 1,
+    "胡夏": 3,
+    "荆南/南平": 5,
+    "西凉": 3,
+    "西夏": 10,
+    "西燕": 7,
+    "西秦": 4,
+    "西辽": 4,
+    "谯蜀": 1,
+    "赤眉汉": 1,
+    "辽": 9,
+    "金": 10,
+    "闽": 6,
+    "陈汉": 2,
+    "韩宋": 1,
+    "马楚": 6
+  },
+  "ranked_reviewed_candidates": [],
+  "initial_anchor_tranche": [],
+  "review_queue": [
+    {
+      "review_order": 1,
+      "person_id": "ruler-1024",
+      "canonical_name": "袁世凯",
+      "polities": [
+        "中华帝国/洪宪 episode",
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华帝国/洪宪 episode": 1,
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 2,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 2,
+      "person_id": "ruler-0514",
+      "canonical_name": "李乾顺",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西夏": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 3,
+      "person_id": "ruler-0285",
+      "canonical_name": "完颜亮",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "金": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 4,
+      "person_id": "ruler-0888",
+      "canonical_name": "耶律宗真",
+      "polities": [
+        "辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "辽": 9
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 5,
+      "person_id": "ruler-0326",
+      "canonical_name": "张天锡",
+      "polities": [
+        "前凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前凉": 8
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 6,
+      "person_id": "ruler-0047",
+      "canonical_name": "兰汗",
+      "polities": [
+        "后燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 7,
+      "person_id": "ruler-0812",
+      "canonical_name": "石世",
+      "polities": [
+        "后赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后赵": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 8,
+      "person_id": "ruler-0360",
+      "canonical_name": "慕容冲",
+      "polities": [
+        "西燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 9,
+      "person_id": "ruler-0916",
+      "canonical_name": "苻丕",
+      "polities": [
+        "前秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前秦": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 10,
+      "person_id": "ruler-0066",
+      "canonical_name": "刘和",
+      "polities": [
+        "汉赵/前赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "汉赵/前赵": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 11,
+      "person_id": "ruler-0780",
+      "canonical_name": "王审知",
+      "polities": [
+        "闽"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "闽": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 12,
+      "person_id": "ruler-1210",
+      "canonical_name": "马希声",
+      "polities": [
+        "马楚"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "马楚": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 13,
+      "person_id": "ruler-1137",
+      "canonical_name": "钱俶",
+      "polities": [
+        "吴越"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "吴越": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 14,
+      "person_id": "ruler-0522",
+      "canonical_name": "李势",
+      "polities": [
+        "成汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "成汉": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 15,
+      "person_id": "ruler-1217",
+      "canonical_name": "高从诲",
+      "polities": [
+        "荆南/南平"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "荆南/南平": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 16,
+      "person_id": "ruler-0085",
+      "canonical_name": "刘旻",
+      "polities": [
+        "北汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北汉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 17,
+      "person_id": "ruler-0527",
+      "canonical_name": "李宗仁",
+      "polities": [
+        "南京国民政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南京国民政府": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 18,
+      "person_id": "ruler-0497",
+      "canonical_name": "朱由崧",
+      "polities": [
+        "南明皇帝"
+      ],
+      "source_files": [
+        "data/rulers-master-h10-ming-transition.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南明皇帝": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 19,
+      "person_id": "ruler-0087",
+      "canonical_name": "刘晟",
+      "polities": [
+        "南汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南汉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 20,
+      "person_id": "ruler-0192",
+      "canonical_name": "吕光",
+      "polities": [
+        "后凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后凉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 21,
+      "person_id": "ruler-0175",
+      "canonical_name": "史思明",
+      "polities": [
+        "安史燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h6-north-south-sui-tang.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "安史燕": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 22,
+      "person_id": "ruler-0607",
+      "canonical_name": "杨渥",
+      "polities": [
+        "杨吴"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "杨吴": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 23,
+      "person_id": "ruler-0012",
+      "canonical_name": "乞伏乾归",
+      "polities": [
+        "西秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西秦": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 24,
+      "person_id": "ruler-0306",
+      "canonical_name": "屈出律",
+      "polities": [
+        "西辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西辽": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 25,
+      "person_id": "ruler-0359",
+      "canonical_name": "慕容儁",
+      "polities": [
+        "前燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前燕": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 26,
+      "person_id": "ruler-0665",
+      "canonical_name": "段业",
+      "polities": [
+        "北凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北凉": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 27,
+      "person_id": "ruler-0052",
+      "canonical_name": "冯弘",
+      "polities": [
+        "北燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北燕": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 28,
+      "person_id": "ruler-0893",
+      "canonical_name": "耶律术烈",
+      "polities": [
+        "北辽及辽末并行政权"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北辽及辽末并行政权": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 29,
+      "person_id": "ruler-0831",
+      "canonical_name": "秃发乌孤",
+      "polities": [
+        "南凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南凉": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 30,
+      "person_id": "ruler-0538",
+      "canonical_name": "李昪",
+      "polities": [
+        "南唐"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南唐": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 31,
+      "person_id": "ruler-0224",
+      "canonical_name": "姚兴",
+      "polities": [
+        "后秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后秦": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 32,
+      "person_id": "ruler-1049",
+      "canonical_name": "赫连勃勃",
+      "polities": [
+        "胡夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "胡夏": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 33,
+      "person_id": "ruler-0534",
+      "canonical_name": "李恂",
+      "polities": [
+        "西凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西凉": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 34,
+      "person_id": "ruler-0049",
+      "canonical_name": "冉智",
+      "polities": [
+        "冉魏"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "冉魏": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 35,
+      "person_id": "ruler-0785",
+      "canonical_name": "王建",
+      "polities": [
+        "前蜀"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前蜀": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 36,
+      "person_id": "ruler-0363",
+      "canonical_name": "慕容德",
+      "polities": [
+        "南燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南燕": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 37,
+      "person_id": "ruler-0239",
+      "canonical_name": "孟昶",
+      "polities": [
+        "后蜀"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后蜀": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 38,
+      "person_id": "ruler-0702",
+      "canonical_name": "洪天贵福",
+      "polities": [
+        "太平天国"
+      ],
+      "source_files": [
+        "data/rulers-master-h11-qing-rivals.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "太平天国": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 39,
+      "person_id": "ruler-0401",
+      "canonical_name": "明昇",
+      "polities": [
+        "明夏/大夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h9-yuan-rivals.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "明夏/大夏": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 40,
+      "person_id": "ruler-1156",
+      "canonical_name": "陈友谅",
+      "polities": [
+        "陈汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h9-yuan-rivals.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "陈汉": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 41,
+      "person_id": "ruler-0232",
+      "canonical_name": "孙中山",
+      "polities": [
+        "中华民国南京临时政府",
+        "广州护法/非常政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国南京临时政府": 1,
+          "广州护法/非常政府": 1
+        },
+        "polity_membership_count": 2,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 42,
+      "person_id": "ruler-0028",
+      "canonical_name": "侯景",
+      "polities": [
+        "侯景汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h6-north-south-sui-tang.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "侯景汉": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 43,
+      "person_id": "ruler-0479",
+      "canonical_name": "朱以海",
+      "polities": [
+        "南明监国/并立政权"
+      ],
+      "source_files": [
+        "data/rulers-master-h10-ming-transition.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南明监国/并立政权": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 44,
+      "person_id": "ruler-0938",
+      "canonical_name": "萧纪",
+      "polities": [
+        "南梁"
+      ],
+      "source_files": [
+        "data/rulers-master-h6-north-south-sui-tang.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南梁": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 45,
+      "person_id": "ruler-1221",
+      "canonical_name": "高升泰",
+      "polities": [
+        "大中国"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "大中国": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 46,
+      "person_id": "ruler-0949",
+      "canonical_name": "蒲鲜万奴",
+      "polities": [
+        "大真/东夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "大真/东夏": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 47,
+      "person_id": "ruler-1150",
+      "canonical_name": "阿里不哥",
+      "polities": [
+        "大蒙古国"
+      ],
+      "source_files": [
+        "data/rulers-master-h9-yuan-rivals.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "大蒙古国": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 48,
+      "person_id": "ruler-0330",
+      "canonical_name": "张献忠",
+      "polities": [
+        "大西"
+      ],
+      "source_files": [
+        "data/rulers-master-h10-ming-transition.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "大西": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 49,
+      "person_id": "ruler-0559",
+      "canonical_name": "李自成",
+      "polities": [
+        "大顺"
+      ],
+      "source_files": [
+        "data/rulers-master-h10-ming-transition.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "大顺": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 50,
+      "person_id": "ruler-1277",
+      "canonical_name": "黄巢",
+      "polities": [
+        "大齐"
+      ],
+      "source_files": [
+        "data/rulers-master-h6-north-south-sui-tang.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "大齐": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 51,
+      "person_id": "ruler-0345",
+      "canonical_name": "徐寿辉",
+      "polities": [
+        "天完/徐宋"
+      ],
+      "source_files": [
+        "data/rulers-master-h9-yuan-rivals.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "天完/徐宋": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 52,
+      "person_id": "ruler-0324",
+      "canonical_name": "张士诚",
+      "polities": [
+        "张士诚大周/吴"
+      ],
+      "source_files": [
+        "data/rulers-master-h9-yuan-rivals.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "张士诚大周/吴": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 53,
+      "person_id": "ruler-0046",
+      "canonical_name": "公孙述",
+      "polities": [
+        "成家"
+      ],
+      "source_files": [
+        "data/rulers-master-h4-qin-han.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "成家": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 54,
+      "person_id": "ruler-0095",
+      "canonical_name": "刘玄",
+      "polities": [
+        "更始政权/玄汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h4-qin-han.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "更始政权/玄汉": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 55,
+      "person_id": "ruler-0625",
+      "canonical_name": "桓玄",
+      "polities": [
+        "桓楚"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "桓楚": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 56,
+      "person_id": "ruler-0071",
+      "canonical_name": "刘守光",
+      "polities": [
+        "燕/桀燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "燕/桀燕": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 57,
+      "person_id": "ruler-1045",
+      "canonical_name": "谯纵",
+      "polities": [
+        "谯蜀"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "谯蜀": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 58,
+      "person_id": "ruler-0097",
+      "canonical_name": "刘盆子",
+      "polities": [
+        "赤眉汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h4-qin-han.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "赤眉汉": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 59,
+      "person_id": "ruler-1196",
+      "canonical_name": "韩林儿",
+      "polities": [
+        "韩宋"
+      ],
+      "source_files": [
+        "data/rulers-master-h9-yuan-rivals.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "韩宋": 1
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 60,
+      "person_id": "ruler-0051",
+      "canonical_name": "冯国璋",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 61,
+      "person_id": "ruler-0516",
+      "canonical_name": "李仁孝",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西夏": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 62,
+      "person_id": "ruler-0286",
+      "canonical_name": "完颜亶",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "金": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 63,
+      "person_id": "ruler-0890",
+      "canonical_name": "耶律延禧",
+      "polities": [
+        "辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "辽": 9
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 64,
+      "person_id": "ruler-0327",
+      "canonical_name": "张寔",
+      "polities": [
+        "前凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前凉": 8
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 65,
+      "person_id": "ruler-0361",
+      "canonical_name": "慕容垂",
+      "polities": [
+        "后燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 66,
+      "person_id": "ruler-0813",
+      "canonical_name": "石勒",
+      "polities": [
+        "后赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后赵": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 67,
+      "person_id": "ruler-0364",
+      "canonical_name": "慕容忠",
+      "polities": [
+        "西燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 68,
+      "person_id": "ruler-0917",
+      "canonical_name": "苻健",
+      "polities": [
+        "前秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前秦": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 69,
+      "person_id": "ruler-0088",
+      "canonical_name": "刘曜",
+      "polities": [
+        "汉赵/前赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "汉赵/前赵": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 70,
+      "person_id": "ruler-0781",
+      "canonical_name": "王延政",
+      "polities": [
+        "闽"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "闽": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 71,
+      "person_id": "ruler-1211",
+      "canonical_name": "马希崇",
+      "polities": [
+        "马楚"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "马楚": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 72,
+      "person_id": "ruler-1138",
+      "canonical_name": "钱元瓘",
+      "polities": [
+        "吴越"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "吴越": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 73,
+      "person_id": "ruler-0529",
+      "canonical_name": "李寿",
+      "polities": [
+        "成汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "成汉": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 74,
+      "person_id": "ruler-1218",
+      "canonical_name": "高保勗",
+      "polities": [
+        "荆南/南平"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "荆南/南平": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 75,
+      "person_id": "ruler-0104",
+      "canonical_name": "刘继元",
+      "polities": [
+        "北汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北汉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 76,
+      "person_id": "ruler-0618",
+      "canonical_name": "林森",
+      "polities": [
+        "南京国民政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南京国民政府": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 77,
+      "person_id": "ruler-0500",
+      "canonical_name": "朱由榔",
+      "polities": [
+        "南明皇帝"
+      ],
+      "source_files": [
+        "data/rulers-master-h10-ming-transition.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南明皇帝": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 78,
+      "person_id": "ruler-0096",
+      "canonical_name": "刘玢",
+      "polities": [
+        "南汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南汉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 79,
+      "person_id": "ruler-0193",
+      "canonical_name": "吕纂",
+      "polities": [
+        "后凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后凉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 80,
+      "person_id": "ruler-0176",
+      "canonical_name": "史朝义",
+      "polities": [
+        "安史燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h6-north-south-sui-tang.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "安史燕": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 81,
+      "person_id": "ruler-0608",
+      "canonical_name": "杨溥",
+      "polities": [
+        "杨吴"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "杨吴": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 82,
+      "person_id": "ruler-0013",
+      "canonical_name": "乞伏国仁",
+      "polities": [
+        "西秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西秦": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 83,
+      "person_id": "ruler-0886",
+      "canonical_name": "耶律大石",
+      "polities": [
+        "西辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西辽": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 84,
+      "person_id": "ruler-0365",
+      "canonical_name": "慕容暐",
+      "polities": [
+        "前燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前燕": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 85,
+      "person_id": "ruler-0698",
+      "canonical_name": "沮渠牧犍",
+      "polities": [
+        "北凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北凉": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 86,
+      "person_id": "ruler-0053",
+      "canonical_name": "冯跋",
+      "polities": [
+        "北燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北燕": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 87,
+      "person_id": "ruler-0895",
+      "canonical_name": "耶律淳",
+      "polities": [
+        "北辽及辽末并行政权"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北辽及辽末并行政权": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 88,
+      "person_id": "ruler-0832",
+      "canonical_name": "秃发傉檀",
+      "polities": [
+        "南凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南凉": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 89,
+      "person_id": "ruler-0551",
+      "canonical_name": "李煜",
+      "polities": [
+        "南唐"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南唐": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 90,
+      "person_id": "ruler-0225",
+      "canonical_name": "姚泓",
+      "polities": [
+        "后秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后秦": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 91,
+      "person_id": "ruler-1050",
+      "canonical_name": "赫连定",
+      "polities": [
+        "胡夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "胡夏": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 92,
+      "person_id": "ruler-0541",
+      "canonical_name": "李暠",
+      "polities": [
+        "西凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西凉": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 93,
+      "person_id": "ruler-0050",
+      "canonical_name": "冉闵",
+      "polities": [
+        "冉魏"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "冉魏": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 94,
+      "person_id": "ruler-0788",
+      "canonical_name": "王衍",
+      "polities": [
+        "前蜀"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前蜀": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 95,
+      "person_id": "ruler-0373",
+      "canonical_name": "慕容超",
+      "polities": [
+        "南燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南燕": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 96,
+      "person_id": "ruler-0240",
+      "canonical_name": "孟知祥",
+      "polities": [
+        "后蜀"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后蜀": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 97,
+      "person_id": "ruler-0703",
+      "canonical_name": "洪秀全",
+      "polities": [
+        "太平天国"
+      ],
+      "source_files": [
+        "data/rulers-master-h11-qing-rivals.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "太平天国": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 98,
+      "person_id": "ruler-0402",
+      "canonical_name": "明玉珍",
+      "polities": [
+        "明夏/大夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h9-yuan-rivals.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "明夏/大夏": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 99,
+      "person_id": "ruler-1177",
+      "canonical_name": "陈理",
+      "polities": [
+        "陈汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h9-yuan-rivals.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "陈汉": 2
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 100,
+      "person_id": "ruler-0200",
+      "canonical_name": "周自齐",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 101,
+      "person_id": "ruler-0521",
+      "canonical_name": "李元昊",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西夏": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 102,
+      "person_id": "ruler-0287",
+      "canonical_name": "完颜守绪",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "金": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 103,
+      "person_id": "ruler-0891",
+      "canonical_name": "耶律德光",
+      "polities": [
+        "辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "辽": 9
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 104,
+      "person_id": "ruler-0328",
+      "canonical_name": "张曜灵",
+      "polities": [
+        "前凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前凉": 8
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 105,
+      "person_id": "ruler-0362",
+      "canonical_name": "慕容宝",
+      "polities": [
+        "后燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 106,
+      "person_id": "ruler-0814",
+      "canonical_name": "石弘",
+      "polities": [
+        "后赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后赵": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 107,
+      "person_id": "ruler-0366",
+      "canonical_name": "慕容永",
+      "polities": [
+        "西燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 108,
+      "person_id": "ruler-0918",
+      "canonical_name": "苻坚",
+      "polities": [
+        "前秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前秦": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 109,
+      "person_id": "ruler-0091",
+      "canonical_name": "刘渊",
+      "polities": [
+        "汉赵/前赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "汉赵/前赵": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 110,
+      "person_id": "ruler-0782",
+      "canonical_name": "王延羲",
+      "polities": [
+        "闽"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "闽": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 111,
+      "person_id": "ruler-1212",
+      "canonical_name": "马希广",
+      "polities": [
+        "马楚"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "马楚": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 112,
+      "person_id": "ruler-1139",
+      "canonical_name": "钱弘佐",
+      "polities": [
+        "吴越"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "吴越": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 113,
+      "person_id": "ruler-0542",
+      "canonical_name": "李期",
+      "polities": [
+        "成汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "成汉": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 114,
+      "person_id": "ruler-1219",
+      "canonical_name": "高保融",
+      "polities": [
+        "荆南/南平"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "荆南/南平": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 115,
+      "person_id": "ruler-0105",
+      "canonical_name": "刘继恩",
+      "polities": [
+        "北汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北汉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 116,
+      "person_id": "ruler-0947",
+      "canonical_name": "蒋介石",
+      "polities": [
+        "南京国民政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南京国民政府": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 117,
+      "person_id": "ruler-0508",
+      "canonical_name": "朱聿鐭",
+      "polities": [
+        "南明皇帝"
+      ],
+      "source_files": [
+        "data/rulers-master-h10-ming-transition.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南明皇帝": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 118,
+      "person_id": "ruler-0117",
+      "canonical_name": "刘鋹",
+      "polities": [
+        "南汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南汉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 119,
+      "person_id": "ruler-0194",
+      "canonical_name": "吕绍",
+      "polities": [
+        "后凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后凉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 120,
+      "person_id": "ruler-0248",
+      "canonical_name": "安庆绪",
+      "polities": [
+        "安史燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h6-north-south-sui-tang.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "安史燕": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 121,
+      "person_id": "ruler-0612",
+      "canonical_name": "杨行密",
+      "polities": [
+        "杨吴"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "杨吴": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 122,
+      "person_id": "ruler-0014",
+      "canonical_name": "乞伏暮末",
+      "polities": [
+        "西秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西秦": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 123,
+      "person_id": "ruler-0887",
+      "canonical_name": "耶律夷列",
+      "polities": [
+        "西辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西辽": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 124,
+      "person_id": "ruler-0370",
+      "canonical_name": "慕容皝",
+      "polities": [
+        "前燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前燕": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 125,
+      "person_id": "ruler-0699",
+      "canonical_name": "沮渠蒙逊",
+      "polities": [
+        "北凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北凉": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 126,
+      "person_id": "ruler-1216",
+      "canonical_name": "高云",
+      "polities": [
+        "北燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北燕": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 127,
+      "person_id": "ruler-0905",
+      "canonical_name": "耶律雅里",
+      "polities": [
+        "北辽及辽末并行政权"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北辽及辽末并行政权": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 128,
+      "person_id": "ruler-0833",
+      "canonical_name": "秃发利鹿孤",
+      "polities": [
+        "南凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南凉": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 129,
+      "person_id": "ruler-0553",
+      "canonical_name": "李璟",
+      "polities": [
+        "南唐"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南唐": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 130,
+      "person_id": "ruler-0226",
+      "canonical_name": "姚苌",
+      "polities": [
+        "后秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后秦": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 131,
+      "person_id": "ruler-1051",
+      "canonical_name": "赫连昌",
+      "polities": [
+        "胡夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "胡夏": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 132,
+      "person_id": "ruler-0544",
+      "canonical_name": "李歆",
+      "polities": [
+        "西凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西凉": 3
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 133,
+      "person_id": "ruler-0322",
+      "canonical_name": "张作霖",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 134,
+      "person_id": "ruler-0526",
+      "canonical_name": "李安全",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西夏": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 135,
+      "person_id": "ruler-0288",
+      "canonical_name": "完颜承麟",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "金": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 136,
+      "person_id": "ruler-0894",
+      "canonical_name": "耶律洪基",
+      "polities": [
+        "辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "辽": 9
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 137,
+      "person_id": "ruler-0331",
+      "canonical_name": "张玄靓",
+      "polities": [
+        "前凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前凉": 8
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 138,
+      "person_id": "ruler-0368",
+      "canonical_name": "慕容熙",
+      "polities": [
+        "后燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 139,
+      "person_id": "ruler-0816",
+      "canonical_name": "石祗",
+      "polities": [
+        "后赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后赵": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 140,
+      "person_id": "ruler-0367",
+      "canonical_name": "慕容泓",
+      "polities": [
+        "西燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 141,
+      "person_id": "ruler-0919",
+      "canonical_name": "苻崇",
+      "polities": [
+        "前秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前秦": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 142,
+      "person_id": "ruler-0094",
+      "canonical_name": "刘熙",
+      "polities": [
+        "汉赵/前赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "汉赵/前赵": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 143,
+      "person_id": "ruler-0783",
+      "canonical_name": "王延翰",
+      "polities": [
+        "闽"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "闽": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 144,
+      "person_id": "ruler-1213",
+      "canonical_name": "马希范",
+      "polities": [
+        "马楚"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "马楚": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 145,
+      "person_id": "ruler-1140",
+      "canonical_name": "钱弘倧",
+      "polities": [
+        "吴越"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "吴越": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 146,
+      "person_id": "ruler-0552",
+      "canonical_name": "李班",
+      "polities": [
+        "成汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "成汉": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 147,
+      "person_id": "ruler-1222",
+      "canonical_name": "高季兴",
+      "polities": [
+        "荆南/南平"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "荆南/南平": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 148,
+      "person_id": "ruler-0118",
+      "canonical_name": "刘钧",
+      "polities": [
+        "北汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "北汉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 149,
+      "person_id": "ruler-1044",
+      "canonical_name": "谭延闿",
+      "polities": [
+        "南京国民政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南京国民政府": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 150,
+      "person_id": "ruler-0509",
+      "canonical_name": "朱聿键",
+      "polities": [
+        "南明皇帝"
+      ],
+      "source_files": [
+        "data/rulers-master-h10-ming-transition.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南明皇帝": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 151,
+      "person_id": "ruler-0124",
+      "canonical_name": "刘龑",
+      "polities": [
+        "南汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "南汉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 152,
+      "person_id": "ruler-0195",
+      "canonical_name": "吕隆",
+      "polities": [
+        "后凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后凉": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 153,
+      "person_id": "ruler-0250",
+      "canonical_name": "安禄山",
+      "polities": [
+        "安史燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h6-north-south-sui-tang.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "安史燕": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 154,
+      "person_id": "ruler-0614",
+      "canonical_name": "杨隆演",
+      "polities": [
+        "杨吴"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "杨吴": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 155,
+      "person_id": "ruler-0015",
+      "canonical_name": "乞伏炽磐",
+      "polities": [
+        "西秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西秦": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 156,
+      "person_id": "ruler-0898",
+      "canonical_name": "耶律直鲁古",
+      "polities": [
+        "西辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西辽": 4
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 157,
+      "person_id": "ruler-0341",
+      "canonical_name": "徐世昌",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 158,
+      "person_id": "ruler-0531",
+      "canonical_name": "李德旺",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西夏": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 159,
+      "person_id": "ruler-0289",
+      "canonical_name": "完颜晟",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "金": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 160,
+      "person_id": "ruler-0896",
+      "canonical_name": "耶律璟",
+      "polities": [
+        "辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "辽": 9
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 161,
+      "person_id": "ruler-0332",
+      "canonical_name": "张祚",
+      "polities": [
+        "前凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前凉": 8
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 162,
+      "person_id": "ruler-0371",
+      "canonical_name": "慕容盛",
+      "polities": [
+        "后燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 163,
+      "person_id": "ruler-0817",
+      "canonical_name": "石虎",
+      "polities": [
+        "后赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后赵": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 164,
+      "person_id": "ruler-0369",
+      "canonical_name": "慕容瑶",
+      "polities": [
+        "西燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 165,
+      "person_id": "ruler-0920",
+      "canonical_name": "苻生",
+      "polities": [
+        "前秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前秦": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 166,
+      "person_id": "ruler-0103",
+      "canonical_name": "刘粲",
+      "polities": [
+        "汉赵/前赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "汉赵/前赵": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 167,
+      "person_id": "ruler-0784",
+      "canonical_name": "王延钧",
+      "polities": [
+        "闽"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "闽": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 168,
+      "person_id": "ruler-1214",
+      "canonical_name": "马希萼",
+      "polities": [
+        "马楚"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "马楚": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 169,
+      "person_id": "ruler-1141",
+      "canonical_name": "钱镠",
+      "polities": [
+        "吴越"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "吴越": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 170,
+      "person_id": "ruler-0571",
+      "canonical_name": "李雄",
+      "polities": [
+        "成汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "成汉": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 171,
+      "person_id": "ruler-1232",
+      "canonical_name": "高继冲",
+      "polities": [
+        "荆南/南平"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "荆南/南平": 5
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 172,
+      "person_id": "ruler-0473",
+      "canonical_name": "曹锟",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 173,
+      "person_id": "ruler-0554",
+      "canonical_name": "李睍",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西夏": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 174,
+      "person_id": "ruler-0290",
+      "canonical_name": "完颜永济",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "金": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 175,
+      "person_id": "ruler-0900",
+      "canonical_name": "耶律贤",
+      "polities": [
+        "辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "辽": 9
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 176,
+      "person_id": "ruler-0334",
+      "canonical_name": "张茂",
+      "polities": [
+        "前凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前凉": 8
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 177,
+      "person_id": "ruler-0372",
+      "canonical_name": "慕容详",
+      "polities": [
+        "后燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 178,
+      "person_id": "ruler-0818",
+      "canonical_name": "石遵",
+      "polities": [
+        "后赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后赵": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 179,
+      "person_id": "ruler-0374",
+      "canonical_name": "慕容顗",
+      "polities": [
+        "西燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 180,
+      "person_id": "ruler-0921",
+      "canonical_name": "苻登",
+      "polities": [
+        "前秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前秦": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 181,
+      "person_id": "ruler-0107",
+      "canonical_name": "刘聪",
+      "polities": [
+        "汉赵/前赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "汉赵/前赵": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 182,
+      "person_id": "ruler-0786",
+      "canonical_name": "王继鹏",
+      "polities": [
+        "闽"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "闽": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 183,
+      "person_id": "ruler-1215",
+      "canonical_name": "马殷",
+      "polities": [
+        "马楚"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "马楚": 6
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 184,
+      "person_id": "ruler-0573",
+      "canonical_name": "杜锡珪",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 185,
+      "person_id": "ruler-0555",
+      "canonical_name": "李秉常",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西夏": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 186,
+      "person_id": "ruler-0291",
+      "canonical_name": "完颜珣",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "金": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 187,
+      "person_id": "ruler-0902",
+      "canonical_name": "耶律阮",
+      "polities": [
+        "辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "辽": 9
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 188,
+      "person_id": "ruler-0337",
+      "canonical_name": "张重华",
+      "polities": [
+        "前凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前凉": 8
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 189,
+      "person_id": "ruler-0375",
+      "canonical_name": "慕容麟",
+      "polities": [
+        "后燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 190,
+      "person_id": "ruler-0820",
+      "canonical_name": "石鉴",
+      "polities": [
+        "后赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "后赵": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 191,
+      "person_id": "ruler-0689",
+      "canonical_name": "段随",
+      "polities": [
+        "西燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西燕": 7
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 192,
+      "person_id": "ruler-0682",
+      "canonical_name": "段祺瑞",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 193,
+      "person_id": "ruler-0557",
+      "canonical_name": "李纯祐",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西夏": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 194,
+      "person_id": "ruler-0292",
+      "canonical_name": "完颜璟",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "金": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 195,
+      "person_id": "ruler-0903",
+      "canonical_name": "耶律阿保机",
+      "polities": [
+        "辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "辽": 9
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 196,
+      "person_id": "ruler-0338",
+      "canonical_name": "张骏",
+      "polities": [
+        "前凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "前凉": 8
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 197,
+      "person_id": "ruler-0907",
+      "canonical_name": "胡惟德",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 198,
+      "person_id": "ruler-0563",
+      "canonical_name": "李谅祚",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西夏": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 199,
+      "person_id": "ruler-0293",
+      "canonical_name": "完颜阿骨打",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "金": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 200,
+      "person_id": "ruler-0904",
+      "canonical_name": "耶律隆绪",
+      "polities": [
+        "辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "辽": 9
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 201,
+      "person_id": "ruler-1205",
+      "canonical_name": "顾维钧",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 202,
+      "person_id": "ruler-0568",
+      "canonical_name": "李遵顼",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "西夏": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 203,
+      "person_id": "ruler-0294",
+      "canonical_name": "完颜雍",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "金": 10
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 204,
+      "person_id": "ruler-1209",
+      "canonical_name": "颜惠庆",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 205,
+      "person_id": "ruler-1220",
+      "canonical_name": "高凌霨",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 206,
+      "person_id": "ruler-1279",
+      "canonical_name": "黄郛",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "review_order": 207,
+      "person_id": "ruler-1281",
+      "canonical_name": "黎元洪",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "machine_context": {
+        "p1_missing_candidates_by_person_polity": {
+          "中华民国北京政府/北洋政府": 14
+        },
+        "polity_membership_count": 1,
+        "screening_reason": "Round-robin across uncovered polities; machine context orders review only and is not an anchor score."
+      },
+      "status": "NEEDS_REVIEW"
+    }
+  ]
+}
