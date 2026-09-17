@@ -1,1 +1,135 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>帝王工程 · Emperor Lab</title><style>:root{--bg:#f5f3ee;--paper:#fffdf8;--ink:#171713;--muted:#6e6a61;--line:#ded9ce;--accent:#8a2f2a;--gold:#9a7334}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans SC",sans-serif}.wrap{max-width:1180px;margin:auto;padding:28px 20px 72px}header,section{padding:34px 0;border-bottom:1px solid var(--line)}h1,h2{font-family:Georgia,"Noto Serif SC",serif}h1{font-size:clamp(36px,7vw,72px);line-height:1;margin:12px 0 18px}.eyebrow{font-size:12px;letter-spacing:.18em;color:var(--accent);font-weight:700}.lead,header p{color:var(--muted);line-height:1.7}.stats,.pipeline,.grid,.reports{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stat,.stage,.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:18px}.stat b{display:block;font:600 28px Georgia,serif}.stat span,.stage p,.card p{color:var(--muted);font-size:13px}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:26px 0}.nav a,.btn{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:9px 13px;text-decoration:none;border-radius:999px;font-size:13px}.pipeline{grid-template-columns:repeat(5,1fr)}.stage small{color:var(--accent);font-weight:700}.stage b{display:block;margin:8px 0}.audit{display:grid;grid-template-columns:1.1fr 1fr;gap:14px}.levels{display:grid;gap:8px}.level{display:grid;grid-template-columns:44px 1fr;gap:12px;background:var(--paper);border:1px solid var(--line);padding:13px;border-radius:10px}.level strong{color:var(--accent)}.dyn{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.dyn a{display:flex;justify-content:space-between;background:var(--paper);border:1px solid var(--line);padding:13px 14px;border-radius:10px;color:var(--ink);text-decoration:none}.dyn em{font-style:normal;color:var(--muted)}.reports{grid-template-columns:repeat(3,1fr)}.report{background:#1f1e1a;color:white;padding:20px;border-radius:12px;text-decoration:none}.report span{display:block;color:#c8c2b7;font-size:12px;margin-bottom:22px}.quality{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.q b{font:600 30px Georgia,serif;color:var(--gold)}.note{padding:14px;border-left:3px solid var(--gold);background:var(--paper);color:var(--muted);font-size:13px}footer{padding-top:28px;color:var(--muted);font-size:12px}@media(max-width:800px){.stats,.pipeline,.grid,.reports,.quality,.dyn{grid-template-columns:repeat(2,1fr)}.audit{grid-template-columns:1fr}}@media(max-width:480px){.stats,.pipeline,.grid,.reports,.quality,.dyn{grid-template-columns:1fr}}</style></head><body><main class="wrap"><header><div class="eyebrow">EMPEROR LAB · 帝王工程</div><h1>从史料，到心智模型，<br>再到模拟世界。</h1><p>不是帝王百科，而是可审计、可计算、可比较的历史人物 Perspective corpus。</p><div class="stats"><div class="stat"><b id="skillCount">…</b><span>帝王 Skill</span></div><div class="stat"><b id="dynastyCount">…</b><span>朝代 corpus</span></div><div class="stat"><b>4L</b><span>Nuwa Audit v2</span></div><div class="stat"><b id="reviewCount">…</b><span>已复核 provenance 信号</span></div></div></header><nav class="nav"><a href="#audit">质量审查</a><a href="#skills">帝王 Skills</a><a href="#reports">报告</a><a href="#roadmap">可视化</a><a href="NUWA_AUDIT_V2.md">Audit 正典</a></nav><section><h2>可追溯数据链</h2><div class="pipeline"><div class="stage"><small>01</small><b>Sources</b><p>史料与研究。</p></div><div class="stage"><small>02</small><b>Research</b><p>独立 evidence base。</p></div><div class="stage"><small>03</small><b>Skills</b><p>心智模型。</p></div><div class="stage"><small>04</small><b>Simulation</b><p>跨情境实验。</p></div><div class="stage"><small>05</small><b>Visualization</b><p>比较与演化。</p></div></div></section><section id="audit"><h2>质量审查 · Nuwa Audit v2</h2><p class="lead">mtime 与文件大小只能产生信号，不能替代 provenance、evidence 与语义判断。</p><div class="quality"><div class="card q"><b id="reviewed">…</b><p>39 个历史 mtime 信号中已人工/语义分类</p></div><div class="card q"><b id="remaining">…</b><p>剩余历史 provenance REVIEW</p></div><div class="card q"><b id="mtimeReresearch">…</b><p>仅因 mtime 被判全量重搜</p></div><div class="card q"><b>92</b><p>旧 size queue，已废止为质量门禁</p></div></div><div class="audit" style="margin-top:14px"><div class="levels"><div class="level"><strong>L1</strong><div><b>Provenance</b><p>真实 Sources → Research → Skill 血缘。</p></div></div><div class="level"><strong>L2</strong><div><b>Evidence</b><p>来源等级、事实/史论/推断分界。</p></div></div><div class="level"><strong>L3</strong><div><b>Semantic</b><p>特异性、反证、张力、可迁移性。</p></div></div><div class="level"><strong>L4</strong><div><b>Engineering</b><p>schema 与 corpus 兼容。</p></div></div></div><div class="card"><h3>最小充分修复</h3><p>KEEP · CLEAN · PATCH · REDISTILL · RESEARCH-GAP · RERESEARCH · REBUILD · REVIEW。</p><div class="note">旧 2.5KB / 文件数量 / mtime proxy 均不能单独证明 Nuwa 质量。当前 recovery ledger：<a href="assessment/PROVENANCE_RECOVERY.md">PROVENANCE_RECOVERY.md</a></div></div></div></section><section id="skills"><h2>帝王 Skill 面板</h2><p class="lead">以下内容直接读取 <code>data/corpus-registry.json</code>，避免首页数字与 corpus 漂移。</p><div class="dyn" id="dynasties"></div></section><section id="reports"><h2>已有报告</h2><div class="reports" id="reportsGrid"></div></section><section id="roadmap"><h2>分析与可视化层</h2><div class="grid"><div class="card"><h3>历史时间轴</h3><p>朝代、在位与模型演化。</p></div><div class="card"><h3>心智模型地图</h3><p>相似度、独特性与模型家族。</p></div><div class="card"><h3>关系网络</h3><p>制度继承、反模式、决策关联。</p></div><div class="card"><h3>质量地图</h3><p>L1–L4 与 repair action 全库分布。</p></div></div></section><footer id="status">正在读取 corpus registry…</footer></main><script>fetch('data/corpus-registry.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(d=>{skillCount.textContent=d.totals.skills;dynastyCount.textContent=d.totals.dynasty_directories;reviewCount.textContent=d.audit.reviewed;reviewed.textContent=d.audit.reviewed;remaining.textContent=d.audit.remaining_snapshot_reviews;mtimeReresearch.textContent=d.audit.reresearch_due_to_mtime_only;dynasties.innerHTML=d.dynasties.map(x=>`<a href="skills/${x.id}/">${x.name}<em>${x.count}</em></a>`).join('');reportsGrid.innerHTML=d.reports.map(x=>`<a class="report" href="${x.path}"><span>${x.type.toUpperCase()}</span><b>${x.id} →</b></a>`).join('');status.textContent=`registry v${d.schema_version} · ${d.totals.skills} Skills · ${d.totals.dynasty_directories} dynasty corpora · audit in progress`;}).catch(e=>{status.textContent='Registry 暂时无法读取；请直接查看 data/corpus-registry.json。';});</script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>帝王工程 · Emperor Lab</title>
+<style>
+:root{--bg:#f4f1e9;--paper:#fffdf8;--ink:#171713;--muted:#6d685e;--line:#ddd6c8;--accent:#8b2f2b;--gold:#9c7638;--deep:#1f1d18;--soft:#eee8dc}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans SC",sans-serif}.wrap{max-width:1180px;margin:auto;padding:26px 20px 72px}header,section{padding:34px 0;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,"Noto Serif SC",serif}h1{font-size:clamp(38px,7vw,72px);line-height:1.02;margin:12px 0 18px}.eyebrow{font-size:12px;letter-spacing:.18em;color:var(--accent);font-weight:750}.lead,header p{color:var(--muted);line-height:1.75}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:26px 0}.nav a,.btn{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:9px 13px;text-decoration:none;border-radius:999px;font-size:13px}.stats,.pipeline,.grid,.reports,.quality,.corpus-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stat,.stage,.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px}.stat b,.metric b{display:block;font:600 28px Georgia,serif}.stat span,.stage p,.card p,.metric span{color:var(--muted);font-size:13px}.pipeline{grid-template-columns:repeat(5,1fr)}.stage small{color:var(--accent);font-weight:750}.stage b{display:block;margin:8px 0}.corpus-panel{display:grid;grid-template-columns:1.35fr .9fr;gap:14px}.coverage{background:var(--deep);color:white;border-radius:16px;padding:22px}.coverage p{color:#cfc8bb}.bar{height:10px;background:#3a372f;border-radius:999px;overflow:hidden;margin:18px 0 8px}.bar>span{display:block;height:100%;background:#d8b06e;width:0}.coverage-meta{display:flex;justify-content:space-between;color:#cfc8bb;font-size:12px}.metric{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px}.metric b{font-size:26px}.audit{display:grid;grid-template-columns:1.05fr 1fr;gap:14px}.levels{display:grid;gap:8px}.level{display:grid;grid-template-columns:44px 1fr;gap:12px;background:var(--paper);border:1px solid var(--line);padding:13px;border-radius:10px}.level strong{color:var(--accent)}.dyn{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.dyn a{display:flex;justify-content:space-between;background:var(--paper);border:1px solid var(--line);padding:13px 14px;border-radius:10px;color:var(--ink);text-decoration:none}.dyn em{font-style:normal;color:var(--muted)}.reports{grid-template-columns:repeat(3,1fr)}.report{background:var(--deep);color:white;padding:20px;border-radius:12px;text-decoration:none}.report span{display:block;color:#c8c2b7;font-size:12px;margin-bottom:22px}.q b{font:600 30px Georgia,serif;color:var(--gold)}.note{padding:14px;border-left:3px solid var(--gold);background:var(--paper);color:var(--muted);font-size:13px;line-height:1.65}.note a{color:var(--accent)}.queue{display:grid;gap:8px;margin-top:14px}.queue-row{display:grid;grid-template-columns:minmax(210px,1fr) auto;gap:14px;align-items:center;padding:11px 13px;background:var(--paper);border:1px solid var(--line);border-radius:10px}.queue-row code{font-size:12px}.queue-row b{font-family:Georgia,serif}.tag{display:inline-block;padding:4px 8px;border-radius:999px;background:var(--soft);font-size:11px;color:var(--muted);margin-right:5px}.mini-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.mini-links a{font-size:12px;color:var(--accent);text-decoration:none;border-bottom:1px solid #caa}.roadmap-card small{display:block;color:var(--accent);font-weight:700;margin-bottom:8px}footer{padding-top:28px;color:var(--muted);font-size:12px}@media(max-width:850px){.stats,.pipeline,.grid,.reports,.quality,.dyn,.corpus-grid{grid-template-columns:repeat(2,1fr)}.audit,.corpus-panel{grid-template-columns:1fr}}@media(max-width:500px){.stats,.pipeline,.grid,.reports,.quality,.dyn,.corpus-grid{grid-template-columns:1fr}.queue-row{grid-template-columns:1fr auto}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+<div class="eyebrow">EMPEROR LAB · 帝王工程</div>
+<h1>从史料，到心智模型，<br>再到模拟世界。</h1>
+<p>不是帝王百科，而是可审计、可计算、可比较的历史人物 Perspective corpus。蒸馏只是数据生产层；主名单、证据、模拟、统计与可视化才组成完整工程。</p>
+<div class="stats">
+<div class="stat"><b id="skillCount">…</b><span>Perspective Skills</span></div>
+<div class="stat"><b id="candidateCount">…</b><span>主名单候选人物</span></div>
+<div class="stat"><b id="coreCount">…</b><span>当前 CORE</span></div>
+<div class="stat"><b id="missingCount">…</b><span>缺失 CORE Skills</span></div>
+</div>
+</header>
+<nav class="nav"><a href="#corpus">主名单</a><a href="#audit">质量审查</a><a href="#skills">帝王 Skills</a><a href="#reports">报告</a><a href="#roadmap">分析与可视化</a><a href="NUWA_AUDIT_V2.md">Audit 正典</a></nav>
+<section>
+<h2>可追溯数据链</h2>
+<div class="pipeline">
+<div class="stage"><small>01</small><b>Sources</b><p>史料与研究来源。</p></div>
+<div class="stage"><small>02</small><b>Research</b><p>独立 evidence base。</p></div>
+<div class="stage"><small>03</small><b>Skills</b><p>人物心智模型。</p></div>
+<div class="stage"><small>04</small><b>Simulation</b><p>跨情境实验。</p></div>
+<div class="stage"><small>05</small><b>Visualization</b><p>比较、聚类与演化。</p></div>
+</div>
+</section>
+<section id="corpus">
+<div class="eyebrow">MASTER RULER CORPUS</div>
+<h2>从 267 个既有包，扩到最大统治者主名单</h2>
+<p class="lead">当前不是继续无差别堆 Skill，而是先把人物 scope、identity、canonical name 与 stable ID 做对，再批量补齐锁定 CORE。</p>
+<div class="corpus-panel">
+<div class="coverage">
+<div class="eyebrow" style="color:#d8b06e">CORE COVERAGE</div>
+<h3 style="font-size:28px;margin:10px 0"><span id="matchedCore">…</span> / <span id="lockedCore">…</span></h3>
+<p>已有 Skill 覆盖当前锁定 CORE。REVIEW / EXTENDED / LEGENDARY 不会静默进入分母。</p>
+<div class="bar"><span id="coverageBar"></span></div>
+<div class="coverage-meta"><span id="coveragePct">…</span><span>identity QA → ID freeze → research → distill</span></div>
+</div>
+<div class="corpus-grid" style="grid-template-columns:1fr 1fr">
+<div class="metric"><b id="reviewPersons">…</b><span>REVIEW</span></div>
+<div class="metric"><b id="extendedPersons">…</b><span>EXTENDED</span></div>
+<div class="metric"><b id="legendaryPersons">…</b><span>LEGENDARY</span></div>
+<div class="metric"><b id="scopeExceptions">…</b><span>现有 Skill scope exception</span></div>
+</div>
+</div>
+<div class="queue" id="queueGrid">
+<div class="queue-row"><code>A_CORE_MAJOR_SEQUENCE_MISSING</code><b>70</b></div>
+<div class="queue-row"><code>B_CORE_PARALLEL_POLITY_MISSING</code><b>174</b></div>
+<div class="queue-row"><code>D_CORE_EARLY_OR_PREQIN_MISSING</code><b>404</b></div>
+<div class="queue-row"><code>Q1_SCOPE_OR_IDENTITY_REVIEW</code><b>365</b></div>
+</div>
+<div class="mini-links"><a href="assessment/CORPUS_COVERAGE.md">Coverage report</a><a href="assessment/CORPUS_QA.md">Corpus QA</a><a href="data/corpus-work-queue.json">Machine work queue</a><a href="data/corpus-identity-issues.json">Identity issues</a><a href="data/RULER_CORPUS_SCOPE.md">Scope canonical</a></div>
+</section>
+<section id="audit">
+<h2>质量审查 · Nuwa Audit v2</h2>
+<p class="lead">工程 lint、mtime、文件大小只能产生信号，不能替代 provenance、evidence 与语义判断。</p>
+<div class="quality">
+<div class="card q"><b id="reviewed">…</b><p>历史 provenance snapshot 已分类</p></div>
+<div class="card q"><b id="identityIssues">…</b><p>当前 suspicious canonical names</p></div>
+<div class="card q"><b id="unresolvedSkills">…</b><p>现有 Skill unresolved</p></div>
+<div class="card q"><b>4L</b><p>L1 provenance → L4 engineering</p></div>
+</div>
+<div class="audit" style="margin-top:14px">
+<div class="levels">
+<div class="level"><strong>L1</strong><div><b>Provenance</b><p>真实 Sources → Research → Skill 血缘。</p></div></div>
+<div class="level"><strong>L2</strong><div><b>Evidence</b><p>来源等级、事实 / 史论 / 推断分界。</p></div></div>
+<div class="level"><strong>L3</strong><div><b>Semantic</b><p>特异性、反证、张力、可迁移性。</p></div></div>
+<div class="level"><strong>L4</strong><div><b>Engineering</b><p>schema、目录、角色协议与 corpus 兼容。</p></div></div>
+</div>
+<div class="card"><h3>当前 P0：Identity freeze</h3><p>候选 ID 仍是临时编号。规范名和别名未收口前，不能把 candidate_id 当永久外键，也不应先把 648 个缺失 CORE 批量蒸馏。</p><div class="note"><span class="tag">KEEP</span><span class="tag">PATCH</span><span class="tag">REDISTILL</span><span class="tag">RESEARCH-GAP</span><span class="tag">REVIEW</span><br><br>历史 39 个 mtime signal 已完成分类，但这只是 forensic triage，不代表 267 个包 corpus-wide PASS。</div></div>
+</div>
+</section>
+<section id="skills">
+<h2>帝王 Skill 面板</h2>
+<p class="lead">以下目录直接读取 <code>data/corpus-registry.json</code>，避免首页数字与仓库快照漂移。</p>
+<div class="dyn" id="dynasties"></div>
+</section>
+<section id="reports">
+<h2>已有报告与审查入口</h2>
+<div class="reports" id="reportsGrid">
+<a class="report" href="assessment/CORPUS_COVERAGE.md"><span>CORPUS</span><b>coverage →</b></a>
+<a class="report" href="assessment/CORPUS_QA.md"><span>QA</span><b>identity & queue →</b></a>
+<a class="report" href="assessment/PROVENANCE_RECOVERY.md"><span>AUDIT</span><b>provenance recovery →</b></a>
+</div>
+</section>
+<section id="roadmap">
+<h2>分析与可视化层</h2>
+<div class="grid">
+<div class="card roadmap-card"><small>01</small><h3>历史时间轴</h3><p>朝代、在位、政权并行与模型演化。</p></div>
+<div class="card roadmap-card"><small>02</small><h3>心智模型地图</h3><p>模型相似度、独特性、聚类与家族。</p></div>
+<div class="card roadmap-card"><small>03</small><h3>关系网络</h3><p>制度继承、反模式、决策与思想关联。</p></div>
+<div class="card roadmap-card"><small>04</small><h3>情境模拟矩阵</h3><p>人物 × 情境 × 决策 × 结果，以及 duel / coop / one-life。</p></div>
+</div>
+</section>
+<footer id="status">正在读取 corpus registry…</footer>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+fetch('data/corpus-registry.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(d=>{
+ const m=d.master_corpus||{};
+ $('skillCount').textContent=d.totals.skills;
+ $('candidateCount').textContent=m.candidate_persons??'—';
+ $('coreCount').textContent=m.locked_core_persons??'—';
+ $('missingCount').textContent=m.missing_core_persons??'—';
+ $('matchedCore').textContent=m.matched_core_persons??'—';
+ $('lockedCore').textContent=m.locked_core_persons??'—';
+ $('reviewPersons').textContent=m.review_persons??'—';
+ $('extendedPersons').textContent=m.extended_persons??'—';
+ $('legendaryPersons').textContent=m.legendary_persons??'—';
+ $('scopeExceptions').textContent=m.scope_exception_existing_skills??'—';
+ $('reviewed').textContent=d.audit.reviewed;
+ $('identityIssues').textContent='26';
+ $('unresolvedSkills').textContent=m.unresolved_existing_skills??'—';
+ const pct=Math.max(0,Math.min(100,(m.core_coverage_ratio||0)*100));
+ $('coverageBar').style.width=pct.toFixed(2)+'%';
+ $('coveragePct').textContent=pct.toFixed(2)+'% covered';
+ $('dynasties').innerHTML=d.dynasties.map(x=>`<a href="skills/${x.id}/">${x.name}<em>${x.count}</em></a>`).join('');
+ const existing=new Set(['assessment/CORPUS_COVERAGE.md','assessment/CORPUS_QA.md','assessment/PROVENANCE_RECOVERY.md']);
+ const extra=(d.reports||[]).filter(x=>!existing.has(x.path)).map(x=>`<a class="report" href="${x.path}"><span>${String(x.type).toUpperCase()}</span><b>${x.id} →</b></a>`).join('');
+ $('reportsGrid').insertAdjacentHTML('beforeend',extra);
+ $('status').textContent=`registry v${d.schema_version} · ${d.totals.skills} Skills · ${d.totals.dynasty_directories} dynasty corpora · ${m.candidate_persons||'—'} candidate persons · candidate IDs not yet frozen`;
+}).catch(()=>{$('status').textContent='Registry 暂时无法读取；请直接查看 data/corpus-registry.json。';});
+fetch('data/corpus-identity-issues.json').then(r=>r.json()).then(d=>{$('identityIssues').textContent=d.summary?.suspicious_canonical_names??'—';}).catch(()=>{});
+</script>
+</body>
+</html>
