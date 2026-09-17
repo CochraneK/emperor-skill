@@ -3462,7 +3462,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "The received Wei ruler sequence records 卫疌伯; Shiben transmits the same ruler as 卫挚伯.",
+        "source_raw_labels": [
+          "卫疌伯/挚伯"
+        ],
+        "evidence": [
+          "https://ctext.org/dictionary.pl?if=gb&char=%E7%96%8C"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -3514,7 +3523,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "The transmitted title variant is recorded as 卫考伯, also called 卫孝伯.",
+        "source_raw_labels": [
+          "卫考伯/孝伯"
+        ],
+        "evidence": [
+          "https://zh.wikipedia.org/wiki/%E5%AD%9D%E4%BC%AF"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -3566,7 +3584,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "The received Wei ruler sequence records 卫贞伯; Shiben transmits the same ruler as 卫箕伯.",
+        "source_raw_labels": [
+          "卫贞伯/箕伯"
+        ],
+        "evidence": [
+          "https://ctext.org/dictionary.pl?if=gb&char=%E8%B2%9E"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -6676,7 +6703,14 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "Structural normalization of a legendary ruler label: title/name and traditional clan-style designation are stored separately.",
+        "source_raw_labels": [
+          "帝喾高辛氏"
+        ],
+        "evidence": [],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -6701,7 +6735,14 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "MEDIUM",
+        "basis": "Structural normalization only. The raw source string remains preserved, but 高辛氏 is not emitted as an identity hint because that designation is also attached to 帝喾 and would create a false cross-person collision.",
+        "source_raw_labels": [
+          "帝挚高辛氏"
+        ],
+        "evidence": [],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -8221,7 +8262,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "王保保 and 扩廓帖木儿 are names used for the same Yuan/Northern Yuan figure.",
+        "source_raw_labels": [
+          "王保保/扩廓帖木儿"
+        ],
+        "evidence": [
+          "https://zh.wikipedia.org/wiki/%E6%93%B4%E5%BB%93%E5%B8%96%E6%9C%A8%E5%85%92"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -8846,7 +8896,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "Different transmitted sources use 哀公, 懿公 and 敬公 for the same ruler 骄.",
+        "source_raw_labels": [
+          "晋哀公/懿公/敬公"
+        ],
+        "evidence": [
+          "https://zh.wikipedia.org/wiki/%E6%99%8B%E5%93%80%E5%85%AC"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -8897,7 +8956,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "The ancient Bamboo Annals tradition calls 晋孝公 晋桓公.",
+        "source_raw_labels": [
+          "晋孝公/桓公"
+        ],
+        "evidence": [
+          "https://zh.wikipedia.org/wiki/%E6%99%8B%E5%AD%9D%E5%85%AC"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -9456,7 +9524,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "静/靖 is a transmitted title variant for the final Jin ruler 俱酒.",
+        "source_raw_labels": [
+          "晋静公/靖公"
+        ],
+        "evidence": [
+          "https://ctext.org/dictionary.pl?did=2411&if=gb"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -9571,7 +9648,17 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "曲沃武公 was later recognized as 晋侯 and is the same person conventionally called 晋武公.",
+        "source_raw_labels": [
+          "曲沃武公/晋武公"
+        ],
+        "evidence": [
+          "https://ctext.org/dictionary.pl?did=930&if=gb&remap=gb",
+          "https://www.fdgwz.org.cn/Web/Show/2458"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -14023,7 +14110,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "CTP identifies 楚王比 and 熊比 as the same person.",
+        "source_raw_labels": [
+          "楚王比熊比"
+        ],
+        "evidence": [
+          "https://ctext.org/datawiki.pl?if=gb&remap=gb&res=418895"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -14052,7 +14148,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "CTP identifies 楚王负刍 and 熊负刍 as the same person.",
+        "source_raw_labels": [
+          "楚王负刍熊负刍"
+        ],
+        "evidence": [
+          "https://ctext.org/datawiki.pl?if=gb&remap=gb&res=19258"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -16879,7 +16984,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "王延羲 changed his name to 王曦 after accession.",
+        "source_raw_labels": [
+          "王延羲/王曦"
+        ],
+        "evidence": [
+          "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E7%BE%B2"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -16933,7 +17047,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "王延钧 used 王鏻 after accession; the records describe one person.",
+        "source_raw_labels": [
+          "王延钧/王鏻"
+        ],
+        "evidence": [
+          "https://wapbaike.baidu.com/item/%E7%8E%8B%E5%BB%B6%E9%92%A7/2229461"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -16985,7 +17108,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "王继鹏 later changed his name to 王昶.",
+        "source_raw_labels": [
+          "王继鹏/王昶"
+        ],
+        "evidence": [
+          "https://zh.wikisource.org/zh-hans/Author%3A%E7%8E%8B%E7%B9%BC%E9%B5%AC"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -22754,7 +22886,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "赵嘉 was established as 代王 after the fall of Handan; title and personal name refer to one person.",
+        "source_raw_labels": [
+          "代王嘉赵嘉"
+        ],
+        "evidence": [
+          "https://zh.wikipedia.org/wiki/%E4%BB%A3%E7%8E%8B%E5%98%89"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -23342,7 +23483,17 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "Shiji Suoyin / Bamboo Annals tradition explicitly connects 王之侯, 初无余之 and 莽安 as the same ruler.",
+        "source_raw_labels": [
+          "之侯/初无余/莽安"
+        ],
+        "evidence": [
+          "https://www.fdgwz.org.cn/Web/Show/525",
+          "https://ctext.org/wiki.pl?chapter=2158425&if=gb&remap=gb"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -23375,7 +23526,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "The Yue ruler is transmitted as 王翁 and also as 朱句/州句.",
+        "source_raw_labels": [
+          "翁/朱句"
+        ],
+        "evidence": [
+          "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3000/site/attach/0/67ee13b418234711bdaf01cb41e729ae.pdf"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -23412,7 +23572,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "The same Yue ruler is transmitted under 鼫/鼫与, 鹿郢 and 与夷/适郢 variants.",
+        "source_raw_labels": [
+          "鼫与/鹿郢/与夷"
+        ],
+        "evidence": [
+          "https://zh.wikipedia.org/wiki/%E9%B9%BF%E9%83%A2"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -27320,7 +27489,16 @@
       "identity_status": "CANDIDATE_ID_NOT_LOCKED",
       "identity_resolution": {
         "status": "EVIDENCE_BACKED_OVERRIDE",
-        "source": "data/corpus-identity-overrides.json"
+        "source": "data/corpus-identity-overrides.json",
+        "confidence": "HIGH",
+        "basis": "Transmitted sources preserve 真公/慎公 as posthumous-title variants for the same Lu ruler; Shiji uses 真公 while Hanshu Lülü zhi uses 慎公.",
+        "source_raw_labels": [
+          "鲁真公/慎公"
+        ],
+        "evidence": [
+          "https://ctext.org/wiki.pl?if=gb&chapter=471674"
+        ],
+        "reported_aliases_unverified": []
       }
     },
     {
@@ -28261,9 +28439,12 @@
     }
   ],
   "identity_override_file": "data/corpus-identity-overrides.json",
+  "identity_review_relations": [],
   "identity_override_stats": {
     "canonical_overrides": 20,
+    "source_corrections": 0,
+    "ambiguous_splits": 0,
     "excluded_non_person_placeholders": 1,
-    "unresolved_review": 5
+    "open_identity_questions": 0
   }
 }
