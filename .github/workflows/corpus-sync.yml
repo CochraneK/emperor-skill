@@ -119,7 +119,7 @@ jobs:
           }, ensure_ascii=False, indent=2))
           PY
 
-      - name: Commit generated artifacts
+      - name: Commit generated artifacts safely
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -129,4 +129,11 @@ jobs:
             exit 0
           fi
           git commit -m 'chore: sync corpus and Nuwa quality registries'
-          git push
+
+          # A Skill package can receive several commits while this job is running.
+          # Rebase the generated commit onto the latest main so an unrelated later
+          # research/script commit does not turn a healthy build into a non-fast-forward
+          # push failure. A real generated-file conflict still fails visibly.
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
