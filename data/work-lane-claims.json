@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "status": "ADDITIVE_CLAIM_RECORD_NOT_CANONICAL_REGISTRY",
+  "authority": "NUWA_AUDIT_V2.md > WORKER_BRIEF_V2.md > this file",
+  "note": "Claims are coordination hints between concurrent workers. They do not change corpus status, quality verdicts, or generated registries. Corpus Sync regenerates data/, so this file must stay additive and must not be hand-edited into generated semantics.",
+  "lanes": {
+    "gpt_side": {
+      "lane": "P1",
+      "scope": "post-Qin CORE anchor tranche",
+      "avoid_by": "workbuddy_side"
+    },
+    "workbuddy_side": {
+      "lane": "P3",
+      "scope": "early / pre-Qin CORE from queue D_CORE_EARLY_OR_PREQIN_MISSING",
+      "avoid_by": "gpt_side",
+      "declared_in": "WORKER_LANE_PREQIN.md"
+    }
+  },
+  "claims": [
+    {
+      "person_id": "ruler-1076",
+      "canonical_name": "赵武灵王赵雍",
+      "polity": "赵",
+      "package_path": "skills/zhou/zhaowulingwang-perspective",
+      "queue": "D_CORE_EARLY_OR_PREQIN_MISSING",
+      "batch": "P3-B01",
+      "status": "IN_PROGRESS",
+      "claimed_by": "workbuddy_side",
+      "claimed_on": "2026-09-17"
+    },
+    {
+      "person_id": "ruler-1237",
+      "canonical_name": "魏文侯魏斯",
+      "polity": "魏",
+      "package_path": "skills/zhou/weiwenhou-perspective",
+      "queue": "D_CORE_EARLY_OR_PREQIN_MISSING",
+      "batch": "P3-B01",
+      "status": "PLANNED",
+      "claimed_by": "workbuddy_side",
+      "claimed_on": "2026-09-17"
+    }
+  ]
+}
