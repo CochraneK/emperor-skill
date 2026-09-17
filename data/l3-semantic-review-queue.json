@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "status": "GENERATED_REVIEW_SIGNALS_NOT_L3_VERDICTS",
+  "policy": {
+    "automatic_pass_fail": false,
+    "meaning": "Lexical reuse is a review signal only; shared history/source wording can be legitimate.",
+    "shell_excluded": [
+      "角色扮演规则",
+      "工作流程",
+      "触发",
+      "退出角色",
+      "使用方式",
+      "如何使用"
+    ],
+    "payload_sections": [
+      "身份卡",
+      "核心心智模型",
+      "决策启发式",
+      "价值观",
+      "价值排序",
+      "反模式",
+      "内在张力",
+      "表达DNA",
+      "表达 DNA",
+      "时间线",
+      "诚实边界",
+      "适用边界",
+      "证据边界"
+    ],
+    "next_step": "Read flagged Skill pairs with research/provenance and decide KEEP / PATCH / REDISTILL / RERESEARCH semantically."
+  },
+  "thresholds": {
+    "character_shingle_n": 6,
+    "common_shingle_df_ratio_excluded": 0.3,
+    "pair_jaccard": 0.34,
+    "pair_containment": 0.58,
+    "minimum_pair_overlap_shingles": 120,
+    "repeated_paragraph_min_chars": 90
+  },
+  "summary": {
+    "packages_scanned": 267,
+    "packages_flagged_for_l3_review": 0,
+    "high_similarity_pairs": 0,
+    "repeated_long_paragraph_groups": 0,
+    "packages_with_stable_person_id": 266,
+    "legacy_payload_fallback_packages": 0
+  },
+  "review_queue": [],
+  "high_similarity_pairs": [],
+  "repeated_long_paragraph_groups": []
+}
