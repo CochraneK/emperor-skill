@@ -1,0 +1,57 @@
+name: Corpus Sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**/SKILL.md'
+      - 'data/rulers-master-h*.json'
+      - 'data/legendary-rulers.json'
+      - 'data/ruler-candidates-preqin-other.json'
+      - '_redo_tools/_build_ruler_corpus.py'
+      - '.github/workflows/corpus-sync.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: corpus-sync-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-corpus:
+    if: github.actor != 'github-actions[bot]' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate corpus artifacts
+        run: python _redo_tools/_build_ruler_corpus.py
+
+      - name: Show generated summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          gap=json.loads(Path('data/corpus-gap.json').read_text())
+          print(json.dumps(gap['summary'], ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit generated artifacts
+        run: |
+          if git diff --quiet -- data/rulers-person-index.json data/existing-skill-person-map.json data/corpus-gap.json data/rulers-master.json data/corpus-registry.json assessment/CORPUS_COVERAGE.md data/_tmp-skill-map-*.json; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/rulers-person-index.json data/existing-skill-person-map.json data/corpus-gap.json data/rulers-master.json data/corpus-registry.json assessment/CORPUS_COVERAGE.md data/_tmp-skill-map-*.json
+          git commit -m 'chore: sync ruler corpus coverage'
+          git push
