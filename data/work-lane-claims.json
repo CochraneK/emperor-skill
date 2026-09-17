@@ -24,9 +24,10 @@
       "package_path": "skills/zhou/zhaowulingwang-perspective",
       "queue": "D_CORE_EARLY_OR_PREQIN_MISSING",
       "batch": "P3-B01",
-      "status": "IN_PROGRESS",
+      "status": "DISTILLED",
       "claimed_by": "workbuddy_side",
-      "claimed_on": "2026-09-17"
+      "claimed_on": "2026-09-17",
+      "updated_on": "2026-09-17"
     },
     {
       "person_id": "ruler-1237",
