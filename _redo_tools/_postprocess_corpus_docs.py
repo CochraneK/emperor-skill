@@ -11,12 +11,12 @@ ASSESSMENT = ROOT / "assessment"
 SKILLS = ROOT / "skills"
 
 DYNASTY_ORDER = [
-    "xia", "shang", "zhou", "qin", "chuhan", "xihan", "donghan", "sanguo", "jin",
+    "xia", "shang", "zhou", "qin", "chuhan", "xihan", "xin", "donghan", "sanguo", "jin",
     "nanbeichao", "sui", "tang", "wudai", "song", "yuan", "ming", "qing",
 ]
 DYNASTY_NAMES = {
     "xia": "夏", "shang": "商", "zhou": "周", "qin": "秦", "chuhan": "楚汉",
-    "xihan": "西汉", "donghan": "东汉", "sanguo": "三国", "jin": "晋",
+    "xihan": "西汉", "xin": "新", "donghan": "东汉", "sanguo": "三国", "jin": "晋",
     "nanbeichao": "南北朝", "sui": "隋", "tang": "唐", "wudai": "五代",
     "song": "宋", "yuan": "元", "ming": "明", "qing": "清",
 }
