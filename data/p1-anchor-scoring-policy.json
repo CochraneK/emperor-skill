@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "status": "CANONICAL_P1_ANCHOR_SCORING_POLICY",
+  "purpose": "Prioritize a small first tranche of remaining post-Qin CORE rulers for research/distillation after the Qin-to-Qing P0 backbone is complete.",
+  "non_goal": "This is not a ranking of historical worth, legitimacy, morality, ethnicity, fame, or political importance.",
+  "eligibility": {
+    "source": "data/distillation-priority.json#p1_high_leverage_anchors.candidate_pool",
+    "requires_p0_complete": true,
+    "corpus_status": "CORE",
+    "period": "post-Qin",
+    "already_has_skill": false
+  },
+  "dimensions": [
+    {
+      "id": "evidence_readiness",
+      "weight": 0.2,
+      "scale": "0-3",
+      "meaning": "How readily a defensible source/research base can be established without padding or speculative psychology.",
+      "review_required": true
+    },
+    {
+      "id": "structural_coverage_gain",
+      "weight": 0.25,
+      "scale": "0-3",
+      "meaning": "How much this person opens an uncovered polity, parallel regime, regional sequence, or comparison lane in the current corpus.",
+      "review_required": true
+    },
+    {
+      "id": "comparative_value",
+      "weight": 0.2,
+      "scale": "0-3",
+      "meaning": "Value for controlled comparisons against already-distilled rulers or other P1 candidates.",
+      "review_required": true
+    },
+    {
+      "id": "transition_leverage",
+      "weight": 0.2,
+      "scale": "0-3",
+      "meaning": "Value for understanding regime formation, collapse, succession rupture, conquest, restoration, or institutional transition.",
+      "review_required": true
+    },
+    {
+      "id": "simulation_visualization_value",
+      "weight": 0.15,
+      "scale": "0-3",
+      "meaning": "Expected usefulness for later simulation, network comparison, counterfactual analysis, and data visualization once the evidence base is sound.",
+      "review_required": true
+    }
+  ],
+  "ranking": {
+    "method": "weighted scheduling score after all five dimensions are manually/agent reviewed",
+    "formula": "sum(score_0_to_3 * weight)",
+    "tie_breakers": [
+      "higher structural_coverage_gain",
+      "higher transition_leverage",
+      "higher evidence_readiness",
+      "stable person_id"
+    ],
+    "precision": 3,
+    "warning": "The score is only a work-scheduling heuristic. It must never be reused as historical quality, ruler quality, or Nuwa semantic quality."
+  },
+  "screening_queue": {
+    "purpose": "Order unreviewed candidates for scoring without pretending they already have anchor scores.",
+    "machine_signals": [
+      "number of currently missing P1 candidates sharing each polity",
+      "number of polity memberships for the person",
+      "source segment"
+    ],
+    "rule": "Machine signals may order the review queue but cannot fill any of the five reviewed dimensions."
+  },
+  "selection": {
+    "initial_anchor_tranche_target": 24,
+    "minimum_cross_polity_diversity": 8,
+    "guardrails": [
+      "Do not fill a tranche only from one dynasty/polity because its sources are easier.",
+      "Do not promote REVIEW/EXTENDED/LEGENDARY entries into P1.",
+      "LIMITED-EVIDENCE is allowed if the model claims are correspondingly constrained.",
+      "Every scored dimension requires a short rationale; no unexplained numbers.",
+      "A candidate with incomplete scoring remains NEEDS_REVIEW and receives no final rank."
+    ]
+  }
+}
