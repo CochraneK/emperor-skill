@@ -4,12 +4,12 @@
 
 ## Current state
 
-- All missing locked CORE: **638**
+- All missing locked CORE: **632**
 - P0 backbone CORE persons: **216**
-- P0 already distilled: **189**
-- P0 still missing: **27**
-- P0 completion: **87.5%**
-- Current focus lane: **北齐**
+- P0 already distilled: **195**
+- P0 still missing: **21**
+- P0 completion: **90.3%**
+- Current focus lane: **北周**
 - Mapping issues: **0**
 
 ## Execution order
@@ -40,7 +40,7 @@
 | 74 | 北魏 | 15 | 0 | 100% |
 | 75 | 东魏 | 1 | 0 | 100% |
 | 76 | 西魏 | 3 | 0 | 100% |
-| 77 | 北齐 | 0 | 6 | 0% |
+| 77 | 北齐 | 6 | 0 | 100% |
 | 78 | 北周 | 0 | 5 | 0% |
 | 80 | 隋 | 3 | 1 | 75% |
 | 90 | 唐/武周 | 21 | 1 | 95% |
@@ -58,11 +58,10 @@
 
 ## Next P0 tasks
 
-- `ruler-1228` · **高洋** · 北齐 · succession #1
-- `ruler-1226` · **高殷** · 北齐 · succession #2
-- `ruler-1230` · **高演** · 北齐 · succession #3
-- `ruler-1229` · **高湛** · 北齐 · succession #4
-- `ruler-1231` · **高纬** · 北齐 · succession #5
-- `ruler-1225` · **高恒** · 北齐 · succession #6
+- `ruler-0244` · **宇文觉** · 北周 · succession #1
+- `ruler-0243` · **宇文毓** · 北周 · succession #2
+- `ruler-0246` · **宇文邕** · 北周 · succession #3
+- `ruler-0245` · **宇文赟** · 北周 · succession #4
+- `ruler-0247` · **宇文阐** · 北周 · succession #5
 
 Machine-readable schedule: `data/distillation-priority.json`. Policy: `data/distillation-priority-policy.json`.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 277,
+  "count": 283,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -825,6 +825,92 @@
       "en": "Chen Xu",
       "era": "568–582",
       "frontmatter_name": "chenxuan-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaoheng-perspective",
+      "skill_file": "skills/nanbeichao/gaoheng-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "gaoheng-perspective",
+      "cn": "高恒",
+      "normalized_cn": "高恒",
+      "name_hints": [
+        "高恒"
+      ],
+      "en": "Gao Heng",
+      "era": null,
+      "frontmatter_name": "gaoheng-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaowei-perspective",
+      "skill_file": "skills/nanbeichao/gaowei-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "gaowei-perspective",
+      "cn": "高纬",
+      "normalized_cn": "高纬",
+      "name_hints": [
+        "高纬"
+      ],
+      "en": "Gao Wei",
+      "era": null,
+      "frontmatter_name": "gaowei-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaoyan-perspective",
+      "skill_file": "skills/nanbeichao/gaoyan-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "gaoyan-perspective",
+      "cn": "高演",
+      "normalized_cn": "高演",
+      "name_hints": [
+        "高演"
+      ],
+      "en": "Gao Yan",
+      "era": null,
+      "frontmatter_name": "gaoyan-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaoyang-perspective",
+      "skill_file": "skills/nanbeichao/gaoyang-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "gaoyang-perspective",
+      "cn": "高洋",
+      "normalized_cn": "高洋",
+      "name_hints": [
+        "北齐文宣帝高洋",
+        "在位550–559",
+        "高洋"
+      ],
+      "en": "Gao Yang",
+      "era": null,
+      "frontmatter_name": "gaoyang-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaoyin-perspective",
+      "skill_file": "skills/nanbeichao/gaoyin-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "gaoyin-perspective",
+      "cn": "高殷",
+      "normalized_cn": "高殷",
+      "name_hints": [
+        "高殷"
+      ],
+      "en": "Gao Yin",
+      "era": null,
+      "frontmatter_name": "gaoyin-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaozhan-perspective",
+      "skill_file": "skills/nanbeichao/gaozhan-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "gaozhan-perspective",
+      "cn": "高湛",
+      "normalized_cn": "高湛",
+      "name_hints": [
+        "高湛"
+      ],
+      "en": "Gao Zhan",
+      "era": null,
+      "frontmatter_name": "gaozhan-perspective"
     },
     {
       "skill_path": "skills/nanbeichao/liujun-perspective",

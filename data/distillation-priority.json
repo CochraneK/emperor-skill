@@ -5,21 +5,21 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 638,
+    "all_missing_core": 632,
     "p0_backbone_core_persons": 216,
-    "p0_backbone_complete": 189,
-    "p0_backbone_missing": 27,
-    "p0_backbone_completion_ratio": 0.875,
+    "p0_backbone_complete": 195,
+    "p0_backbone_missing": 21,
+    "p0_backbone_completion_ratio": 0.9028,
     "p1_post_qin_anchor_candidate_pool": 207,
     "p2_remaining_post_qin_core_pool": 207,
     "p3_early_and_preqin_missing_core": 404,
     "mapping_issues": 0,
-    "current_focus_lane": "北齐",
-    "current_focus_missing": 6
+    "current_focus_lane": "北周",
+    "current_focus_missing": 5
   },
   "p0_backbone": {
     "rule": "Work chronologically. Finish every currently locked-CORE missing ruler in the current backbone lane before advancing to the next lane. Short reigns remain included when they are CORE. REVIEW claimants do not block the lane.",
-    "current_focus_lane": "北齐",
+    "current_focus_lane": "北周",
     "lanes": [
       {
         "lane_order": 10,
@@ -1292,58 +1292,70 @@
         "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
         "source_polity_id": "northern-qi",
         "core_sequence_total": 6,
-        "complete": 0,
-        "missing": 6,
+        "complete": 6,
+        "missing": 0,
         "noncore_primary_entries": 0,
-        "completion_ratio": 0.0,
+        "completion_ratio": 1.0,
         "persons": [
           {
             "succession_order": 1,
             "person_id": "ruler-1228",
             "canonical_name": "高洋",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/gaoyang-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 2,
             "person_id": "ruler-1226",
             "canonical_name": "高殷",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/gaoyin-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 3,
             "person_id": "ruler-1230",
             "canonical_name": "高演",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/gaoyan-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 4,
             "person_id": "ruler-1229",
             "canonical_name": "高湛",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/gaozhan-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 5,
             "person_id": "ruler-1231",
             "canonical_name": "高纬",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/gaowei-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 6,
             "person_id": "ruler-1225",
             "canonical_name": "高恒",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/gaoheng-perspective"
+            ],
+            "status": "COMPLETE"
           }
         ]
       },
@@ -2572,90 +2584,6 @@
     "queue": [
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 77,
-        "lane": "北齐",
-        "polity_name": "北齐",
-        "succession_order": 1,
-        "person_id": "ruler-1228",
-        "canonical_name": "高洋",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 77,
-        "lane": "北齐",
-        "polity_name": "北齐",
-        "succession_order": 2,
-        "person_id": "ruler-1226",
-        "canonical_name": "高殷",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 77,
-        "lane": "北齐",
-        "polity_name": "北齐",
-        "succession_order": 3,
-        "person_id": "ruler-1230",
-        "canonical_name": "高演",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 77,
-        "lane": "北齐",
-        "polity_name": "北齐",
-        "succession_order": 4,
-        "person_id": "ruler-1229",
-        "canonical_name": "高湛",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 77,
-        "lane": "北齐",
-        "polity_name": "北齐",
-        "succession_order": 5,
-        "person_id": "ruler-1231",
-        "canonical_name": "高纬",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 77,
-        "lane": "北齐",
-        "polity_name": "北齐",
-        "succession_order": 6,
-        "person_id": "ruler-1225",
-        "canonical_name": "高恒",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
         "backbone_lane_order": 78,
         "lane": "北周",
         "polity_name": "北周",
@@ -2666,7 +2594,7 @@
           "data/rulers-master-h6-north-south-sui-tang.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
@@ -2680,7 +2608,7 @@
           "data/rulers-master-h6-north-south-sui-tang.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
@@ -2694,7 +2622,7 @@
           "data/rulers-master-h6-north-south-sui-tang.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
@@ -2708,7 +2636,7 @@
           "data/rulers-master-h6-north-south-sui-tang.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
@@ -2722,7 +2650,7 @@
           "data/rulers-master-h6-north-south-sui-tang.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",

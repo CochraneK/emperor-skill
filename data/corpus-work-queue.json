@@ -8,14 +8,14 @@
     "priority_meaning": "Queue letters describe engineering sequence, not historical importance or value ranking."
   },
   "summary": {
-    "A_CORE_MAJOR_SEQUENCE_MISSING": 61,
+    "A_CORE_MAJOR_SEQUENCE_MISSING": 55,
     "B_CORE_PARALLEL_POLITY_MISSING": 173,
     "D_CORE_EARLY_OR_PREQIN_MISSING": 404,
     "Q1_SCOPE_OR_IDENTITY_REVIEW": 365,
     "Q2_EXTENDED_REVIEW": 0,
     "Q3_LEGENDARY_LIMITED_EVIDENCE": 0,
     "Q4_OTHER_REVIEW": 0,
-    "missing_core_total": 638,
+    "missing_core_total": 632,
     "review_total": 365,
     "existing_skill_unresolved": 0,
     "identity_blockers": 0
@@ -75,78 +75,6 @@
         "canonical_name": "宇文阐",
         "polities": [
           "北周"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-1225",
-        "canonical_name": "高恒",
-        "polities": [
-          "北齐"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-1226",
-        "canonical_name": "高殷",
-        "polities": [
-          "北齐"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-1228",
-        "canonical_name": "高洋",
-        "polities": [
-          "北齐"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-1229",
-        "canonical_name": "高湛",
-        "polities": [
-          "北齐"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-1230",
-        "canonical_name": "高演",
-        "polities": [
-          "北齐"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-1231",
-        "canonical_name": "高纬",
-        "polities": [
-          "北齐"
         ],
         "source_files": [
           "data/rulers-master-h6-north-south-sui-tang.json"

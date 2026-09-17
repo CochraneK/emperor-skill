@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 913,
-    "matched_core_persons": 275,
-    "missing_core_persons": 638,
+    "matched_core_persons": 281,
+    "missing_core_persons": 632,
     "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 277,
-    "matched_existing_skills": 276,
+    "existing_skills": 283,
+    "matched_existing_skills": 282,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 277,
-    "core_coverage_ratio": 0.3012
+    "accounted_existing_skills": 283,
+    "core_coverage_ratio": 0.3078
   },
   "missing_core": [
     {
@@ -5568,66 +5568,6 @@
       "corpus_status": "CORE",
       "polities": [
         "荆南/南平"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-1225",
-      "canonical_name": "高恒",
-      "corpus_status": "CORE",
-      "polities": [
-        "北齐"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-1226",
-      "canonical_name": "高殷",
-      "corpus_status": "CORE",
-      "polities": [
-        "北齐"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-1228",
-      "canonical_name": "高洋",
-      "corpus_status": "CORE",
-      "polities": [
-        "北齐"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-1229",
-      "canonical_name": "高湛",
-      "corpus_status": "CORE",
-      "polities": [
-        "北齐"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-1230",
-      "canonical_name": "高演",
-      "corpus_status": "CORE",
-      "polities": [
-        "北齐"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-1231",
-      "canonical_name": "高纬",
-      "corpus_status": "CORE",
-      "polities": [
-        "北齐"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -22873,8 +22813,10 @@
       "polities": [
         "北齐"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/nanbeichao/gaoheng-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-1226",
@@ -22883,8 +22825,10 @@
       "polities": [
         "北齐"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/nanbeichao/gaoyin-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-1227",
@@ -22903,8 +22847,10 @@
       "polities": [
         "北齐"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/nanbeichao/gaoyang-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-1229",
@@ -22913,8 +22859,10 @@
       "polities": [
         "北齐"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/nanbeichao/gaozhan-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-1230",
@@ -22923,8 +22871,10 @@
       "polities": [
         "北齐"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/nanbeichao/gaoyan-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-1231",
@@ -22933,8 +22883,10 @@
       "polities": [
         "北齐"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/nanbeichao/gaowei-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-1232",
