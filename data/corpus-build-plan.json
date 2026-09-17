@@ -1,6 +1,6 @@
 {
-  "schema_version": "2.1",
-  "goal": "Build the maximum defensible person-level Chinese historical ruler universe, then expand high-value research/distillation coverage without weakening Nuwa evidence standards.",
+  "schema_version": "2.2",
+  "goal": "Build the maximum defensible person-level Chinese historical ruler universe, then expand research/distillation coverage without weakening Nuwa evidence standards.",
   "denominator_policy": {
     "historical_core": "CORE persons only",
     "traditional": "LEGENDARY separately",
@@ -16,7 +16,7 @@
   ],
   "batches": [
     {"id": "L0", "scope": "pre-Xia traditional rulers", "target": "LEGENDARY", "status": "SEEDED_QA_OPEN", "file": "data/legendary-rulers.json", "open": "expand named tradition variants without synthesizing false chronology"},
-    {"id": "H1", "scope": "Xia-Shang-Zhou royal house", "target": "CORE", "status": "ENUMERATED_V1_QA_OPEN", "file": "data/rulers-master-h1-early.json", "open": "resolve remaining early-history sequence questions without destabilizing frozen IDs"},
+    {"id": "H1", "scope": "Xia-Shang-Zhou royal house", "target": "CORE", "status": "ENUMERATED_V1_QA_OPEN", "file": "data/rulers-master-h1-early.json", "open": "resolve remaining early-history sequence questions without destabilizing stable IDs"},
     {"id": "H2-H3", "scope": "Spring-and-Autumn + Warring States autonomous polities", "target": "CORE/EXTENDED", "status": "MAJOR_POLITIES_ENUMERATED_V1_SMALLER_POLITIES_OPEN", "file": "data/rulers-master-h2-preqin.json", "queue": "data/ruler-candidates-preqin-other.json"},
     {"id": "H4", "scope": "Qin, Chu-Han, Western Han, Xin/restoration, Eastern Han", "target": "CORE/EXTENDED", "status": "ENUMERATED_V1_TRANSITION_POLITIES_OPEN", "file": "data/rulers-master-h4-qin-han.json"},
     {"id": "H5", "scope": "Three Kingdoms, Jin, Sixteen Kingdoms and contemporaries", "target": "CORE/EXTENDED", "status": "ENUMERATED_V1_EDGE_POLITIES_OPEN", "file": "data/rulers-master-h5-jin-sixteen.json"},
@@ -28,10 +28,10 @@
     {"id": "H11", "scope": "Qing and sustained late-Qing rival sovereign regimes", "target": "CORE/EXTENDED", "status": "ENUMERATED_V1_DISCOVERY_OPEN", "file": "data/rulers-master-h11-qing-rivals.json"},
     {"id": "H12", "scope": "Republic-era central and competing central governments", "target": "CORE/EXTENDED", "status": "ENUMERATED_V1_POLITICAL_HISTORICAL_QA_OPEN", "file": "data/rulers-master-h12-republic.json", "endpoint": "working cutoff 1949-12-31; post-1949 leadership is a separate modern dataset"}
   ],
-  "current_phase": "P1_HIGH_LEVERAGE_ANCHOR_SCORING",
+  "current_phase": "P1_BALANCED_ANCHOR_SELECTION_AND_SOURCE_REVIEW",
   "phase_state": {
     "P0_DYNASTIC_BACKBONE_FULL_CHAIN": "COMPLETE_216_OF_216",
-    "P1_HIGH_LEVERAGE_ANCHORS": "SCORING_AND_REVIEW",
+    "P1_HIGH_LEVERAGE_ANCHORS": "BALANCED_SELECTION_AND_SOURCE_REVIEW",
     "P2_REMAINING_POST_QIN_CORE": "WAIT_FOR_P1_TRANCHE",
     "P3_EARLY_AND_PREQIN_CORE": "WAIT_FOR_POST_QIN",
     "Q_REVIEW_AFTER_SCOPE_IDENTITY": "CONTINUOUS_QA_NOT_BULK_DISTILLATION"
@@ -57,6 +57,6 @@
     "every inclusion/exclusion boundary carries a reason",
     "no fame/orthodoxy/emperor-title filter",
     "collective government is not forced into a single person",
-    "P1 scheduling scores are never historical-worth or Nuwa-quality scores"
+    "P1 queue positions are deterministic work scheduling, never person scores or historical-worth rankings"
   ]
 }

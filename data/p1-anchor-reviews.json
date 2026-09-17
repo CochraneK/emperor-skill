@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0",
-  "status": "CURATED_P1_ANCHOR_REVIEWS",
-  "policy_file": "data/p1-anchor-scoring-policy.json",
-  "note": "Only complete reviews receive a scheduling score/rank. Add evidence-backed rationales here; generated files must not invent them.",
+  "schema_version": "1.1",
+  "status": "CURATED_P1_ANCHOR_SOURCE_REVIEWS",
+  "policy_file": "data/p1-anchor-selection-policy.json",
+  "note": "Reviews record source/evidence readiness and descriptive research contexts. They never score or rank persons.",
   "reviews": []
 }

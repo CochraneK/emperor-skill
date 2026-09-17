@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "status": "CANONICAL_P1_ANCHOR_SELECTION_POLICY",
+  "purpose": "Construct a balanced, reproducible first research/distillation tranche from remaining post-Qin CORE rulers after P0 closes.",
+  "non_goal": "Do not score, rank, tier, endorse, or judge rulers or political figures. This file schedules corpus work only.",
+  "eligibility": {
+    "source": "data/distillation-priority.json#p1_high_leverage_anchors.candidate_pool",
+    "requires_p0_complete": true,
+    "corpus_status": "CORE",
+    "period": "post-Qin",
+    "already_has_skill": false
+  },
+  "descriptive_review_fields": {
+    "evidence_state": {
+      "allowed": ["RICH", "MODERATE", "LIMITED", "UNKNOWN"],
+      "meaning": "State of the available evidence base, not a judgment of the person."
+    },
+    "source_review_complete": {
+      "type": "boolean",
+      "meaning": "Whether a source-oriented review has been completed sufficiently to begin research/distillation."
+    },
+    "transition_contexts": {
+      "type": "list[string]",
+      "meaning": "Documented contexts such as founding, conquest, restoration, succession rupture, fragmentation, collapse, or negotiated transfer; descriptive only."
+    },
+    "comparison_links": {
+      "type": "list[string]",
+      "meaning": "Named corpus comparison opportunities recorded without declaring a winner or higher-value figure."
+    },
+    "simulation_contexts": {
+      "type": "list[string]",
+      "meaning": "Potential future simulation/visualization contexts, recorded descriptively rather than scored."
+    },
+    "evidence_pointers": {
+      "type": "list[string]",
+      "meaning": "Source/research pointers supporting the review annotations."
+    }
+  },
+  "review_sequence": {
+    "method": "deterministic polity round-robin",
+    "polity_order": "source-segment order, then polity name",
+    "person_order_within_polity": "stable person_id",
+    "multi_polity_rule": "a person appears once at their first deterministic slot",
+    "warning": "Sequence numbers are queue positions, not ranks or evaluations."
+  },
+  "selection": {
+    "initial_review_slate_size": 30,
+    "initial_anchor_tranche_target": 24,
+    "minimum_cross_polity_diversity": 8,
+    "rule": "Finalize the initial tranche only from source-review-complete candidates following the deterministic review sequence and only after the diversity floor is met.",
+    "guardrails": [
+      "No numerical person score, weighted total, tier, winner, or historical-worth ranking.",
+      "Do not promote REVIEW/EXTENDED/LEGENDARY entries into P1.",
+      "LIMITED evidence is valid when downstream model claims are correspondingly constrained.",
+      "Every completed source review carries evidence pointers or an explicit evidence note.",
+      "Machine signals may organize work but never become a judgment about a ruler."
+    ]
+  }
+}

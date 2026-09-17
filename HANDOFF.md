@@ -14,7 +14,7 @@
 - completion: **100%**
 - mapping issues: **0**
 
-最后一批五代主链已进入 `skills/wudai/`，Corpus Sync 与 Nuwa L3 Semantic Review 均成功。自动 L3 复用信号当前为 0 flagged packages / 0 high-similarity pairs / 0 repeated-long-paragraph groups；注意该自动检查仍是 review signal，不替代人工 L3 verdict。
+最后一批五代主链已进入 `skills/wudai/`，Corpus Sync 与 Nuwa L3 Semantic Review 均成功。自动 L3 复用信号当前为 0 flagged packages / 0 high-similarity pairs / 0 repeated-long-paragraph groups；该自动检查只是 review signal，不替代人工 L3 verdict。
 
 ### 当前 corpus 快照
 
@@ -37,34 +37,33 @@
 
 旧版本中“267 Skills / 648 missing CORE / 26 identity issues / ID 尚未 freeze”的状态已经失效，不得继续据此排工。
 
-## 2. 现在做什么：P1 · High-Leverage Anchors
+## 2. 现在做什么：P1 · Balanced Anchor Tranche
 
-P1 只从 P0 以外、仍缺 Skill 的 post-Qin CORE 中选择首批高杠杆 anchors。候选池当前 **207** 人。
+P1 只从 P0 以外、仍缺 Skill 的 post-Qin CORE 中建立一个**跨政权、可复现、非排名式**的首批研究 tranche。候选池当前 **207** 人。
 
 Canonical inputs / outputs：
 
 | 角色 | 路径 |
 |---|---|
 | 总调度政策 | `data/distillation-priority-policy.json` |
-| P1 评分政策 | `data/p1-anchor-scoring-policy.json` |
-| 人工/agent 审阅登记 | `data/p1-anchor-reviews.json` |
-| P1 生成排序 | `data/p1-anchor-priority.json` |
+| P1 选择政策 | `data/p1-anchor-selection-policy.json` |
+| source review 登记 | `data/p1-anchor-reviews.json` |
+| P1 生成计划 | `data/p1-anchor-priority.json` |
 | P1 可读报告 | `assessment/P1_ANCHOR_PRIORITY.md` |
 | P1 generator | `_redo_tools/_build_p1_anchor_priority.py` |
 
-### P1 规则
+### P1 原则
 
-五个维度：
+P1 **不对人物打总分、不排帝王优劣榜**。机器只建立 deterministic polity round-robin work queue。每个候选人的 source review 只记录：
 
-1. evidence readiness
-2. structural coverage gain
-3. comparative value
-4. transition leverage
-5. simulation / visualization value
+- evidence state（RICH / MODERATE / LIMITED / UNKNOWN，描述证据，不评价人物）；
+- source review 是否完成；
+- documented transition contexts；
+- comparison links；
+- simulation / visualization contexts；
+- evidence pointers / note。
 
-机器只能利用 polity gap、多人/多政权连接、source segment 等信号来安排**review queue**，不能自动伪造五维评分。只有五维全部有 0–3 评分和理由的 candidate 才进入 reviewed ranking。
-
-初始 Anchor tranche 目标为 **24 人**，且至少覆盖 **8 个 polity**。该排序仅用于项目工作调度，不代表历史价值、正统性、道德评价、民族评价或帝王优劣。
+初始 research/distillation tranche 目标 **24 人**，至少覆盖 **8 个 polity**。只有 source review 完成的人可以进入 tranche；sequence number 只是队列位置，不是人物排名。
 
 ## 3. P1 每个人仍走完整 Nuwa pipeline
 
@@ -78,11 +77,9 @@ Canonical inputs / outputs：
 - 把现代二手标签冒充史料原文；
 - 因史料少就删除人物，正确做法是 `LIMITED-EVIDENCE` + 降低推断强度。
 
-P1 Anchor 选择完成后，再按 rank / tranche 批量研究蒸馏；P1 不要求一次补完全部 207 人。
-
 ## 4. 后续阶段
 
-P1 完成一个高杠杆 tranche 后：
+P1 完成一个平衡 tranche 后：
 
 - **P2**：系统补完剩余 post-Qin CORE（十国、十六国、辽/西辽、西夏、金、南明、平行政权与其他已锁定 CORE）。
 - **P3**：再批量完成 early/pre-Qin CORE；史料稀薄时坚持证据约束。
@@ -116,7 +113,7 @@ Simulation / duel / coop / one-life / assessment joint-space / visualization 都
 直接：
 
 1. 打开 `assessment/P1_ANCHOR_PRIORITY.md`；
-2. 按 review queue 给候选人做五维、带理由的 evidence review；
-3. 写入 `data/p1-anchor-reviews.json`；
-4. 让 Corpus Sync 重建 ranking；
-5. 初始 24-person tranche 达到至少 8-polity diversity 后，按生成的 Anchor tranche 开始研究与蒸馏。
+2. 按 deterministic review sequence 做 source/evidence review；
+3. 把描述性审阅写入 `data/p1-anchor-reviews.json`；
+4. 让 Corpus Sync 重建 P1 plan；
+5. 24-person tranche 达到至少 8-polity diversity 后，开始 research → distill → audit。

@@ -13,7 +13,7 @@ on:
       - 'data/corpus-identity-overrides.json'
       - 'data/corpus-build-plan.json'
       - 'data/distillation-priority-policy.json'
-      - 'data/p1-anchor-scoring-policy.json'
+      - 'data/p1-anchor-selection-policy.json'
       - 'data/p1-anchor-reviews.json'
       - 'data/provenance-repair-attestations.json'
       - 'assessment/PROVENANCE_RECOVERY.md'
@@ -93,7 +93,8 @@ jobs:
           assert priority['summary']['p0_backbone_core_persons'] > 0
           assert p1['summary']['p0_missing'] == priority['summary']['p0_backbone_missing']
           assert p1['summary']['candidate_pool'] == priority['summary']['p1_post_qin_anchor_candidate_pool']
-          assert p1['summary']['reviewed_complete'] + p1['summary']['needs_review'] == p1['summary']['candidate_pool']
+          assert p1['summary']['source_reviews_complete'] <= p1['summary']['source_reviews_recorded']
+          assert len(p1['review_sequence']) == p1['summary']['candidate_pool']
           assert l3['status'] == 'GENERATED_REVIEW_SIGNALS_NOT_L3_VERDICTS'
           assert l3['policy']['automatic_pass_fail'] is False
           assert baseline['status'] == 'DIAGNOSTIC_BASELINE_NOT_QUALITY_VERDICT'
@@ -111,7 +112,7 @@ jobs:
               ('COVERAGE','data/corpus-gap.json'),
               ('WORK QUEUE','data/corpus-work-queue.json'),
               ('DISTILLATION PRIORITY','data/distillation-priority.json'),
-              ('P1 ANCHORS','data/p1-anchor-priority.json'),
+              ('P1 ANCHOR PLAN','data/p1-anchor-priority.json'),
               ('IDENTITY QA','data/corpus-identity-issues.json'),
               ('L3 REVIEW','data/l3-semantic-review-queue.json'),
               ('L3 BASELINE','data/l3-similarity-baseline.json'),
@@ -139,7 +140,7 @@ jobs:
             echo 'No generated changes.'
             exit 0
           fi
-          git commit -m 'chore: sync corpus, P1 priority, and Nuwa quality registries'
+          git commit -m 'chore: sync corpus, P1 plan, and Nuwa quality registries'
 
           git fetch origin main
           git rebase origin/main

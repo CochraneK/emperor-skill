@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "status": "CANONICAL_DISTILLATION_ORDER",
-  "principle": "Complete the major post-Qin dynastic backbone from Qin through the fall of Qing before selecting high-leverage anchors from remaining CORE. This is a project scheduling backbone, not a claim of historical orthodoxy or political legitimacy.",
+  "principle": "Complete the major post-Qin dynastic backbone from Qin through the fall of Qing, then expand remaining CORE with balanced research tranches. This is a project scheduling backbone, not a claim of historical orthodoxy, legitimacy, or ruler quality.",
   "phase_order": [
     "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
     "P1_HIGH_LEVERAGE_ANCHORS",
@@ -18,13 +18,11 @@
         {"order": 20, "label": "西汉", "file": "data/rulers-master-h4-qin-han.json", "collection": "polities", "polity_id": "western-han"},
         {"order": 30, "label": "新", "file": "data/rulers-master-h4-qin-han.json", "collection": "polities", "polity_id": "xin"},
         {"order": 40, "label": "东汉", "file": "data/rulers-master-h4-qin-han.json", "collection": "polities", "polity_id": "eastern-han"},
-
         {"order": 50, "label": "曹魏", "file": "data/rulers-master-h5-jin-sixteen.json", "collection": "polities", "polity_id": "cao-wei"},
         {"order": 51, "label": "蜀汉", "file": "data/rulers-master-h5-jin-sixteen.json", "collection": "polities", "polity_id": "shu-han"},
         {"order": 52, "label": "孙吴", "file": "data/rulers-master-h5-jin-sixteen.json", "collection": "polities", "polity_id": "eastern-wu"},
         {"order": 60, "label": "西晋", "file": "data/rulers-master-h5-jin-sixteen.json", "collection": "polities", "polity_id": "western-jin"},
         {"order": 61, "label": "东晋", "file": "data/rulers-master-h5-jin-sixteen.json", "collection": "polities", "polity_id": "eastern-jin"},
-
         {"order": 70, "label": "刘宋", "file": "data/rulers-master-h6-north-south-sui-tang.json", "collection": "polities", "polity_id": "liu-song"},
         {"order": 71, "label": "南齐", "file": "data/rulers-master-h6-north-south-sui-tang.json", "collection": "polities", "polity_id": "southern-qi"},
         {"order": 72, "label": "南梁", "file": "data/rulers-master-h6-north-south-sui-tang.json", "collection": "polities", "polity_id": "southern-liang"},
@@ -34,19 +32,15 @@
         {"order": 76, "label": "西魏", "file": "data/rulers-master-h6-north-south-sui-tang.json", "collection": "polities", "polity_id": "western-wei"},
         {"order": 77, "label": "北齐", "file": "data/rulers-master-h6-north-south-sui-tang.json", "collection": "polities", "polity_id": "northern-qi"},
         {"order": 78, "label": "北周", "file": "data/rulers-master-h6-north-south-sui-tang.json", "collection": "polities", "polity_id": "northern-zhou"},
-
         {"order": 80, "label": "隋", "file": "data/rulers-master-h6-north-south-sui-tang.json", "collection": "polities", "polity_id": "sui"},
         {"order": 90, "label": "唐/武周", "file": "data/rulers-master-h6-north-south-sui-tang.json", "collection": "polities", "polity_id": "tang"},
-
         {"order": 100, "label": "后梁", "file": "data/rulers-master-h7-five-ten.json", "collection": "conventional_five_dynasties", "polity_id": "later-liang"},
         {"order": 101, "label": "后唐", "file": "data/rulers-master-h7-five-ten.json", "collection": "conventional_five_dynasties", "polity_id": "later-tang"},
         {"order": 102, "label": "后晋", "file": "data/rulers-master-h7-five-ten.json", "collection": "conventional_five_dynasties", "polity_id": "later-jin"},
         {"order": 103, "label": "后汉", "file": "data/rulers-master-h7-five-ten.json", "collection": "conventional_five_dynasties", "polity_id": "later-han"},
         {"order": 104, "label": "后周", "file": "data/rulers-master-h7-five-ten.json", "collection": "conventional_five_dynasties", "polity_id": "later-zhou"},
-
         {"order": 110, "label": "北宋", "file": "data/rulers-master-h8-song-liao-xia-jin-dali.json", "collection": "polities", "polity_id": "northern-song"},
         {"order": 111, "label": "南宋", "file": "data/rulers-master-h8-song-liao-xia-jin-dali.json", "collection": "polities", "polity_id": "southern-song"},
-
         {"order": 120, "label": "大蒙古国", "file": "data/rulers-master-h9-yuan-rivals.json", "collection": "polities", "polity_id": "great-mongol-state"},
         {"order": 121, "label": "元", "file": "data/rulers-master-h9-yuan-rivals.json", "collection": "polities", "polity_id": "yuan"},
         {"order": 130, "label": "明", "file": "data/rulers-master-h10-ming-transition.json", "collection": "polities", "polity_id": "ming"},
@@ -54,10 +48,10 @@
       ]
     },
     "P1_HIGH_LEVERAGE_ANCHORS": {
-      "rule": "Only starts after P0 backbone has no locked-CORE missing rulers. Rank remaining post-Qin CORE by evidence readiness, structural coverage gain, comparative value, transition leverage, and future simulation/visualization value. Do not confuse leverage with moral or historical worth."
+      "rule": "Only starts after P0 has no locked-CORE missing rulers. Build a balanced first research tranche from remaining post-Qin CORE with a deterministic cross-polity sequence and descriptive source review. Do not score, rank, tier, endorse, or judge persons; queue position is work scheduling only."
     },
     "P2_REMAINING_POST_QIN_CORE": {
-      "rule": "After the anchor tranche, systematically complete remaining post-Qin parallel and transition polity CORE, including lanes such as Liao, Western Liao, Western Xia, Jin, Ten Kingdoms, Sixteen Kingdoms, Southern Ming, major rival regimes, and other locked CORE not already in P0/P1."
+      "rule": "After the first balanced P1 tranche, systematically complete remaining post-Qin parallel and transition polity CORE, including lanes such as Liao, Western Liao, Western Xia, Jin, Ten Kingdoms, Sixteen Kingdoms, Southern Ming, major rival regimes, and other locked CORE not already in P0/P1."
     },
     "P3_EARLY_AND_PREQIN_CORE": {
       "rule": "Bulk-complete Xia/Shang/Zhou and pre-Qin polity CORE after the later historical backbone and post-Qin comparison network are mature. Sparse evidence must reduce model claims rather than trigger generic padding."
@@ -68,7 +62,8 @@
   },
   "notes": [
     "The backbone deliberately includes all three Three-Kingdoms lanes and both major Northern/Southern dynasty sequences, avoiding an orthodoxy ranking in fragmented periods.",
-    "Liao, Western Xia and Jin remain CORE but are scheduled after the Qin-to-Qing backbone under this project plan; their importance is not downgraded by the scheduling choice.",
-    "P0 lane membership comes from the primary persons array only. Parallel-review/usurper fields do not block full-chain completion unless later promoted into the primary locked-CORE lane."
+    "Liao, Western Xia and Jin remain CORE but were scheduled after the Qin-to-Qing P0 backbone; scheduling does not express a judgment of their importance.",
+    "P0 lane membership comes from the primary persons array only. Parallel-review/usurper fields do not block full-chain completion unless later promoted into the primary locked-CORE lane.",
+    "P1 uses neutral, reproducible research sequencing rather than person scores or historical-worth rankings."
   ]
 }
