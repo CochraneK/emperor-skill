@@ -10,6 +10,7 @@ on:
       - 'data/ruler-candidates-preqin-other.json'
       - 'data/corpus-scope-exceptions.json'
       - '_redo_tools/_build_ruler_corpus.py'
+      - '_redo_tools/_build_corpus_queue.py'
       - '.github/workflows/corpus-sync.yml'
   workflow_dispatch:
 
@@ -34,7 +35,9 @@ jobs:
           python-version: '3.12'
 
       - name: Generate corpus artifacts
-        run: python _redo_tools/_build_ruler_corpus.py
+        run: |
+          python _redo_tools/_build_ruler_corpus.py
+          python _redo_tools/_build_corpus_queue.py
 
       - name: Show generated summary
         run: |
@@ -42,17 +45,24 @@ jobs:
           import json
           from pathlib import Path
           gap=json.loads(Path('data/corpus-gap.json').read_text())
+          queue=json.loads(Path('data/corpus-work-queue.json').read_text())
+          issues=json.loads(Path('data/corpus-identity-issues.json').read_text())
+          print('COVERAGE')
           print(json.dumps(gap['summary'], ensure_ascii=False, indent=2))
+          print('WORK QUEUE')
+          print(json.dumps(queue['summary'], ensure_ascii=False, indent=2))
+          print('IDENTITY QA')
+          print(json.dumps(issues['summary'], ensure_ascii=False, indent=2))
           PY
 
       - name: Commit generated artifacts
         run: |
-          if git diff --quiet -- data assessment/CORPUS_COVERAGE.md; then
+          if git diff --quiet -- data assessment/CORPUS_COVERAGE.md assessment/CORPUS_QA.md; then
             echo 'No generated changes.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A -- data assessment/CORPUS_COVERAGE.md
-          git commit -m 'chore: sync ruler corpus coverage'
+          git add -A -- data assessment/CORPUS_COVERAGE.md assessment/CORPUS_QA.md
+          git commit -m 'chore: sync ruler corpus coverage and queues'
           git push
