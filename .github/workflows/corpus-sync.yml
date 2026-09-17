@@ -9,7 +9,9 @@ on:
       - 'data/legendary-rulers.json'
       - 'data/ruler-candidates-preqin-other.json'
       - 'data/corpus-scope-exceptions.json'
+      - 'data/corpus-identity-overrides.json'
       - '_redo_tools/_build_ruler_corpus.py'
+      - '_redo_tools/_build_ruler_corpus_with_overrides.py'
       - '_redo_tools/_build_corpus_queue.py'
       - '.github/workflows/corpus-sync.yml'
   workflow_dispatch:
@@ -36,7 +38,7 @@ jobs:
 
       - name: Generate corpus artifacts
         run: |
-          python _redo_tools/_build_ruler_corpus.py
+          python _redo_tools/_build_ruler_corpus_with_overrides.py
           python _redo_tools/_build_corpus_queue.py
 
       - name: Show generated summary
@@ -47,12 +49,15 @@ jobs:
           gap=json.loads(Path('data/corpus-gap.json').read_text())
           queue=json.loads(Path('data/corpus-work-queue.json').read_text())
           issues=json.loads(Path('data/corpus-identity-issues.json').read_text())
+          index=json.loads(Path('data/rulers-person-index.json').read_text())
           print('COVERAGE')
           print(json.dumps(gap['summary'], ensure_ascii=False, indent=2))
           print('WORK QUEUE')
           print(json.dumps(queue['summary'], ensure_ascii=False, indent=2))
           print('IDENTITY QA')
           print(json.dumps(issues['summary'], ensure_ascii=False, indent=2))
+          print('IDENTITY OVERRIDES')
+          print(json.dumps(index.get('identity_override_stats', {}), ensure_ascii=False, indent=2))
           PY
 
       - name: Commit generated artifacts
