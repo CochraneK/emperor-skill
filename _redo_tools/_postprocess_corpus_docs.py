@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Synchronize generated corpus metadata with the production stable-ID layer.
-
-The base corpus builder remains usable on its own, while the production workflow runs
-through `_build_ruler_corpus_with_overrides.py`. This postprocessor removes obsolete
-"freeze IDs next" language and exposes the registry state in generated manifests.
-"""
+"""Synchronize generated corpus metadata with production stable IDs and live Skill layout."""
 from __future__ import annotations
 
 import json
@@ -13,6 +8,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 ASSESSMENT = ROOT / "assessment"
+SKILLS = ROOT / "skills"
+
+DYNASTY_ORDER = [
+    "xia", "shang", "zhou", "qin", "chuhan", "xihan", "donghan", "sanguo", "jin",
+    "nanbeichao", "sui", "tang", "wudai", "song", "yuan", "ming", "qing",
+]
+DYNASTY_NAMES = {
+    "xia": "夏", "shang": "商", "zhou": "周", "qin": "秦", "chuhan": "楚汉",
+    "xihan": "西汉", "donghan": "东汉", "sanguo": "三国", "jin": "晋",
+    "nanbeichao": "南北朝", "sui": "隋", "tang": "唐", "wudai": "五代",
+    "song": "宋", "yuan": "元", "ming": "明", "qing": "清",
+}
 
 
 def load(path: Path):
@@ -21,6 +28,26 @@ def load(path: Path):
 
 def dump(path: Path, doc) -> None:
     path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def live_skill_layout() -> tuple[list[dict[str, object]], list[str], int]:
+    dynasty_counts: dict[str, int] = {}
+    non_dynasty: list[str] = []
+    for top in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
+        if top.name.startswith("_"):
+            non_dynasty.append(top.name)
+            continue
+        count = sum(1 for _ in top.glob("*/SKILL.md"))
+        if count:
+            dynasty_counts[top.name] = count
+
+    ordered = [x for x in DYNASTY_ORDER if x in dynasty_counts]
+    ordered += sorted(x for x in dynasty_counts if x not in ordered)
+    dynasties = [
+        {"id": did, "name": DYNASTY_NAMES.get(did, did), "count": dynasty_counts[did]}
+        for did in ordered
+    ]
+    return dynasties, non_dynasty, sum(dynasty_counts.values())
 
 
 def update_coverage_report() -> None:
@@ -68,6 +95,17 @@ def update_corpus_registry() -> None:
     index = load(DATA / "rulers-person-index.json")
     idreg = load(DATA / "ruler-person-id-registry.json")
     issues = load(DATA / "corpus-identity-issues.json")
+    dynasties, non_dynasty, skill_total = live_skill_layout()
+
+    doc["generated_from"] = "live repository snapshot"
+    doc["totals"] = {
+        "skills": skill_total,
+        "dynasty_directories": len(dynasties),
+        "skills_top_level_directories": len(dynasties) + len(non_dynasty),
+    }
+    doc["non_dynasty_directories"] = non_dynasty
+    doc["dynasties"] = dynasties
+
     master = doc.setdefault("master_corpus", {})
     master.update({
         "status": index.get("status"),
@@ -76,7 +114,8 @@ def update_corpus_registry() -> None:
         "stable_ids_issued": idreg.get("total_ids_ever_issued"),
         "next_person_id_sequence": idreg.get("next_sequence"),
         "identity_qa_summary": issues.get("summary", {}),
-        "note": "Canonical-label P0 QA is clean and stable IDs are active. Remaining REVIEW disputes and polity discovery are modeled explicitly without renumbering existing persons.",
+        "existing_skills": skill_total,
+        "note": "Canonical-label QA is clean and stable IDs are active. REVIEW disputes and polity discovery remain explicit without renumbering existing persons.",
     })
     dump(path, doc)
 
@@ -85,7 +124,7 @@ def main() -> None:
     update_coverage_report()
     update_master_manifest()
     update_corpus_registry()
-    print("Synced corpus reports/manifests with stable person-ID registry.")
+    print("Synced corpus reports/manifests with stable IDs and live Skill layout.")
 
 
 if __name__ == "__main__":
