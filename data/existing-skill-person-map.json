@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 271,
+  "count": 272,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -1322,6 +1322,22 @@
       "en": "Yuan Ke",
       "era": "499–515",
       "frontmatter_name": "yuanke-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanlang-perspective",
+      "skill_file": "skills/nanbeichao/yuanlang-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanlang-perspective",
+      "cn": "元朗",
+      "normalized_cn": "元朗",
+      "name_hints": [
+        "元朗",
+        "北魏废帝、安定王",
+        "废帝、安定王"
+      ],
+      "en": "Yuan Lang",
+      "era": "约513–532；531–532在位",
+      "frontmatter_name": "yuanlang-perspective"
     },
     {
       "skill_path": "skills/nanbeichao/yuanxu-perspective",

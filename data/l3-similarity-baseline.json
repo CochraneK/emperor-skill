@@ -2,18 +2,18 @@
   "schema_version": "1.0",
   "status": "DIAGNOSTIC_BASELINE_NOT_QUALITY_VERDICT",
   "summary": {
-    "packages": 271,
-    "pairs_with_overlap_at_least_30": 4446,
+    "packages": 272,
+    "pairs_with_overlap_at_least_30": 4448,
     "jaccard_max": 0.116167,
-    "jaccard_p95": 0.027203500000000002,
-    "jaccard_p99": 0.04470010000000004,
-    "jaccard_p995": 0.05081139999999969,
+    "jaccard_p95": 0.02720129999999999,
+    "jaccard_p99": 0.04469565999999994,
+    "jaccard_p995": 0.05080284000000028,
     "containment_max": 0.209459,
-    "containment_p95": 0.05640625,
-    "containment_p99": 0.08817020000000003,
-    "containment_p995": 0.09979409999999972,
-    "jaccard_median": 0.008310999999999999,
-    "containment_median": 0.017758
+    "containment_p95": 0.05639474999999996,
+    "containment_p99": 0.08816771999999998,
+    "containment_p995": 0.09978646000000024,
+    "jaccard_median": 0.0083125,
+    "containment_median": 0.0177605
   },
   "top_30_by_jaccard": [
     {

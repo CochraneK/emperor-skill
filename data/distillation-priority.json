@@ -5,17 +5,17 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 644,
+    "all_missing_core": 643,
     "p0_backbone_core_persons": 216,
-    "p0_backbone_complete": 183,
-    "p0_backbone_missing": 33,
-    "p0_backbone_completion_ratio": 0.8472,
+    "p0_backbone_complete": 184,
+    "p0_backbone_missing": 32,
+    "p0_backbone_completion_ratio": 0.8519,
     "p1_post_qin_anchor_candidate_pool": 207,
     "p2_remaining_post_qin_core_pool": 207,
     "p3_early_and_preqin_missing_core": 404,
     "mapping_issues": 0,
     "current_focus_lane": "北魏",
-    "current_focus_missing": 2
+    "current_focus_missing": 1
   },
   "p0_backbone": {
     "rule": "Work chronologically. Finish every currently locked-CORE missing ruler in the current backbone lane before advancing to the next lane. Short reigns remain included when they are CORE. REVIEW claimants do not block the lane.",
@@ -1060,10 +1060,10 @@
         "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
         "source_polity_id": "northern-wei",
         "core_sequence_total": 15,
-        "complete": 13,
-        "missing": 2,
+        "complete": 14,
+        "missing": 1,
         "noncore_primary_entries": 0,
-        "completion_ratio": 0.8667,
+        "completion_ratio": 0.9333,
         "persons": [
           {
             "succession_order": 1,
@@ -1200,8 +1200,10 @@
             "person_id": "ruler-0039",
             "canonical_name": "元朗",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/yuanlang-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 15,
@@ -2558,20 +2560,6 @@
       }
     ],
     "queue": [
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 74,
-        "lane": "北魏",
-        "polity_name": "北魏",
-        "succession_order": 14,
-        "person_id": "ruler-0039",
-        "canonical_name": "元朗",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
         "backbone_lane_order": 74,
