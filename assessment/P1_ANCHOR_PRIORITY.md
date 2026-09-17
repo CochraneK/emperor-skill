@@ -1,55 +1,52 @@
-# P1 Anchor Priority
+# P1 Anchor Plan
 
-> Scheduling priority for post-Qin CORE research/distillation. This is **not** a ranking of historical worth, legitimacy, morality, ethnicity, or ruler quality.
+> Neutral research scheduling for post-Qin CORE coverage. Sequence positions are **not ranks** and do not express historical worth, legitimacy, morality, or ruler quality.
 
 ## State
 
-- Status: **REVIEW_IN_PROGRESS**
+- Status: **SOURCE_REVIEW_IN_PROGRESS**
 - P0 missing: **0**
 - P1 candidate pool: **207**
-- Fully reviewed: **0**
-- Needs review: **207**
-- Initial anchor target: **24**
+- Source reviews recorded: **0**
+- Source reviews complete: **0**
+- Needs or partial review: **207**
+- Initial tranche target: **24** across at least **8** polities
 
 ## Method
 
-All five policy dimensions require explicit 0–3 review plus rationale. Machine signals only diversify and order the review queue; they never become historical or quality scores.
+Candidates are placed into a deterministic polity round-robin sequence using source-segment order, polity name, and stable person ID. This balances corpus work without assigning a person score or winner.
 
-## Reviewed ranking
+## First 30 source-review slots
 
-| Rank | Person | Polity | Scheduling score |
-|---:|---|---|---:|
-| — | No complete reviews yet | — | — |
-
-## Next review slate
-
-- 1. **袁世凯** · 中华帝国/洪宪 episode / 中华民国北京政府/北洋政府 · `ruler-1024`
-- 2. **李乾顺** · 西夏 · `ruler-0514`
-- 3. **完颜亮** · 金 · `ruler-0285`
-- 4. **耶律宗真** · 辽 · `ruler-0888`
-- 5. **张天锡** · 前凉 · `ruler-0326`
-- 6. **兰汗** · 后燕 · `ruler-0047`
-- 7. **石世** · 后赵 · `ruler-0812`
-- 8. **慕容冲** · 西燕 · `ruler-0360`
-- 9. **苻丕** · 前秦 · `ruler-0916`
-- 10. **刘和** · 汉赵/前赵 · `ruler-0066`
-- 11. **王审知** · 闽 · `ruler-0780`
-- 12. **马希声** · 马楚 · `ruler-1210`
-- 13. **钱俶** · 吴越 · `ruler-1137`
-- 14. **李势** · 成汉 · `ruler-0522`
-- 15. **高从诲** · 荆南/南平 · `ruler-1217`
-- 16. **刘旻** · 北汉 · `ruler-0085`
-- 17. **李宗仁** · 南京国民政府 · `ruler-0527`
-- 18. **朱由崧** · 南明皇帝 · `ruler-0497`
-- 19. **刘晟** · 南汉 · `ruler-0087`
-- 20. **吕光** · 后凉 · `ruler-0192`
-- 21. **史思明** · 安史燕 · `ruler-0175`
-- 22. **杨渥** · 杨吴 · `ruler-0607`
-- 23. **乞伏乾归** · 西秦 · `ruler-0012`
-- 24. **屈出律** · 西辽 · `ruler-0306`
-- 25. **慕容儁** · 前燕 · `ruler-0359`
-- 26. **段业** · 北凉 · `ruler-0665`
-- 27. **冯弘** · 北燕 · `ruler-0052`
-- 28. **耶律术烈** · 北辽及辽末并行政权 · `ruler-0893`
-- 29. **秃发乌孤** · 南凉 · `ruler-0831`
-- 30. **李昪** · 南唐 · `ruler-0538`
+| Seq | Person | Polity | Evidence state | Review state |
+|---:|---|---|---|---|
+| 1 | 公孙述 | 成家 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 2 | 刘玄 | 更始政权/玄汉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 3 | 刘盆子 | 赤眉汉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 4 | 冉智 | 冉魏 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 5 | 张天锡 | 前凉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 6 | 慕容儁 | 前燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 7 | 苻丕 | 前秦 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 8 | 段业 | 北凉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 9 | 冯弘 | 北燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 10 | 秃发乌孤 | 南凉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 11 | 慕容德 | 南燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 12 | 吕光 | 后凉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 13 | 兰汗 | 后燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 14 | 姚兴 | 后秦 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 15 | 石世 | 后赵 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 16 | 李势 | 成汉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 17 | 桓玄 | 桓楚 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 18 | 刘和 | 汉赵/前赵 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 19 | 赫连勃勃 | 胡夏 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 20 | 李恂 | 西凉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 21 | 慕容冲 | 西燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 22 | 乞伏乾归 | 西秦 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 23 | 谯纵 | 谯蜀 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 24 | 侯景 | 侯景汉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 25 | 萧纪 | 南梁 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 26 | 黄巢 | 大齐 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 27 | 史思明 | 安史燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 28 | 王建 | 前蜀 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 29 | 刘旻 | 北汉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 30 | 李昪 | 南唐 | UNKNOWN | NEEDS_SOURCE_REVIEW |

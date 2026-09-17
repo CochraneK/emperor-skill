@@ -2627,7 +2627,7 @@
   },
   "p1_high_leverage_anchors": {
     "status": "READY_FOR_ANCHOR_SCORING",
-    "rule": "Only starts after P0 backbone has no locked-CORE missing rulers. Rank remaining post-Qin CORE by evidence readiness, structural coverage gain, comparative value, transition leverage, and future simulation/visualization value. Do not confuse leverage with moral or historical worth.",
+    "rule": "Only starts after P0 has no locked-CORE missing rulers. Build a balanced first research tranche from remaining post-Qin CORE with a deterministic cross-polity sequence and descriptive source review. Do not score, rank, tier, endorse, or judge persons; queue position is work scheduling only.",
     "candidate_pool": [
       {
         "person_id": "ruler-0012",
