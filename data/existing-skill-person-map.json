@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 290,
+  "count": 293,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -3196,6 +3196,48 @@
       "en": "Wu Zetian",
       "era": "624–705",
       "frontmatter_name": "wuzetian-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/zhuwen-perspective",
+      "skill_file": "skills/wudai/zhuwen-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "zhuwen-perspective",
+      "cn": "朱温",
+      "normalized_cn": "朱温",
+      "name_hints": [
+        "朱温"
+      ],
+      "en": "Zhu Wen",
+      "era": null,
+      "frontmatter_name": "zhuwen-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/zhuyougui-perspective",
+      "skill_file": "skills/wudai/zhuyougui-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "zhuyougui-perspective",
+      "cn": "朱友珪",
+      "normalized_cn": "朱友珪",
+      "name_hints": [
+        "朱友珪"
+      ],
+      "en": "Zhu Yougui",
+      "era": null,
+      "frontmatter_name": "zhuyougui-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/zhuyouzhen-perspective",
+      "skill_file": "skills/wudai/zhuyouzhen-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "zhuyouzhen-perspective",
+      "cn": "朱友贞",
+      "normalized_cn": "朱友贞",
+      "name_hints": [
+        "朱友贞"
+      ],
+      "en": "Zhu Youzhen",
+      "era": null,
+      "frontmatter_name": "zhuyouzhen-perspective"
     },
     {
       "skill_path": "skills/xia/bujiang-perspective",

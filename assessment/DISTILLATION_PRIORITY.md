@@ -4,12 +4,12 @@
 
 ## Current state
 
-- All missing locked CORE: **625**
+- All missing locked CORE: **622**
 - P0 backbone CORE persons: **216**
-- P0 already distilled: **202**
-- P0 still missing: **14**
-- P0 completion: **93.5%**
-- Current focus lane: **后梁**
+- P0 already distilled: **205**
+- P0 still missing: **11**
+- P0 completion: **94.9%**
+- Current focus lane: **后唐**
 - Mapping issues: **0**
 
 ## Execution order
@@ -44,7 +44,7 @@
 | 78 | 北周 | 5 | 0 | 100% |
 | 80 | 隋 | 4 | 0 | 100% |
 | 90 | 唐/武周 | 22 | 0 | 100% |
-| 100 | 后梁 | 0 | 3 | 0% |
+| 100 | 后梁 | 3 | 0 | 100% |
 | 101 | 后唐 | 0 | 4 | 0% |
 | 102 | 后晋 | 0 | 2 | 0% |
 | 103 | 后汉 | 0 | 2 | 0% |
@@ -58,8 +58,9 @@
 
 ## Next P0 tasks
 
-- `ruler-0496` · **朱温** · 后梁 · succession #1
-- `ruler-0484` · **朱友珪** · 后梁 · succession #2
-- `ruler-0485` · **朱友贞** · 后梁 · succession #3
+- `ruler-0525` · **李存勖** · 后唐 · succession #1
+- `ruler-0523` · **李嗣源** · 后唐 · succession #2
+- `ruler-0518` · **李从厚** · 后唐 · succession #3
+- `ruler-0519` · **李从珂** · 后唐 · succession #4
 
 Machine-readable schedule: `data/distillation-priority.json`. Policy: `data/distillation-priority-policy.json`.

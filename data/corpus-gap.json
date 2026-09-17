@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 913,
-    "matched_core_persons": 288,
-    "missing_core_persons": 625,
+    "matched_core_persons": 291,
+    "missing_core_persons": 622,
     "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 290,
-    "matched_existing_skills": 289,
+    "existing_skills": 293,
+    "matched_existing_skills": 292,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 290,
-    "core_coverage_ratio": 0.3154
+    "accounted_existing_skills": 293,
+    "core_coverage_ratio": 0.3187
   },
   "missing_core": [
     {
@@ -2275,36 +2275,6 @@
       "corpus_status": "CORE",
       "polities": [
         "南明监国/并立政权"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0484",
-      "canonical_name": "朱友珪",
-      "corpus_status": "CORE",
-      "polities": [
-        "后梁"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0485",
-      "canonical_name": "朱友贞",
-      "corpus_status": "CORE",
-      "polities": [
-        "后梁"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0496",
-      "canonical_name": "朱温",
-      "corpus_status": "CORE",
-      "polities": [
-        "后梁"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -15090,8 +15060,10 @@
       "polities": [
         "后梁"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/wudai/zhuyougui-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0485",
@@ -15100,8 +15072,10 @@
       "polities": [
         "后梁"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/wudai/zhuyouzhen-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0486",
@@ -15214,8 +15188,10 @@
       "polities": [
         "后梁"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/wudai/zhuwen-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0497",
