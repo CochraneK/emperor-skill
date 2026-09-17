@@ -4,46 +4,33 @@
   "summary": {
     "skill_to_multiple_person_collisions": 0,
     "person_to_multiple_skill_matches": 0,
-    "identity_hint_collisions": 0,
-    "suspicious_canonical_names": 26,
+    "identity_hint_collisions": 1,
+    "suspicious_canonical_names": 8,
     "unresolved_existing_skills": 0,
     "scope_exception_existing_skills": 1
   },
   "skill_to_multiple_person_collisions": [],
   "person_to_multiple_skill_matches": [],
-  "identity_hint_collisions": [],
+  "identity_hint_collisions": [
+    {
+      "identity_hint": "高辛氏",
+      "people": [
+        {
+          "candidate_id": "ruler-0310",
+          "canonical_name": "帝喾",
+          "polities": []
+        },
+        {
+          "candidate_id": "ruler-0311",
+          "canonical_name": "帝挚",
+          "polities": []
+        }
+      ]
+    }
+  ],
   "suspicious_canonical_names": [
     {
-      "candidate_id": "ruler-0012",
-      "canonical_name": "之侯/初无余/莽安",
-      "corpus_status": "CORE",
-      "polities": [
-        "越"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED",
-        "LONG_COMPOSITE_NAME_REVIEW"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0019",
-      "canonical_name": "代王嘉赵嘉",
-      "corpus_status": "CORE",
-      "polities": [
-        "赵"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "TITLE_PLUS_PERSON_COMPOSITE_REVIEW"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0162",
+      "candidate_id": "ruler-0160",
       "canonical_name": "卫疌伯/挚伯",
       "corpus_status": "REVIEW",
       "polities": [
@@ -58,20 +45,6 @@
     },
     {
       "candidate_id": "ruler-0164",
-      "canonical_name": "卫考伯/孝伯",
-      "corpus_status": "REVIEW",
-      "polities": [
-        "卫"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0166",
       "canonical_name": "卫贞伯/箕伯",
       "corpus_status": "REVIEW",
       "polities": [
@@ -85,7 +58,7 @@
       ]
     },
     {
-      "candidate_id": "ruler-0220",
+      "candidate_id": "ruler-0218",
       "canonical_name": "夫谭/无谭",
       "corpus_status": "CORE",
       "polities": [
@@ -99,201 +72,7 @@
       ]
     },
     {
-      "candidate_id": "ruler-0312",
-      "canonical_name": "帝喾高辛氏",
-      "corpus_status": "LEGENDARY",
-      "polities": [],
-      "source_files": [
-        "data/legendary-rulers.json"
-      ],
-      "reasons": [
-        "TITLE_PLUS_PERSON_COMPOSITE_REVIEW"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0313",
-      "canonical_name": "帝挚高辛氏",
-      "corpus_status": "LEGENDARY",
-      "polities": [],
-      "source_files": [
-        "data/legendary-rulers.json"
-      ],
-      "reasons": [
-        "TITLE_PLUS_PERSON_COMPOSITE_REVIEW"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0412",
-      "canonical_name": "晋哀公/懿公/敬公",
-      "corpus_status": "CORE",
-      "polities": [
-        "晋"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED",
-        "LONG_COMPOSITE_NAME_REVIEW"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0414",
-      "canonical_name": "晋孝公/桓公",
-      "corpus_status": "CORE",
-      "polities": [
-        "晋"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0440",
-      "canonical_name": "晋静公/靖公",
-      "corpus_status": "CORE",
-      "polities": [
-        "晋"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0445",
-      "canonical_name": "曲沃武公/晋武公",
-      "corpus_status": "CORE",
-      "polities": [
-        "晋"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0650",
-      "canonical_name": "楚王比熊比",
-      "corpus_status": "CORE",
-      "polities": [
-        "楚"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "TITLE_PLUS_PERSON_COMPOSITE_REVIEW"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0651",
-      "canonical_name": "楚王负刍熊负刍",
-      "corpus_status": "CORE",
-      "polities": [
-        "楚"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "TITLE_PLUS_PERSON_COMPOSITE_REVIEW"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0780",
-      "canonical_name": "王保保/扩廓帖木儿",
-      "corpus_status": "EXCLUDED_REVIEW",
-      "polities": [
-        "元末其他自治政权"
-      ],
-      "source_files": [
-        "data/rulers-master-h9-yuan-rivals.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED",
-        "LONG_COMPOSITE_NAME_REVIEW"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0781",
-      "canonical_name": "王光泰等夔东集团",
-      "corpus_status": "REVIEW",
-      "polities": [
-        "明清鼎革其他实际政权"
-      ],
-      "source_files": [
-        "data/rulers-master-h10-ming-transition.json"
-      ],
-      "reasons": [
-        "POSSIBLE_NON_PERSON_PLACEHOLDER"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0785",
-      "canonical_name": "王延羲/王曦",
-      "corpus_status": "CORE",
-      "polities": [
-        "闽"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0787",
-      "canonical_name": "王延钧/王鏻",
-      "corpus_status": "CORE",
-      "polities": [
-        "闽"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0789",
-      "canonical_name": "王继鹏/王昶",
-      "corpus_status": "CORE",
-      "polities": [
-        "闽"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-0884",
-      "canonical_name": "翁/朱句",
-      "corpus_status": "CORE",
-      "polities": [
-        "越"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-1014",
+      "candidate_id": "ruler-1010",
       "canonical_name": "虞公/虞惠公",
       "corpus_status": "REVIEW",
       "polities": [
@@ -307,7 +86,7 @@
       ]
     },
     {
-      "candidate_id": "ruler-1024",
+      "candidate_id": "ruler-1020",
       "canonical_name": "虢宣公/虢季子白",
       "corpus_status": "REVIEW",
       "polities": [
@@ -321,7 +100,7 @@
       ]
     },
     {
-      "candidate_id": "ruler-1031",
+      "candidate_id": "ruler-1027",
       "canonical_name": "许庄公茀/苴人",
       "corpus_status": "REVIEW",
       "polities": [
@@ -355,20 +134,6 @@
       "corpus_status": "CORE",
       "polities": [
         "鲁"
-      ],
-      "source_files": [
-        "data/rulers-master-h2-preqin.json"
-      ],
-      "reasons": [
-        "VARIANT_STRING_NOT_NORMALIZED"
-      ]
-    },
-    {
-      "candidate_id": "ruler-1281",
-      "canonical_name": "鼫与/鹿郢/与夷",
-      "corpus_status": "CORE",
-      "polities": [
-        "越"
       ],
       "source_files": [
         "data/rulers-master-h2-preqin.json"

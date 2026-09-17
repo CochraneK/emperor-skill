@@ -22,12 +22,12 @@
     "data/rulers-master-h9-yuan-rivals.json"
   ],
   "candidate_stats": {
-    "total_unique_candidates": 1312,
+    "total_unique_candidates": 1311,
     "core": 913,
     "excluded_review": 3,
     "extended": 15,
     "legendary": 16,
-    "review": 365
+    "review": 364
   },
   "identity_rule": "one person = one final stable ID; reigns/titles/polities are rule episodes",
   "completion_rule": "matched locked CORE persons / all locked CORE persons; REVIEW/EXTENDED/LEGENDARY separate",

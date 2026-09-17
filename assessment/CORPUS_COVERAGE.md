@@ -4,9 +4,9 @@
 
 ## Working denominator
 
-- Candidate persons: **1312**
+- Candidate persons: **1311**
 - Locked historical CORE: **913**
-- REVIEW: **365**
+- REVIEW: **364**
 - EXTENDED: **15**
 - LEGENDARY: **16**
 
