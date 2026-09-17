@@ -132,14 +132,14 @@ def _assign_stable_person_ids(candidate: dict[str, Any]) -> None:
         raise RuntimeError("stable person ID registry contains duplicate person_id values")
 
     by_canonical: dict[str, list[str]] = {}
-    by_known_label: dict[str, list[str]] = {}
+    historical_label_to_ids: dict[str, list[str]] = {}
     for pid, entry in by_id.items():
         canonical = str(entry.get("canonical_name", ""))
         if canonical:
             by_canonical.setdefault(canonical, []).append(pid)
         for label in entry.get("known_labels", []):
             if label:
-                by_known_label.setdefault(str(label), []).append(pid)
+                historical_label_to_ids.setdefault(str(label), []).append(pid)
 
     next_sequence = int(registry.get("next_sequence") or 1)
     if by_id:
@@ -158,19 +158,18 @@ def _assign_stable_person_ids(candidate: dict[str, Any]) -> None:
             raise RuntimeError(f"registry has multiple exact canonical matches for {canonical!r}: {direct}")
         if direct:
             stable_id = direct[0]
-        else:
-            # Conservative rename recovery: only the *new canonical label* may match a
-            # previously known label. We never fuzzy-match arbitrary alias sets.
-            known = sorted(set(by_known_label.get(canonical, [])))
-            if len(known) > 1:
-                raise RuntimeError(f"registry label collision for {canonical!r}: {known}")
-            if known:
-                stable_id = known[0]
+        elif canonical in historical_label_to_ids:
+            # A canonical rename must be an explicit migration, never an implicit alias
+            # merge. This protects homonymous rulers and disputed identities.
+            raise RuntimeError(
+                f"new canonical label {canonical!r} matches a historical registry label; "
+                "add an explicit registry migration instead of auto-reusing an ID"
+            )
 
         if stable_id is None:
             if initial_freeze:
-                # Preserve today's already-published temporary numbering at the freeze
-                # boundary so references do not churn needlessly.
+                # Preserve the already-published temporary numbering at the freeze
+                # boundary so existing references do not churn needlessly.
                 stable_id = str(person["candidate_id"])
                 next_sequence = max(next_sequence, _id_number(stable_id) + 1)
             else:
@@ -186,11 +185,8 @@ def _assign_stable_person_ids(candidate: dict[str, Any]) -> None:
                 "known_labels": [],
                 "first_frozen_on": today,
                 "first_status": person.get("corpus_status"),
-                "active_in_current_build": true if False else True
+                "active_in_current_build": True,
             }
-            # The odd-looking expression above deliberately remains valid JSON-like
-            # Python while avoiding any truthy-string ambiguity in generated output.
-            entry["active_in_current_build"] = True
             entries.append(entry)
             by_id[stable_id] = entry
             by_canonical.setdefault(canonical, []).append(stable_id)
