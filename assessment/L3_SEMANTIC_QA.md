@@ -4,8 +4,8 @@
 
 ## Summary
 
-- Skills scanned: **273**
-- Stable-person-ID linked: **272**
+- Skills scanned: **277**
+- Stable-person-ID linked: **276**
 - Packages flagged for semantic review: **0**
 - High payload-similarity pairs: **0**
 - Reused long normalized paragraph groups: **0**

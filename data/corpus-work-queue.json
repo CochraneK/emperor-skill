@@ -8,32 +8,20 @@
     "priority_meaning": "Queue letters describe engineering sequence, not historical importance or value ranking."
   },
   "summary": {
-    "A_CORE_MAJOR_SEQUENCE_MISSING": 65,
+    "A_CORE_MAJOR_SEQUENCE_MISSING": 61,
     "B_CORE_PARALLEL_POLITY_MISSING": 173,
     "D_CORE_EARLY_OR_PREQIN_MISSING": 404,
     "Q1_SCOPE_OR_IDENTITY_REVIEW": 365,
     "Q2_EXTENDED_REVIEW": 0,
     "Q3_LEGENDARY_LIMITED_EVIDENCE": 0,
     "Q4_OTHER_REVIEW": 0,
-    "missing_core_total": 642,
+    "missing_core_total": 638,
     "review_total": 365,
     "existing_skill_unresolved": 0,
     "identity_blockers": 0
   },
   "queues": {
     "A_CORE_MAJOR_SEQUENCE_MISSING": [
-      {
-        "candidate_id": "ruler-0031",
-        "canonical_name": "元善见",
-        "polities": [
-          "东魏"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
       {
         "candidate_id": "ruler-0243",
         "canonical_name": "宇文毓",
@@ -183,42 +171,6 @@
         "canonical_name": "李重茂",
         "polities": [
           "唐"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0034",
-        "canonical_name": "元宝炬",
-        "polities": [
-          "西魏"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0035",
-        "canonical_name": "元廓",
-        "polities": [
-          "西魏"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0044",
-        "canonical_name": "元钦",
-        "polities": [
-          "西魏"
         ],
         "source_files": [
           "data/rulers-master-h6-north-south-sui-tang.json"

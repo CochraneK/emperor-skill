@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 273,
+  "count": 277,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -1276,6 +1276,22 @@
       "frontmatter_name": "xiaozhengde-perspective"
     },
     {
+      "skill_path": "skills/nanbeichao/yuanbaoju-perspective",
+      "skill_file": "skills/nanbeichao/yuanbaoju-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanbaoju-perspective",
+      "cn": "元宝炬",
+      "normalized_cn": "元宝炬",
+      "name_hints": [
+        "元宝炬",
+        "在位535–551",
+        "西魏文帝元宝炬"
+      ],
+      "en": "Yuan Baoju",
+      "era": null,
+      "frontmatter_name": "yuanbaoju-perspective"
+    },
+    {
       "skill_path": "skills/nanbeichao/yuangong-perspective",
       "skill_file": "skills/nanbeichao/yuangong-perspective/SKILL.md",
       "dynasty_dir": "nanbeichao",
@@ -1324,6 +1340,20 @@
       "frontmatter_name": "yuanke-perspective"
     },
     {
+      "skill_path": "skills/nanbeichao/yuankuo-perspective",
+      "skill_file": "skills/nanbeichao/yuankuo-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuankuo-perspective",
+      "cn": "元廓",
+      "normalized_cn": "元廓",
+      "name_hints": [
+        "元廓"
+      ],
+      "en": "Yuan Kuo",
+      "era": null,
+      "frontmatter_name": "yuankuo-perspective"
+    },
+    {
       "skill_path": "skills/nanbeichao/yuanlang-perspective",
       "skill_file": "skills/nanbeichao/yuanlang-perspective/SKILL.md",
       "dynasty_dir": "nanbeichao",
@@ -1338,6 +1368,36 @@
       "en": "Yuan Lang",
       "era": "约513–532；531–532在位",
       "frontmatter_name": "yuanlang-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanqin-perspective",
+      "skill_file": "skills/nanbeichao/yuanqin-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanqin-perspective",
+      "cn": "元钦",
+      "normalized_cn": "元钦",
+      "name_hints": [
+        "元钦"
+      ],
+      "en": "Yuan Qin",
+      "era": null,
+      "frontmatter_name": "yuanqin-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanshanjian-perspective",
+      "skill_file": "skills/nanbeichao/yuanshanjian-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanshanjian-perspective",
+      "cn": "元善见",
+      "normalized_cn": "元善见",
+      "name_hints": [
+        "东魏孝静帝元善见",
+        "元善见",
+        "在位534–550"
+      ],
+      "en": "Yuan Shanjian",
+      "era": null,
+      "frontmatter_name": "yuanshanjian-perspective"
     },
     {
       "skill_path": "skills/nanbeichao/yuanxiu-perspective",
