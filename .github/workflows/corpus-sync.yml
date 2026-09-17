@@ -5,15 +5,22 @@ on:
     branches: [main]
     paths:
       - 'skills/**/SKILL.md'
+      - 'skills/**/references/research/*.md'
       - 'data/rulers-master-h*.json'
       - 'data/legendary-rulers.json'
       - 'data/ruler-candidates-preqin-other.json'
       - 'data/corpus-scope-exceptions.json'
       - 'data/corpus-identity-overrides.json'
+      - 'data/provenance-repair-attestations.json'
+      - 'assessment/PROVENANCE_RECOVERY.md'
+      - '_redo_tools/_order_suspects_39.md'
       - '_redo_tools/_build_ruler_corpus.py'
       - '_redo_tools/_build_ruler_corpus_with_overrides.py'
       - '_redo_tools/_build_corpus_queue.py'
       - '_redo_tools/_postprocess_corpus_docs.py'
+      - '_redo_tools/_audit_l3_semantic_similarity.py'
+      - '_redo_tools/_calibrate_l3_similarity.py'
+      - '_redo_tools/_build_provenance_repair_registry.py'
       - '.github/workflows/corpus-sync.yml'
   workflow_dispatch:
 
@@ -37,30 +44,63 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Generate corpus artifacts
+      - name: Compile production generators
+        run: |
+          python -m py_compile _redo_tools/_build_ruler_corpus_with_overrides.py
+          python -m py_compile _redo_tools/_build_corpus_queue.py
+          python -m py_compile _redo_tools/_postprocess_corpus_docs.py
+          python -m py_compile _redo_tools/_audit_l3_semantic_similarity.py
+          python -m py_compile _redo_tools/_calibrate_l3_similarity.py
+          python -m py_compile _redo_tools/_build_provenance_repair_registry.py
+
+      - name: Generate corpus and quality artifacts
         run: |
           python _redo_tools/_build_ruler_corpus_with_overrides.py
           python _redo_tools/_build_corpus_queue.py
           python _redo_tools/_postprocess_corpus_docs.py
+          python _redo_tools/_build_provenance_repair_registry.py
+          python _redo_tools/_calibrate_l3_similarity.py
+          python _redo_tools/_audit_l3_semantic_similarity.py
+
+      - name: Guard generated semantics
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          issues=json.loads(Path('data/corpus-identity-issues.json').read_text())
+          l3=json.loads(Path('data/l3-semantic-review-queue.json').read_text())
+          baseline=json.loads(Path('data/l3-similarity-baseline.json').read_text())
+          prov=json.loads(Path('data/provenance-repair-registry.json').read_text())
+          idreg=json.loads(Path('data/ruler-person-id-registry.json').read_text())
+          assert issues['summary']['skill_to_multiple_person_collisions'] == 0
+          assert issues['summary']['person_to_multiple_skill_matches'] == 0
+          assert issues['summary']['identity_hint_collisions'] == 0
+          assert issues['summary']['suspicious_canonical_names'] == 0
+          assert l3['status'] == 'GENERATED_REVIEW_SIGNALS_NOT_L3_VERDICTS'
+          assert l3['policy']['automatic_pass_fail'] is False
+          assert baseline['status'] == 'DIAGNOSTIC_BASELINE_NOT_QUALITY_VERDICT'
+          assert prov['summary']['historical_snapshot_packages'] == 39
+          assert prov['summary']['semantic_triage_completed_packages'] == 39
+          assert idreg['active_count'] > 0
+          PY
 
       - name: Show generated summary
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          gap=json.loads(Path('data/corpus-gap.json').read_text())
-          queue=json.loads(Path('data/corpus-work-queue.json').read_text())
-          issues=json.loads(Path('data/corpus-identity-issues.json').read_text())
-          index=json.loads(Path('data/rulers-person-index.json').read_text())
+          for label, path in [
+              ('COVERAGE','data/corpus-gap.json'),
+              ('WORK QUEUE','data/corpus-work-queue.json'),
+              ('IDENTITY QA','data/corpus-identity-issues.json'),
+              ('L3 REVIEW','data/l3-semantic-review-queue.json'),
+              ('L3 BASELINE','data/l3-similarity-baseline.json'),
+              ('PROVENANCE REPAIR','data/provenance-repair-registry.json'),
+          ]:
+              doc=json.loads(Path(path).read_text())
+              print(label)
+              print(json.dumps(doc.get('summary', {}), ensure_ascii=False, indent=2))
           idreg=json.loads(Path('data/ruler-person-id-registry.json').read_text())
-          print('COVERAGE')
-          print(json.dumps(gap['summary'], ensure_ascii=False, indent=2))
-          print('WORK QUEUE')
-          print(json.dumps(queue['summary'], ensure_ascii=False, indent=2))
-          print('IDENTITY QA')
-          print(json.dumps(issues['summary'], ensure_ascii=False, indent=2))
-          print('IDENTITY OVERRIDES')
-          print(json.dumps(index.get('identity_override_stats', {}), ensure_ascii=False, indent=2))
           print('STABLE PERSON IDS')
           print(json.dumps({
               'active_count': idreg.get('active_count'),
@@ -74,10 +114,10 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A -- data assessment/CORPUS_COVERAGE.md assessment/CORPUS_QA.md
+          git add -A -- data assessment/CORPUS_COVERAGE.md assessment/CORPUS_QA.md assessment/L3_SEMANTIC_QA.md
           if git diff --cached --quiet; then
             echo 'No generated changes.'
             exit 0
           fi
-          git commit -m 'chore: sync ruler corpus coverage and queues'
+          git commit -m 'chore: sync corpus and Nuwa quality registries'
           git push
