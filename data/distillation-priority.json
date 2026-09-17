@@ -5,21 +5,21 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 646,
+    "all_missing_core": 645,
     "p0_backbone_core_persons": 216,
-    "p0_backbone_complete": 181,
-    "p0_backbone_missing": 35,
-    "p0_backbone_completion_ratio": 0.838,
+    "p0_backbone_complete": 182,
+    "p0_backbone_missing": 34,
+    "p0_backbone_completion_ratio": 0.8426,
     "p1_post_qin_anchor_candidate_pool": 207,
     "p2_remaining_post_qin_core_pool": 207,
     "p3_early_and_preqin_missing_core": 404,
     "mapping_issues": 0,
-    "current_focus_lane": "刘宋",
-    "current_focus_missing": 1
+    "current_focus_lane": "北魏",
+    "current_focus_missing": 3
   },
   "p0_backbone": {
     "rule": "Work chronologically. Finish every currently locked-CORE missing ruler in the current backbone lane before advancing to the next lane. Short reigns remain included when they are CORE. REVIEW claimants do not block the lane.",
-    "current_focus_lane": "刘宋",
+    "current_focus_lane": "北魏",
     "lanes": [
       {
         "lane_order": 10,
@@ -744,10 +744,10 @@
         "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
         "source_polity_id": "liu-song",
         "core_sequence_total": 9,
-        "complete": 8,
-        "missing": 1,
+        "complete": 9,
+        "missing": 0,
         "noncore_primary_entries": 0,
-        "completion_ratio": 0.8889,
+        "completion_ratio": 1.0,
         "persons": [
           {
             "succession_order": 1,
@@ -834,8 +834,10 @@
             "person_id": "ruler-0060",
             "canonical_name": "刘准",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/liuzhun-perspective"
+            ],
+            "status": "COMPLETE"
           }
         ]
       },
@@ -2556,20 +2558,6 @@
     "queue": [
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 70,
-        "lane": "刘宋",
-        "polity_name": "刘宋",
-        "succession_order": 9,
-        "person_id": "ruler-0060",
-        "canonical_name": "刘准",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
         "backbone_lane_order": 74,
         "lane": "北魏",
         "polity_name": "北魏",
@@ -2580,7 +2568,7 @@
           "data/rulers-master-h6-north-south-sui-tang.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
@@ -2594,7 +2582,7 @@
           "data/rulers-master-h6-north-south-sui-tang.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
@@ -2608,7 +2596,7 @@
           "data/rulers-master-h6-north-south-sui-tang.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",

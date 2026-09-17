@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 269,
+  "count": 270,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -941,6 +941,22 @@
       "en": "Liu Yu",
       "era": "420–422",
       "frontmatter_name": "liuyu-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuzhun-perspective",
+      "skill_file": "skills/nanbeichao/liuzhun-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "liuzhun-perspective",
+      "cn": "刘准",
+      "normalized_cn": "刘准",
+      "name_hints": [
+        "刘准",
+        "宋顺帝",
+        "顺帝"
+      ],
+      "en": "Liu Zhun (Emperor Shun of Liu Song)",
+      "era": "469–479；477–479在位",
+      "frontmatter_name": "liuzhun-perspective"
     },
     {
       "skill_path": "skills/nanbeichao/liuziye-perspective",
