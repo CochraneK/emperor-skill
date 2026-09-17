@@ -5,21 +5,21 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 622,
+    "all_missing_core": 618,
     "p0_backbone_core_persons": 216,
-    "p0_backbone_complete": 205,
-    "p0_backbone_missing": 11,
-    "p0_backbone_completion_ratio": 0.9491,
+    "p0_backbone_complete": 209,
+    "p0_backbone_missing": 7,
+    "p0_backbone_completion_ratio": 0.9676,
     "p1_post_qin_anchor_candidate_pool": 207,
     "p2_remaining_post_qin_core_pool": 207,
     "p3_early_and_preqin_missing_core": 404,
     "mapping_issues": 0,
-    "current_focus_lane": "后唐",
-    "current_focus_missing": 4
+    "current_focus_lane": "后晋",
+    "current_focus_missing": 2
   },
   "p0_backbone": {
     "rule": "Work chronologically. Finish every currently locked-CORE missing ruler in the current backbone lane before advancing to the next lane. Short reigns remain included when they are CORE. REVIEW claimants do not block the lane.",
-    "current_focus_lane": "后唐",
+    "current_focus_lane": "后晋",
     "lanes": [
       {
         "lane_order": 10,
@@ -1769,42 +1769,50 @@
         "source_file": "data/rulers-master-h7-five-ten.json",
         "source_polity_id": "later-tang",
         "core_sequence_total": 4,
-        "complete": 0,
-        "missing": 4,
+        "complete": 4,
+        "missing": 0,
         "noncore_primary_entries": 0,
-        "completion_ratio": 0.0,
+        "completion_ratio": 1.0,
         "persons": [
           {
             "succession_order": 1,
             "person_id": "ruler-0525",
             "canonical_name": "李存勖",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/licunxu-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 2,
             "person_id": "ruler-0523",
             "canonical_name": "李嗣源",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/lisiyuan-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 3,
             "person_id": "ruler-0518",
             "canonical_name": "李从厚",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/liconghou-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 4,
             "person_id": "ruler-0519",
             "canonical_name": "李从珂",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/licongke-perspective"
+            ],
+            "status": "COMPLETE"
           }
         ]
       },
@@ -2604,62 +2612,6 @@
     "queue": [
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 101,
-        "lane": "后唐",
-        "polity_name": "后唐",
-        "succession_order": 1,
-        "person_id": "ruler-0525",
-        "canonical_name": "李存勖",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 101,
-        "lane": "后唐",
-        "polity_name": "后唐",
-        "succession_order": 2,
-        "person_id": "ruler-0523",
-        "canonical_name": "李嗣源",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 101,
-        "lane": "后唐",
-        "polity_name": "后唐",
-        "succession_order": 3,
-        "person_id": "ruler-0518",
-        "canonical_name": "李从厚",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 101,
-        "lane": "后唐",
-        "polity_name": "后唐",
-        "succession_order": 4,
-        "person_id": "ruler-0519",
-        "canonical_name": "李从珂",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
         "backbone_lane_order": 102,
         "lane": "后晋",
         "polity_name": "后晋",
@@ -2670,7 +2622,7 @@
           "data/rulers-master-h7-five-ten.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
@@ -2684,7 +2636,7 @@
           "data/rulers-master-h7-five-ten.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",

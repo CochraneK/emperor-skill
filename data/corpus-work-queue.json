@@ -8,14 +8,14 @@
     "priority_meaning": "Queue letters describe engineering sequence, not historical importance or value ranking."
   },
   "summary": {
-    "A_CORE_MAJOR_SEQUENCE_MISSING": 45,
+    "A_CORE_MAJOR_SEQUENCE_MISSING": 41,
     "B_CORE_PARALLEL_POLITY_MISSING": 173,
     "D_CORE_EARLY_OR_PREQIN_MISSING": 404,
     "Q1_SCOPE_OR_IDENTITY_REVIEW": 365,
     "Q2_EXTENDED_REVIEW": 0,
     "Q3_LEGENDARY_LIMITED_EVIDENCE": 0,
     "Q4_OTHER_REVIEW": 0,
-    "missing_core_total": 622,
+    "missing_core_total": 618,
     "review_total": 365,
     "existing_skill_unresolved": 0,
     "identity_blockers": 0
@@ -63,54 +63,6 @@
         "canonical_name": "郭威",
         "polities": [
           "后周"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0518",
-        "canonical_name": "李从厚",
-        "polities": [
-          "后唐"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0519",
-        "canonical_name": "李从珂",
-        "polities": [
-          "后唐"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0523",
-        "canonical_name": "李嗣源",
-        "polities": [
-          "后唐"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0525",
-        "canonical_name": "李存勖",
-        "polities": [
-          "后唐"
         ],
         "source_files": [
           "data/rulers-master-h7-five-ten.json"

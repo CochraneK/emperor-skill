@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 293,
+  "count": 297,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -3196,6 +3196,62 @@
       "en": "Wu Zetian",
       "era": "624–705",
       "frontmatter_name": "wuzetian-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/liconghou-perspective",
+      "skill_file": "skills/wudai/liconghou-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "liconghou-perspective",
+      "cn": "李从厚",
+      "normalized_cn": "李从厚",
+      "name_hints": [
+        "李从厚"
+      ],
+      "en": "Li Conghou",
+      "era": null,
+      "frontmatter_name": "liconghou-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/licongke-perspective",
+      "skill_file": "skills/wudai/licongke-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "licongke-perspective",
+      "cn": "李从珂",
+      "normalized_cn": "李从珂",
+      "name_hints": [
+        "李从珂"
+      ],
+      "en": "Li Congke",
+      "era": null,
+      "frontmatter_name": "licongke-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/licunxu-perspective",
+      "skill_file": "skills/wudai/licunxu-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "licunxu-perspective",
+      "cn": "李存勖",
+      "normalized_cn": "李存勖",
+      "name_hints": [
+        "李存勖"
+      ],
+      "en": "Li Cunxu",
+      "era": null,
+      "frontmatter_name": "licunxu-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/lisiyuan-perspective",
+      "skill_file": "skills/wudai/lisiyuan-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "lisiyuan-perspective",
+      "cn": "李嗣源",
+      "normalized_cn": "李嗣源",
+      "name_hints": [
+        "李嗣源"
+      ],
+      "en": "Li Siyuan",
+      "era": null,
+      "frontmatter_name": "lisiyuan-perspective"
     },
     {
       "skill_path": "skills/wudai/zhuwen-perspective",

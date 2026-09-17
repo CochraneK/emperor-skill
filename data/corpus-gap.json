@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 913,
-    "matched_core_persons": 291,
-    "missing_core_persons": 622,
+    "matched_core_persons": 295,
+    "missing_core_persons": 618,
     "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 293,
-    "matched_existing_skills": 292,
+    "existing_skills": 297,
+    "matched_existing_skills": 296,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 293,
-    "core_coverage_ratio": 0.3187
+    "accounted_existing_skills": 297,
+    "core_coverage_ratio": 0.3231
   },
   "missing_core": [
     {
@@ -2340,26 +2340,6 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-0518",
-      "canonical_name": "李从厚",
-      "corpus_status": "CORE",
-      "polities": [
-        "后唐"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0519",
-      "canonical_name": "李从珂",
-      "corpus_status": "CORE",
-      "polities": [
-        "后唐"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
       "candidate_id": "ruler-0521",
       "canonical_name": "李元昊",
       "corpus_status": "CORE",
@@ -2375,26 +2355,6 @@
       "corpus_status": "CORE",
       "polities": [
         "成汉"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0523",
-      "canonical_name": "李嗣源",
-      "corpus_status": "CORE",
-      "polities": [
-        "后唐"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0525",
-      "canonical_name": "李存勖",
-      "corpus_status": "CORE",
-      "polities": [
-        "后唐"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -15435,8 +15395,10 @@
       "polities": [
         "后唐"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/wudai/liconghou-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0519",
@@ -15445,8 +15407,10 @@
       "polities": [
         "后唐"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/wudai/licongke-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0520",
@@ -15487,8 +15451,10 @@
       "polities": [
         "后唐"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/wudai/lisiyuan-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0524",
@@ -15507,8 +15473,10 @@
       "polities": [
         "后唐"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/wudai/licunxu-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0526",
