@@ -11,8 +11,11 @@ on:
       - '.github/workflows/nuwa-l3.yml'
   workflow_dispatch:
 
+# Corpus Sync is the single writer for generated QA artifacts. This workflow only
+# validates that the L3 scanners still compile, run and preserve their review-only
+# semantics. Keeping it read-only prevents bot-vs-bot push races during bulk distill.
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: nuwa-l3-${{ github.ref }}
@@ -20,7 +23,6 @@ concurrency:
 
 jobs:
   semantic-review-signals:
-    if: github.actor != 'github-actions[bot]' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -36,10 +38,10 @@ jobs:
           python -m py_compile _redo_tools/_audit_l3_semantic_similarity.py
           python -m py_compile _redo_tools/_calibrate_l3_similarity.py
 
-      - name: Generate similarity baseline
+      - name: Generate similarity baseline in workspace
         run: python _redo_tools/_calibrate_l3_similarity.py
 
-      - name: Generate L3 review signals
+      - name: Generate L3 review signals in workspace
         run: python _redo_tools/_audit_l3_semantic_similarity.py
 
       - name: Guard semantic meaning
@@ -59,14 +61,12 @@ jobs:
           print(json.dumps(baseline['summary'], ensure_ascii=False, indent=2))
           PY
 
-      - name: Commit generated review queue
+      - name: Confirm validation-only workflow
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/l3-semantic-review-queue.json data/l3-similarity-baseline.json assessment/L3_SEMANTIC_QA.md
-          if git diff --cached --quiet; then
-            echo 'No L3 review-signal changes.'
-            exit 0
+          if ! git diff --quiet -- data/l3-semantic-review-queue.json data/l3-similarity-baseline.json assessment/L3_SEMANTIC_QA.md; then
+            echo 'L3 generated artifacts differ from the checked-in snapshot.'
+            echo 'Corpus Sync is the only workflow allowed to commit those changes.'
+            git diff --stat -- data/l3-semantic-review-queue.json data/l3-similarity-baseline.json assessment/L3_SEMANTIC_QA.md
+          else
+            echo 'Checked-in L3 artifacts already match this validation run.'
           fi
-          git commit -m 'chore: sync Nuwa L3 semantic review queue'
-          git push
