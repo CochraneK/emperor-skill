@@ -49,5 +49,15 @@ P1 candidate pool), because that is the lane the GPT-side worker is actively pus
 
 | Batch | Persons | Status |
 |---|---|---|
-| P3-B01 | 赵武灵王赵雍 (`ruler-1076`, 赵) | IN PROGRESS |
-| P3-B01 | 魏文侯魏斯 (`ruler-1237`, 魏) | PLANNED |
+| P3-B01 | 赵武灵王赵雍 (`ruler-1076`, 赵) | DONE · 6/6 · `skills/zhou/zhaowulingwang-perspective` |
+| P3-B01 | 魏文侯魏斯 (`ruler-1237`, 魏) | DONE · 6/6 · `skills/zhou/weiwenhou-perspective` |
+| P3-B02 | 勾践 (`ruler-0129`, 越)、夫差 (`ruler-0216`, 吴) | NOMINATED |
+
+### P3-B01 交付记录
+
+- 赵雍：`Limited/Rich` 混合证据。核心反证已纳入——洛阳金村错金银狩猎纹镜（约前6–5世纪）显示中原骑兵与鹖冠早于赵雍，故「骑兵始祖」判为后世加誉，写入诚实边界；梁启超「黄帝以后第一伟人」标为近代史论并附语境；沙丘三月无临终言语，`UNKNOWN_NOT_RECORDED`，禁止代拟。
+- 魏斯：归因分离处理——尽地力、平籴、《法经》归李悝之学，魏文侯只取「采纳与授权」；元年纪年、《法经》真伪写入存疑；三家分晋的合法性缺口（前403册命为既成事实的追认）写入诚实边界；与子夏无问答实录，`NOT_OBSERVED`。
+
+### 下一批提名（P3-B02）
+
+勾践与夫差同属吴越争霸一组，史料以《左传》《国语》《史记·越王勾践世家》为主，成篇晚于事件但叙事互证度高；两人互为 counter-evidence（同一组事件的两端），适合成对蒸馏。若改走十国/十六国方向，须先确认 GPT 侧是否已离开 post-Qin P1/P2 池。
