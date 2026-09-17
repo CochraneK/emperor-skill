@@ -23,15 +23,15 @@
 
 ## Interpretation
 
-These are engineering counts, not final historical totals. Small-polity discovery, REVIEW decisions and cross-polity identity QA remain open. REVIEW is excluded from locked CORE until evidence resolves it.
+These are engineering counts, not final historical totals. Small-polity discovery and REVIEW decisions remain open. Canonical-label QA is collision-free; every current entity has an append-only stable person ID. REVIEW remains outside locked CORE until evidence resolves it.
 
-One person may have multiple rule episodes/titles/polities but must ultimately receive one stable person ID. Existing analytically useful Skills that fail the ruler admission rule are kept through explicit scope exceptions rather than deleted or falsely promoted into CORE.
+One person may have multiple rule episodes/titles/polities but keeps one stable person ID. Later identity merges retire/redirect old IDs instead of renumbering the corpus. Existing analytically useful Skills that fail the ruler admission rule are kept through explicit scope exceptions rather than deleted or falsely promoted into CORE.
 
 ## Automated next gates
 
 1. Drive unresolved existing Skill identities to zero conservatively.
-2. Resolve REVIEW candidates and cross-polity aliases, then freeze stable IDs.
+2. Resolve REVIEW candidates and cross-polity relations using explicit retire/redirect migrations; never renumber stable IDs.
 3. Recompute `CORE − matched Skill persons` as the research/distillation queue.
 4. Feed only that queue into research → evidence synthesis → Nuwa distillation.
 
-See `data/corpus-gap.json`, `data/existing-skill-person-map.json`, `data/corpus-scope-exceptions.json`, and `data/rulers-person-index.json`.
+See `data/corpus-gap.json`, `data/existing-skill-person-map.json`, `data/corpus-scope-exceptions.json`, `data/rulers-person-index.json`, and `data/ruler-person-id-registry.json`.

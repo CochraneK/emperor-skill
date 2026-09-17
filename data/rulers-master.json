@@ -1,7 +1,7 @@
 {
   "schema_version": "2.3",
   "title": "Chinese Historical Rulers Corpus — Canonical Master",
-  "status": "SEGMENTED_MASTER_IDENTITY_NORMALIZATION_IN_PROGRESS",
+  "status": "STABLE_PERSON_ID_REGISTRY_ACTIVE",
   "canonical_scope": "data/RULER_CORPUS_SCOPE.md",
   "build_plan": "data/corpus-build-plan.json",
   "person_index": "data/rulers-person-index.json",
@@ -29,7 +29,8 @@
     "legendary": 16,
     "review": 365
   },
-  "identity_rule": "one person = one final stable ID; reigns/titles/polities are rule episodes",
+  "identity_rule": "one person = one stable append-only person ID; reigns/titles/polities are rule episodes; later merges retire/redirect IDs rather than renumbering",
   "completion_rule": "matched locked CORE persons / all locked CORE persons; REVIEW/EXTENDED/LEGENDARY separate",
-  "warning": "Do not publish candidate counts as final historical totals until polity discovery and identity QA close."
+  "warning": "CORE canonical labels passed automated collision/composite QA. REVIEW identity relations and remaining polity discovery stay explicit and may append or retire entities, but existing IDs do not shift.",
+  "person_id_registry": "data/ruler-person-id-registry.json"
 }
