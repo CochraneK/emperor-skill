@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 913,
-    "matched_core_persons": 265,
-    "missing_core_persons": 648,
+    "matched_core_persons": 266,
+    "missing_core_persons": 647,
     "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 267,
-    "matched_existing_skills": 266,
+    "existing_skills": 268,
+    "matched_existing_skills": 267,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 267,
-    "core_coverage_ratio": 0.2903
+    "accounted_existing_skills": 268,
+    "core_coverage_ratio": 0.2913
   },
   "missing_core": [
     {
@@ -3477,16 +3477,6 @@
       "corpus_status": "CORE",
       "polities": [
         "闽"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0787",
-      "canonical_name": "王莽",
-      "corpus_status": "CORE",
-      "polities": [
-        "新"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -18436,8 +18426,10 @@
       "polities": [
         "新"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/xin/wangmang-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0788",

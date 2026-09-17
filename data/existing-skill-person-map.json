@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 267,
+  "count": 268,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -3362,6 +3362,21 @@
       "en": "Liu Ying",
       "era": "公元6–公元9（王莽居摄，未即帝位）",
       "frontmatter_name": "ruziying-perspective"
+    },
+    {
+      "skill_path": "skills/xin/wangmang-perspective",
+      "skill_file": "skills/xin/wangmang-perspective/SKILL.md",
+      "dynasty_dir": "xin",
+      "package_slug": "wangmang-perspective",
+      "cn": "王莽",
+      "normalized_cn": "王莽",
+      "name_hints": [
+        "字巨君",
+        "王莽"
+      ],
+      "en": "Wang Mang",
+      "era": "前45–23；8/9年建立新朝，23年覆亡",
+      "frontmatter_name": "wangmang-perspective"
     },
     {
       "skill_path": "skills/yuan/ashuqibu-perspective",
