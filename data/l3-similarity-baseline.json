@@ -2,20 +2,28 @@
   "schema_version": "1.0",
   "status": "DIAGNOSTIC_BASELINE_NOT_QUALITY_VERDICT",
   "summary": {
-    "packages": 288,
-    "pairs_with_overlap_at_least_30": 4693,
-    "jaccard_max": 0.116325,
-    "jaccard_p95": 0.0268664,
-    "jaccard_p99": 0.04450915999999999,
-    "jaccard_p995": 0.050264439999999994,
-    "containment_max": 0.209714,
-    "containment_p95": 0.055982399999999995,
-    "containment_p99": 0.08802267999999999,
-    "containment_p995": 0.0993172,
-    "jaccard_median": 0.008222,
-    "containment_median": 0.017682
+    "packages": 290,
+    "pairs_with_overlap_at_least_30": 4694,
+    "jaccard_max": 0.22963,
+    "jaccard_p95": 0.026869799999999992,
+    "jaccard_p99": 0.04453679999999998,
+    "jaccard_p995": 0.05072450999999989,
+    "containment_max": 0.62,
+    "containment_p95": 0.055992,
+    "containment_p99": 0.08824629999999992,
+    "containment_p995": 0.09991838999999988,
+    "jaccard_median": 0.0082235,
+    "containment_median": 0.0176845
   },
   "top_30_by_jaccard": [
+    {
+      "left": "skills/nanbeichao/gaoheng-perspective",
+      "right": "skills/tang/lizhongmao-perspective",
+      "same_dynasty": false,
+      "jaccard": 0.22963,
+      "containment": 0.62,
+      "overlap_shingles": 31
+    },
     {
       "left": "skills/nanbeichao/liuyu-perspective",
       "right": "skills/nanbeichao/xiaodaochang-perspective",
@@ -247,17 +255,17 @@
       "jaccard": 0.049288,
       "containment": 0.10126,
       "overlap_shingles": 225
-    },
-    {
-      "left": "skills/nanbeichao/chenxuan-perspective",
-      "right": "skills/nanbeichao/liuyu-perspective",
-      "same_dynasty": true,
-      "jaccard": 0.048894,
-      "containment": 0.094564,
-      "overlap_shingles": 294
     }
   ],
   "top_30_by_containment": [
+    {
+      "left": "skills/nanbeichao/gaoheng-perspective",
+      "right": "skills/tang/lizhongmao-perspective",
+      "same_dynasty": false,
+      "jaccard": 0.22963,
+      "containment": 0.62,
+      "overlap_shingles": 31
+    },
     {
       "left": "skills/nanbeichao/liuyu-perspective",
       "right": "skills/nanbeichao/xiaodaochang-perspective",
@@ -489,14 +497,6 @@
       "jaccard": 0.044574,
       "containment": 0.097511,
       "overlap_shingles": 474
-    },
-    {
-      "left": "skills/donghan/hedi-perspective",
-      "right": "skills/donghan/mingdi-perspective",
-      "same_dynasty": true,
-      "jaccard": 0.04878,
-      "containment": 0.09618,
-      "overlap_shingles": 214
     }
   ],
   "note": "Use this distribution to choose conservative REVIEW thresholds. Never translate a percentile directly into PASS/FAIL."

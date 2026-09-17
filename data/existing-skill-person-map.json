@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 288,
+  "count": 290,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -2839,6 +2839,20 @@
       "frontmatter_name": "yangdi-perspective"
     },
     {
+      "skill_path": "skills/sui/yangtong-perspective",
+      "skill_file": "skills/sui/yangtong-perspective/SKILL.md",
+      "dynasty_dir": "sui",
+      "package_slug": "yangtong-perspective",
+      "cn": "杨侗",
+      "normalized_cn": "杨侗",
+      "name_hints": [
+        "杨侗"
+      ],
+      "en": "Yang Tong",
+      "era": null,
+      "frontmatter_name": "yangtong-perspective"
+    },
+    {
       "skill_path": "skills/tang/liang-perspective",
       "skill_file": "skills/tang/liang-perspective/SKILL.md",
       "dynasty_dir": "tang",
@@ -3137,6 +3151,20 @@
       "en": "Li Zhi",
       "era": "628–683",
       "frontmatter_name": "lizhi-perspective"
+    },
+    {
+      "skill_path": "skills/tang/lizhongmao-perspective",
+      "skill_file": "skills/tang/lizhongmao-perspective/SKILL.md",
+      "dynasty_dir": "tang",
+      "package_slug": "lizhongmao-perspective",
+      "cn": "李重茂",
+      "normalized_cn": "李重茂",
+      "name_hints": [
+        "李重茂"
+      ],
+      "en": "Li Chongmao",
+      "era": null,
+      "frontmatter_name": "lizhongmao-perspective"
     },
     {
       "skill_path": "skills/tang/lizhu-perspective",
