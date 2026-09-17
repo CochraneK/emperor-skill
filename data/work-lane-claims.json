@@ -36,9 +36,10 @@
       "package_path": "skills/zhou/weiwenhou-perspective",
       "queue": "D_CORE_EARLY_OR_PREQIN_MISSING",
       "batch": "P3-B01",
-      "status": "PLANNED",
+      "status": "DISTILLED",
       "claimed_by": "workbuddy_side",
-      "claimed_on": "2026-09-17"
+      "claimed_on": "2026-09-17",
+      "updated_on": "2026-09-17"
     }
   ]
 }
