@@ -31187,6 +31187,6 @@
     "active_ids": 1312,
     "issued_ids": 1312,
     "next_sequence": 1313,
-    "initial_freeze": true
+    "initial_freeze": false
   }
 }
