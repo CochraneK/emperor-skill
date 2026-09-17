@@ -57,12 +57,12 @@ jobs:
 
       - name: Commit generated artifacts
         run: |
-          if git diff --quiet -- data assessment/CORPUS_COVERAGE.md assessment/CORPUS_QA.md; then
-            echo 'No generated changes.'
-            exit 0
-          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A -- data assessment/CORPUS_COVERAGE.md assessment/CORPUS_QA.md
+          if git diff --cached --quiet; then
+            echo 'No generated changes.'
+            exit 0
+          fi
           git commit -m 'chore: sync ruler corpus coverage and queues'
           git push
