@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 913,
-    "matched_core_persons": 268,
-    "missing_core_persons": 645,
+    "matched_core_persons": 269,
+    "missing_core_persons": 644,
     "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 270,
-    "matched_existing_skills": 269,
+    "existing_skills": 271,
+    "matched_existing_skills": 270,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 270,
-    "core_coverage_ratio": 0.2935
+    "accounted_existing_skills": 271,
+    "core_coverage_ratio": 0.2946
   },
   "missing_core": [
     {
@@ -261,16 +261,6 @@
     {
       "candidate_id": "ruler-0041",
       "canonical_name": "元脩",
-      "corpus_status": "CORE",
-      "polities": [
-        "北魏"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0043",
-      "canonical_name": "元钊",
       "corpus_status": "CORE",
       "polities": [
         "北魏"
@@ -10604,8 +10594,10 @@
       "polities": [
         "北魏"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/nanbeichao/yuanzhao-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0044",

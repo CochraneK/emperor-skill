@@ -4,11 +4,11 @@
 
 ## Current state
 
-- All missing locked CORE: **645**
+- All missing locked CORE: **644**
 - P0 backbone CORE persons: **216**
-- P0 already distilled: **182**
-- P0 still missing: **34**
-- P0 completion: **84.3%**
+- P0 already distilled: **183**
+- P0 still missing: **33**
+- P0 completion: **84.7%**
 - Current focus lane: **北魏**
 - Mapping issues: **0**
 
@@ -37,7 +37,7 @@
 | 71 | 南齐 | 7 | 0 | 100% |
 | 72 | 南梁 | 5 | 0 | 100% |
 | 73 | 陈 | 5 | 0 | 100% |
-| 74 | 北魏 | 12 | 3 | 80% |
+| 74 | 北魏 | 13 | 2 | 87% |
 | 75 | 东魏 | 0 | 1 | 0% |
 | 76 | 西魏 | 0 | 3 | 0% |
 | 77 | 北齐 | 0 | 6 | 0% |
@@ -58,7 +58,6 @@
 
 ## Next P0 tasks
 
-- `ruler-0043` · **元钊** · 北魏 · succession #10
 - `ruler-0039` · **元朗** · 北魏 · succession #14
 - `ruler-0041` · **元脩** · 北魏 · succession #15
 

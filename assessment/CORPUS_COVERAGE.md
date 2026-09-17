@@ -12,14 +12,14 @@
 
 ## Existing Skill coverage
 
-- Existing Skills scanned: **270**
-- Matched to a ruler person: **269**
+- Existing Skills scanned: **271**
+- Matched to a ruler person: **270**
 - Explicit non-ruler/scope exceptions preserved: **1**
-- Accounted existing Skills: **270 / 270**
+- Accounted existing Skills: **271 / 271**
 - Still unresolved existing Skill identities: **0**
-- Matched CORE persons: **268**
-- Missing CORE persons: **645**
-- Working CORE coverage: **29.3%**
+- Matched CORE persons: **269**
+- Missing CORE persons: **644**
+- Working CORE coverage: **29.5%**
 
 ## Interpretation
 

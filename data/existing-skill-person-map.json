@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 270,
+  "count": 271,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -1354,6 +1354,21 @@
       "en": "Yuan Ye",
       "era": "530–532",
       "frontmatter_name": "yuanye-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanzhao-perspective",
+      "skill_file": "skills/nanbeichao/yuanzhao-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuanzhao-perspective",
+      "cn": "元钊",
+      "normalized_cn": "元钊",
+      "name_hints": [
+        "元钊",
+        "北魏幼主"
+      ],
+      "en": "Yuan Zhao",
+      "era": "526–528；528年短期在位",
+      "frontmatter_name": "yuanzhao-perspective"
     },
     {
       "skill_path": "skills/nanbeichao/yuanziyou-perspective",
