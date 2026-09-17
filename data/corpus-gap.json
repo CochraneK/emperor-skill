@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 913,
-    "matched_core_persons": 303,
-    "missing_core_persons": 610,
+    "matched_core_persons": 304,
+    "missing_core_persons": 609,
     "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 305,
-    "matched_existing_skills": 304,
+    "existing_skills": 306,
+    "matched_existing_skills": 305,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 305,
-    "core_coverage_ratio": 0.3319
+    "accounted_existing_skills": 306,
+    "core_coverage_ratio": 0.333
   },
   "missing_core": [
     {
@@ -5385,16 +5385,6 @@
     {
       "candidate_id": "ruler-1236",
       "canonical_name": "魏惠成王魏罃",
-      "corpus_status": "CORE",
-      "polities": [
-        "魏"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-1237",
-      "canonical_name": "魏文侯魏斯",
       "corpus_status": "CORE",
       "polities": [
         "魏"
@@ -22769,8 +22759,10 @@
       "polities": [
         "魏"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/zhou/weiwenhou-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-1238",

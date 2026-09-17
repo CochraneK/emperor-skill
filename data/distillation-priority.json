@@ -5,14 +5,14 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 610,
+    "all_missing_core": 609,
     "p0_backbone_core_persons": 216,
     "p0_backbone_complete": 216,
     "p0_backbone_missing": 0,
     "p0_backbone_completion_ratio": 1.0,
     "p1_post_qin_anchor_candidate_pool": 207,
     "p2_remaining_post_qin_core_pool": 207,
-    "p3_early_and_preqin_missing_core": 403,
+    "p3_early_and_preqin_missing_core": 402,
     "mapping_issues": 0,
     "current_focus_lane": null,
     "current_focus_missing": 0
@@ -4916,7 +4916,7 @@
   },
   "p3_early_and_preqin_core": {
     "status": "AFTER_POST_QIN",
-    "count": 403
+    "count": 402
   },
   "mapping_issues": []
 }

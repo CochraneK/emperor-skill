@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 305,
+  "count": 306,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -4510,6 +4510,23 @@
       "en": "King Weilie of Zhou",
       "era": "前425–前402",
       "frontmatter_name": "weiiliewang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/weiwenhou-perspective",
+      "skill_file": "skills/zhou/weiwenhou-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "weiwenhou-perspective",
+      "cn": "魏文侯魏斯",
+      "normalized_cn": "魏文侯魏斯",
+      "name_hints": [
+        "文侯",
+        "魏文侯",
+        "魏文侯魏斯",
+        "魏斯"
+      ],
+      "en": "Marquess Wen of Wei",
+      "era": "约前445/前472–前396 在位",
+      "frontmatter_name": "weiwenhou-perspective"
     },
     {
       "skill_path": "skills/zhou/wuwang-perspective",
