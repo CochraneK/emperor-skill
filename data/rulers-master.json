@@ -1,10 +1,11 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "title": "Chinese Historical Rulers Corpus — Canonical Master",
   "status": "SEGMENTED_MASTER_IDENTITY_NORMALIZATION_IN_PROGRESS",
   "canonical_scope": "data/RULER_CORPUS_SCOPE.md",
   "build_plan": "data/corpus-build-plan.json",
   "person_index": "data/rulers-person-index.json",
+  "scope_exceptions": "data/corpus-scope-exceptions.json",
   "segments": [
     "data/legendary-rulers.json",
     "data/ruler-candidates-preqin-other.json",
@@ -21,12 +22,12 @@
     "data/rulers-master-h9-yuan-rivals.json"
   ],
   "candidate_stats": {
-    "total_unique_candidates": 1312,
-    "core": 913,
+    "total_unique_candidates": 1237,
+    "core": 875,
     "excluded_review": 3,
     "extended": 15,
     "legendary": 16,
-    "review": 365
+    "review": 328
   },
   "identity_rule": "one person = one final stable ID; reigns/titles/polities are rule episodes",
   "completion_rule": "matched locked CORE persons / all locked CORE persons; REVIEW/EXTENDED/LEGENDARY separate",

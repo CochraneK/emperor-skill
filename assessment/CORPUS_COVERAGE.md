@@ -4,32 +4,34 @@
 
 ## Working denominator
 
-- Candidate persons: **1312**
-- Locked historical CORE: **913**
-- REVIEW: **365**
+- Candidate persons: **1237**
+- Locked historical CORE: **875**
+- REVIEW: **328**
 - EXTENDED: **15**
 - LEGENDARY: **16**
 
 ## Existing Skill coverage
 
 - Existing Skills scanned: **267**
-- Existing Skills matched to a master person: **261**
-- Existing Skills still needing identity normalization: **6**
-- Matched CORE persons: **260**
-- Missing CORE persons: **653**
-- Working CORE coverage: **28.5%**
+- Matched to a ruler person: **266**
+- Explicit non-ruler/scope exceptions preserved: **1**
+- Accounted existing Skills: **267 / 267**
+- Still unresolved existing Skill identities: **0**
+- Matched CORE persons: **265**
+- Missing CORE persons: **610**
+- Working CORE coverage: **30.3%**
 
 ## Interpretation
 
 These are engineering counts, not final historical totals. Small-polity discovery, REVIEW decisions and cross-polity identity QA remain open. REVIEW is excluded from locked CORE until evidence resolves it.
 
-One person may have multiple rule episodes/titles/polities but must ultimately receive one stable person ID. Coverage is deliberately separate from Nuwa provenance and semantic-quality audit.
+One person may have multiple rule episodes/titles/polities but must ultimately receive one stable person ID. Existing analytically useful Skills that fail the ruler admission rule are kept through explicit scope exceptions rather than deleted or falsely promoted into CORE.
 
 ## Automated next gates
 
-1. Resolve unmatched existing Skill identities conservatively; no fuzzy guessing.
+1. Drive unresolved existing Skill identities to zero conservatively.
 2. Resolve REVIEW candidates and cross-polity aliases, then freeze stable IDs.
 3. Recompute `CORE − matched Skill persons` as the research/distillation queue.
 4. Feed only that queue into research → evidence synthesis → Nuwa distillation.
 
-See `data/corpus-gap.json`, `data/existing-skill-person-map.json`, and `data/rulers-person-index.json`.
+See `data/corpus-gap.json`, `data/existing-skill-person-map.json`, `data/corpus-scope-exceptions.json`, and `data/rulers-person-index.json`.
