@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 297,
+  "count": 304,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -3198,6 +3198,48 @@
       "frontmatter_name": "wuzetian-perspective"
     },
     {
+      "skill_path": "skills/wudai/chairong-perspective",
+      "skill_file": "skills/wudai/chairong-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "chairong-perspective",
+      "cn": "柴荣",
+      "normalized_cn": "柴荣",
+      "name_hints": [
+        "柴荣"
+      ],
+      "en": "Chai Rong",
+      "era": null,
+      "frontmatter_name": "chairong-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/chaizongxun-perspective",
+      "skill_file": "skills/wudai/chaizongxun-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "chaizongxun-perspective",
+      "cn": "柴宗训",
+      "normalized_cn": "柴宗训",
+      "name_hints": [
+        "柴宗训"
+      ],
+      "en": "Chai Zongxun",
+      "era": null,
+      "frontmatter_name": "chaizongxun-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/guowei-perspective",
+      "skill_file": "skills/wudai/guowei-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "guowei-perspective",
+      "cn": "郭威",
+      "normalized_cn": "郭威",
+      "name_hints": [
+        "郭威"
+      ],
+      "en": "Guo Wei",
+      "era": null,
+      "frontmatter_name": "guowei-perspective"
+    },
+    {
       "skill_path": "skills/wudai/liconghou-perspective",
       "skill_file": "skills/wudai/liconghou-perspective/SKILL.md",
       "dynasty_dir": "wudai",
@@ -3252,6 +3294,62 @@
       "en": "Li Siyuan",
       "era": null,
       "frontmatter_name": "lisiyuan-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/liuchengyou-perspective",
+      "skill_file": "skills/wudai/liuchengyou-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "liuchengyou-perspective",
+      "cn": "刘承祐",
+      "normalized_cn": "刘承祐",
+      "name_hints": [
+        "刘承祐"
+      ],
+      "en": "Liu Chengyou",
+      "era": null,
+      "frontmatter_name": "liuchengyou-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/liuzhiyuan-perspective",
+      "skill_file": "skills/wudai/liuzhiyuan-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "liuzhiyuan-perspective",
+      "cn": "刘知远",
+      "normalized_cn": "刘知远",
+      "name_hints": [
+        "刘知远"
+      ],
+      "en": "Liu Zhiyuan",
+      "era": null,
+      "frontmatter_name": "liuzhiyuan-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/shichonggui-perspective",
+      "skill_file": "skills/wudai/shichonggui-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "shichonggui-perspective",
+      "cn": "石重贵",
+      "normalized_cn": "石重贵",
+      "name_hints": [
+        "石重贵"
+      ],
+      "en": "Shi Chonggui",
+      "era": null,
+      "frontmatter_name": "shichonggui-perspective"
+    },
+    {
+      "skill_path": "skills/wudai/shijingtang-perspective",
+      "skill_file": "skills/wudai/shijingtang-perspective/SKILL.md",
+      "dynasty_dir": "wudai",
+      "package_slug": "shijingtang-perspective",
+      "cn": "石敬瑭",
+      "normalized_cn": "石敬瑭",
+      "name_hints": [
+        "石敬瑭"
+      ],
+      "en": "Shi Jingtang",
+      "era": null,
+      "frontmatter_name": "shijingtang-perspective"
     },
     {
       "skill_path": "skills/wudai/zhuwen-perspective",

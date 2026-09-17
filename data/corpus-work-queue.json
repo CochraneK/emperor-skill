@@ -8,14 +8,14 @@
     "priority_meaning": "Queue letters describe engineering sequence, not historical importance or value ranking."
   },
   "summary": {
-    "A_CORE_MAJOR_SEQUENCE_MISSING": 41,
+    "A_CORE_MAJOR_SEQUENCE_MISSING": 34,
     "B_CORE_PARALLEL_POLITY_MISSING": 173,
     "D_CORE_EARLY_OR_PREQIN_MISSING": 404,
     "Q1_SCOPE_OR_IDENTITY_REVIEW": 365,
     "Q2_EXTENDED_REVIEW": 0,
     "Q3_LEGENDARY_LIMITED_EVIDENCE": 0,
     "Q4_OTHER_REVIEW": 0,
-    "missing_core_total": 618,
+    "missing_core_total": 611,
     "review_total": 365,
     "existing_skill_unresolved": 0,
     "identity_blockers": 0
@@ -30,90 +30,6 @@
         ],
         "source_files": [
           "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0621",
-        "canonical_name": "柴宗训",
-        "polities": [
-          "后周"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0622",
-        "canonical_name": "柴荣",
-        "polities": [
-          "后周"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-1128",
-        "canonical_name": "郭威",
-        "polities": [
-          "后周"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0815",
-        "canonical_name": "石敬瑭",
-        "polities": [
-          "后晋"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0819",
-        "canonical_name": "石重贵",
-        "polities": [
-          "后晋"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0084",
-        "canonical_name": "刘承祐",
-        "polities": [
-          "后汉"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0099",
-        "canonical_name": "刘知远",
-        "polities": [
-          "后汉"
-        ],
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
         "existing_skill_paths": []

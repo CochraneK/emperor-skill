@@ -5,21 +5,21 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 618,
+    "all_missing_core": 611,
     "p0_backbone_core_persons": 216,
-    "p0_backbone_complete": 209,
-    "p0_backbone_missing": 7,
-    "p0_backbone_completion_ratio": 0.9676,
+    "p0_backbone_complete": 216,
+    "p0_backbone_missing": 0,
+    "p0_backbone_completion_ratio": 1.0,
     "p1_post_qin_anchor_candidate_pool": 207,
     "p2_remaining_post_qin_core_pool": 207,
     "p3_early_and_preqin_missing_core": 404,
     "mapping_issues": 0,
-    "current_focus_lane": "后晋",
-    "current_focus_missing": 2
+    "current_focus_lane": null,
+    "current_focus_missing": 0
   },
   "p0_backbone": {
     "rule": "Work chronologically. Finish every currently locked-CORE missing ruler in the current backbone lane before advancing to the next lane. Short reigns remain included when they are CORE. REVIEW claimants do not block the lane.",
-    "current_focus_lane": "后晋",
+    "current_focus_lane": null,
     "lanes": [
       {
         "lane_order": 10,
@@ -1823,26 +1823,30 @@
         "source_file": "data/rulers-master-h7-five-ten.json",
         "source_polity_id": "later-jin",
         "core_sequence_total": 2,
-        "complete": 0,
-        "missing": 2,
+        "complete": 2,
+        "missing": 0,
         "noncore_primary_entries": 0,
-        "completion_ratio": 0.0,
+        "completion_ratio": 1.0,
         "persons": [
           {
             "succession_order": 1,
             "person_id": "ruler-0815",
             "canonical_name": "石敬瑭",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/shijingtang-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 2,
             "person_id": "ruler-0819",
             "canonical_name": "石重贵",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/shichonggui-perspective"
+            ],
+            "status": "COMPLETE"
           }
         ]
       },
@@ -1853,26 +1857,30 @@
         "source_file": "data/rulers-master-h7-five-ten.json",
         "source_polity_id": "later-han",
         "core_sequence_total": 2,
-        "complete": 0,
-        "missing": 2,
+        "complete": 2,
+        "missing": 0,
         "noncore_primary_entries": 0,
-        "completion_ratio": 0.0,
+        "completion_ratio": 1.0,
         "persons": [
           {
             "succession_order": 1,
             "person_id": "ruler-0099",
             "canonical_name": "刘知远",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/liuzhiyuan-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 2,
             "person_id": "ruler-0084",
             "canonical_name": "刘承祐",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/liuchengyou-perspective"
+            ],
+            "status": "COMPLETE"
           }
         ]
       },
@@ -1883,34 +1891,40 @@
         "source_file": "data/rulers-master-h7-five-ten.json",
         "source_polity_id": "later-zhou",
         "core_sequence_total": 3,
-        "complete": 0,
-        "missing": 3,
+        "complete": 3,
+        "missing": 0,
         "noncore_primary_entries": 0,
-        "completion_ratio": 0.0,
+        "completion_ratio": 1.0,
         "persons": [
           {
             "succession_order": 1,
             "person_id": "ruler-1128",
             "canonical_name": "郭威",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/guowei-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 2,
             "person_id": "ruler-0622",
             "canonical_name": "柴荣",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/chairong-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 3,
             "person_id": "ruler-0621",
             "canonical_name": "柴宗训",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/wudai/chaizongxun-perspective"
+            ],
+            "status": "COMPLETE"
           }
         ]
       },
@@ -2609,109 +2623,10 @@
         ]
       }
     ],
-    "queue": [
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 102,
-        "lane": "后晋",
-        "polity_name": "后晋",
-        "succession_order": 1,
-        "person_id": "ruler-0815",
-        "canonical_name": "石敬瑭",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 102,
-        "lane": "后晋",
-        "polity_name": "后晋",
-        "succession_order": 2,
-        "person_id": "ruler-0819",
-        "canonical_name": "石重贵",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 103,
-        "lane": "后汉",
-        "polity_name": "后汉",
-        "succession_order": 1,
-        "person_id": "ruler-0099",
-        "canonical_name": "刘知远",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 103,
-        "lane": "后汉",
-        "polity_name": "后汉",
-        "succession_order": 2,
-        "person_id": "ruler-0084",
-        "canonical_name": "刘承祐",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 104,
-        "lane": "后周",
-        "polity_name": "后周",
-        "succession_order": 1,
-        "person_id": "ruler-1128",
-        "canonical_name": "郭威",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 104,
-        "lane": "后周",
-        "polity_name": "后周",
-        "succession_order": 2,
-        "person_id": "ruler-0622",
-        "canonical_name": "柴荣",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 104,
-        "lane": "后周",
-        "polity_name": "后周",
-        "succession_order": 3,
-        "person_id": "ruler-0621",
-        "canonical_name": "柴宗训",
-        "source_files": [
-          "data/rulers-master-h7-five-ten.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
-      }
-    ]
+    "queue": []
   },
   "p1_high_leverage_anchors": {
-    "status": "LOCKED_UNTIL_P0_COMPLETE",
+    "status": "READY_FOR_ANCHOR_SCORING",
     "rule": "Only starts after P0 backbone has no locked-CORE missing rulers. Rank remaining post-Qin CORE by evidence readiness, structural coverage gain, comparative value, transition leverage, and future simulation/visualization value. Do not confuse leverage with moral or historical worth.",
     "candidate_pool": [
       {
