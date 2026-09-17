@@ -4,9 +4,9 @@
 
 **从历史证据到人物心智模型，再到模拟、分析与数据可视化。**
 
-`267 Perspective Skills · 17 dynasty directories · Nuwa Audit v2 · Simulation Lab`
+`267 Perspective Skills · 16 dynasty corpora · Nuwa Audit v2 · Simulation Lab`
 
-[打开项目面板](https://cochranek.github.io/emperor-skill/) · [质量审查正典](NUWA_AUDIT_V2.md) · [模拟说明](simulation/README.md)
+[打开项目面板](https://cochranek.github.io/emperor-skill/) · [质量审查正典](NUWA_AUDIT_V2.md) · [Corpus QA](assessment/CORPUS_QA.md) · [模拟说明](simulation/README.md)
 
 </div>
 
@@ -32,7 +32,7 @@ Visualization & Interactive Reports
 
 ## 当前 corpus
 
-当前同步盘点为 **267 个帝王 Skill 包**，覆盖 17 个朝代目录：
+当前同步盘点为 **267 个帝王 Skill 包**，覆盖 **16 个朝代 corpus 目录**（`skills/` 另有 `_audit` 非朝代目录）：
 
 | 朝代目录 | 数量 | 朝代目录 | 数量 |
 |---|---:|---|---:|
@@ -45,7 +45,9 @@ Visualization & Interactive Reports
 | 宋 `song` | 18 | 元 `yuan` | 15 |
 | 明 `ming` | 16 | 清 `qing` | 12 |
 
-> 数量是仓库当前快照，不是永久常量。新增人物后应由 registry / audit 数据更新页面与文档。
+主名单工程已经从“已有 Skill 盘点”扩展到**最大候选统治者 corpus**。当前自动化索引包含 **1,312 个候选人物**；其中锁定候选层的 CORE 为 **913**，已有 Skill 匹配 **265**，缺失 CORE **648**。另有 **365 REVIEW / 15 EXTENDED / 16 LEGENDARY**；这三类不会静默进入 CORE 分母。现有 **267 / 267** Skill 均已被 corpus 系统解释：266 个匹配统治者人物，1 个（太丁）作为明确 scope exception 保留证据包但不计入 ruler CORE。
+
+> `candidate_id` 目前仍是临时 ID；在 identity QA、规范名与 scope review 收口前不得把它当永久外键。最新机器状态见 `data/corpus-registry.json`、`data/corpus-identity-issues.json` 与 `data/corpus-work-queue.json`。
 
 ## Nuwa Audit v2
 
@@ -66,6 +68,19 @@ Visualization & Interactive Reports
 
 修复遵循最小充分原则：`KEEP / CLEAN / PATCH / REDISTILL / RESEARCH-GAP / RERESEARCH / REBUILD / REVIEW`。
 
+## Corpus construction
+
+最大主名单采用分段 master files + 确定性生成器维护。当前自动 QA 的核心约束是：**先解 identity/scope blocker，再冻结人物 ID；只对锁定 CORE 缺口进入 research → evidence synthesis → Nuwa distillation → audit。** REVIEW / EXTENDED / LEGENDARY 不批量偷渡进 CORE，也不能为了补数量从旧 Skill 反推 References。
+
+可重建入口：
+
+```bash
+python _redo_tools/_build_ruler_corpus.py
+python _redo_tools/_build_corpus_queue.py
+```
+
+生成状态见 [`assessment/CORPUS_COVERAGE.md`](assessment/CORPUS_COVERAGE.md) 与 [`assessment/CORPUS_QA.md`](assessment/CORPUS_QA.md)。
+
 ## Simulation Lab
 
 `simulation/` 是 Skill 之上的实验层。目前仓库已有 `by-dynasty/solo/` 报告、汇总页面和效度检验；后续会继续扩展 duel / coop / one-life 等模式。
@@ -74,7 +89,7 @@ Visualization & Interactive Reports
 - [Solo 汇总报告](simulation/by-dynasty/solo/solo-ranking.html)
 - [反转效度检验](simulation/validity/reversal-validity-report.html)
 
-这些 HTML 是生成产物；分析逻辑和数据源在 `simulation/_engine/`，不要把生成页面当作 canonical data source。
+这些 HTML 是生成产物；分析逻辑和数据源在 `simulation/_engine/`，不要把生成页面当作 canonical data source。现有 solo 是历史较早的子集实验，不代表当前 1,312 人主名单覆盖率。
 
 ## Visualization Layer
 
@@ -94,13 +109,14 @@ Visualization & Interactive Reports
 ```text
 emperor-skill/
 ├── skills/                 # 人物知识与 Skill 层
+├── data/                   # 最大统治者主名单、registry、QA 与结构化数据
 ├── simulation/             # 模拟引擎、数据与生成报告
-├── assessment/             # 人格测验方向（建设中）
+├── assessment/             # corpus QA、provenance recovery、未来 assessment
 ├── index.html              # GitHub Pages 分层项目面板
 ├── NUWA_AUDIT_V2.md        # 当前验收 / recovery 正典
 ├── AGENTS.md               # AI 协作者入口
 ├── HANDOFF.md              # 项目交接
-└── _redo_tools/            # provenance recovery / audit 工具；完成取证前谨慎清理
+└── _redo_tools/            # corpus build / provenance recovery / audit 工具
 ```
 
 ## 给 AI / agent 的原则
