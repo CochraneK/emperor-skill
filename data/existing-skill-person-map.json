@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 283,
+  "count": 288,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -1563,6 +1563,76 @@
       "en": "Yuan Ziyou",
       "era": "528–530",
       "frontmatter_name": "yuanziyou-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuwenchan-perspective",
+      "skill_file": "skills/nanbeichao/yuwenchan-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuwenchan-perspective",
+      "cn": "宇文阐",
+      "normalized_cn": "宇文阐",
+      "name_hints": [
+        "宇文阐"
+      ],
+      "en": "Yuwen Chan",
+      "era": null,
+      "frontmatter_name": "yuwenchan-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuwenjue-perspective",
+      "skill_file": "skills/nanbeichao/yuwenjue-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuwenjue-perspective",
+      "cn": "宇文觉",
+      "normalized_cn": "宇文觉",
+      "name_hints": [
+        "宇文觉"
+      ],
+      "en": "Yuwen Jue",
+      "era": null,
+      "frontmatter_name": "yuwenjue-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuwenyong-perspective",
+      "skill_file": "skills/nanbeichao/yuwenyong-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuwenyong-perspective",
+      "cn": "宇文邕",
+      "normalized_cn": "宇文邕",
+      "name_hints": [
+        "宇文邕"
+      ],
+      "en": "Yuwen Yong",
+      "era": null,
+      "frontmatter_name": "yuwenyong-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuwenyu-perspective",
+      "skill_file": "skills/nanbeichao/yuwenyu-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuwenyu-perspective",
+      "cn": "宇文毓",
+      "normalized_cn": "宇文毓",
+      "name_hints": [
+        "宇文毓"
+      ],
+      "en": "Yuwen Yu",
+      "era": null,
+      "frontmatter_name": "yuwenyu-perspective"
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuwenyun-perspective",
+      "skill_file": "skills/nanbeichao/yuwenyun-perspective/SKILL.md",
+      "dynasty_dir": "nanbeichao",
+      "package_slug": "yuwenyun-perspective",
+      "cn": "宇文赟",
+      "normalized_cn": "宇文赟",
+      "name_hints": [
+        "宇文赟"
+      ],
+      "en": "Yuwen Yun",
+      "era": null,
+      "frontmatter_name": "yuwenyun-perspective"
     },
     {
       "skill_path": "skills/qin/ershi-perspective",

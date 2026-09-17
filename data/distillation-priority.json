@@ -5,21 +5,21 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 632,
+    "all_missing_core": 627,
     "p0_backbone_core_persons": 216,
-    "p0_backbone_complete": 195,
-    "p0_backbone_missing": 21,
-    "p0_backbone_completion_ratio": 0.9028,
+    "p0_backbone_complete": 200,
+    "p0_backbone_missing": 16,
+    "p0_backbone_completion_ratio": 0.9259,
     "p1_post_qin_anchor_candidate_pool": 207,
     "p2_remaining_post_qin_core_pool": 207,
     "p3_early_and_preqin_missing_core": 404,
     "mapping_issues": 0,
-    "current_focus_lane": "北周",
-    "current_focus_missing": 5
+    "current_focus_lane": "隋",
+    "current_focus_missing": 1
   },
   "p0_backbone": {
     "rule": "Work chronologically. Finish every currently locked-CORE missing ruler in the current backbone lane before advancing to the next lane. Short reigns remain included when they are CORE. REVIEW claimants do not block the lane.",
-    "current_focus_lane": "北周",
+    "current_focus_lane": "隋",
     "lanes": [
       {
         "lane_order": 10,
@@ -1366,50 +1366,60 @@
         "source_file": "data/rulers-master-h6-north-south-sui-tang.json",
         "source_polity_id": "northern-zhou",
         "core_sequence_total": 5,
-        "complete": 0,
-        "missing": 5,
+        "complete": 5,
+        "missing": 0,
         "noncore_primary_entries": 0,
-        "completion_ratio": 0.0,
+        "completion_ratio": 1.0,
         "persons": [
           {
             "succession_order": 1,
             "person_id": "ruler-0244",
             "canonical_name": "宇文觉",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/yuwenjue-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 2,
             "person_id": "ruler-0243",
             "canonical_name": "宇文毓",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/yuwenyu-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 3,
             "person_id": "ruler-0246",
             "canonical_name": "宇文邕",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/yuwenyong-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 4,
             "person_id": "ruler-0245",
             "canonical_name": "宇文赟",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/yuwenyun-perspective"
+            ],
+            "status": "COMPLETE"
           },
           {
             "succession_order": 5,
             "person_id": "ruler-0247",
             "canonical_name": "宇文阐",
             "corpus_status": "CORE",
-            "matched_skill_paths": [],
-            "status": "MISSING"
+            "matched_skill_paths": [
+              "skills/nanbeichao/yuwenchan-perspective"
+            ],
+            "status": "COMPLETE"
           }
         ]
       },
@@ -2584,76 +2594,6 @@
     "queue": [
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 78,
-        "lane": "北周",
-        "polity_name": "北周",
-        "succession_order": 1,
-        "person_id": "ruler-0244",
-        "canonical_name": "宇文觉",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 78,
-        "lane": "北周",
-        "polity_name": "北周",
-        "succession_order": 2,
-        "person_id": "ruler-0243",
-        "canonical_name": "宇文毓",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 78,
-        "lane": "北周",
-        "polity_name": "北周",
-        "succession_order": 3,
-        "person_id": "ruler-0246",
-        "canonical_name": "宇文邕",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 78,
-        "lane": "北周",
-        "polity_name": "北周",
-        "succession_order": 4,
-        "person_id": "ruler-0245",
-        "canonical_name": "宇文赟",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
-        "backbone_lane_order": 78,
-        "lane": "北周",
-        "polity_name": "北周",
-        "succession_order": 5,
-        "person_id": "ruler-0247",
-        "canonical_name": "宇文阐",
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "ACTIVE_NOW"
-      },
-      {
-        "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",
         "backbone_lane_order": 80,
         "lane": "隋",
         "polity_name": "隋",
@@ -2664,7 +2604,7 @@
           "data/rulers-master-h6-north-south-sui-tang.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
-        "execution_state": "WAIT_FOR_PRIOR_BACKBONE_LANES"
+        "execution_state": "ACTIVE_NOW"
       },
       {
         "phase": "P0_DYNASTIC_BACKBONE_FULL_CHAIN",

@@ -8,80 +8,20 @@
     "priority_meaning": "Queue letters describe engineering sequence, not historical importance or value ranking."
   },
   "summary": {
-    "A_CORE_MAJOR_SEQUENCE_MISSING": 55,
+    "A_CORE_MAJOR_SEQUENCE_MISSING": 50,
     "B_CORE_PARALLEL_POLITY_MISSING": 173,
     "D_CORE_EARLY_OR_PREQIN_MISSING": 404,
     "Q1_SCOPE_OR_IDENTITY_REVIEW": 365,
     "Q2_EXTENDED_REVIEW": 0,
     "Q3_LEGENDARY_LIMITED_EVIDENCE": 0,
     "Q4_OTHER_REVIEW": 0,
-    "missing_core_total": 632,
+    "missing_core_total": 627,
     "review_total": 365,
     "existing_skill_unresolved": 0,
     "identity_blockers": 0
   },
   "queues": {
     "A_CORE_MAJOR_SEQUENCE_MISSING": [
-      {
-        "candidate_id": "ruler-0243",
-        "canonical_name": "宇文毓",
-        "polities": [
-          "北周"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0244",
-        "canonical_name": "宇文觉",
-        "polities": [
-          "北周"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0245",
-        "canonical_name": "宇文赟",
-        "polities": [
-          "北周"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0246",
-        "canonical_name": "宇文邕",
-        "polities": [
-          "北周"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0247",
-        "canonical_name": "宇文阐",
-        "polities": [
-          "北周"
-        ],
-        "source_files": [
-          "data/rulers-master-h6-north-south-sui-tang.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
       {
         "candidate_id": "ruler-0938",
         "canonical_name": "萧纪",
