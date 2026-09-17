@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
   "count": 267,
   "missing_cn_count": 0,
@@ -43,7 +43,8 @@
       "normalized_cn": "刘祜",
       "name_hints": [
         "刘祜",
-        "安帝"
+        "安帝",
+        "汉安帝"
       ],
       "en": "Liu Hu",
       "era": "106–125",
@@ -58,7 +59,8 @@
       "normalized_cn": "刘炳",
       "name_hints": [
         "冲帝",
-        "刘炳"
+        "刘炳",
+        "汉冲帝"
       ],
       "en": "Liu Bing",
       "era": "144–145",
@@ -72,7 +74,6 @@
       "cn": "刘秀",
       "normalized_cn": "刘秀",
       "name_hints": [
-        "光武帝",
         "刘秀"
       ],
       "en": "Liu Xiu",
@@ -88,7 +89,8 @@
       "normalized_cn": "刘肇",
       "name_hints": [
         "刘肇",
-        "和帝"
+        "和帝",
+        "汉和帝"
       ],
       "en": "Liu Zhao",
       "era": "88–105",
@@ -103,7 +105,8 @@
       "normalized_cn": "刘志",
       "name_hints": [
         "刘志",
-        "桓帝"
+        "桓帝",
+        "汉桓帝"
       ],
       "en": "Liu Zhi",
       "era": "146–168",
@@ -118,6 +121,7 @@
       "normalized_cn": "刘宏",
       "name_hints": [
         "刘宏",
+        "汉灵帝",
         "灵帝"
       ],
       "en": "Liu Hong",
@@ -133,7 +137,8 @@
       "normalized_cn": "刘庄",
       "name_hints": [
         "刘庄",
-        "明帝"
+        "明帝",
+        "汉明帝"
       ],
       "en": "Liu Zhuang",
       "era": "57–75",
@@ -148,7 +153,8 @@
       "normalized_cn": "刘隆",
       "name_hints": [
         "刘隆",
-        "殇帝"
+        "殇帝",
+        "汉殇帝"
       ],
       "en": "Liu Long",
       "era": "105–106",
@@ -163,7 +169,8 @@
       "normalized_cn": "刘辩",
       "name_hints": [
         "刘辩",
-        "少帝"
+        "少帝",
+        "汉少帝"
       ],
       "en": "Liu Bian",
       "era": "189",
@@ -178,6 +185,7 @@
       "normalized_cn": "刘保",
       "name_hints": [
         "刘保",
+        "汉顺帝",
         "顺帝"
       ],
       "en": "Liu Bao",
@@ -193,6 +201,7 @@
       "normalized_cn": "刘协",
       "name_hints": [
         "刘协",
+        "汉献帝",
         "献帝"
       ],
       "en": "Liu Xie",
@@ -208,6 +217,7 @@
       "normalized_cn": "刘炟",
       "name_hints": [
         "刘炟",
+        "汉章帝",
         "章帝"
       ],
       "en": "Liu Da",
@@ -223,6 +233,7 @@
       "normalized_cn": "刘缵",
       "name_hints": [
         "刘缵",
+        "汉质帝",
         "质帝"
       ],
       "en": "Liu Zuan",
@@ -238,7 +249,8 @@
       "normalized_cn": "司马炽",
       "name_hints": [
         "司马炽",
-        "怀帝"
+        "怀帝",
+        "晋怀帝"
       ],
       "en": "Sima Chi",
       "era": "307–313",
@@ -254,6 +266,7 @@
       "name_hints": [
         "东晋",
         "司马聃",
+        "晋穆帝",
         "穆帝"
       ],
       "en": "Sima Dan",
@@ -269,7 +282,8 @@
       "normalized_cn": "司马德文",
       "name_hints": [
         "司马德文",
-        "恭帝"
+        "恭帝",
+        "晋恭帝"
       ],
       "en": "Sima Dewen",
       "era": "418–420",
@@ -284,7 +298,8 @@
       "normalized_cn": "司马德宗",
       "name_hints": [
         "司马德宗",
-        "安帝"
+        "安帝",
+        "晋安帝"
       ],
       "en": "Sima Dezong",
       "era": "396–418",
@@ -300,7 +315,8 @@
       "name_hints": [
         "东晋",
         "司马丕",
-        "哀帝"
+        "哀帝",
+        "晋哀帝"
       ],
       "en": "Sima Pi",
       "era": "361–365",
@@ -315,7 +331,8 @@
       "normalized_cn": "司马睿",
       "name_hints": [
         "元帝",
-        "司马睿"
+        "司马睿",
+        "晋元帝"
       ],
       "en": "Sima Rui",
       "era": "317–323",
@@ -330,7 +347,8 @@
       "normalized_cn": "司马绍",
       "name_hints": [
         "司马绍",
-        "明帝"
+        "明帝",
+        "晋明帝"
       ],
       "en": "Sima Shao",
       "era": "323–325",
@@ -345,6 +363,7 @@
       "normalized_cn": "司马炎",
       "name_hints": [
         "司马炎",
+        "晋武帝",
         "武帝"
       ],
       "en": "Sima Yan",
@@ -360,7 +379,8 @@
       "normalized_cn": "司马衍",
       "name_hints": [
         "司马衍",
-        "成帝"
+        "成帝",
+        "晋成帝"
       ],
       "en": "Sima Yan (Chengdi)",
       "era": "325–342",
@@ -375,7 +395,8 @@
       "normalized_cn": "司马曜",
       "name_hints": [
         "司马曜",
-        "孝武帝"
+        "孝武帝",
+        "晋孝武帝"
       ],
       "en": "Sima Yao",
       "era": "372–396",
@@ -390,7 +411,8 @@
       "normalized_cn": "司马邺",
       "name_hints": [
         "司马邺",
-        "愍帝"
+        "愍帝",
+        "晋愍帝"
       ],
       "en": "Sima Ye",
       "era": "313–316",
@@ -406,7 +428,9 @@
       "name_hints": [
         "司马奕",
         "废帝",
-        "废帝/海西公"
+        "废帝/海西公",
+        "晋废帝",
+        "晋废帝/海西公"
       ],
       "en": "Sima Yi",
       "era": "365–371",
@@ -421,6 +445,7 @@
       "normalized_cn": "司马昱",
       "name_hints": [
         "司马昱",
+        "晋简文帝",
         "简文帝"
       ],
       "en": "Sima Yi",
@@ -437,7 +462,8 @@
       "name_hints": [
         "东晋",
         "司马岳",
-        "康帝"
+        "康帝",
+        "晋康帝"
       ],
       "en": "Sima Yue",
       "era": "342–344",
@@ -452,7 +478,8 @@
       "normalized_cn": "司马衷",
       "name_hints": [
         "司马衷",
-        "惠帝"
+        "惠帝",
+        "晋惠帝"
       ],
       "en": "Sima Zhong",
       "era": "290–307",
@@ -467,6 +494,7 @@
       "normalized_cn": "朱常洛",
       "name_hints": [
         "光宗",
+        "明光宗",
         "朱常洛"
       ],
       "en": "Zhu Changluo",
@@ -482,6 +510,7 @@
       "normalized_cn": "朱棣",
       "name_hints": [
         "成祖",
+        "明成祖",
         "朱棣"
       ],
       "en": "Zhu Di",
@@ -496,7 +525,6 @@
       "cn": "朱高炽",
       "normalized_cn": "朱高炽",
       "name_hints": [
-        "仁宗/洪熙",
         "明仁宗/洪熙",
         "朱高炽"
       ],
@@ -512,7 +540,6 @@
       "cn": "朱厚熜",
       "normalized_cn": "朱厚熜",
       "name_hints": [
-        "世宗/嘉靖1522–1567",
         "明世宗/嘉靖1522–1567",
         "朱厚熜"
       ],
@@ -528,6 +555,7 @@
       "cn": "朱厚照",
       "normalized_cn": "朱厚照",
       "name_hints": [
+        "明武宗",
         "朱厚照",
         "武宗"
       ],
@@ -543,7 +571,6 @@
       "cn": "朱见深",
       "normalized_cn": "朱见深",
       "name_hints": [
-        "宪宗/成化",
         "明宪宗/成化",
         "朱见深"
       ],
@@ -560,6 +587,7 @@
       "normalized_cn": "朱祁钰",
       "name_hints": [
         "代宗",
+        "明代宗",
         "朱祁钰"
       ],
       "en": "Zhu Qiyu",
@@ -574,6 +602,7 @@
       "cn": "朱祁镇",
       "normalized_cn": "朱祁镇",
       "name_hints": [
+        "明英宗",
         "朱祁镇",
         "英宗"
       ],
@@ -620,6 +649,7 @@
       "normalized_cn": "朱祐樘",
       "name_hints": [
         "孝宗",
+        "明孝宗",
         "朱祐樘"
       ],
       "en": "Zhu Youcheng",
@@ -650,6 +680,7 @@
       "normalized_cn": "朱元璋",
       "name_hints": [
         "太祖",
+        "明太祖",
         "朱元璋"
       ],
       "en": "Zhu Yuanzhang",
@@ -679,6 +710,7 @@
       "cn": "朱载垕",
       "normalized_cn": "朱载垕",
       "name_hints": [
+        "明穆宗",
         "朱载垕",
         "穆宗"
       ],
@@ -695,6 +727,7 @@
       "normalized_cn": "朱瞻基",
       "name_hints": [
         "宣宗",
+        "明宣宗",
         "朱瞻基"
       ],
       "en": "Zhu Zhanji",
@@ -722,11 +755,12 @@
       "dynasty_dir": "nanbeichao",
       "package_slug": "chenbozong-perspective",
       "cn": "陈伯宗（南陈废帝）",
-      "normalized_cn": "伯宗",
+      "normalized_cn": "陈伯宗",
       "name_hints": [
         "伯宗",
         "南陈废帝",
-        "南陈废帝/临海王"
+        "南陈废帝/临海王",
+        "陈伯宗"
       ],
       "en": "Chen Bozong",
       "era": "566–568",
@@ -787,7 +821,8 @@
       "name_hints": [
         "刘骏",
         "南朝宋",
-        "孝武帝"
+        "孝武帝",
+        "宋孝武帝"
       ],
       "en": "Liu Jun",
       "era": "453–464",
@@ -801,7 +836,6 @@
       "cn": "刘劭（宋元凶）",
       "normalized_cn": "刘劭",
       "name_hints": [
-        "元凶/太子",
         "刘劭",
         "宋元凶",
         "宋元凶/太子"
@@ -820,6 +854,7 @@
       "name_hints": [
         "刘义符",
         "南朝宋",
+        "宋少帝",
         "少帝"
       ],
       "en": "Liu Yifu",
@@ -835,6 +870,7 @@
       "normalized_cn": "刘义隆",
       "name_hints": [
         "刘义隆",
+        "宋文帝",
         "文帝"
       ],
       "en": "Liu Yilong",
@@ -851,7 +887,8 @@
       "name_hints": [
         "刘昱",
         "南朝宋",
-        "后废帝/苍梧王"
+        "后废帝/苍梧王",
+        "宋后废帝/苍梧王"
       ],
       "en": "Liu Yu (Cangwu Wang)",
       "era": "473–477",
@@ -866,6 +903,7 @@
       "normalized_cn": "刘彧",
       "name_hints": [
         "刘彧",
+        "宋明帝",
         "明帝"
       ],
       "en": "Liu Yu (Emperor Ming of Song)",
@@ -882,6 +920,7 @@
       "name_hints": [
         "刘裕",
         "南朝宋武帝",
+        "宋武帝",
         "武帝"
       ],
       "en": "Liu Yu",
@@ -898,7 +937,8 @@
       "name_hints": [
         "刘子业",
         "前废帝",
-        "南朝宋"
+        "南朝宋",
+        "宋前废帝"
       ],
       "en": "Liu Ziye",
       "era": "464–466",
@@ -912,6 +952,7 @@
       "cn": "拓跋珪（北魏道武帝）",
       "normalized_cn": "拓跋珪",
       "name_hints": [
+        "北魏道武帝",
         "拓跋珪",
         "道武帝"
       ],
@@ -927,6 +968,7 @@
       "cn": "拓跋弘（北魏献文帝）",
       "normalized_cn": "拓跋弘",
       "name_hints": [
+        "北魏献文帝",
         "拓跋弘",
         "献文帝"
       ],
@@ -942,6 +984,8 @@
       "cn": "拓跋濬（北魏文成帝）",
       "normalized_cn": "拓跋濬",
       "name_hints": [
+        "北魏文成帝",
+        "北魏高宗",
         "拓跋濬",
         "文成帝",
         "高宗"
@@ -958,7 +1002,7 @@
       "cn": "拓跋嗣（北魏明元帝）",
       "normalized_cn": "拓跋嗣",
       "name_hints": [
-        "元帝",
+        "北魏明元帝",
         "拓跋嗣",
         "明元帝"
       ],
@@ -974,6 +1018,7 @@
       "cn": "拓跋焘（北魏太武帝）",
       "normalized_cn": "拓跋焘",
       "name_hints": [
+        "北魏太武帝",
         "太武帝",
         "拓跋焘"
       ],
@@ -989,6 +1034,7 @@
       "cn": "拓跋余（北魏南安王）",
       "normalized_cn": "拓跋余",
       "name_hints": [
+        "北魏南安王",
         "南安王",
         "拓跋余"
       ],
@@ -1005,6 +1051,7 @@
       "normalized_cn": "萧宝卷",
       "name_hints": [
         "东昏侯",
+        "南齐东昏侯",
         "萧宝卷"
       ],
       "en": "Xiao Baojuan",
@@ -1019,6 +1066,7 @@
       "cn": "萧宝融（南齐和帝）",
       "normalized_cn": "萧宝融",
       "name_hints": [
+        "南齐和帝",
         "和帝",
         "萧宝融"
       ],
@@ -1034,6 +1082,7 @@
       "cn": "萧道成（南齐高帝）",
       "normalized_cn": "萧道成",
       "name_hints": [
+        "南齐高帝",
         "萧道成",
         "高帝"
       ],
@@ -1094,6 +1143,7 @@
       "cn": "萧鸾（南齐明帝）",
       "normalized_cn": "萧鸾",
       "name_hints": [
+        "南齐明帝",
         "明帝",
         "萧鸾"
       ],
@@ -1139,6 +1189,7 @@
       "cn": "萧昭文（南齐海陵王）",
       "normalized_cn": "萧昭文",
       "name_hints": [
+        "南齐海陵王",
         "海陵王",
         "萧昭文"
       ],
@@ -1154,6 +1205,7 @@
       "cn": "萧昭业（南齐郁林王）",
       "normalized_cn": "萧昭业",
       "name_hints": [
+        "南齐郁林王",
         "萧昭业",
         "郁林王"
       ],
@@ -1169,6 +1221,7 @@
       "cn": "萧赜（南齐武帝）",
       "normalized_cn": "萧赜",
       "name_hints": [
+        "南齐武帝",
         "武帝",
         "萧赜"
       ],
@@ -1200,6 +1253,7 @@
       "normalized_cn": "元恭",
       "name_hints": [
         "元恭",
+        "北魏节闵帝/前废帝",
         "节闵帝/前废帝"
       ],
       "en": "Yuan Gong",
@@ -1215,6 +1269,7 @@
       "normalized_cn": "元宏",
       "name_hints": [
         "元宏",
+        "北魏孝文帝",
         "孝文帝"
       ],
       "en": "Yuan Hong",
@@ -1230,6 +1285,7 @@
       "normalized_cn": "元恪",
       "name_hints": [
         "元恪",
+        "北魏宣武帝",
         "宣武帝"
       ],
       "en": "Yuan Ke",
@@ -1245,6 +1301,7 @@
       "normalized_cn": "元诩",
       "name_hints": [
         "元诩",
+        "北魏孝明帝",
         "孝明帝"
       ],
       "en": "Yuan Xu",
@@ -1260,6 +1317,7 @@
       "normalized_cn": "元晔",
       "name_hints": [
         "元晔",
+        "北魏长广王",
         "长广王"
       ],
       "en": "Yuan Ye",
@@ -1275,6 +1333,7 @@
       "normalized_cn": "元子攸",
       "name_hints": [
         "元子攸",
+        "北魏孝庄帝",
         "孝庄帝"
       ],
       "en": "Yuan Ziyou",
@@ -1305,7 +1364,6 @@
       "cn": "嬴政",
       "normalized_cn": "嬴政",
       "name_hints": [
-        "始皇",
         "嬴政"
       ],
       "en": "Shihuang",
@@ -1321,7 +1379,6 @@
       "normalized_cn": "子婴",
       "name_hints": [
         "子婴",
-        "王子婴",
         "秦王子婴"
       ],
       "en": "Ziying",
@@ -1337,6 +1394,7 @@
       "normalized_cn": "福临",
       "name_hints": [
         "世祖",
+        "清世祖",
         "福临"
       ],
       "en": "Fulin (Shunzhi)",
@@ -1352,6 +1410,7 @@
       "normalized_cn": "弘历",
       "name_hints": [
         "弘历",
+        "清高宗",
         "高宗"
       ],
       "en": "Hongli (Qianlong)",
@@ -1367,6 +1426,7 @@
       "normalized_cn": "皇太极",
       "name_hints": [
         "太宗",
+        "清太宗",
         "皇太极"
       ],
       "en": "Hong Taiji",
@@ -1382,7 +1442,8 @@
       "normalized_cn": "旻宁",
       "name_hints": [
         "宣宗",
-        "旻宁"
+        "旻宁",
+        "清宣宗"
       ],
       "en": "Minning (Daoguang)",
       "era": "1782–1850",
@@ -1397,7 +1458,8 @@
       "normalized_cn": "努尔哈赤",
       "name_hints": [
         "努尔哈赤",
-        "太祖"
+        "太祖",
+        "清太祖"
       ],
       "en": "Nurhaci",
       "era": "1559–1626",
@@ -1427,6 +1489,7 @@
       "normalized_cn": "玄烨",
       "name_hints": [
         "圣祖",
+        "清圣祖",
         "玄烨"
       ],
       "en": "Xuanye (Kangxi)",
@@ -1442,6 +1505,7 @@
       "normalized_cn": "胤禛",
       "name_hints": [
         "世宗",
+        "清世宗",
         "胤禛"
       ],
       "en": "Yinzhen (Yongzheng)",
@@ -1457,7 +1521,8 @@
       "normalized_cn": "奕詝",
       "name_hints": [
         "奕詝",
-        "文宗"
+        "文宗",
+        "清文宗"
       ],
       "en": "Yizhu (Xianfeng)",
       "era": "1831–1861",
@@ -1472,6 +1537,7 @@
       "normalized_cn": "颙琰",
       "name_hints": [
         "仁宗",
+        "清仁宗",
         "颙琰"
       ],
       "en": "Yongyan (Jiaqing)",
@@ -1486,6 +1552,7 @@
       "cn": "载淳",
       "normalized_cn": "载淳",
       "name_hints": [
+        "清穆宗",
         "穆宗",
         "载淳"
       ],
@@ -1562,7 +1629,8 @@
       "normalized_cn": "曹丕",
       "name_hints": [
         "文帝",
-        "曹丕"
+        "曹丕",
+        "魏文帝"
       ],
       "en": "Cao Pi",
       "era": "220–226（魏文帝在位，220 代汉称帝）",
@@ -1621,6 +1689,7 @@
       "cn": "孙皓",
       "normalized_cn": "孙皓",
       "name_hints": [
+        "吴末帝/归命侯",
         "孙皓",
         "末帝/归命侯"
       ],
@@ -1636,6 +1705,7 @@
       "cn": "孙亮",
       "normalized_cn": "孙亮",
       "name_hints": [
+        "吴废帝/会稽王",
         "孙亮",
         "废帝/会稽王"
       ],
@@ -1651,6 +1721,7 @@
       "cn": "孙权",
       "normalized_cn": "孙权",
       "name_hints": [
+        "吴大帝",
         "大帝",
         "孙权"
       ],
@@ -1983,8 +2054,7 @@
       "normalized_cn": "小辛",
       "name_hints": [
         "商王小辛",
-        "小辛",
-        "王小辛"
+        "小辛"
       ],
       "en": "Xiaoxin",
       "era": "约前1287–约前1267",
@@ -2148,6 +2218,7 @@
       "cn": "赵昺",
       "normalized_cn": "赵昺",
       "name_hints": [
+        "宋末帝",
         "末帝",
         "赵昺"
       ],
@@ -2164,6 +2235,7 @@
       "normalized_cn": "赵惇",
       "name_hints": [
         "光宗",
+        "宋光宗",
         "赵惇"
       ],
       "en": "Zhao Dun",
@@ -2178,6 +2250,7 @@
       "cn": "赵构",
       "normalized_cn": "赵构",
       "name_hints": [
+        "宋高宗",
         "赵构",
         "高宗"
       ],
@@ -2194,6 +2267,7 @@
       "normalized_cn": "赵光义",
       "name_hints": [
         "太宗",
+        "宋太宗",
         "赵光义",
         "赵炅"
       ],
@@ -2209,6 +2283,7 @@
       "cn": "赵恒",
       "normalized_cn": "赵恒",
       "name_hints": [
+        "宋真宗",
         "真宗",
         "赵恒"
       ],
@@ -2224,6 +2299,7 @@
       "cn": "赵桓",
       "normalized_cn": "赵桓",
       "name_hints": [
+        "宋钦宗",
         "赵桓",
         "钦宗"
       ],
@@ -2239,6 +2315,7 @@
       "cn": "赵佶",
       "normalized_cn": "赵佶",
       "name_hints": [
+        "宋徽宗",
         "徽宗",
         "赵佶"
       ],
@@ -2255,6 +2332,7 @@
       "normalized_cn": "赵匡胤",
       "name_hints": [
         "太祖",
+        "宋太祖",
         "赵匡胤"
       ],
       "en": "Zhao Kuangyin",
@@ -2270,6 +2348,7 @@
       "normalized_cn": "赵扩",
       "name_hints": [
         "宁宗",
+        "宋宁宗",
         "赵扩"
       ],
       "en": "Zhao Kuo",
@@ -2284,6 +2363,7 @@
       "cn": "赵禥",
       "normalized_cn": "赵禥",
       "name_hints": [
+        "宋度宗",
         "度宗",
         "赵禥"
       ],
@@ -2300,6 +2380,7 @@
       "normalized_cn": "赵昚",
       "name_hints": [
         "孝宗",
+        "宋孝宗",
         "赵昚"
       ],
       "en": "Zhao Shen",
@@ -2314,6 +2395,7 @@
       "cn": "赵昰",
       "normalized_cn": "赵昰",
       "name_hints": [
+        "宋端宗",
         "端宗",
         "赵昰"
       ],
@@ -2329,6 +2411,7 @@
       "cn": "赵曙",
       "normalized_cn": "赵曙",
       "name_hints": [
+        "宋英宗",
         "英宗",
         "赵曙"
       ],
@@ -2344,6 +2427,7 @@
       "cn": "赵㬎",
       "normalized_cn": "赵㬎",
       "name_hints": [
+        "宋恭帝",
         "恭帝",
         "赵㬎"
       ],
@@ -2359,6 +2443,7 @@
       "cn": "赵顼",
       "normalized_cn": "赵顼",
       "name_hints": [
+        "宋神宗",
         "神宗",
         "赵顼"
       ],
@@ -2375,6 +2460,7 @@
       "normalized_cn": "赵煦",
       "name_hints": [
         "哲宗",
+        "宋哲宗",
         "赵煦"
       ],
       "en": "Zhao Xu",
@@ -2389,6 +2475,7 @@
       "cn": "赵昀",
       "normalized_cn": "赵昀",
       "name_hints": [
+        "宋理宗",
         "理宗",
         "赵昀"
       ],
@@ -2405,6 +2492,7 @@
       "normalized_cn": "赵祯",
       "name_hints": [
         "仁宗",
+        "宋仁宗",
         "赵祯"
       ],
       "en": "Zhao Zhen",
@@ -2464,6 +2552,7 @@
       "cn": "李昂",
       "normalized_cn": "李昂",
       "name_hints": [
+        "唐文宗",
         "文宗",
         "李昂"
       ],
@@ -2479,6 +2568,7 @@
       "cn": "李忱",
       "normalized_cn": "李忱",
       "name_hints": [
+        "唐宣宗",
         "宣宗",
         "李忱"
       ],
@@ -2494,6 +2584,7 @@
       "cn": "李纯",
       "normalized_cn": "李纯",
       "name_hints": [
+        "唐宪宗",
         "宪宗",
         "李纯"
       ],
@@ -2509,6 +2600,7 @@
       "cn": "李漼",
       "normalized_cn": "李漼",
       "name_hints": [
+        "唐懿宗",
         "懿宗",
         "李漼"
       ],
@@ -2524,6 +2616,7 @@
       "cn": "李旦",
       "normalized_cn": "李旦",
       "name_hints": [
+        "唐睿宗",
         "李旦",
         "睿宗"
       ],
@@ -2539,6 +2632,7 @@
       "cn": "李恒",
       "normalized_cn": "李恒",
       "name_hints": [
+        "唐穆宗",
         "李恒",
         "穆宗"
       ],
@@ -2554,6 +2648,7 @@
       "cn": "李亨",
       "normalized_cn": "李亨",
       "name_hints": [
+        "唐肃宗",
         "李亨",
         "肃宗"
       ],
@@ -2569,6 +2664,7 @@
       "cn": "李隆基",
       "normalized_cn": "李隆基",
       "name_hints": [
+        "唐玄宗",
         "李隆基",
         "玄宗"
       ],
@@ -2584,6 +2680,7 @@
       "cn": "李适",
       "normalized_cn": "李适",
       "name_hints": [
+        "唐德宗",
         "德宗",
         "李适"
       ],
@@ -2599,7 +2696,6 @@
       "cn": "李世民",
       "normalized_cn": "李世民",
       "name_hints": [
-        "太宗",
         "李世民"
       ],
       "en": "Li Shimin",
@@ -2614,6 +2710,7 @@
       "cn": "李诵",
       "normalized_cn": "李诵",
       "name_hints": [
+        "唐顺宗",
         "李诵",
         "顺宗"
       ],
@@ -2630,6 +2727,7 @@
       "normalized_cn": "李显",
       "name_hints": [
         "中宗",
+        "唐中宗",
         "李显"
       ],
       "en": "Li Xian",
@@ -2645,6 +2743,7 @@
       "normalized_cn": "李儇",
       "name_hints": [
         "僖宗",
+        "唐僖宗",
         "李儇"
       ],
       "en": "Li Xuan",
@@ -2659,6 +2758,7 @@
       "cn": "李炎",
       "normalized_cn": "李炎",
       "name_hints": [
+        "唐武宗",
         "李炎",
         "武宗"
       ],
@@ -2674,6 +2774,7 @@
       "cn": "李晔",
       "normalized_cn": "李晔",
       "name_hints": [
+        "唐昭宗",
         "昭宗",
         "李晔"
       ],
@@ -2690,6 +2791,7 @@
       "normalized_cn": "李豫",
       "name_hints": [
         "代宗",
+        "唐代宗",
         "李豫"
       ],
       "en": "Li Yu",
@@ -2704,8 +2806,7 @@
       "cn": "李渊",
       "normalized_cn": "李渊",
       "name_hints": [
-        "李渊",
-        "高祖"
+        "李渊"
       ],
       "en": "Li Yuan",
       "era": "566–635",
@@ -2719,6 +2820,7 @@
       "cn": "李湛",
       "normalized_cn": "李湛",
       "name_hints": [
+        "唐敬宗",
         "敬宗",
         "李湛"
       ],
@@ -2734,6 +2836,7 @@
       "cn": "李治",
       "normalized_cn": "李治",
       "name_hints": [
+        "唐高宗",
         "李治",
         "高宗"
       ],
@@ -2750,6 +2853,7 @@
       "normalized_cn": "李柷",
       "name_hints": [
         "哀帝",
+        "唐哀帝",
         "李柷"
       ],
       "en": "Li Zhu",
@@ -3036,7 +3140,8 @@
       "normalized_cn": "刘骜",
       "name_hints": [
         "刘骜",
-        "成帝"
+        "成帝",
+        "汉成帝"
       ],
       "en": "Liu Ao",
       "era": "前33–前7（成帝在位）",
@@ -3050,8 +3155,7 @@
       "cn": "刘邦",
       "normalized_cn": "刘邦",
       "name_hints": [
-        "刘邦",
-        "高祖"
+        "刘邦"
       ],
       "en": "Liu Bang",
       "era": "前202–前195",
@@ -3081,7 +3185,8 @@
       "normalized_cn": "刘弗陵",
       "name_hints": [
         "刘弗陵",
-        "昭帝"
+        "昭帝",
+        "汉昭帝"
       ],
       "en": "Liu Fuling",
       "era": "前87–前74（昭帝在位）",
@@ -3126,7 +3231,8 @@
       "normalized_cn": "刘恒",
       "name_hints": [
         "刘恒",
-        "文帝"
+        "文帝",
+        "汉文帝"
       ],
       "en": "Liu Heng",
       "era": "前180–前157（文帝在位）",
@@ -3156,7 +3262,8 @@
       "normalized_cn": "刘衎",
       "name_hints": [
         "刘衎",
-        "平帝"
+        "平帝",
+        "汉平帝"
       ],
       "en": "Liu Kan",
       "era": "前1–公元6（平帝在位，9岁即位）",
@@ -3171,7 +3278,8 @@
       "normalized_cn": "刘启",
       "name_hints": [
         "刘启",
-        "景帝"
+        "景帝",
+        "汉景帝"
       ],
       "en": "Liu Qi",
       "era": "前157–前141（景帝在位）",
@@ -3186,7 +3294,8 @@
       "normalized_cn": "刘奭",
       "name_hints": [
         "元帝",
-        "刘奭"
+        "刘奭",
+        "汉元帝"
       ],
       "en": "Liu Shi",
       "era": "前48–前33（元帝在位）",
@@ -3201,7 +3310,8 @@
       "normalized_cn": "刘欣",
       "name_hints": [
         "刘欣",
-        "哀帝"
+        "哀帝",
+        "汉哀帝"
       ],
       "en": "Liu Xin",
       "era": "前7–前1（哀帝在位）",
@@ -3216,7 +3326,8 @@
       "normalized_cn": "刘询",
       "name_hints": [
         "刘询",
-        "宣帝"
+        "宣帝",
+        "汉宣帝"
       ],
       "en": "Liu Xun",
       "era": "前74–前48",
@@ -3276,6 +3387,7 @@
       "normalized_cn": "爱育黎拔力八达",
       "name_hints": [
         "仁宗",
+        "元仁宗",
         "爱育黎拔力八达"
       ],
       "en": "Ayurbarwada",
@@ -3305,6 +3417,7 @@
       "cn": "海山",
       "normalized_cn": "海山",
       "name_hints": [
+        "元武宗",
         "武宗",
         "海山"
       ],
@@ -3337,6 +3450,7 @@
       "normalized_cn": "忽必烈",
       "name_hints": [
         "世祖",
+        "元世祖",
         "忽必烈"
       ],
       "en": "Kublai Khan",
@@ -3367,7 +3481,6 @@
       "normalized_cn": "窝阔台",
       "name_hints": [
         "元太宗为其后追尊之庙号",
-        "太宗为其后追尊之庙号",
         "窝阔台"
       ],
       "en": "Ögedei",
@@ -3382,6 +3495,7 @@
       "cn": "硕德八剌",
       "normalized_cn": "硕德八剌",
       "name_hints": [
+        "元英宗",
         "硕德八剌",
         "英宗"
       ],
@@ -3397,6 +3511,7 @@
       "cn": "铁穆耳",
       "normalized_cn": "铁穆耳",
       "name_hints": [
+        "元成宗",
         "成宗",
         "铁穆耳"
       ],
@@ -3427,6 +3542,7 @@
       "cn": "妥懽帖睦尔",
       "normalized_cn": "妥懽帖睦尔",
       "name_hints": [
+        "元顺帝",
         "妥懽帖睦尔",
         "顺帝"
       ],
@@ -3442,6 +3558,7 @@
       "cn": "图帖睦尔",
       "normalized_cn": "图帖睦尔",
       "name_hints": [
+        "元文宗",
         "图帖睦尔",
         "文宗"
       ],
@@ -3472,6 +3589,7 @@
       "cn": "懿璘质班",
       "normalized_cn": "懿璘质班",
       "name_hints": [
+        "元宁宗",
         "宁宗",
         "懿璘质班"
       ],
@@ -3487,6 +3605,7 @@
       "cn": "姬去疾",
       "normalized_cn": "姬去疾",
       "name_hints": [
+        "周哀王",
         "哀王",
         "姬去疾"
       ],
@@ -3502,6 +3621,7 @@
       "cn": "姬骄",
       "normalized_cn": "姬骄",
       "name_hints": [
+        "周安王",
         "姬骄",
         "安王"
       ],
@@ -3517,6 +3637,7 @@
       "cn": "姬诵",
       "normalized_cn": "姬诵",
       "name_hints": [
+        "周成王",
         "姬诵",
         "成王"
       ],
@@ -3532,6 +3653,7 @@
       "cn": "姬猛",
       "normalized_cn": "姬猛",
       "name_hints": [
+        "周悼王",
         "姬猛",
         "悼王"
       ],
@@ -3547,6 +3669,7 @@
       "cn": "姬瑜",
       "normalized_cn": "姬瑜",
       "name_hints": [
+        "周定王",
         "姬瑜",
         "定王"
       ],
@@ -3577,6 +3700,7 @@
       "cn": "姬林",
       "normalized_cn": "姬林",
       "name_hints": [
+        "周桓王",
         "姬林",
         "桓王"
       ],
@@ -3592,6 +3716,7 @@
       "cn": "姬阆",
       "normalized_cn": "姬阆",
       "name_hints": [
+        "周惠王",
         "姬阆",
         "惠王"
       ],
@@ -3607,6 +3732,7 @@
       "cn": "姬夷",
       "normalized_cn": "姬夷",
       "name_hints": [
+        "周简王",
         "姬夷",
         "简王"
       ],
@@ -3622,6 +3748,7 @@
       "cn": "姬贵",
       "normalized_cn": "姬贵",
       "name_hints": [
+        "周景王",
         "姬贵",
         "景王"
       ],
@@ -3637,6 +3764,7 @@
       "cn": "姬匄",
       "normalized_cn": "姬匄",
       "name_hints": [
+        "周敬王",
         "姬匄",
         "敬王"
       ],
@@ -3667,6 +3795,7 @@
       "cn": "姬嵬",
       "normalized_cn": "姬嵬",
       "name_hints": [
+        "周考王",
         "姬嵬",
         "考王"
       ],
@@ -3683,6 +3812,7 @@
       "normalized_cn": "姬班",
       "name_hints": [
         "匡王",
+        "周匡王",
         "姬班"
       ],
       "en": "Kuangwang",
@@ -3697,6 +3827,7 @@
       "cn": "姬喜",
       "normalized_cn": "姬喜",
       "name_hints": [
+        "周烈王",
         "姬喜",
         "烈王"
       ],
@@ -3712,6 +3843,7 @@
       "cn": "姬泄心",
       "normalized_cn": "姬泄心",
       "name_hints": [
+        "周灵王",
         "姬泄心",
         "灵王"
       ],
@@ -3728,6 +3860,7 @@
       "normalized_cn": "姬胡",
       "name_hints": [
         "厉王",
+        "周厉王",
         "姬胡"
       ],
       "en": "King Li of Zhou",
@@ -3757,6 +3890,7 @@
       "cn": "姬延",
       "normalized_cn": "姬延",
       "name_hints": [
+        "周赧王",
         "姬延",
         "赧王"
       ],
@@ -3772,6 +3906,7 @@
       "cn": "姬宜臼",
       "normalized_cn": "姬宜臼",
       "name_hints": [
+        "周平王",
         "姬宜臼",
         "平王"
       ],
@@ -3785,8 +3920,9 @@
       "dynasty_dir": "zhou",
       "package_slug": "qingwang-perspective",
       "cn": "周顷王",
-      "normalized_cn": "顷王",
+      "normalized_cn": "周顷王",
       "name_hints": [
+        "周顷王",
         "姬壬臣",
         "顷王"
       ],
@@ -3800,8 +3936,9 @@
       "dynasty_dir": "zhou",
       "package_slug": "shenjingwang-perspective",
       "cn": "周慎靓王",
-      "normalized_cn": "慎靓王",
+      "normalized_cn": "周慎靓王",
       "name_hints": [
+        "周慎靓王",
         "姬定",
         "慎靓王"
       ],
@@ -3817,6 +3954,7 @@
       "cn": "姬叔",
       "normalized_cn": "姬叔",
       "name_hints": [
+        "周思王",
         "姬叔",
         "思王"
       ],
@@ -3832,6 +3970,7 @@
       "cn": "姬午",
       "normalized_cn": "姬午",
       "name_hints": [
+        "周威烈王",
         "姬午",
         "威烈王"
       ],
@@ -3847,6 +3986,7 @@
       "cn": "姬发",
       "normalized_cn": "姬发",
       "name_hints": [
+        "周武王",
         "姬发",
         "武王"
       ],
@@ -3862,6 +4002,7 @@
       "cn": "姬郑",
       "normalized_cn": "姬郑",
       "name_hints": [
+        "周襄王",
         "姬郑",
         "襄王"
       ],
@@ -3877,6 +4018,7 @@
       "cn": "姬扁",
       "normalized_cn": "姬扁",
       "name_hints": [
+        "周显王",
         "姬扁",
         "显王"
       ],
@@ -3892,6 +4034,7 @@
       "cn": "姬辟方",
       "normalized_cn": "姬辟方",
       "name_hints": [
+        "周孝王",
         "姬辟方",
         "孝王"
       ],
@@ -3907,6 +4050,7 @@
       "cn": "姬胡齐",
       "normalized_cn": "姬胡齐",
       "name_hints": [
+        "周僖王",
         "姬胡齐",
         "釐王"
       ],
@@ -3922,6 +4066,7 @@
       "cn": "姬静",
       "normalized_cn": "姬静",
       "name_hints": [
+        "周宣王",
         "姬静",
         "宣王"
       ],
@@ -3937,6 +4082,7 @@
       "cn": "姬囏",
       "normalized_cn": "姬囏",
       "name_hints": [
+        "周懿王",
         "姬囏",
         "懿王"
       ],
@@ -3952,6 +4098,7 @@
       "cn": "姬燮",
       "normalized_cn": "姬燮",
       "name_hints": [
+        "周夷王",
         "夷王",
         "姬燮"
       ],
@@ -3967,6 +4114,7 @@
       "cn": "姬宫湦",
       "normalized_cn": "姬宫湦",
       "name_hints": [
+        "周幽王",
         "姬宫湦",
         "幽王"
       ],
@@ -3983,6 +4131,7 @@
       "normalized_cn": "姬仁",
       "name_hints": [
         "元王",
+        "周元王",
         "姬仁"
       ],
       "en": "Yuanwang",
@@ -3997,6 +4146,7 @@
       "cn": "姬瑕",
       "normalized_cn": "姬瑕",
       "name_hints": [
+        "周昭王",
         "姬瑕",
         "昭王"
       ],
@@ -4012,6 +4162,7 @@
       "cn": "姬介",
       "normalized_cn": "姬介",
       "name_hints": [
+        "周贞定王",
         "姬介",
         "贞定王"
       ],
@@ -4027,6 +4178,7 @@
       "cn": "姬佗",
       "normalized_cn": "姬佗",
       "name_hints": [
+        "周庄王",
         "姬佗",
         "庄王"
       ],

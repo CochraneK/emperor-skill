@@ -173,11 +173,11 @@
     "coverage_report": "assessment/CORPUS_COVERAGE.md",
     "gap_file": "data/corpus-gap.json",
     "scope_exceptions": "data/corpus-scope-exceptions.json",
-    "candidate_persons": 1237,
-    "locked_core_persons": 875,
+    "candidate_persons": 1312,
+    "locked_core_persons": 913,
     "matched_core_persons": 265,
-    "missing_core_persons": 610,
-    "review_persons": 328,
+    "missing_core_persons": 648,
+    "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
     "existing_skills": 267,
@@ -185,7 +185,7 @@
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
     "accounted_existing_skills": 267,
-    "core_coverage_ratio": 0.3029,
+    "core_coverage_ratio": 0.2903,
     "note": "Provisional until identity QA and remaining polity discovery close; REVIEW excluded from locked CORE."
   }
 }

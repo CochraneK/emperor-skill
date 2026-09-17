@@ -4,9 +4,9 @@
 
 ## Working denominator
 
-- Candidate persons: **1237**
-- Locked historical CORE: **875**
-- REVIEW: **328**
+- Candidate persons: **1312**
+- Locked historical CORE: **913**
+- REVIEW: **365**
 - EXTENDED: **15**
 - LEGENDARY: **16**
 
@@ -18,8 +18,8 @@
 - Accounted existing Skills: **267 / 267**
 - Still unresolved existing Skill identities: **0**
 - Matched CORE persons: **265**
-- Missing CORE persons: **610**
-- Working CORE coverage: **30.3%**
+- Missing CORE persons: **648**
+- Working CORE coverage: **29.0%**
 
 ## Interpretation
 
