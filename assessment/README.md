@@ -1,66 +1,77 @@
-# assessment · 人格测验（测完输出「你本人的帝王 Skill」）
+# assessment · Emperor Skill 分析与质量层
 
-基于全部 78 位帝王 Skill 与其历史事件，做一套人格测验：
-**测完输出 ① 用户本人的 `-perspective` Skill（含心智报告）② 最相似的帝王 ③ 若你穿越到历朝历代的结果。**
+`assessment/` 是 emperor-skill 的**分析 / 质量 / 比较层**，不是人物名单本身，也不再以早期“78 位帝王人格测验”作为 canonical 设计。
 
-```
-assessment/
-├── engine/        # 题库与计分引擎
-├── archetypes/    # 帝王人格原型向量（78 × 10 轴）
-└── reports/       # 样例报告（含「用户 Skill」样例）
-```
+当前 canonical 数据入口是：
 
-## 一、产出物
+- `../data/rulers-person-index.json`：当前人物索引；`candidate_id` 已兼容映射为稳定 `person_id`。
+- `../data/ruler-person-id-registry.json`：append-only 稳定人物 ID registry；新增人物追加 ID，既有 ID 不重排。
+- `../data/corpus-gap.json`：CORE coverage 与 Skill 对齐。
+- `../data/corpus-identity-issues.json`：identity / matching QA。
+- `../data/l3-semantic-review-queue.json`：Nuwa L3 语义相似度**审查信号**，不是自动质量裁决。
 
-| 产出 | 说明 |
+## 当前规模
+
+由生成数据维护，不应在手写文档里硬编码为固定历史总数。当前 snapshot：
+
+- Candidate persons: **1,312**
+- Locked CORE: **913**
+- Existing Skills: **267**
+- Matched CORE persons: **265**
+- Missing CORE persons: **648**
+- Existing Skills accounted: **267 / 267**（其中 1 个为明确 scope exception：太丁未即位）
+
+这些数字会随着小国枚举、REVIEW 处理和新 Skill 蒸馏继续变化；稳定的是 person ID 语义，不是 corpus 总量。
+
+## Nuwa QA 分层
+
+### L1 · Provenance / evidence lineage
+
+回答：这个 Skill 的研究底稿是否可追溯、来源类别是否正确、关键事实/引文能否回到证据。
+
+- `PROVENANCE_RECOVERY.md` 已完成历史 39-package mtime suspect 的语义分诊（39/39）。
+- mtime、KB、字数只能触发 REVIEW，不能独立证明 provenance 或质量。
+- 当前后续动作是逐包执行 `PATCH / TARGETED VERIFY → REDISTILL`，不是继续按 mtime 重新分类。
+
+### L2 · Structure / evidence discipline
+
+回答：研究维度、证据标注、诚实边界、工程结构是否存在明显机械缺口。
+
+`../_redo_tools/_audit_nuwa_all.py` 只提供静态信号；它不能替代 L3。
+
+### L3 · Semantic quality / distinctiveness
+
+回答：人物模型是否真正从其证据中生长出来，还是泛化、模板化、换名字复用；因果推断和人物辨识度是否成立。
+
+- `L3_SEMANTIC_QA.md` / `../data/l3-semantic-review-queue.json` 先用保守词面信号发现需要一起阅读的 Skill。
+- 共享的角色扮演规则、激活/退出机制和通用 workflow 属于产品 shell，**不参与人物语义重复判定**。
+- lexical similarity 永远只是 REVIEW prioritization；最终分类必须结合 research/provenance 进行模型或人工语义审查。
+
+### L4 · Engineering / delivery
+
+回答：frontmatter、路径、CI、生成数据、Pages 输入、脚本是否可复现且一致。
+
+稳定 person ID、Corpus Sync、Pages QA 和 Nuwa L3 workflow 都属于这一层。
+
+## 目录中的主要报告
+
+| 文件 | 作用 |
 |---|---|
-| **用户 Skill** | 与帝王 Skill **同构的 12 章**：核心心智模型 / 表达DNA / 时间线（=你的经历）/ 价值观与反模式（含内在张力）/ 诚实边界 … |
-| **心智报告** | 10 轴雷达图 + 文字解读 + 内在张力分析 |
-| **最相似帝王** | 余弦相似度 top-3，另附**镜像帝王**（最不相似，用于诊断盲区） |
-| **穿越结果** | 用你的 Skill 直接跑 `../simulation/`，给出你在唐/宋/元/明/清的处置分与判定 |
+| `CORPUS_COVERAGE.md` | CORE / Skill coverage 的自动报告 |
+| `CORPUS_QA.md` | identity / matching QA |
+| `PROVENANCE_RECOVERY.md` | 历史 39-package provenance suspect 的语义分诊 |
+| `L3_SEMANTIC_QA.md` | 人物知识 payload 的重复/模板化审查信号 |
+| `CORPUS_GAP_BASELINE.md` | corpus gap 的历史基线 |
+| `LEGACY_78_EMPEROR_PERSONALITY_TEST.md` | 已归档的早期 78×10 人格测验构想 |
 
-## 二、维度体系（10 轴，自帝王心智模型反推）
+## Assessment / comparison 的下一阶段
 
-每个轴为双极（或三极）连续量，帝王原型的轴值由其 `SKILL.md` 的心智模型编码而来。
+后续真正的“帝王学”分析应建立在稳定 `person_id` 上，而不是目录名或临时排序 ID 上：
 
-| # | 轴 | 一端 ←→ 另一端 |
-|---|---|---|
-| A1 | 权力来源 | 武功开国 ←→ 制度承袭 |
-| A2 | 合法性叙事 | 血统正统 ←→ 功业自证 ←→ 天命符命 |
-| A3 | 风险偏好 | 激进开拓 ←→ 稳健守成 ←→ 退让避祸 |
-| A4 | 用人之道 | 纳谏兼听 ←→ 独断专任 ←→ 破格擢新 |
-| A5 | 对异己 | 怀柔包容 ←→ 制衡牵制 ←→ 清洗镇压 |
-| A6 | 信息处理 | 广开言路 ←→ 亲察苛细 ←→ 闭塞偏信 |
-| A7 | 资源观 | 节用养民 ←→ 集中动员 ←→ 奢靡耗国 |
-| A8 | 继嗣交班 | 早定明定 ←→ 悬置拖延 ←→ 争夺倾轧 |
-| A9 | 退场姿态 | 恋权不放 ←→ 善终禅让 ←→ 殉国死节 |
-| A10 | 时代观 | 以史为鉴 ←→ 因时变通 ←→ 复古守旧 |
+1. 为可比较的历史行为/决策建立版本化 feature schema；
+2. 将每个 feature 绑定证据、置信度与时间/统治 episode；
+3. 做跨人物、跨政权、跨时代比较，而不是单一总分排名；
+4. 将 simulation 输入与具体 Skill / person ID / evidence version 绑定，保证结果可复现；
+5. 将 corpus coverage、Nuwa QA、人物面板、比较和 simulation 分层展示到 Page。
 
-> 轴设计原则：**每个轴都必须能在至少 3 位帝王的实际作为中找到锚点**，避免凭空造词。
-
-## 三、题目与计分
-
-- 题量 **60 题**（参考 BSRI 体量）：情境选择（"你被空降到某处境，先做什么？"）＋ 自陈 Likert（7 点）。
-- 每题携带一个**权重向量**，作答累加到 10 轴；轴值标准化到 −3…+3。
-- 反向题占约 1/3，防默认倾向。
-
-## 四、匹配与报告
-
-1. 用户 10 维向量 vs 78 帝原型向量 → **余弦相似度** → top-3 / 镜像。
-2. 取用户得分最高的 3–5 个轴 → 提炼为**用户的心智模型**（3–7 个，含"局限"）。
-3. 最高轴与最低轴的冲突处 → **内在张力**（≥2 处）。
-4. 套 12 章模板生成 **user-perspective Skill**，并跑 simulation 得穿越结果。
-
-## 五、伦理与边界
-
-- **非临床诊断**，仅供自我认知与娱乐；不作为心理评估或医疗建议。
-- 默认**匿名**：不采集可识别信息；如需回看，仅以随机 uid 取回（参照既有 BSRI 工具做法）。
-- 报告须显著标注"此为测验拟合结果，非你的全部人格"。
-
-## 六、待建设
-
-- [ ] `engine/` 题库（60 题）与计分脚本
-- [ ] `archetypes/emperor-vectors.json`（78 × 10 轴编码表）
-- [ ] 12 章用户 Skill 模板与生成器
-- [ ] 与 `../simulation/` 的对接（用户 Skill 直接进穿越推演）
-- [ ] 网页端单文件版（测验 UI + 结果页）
+> 历史人物分析中的评价维度应保持可追溯和可解释。模型输出不能把有争议的史学解释伪装成确定事实。
