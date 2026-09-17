@@ -13,6 +13,7 @@ on:
       - '_redo_tools/_build_ruler_corpus.py'
       - '_redo_tools/_build_ruler_corpus_with_overrides.py'
       - '_redo_tools/_build_corpus_queue.py'
+      - '_redo_tools/_postprocess_corpus_docs.py'
       - '.github/workflows/corpus-sync.yml'
   workflow_dispatch:
 
@@ -40,6 +41,7 @@ jobs:
         run: |
           python _redo_tools/_build_ruler_corpus_with_overrides.py
           python _redo_tools/_build_corpus_queue.py
+          python _redo_tools/_postprocess_corpus_docs.py
 
       - name: Show generated summary
         run: |
@@ -50,6 +52,7 @@ jobs:
           queue=json.loads(Path('data/corpus-work-queue.json').read_text())
           issues=json.loads(Path('data/corpus-identity-issues.json').read_text())
           index=json.loads(Path('data/rulers-person-index.json').read_text())
+          idreg=json.loads(Path('data/ruler-person-id-registry.json').read_text())
           print('COVERAGE')
           print(json.dumps(gap['summary'], ensure_ascii=False, indent=2))
           print('WORK QUEUE')
@@ -58,6 +61,13 @@ jobs:
           print(json.dumps(issues['summary'], ensure_ascii=False, indent=2))
           print('IDENTITY OVERRIDES')
           print(json.dumps(index.get('identity_override_stats', {}), ensure_ascii=False, indent=2))
+          print('STABLE PERSON IDS')
+          print(json.dumps({
+              'active_count': idreg.get('active_count'),
+              'issued_count': idreg.get('total_ids_ever_issued'),
+              'next_sequence': idreg.get('next_sequence'),
+              'initial_freeze_on': idreg.get('initial_freeze_on'),
+          }, ensure_ascii=False, indent=2))
           PY
 
       - name: Commit generated artifacts
