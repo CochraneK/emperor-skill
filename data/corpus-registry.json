@@ -168,7 +168,7 @@
     }
   ],
   "master_corpus": {
-    "status": "GENERATED_CANDIDATE_INDEX_NOT_YET_ID_LOCKED",
+    "status": "STABLE_PERSON_ID_REGISTRY_ACTIVE",
     "candidate_index": "data/rulers-person-index.json",
     "coverage_report": "assessment/CORPUS_COVERAGE.md",
     "gap_file": "data/corpus-gap.json",
