@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Preserve analytically useful existing Skills that do not belong to the historical ruler CORE denominator. These are not deleted merely to make counts align.",
+  "existing_skill_exceptions": [
+    {
+      "skill_path": "skills/shang/taiding-shang-perspective",
+      "person": "太丁",
+      "classification": "NON_RULER_EXISTING_SKILL",
+      "reason": "The Skill and transmitted account explicitly state 太丁/大丁 died before enthronement (未立而卒、未及即位). He therefore has no qualifying lifetime sovereign rule episode under RULER_CORPUS_SCOPE v2.0.",
+      "action": "KEEP package for evidence/history analysis; exclude from ruler CORE denominator and missing/matched ruler coverage.",
+      "evidence_pointer": "skills/shang/taiding-shang-perspective/SKILL.md"
+    }
+  ]
+}
