@@ -69,6 +69,111 @@
         "Zhanguoce Wei ce 1: hunter appointment and Tian Zifang episodes",
         "Modern scholarship explicitly documents Li Kui/Li Ke identity controversy"
       ]
+    },
+    {
+      "skill_path": "skills/donghan/liuyi-beixianghou-perspective",
+      "person_id": "ruler-0083",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "GPT-5.6 Sol (ChatGPT)",
+      "review_role": "content_acceptance",
+      "review_independence": "evidence-based re-review of a recent sparse-evidence package",
+      "l1": "PASS",
+      "l2": "LIMITED-EVIDENCE",
+      "l3": "PASS",
+      "genericity_test": "PASS",
+      "counter_evidence_test": "PASS",
+      "l4": "PASS",
+      "action": "KEEP",
+      "reason": "The package treats missing personal evidence as a first-class result instead of manufacturing an imperial personality. It cleanly attributes accession, regency, purges and succession planning to Empress Yan, Yan Xian, Jiang Jing and Sun Cheng rather than Liu Yi, and restricts the three models to institutional-position mechanisms.",
+      "source_spot_checks": [
+        "Hou Hanshu juan 10 xia: Empress Yan wanted prolonged control and selected the young Marquess of Beixiang; empress dowager governed at court",
+        "Hou Han Ji juan 17: Liu Yi accession, death and succession coup",
+        "Hou Han Ji juan 17/18: burial with princely rites and later debate over posthumous status"
+      ]
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuzhun-perspective",
+      "person_id": "ruler-0060",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "GPT-5.6 Sol (ChatGPT)",
+      "review_role": "content_acceptance",
+      "review_independence": "evidence-based re-review of a recent sparse-evidence package",
+      "l1": "PASS",
+      "l2": "LIMITED-EVIDENCE",
+      "l3": "PASS",
+      "genericity_test": "PASS",
+      "counter_evidence_test": "PASS",
+      "l4": "PASS",
+      "action": "KEEP",
+      "reason": "The package correctly separates Liu Song court documents from Liu Zhun's personal authorship, keeps Xiao Daocheng's military/political agency separate, and models the abdication as a formal procedure under coercive conditions rather than voluntary personal strategy. Four models are appropriate to the evidence density and no extra personality dimensions are fabricated.",
+      "source_spot_checks": [
+        "Song Shu juan 10: Liu Zhun identity, accession and Shun reign court documents",
+        "Nan Shi juan 3: Xiao Daocheng welcomed Liu Zhun under the empress dowager's order",
+        "Nan Shi juan 3: Wang Jingze troops in the palace, Liu Zhun's removal, Ruyin prince status, guarded residence and death"
+      ]
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanzhao-perspective",
+      "person_id": "ruler-0043",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "GPT-5.6 Sol (ChatGPT)",
+      "review_role": "content_acceptance",
+      "review_independence": "evidence-based re-review of a recent sparse-evidence package",
+      "l1": "PASS",
+      "l2": "LIMITED-EVIDENCE",
+      "l3": "PASS",
+      "genericity_test": "PASS",
+      "counter_evidence_test": "PASS",
+      "l4": "PASS",
+      "action": "KEEP",
+      "reason": "This is an appropriately sparse child-ruler package. It explicitly rejects personality inference, assigns the accession decree to Empress Dowager Hu and the military overthrow to Erzhu Rong, and limits its three models to succession selection, recognition thresholds and violent regime discontinuity.",
+      "source_spot_checks": [
+        "Bei Shi juan 4: Empress Dowager Hu's accession edict, Yuan Zhao accession and death",
+        "Zizhi Tongjian juan 152: Yuan Zhao was about three; the empress dowager selected him because of his youth while seeking prolonged control",
+        "Zizhi Tongjian juan 152: Erzhu Rong's rejection, southward move and drowning of the empress dowager and child ruler"
+      ]
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanlang-perspective",
+      "person_id": "ruler-0039",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "GPT-5.6 Sol (ChatGPT)",
+      "review_role": "content_acceptance",
+      "review_independence": "evidence-based re-review of a recent partial-evidence package",
+      "l1": "PASS",
+      "l2": "PASS",
+      "l3": "PASS",
+      "genericity_test": "PASS",
+      "counter_evidence_test": "PASS",
+      "l4": "PASS",
+      "action": "KEEP",
+      "reason": "The package uses Yuan Lang's adult officeholding and accession/abdication episode without pretending to know a mature policy philosophy. Gao Huan remains the principal military actor; formal imperial appointment is distinguished from de facto control. The four models are specific to the coalition-legitimacy and replacement sequence and retain uncertainty around voluntary abdication and the motive for Yuan Lang's later death.",
+      "source_spot_checks": [
+        "Bei Shi juan 5: Yuan Lang as Bohai governor, Gao Huan-backed accession, offices, abdication, Anding prince and death",
+        "Zizhi Tongjian juan 155: Sun Teng's explicit 'commands have nowhere to be received' argument and Gao Huan's installation of Yuan Lang"
+      ]
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanxiu-perspective",
+      "person_id": "ruler-0041",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "GPT-5.6 Sol (ChatGPT)",
+      "review_role": "content_acceptance",
+      "review_independence": "evidence-based re-review of a recent moderate-evidence package",
+      "l1": "PASS",
+      "l2": "PASS",
+      "l3": "PASS",
+      "genericity_test": "PASS",
+      "counter_evidence_test": "PASS",
+      "l4": "PASS",
+      "action": "KEEP",
+      "reason": "Unlike the sparse ruler packages, Yuan Xiu has enough direct speech and attributable action for a bounded person-plus-institution model. The Skill distinguishes court documents from personal authorship, uses observed judicial/military intervention to support agency, and treats the conflicts with Gao Huan and Yuwen Tai as resource-control problems rather than personality diagnoses.",
+      "source_spot_checks": [
+        "Bei Shi juan 5: '非卖我耶' and '视，便不得不称朕矣' accession dialogue",
+        "Bei Shi juan 5: court hearings and judicial involvement",
+        "Bei Shi juan 5: '内图高欢', Husi Chun/Wang Sizheng as core allies, military buildup and nominal Liang campaign masking the anti-Gao Huan objective",
+        "Bei Shi juan 5: westward flight, new dependence on Yuwen Tai, later conflict and reported poisoning"
+      ]
     }
   ]
 }
