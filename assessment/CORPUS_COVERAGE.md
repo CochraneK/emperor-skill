@@ -5,21 +5,21 @@
 ## Working denominator
 
 - Candidate persons: **1312**
-- Locked historical CORE: **913**
-- REVIEW: **365**
+- Locked historical CORE: **912**
+- REVIEW: **366**
 - EXTENDED: **15**
 - LEGENDARY: **16**
 
 ## Existing Skill coverage
 
-- Existing Skills scanned: **309**
-- Matched to a ruler person: **308**
+- Existing Skills scanned: **312**
+- Matched to a ruler person: **311**
 - Explicit non-ruler/scope exceptions preserved: **1**
-- Accounted existing Skills: **309 / 309**
+- Accounted existing Skills: **312 / 312**
 - Still unresolved existing Skill identities: **0**
-- Matched CORE persons: **307**
-- Missing CORE persons: **606**
-- Working CORE coverage: **33.6%**
+- Matched CORE persons: **310**
+- Missing CORE persons: **602**
+- Working CORE coverage: **34.0%**
 
 ## Interpretation
 

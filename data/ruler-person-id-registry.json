@@ -1025,9 +1025,10 @@
         "冉魏"
       ],
       "statuses_seen": [
-        "CORE"
+        "CORE",
+        "REVIEW"
       ],
-      "current_status": "CORE",
+      "current_status": "REVIEW",
       "last_seen_on": "2026-09-18"
     },
     {

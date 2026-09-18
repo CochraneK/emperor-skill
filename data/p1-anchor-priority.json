@@ -7,10 +7,10 @@
   "warning": "Sequence positions are deterministic work-queue positions, not rankings or judgments of persons.",
   "summary": {
     "p0_missing": 0,
-    "candidate_pool": 204,
-    "source_reviews_recorded": 21,
-    "source_reviews_archived_or_completed": 3,
-    "source_reviews_complete": 21,
+    "candidate_pool": 200,
+    "source_reviews_recorded": 17,
+    "source_reviews_archived_or_completed": 7,
+    "source_reviews_complete": 17,
     "needs_or_partial_review": 183,
     "initial_anchor_tranche_target": 24,
     "initial_anchor_tranche_selected": 0,
@@ -21,8 +21,8 @@
   "review_sequence": [
     {
       "sequence": 1,
-      "person_id": "ruler-0049",
-      "canonical_name": "冉智",
+      "person_id": "ruler-0050",
+      "canonical_name": "冉闵",
       "polities": [
         "冉魏"
       ],
@@ -30,37 +30,13 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "SOURCE_REVIEW_COMPLETE",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
-      "source_review": {
-        "person_id": "ruler-0049",
-        "canonical_name": "冉智",
-        "source_review_complete": true,
-        "evidence_state": "LIMITED",
-        "evidence_note": "材料主要依附冉闵政权末期叙事，能确认太子身份、邺城陷落及被俘等事件，但几乎没有可独立归因的统治决策；后续 Skill 必须显著限制模型数量与强度。",
-        "evidence_pointers": [
-          "《晋书》卷107《石季龙载记下》冉闵及冉智相关纪事"
-        ],
-        "transition_contexts": [
-          "冉魏覆亡",
-          "都城失守",
-          "继承人被俘"
-        ],
-        "comparison_links": [
-          "石世：极低自主权的短期统治/继承情境",
-          "柴宗训：幼弱或低能动统治者的证据约束建模"
-        ],
-        "simulation_contexts": [
-          "政权崩溃末期继承人的有限选择集"
-        ],
-        "reviewed_by": "GPT-5.6 Sol",
-        "reviewed_on": "2026-09-18"
-      }
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
       "sequence": 2,
-      "person_id": "ruler-0326",
-      "canonical_name": "张天锡",
+      "person_id": "ruler-0327",
+      "canonical_name": "张寔",
       "polities": [
         "前凉"
       ],
@@ -68,40 +44,13 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "SOURCE_REVIEW_COMPLETE",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
-      "source_review": {
-        "person_id": "ruler-0326",
-        "canonical_name": "张天锡",
-        "source_review_complete": true,
-        "evidence_state": "RICH",
-        "evidence_note": "《晋书》卷86有独立较长段落，包含即位、政务、用人、军事行动、对东晋与前秦关系、亡国后经历及本人答书，可进行多角度交叉。",
-        "evidence_pointers": [
-          "《晋书》卷86《张轨传》附张天锡",
-          "《全晋文》卷154张天锡文"
-        ],
-        "transition_contexts": [
-          "前凉末期统治",
-          "东晋名义关系",
-          "前秦扩张压力",
-          "亡国后进入前秦与东晋政治秩序"
-        ],
-        "comparison_links": [
-          "吕光：河西政权的军政路径差异",
-          "苻丕：强邻压力下的政权存续"
-        ],
-        "simulation_contexts": [
-          "边疆政权在两大强权之间的外交选择",
-          "外压下的继承与用人风险"
-        ],
-        "reviewed_by": "GPT-5.6 Sol",
-        "reviewed_on": "2026-09-18"
-      }
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
       "sequence": 3,
-      "person_id": "ruler-0359",
-      "canonical_name": "慕容儁",
+      "person_id": "ruler-0365",
+      "canonical_name": "慕容暐",
       "polities": [
         "前燕"
       ],
@@ -109,38 +58,13 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "SOURCE_REVIEW_COMPLETE",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
-      "source_review": {
-        "person_id": "ruler-0359",
-        "canonical_name": "慕容儁",
-        "source_review_complete": true,
-        "evidence_state": "RICH",
-        "evidence_note": "《晋书》卷110为慕容儁专载记，覆盖继位、利用后赵崩解扩张、军事组织、称帝及内部治理，个人行动链非常完整。",
-        "evidence_pointers": [
-          "《晋书》卷110《慕容儁载记》"
-        ],
-        "transition_contexts": [
-          "后赵崩解后的北方权力真空",
-          "前燕扩张",
-          "由燕王到皇帝的制度升级"
-        ],
-        "comparison_links": [
-          "慕容德：同一宗室在不同崩解节点建立政权",
-          "苻丕：北方帝国崩解后的再组织"
-        ],
-        "simulation_contexts": [
-          "竞争性真空中的扩张时机",
-          "宗室与将领配置对快速扩张的影响"
-        ],
-        "reviewed_by": "GPT-5.6 Sol",
-        "reviewed_on": "2026-09-18"
-      }
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
       "sequence": 4,
-      "person_id": "ruler-0916",
-      "canonical_name": "苻丕",
+      "person_id": "ruler-0917",
+      "canonical_name": "苻健",
       "polities": [
         "前秦"
       ],
@@ -148,34 +72,8 @@
         "data/rulers-master-h5-jin-sixteen.json"
       ],
       "source_segment": 5,
-      "status": "SOURCE_REVIEW_COMPLETE",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank.",
-      "source_review": {
-        "person_id": "ruler-0916",
-        "canonical_name": "苻丕",
-        "source_review_complete": true,
-        "evidence_state": "RICH",
-        "evidence_note": "《晋书》卷115为苻丕专载记，记录其邺城防守、前秦崩解后的迁转、即位、重新组织力量与败亡，证据足以区分继承、复国与危机决策。",
-        "evidence_pointers": [
-          "《晋书》卷115《苻丕苻登载记》"
-        ],
-        "transition_contexts": [
-          "淝水后前秦崩解",
-          "邺城防守",
-          "晋阳即位",
-          "多方割据竞争"
-        ],
-        "comparison_links": [
-          "慕容儁：权力真空中的扩张与重组",
-          "张天锡：前秦扩张链条两端的统治者"
-        ],
-        "simulation_contexts": [
-          "帝国崩解后的残余资源重组",
-          "多战线压力下的迁都与联盟选择"
-        ],
-        "reviewed_by": "GPT-5.6 Sol",
-        "reviewed_on": "2026-09-18"
-      }
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
       "sequence": 5,
@@ -1377,566 +1275,6 @@
     },
     {
       "sequence": 58,
-      "person_id": "ruler-0050",
-      "canonical_name": "冉闵",
-      "polities": [
-        "冉魏"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 59,
-      "person_id": "ruler-0327",
-      "canonical_name": "张寔",
-      "polities": [
-        "前凉"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 60,
-      "person_id": "ruler-0365",
-      "canonical_name": "慕容暐",
-      "polities": [
-        "前燕"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 61,
-      "person_id": "ruler-0917",
-      "canonical_name": "苻健",
-      "polities": [
-        "前秦"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 62,
-      "person_id": "ruler-0698",
-      "canonical_name": "沮渠牧犍",
-      "polities": [
-        "北凉"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 63,
-      "person_id": "ruler-0053",
-      "canonical_name": "冯跋",
-      "polities": [
-        "北燕"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 64,
-      "person_id": "ruler-0832",
-      "canonical_name": "秃发傉檀",
-      "polities": [
-        "南凉"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 65,
-      "person_id": "ruler-0373",
-      "canonical_name": "慕容超",
-      "polities": [
-        "南燕"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 66,
-      "person_id": "ruler-0193",
-      "canonical_name": "吕纂",
-      "polities": [
-        "后凉"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 67,
-      "person_id": "ruler-0361",
-      "canonical_name": "慕容垂",
-      "polities": [
-        "后燕"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 68,
-      "person_id": "ruler-0225",
-      "canonical_name": "姚泓",
-      "polities": [
-        "后秦"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 69,
-      "person_id": "ruler-0813",
-      "canonical_name": "石勒",
-      "polities": [
-        "后赵"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 70,
-      "person_id": "ruler-0529",
-      "canonical_name": "李寿",
-      "polities": [
-        "成汉"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 71,
-      "person_id": "ruler-0088",
-      "canonical_name": "刘曜",
-      "polities": [
-        "汉赵/前赵"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 72,
-      "person_id": "ruler-1050",
-      "canonical_name": "赫连定",
-      "polities": [
-        "胡夏"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 73,
-      "person_id": "ruler-0541",
-      "canonical_name": "李暠",
-      "polities": [
-        "西凉"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 74,
-      "person_id": "ruler-0364",
-      "canonical_name": "慕容忠",
-      "polities": [
-        "西燕"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 75,
-      "person_id": "ruler-0013",
-      "canonical_name": "乞伏国仁",
-      "polities": [
-        "西秦"
-      ],
-      "source_files": [
-        "data/rulers-master-h5-jin-sixteen.json"
-      ],
-      "source_segment": 5,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 76,
-      "person_id": "ruler-0176",
-      "canonical_name": "史朝义",
-      "polities": [
-        "安史燕"
-      ],
-      "source_files": [
-        "data/rulers-master-h6-north-south-sui-tang.json"
-      ],
-      "source_segment": 6,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 77,
-      "person_id": "ruler-0788",
-      "canonical_name": "王衍",
-      "polities": [
-        "前蜀"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "source_segment": 7,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 78,
-      "person_id": "ruler-0104",
-      "canonical_name": "刘继元",
-      "polities": [
-        "北汉"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "source_segment": 7,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 79,
-      "person_id": "ruler-0551",
-      "canonical_name": "李煜",
-      "polities": [
-        "南唐"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "source_segment": 7,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 80,
-      "person_id": "ruler-0096",
-      "canonical_name": "刘玢",
-      "polities": [
-        "南汉"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "source_segment": 7,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 81,
-      "person_id": "ruler-0240",
-      "canonical_name": "孟知祥",
-      "polities": [
-        "后蜀"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "source_segment": 7,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 82,
-      "person_id": "ruler-1138",
-      "canonical_name": "钱元瓘",
-      "polities": [
-        "吴越"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "source_segment": 7,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 83,
-      "person_id": "ruler-0608",
-      "canonical_name": "杨溥",
-      "polities": [
-        "杨吴"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "source_segment": 7,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 84,
-      "person_id": "ruler-1218",
-      "canonical_name": "高保勗",
-      "polities": [
-        "荆南/南平"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "source_segment": 7,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 85,
-      "person_id": "ruler-0781",
-      "canonical_name": "王延政",
-      "polities": [
-        "闽"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "source_segment": 7,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 86,
-      "person_id": "ruler-1211",
-      "canonical_name": "马希崇",
-      "polities": [
-        "马楚"
-      ],
-      "source_files": [
-        "data/rulers-master-h7-five-ten.json"
-      ],
-      "source_segment": 7,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 87,
-      "person_id": "ruler-0895",
-      "canonical_name": "耶律淳",
-      "polities": [
-        "北辽及辽末并行政权"
-      ],
-      "source_files": [
-        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
-      ],
-      "source_segment": 8,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 88,
-      "person_id": "ruler-0516",
-      "canonical_name": "李仁孝",
-      "polities": [
-        "西夏"
-      ],
-      "source_files": [
-        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
-      ],
-      "source_segment": 8,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 89,
-      "person_id": "ruler-0886",
-      "canonical_name": "耶律大石",
-      "polities": [
-        "西辽"
-      ],
-      "source_files": [
-        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
-      ],
-      "source_segment": 8,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 90,
-      "person_id": "ruler-0890",
-      "canonical_name": "耶律延禧",
-      "polities": [
-        "辽"
-      ],
-      "source_files": [
-        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
-      ],
-      "source_segment": 8,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 91,
-      "person_id": "ruler-0286",
-      "canonical_name": "完颜亶",
-      "polities": [
-        "金"
-      ],
-      "source_files": [
-        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
-      ],
-      "source_segment": 8,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 92,
-      "person_id": "ruler-0402",
-      "canonical_name": "明玉珍",
-      "polities": [
-        "明夏/大夏"
-      ],
-      "source_files": [
-        "data/rulers-master-h9-yuan-rivals.json"
-      ],
-      "source_segment": 9,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 93,
-      "person_id": "ruler-1177",
-      "canonical_name": "陈理",
-      "polities": [
-        "陈汉"
-      ],
-      "source_files": [
-        "data/rulers-master-h9-yuan-rivals.json"
-      ],
-      "source_segment": 9,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 94,
-      "person_id": "ruler-0500",
-      "canonical_name": "朱由榔",
-      "polities": [
-        "南明皇帝"
-      ],
-      "source_files": [
-        "data/rulers-master-h10-ming-transition.json"
-      ],
-      "source_segment": 10,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 95,
-      "person_id": "ruler-0703",
-      "canonical_name": "洪秀全",
-      "polities": [
-        "太平天国"
-      ],
-      "source_files": [
-        "data/rulers-master-h11-qing-rivals.json"
-      ],
-      "source_segment": 11,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 96,
-      "person_id": "ruler-0200",
-      "canonical_name": "周自齐",
-      "polities": [
-        "中华民国北京政府/北洋政府"
-      ],
-      "source_files": [
-        "data/rulers-master-h12-republic.json"
-      ],
-      "source_segment": 12,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 97,
-      "person_id": "ruler-0618",
-      "canonical_name": "林森",
-      "polities": [
-        "南京国民政府"
-      ],
-      "source_files": [
-        "data/rulers-master-h12-republic.json"
-      ],
-      "source_segment": 12,
-      "status": "NEEDS_SOURCE_REVIEW",
-      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
-    },
-    {
-      "sequence": 98,
       "person_id": "ruler-0328",
       "canonical_name": "张曜灵",
       "polities": [
@@ -1950,7 +1288,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 99,
+      "sequence": 59,
       "person_id": "ruler-0370",
       "canonical_name": "慕容皝",
       "polities": [
@@ -1964,7 +1302,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 100,
+      "sequence": 60,
       "person_id": "ruler-0918",
       "canonical_name": "苻坚",
       "polities": [
@@ -1978,9 +1316,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 101,
-      "person_id": "ruler-0699",
-      "canonical_name": "沮渠蒙逊",
+      "sequence": 61,
+      "person_id": "ruler-0698",
+      "canonical_name": "沮渠牧犍",
       "polities": [
         "北凉"
       ],
@@ -1992,9 +1330,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 102,
-      "person_id": "ruler-1216",
-      "canonical_name": "高云",
+      "sequence": 62,
+      "person_id": "ruler-0053",
+      "canonical_name": "冯跋",
       "polities": [
         "北燕"
       ],
@@ -2006,9 +1344,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 103,
-      "person_id": "ruler-0833",
-      "canonical_name": "秃发利鹿孤",
+      "sequence": 63,
+      "person_id": "ruler-0832",
+      "canonical_name": "秃发傉檀",
       "polities": [
         "南凉"
       ],
@@ -2020,9 +1358,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 104,
-      "person_id": "ruler-0194",
-      "canonical_name": "吕绍",
+      "sequence": 64,
+      "person_id": "ruler-0373",
+      "canonical_name": "慕容超",
+      "polities": [
+        "南燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 65,
+      "person_id": "ruler-0193",
+      "canonical_name": "吕纂",
       "polities": [
         "后凉"
       ],
@@ -2034,9 +1386,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 105,
-      "person_id": "ruler-0362",
-      "canonical_name": "慕容宝",
+      "sequence": 66,
+      "person_id": "ruler-0361",
+      "canonical_name": "慕容垂",
       "polities": [
         "后燕"
       ],
@@ -2048,9 +1400,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 106,
-      "person_id": "ruler-0226",
-      "canonical_name": "姚苌",
+      "sequence": 67,
+      "person_id": "ruler-0225",
+      "canonical_name": "姚泓",
       "polities": [
         "后秦"
       ],
@@ -2062,9 +1414,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 107,
-      "person_id": "ruler-0814",
-      "canonical_name": "石弘",
+      "sequence": 68,
+      "person_id": "ruler-0813",
+      "canonical_name": "石勒",
       "polities": [
         "后赵"
       ],
@@ -2076,9 +1428,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 108,
-      "person_id": "ruler-0542",
-      "canonical_name": "李期",
+      "sequence": 69,
+      "person_id": "ruler-0529",
+      "canonical_name": "李寿",
       "polities": [
         "成汉"
       ],
@@ -2090,9 +1442,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 109,
-      "person_id": "ruler-0091",
-      "canonical_name": "刘渊",
+      "sequence": 70,
+      "person_id": "ruler-0088",
+      "canonical_name": "刘曜",
       "polities": [
         "汉赵/前赵"
       ],
@@ -2104,9 +1456,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 110,
-      "person_id": "ruler-1051",
-      "canonical_name": "赫连昌",
+      "sequence": 71,
+      "person_id": "ruler-1050",
+      "canonical_name": "赫连定",
       "polities": [
         "胡夏"
       ],
@@ -2118,9 +1470,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 111,
-      "person_id": "ruler-0544",
-      "canonical_name": "李歆",
+      "sequence": 72,
+      "person_id": "ruler-0541",
+      "canonical_name": "李暠",
       "polities": [
         "西凉"
       ],
@@ -2132,9 +1484,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 112,
-      "person_id": "ruler-0366",
-      "canonical_name": "慕容永",
+      "sequence": 73,
+      "person_id": "ruler-0364",
+      "canonical_name": "慕容忠",
       "polities": [
         "西燕"
       ],
@@ -2146,9 +1498,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 113,
-      "person_id": "ruler-0014",
-      "canonical_name": "乞伏暮末",
+      "sequence": 74,
+      "person_id": "ruler-0013",
+      "canonical_name": "乞伏国仁",
       "polities": [
         "西秦"
       ],
@@ -2160,9 +1512,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 114,
-      "person_id": "ruler-0248",
-      "canonical_name": "安庆绪",
+      "sequence": 75,
+      "person_id": "ruler-0176",
+      "canonical_name": "史朝义",
       "polities": [
         "安史燕"
       ],
@@ -2174,9 +1526,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 115,
-      "person_id": "ruler-0105",
-      "canonical_name": "刘继恩",
+      "sequence": 76,
+      "person_id": "ruler-0788",
+      "canonical_name": "王衍",
+      "polities": [
+        "前蜀"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "source_segment": 7,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 77,
+      "person_id": "ruler-0104",
+      "canonical_name": "刘继元",
       "polities": [
         "北汉"
       ],
@@ -2188,9 +1554,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 116,
-      "person_id": "ruler-0553",
-      "canonical_name": "李璟",
+      "sequence": 78,
+      "person_id": "ruler-0551",
+      "canonical_name": "李煜",
       "polities": [
         "南唐"
       ],
@@ -2202,9 +1568,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 117,
-      "person_id": "ruler-0117",
-      "canonical_name": "刘鋹",
+      "sequence": 79,
+      "person_id": "ruler-0096",
+      "canonical_name": "刘玢",
       "polities": [
         "南汉"
       ],
@@ -2216,9 +1582,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 118,
-      "person_id": "ruler-1139",
-      "canonical_name": "钱弘佐",
+      "sequence": 80,
+      "person_id": "ruler-0240",
+      "canonical_name": "孟知祥",
+      "polities": [
+        "后蜀"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "source_segment": 7,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 81,
+      "person_id": "ruler-1138",
+      "canonical_name": "钱元瓘",
       "polities": [
         "吴越"
       ],
@@ -2230,9 +1610,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 119,
-      "person_id": "ruler-0612",
-      "canonical_name": "杨行密",
+      "sequence": 82,
+      "person_id": "ruler-0608",
+      "canonical_name": "杨溥",
       "polities": [
         "杨吴"
       ],
@@ -2244,9 +1624,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 120,
-      "person_id": "ruler-1219",
-      "canonical_name": "高保融",
+      "sequence": 83,
+      "person_id": "ruler-1218",
+      "canonical_name": "高保勗",
       "polities": [
         "荆南/南平"
       ],
@@ -2258,9 +1638,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 121,
-      "person_id": "ruler-0782",
-      "canonical_name": "王延羲",
+      "sequence": 84,
+      "person_id": "ruler-0781",
+      "canonical_name": "王延政",
       "polities": [
         "闽"
       ],
@@ -2272,9 +1652,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 122,
-      "person_id": "ruler-1212",
-      "canonical_name": "马希广",
+      "sequence": 85,
+      "person_id": "ruler-1211",
+      "canonical_name": "马希崇",
       "polities": [
         "马楚"
       ],
@@ -2286,9 +1666,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 123,
-      "person_id": "ruler-0905",
-      "canonical_name": "耶律雅里",
+      "sequence": 86,
+      "person_id": "ruler-0895",
+      "canonical_name": "耶律淳",
       "polities": [
         "北辽及辽末并行政权"
       ],
@@ -2300,9 +1680,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 124,
-      "person_id": "ruler-0521",
-      "canonical_name": "李元昊",
+      "sequence": 87,
+      "person_id": "ruler-0516",
+      "canonical_name": "李仁孝",
       "polities": [
         "西夏"
       ],
@@ -2314,9 +1694,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 125,
-      "person_id": "ruler-0887",
-      "canonical_name": "耶律夷列",
+      "sequence": 88,
+      "person_id": "ruler-0886",
+      "canonical_name": "耶律大石",
       "polities": [
         "西辽"
       ],
@@ -2328,9 +1708,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 126,
-      "person_id": "ruler-0891",
-      "canonical_name": "耶律德光",
+      "sequence": 89,
+      "person_id": "ruler-0890",
+      "canonical_name": "耶律延禧",
       "polities": [
         "辽"
       ],
@@ -2342,9 +1722,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 127,
-      "person_id": "ruler-0287",
-      "canonical_name": "完颜守绪",
+      "sequence": 90,
+      "person_id": "ruler-0286",
+      "canonical_name": "完颜亶",
       "polities": [
         "金"
       ],
@@ -2356,9 +1736,37 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 128,
-      "person_id": "ruler-0508",
-      "canonical_name": "朱聿鐭",
+      "sequence": 91,
+      "person_id": "ruler-0402",
+      "canonical_name": "明玉珍",
+      "polities": [
+        "明夏/大夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h9-yuan-rivals.json"
+      ],
+      "source_segment": 9,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 92,
+      "person_id": "ruler-1177",
+      "canonical_name": "陈理",
+      "polities": [
+        "陈汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h9-yuan-rivals.json"
+      ],
+      "source_segment": 9,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 93,
+      "person_id": "ruler-0500",
+      "canonical_name": "朱由榔",
       "polities": [
         "南明皇帝"
       ],
@@ -2370,9 +1778,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 129,
-      "person_id": "ruler-0322",
-      "canonical_name": "张作霖",
+      "sequence": 94,
+      "person_id": "ruler-0703",
+      "canonical_name": "洪秀全",
+      "polities": [
+        "太平天国"
+      ],
+      "source_files": [
+        "data/rulers-master-h11-qing-rivals.json"
+      ],
+      "source_segment": 11,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 95,
+      "person_id": "ruler-0200",
+      "canonical_name": "周自齐",
       "polities": [
         "中华民国北京政府/北洋政府"
       ],
@@ -2384,9 +1806,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 130,
-      "person_id": "ruler-0947",
-      "canonical_name": "蒋介石",
+      "sequence": 96,
+      "person_id": "ruler-0618",
+      "canonical_name": "林森",
       "polities": [
         "南京国民政府"
       ],
@@ -2398,7 +1820,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 131,
+      "sequence": 97,
       "person_id": "ruler-0331",
       "canonical_name": "张玄靓",
       "polities": [
@@ -2412,7 +1834,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 132,
+      "sequence": 98,
       "person_id": "ruler-0919",
       "canonical_name": "苻崇",
       "polities": [
@@ -2426,9 +1848,51 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 133,
-      "person_id": "ruler-0195",
-      "canonical_name": "吕隆",
+      "sequence": 99,
+      "person_id": "ruler-0699",
+      "canonical_name": "沮渠蒙逊",
+      "polities": [
+        "北凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 100,
+      "person_id": "ruler-1216",
+      "canonical_name": "高云",
+      "polities": [
+        "北燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 101,
+      "person_id": "ruler-0833",
+      "canonical_name": "秃发利鹿孤",
+      "polities": [
+        "南凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 102,
+      "person_id": "ruler-0194",
+      "canonical_name": "吕绍",
       "polities": [
         "后凉"
       ],
@@ -2440,9 +1904,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 134,
-      "person_id": "ruler-0368",
-      "canonical_name": "慕容熙",
+      "sequence": 103,
+      "person_id": "ruler-0362",
+      "canonical_name": "慕容宝",
       "polities": [
         "后燕"
       ],
@@ -2454,9 +1918,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 135,
-      "person_id": "ruler-0816",
-      "canonical_name": "石祗",
+      "sequence": 104,
+      "person_id": "ruler-0226",
+      "canonical_name": "姚苌",
+      "polities": [
+        "后秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 105,
+      "person_id": "ruler-0814",
+      "canonical_name": "石弘",
       "polities": [
         "后赵"
       ],
@@ -2468,9 +1946,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 136,
-      "person_id": "ruler-0552",
-      "canonical_name": "李班",
+      "sequence": 106,
+      "person_id": "ruler-0542",
+      "canonical_name": "李期",
       "polities": [
         "成汉"
       ],
@@ -2482,9 +1960,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 137,
-      "person_id": "ruler-0094",
-      "canonical_name": "刘熙",
+      "sequence": 107,
+      "person_id": "ruler-0091",
+      "canonical_name": "刘渊",
       "polities": [
         "汉赵/前赵"
       ],
@@ -2496,9 +1974,37 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 138,
-      "person_id": "ruler-0367",
-      "canonical_name": "慕容泓",
+      "sequence": 108,
+      "person_id": "ruler-1051",
+      "canonical_name": "赫连昌",
+      "polities": [
+        "胡夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 109,
+      "person_id": "ruler-0544",
+      "canonical_name": "李歆",
+      "polities": [
+        "西凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 110,
+      "person_id": "ruler-0366",
+      "canonical_name": "慕容永",
       "polities": [
         "西燕"
       ],
@@ -2510,9 +2016,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 139,
-      "person_id": "ruler-0015",
-      "canonical_name": "乞伏炽磐",
+      "sequence": 111,
+      "person_id": "ruler-0014",
+      "canonical_name": "乞伏暮末",
       "polities": [
         "西秦"
       ],
@@ -2524,9 +2030,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 140,
-      "person_id": "ruler-0250",
-      "canonical_name": "安禄山",
+      "sequence": 112,
+      "person_id": "ruler-0248",
+      "canonical_name": "安庆绪",
       "polities": [
         "安史燕"
       ],
@@ -2538,9 +2044,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 141,
-      "person_id": "ruler-0118",
-      "canonical_name": "刘钧",
+      "sequence": 113,
+      "person_id": "ruler-0105",
+      "canonical_name": "刘继恩",
       "polities": [
         "北汉"
       ],
@@ -2552,9 +2058,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 142,
-      "person_id": "ruler-0124",
-      "canonical_name": "刘龑",
+      "sequence": 114,
+      "person_id": "ruler-0553",
+      "canonical_name": "李璟",
+      "polities": [
+        "南唐"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "source_segment": 7,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 115,
+      "person_id": "ruler-0117",
+      "canonical_name": "刘鋹",
       "polities": [
         "南汉"
       ],
@@ -2566,9 +2086,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 143,
-      "person_id": "ruler-1140",
-      "canonical_name": "钱弘倧",
+      "sequence": 116,
+      "person_id": "ruler-1139",
+      "canonical_name": "钱弘佐",
       "polities": [
         "吴越"
       ],
@@ -2580,9 +2100,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 144,
-      "person_id": "ruler-0614",
-      "canonical_name": "杨隆演",
+      "sequence": 117,
+      "person_id": "ruler-0612",
+      "canonical_name": "杨行密",
       "polities": [
         "杨吴"
       ],
@@ -2594,9 +2114,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 145,
-      "person_id": "ruler-1222",
-      "canonical_name": "高季兴",
+      "sequence": 118,
+      "person_id": "ruler-1219",
+      "canonical_name": "高保融",
       "polities": [
         "荆南/南平"
       ],
@@ -2608,9 +2128,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 146,
-      "person_id": "ruler-0783",
-      "canonical_name": "王延翰",
+      "sequence": 119,
+      "person_id": "ruler-0782",
+      "canonical_name": "王延羲",
       "polities": [
         "闽"
       ],
@@ -2622,9 +2142,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 147,
-      "person_id": "ruler-1213",
-      "canonical_name": "马希范",
+      "sequence": 120,
+      "person_id": "ruler-1212",
+      "canonical_name": "马希广",
       "polities": [
         "马楚"
       ],
@@ -2636,9 +2156,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 148,
-      "person_id": "ruler-0526",
-      "canonical_name": "李安全",
+      "sequence": 121,
+      "person_id": "ruler-0905",
+      "canonical_name": "耶律雅里",
+      "polities": [
+        "北辽及辽末并行政权"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "source_segment": 8,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 122,
+      "person_id": "ruler-0521",
+      "canonical_name": "李元昊",
       "polities": [
         "西夏"
       ],
@@ -2650,9 +2184,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 149,
-      "person_id": "ruler-0898",
-      "canonical_name": "耶律直鲁古",
+      "sequence": 123,
+      "person_id": "ruler-0887",
+      "canonical_name": "耶律夷列",
       "polities": [
         "西辽"
       ],
@@ -2664,9 +2198,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 150,
-      "person_id": "ruler-0894",
-      "canonical_name": "耶律洪基",
+      "sequence": 124,
+      "person_id": "ruler-0891",
+      "canonical_name": "耶律德光",
       "polities": [
         "辽"
       ],
@@ -2678,9 +2212,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 151,
-      "person_id": "ruler-0288",
-      "canonical_name": "完颜承麟",
+      "sequence": 125,
+      "person_id": "ruler-0287",
+      "canonical_name": "完颜守绪",
       "polities": [
         "金"
       ],
@@ -2692,9 +2226,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 152,
-      "person_id": "ruler-0509",
-      "canonical_name": "朱聿键",
+      "sequence": 126,
+      "person_id": "ruler-0508",
+      "canonical_name": "朱聿鐭",
       "polities": [
         "南明皇帝"
       ],
@@ -2706,9 +2240,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 153,
-      "person_id": "ruler-0341",
-      "canonical_name": "徐世昌",
+      "sequence": 127,
+      "person_id": "ruler-0322",
+      "canonical_name": "张作霖",
       "polities": [
         "中华民国北京政府/北洋政府"
       ],
@@ -2720,9 +2254,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 154,
-      "person_id": "ruler-1044",
-      "canonical_name": "谭延闿",
+      "sequence": 128,
+      "person_id": "ruler-0947",
+      "canonical_name": "蒋介石",
       "polities": [
         "南京国民政府"
       ],
@@ -2734,7 +2268,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 155,
+      "sequence": 129,
       "person_id": "ruler-0332",
       "canonical_name": "张祚",
       "polities": [
@@ -2748,7 +2282,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 156,
+      "sequence": 130,
       "person_id": "ruler-0920",
       "canonical_name": "苻生",
       "polities": [
@@ -2762,9 +2296,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 157,
-      "person_id": "ruler-0371",
-      "canonical_name": "慕容盛",
+      "sequence": 131,
+      "person_id": "ruler-0195",
+      "canonical_name": "吕隆",
+      "polities": [
+        "后凉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 132,
+      "person_id": "ruler-0368",
+      "canonical_name": "慕容熙",
       "polities": [
         "后燕"
       ],
@@ -2776,9 +2324,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 158,
-      "person_id": "ruler-0817",
-      "canonical_name": "石虎",
+      "sequence": 133,
+      "person_id": "ruler-0816",
+      "canonical_name": "石祗",
       "polities": [
         "后赵"
       ],
@@ -2790,9 +2338,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 159,
-      "person_id": "ruler-0571",
-      "canonical_name": "李雄",
+      "sequence": 134,
+      "person_id": "ruler-0552",
+      "canonical_name": "李班",
       "polities": [
         "成汉"
       ],
@@ -2804,9 +2352,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 160,
-      "person_id": "ruler-0103",
-      "canonical_name": "刘粲",
+      "sequence": 135,
+      "person_id": "ruler-0094",
+      "canonical_name": "刘熙",
       "polities": [
         "汉赵/前赵"
       ],
@@ -2818,9 +2366,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 161,
-      "person_id": "ruler-0369",
-      "canonical_name": "慕容瑶",
+      "sequence": 136,
+      "person_id": "ruler-0367",
+      "canonical_name": "慕容泓",
       "polities": [
         "西燕"
       ],
@@ -2832,9 +2380,65 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 162,
-      "person_id": "ruler-1141",
-      "canonical_name": "钱镠",
+      "sequence": 137,
+      "person_id": "ruler-0015",
+      "canonical_name": "乞伏炽磐",
+      "polities": [
+        "西秦"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 138,
+      "person_id": "ruler-0250",
+      "canonical_name": "安禄山",
+      "polities": [
+        "安史燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h6-north-south-sui-tang.json"
+      ],
+      "source_segment": 6,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 139,
+      "person_id": "ruler-0118",
+      "canonical_name": "刘钧",
+      "polities": [
+        "北汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "source_segment": 7,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 140,
+      "person_id": "ruler-0124",
+      "canonical_name": "刘龑",
+      "polities": [
+        "南汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "source_segment": 7,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 141,
+      "person_id": "ruler-1140",
+      "canonical_name": "钱弘倧",
       "polities": [
         "吴越"
       ],
@@ -2846,9 +2450,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 163,
-      "person_id": "ruler-1232",
-      "canonical_name": "高继冲",
+      "sequence": 142,
+      "person_id": "ruler-0614",
+      "canonical_name": "杨隆演",
+      "polities": [
+        "杨吴"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "source_segment": 7,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 143,
+      "person_id": "ruler-1222",
+      "canonical_name": "高季兴",
       "polities": [
         "荆南/南平"
       ],
@@ -2860,9 +2478,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 164,
-      "person_id": "ruler-0784",
-      "canonical_name": "王延钧",
+      "sequence": 144,
+      "person_id": "ruler-0783",
+      "canonical_name": "王延翰",
       "polities": [
         "闽"
       ],
@@ -2874,9 +2492,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 165,
-      "person_id": "ruler-1214",
-      "canonical_name": "马希萼",
+      "sequence": 145,
+      "person_id": "ruler-1213",
+      "canonical_name": "马希范",
       "polities": [
         "马楚"
       ],
@@ -2888,9 +2506,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 166,
-      "person_id": "ruler-0531",
-      "canonical_name": "李德旺",
+      "sequence": 146,
+      "person_id": "ruler-0526",
+      "canonical_name": "李安全",
       "polities": [
         "西夏"
       ],
@@ -2902,9 +2520,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 167,
-      "person_id": "ruler-0896",
-      "canonical_name": "耶律璟",
+      "sequence": 147,
+      "person_id": "ruler-0898",
+      "canonical_name": "耶律直鲁古",
+      "polities": [
+        "西辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "source_segment": 8,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 148,
+      "person_id": "ruler-0894",
+      "canonical_name": "耶律洪基",
       "polities": [
         "辽"
       ],
@@ -2916,9 +2548,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 168,
-      "person_id": "ruler-0289",
-      "canonical_name": "完颜晟",
+      "sequence": 149,
+      "person_id": "ruler-0288",
+      "canonical_name": "完颜承麟",
       "polities": [
         "金"
       ],
@@ -2930,9 +2562,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 169,
-      "person_id": "ruler-0473",
-      "canonical_name": "曹锟",
+      "sequence": 150,
+      "person_id": "ruler-0509",
+      "canonical_name": "朱聿键",
+      "polities": [
+        "南明皇帝"
+      ],
+      "source_files": [
+        "data/rulers-master-h10-ming-transition.json"
+      ],
+      "source_segment": 10,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 151,
+      "person_id": "ruler-0341",
+      "canonical_name": "徐世昌",
       "polities": [
         "中华民国北京政府/北洋政府"
       ],
@@ -2944,7 +2590,21 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 170,
+      "sequence": 152,
+      "person_id": "ruler-1044",
+      "canonical_name": "谭延闿",
+      "polities": [
+        "南京国民政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "source_segment": 12,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 153,
       "person_id": "ruler-0334",
       "canonical_name": "张茂",
       "polities": [
@@ -2958,7 +2618,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 171,
+      "sequence": 154,
       "person_id": "ruler-0921",
       "canonical_name": "苻登",
       "polities": [
@@ -2972,9 +2632,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 172,
-      "person_id": "ruler-0372",
-      "canonical_name": "慕容详",
+      "sequence": 155,
+      "person_id": "ruler-0371",
+      "canonical_name": "慕容盛",
       "polities": [
         "后燕"
       ],
@@ -2986,9 +2646,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 173,
-      "person_id": "ruler-0818",
-      "canonical_name": "石遵",
+      "sequence": 156,
+      "person_id": "ruler-0817",
+      "canonical_name": "石虎",
       "polities": [
         "后赵"
       ],
@@ -3000,9 +2660,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 174,
-      "person_id": "ruler-0107",
-      "canonical_name": "刘聪",
+      "sequence": 157,
+      "person_id": "ruler-0571",
+      "canonical_name": "李雄",
+      "polities": [
+        "成汉"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 158,
+      "person_id": "ruler-0103",
+      "canonical_name": "刘粲",
       "polities": [
         "汉赵/前赵"
       ],
@@ -3014,9 +2688,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 175,
-      "person_id": "ruler-0374",
-      "canonical_name": "慕容顗",
+      "sequence": 159,
+      "person_id": "ruler-0369",
+      "canonical_name": "慕容瑶",
       "polities": [
         "西燕"
       ],
@@ -3028,9 +2702,37 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 176,
-      "person_id": "ruler-0786",
-      "canonical_name": "王继鹏",
+      "sequence": 160,
+      "person_id": "ruler-1141",
+      "canonical_name": "钱镠",
+      "polities": [
+        "吴越"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "source_segment": 7,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 161,
+      "person_id": "ruler-1232",
+      "canonical_name": "高继冲",
+      "polities": [
+        "荆南/南平"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "source_segment": 7,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 162,
+      "person_id": "ruler-0784",
+      "canonical_name": "王延钧",
       "polities": [
         "闽"
       ],
@@ -3042,9 +2744,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 177,
-      "person_id": "ruler-1215",
-      "canonical_name": "马殷",
+      "sequence": 163,
+      "person_id": "ruler-1214",
+      "canonical_name": "马希萼",
       "polities": [
         "马楚"
       ],
@@ -3056,9 +2758,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 178,
-      "person_id": "ruler-0554",
-      "canonical_name": "李睍",
+      "sequence": 164,
+      "person_id": "ruler-0531",
+      "canonical_name": "李德旺",
       "polities": [
         "西夏"
       ],
@@ -3070,9 +2772,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 179,
-      "person_id": "ruler-0900",
-      "canonical_name": "耶律贤",
+      "sequence": 165,
+      "person_id": "ruler-0896",
+      "canonical_name": "耶律璟",
       "polities": [
         "辽"
       ],
@@ -3084,9 +2786,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 180,
-      "person_id": "ruler-0290",
-      "canonical_name": "完颜永济",
+      "sequence": 166,
+      "person_id": "ruler-0289",
+      "canonical_name": "完颜晟",
       "polities": [
         "金"
       ],
@@ -3098,9 +2800,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 181,
-      "person_id": "ruler-0573",
-      "canonical_name": "杜锡珪",
+      "sequence": 167,
+      "person_id": "ruler-0473",
+      "canonical_name": "曹锟",
       "polities": [
         "中华民国北京政府/北洋政府"
       ],
@@ -3112,7 +2814,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 182,
+      "sequence": 168,
       "person_id": "ruler-0337",
       "canonical_name": "张重华",
       "polities": [
@@ -3126,9 +2828,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 183,
-      "person_id": "ruler-0375",
-      "canonical_name": "慕容麟",
+      "sequence": 169,
+      "person_id": "ruler-0372",
+      "canonical_name": "慕容详",
       "polities": [
         "后燕"
       ],
@@ -3140,9 +2842,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 184,
-      "person_id": "ruler-0820",
-      "canonical_name": "石鉴",
+      "sequence": 170,
+      "person_id": "ruler-0818",
+      "canonical_name": "石遵",
       "polities": [
         "后赵"
       ],
@@ -3154,9 +2856,23 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 185,
-      "person_id": "ruler-0689",
-      "canonical_name": "段随",
+      "sequence": 171,
+      "person_id": "ruler-0107",
+      "canonical_name": "刘聪",
+      "polities": [
+        "汉赵/前赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 172,
+      "person_id": "ruler-0374",
+      "canonical_name": "慕容顗",
       "polities": [
         "西燕"
       ],
@@ -3168,9 +2884,37 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 186,
-      "person_id": "ruler-0555",
-      "canonical_name": "李秉常",
+      "sequence": 173,
+      "person_id": "ruler-0786",
+      "canonical_name": "王继鹏",
+      "polities": [
+        "闽"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "source_segment": 7,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 174,
+      "person_id": "ruler-1215",
+      "canonical_name": "马殷",
+      "polities": [
+        "马楚"
+      ],
+      "source_files": [
+        "data/rulers-master-h7-five-ten.json"
+      ],
+      "source_segment": 7,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 175,
+      "person_id": "ruler-0554",
+      "canonical_name": "李睍",
       "polities": [
         "西夏"
       ],
@@ -3182,9 +2926,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 187,
-      "person_id": "ruler-0902",
-      "canonical_name": "耶律阮",
+      "sequence": 176,
+      "person_id": "ruler-0900",
+      "canonical_name": "耶律贤",
       "polities": [
         "辽"
       ],
@@ -3196,9 +2940,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 188,
-      "person_id": "ruler-0291",
-      "canonical_name": "完颜珣",
+      "sequence": 177,
+      "person_id": "ruler-0290",
+      "canonical_name": "完颜永济",
       "polities": [
         "金"
       ],
@@ -3210,9 +2954,9 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 189,
-      "person_id": "ruler-0682",
-      "canonical_name": "段祺瑞",
+      "sequence": 178,
+      "person_id": "ruler-0573",
+      "canonical_name": "杜锡珪",
       "polities": [
         "中华民国北京政府/北洋政府"
       ],
@@ -3224,7 +2968,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 190,
+      "sequence": 179,
       "person_id": "ruler-0338",
       "canonical_name": "张骏",
       "polities": [
@@ -3238,7 +2982,105 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 191,
+      "sequence": 180,
+      "person_id": "ruler-0375",
+      "canonical_name": "慕容麟",
+      "polities": [
+        "后燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 181,
+      "person_id": "ruler-0820",
+      "canonical_name": "石鉴",
+      "polities": [
+        "后赵"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 182,
+      "person_id": "ruler-0689",
+      "canonical_name": "段随",
+      "polities": [
+        "西燕"
+      ],
+      "source_files": [
+        "data/rulers-master-h5-jin-sixteen.json"
+      ],
+      "source_segment": 5,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 183,
+      "person_id": "ruler-0555",
+      "canonical_name": "李秉常",
+      "polities": [
+        "西夏"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "source_segment": 8,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 184,
+      "person_id": "ruler-0902",
+      "canonical_name": "耶律阮",
+      "polities": [
+        "辽"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "source_segment": 8,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 185,
+      "person_id": "ruler-0291",
+      "canonical_name": "完颜珣",
+      "polities": [
+        "金"
+      ],
+      "source_files": [
+        "data/rulers-master-h8-song-liao-xia-jin-dali.json"
+      ],
+      "source_segment": 8,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 186,
+      "person_id": "ruler-0682",
+      "canonical_name": "段祺瑞",
+      "polities": [
+        "中华民国北京政府/北洋政府"
+      ],
+      "source_files": [
+        "data/rulers-master-h12-republic.json"
+      ],
+      "source_segment": 12,
+      "status": "NEEDS_SOURCE_REVIEW",
+      "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
+    },
+    {
+      "sequence": 187,
       "person_id": "ruler-0557",
       "canonical_name": "李纯祐",
       "polities": [
@@ -3252,7 +3094,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 192,
+      "sequence": 188,
       "person_id": "ruler-0903",
       "canonical_name": "耶律阿保机",
       "polities": [
@@ -3266,7 +3108,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 193,
+      "sequence": 189,
       "person_id": "ruler-0292",
       "canonical_name": "完颜璟",
       "polities": [
@@ -3280,7 +3122,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 194,
+      "sequence": 190,
       "person_id": "ruler-0907",
       "canonical_name": "胡惟德",
       "polities": [
@@ -3294,7 +3136,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 195,
+      "sequence": 191,
       "person_id": "ruler-0563",
       "canonical_name": "李谅祚",
       "polities": [
@@ -3308,7 +3150,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 196,
+      "sequence": 192,
       "person_id": "ruler-0904",
       "canonical_name": "耶律隆绪",
       "polities": [
@@ -3322,7 +3164,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 197,
+      "sequence": 193,
       "person_id": "ruler-0293",
       "canonical_name": "完颜阿骨打",
       "polities": [
@@ -3336,7 +3178,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 198,
+      "sequence": 194,
       "person_id": "ruler-1205",
       "canonical_name": "顾维钧",
       "polities": [
@@ -3350,7 +3192,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 199,
+      "sequence": 195,
       "person_id": "ruler-0568",
       "canonical_name": "李遵顼",
       "polities": [
@@ -3364,7 +3206,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 200,
+      "sequence": 196,
       "person_id": "ruler-0294",
       "canonical_name": "完颜雍",
       "polities": [
@@ -3378,7 +3220,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 201,
+      "sequence": 197,
       "person_id": "ruler-1209",
       "canonical_name": "颜惠庆",
       "polities": [
@@ -3392,7 +3234,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 202,
+      "sequence": 198,
       "person_id": "ruler-1220",
       "canonical_name": "高凌霨",
       "polities": [
@@ -3406,7 +3248,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 203,
+      "sequence": 199,
       "person_id": "ruler-1279",
       "canonical_name": "黄郛",
       "polities": [
@@ -3420,7 +3262,7 @@
       "sequence_note": "Deterministic cross-polity work queue; sequence is not a rank."
     },
     {
-      "sequence": 204,
+      "sequence": 200,
       "person_id": "ruler-1281",
       "canonical_name": "黎元洪",
       "polities": [

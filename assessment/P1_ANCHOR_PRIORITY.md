@@ -6,10 +6,10 @@
 
 - Status: **SOURCE_REVIEW_IN_PROGRESS**
 - P0 missing: **0**
-- P1 candidate pool: **204**
-- Active source reviews recorded: **21**
-- Archived/completed source reviews: **3**
-- Active source reviews complete: **21**
+- P1 candidate pool: **200**
+- Active source reviews recorded: **17**
+- Archived/completed source reviews: **7**
+- Active source reviews complete: **17**
 - Needs or partial review: **183**
 - Initial tranche target: **24** across at least **8** polities
 
@@ -21,10 +21,10 @@ Candidates are placed into a deterministic polity round-robin sequence using sou
 
 | Seq | Person | Polity | Evidence state | Review state |
 |---:|---|---|---|---|
-| 1 | 冉智 | 冉魏 | LIMITED | SOURCE_REVIEW_COMPLETE |
-| 2 | 张天锡 | 前凉 | RICH | SOURCE_REVIEW_COMPLETE |
-| 3 | 慕容儁 | 前燕 | RICH | SOURCE_REVIEW_COMPLETE |
-| 4 | 苻丕 | 前秦 | RICH | SOURCE_REVIEW_COMPLETE |
+| 1 | 冉闵 | 冉魏 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 2 | 张寔 | 前凉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 3 | 慕容暐 | 前燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 4 | 苻健 | 前秦 | UNKNOWN | NEEDS_SOURCE_REVIEW |
 | 5 | 段业 | 北凉 | MODERATE | SOURCE_REVIEW_COMPLETE |
 | 6 | 冯弘 | 北燕 | MODERATE | SOURCE_REVIEW_COMPLETE |
 | 7 | 秃发乌孤 | 南凉 | RICH | SOURCE_REVIEW_COMPLETE |

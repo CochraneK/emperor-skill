@@ -5,13 +5,13 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 606,
+    "all_missing_core": 602,
     "p0_backbone_core_persons": 216,
     "p0_backbone_complete": 216,
     "p0_backbone_missing": 0,
     "p0_backbone_completion_ratio": 1.0,
-    "p1_post_qin_anchor_candidate_pool": 204,
-    "p2_remaining_post_qin_core_pool": 204,
+    "p1_post_qin_anchor_candidate_pool": 200,
+    "p2_remaining_post_qin_core_pool": 200,
     "p3_early_and_preqin_missing_core": 402,
     "mapping_issues": 0,
     "current_focus_lane": null,
@@ -2696,17 +2696,6 @@
         "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
       },
       {
-        "person_id": "ruler-0049",
-        "canonical_name": "冉智",
-        "polities": [
-          "冉魏"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
-      },
-      {
         "person_id": "ruler-0050",
         "canonical_name": "冉闵",
         "polities": [
@@ -3225,17 +3214,6 @@
         "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
       },
       {
-        "person_id": "ruler-0326",
-        "canonical_name": "张天锡",
-        "polities": [
-          "前凉"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
-      },
-      {
         "person_id": "ruler-0327",
         "canonical_name": "张寔",
         "polities": [
@@ -3342,17 +3320,6 @@
         ],
         "source_files": [
           "data/rulers-master-h9-yuan-rivals.json"
-        ],
-        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
-      },
-      {
-        "person_id": "ruler-0359",
-        "canonical_name": "慕容儁",
-        "polities": [
-          "前燕"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
         ],
         "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
       },
@@ -4402,17 +4369,6 @@
         "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
       },
       {
-        "person_id": "ruler-0916",
-        "canonical_name": "苻丕",
-        "polities": [
-          "前秦"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
-      },
-      {
         "person_id": "ruler-0917",
         "canonical_name": "苻健",
         "polities": [
@@ -4879,7 +4835,7 @@
   },
   "p2_remaining_post_qin_core": {
     "status": "AFTER_P1",
-    "count": 204
+    "count": 200
   },
   "p3_early_and_preqin_core": {
     "status": "AFTER_POST_QIN",

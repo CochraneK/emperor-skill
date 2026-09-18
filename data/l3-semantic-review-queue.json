@@ -38,11 +38,11 @@
     "repeated_paragraph_min_chars": 90
   },
   "summary": {
-    "packages_scanned": 309,
+    "packages_scanned": 312,
     "packages_flagged_for_l3_review": 0,
     "high_similarity_pairs": 0,
     "repeated_long_paragraph_groups": 0,
-    "packages_with_stable_person_id": 308,
+    "packages_with_stable_person_id": 311,
     "legacy_payload_fallback_packages": 0
   },
   "review_queue": [],

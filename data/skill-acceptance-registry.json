@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-09-18T09:08:48.982367+00:00",
+  "generated_at_utc": "2026-09-18T09:12:51.114999+00:00",
   "status": "MODEL_AGNOSTIC_ACCEPTANCE_REGISTRY",
   "policy": "SKILL_ACCEPTANCE_POLICY.md",
   "canonical_audit": "NUWA_AUDIT_V2.md",
   "automatic_acceptance": false,
   "summary": {
-    "current_skills": 309,
+    "current_skills": 312,
     "accepted": 8,
     "patch": 0,
     "redistill": 39,
     "reresearch": 0,
     "rebuild": 0,
     "review": 0,
-    "unassessed": 262,
+    "unassessed": 265,
     "explicit_attestations": 8,
     "historical_triage_rows_applied": 39,
     "machine_l3_flags": 0
@@ -2739,6 +2739,54 @@
       "machine_signals": {
         "research_md_files": 6,
         "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shiliuguo/fupi-perspective",
+      "person_id": "ruler-0916",
+      "dynasty": "shiliuguo",
+      "package": "fupi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": false,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shiliuguo/murongjun-perspective",
+      "person_id": "ruler-0359",
+      "dynasty": "shiliuguo",
+      "package": "murongjun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": false,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shiliuguo/zhangtianci-perspective",
+      "person_id": "ruler-0326",
+      "dynasty": "shiliuguo",
+      "package": "zhangtianci-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": false,
         "l3_similarity_review_flag": false
       },
       "attestation": null

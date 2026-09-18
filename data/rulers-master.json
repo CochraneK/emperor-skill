@@ -23,11 +23,11 @@
   ],
   "candidate_stats": {
     "total_unique_candidates": 1312,
-    "core": 913,
+    "core": 912,
     "excluded_review": 3,
     "extended": 15,
     "legendary": 16,
-    "review": 365
+    "review": 366
   },
   "identity_rule": "one person = one stable append-only person ID; reigns/titles/polities are rule episodes; later merges retire/redirect IDs rather than renumbering",
   "completion_rule": "matched locked CORE persons / all locked CORE persons; REVIEW/EXTENDED/LEGENDARY separate",

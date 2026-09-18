@@ -5,9 +5,9 @@
   "worker_brief": "WORKER_BRIEF_V2.md",
   "status_note": "The frozen 39-package mtime provenance snapshot is fully classified. This is triage, not a corpus-wide PASS.",
   "totals": {
-    "skills": 309,
-    "dynasty_directories": 21,
-    "skills_top_level_directories": 22
+    "skills": 312,
+    "dynasty_directories": 22,
+    "skills_top_level_directories": 23
   },
   "non_dynasty_directories": [
     "_audit"
@@ -77,6 +77,11 @@
       "id": "jin",
       "name": "晋",
       "count": 15
+    },
+    {
+      "id": "shiliuguo",
+      "name": "十六国及并行政权",
+      "count": 3
     },
     {
       "id": "nanbeichao",
@@ -199,18 +204,18 @@
     "gap_file": "data/corpus-gap.json",
     "scope_exceptions": "data/corpus-scope-exceptions.json",
     "candidate_persons": 1312,
-    "locked_core_persons": 913,
-    "matched_core_persons": 307,
-    "missing_core_persons": 606,
-    "review_persons": 365,
+    "locked_core_persons": 912,
+    "matched_core_persons": 310,
+    "missing_core_persons": 602,
+    "review_persons": 366,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 309,
-    "matched_existing_skills": 308,
+    "existing_skills": 312,
+    "matched_existing_skills": 311,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 309,
-    "core_coverage_ratio": 0.3363,
+    "accounted_existing_skills": 312,
+    "core_coverage_ratio": 0.3399,
     "note": "Canonical-label QA is clean and stable IDs are active. REVIEW disputes and polity discovery remain explicit without renumbering existing persons.",
     "person_id_registry": "data/ruler-person-id-registry.json",
     "stable_ids_active": 1312,

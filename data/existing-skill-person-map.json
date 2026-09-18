@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 309,
+  "count": 312,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -2548,6 +2548,51 @@
       "en": "Zuyi",
       "era": "约前1400–约前1381",
       "frontmatter_name": "zuyi-perspective"
+    },
+    {
+      "skill_path": "skills/shiliuguo/fupi-perspective",
+      "skill_file": "skills/shiliuguo/fupi-perspective/SKILL.md",
+      "dynasty_dir": "shiliuguo",
+      "package_slug": "fupi-perspective",
+      "cn": "苻丕",
+      "normalized_cn": "苻丕",
+      "name_hints": [
+        "前秦哀平帝",
+        "苻丕"
+      ],
+      "en": "Fu Pi",
+      "era": "?–386；385–386在位",
+      "frontmatter_name": "fupi-perspective"
+    },
+    {
+      "skill_path": "skills/shiliuguo/murongjun-perspective",
+      "skill_file": "skills/shiliuguo/murongjun-perspective/SKILL.md",
+      "dynasty_dir": "shiliuguo",
+      "package_slug": "murongjun-perspective",
+      "cn": "慕容儁",
+      "normalized_cn": "慕容儁",
+      "name_hints": [
+        "前燕景昭帝",
+        "慕容儁"
+      ],
+      "en": "Murong Jun",
+      "era": "319–360；349–360统治前燕",
+      "frontmatter_name": "murongjun-perspective"
+    },
+    {
+      "skill_path": "skills/shiliuguo/zhangtianci-perspective",
+      "skill_file": "skills/shiliuguo/zhangtianci-perspective/SKILL.md",
+      "dynasty_dir": "shiliuguo",
+      "package_slug": "zhangtianci-perspective",
+      "cn": "张天锡",
+      "normalized_cn": "张天锡",
+      "name_hints": [
+        "字纯嘏",
+        "张天锡"
+      ],
+      "en": "Zhang Tianci",
+      "era": "4世纪；363–376统治前凉",
+      "frontmatter_name": "zhangtianci-perspective"
     },
     {
       "skill_path": "skills/song/zhaobing-perspective",
