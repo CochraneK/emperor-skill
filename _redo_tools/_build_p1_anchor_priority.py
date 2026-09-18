@@ -19,6 +19,7 @@ ASSESSMENT = ROOT / "assessment"
 PRIORITY = DATA / "distillation-priority.json"
 POLICY = DATA / "p1-anchor-selection-policy.json"
 REVIEWS = DATA / "p1-anchor-reviews.json"
+PERSON_INDEX = DATA / "rulers-person-index.json"
 OUT = DATA / "p1-anchor-priority.json"
 REPORT = ASSESSMENT / "P1_ANCHOR_PRIORITY.md"
 
@@ -100,6 +101,7 @@ def build_sequence(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def validate_reviews(
     review_doc: dict[str, Any],
     candidate_by_id: dict[str, dict[str, Any]],
+    person_by_id: dict[str, dict[str, Any]],
     allowed_evidence: set[str],
 ) -> dict[str, dict[str, Any]]:
     out: dict[str, dict[str, Any]] = {}
@@ -111,7 +113,12 @@ def validate_reviews(
             continue
         candidate = candidate_by_id.get(pid)
         if not candidate:
-            errors.append(f"unknown/non-P1 person_id: {pid!r}")
+            # Completed candidates leave the active P1 pool once a Skill is added.
+            # Keep their source-review rows as durable research metadata instead of
+            # turning successful distillation into a workflow failure.
+            if pid in person_by_id:
+                continue
+            errors.append(f"unknown person_id in P1 source-review registry: {pid!r}")
             continue
         canonical = candidate.get("canonical_name")
         supplied = raw.get("canonical_name")
@@ -153,10 +160,12 @@ def build() -> dict[str, Any]:
     priority = load(PRIORITY)
     policy = load(POLICY)
     review_doc = load(REVIEWS)
+    person_index = load(PERSON_INDEX)
     candidates = priority["p1_high_leverage_anchors"]["candidate_pool"]
     candidate_by_id = {str(r["person_id"]): r for r in candidates}
+    person_by_id = {str(r["person_id"]): r for r in person_index.get("persons", [])}
     allowed_evidence = set(policy["descriptive_review_fields"]["evidence_state"]["allowed"])
-    reviews = validate_reviews(review_doc, candidate_by_id, allowed_evidence)
+    reviews = validate_reviews(review_doc, candidate_by_id, person_by_id, allowed_evidence)
     sequence = build_sequence(candidates)
 
     annotated: list[dict[str, Any]] = []
@@ -194,6 +203,7 @@ def build() -> dict[str, Any]:
             "p0_missing": p0_missing,
             "candidate_pool": len(candidates),
             "source_reviews_recorded": len(reviews),
+            "source_reviews_archived_or_completed": len(review_doc.get("reviews", [])) - len(reviews),
             "source_reviews_complete": len(complete),
             "needs_or_partial_review": len(candidates) - len(complete),
             "initial_anchor_tranche_target": target,
@@ -219,8 +229,9 @@ def write_report(doc: dict[str, Any], policy: dict[str, Any]) -> None:
         f"- Status: **{doc['status']}**",
         f"- P0 missing: **{s['p0_missing']}**",
         f"- P1 candidate pool: **{s['candidate_pool']}**",
-        f"- Source reviews recorded: **{s['source_reviews_recorded']}**",
-        f"- Source reviews complete: **{s['source_reviews_complete']}**",
+        f"- Active source reviews recorded: **{s['source_reviews_recorded']}**",
+        f"- Archived/completed source reviews: **{s.get('source_reviews_archived_or_completed', 0)}**",
+        f"- Active source reviews complete: **{s['source_reviews_complete']}**",
         f"- Needs or partial review: **{s['needs_or_partial_review']}**",
         f"- Initial tranche target: **{s['initial_anchor_tranche_target']}** across at least **{s['minimum_cross_polity_diversity']}** polities",
         "",
