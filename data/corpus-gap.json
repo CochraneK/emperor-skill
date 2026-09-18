@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 912,
-    "matched_core_persons": 316,
-    "missing_core_persons": 596,
+    "matched_core_persons": 319,
+    "missing_core_persons": 593,
     "review_persons": 366,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 318,
-    "matched_existing_skills": 317,
+    "existing_skills": 321,
+    "matched_existing_skills": 320,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 318,
-    "core_coverage_ratio": 0.3465
+    "accounted_existing_skills": 321,
+    "core_coverage_ratio": 0.3498
   },
   "missing_core": [
     {
@@ -574,16 +574,6 @@
       "corpus_status": "CORE",
       "polities": [
         "吴"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0224",
-      "canonical_name": "姚兴",
-      "corpus_status": "CORE",
-      "polities": [
-        "后秦"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -2230,16 +2220,6 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-0522",
-      "canonical_name": "李势",
-      "corpus_status": "CORE",
-      "polities": [
-        "成汉"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
       "candidate_id": "ruler-0526",
       "canonical_name": "李安全",
       "corpus_status": "CORE",
@@ -3187,16 +3167,6 @@
       "corpus_status": "CORE",
       "polities": [
         "田齐"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0812",
-      "canonical_name": "石世",
-      "corpus_status": "CORE",
-      "polities": [
-        "后赵"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -12108,8 +12078,10 @@
       "polities": [
         "后秦"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/shiliuguo/yaoxing-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0225",
@@ -15253,8 +15225,10 @@
       "polities": [
         "成汉"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/shiliuguo/lishi-chenghan-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0523",
@@ -18259,8 +18233,10 @@
       "polities": [
         "后赵"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/shiliuguo/shishi-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0813",

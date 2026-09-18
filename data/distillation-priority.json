@@ -5,13 +5,13 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 596,
+    "all_missing_core": 593,
     "p0_backbone_core_persons": 216,
     "p0_backbone_complete": 216,
     "p0_backbone_missing": 0,
     "p0_backbone_completion_ratio": 1.0,
-    "p1_post_qin_anchor_candidate_pool": 194,
-    "p2_remaining_post_qin_core_pool": 194,
+    "p1_post_qin_anchor_candidate_pool": 191,
+    "p2_remaining_post_qin_core_pool": 191,
     "p3_early_and_preqin_missing_core": 402,
     "mapping_issues": 0,
     "current_focus_lane": null,
@@ -2949,17 +2949,6 @@
         "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
       },
       {
-        "person_id": "ruler-0224",
-        "canonical_name": "姚兴",
-        "polities": [
-          "后秦"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
-      },
-      {
         "person_id": "ruler-0225",
         "canonical_name": "姚泓",
         "polities": [
@@ -3577,17 +3566,6 @@
         "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
       },
       {
-        "person_id": "ruler-0522",
-        "canonical_name": "李势",
-        "polities": [
-          "成汉"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
-      },
-      {
         "person_id": "ruler-0526",
         "canonical_name": "李安全",
         "polities": [
@@ -4024,17 +4002,6 @@
         ],
         "source_files": [
           "data/rulers-master-h7-five-ten.json"
-        ],
-        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
-      },
-      {
-        "person_id": "ruler-0812",
-        "canonical_name": "石世",
-        "polities": [
-          "后赵"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
         ],
         "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
       },
@@ -4769,7 +4736,7 @@
   },
   "p2_remaining_post_qin_core": {
     "status": "AFTER_P1",
-    "count": 194
+    "count": 191
   },
   "p3_early_and_preqin_core": {
     "status": "AFTER_POST_QIN",

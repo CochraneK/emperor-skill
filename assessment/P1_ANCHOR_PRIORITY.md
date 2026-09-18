@@ -6,10 +6,10 @@
 
 - Status: **SOURCE_REVIEW_IN_PROGRESS**
 - P0 missing: **0**
-- P1 candidate pool: **194**
-- Active source reviews recorded: **11**
-- Archived/completed source reviews: **13**
-- Active source reviews complete: **11**
+- P1 candidate pool: **191**
+- Active source reviews recorded: **8**
+- Archived/completed source reviews: **16**
+- Active source reviews complete: **8**
 - Needs or partial review: **183**
 - Initial tranche target: **24** across at least **8** polities
 
@@ -31,9 +31,9 @@ Candidates are placed into a deterministic polity round-robin sequence using sou
 | 8 | 慕容超 | 南燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
 | 9 | 吕纂 | 后凉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
 | 10 | 慕容垂 | 后燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
-| 11 | 姚兴 | 后秦 | RICH | SOURCE_REVIEW_COMPLETE |
-| 12 | 石世 | 后赵 | LIMITED | SOURCE_REVIEW_COMPLETE |
-| 13 | 李势 | 成汉 | MODERATE | SOURCE_REVIEW_COMPLETE |
+| 11 | 姚泓 | 后秦 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 12 | 石勒 | 后赵 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 13 | 李寿 | 成汉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
 | 14 | 桓玄 | 桓楚 | RICH | SOURCE_REVIEW_COMPLETE |
 | 15 | 刘和 | 汉赵/前赵 | MODERATE | SOURCE_REVIEW_COMPLETE |
 | 16 | 赫连勃勃 | 胡夏 | RICH | SOURCE_REVIEW_COMPLETE |
