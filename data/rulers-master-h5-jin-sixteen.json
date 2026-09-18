@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "batch": "H5-three-kingdoms-jin-sixteen",
-  "status": "CORE_SEQUENCES_ENUMERATED_V1_OUTSIDE_REGIMES_DISCOVERY_OPEN",
+  "status": "CORE_SEQUENCES_ENUMERATED_V1_EVIDENCE_QA_ACTIVE",
   "principle": "Title 皇帝 is not the admission gate. Actual highest rule of an autonomous polity is. Posthumous-only ancestors are excluded from person counts; brief usurpers with actual supreme control are retained for episode review.",
   "source_notes": [
     "Three Kingdoms/Jin primary sequence cross-checked against the existing 11 + 15 Skill corpus.",
@@ -338,9 +338,16 @@
       "layer": "CORE",
       "persons": [
         "冉闵",
-        "冉智"
+        {
+          "name": "冉智",
+          "status": "CORE_REVIEW",
+          "reason": "《晋书》卷107仅明确其为冉闵太子、年幼留邺；冉闵被俘后守城与归晋交涉由蒋干主持，未见明确即位/独立最高统治 episode。研究后从锁定 CORE 回退 REVIEW。"
+        }
       ],
-      "reason": "Not one of conventional Sixteen but passes the same actual-sovereign rule."
+      "reason": "Not one of conventional Sixteen but passes the same actual-sovereign rule.",
+      "qa": [
+        "冉智不得因父亡、太子身份自动推定继位；若无新增证据证明实际最高统治，不生成 ruler Skill。"
+      ]
     },
     {
       "id": "western-yan",

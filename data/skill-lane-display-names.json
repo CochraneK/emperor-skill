@@ -16,6 +16,7 @@
     "donghan",
     "sanguo",
     "jin",
+    "shiliuguo",
     "nanbeichao",
     "sui",
     "tang",
@@ -46,6 +47,7 @@
     "song": "宋",
     "yuan": "元",
     "ming": "明",
-    "qing": "清"
+    "qing": "清",
+    "shiliuguo": "十六国及并行政权"
   }
 }
