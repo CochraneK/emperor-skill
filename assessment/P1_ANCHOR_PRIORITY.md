@@ -6,10 +6,10 @@
 
 - Status: **SOURCE_REVIEW_IN_PROGRESS**
 - P0 missing: **0**
-- P1 candidate pool: **197**
-- Active source reviews recorded: **14**
-- Archived/completed source reviews: **10**
-- Active source reviews complete: **14**
+- P1 candidate pool: **194**
+- Active source reviews recorded: **11**
+- Archived/completed source reviews: **13**
+- Active source reviews complete: **11**
 - Needs or partial review: **183**
 - Initial tranche target: **24** across at least **8** polities
 
@@ -28,9 +28,9 @@ Candidates are placed into a deterministic polity round-robin sequence using sou
 | 5 | 沮渠牧犍 | 北凉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
 | 6 | 冯跋 | 北燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
 | 7 | 秃发傉檀 | 南凉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
-| 8 | 慕容德 | 南燕 | RICH | SOURCE_REVIEW_COMPLETE |
-| 9 | 吕光 | 后凉 | RICH | SOURCE_REVIEW_COMPLETE |
-| 10 | 兰汗 | 后燕 | LIMITED | SOURCE_REVIEW_COMPLETE |
+| 8 | 慕容超 | 南燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 9 | 吕纂 | 后凉 | UNKNOWN | NEEDS_SOURCE_REVIEW |
+| 10 | 慕容垂 | 后燕 | UNKNOWN | NEEDS_SOURCE_REVIEW |
 | 11 | 姚兴 | 后秦 | RICH | SOURCE_REVIEW_COMPLETE |
 | 12 | 石世 | 后赵 | LIMITED | SOURCE_REVIEW_COMPLETE |
 | 13 | 李势 | 成汉 | MODERATE | SOURCE_REVIEW_COMPLETE |

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 315,
+  "count": 318,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -2593,6 +2593,51 @@
       "en": "Fu Pi",
       "era": "?–386；385–386在位",
       "frontmatter_name": "fupi-perspective"
+    },
+    {
+      "skill_path": "skills/shiliuguo/lanhan-perspective",
+      "skill_file": "skills/shiliuguo/lanhan-perspective/SKILL.md",
+      "dynasty_dir": "shiliuguo",
+      "package_slug": "lanhan-perspective",
+      "cn": "兰汗",
+      "normalized_cn": "兰汗",
+      "name_hints": [
+        "兰汗",
+        "后燕398年短期昌黎王"
+      ],
+      "en": "Lan Han",
+      "era": "?–398；398短期最高统治",
+      "frontmatter_name": "lanhan-perspective"
+    },
+    {
+      "skill_path": "skills/shiliuguo/lvguang-perspective",
+      "skill_file": "skills/shiliuguo/lvguang-perspective/SKILL.md",
+      "dynasty_dir": "shiliuguo",
+      "package_slug": "lvguang-perspective",
+      "cn": "吕光",
+      "normalized_cn": "吕光",
+      "name_hints": [
+        "后凉建立者",
+        "吕光"
+      ],
+      "en": "Lü Guang",
+      "era": "338–399；386后建立后凉",
+      "frontmatter_name": "lvguang-perspective"
+    },
+    {
+      "skill_path": "skills/shiliuguo/murongde-perspective",
+      "skill_file": "skills/shiliuguo/murongde-perspective/SKILL.md",
+      "dynasty_dir": "shiliuguo",
+      "package_slug": "murongde-perspective",
+      "cn": "慕容德",
+      "normalized_cn": "慕容德",
+      "name_hints": [
+        "南燕献武帝",
+        "慕容德"
+      ],
+      "en": "Murong De",
+      "era": "336–405；398–405统治南燕",
+      "frontmatter_name": "murongde-perspective"
     },
     {
       "skill_path": "skills/shiliuguo/murongjun-perspective",

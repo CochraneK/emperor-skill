@@ -9,13 +9,13 @@
   },
   "summary": {
     "A_CORE_MAJOR_SEQUENCE_MISSING": 34,
-    "B_CORE_PARALLEL_POLITY_MISSING": 163,
+    "B_CORE_PARALLEL_POLITY_MISSING": 160,
     "D_CORE_EARLY_OR_PREQIN_MISSING": 402,
     "Q1_SCOPE_OR_IDENTITY_REVIEW": 366,
     "Q2_EXTENDED_REVIEW": 0,
     "Q3_LEGENDARY_LIMITED_EVIDENCE": 0,
     "Q4_OTHER_REVIEW": 0,
-    "missing_core_total": 599,
+    "missing_core_total": 596,
     "review_total": 366,
     "existing_skill_unresolved": 0,
     "identity_blockers": 0
@@ -1023,34 +1023,10 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-0363",
-        "canonical_name": "慕容德",
-        "polities": [
-          "南燕"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
         "candidate_id": "ruler-0373",
         "canonical_name": "慕容超",
         "polities": [
           "南燕"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0192",
-        "canonical_name": "吕光",
-        "polities": [
-          "后凉"
         ],
         "source_files": [
           "data/rulers-master-h5-jin-sixteen.json"
@@ -1087,18 +1063,6 @@
         "canonical_name": "吕隆",
         "polities": [
           "后凉"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0047",
-        "canonical_name": "兰汗",
-        "polities": [
-          "后燕"
         ],
         "source_files": [
           "data/rulers-master-h5-jin-sixteen.json"

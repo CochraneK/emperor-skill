@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 912,
-    "matched_core_persons": 313,
-    "missing_core_persons": 599,
+    "matched_core_persons": 316,
+    "missing_core_persons": 596,
     "review_persons": 366,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 315,
-    "matched_existing_skills": 314,
+    "existing_skills": 318,
+    "matched_existing_skills": 317,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 315,
-    "core_coverage_ratio": 0.3432
+    "accounted_existing_skills": 318,
+    "core_coverage_ratio": 0.3465
   },
   "missing_core": [
     {
@@ -224,16 +224,6 @@
       "corpus_status": "CORE",
       "polities": [
         "姜齐"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0047",
-      "canonical_name": "兰汗",
-      "corpus_status": "CORE",
-      "polities": [
-        "后燕"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -474,16 +464,6 @@
       "corpus_status": "CORE",
       "polities": [
         "安史燕"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0192",
-      "canonical_name": "吕光",
-      "corpus_status": "CORE",
-      "polities": [
-        "后凉"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -1315,16 +1295,6 @@
       "corpus_status": "CORE",
       "polities": [
         "后燕"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0363",
-      "canonical_name": "慕容德",
-      "corpus_status": "CORE",
-      "polities": [
-        "南燕"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -10210,8 +10180,10 @@
       "polities": [
         "后燕"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/shiliuguo/lanhan-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0048",
@@ -11795,8 +11767,10 @@
       "polities": [
         "后凉"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/shiliuguo/lvguang-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0193",
@@ -13597,8 +13571,10 @@
       "polities": [
         "南燕"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/shiliuguo/murongde-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0364",

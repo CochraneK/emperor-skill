@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-09-18T09:18:38.167590+00:00",
+  "generated_at_utc": "2026-09-18T09:21:24.342490+00:00",
   "status": "MODEL_AGNOSTIC_ACCEPTANCE_REGISTRY",
   "policy": "SKILL_ACCEPTANCE_POLICY.md",
   "canonical_audit": "NUWA_AUDIT_V2.md",
   "automatic_acceptance": false,
   "summary": {
-    "current_skills": 315,
+    "current_skills": 318,
     "accepted": 8,
     "patch": 0,
     "redistill": 39,
     "reresearch": 0,
     "rebuild": 0,
     "review": 0,
-    "unassessed": 268,
+    "unassessed": 271,
     "explicit_attestations": 8,
     "historical_triage_rows_applied": 39,
     "machine_l3_flags": 0
@@ -2780,6 +2780,54 @@
       "person_id": "ruler-0916",
       "dynasty": "shiliuguo",
       "package": "fupi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": false,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shiliuguo/lanhan-perspective",
+      "person_id": "ruler-0047",
+      "dynasty": "shiliuguo",
+      "package": "lanhan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": false,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shiliuguo/lvguang-perspective",
+      "person_id": "ruler-0192",
+      "dynasty": "shiliuguo",
+      "package": "lvguang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": false,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shiliuguo/murongde-perspective",
+      "person_id": "ruler-0363",
+      "dynasty": "shiliuguo",
+      "package": "murongde-perspective",
       "status": "UNASSESSED",
       "queue_action": "REVIEW",
       "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
