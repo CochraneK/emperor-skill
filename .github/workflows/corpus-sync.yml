@@ -15,6 +15,7 @@ on:
       - 'data/distillation-priority-policy.json'
       - 'data/p1-anchor-selection-policy.json'
       - 'data/p1-anchor-reviews.json'
+      - 'data/skill-lane-display-names.json'
       - 'data/provenance-repair-attestations.json'
       - 'data/skill-acceptance-attestations.json'
       - 'SKILL_ACCEPTANCE_POLICY.md'
