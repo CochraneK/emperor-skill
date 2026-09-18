@@ -231,7 +231,24 @@ Reason: <简洁、可核查理由>
 
 ---
 
-## 7. Canonical authority
+## 7. Canonical corpus acceptance
+
+Nuwa diagnosis and corpus admission are separate concepts. The canonical acceptance vocabulary is defined in `SKILL_ACCEPTANCE_POLICY.md`.
+
+A Skill is **not** `ACCEPTED` merely because:
+
+- CI is green;
+- local `quality_check.py` passes;
+- L3 lexical similarity reports no flag;
+- file/research counts look complete;
+- its producing model is trusted.
+
+`ACCEPTED` requires an explicit content-level L1–L4 attestation. Until then, an existing package remains `UNASSESSED` unless an earlier semantic triage already places it in a repair queue. This rule applies equally to GPT, WorkBuddy and any future producer.
+
+Generated corpus state lives in `data/skill-acceptance-registry.json`; reviewer evidence lives in `data/skill-acceptance-attestations.json`.
+
+---
+## 8. Canonical authority
 
 规则优先级：
 
