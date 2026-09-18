@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "policy": "SKILL_ACCEPTANCE_POLICY.md",
+  "attestation_semantics": "Explicit content-level Nuwa review evidence. Empty means no package has yet been certified by the new gate.",
+  "attestations": []
+}

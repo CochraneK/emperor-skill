@@ -16,6 +16,8 @@ on:
       - 'data/p1-anchor-selection-policy.json'
       - 'data/p1-anchor-reviews.json'
       - 'data/provenance-repair-attestations.json'
+      - 'data/skill-acceptance-attestations.json'
+      - 'SKILL_ACCEPTANCE_POLICY.md'
       - 'assessment/PROVENANCE_RECOVERY.md'
       - '_redo_tools/_order_suspects_39.md'
       - '_redo_tools/_build_ruler_corpus.py'
@@ -27,6 +29,7 @@ on:
       - '_redo_tools/_audit_l3_semantic_similarity.py'
       - '_redo_tools/_calibrate_l3_similarity.py'
       - '_redo_tools/_build_provenance_repair_registry.py'
+      - '_redo_tools/_build_skill_acceptance_registry.py'
       - '.github/workflows/corpus-sync.yml'
   workflow_dispatch:
 
@@ -60,6 +63,7 @@ jobs:
           python -m py_compile _redo_tools/_audit_l3_semantic_similarity.py
           python -m py_compile _redo_tools/_calibrate_l3_similarity.py
           python -m py_compile _redo_tools/_build_provenance_repair_registry.py
+          python -m py_compile _redo_tools/_build_skill_acceptance_registry.py
 
       - name: Generate corpus and quality artifacts
         run: |
@@ -71,6 +75,7 @@ jobs:
           python _redo_tools/_build_provenance_repair_registry.py
           python _redo_tools/_calibrate_l3_similarity.py
           python _redo_tools/_audit_l3_semantic_similarity.py
+          python _redo_tools/_build_skill_acceptance_registry.py
 
       - name: Guard generated semantics
         run: |
@@ -83,6 +88,7 @@ jobs:
           l3=json.loads(Path('data/l3-semantic-review-queue.json').read_text())
           baseline=json.loads(Path('data/l3-similarity-baseline.json').read_text())
           prov=json.loads(Path('data/provenance-repair-registry.json').read_text())
+          acceptance=json.loads(Path('data/skill-acceptance-registry.json').read_text())
           idreg=json.loads(Path('data/ruler-person-id-registry.json').read_text())
           assert issues['summary']['skill_to_multiple_person_collisions'] == 0
           assert issues['summary']['person_to_multiple_skill_matches'] == 0
@@ -100,6 +106,11 @@ jobs:
           assert baseline['status'] == 'DIAGNOSTIC_BASELINE_NOT_QUALITY_VERDICT'
           assert prov['summary']['historical_snapshot_packages'] == 39
           assert prov['summary']['semantic_triage_completed_packages'] == 39
+          assert acceptance['status'] == 'MODEL_AGNOSTIC_ACCEPTANCE_REGISTRY'
+          assert acceptance['automatic_acceptance'] is False
+          assert acceptance['summary']['current_skills'] == l3['summary']['packages_scanned']
+          assert acceptance['summary']['accepted'] <= acceptance['summary']['explicit_attestations']
+          assert sum(acceptance['summary'][k] for k in ('accepted','patch','redistill','reresearch','rebuild','review','unassessed')) == acceptance['summary']['current_skills']
           assert idreg['active_count'] > 0
           PY
 
@@ -117,6 +128,7 @@ jobs:
               ('L3 REVIEW','data/l3-semantic-review-queue.json'),
               ('L3 BASELINE','data/l3-similarity-baseline.json'),
               ('PROVENANCE REPAIR','data/provenance-repair-registry.json'),
+              ('SKILL ACCEPTANCE','data/skill-acceptance-registry.json'),
           ]:
               doc=json.loads(Path(path).read_text())
               print(label)
@@ -135,7 +147,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A -- data assessment/CORPUS_COVERAGE.md assessment/CORPUS_QA.md assessment/L3_SEMANTIC_QA.md assessment/DISTILLATION_PRIORITY.md assessment/P1_ANCHOR_PRIORITY.md
+          git add -A -- data assessment/CORPUS_COVERAGE.md assessment/CORPUS_QA.md assessment/L3_SEMANTIC_QA.md assessment/DISTILLATION_PRIORITY.md assessment/P1_ANCHOR_PRIORITY.md assessment/SKILL_ACCEPTANCE.md
           if git diff --cached --quiet; then
             echo 'No generated changes.'
             exit 0

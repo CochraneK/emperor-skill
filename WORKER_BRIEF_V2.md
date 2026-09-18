@@ -70,4 +70,8 @@ Use L1 Provenance, L2 Evidence, L3 Semantic Distillation, and L4 Engineering fro
 
 For sparse packages, L3 should reward **restraint and attribution correctness**, not model count or rhetorical richness. Hallucinated completeness is a more serious failure than an explicitly sparse profile.
 
+## Corpus acceptance
+
+Every producer is interchangeable at the gate. Do not self-certify a package as accepted from model identity, CI, file counts, local `quality_check.py`, or lexical L3 signals. Canonical acceptance follows `SKILL_ACCEPTANCE_POLICY.md`: record a content-level attestation in `data/skill-acceptance-attestations.json`; only a complete L1–L4 PASS with action `KEEP` becomes `ACCEPTED`. Otherwise choose the minimum sufficient repair action.
+
 Legacy `≥2.5KB` queues and mtime-only reverse-order verdicts are historical forensic signals, not current quality gates.
