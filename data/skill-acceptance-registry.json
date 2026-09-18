@@ -1,24 +1,56 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-09-18T02:07:42.625198+00:00",
+  "generated_at_utc": "2026-09-18T09:08:48.982367+00:00",
   "status": "MODEL_AGNOSTIC_ACCEPTANCE_REGISTRY",
   "policy": "SKILL_ACCEPTANCE_POLICY.md",
   "canonical_audit": "NUWA_AUDIT_V2.md",
   "automatic_acceptance": false,
   "summary": {
-    "current_skills": 306,
+    "current_skills": 309,
     "accepted": 8,
     "patch": 0,
     "redistill": 39,
     "reresearch": 0,
     "rebuild": 0,
     "review": 0,
-    "unassessed": 259,
+    "unassessed": 262,
     "explicit_attestations": 8,
     "historical_triage_rows_applied": 39,
     "machine_l3_flags": 0
   },
   "items": [
+    {
+      "skill_path": "skills/chengjia/gongsunshu-perspective",
+      "person_id": "ruler-0046",
+      "dynasty": "chengjia",
+      "package": "gongsunshu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": false,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/chimei/liupenzi-perspective",
+      "person_id": "ruler-0097",
+      "dynasty": "chimei",
+      "package": "liupenzi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": false,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
     {
       "skill_path": "skills/chuhan/xiangyu-perspective",
       "person_id": "ruler-1204",
@@ -291,6 +323,22 @@
       "machine_signals": {
         "research_md_files": 6,
         "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/gengshi/liuxuan-perspective",
+      "person_id": "ruler-0095",
+      "dynasty": "gengshi",
+      "package": "liuxuan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": false,
         "l3_similarity_review_flag": false
       },
       "attestation": null

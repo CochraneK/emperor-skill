@@ -1,10 +1,40 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 306,
+  "count": 309,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
+    {
+      "skill_path": "skills/chengjia/gongsunshu-perspective",
+      "skill_file": "skills/chengjia/gongsunshu-perspective/SKILL.md",
+      "dynasty_dir": "chengjia",
+      "package_slug": "gongsunshu-perspective",
+      "cn": "公孙述",
+      "normalized_cn": "公孙述",
+      "name_hints": [
+        "公孙述",
+        "字子阳"
+      ],
+      "en": "Gongsun Shu",
+      "era": "?–36；25–36称帝于成都",
+      "frontmatter_name": "gongsunshu-perspective"
+    },
+    {
+      "skill_path": "skills/chimei/liupenzi-perspective",
+      "skill_file": "skills/chimei/liupenzi-perspective/SKILL.md",
+      "dynasty_dir": "chimei",
+      "package_slug": "liupenzi-perspective",
+      "cn": "刘盆子",
+      "normalized_cn": "刘盆子",
+      "name_hints": [
+        "刘盆子",
+        "赤眉拥立的建世帝"
+      ],
+      "en": "Liu Penzi",
+      "era": "?；25–27名义在位",
+      "frontmatter_name": "liupenzi-perspective"
+    },
     {
       "skill_path": "skills/chuhan/xiangyu-perspective",
       "skill_file": "skills/chuhan/xiangyu-perspective/SKILL.md",
@@ -254,6 +284,21 @@
       "en": "Liu Zuan",
       "era": "145–146",
       "frontmatter_name": "zhidi-perspective"
+    },
+    {
+      "skill_path": "skills/gengshi/liuxuan-perspective",
+      "skill_file": "skills/gengshi/liuxuan-perspective/SKILL.md",
+      "dynasty_dir": "gengshi",
+      "package_slug": "liuxuan-perspective",
+      "cn": "刘玄",
+      "normalized_cn": "刘玄",
+      "name_hints": [
+        "刘玄",
+        "字圣公"
+      ],
+      "en": "Liu Xuan",
+      "era": "?–25；23–25在位",
+      "frontmatter_name": "liuxuan-perspective"
     },
     {
       "skill_path": "skills/jin/simachi-perspective",

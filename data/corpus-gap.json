@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 913,
-    "matched_core_persons": 304,
-    "missing_core_persons": 609,
+    "matched_core_persons": 307,
+    "missing_core_persons": 606,
     "review_persons": 365,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 306,
-    "matched_existing_skills": 305,
+    "existing_skills": 309,
+    "matched_existing_skills": 308,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 306,
-    "core_coverage_ratio": 0.333
+    "accounted_existing_skills": 309,
+    "core_coverage_ratio": 0.3363
   },
   "missing_core": [
     {
@@ -229,16 +229,6 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-0046",
-      "canonical_name": "公孙述",
-      "corpus_status": "CORE",
-      "polities": [
-        "成家"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
       "candidate_id": "ruler-0047",
       "canonical_name": "兰汗",
       "corpus_status": "CORE",
@@ -369,31 +359,11 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-0095",
-      "canonical_name": "刘玄",
-      "corpus_status": "CORE",
-      "polities": [
-        "更始政权/玄汉"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
       "candidate_id": "ruler-0096",
       "canonical_name": "刘玢",
       "corpus_status": "CORE",
       "polities": [
         "南汉"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0097",
-      "canonical_name": "刘盆子",
-      "corpus_status": "CORE",
-      "polities": [
-        "赤眉汉"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -10288,8 +10258,10 @@
       "polities": [
         "成家"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/chengjia/gongsunshu-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0047",
@@ -10832,8 +10804,10 @@
       "polities": [
         "更始政权/玄汉"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/gengshi/liuxuan-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0096",
@@ -10852,8 +10826,10 @@
       "polities": [
         "赤眉汉"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/chimei/liupenzi-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0098",

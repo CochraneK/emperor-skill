@@ -9,13 +9,13 @@
   },
   "summary": {
     "A_CORE_MAJOR_SEQUENCE_MISSING": 34,
-    "B_CORE_PARALLEL_POLITY_MISSING": 173,
+    "B_CORE_PARALLEL_POLITY_MISSING": 170,
     "D_CORE_EARLY_OR_PREQIN_MISSING": 402,
     "Q1_SCOPE_OR_IDENTITY_REVIEW": 365,
     "Q2_EXTENDED_REVIEW": 0,
     "Q3_LEGENDARY_LIMITED_EVIDENCE": 0,
     "Q4_OTHER_REVIEW": 0,
-    "missing_core_total": 609,
+    "missing_core_total": 606,
     "review_total": 365,
     "existing_skill_unresolved": 0,
     "identity_blockers": 0
@@ -766,42 +766,6 @@
         ],
         "source_files": [
           "data/rulers-master-h12-republic.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0046",
-        "canonical_name": "公孙述",
-        "polities": [
-          "成家"
-        ],
-        "source_files": [
-          "data/rulers-master-h4-qin-han.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0095",
-        "canonical_name": "刘玄",
-        "polities": [
-          "更始政权/玄汉"
-        ],
-        "source_files": [
-          "data/rulers-master-h4-qin-han.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0097",
-        "canonical_name": "刘盆子",
-        "polities": [
-          "赤眉汉"
-        ],
-        "source_files": [
-          "data/rulers-master-h4-qin-han.json"
         ],
         "action": "RESEARCH_THEN_DISTILL",
         "existing_skill_paths": []
