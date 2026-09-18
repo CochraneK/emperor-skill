@@ -5,14 +5,14 @@
 ## Summary
 
 - Current Skills: **306**
-- ACCEPTED: **0**
+- ACCEPTED: **3**
 - PATCH: **0**
 - REDISTILL: **39**
 - RERESEARCH: **0**
 - REBUILD: **0**
 - REVIEW: **0**
-- UNASSESSED: **267**
-- Explicit content-level attestations: **0**
+- UNASSESSED: **264**
+- Explicit content-level attestations: **3**
 - Historical 39-package triage rows applied: **39**
 
 ## Acceptance rule
@@ -22,6 +22,12 @@
 Passing local quality_check, CI, file-count checks or lexical similarity checks does not create ACCEPTED.
 
 ## Repair / review queue
+
+### ACCEPTED · 3
+
+- `skills/xin/wangmang-perspective` · ruler-0787 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
+- `skills/zhou/weiwenhou-perspective` · ruler-1237 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
+- `skills/zhou/zhaowulingwang-perspective` · ruler-1076 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
 
 ### REDISTILL · 39
 
@@ -65,7 +71,7 @@ Passing local quality_check, CI, file-count checks or lexical similarity checks 
 - `skills/zhou/daowang-perspective` · ruler-0356 · basis=HISTORICAL_SEMANTIC_TRIAGE · action=PATCH_TARGETED_VERIFY_REDISTILL
 - `skills/zhou/huiwang-perspective` · ruler-0357 · basis=HISTORICAL_SEMANTIC_TRIAGE · action=PATCH_TARGETED_VERIFY_REDISTILL
 
-### UNASSESSED · 267
+### UNASSESSED · 264
 
 - `skills/chuhan/xiangyu-perspective` · ruler-1204 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/chuhan/yidi-perspective` · ruler-0728 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
@@ -107,4 +113,4 @@ Passing local quality_check, CI, file-count checks or lexical similarity checks 
 - `skills/ming/zhuyunwen-perspective` · ruler-0480 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/ming/zhuzaihou-perspective` · ruler-0511 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/ming/zhuzhanji-perspective` · ruler-0502 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
-- … and 227 more; see `data/skill-acceptance-registry.json`.
+- … and 224 more; see `data/skill-acceptance-registry.json`.

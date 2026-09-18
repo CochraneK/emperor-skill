@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-09-18T01:51:00.714094+00:00",
+  "generated_at_utc": "2026-09-18T02:01:35.122816+00:00",
   "status": "MODEL_AGNOSTIC_ACCEPTANCE_REGISTRY",
   "policy": "SKILL_ACCEPTANCE_POLICY.md",
   "canonical_audit": "NUWA_AUDIT_V2.md",
   "automatic_acceptance": false,
   "summary": {
     "current_skills": 306,
-    "accepted": 0,
+    "accepted": 3,
     "patch": 0,
     "redistill": 39,
     "reresearch": 0,
     "rebuild": 0,
     "review": 0,
-    "unassessed": 267,
-    "explicit_attestations": 0,
+    "unassessed": 264,
+    "explicit_attestations": 3,
     "historical_triage_rows_applied": 39,
     "machine_l3_flags": 0
   },
@@ -4040,16 +4040,37 @@
       "person_id": "ruler-0787",
       "dynasty": "xin",
       "package": "wangmang-perspective",
-      "status": "UNASSESSED",
-      "queue_action": "REVIEW",
-      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
-      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "status": "ACCEPTED",
+      "queue_action": "KEEP",
+      "verdict_basis": "EXPLICIT_L1_L4_ATTESTATION",
+      "reason": "Six-dossier research is independently reusable, distinguishes transmitted sources/modern scholarship/inference, and the six mental models have person-specific evidence plus explicit limitations. Critical spot-checks verified Yan You's opposition and Wang Mang's continued ritual/institutional work during crisis; no blocking attribution or template issue found.",
       "machine_signals": {
         "research_md_files": 6,
         "has_local_quality_check": true,
         "l3_similarity_review_flag": false
       },
-      "attestation": null
+      "attestation": {
+        "skill_path": "skills/xin/wangmang-perspective",
+        "person_id": "ruler-0787",
+        "reviewed_at": "2026-09-18",
+        "reviewer": "GPT-5.6 Sol (ChatGPT)",
+        "review_role": "content_acceptance",
+        "review_independence": "same-producer-model possible; evidence-based re-review performed",
+        "l1": "PASS",
+        "l2": "PASS",
+        "l3": "PASS",
+        "genericity_test": "PASS",
+        "counter_evidence_test": "PASS",
+        "l4": "PASS",
+        "action": "KEEP",
+        "reason": "Six-dossier research is independently reusable, distinguishes transmitted sources/modern scholarship/inference, and the six mental models have person-specific evidence plus explicit limitations. Critical spot-checks verified Yan You's opposition and Wang Mang's continued ritual/institutional work during crisis; no blocking attribution or template issue found.",
+        "source_spot_checks": [
+          "Hanshu Wang Mang zhuan / Shihuozhi source taxonomy reviewed in package",
+          "Zizhi Tongjian juan 38: Yan You opposition and dismissal",
+          "Zizhi Tongjian juan 38: crisis-period continued 制礼/作乐/六经 work",
+          "Michael Puett 2010 source exists and is treated cautiously"
+        ]
+      }
     },
     {
       "skill_path": "skills/yuan/ashuqibu-perspective",
@@ -4680,16 +4701,37 @@
       "person_id": "ruler-1237",
       "dynasty": "zhou",
       "package": "weiwenhou-perspective",
-      "status": "UNASSESSED",
-      "queue_action": "REVIEW",
-      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
-      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "status": "ACCEPTED",
+      "queue_action": "KEEP",
+      "verdict_basis": "EXPLICIT_L1_L4_ATTESTATION",
+      "reason": "Six models are supported by distinct transmitted episodes and include failure conditions. Acceptance review fixed the main provenance problem: Li Kui (李悝) and Li Ke (李克) were being unconditionally conflated despite a real textual/scholarly identity dispute. The package now follows source names, separates ministerial institutional work from ruler authorship, and preserves chronology/Fa Jing uncertainty.",
       "machine_signals": {
         "research_md_files": 6,
         "has_local_quality_check": true,
         "l3_similarity_review_flag": false
       },
-      "attestation": null
+      "attestation": {
+        "skill_path": "skills/zhou/weiwenhou-perspective",
+        "person_id": "ruler-1237",
+        "reviewed_at": "2026-09-18",
+        "reviewer": "GPT-5.6 Sol (ChatGPT)",
+        "review_role": "content_acceptance_after_targeted_patch",
+        "review_independence": "different producer lane; evidence-based review performed",
+        "l1": "PASS",
+        "l2": "PASS",
+        "l3": "PASS",
+        "genericity_test": "PASS",
+        "counter_evidence_test": "PASS",
+        "l4": "PASS",
+        "action": "KEEP",
+        "reason": "Six models are supported by distinct transmitted episodes and include failure conditions. Acceptance review fixed the main provenance problem: Li Kui (李悝) and Li Ke (李克) were being unconditionally conflated despite a real textual/scholarly identity dispute. The package now follows source names, separates ministerial institutional work from ruler authorship, and preserves chronology/Fa Jing uncertainty.",
+        "source_spot_checks": [
+          "Shiji Wei Shijia: Li Ke five-observation counsel, Ximen Bao,礼贤 narrative",
+          "Zizhi Tongjian juan 1: Han/Zhao troop-loan refusal, Ren Zuo, Tian Zifang, Li Ke counsel",
+          "Zhanguoce Wei ce 1: hunter appointment and Tian Zifang episodes",
+          "Modern scholarship explicitly documents Li Kui/Li Ke identity controversy"
+        ]
+      }
     },
     {
       "skill_path": "skills/zhou/wuwang-perspective",
@@ -4872,16 +4914,38 @@
       "person_id": "ruler-1076",
       "dynasty": "zhou",
       "package": "zhaowulingwang-perspective",
-      "status": "UNASSESSED",
-      "queue_action": "REVIEW",
-      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
-      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "status": "ACCEPTED",
+      "queue_action": "KEEP",
+      "verdict_basis": "EXPLICIT_L1_L4_ATTESTATION",
+      "reason": "Core six-model distillation is distinctive and well counter-evidenced. Acceptance review corrected overstrong casualty attribution, negative-evidence claims about 沙丘 rescue, unsupported redistribution causality, overclaimed archaeological dating/tactics, and wording that treated later transmitted dialogue as contemporary records. After patch, claims are calibrated to source strength.",
       "machine_signals": {
         "research_md_files": 6,
         "has_local_quality_check": true,
         "l3_similarity_review_flag": false
       },
-      "attestation": null
+      "attestation": {
+        "skill_path": "skills/zhou/zhaowulingwang-perspective",
+        "person_id": "ruler-1076",
+        "reviewed_at": "2026-09-18",
+        "reviewer": "GPT-5.6 Sol (ChatGPT)",
+        "review_role": "content_acceptance_after_targeted_patch",
+        "review_independence": "different producer lane; evidence-based review performed",
+        "l1": "PASS",
+        "l2": "PASS",
+        "l3": "PASS",
+        "genericity_test": "PASS",
+        "counter_evidence_test": "PASS",
+        "l4": "PASS",
+        "action": "KEEP",
+        "reason": "Core six-model distillation is distinctive and well counter-evidenced. Acceptance review corrected overstrong casualty attribution, negative-evidence claims about 沙丘 rescue, unsupported redistribution causality, overclaimed archaeological dating/tactics, and wording that treated later transmitted dialogue as contemporary records. After patch, claims are calibrated to source strength.",
+        "source_spot_checks": [
+          "Shiji Zhao Shijia: 秦败我斩首八万级; 胡服 debate; 沙丘围困",
+          "Shiji Qin Benji: 修鱼 defeat of Zhao/Han and 82,000 total wording",
+          "Zhanguoce Zhao ce 2: 牛赞 cost objection and response",
+          "Zizhi Tongjian juan 4: 沙丘 continuation of Shiji narrative",
+          "Archaeological cavalry-origin material retained only as bounded context, not a precise origin verdict"
+        ]
+      }
     },
     {
       "skill_path": "skills/zhou/zhendingwang-perspective",
