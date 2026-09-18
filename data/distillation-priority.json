@@ -5,13 +5,13 @@
   "coverage_source": "data/corpus-gap.json#person_matches",
   "policy_note": "Scheduling priority is not a historical worth/orthodoxy ranking.",
   "summary": {
-    "all_missing_core": 602,
+    "all_missing_core": 599,
     "p0_backbone_core_persons": 216,
     "p0_backbone_complete": 216,
     "p0_backbone_missing": 0,
     "p0_backbone_completion_ratio": 1.0,
-    "p1_post_qin_anchor_candidate_pool": 200,
-    "p2_remaining_post_qin_core_pool": 200,
+    "p1_post_qin_anchor_candidate_pool": 197,
+    "p2_remaining_post_qin_core_pool": 197,
     "p3_early_and_preqin_missing_core": 402,
     "mapping_issues": 0,
     "current_focus_lane": null,
@@ -2718,17 +2718,6 @@
         "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
       },
       {
-        "person_id": "ruler-0052",
-        "canonical_name": "冯弘",
-        "polities": [
-          "北燕"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
-      },
-      {
         "person_id": "ruler-0053",
         "canonical_name": "冯跋",
         "polities": [
@@ -3918,17 +3907,6 @@
         "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
       },
       {
-        "person_id": "ruler-0665",
-        "canonical_name": "段业",
-        "polities": [
-          "北凉"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
-      },
-      {
         "person_id": "ruler-0682",
         "canonical_name": "段祺瑞",
         "polities": [
@@ -4153,17 +4131,6 @@
         "canonical_name": "石鉴",
         "polities": [
           "后赵"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "status": "ELIGIBLE_AFTER_P0_NOT_YET_ANCHOR_RANKED"
-      },
-      {
-        "person_id": "ruler-0831",
-        "canonical_name": "秃发乌孤",
-        "polities": [
-          "南凉"
         ],
         "source_files": [
           "data/rulers-master-h5-jin-sixteen.json"
@@ -4835,7 +4802,7 @@
   },
   "p2_remaining_post_qin_core": {
     "status": "AFTER_P1",
-    "count": 200
+    "count": 197
   },
   "p3_early_and_preqin_core": {
     "status": "AFTER_POST_QIN",

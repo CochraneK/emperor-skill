@@ -9,13 +9,13 @@
   },
   "summary": {
     "A_CORE_MAJOR_SEQUENCE_MISSING": 34,
-    "B_CORE_PARALLEL_POLITY_MISSING": 166,
+    "B_CORE_PARALLEL_POLITY_MISSING": 163,
     "D_CORE_EARLY_OR_PREQIN_MISSING": 402,
     "Q1_SCOPE_OR_IDENTITY_REVIEW": 366,
     "Q2_EXTENDED_REVIEW": 0,
     "Q3_LEGENDARY_LIMITED_EVIDENCE": 0,
     "Q4_OTHER_REVIEW": 0,
-    "missing_core_total": 602,
+    "missing_core_total": 599,
     "review_total": 366,
     "existing_skill_unresolved": 0,
     "identity_blockers": 0
@@ -951,18 +951,6 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-0665",
-        "canonical_name": "段业",
-        "polities": [
-          "北凉"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
         "candidate_id": "ruler-0698",
         "canonical_name": "沮渠牧犍",
         "polities": [
@@ -987,18 +975,6 @@
         "existing_skill_paths": []
       },
       {
-        "candidate_id": "ruler-0052",
-        "canonical_name": "冯弘",
-        "polities": [
-          "北燕"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
         "candidate_id": "ruler-0053",
         "canonical_name": "冯跋",
         "polities": [
@@ -1015,18 +991,6 @@
         "canonical_name": "高云",
         "polities": [
           "北燕"
-        ],
-        "source_files": [
-          "data/rulers-master-h5-jin-sixteen.json"
-        ],
-        "action": "RESEARCH_THEN_DISTILL",
-        "existing_skill_paths": []
-      },
-      {
-        "candidate_id": "ruler-0831",
-        "canonical_name": "秃发乌孤",
-        "polities": [
-          "南凉"
         ],
         "source_files": [
           "data/rulers-master-h5-jin-sixteen.json"

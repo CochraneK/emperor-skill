@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 312,
+  "count": 315,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -2550,6 +2550,36 @@
       "frontmatter_name": "zuyi-perspective"
     },
     {
+      "skill_path": "skills/shiliuguo/duanye-perspective",
+      "skill_file": "skills/shiliuguo/duanye-perspective/SKILL.md",
+      "dynasty_dir": "shiliuguo",
+      "package_slug": "duanye-perspective",
+      "cn": "段业",
+      "normalized_cn": "段业",
+      "name_hints": [
+        "北凉早期最高统治者",
+        "段业"
+      ],
+      "en": "Duan Ye",
+      "era": "?–401；397–401统治北凉",
+      "frontmatter_name": "duanye-perspective"
+    },
+    {
+      "skill_path": "skills/shiliuguo/fenghong-perspective",
+      "skill_file": "skills/shiliuguo/fenghong-perspective/SKILL.md",
+      "dynasty_dir": "shiliuguo",
+      "package_slug": "fenghong-perspective",
+      "cn": "冯弘",
+      "normalized_cn": "冯弘",
+      "name_hints": [
+        "冯弘",
+        "北燕末代天王"
+      ],
+      "en": "Feng Hong",
+      "era": "?–438；430–436统治北燕",
+      "frontmatter_name": "fenghong-perspective"
+    },
+    {
       "skill_path": "skills/shiliuguo/fupi-perspective",
       "skill_file": "skills/shiliuguo/fupi-perspective/SKILL.md",
       "dynasty_dir": "shiliuguo",
@@ -2578,6 +2608,21 @@
       "en": "Murong Jun",
       "era": "319–360；349–360统治前燕",
       "frontmatter_name": "murongjun-perspective"
+    },
+    {
+      "skill_path": "skills/shiliuguo/tufawugu-perspective",
+      "skill_file": "skills/shiliuguo/tufawugu-perspective/SKILL.md",
+      "dynasty_dir": "shiliuguo",
+      "package_slug": "tufawugu-perspective",
+      "cn": "秃发乌孤",
+      "normalized_cn": "秃发乌孤",
+      "name_hints": [
+        "南凉建立者",
+        "秃发乌孤"
+      ],
+      "en": "Tufa Wugu",
+      "era": "?–399；397–399建立南凉政权",
+      "frontmatter_name": "tufawugu-perspective"
     },
     {
       "skill_path": "skills/shiliuguo/zhangtianci-perspective",

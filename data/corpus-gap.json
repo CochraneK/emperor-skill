@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 912,
-    "matched_core_persons": 310,
-    "missing_core_persons": 602,
+    "matched_core_persons": 313,
+    "missing_core_persons": 599,
     "review_persons": 366,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 312,
-    "matched_existing_skills": 311,
+    "existing_skills": 315,
+    "matched_existing_skills": 314,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 312,
-    "core_coverage_ratio": 0.3399
+    "accounted_existing_skills": 315,
+    "core_coverage_ratio": 0.3432
   },
   "missing_core": [
     {
@@ -254,16 +254,6 @@
       "corpus_status": "CORE",
       "polities": [
         "中华民国北京政府/北洋政府"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0052",
-      "canonical_name": "冯弘",
-      "corpus_status": "CORE",
-      "polities": [
-        "北燕"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -2852,16 +2842,6 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-0665",
-      "canonical_name": "段业",
-      "corpus_status": "CORE",
-      "polities": [
-        "北凉"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
       "candidate_id": "ruler-0682",
       "canonical_name": "段祺瑞",
       "corpus_status": "CORE",
@@ -3317,16 +3297,6 @@
       "corpus_status": "CORE",
       "polities": [
         "吴"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0831",
-      "canonical_name": "秃发乌孤",
-      "corpus_status": "CORE",
-      "polities": [
-        "南凉"
       ],
       "matched_skill_paths": [],
       "match_status": "MISSING"
@@ -10292,8 +10262,10 @@
       "polities": [
         "北燕"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/shiliuguo/fenghong-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0053",
@@ -16805,8 +16777,10 @@
       "polities": [
         "北凉"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/shiliuguo/duanye-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0666",
@@ -18517,8 +18491,10 @@
       "polities": [
         "南凉"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/shiliuguo/tufawugu-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0832",
