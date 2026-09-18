@@ -5,14 +5,14 @@
 ## Summary
 
 - Current Skills: **306**
-- ACCEPTED: **3**
+- ACCEPTED: **8**
 - PATCH: **0**
 - REDISTILL: **39**
 - RERESEARCH: **0**
 - REBUILD: **0**
 - REVIEW: **0**
-- UNASSESSED: **264**
-- Explicit content-level attestations: **3**
+- UNASSESSED: **259**
+- Explicit content-level attestations: **8**
 - Historical 39-package triage rows applied: **39**
 
 ## Acceptance rule
@@ -23,8 +23,13 @@ Passing local quality_check, CI, file-count checks or lexical similarity checks 
 
 ## Repair / review queue
 
-### ACCEPTED · 3
+### ACCEPTED · 8
 
+- `skills/donghan/liuyi-beixianghou-perspective` · ruler-0083 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
+- `skills/nanbeichao/liuzhun-perspective` · ruler-0060 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
+- `skills/nanbeichao/yuanlang-perspective` · ruler-0039 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
+- `skills/nanbeichao/yuanxiu-perspective` · ruler-0041 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
+- `skills/nanbeichao/yuanzhao-perspective` · ruler-0043 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
 - `skills/xin/wangmang-perspective` · ruler-0787 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
 - `skills/zhou/weiwenhou-perspective` · ruler-1237 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
 - `skills/zhou/zhaowulingwang-perspective` · ruler-1076 · basis=EXPLICIT_L1_L4_ATTESTATION · action=KEEP
@@ -71,7 +76,7 @@ Passing local quality_check, CI, file-count checks or lexical similarity checks 
 - `skills/zhou/daowang-perspective` · ruler-0356 · basis=HISTORICAL_SEMANTIC_TRIAGE · action=PATCH_TARGETED_VERIFY_REDISTILL
 - `skills/zhou/huiwang-perspective` · ruler-0357 · basis=HISTORICAL_SEMANTIC_TRIAGE · action=PATCH_TARGETED_VERIFY_REDISTILL
 
-### UNASSESSED · 264
+### UNASSESSED · 259
 
 - `skills/chuhan/xiangyu-perspective` · ruler-1204 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/chuhan/yidi-perspective` · ruler-0728 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
@@ -81,7 +86,6 @@ Passing local quality_check, CI, file-count checks or lexical similarity checks 
 - `skills/donghan/hedi-perspective` · ruler-0108 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/donghan/huandi-perspective` · ruler-0079 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/donghan/lingdi-perspective` · ruler-0073 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
-- `skills/donghan/liuyi-beixianghou-perspective` · ruler-0083 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/donghan/mingdi-perspective` · ruler-0074 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/donghan/shangdi-perspective` · ruler-0120 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/donghan/shaodi-perspective` · ruler-0115 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
@@ -113,4 +117,5 @@ Passing local quality_check, CI, file-count checks or lexical similarity checks 
 - `skills/ming/zhuyunwen-perspective` · ruler-0480 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/ming/zhuzaihou-perspective` · ruler-0511 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/ming/zhuzhanji-perspective` · ruler-0502 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
-- … and 224 more; see `data/skill-acceptance-registry.json`.
+- `skills/nanbeichao/chenbaixian-perspective` · ruler-1185 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
+- … and 219 more; see `data/skill-acceptance-registry.json`.
