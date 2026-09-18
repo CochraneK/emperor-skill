@@ -1,0 +1,4919 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-09-18T01:51:00.714094+00:00",
+  "status": "MODEL_AGNOSTIC_ACCEPTANCE_REGISTRY",
+  "policy": "SKILL_ACCEPTANCE_POLICY.md",
+  "canonical_audit": "NUWA_AUDIT_V2.md",
+  "automatic_acceptance": false,
+  "summary": {
+    "current_skills": 306,
+    "accepted": 0,
+    "patch": 0,
+    "redistill": 39,
+    "reresearch": 0,
+    "rebuild": 0,
+    "review": 0,
+    "unassessed": 267,
+    "explicit_attestations": 0,
+    "historical_triage_rows_applied": 39,
+    "machine_l3_flags": 0
+  },
+  "items": [
+    {
+      "skill_path": "skills/chuhan/xiangyu-perspective",
+      "person_id": "ruler-1204",
+      "dynasty": "chuhan",
+      "package": "xiangyu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/chuhan/yidi-perspective",
+      "person_id": "ruler-0728",
+      "dynasty": "chuhan",
+      "package": "yidi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/andi-perspective",
+      "person_id": "ruler-0100",
+      "dynasty": "donghan",
+      "package": "andi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/chongdi-perspective",
+      "person_id": "ruler-0093",
+      "dynasty": "donghan",
+      "package": "chongdi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/guangwudi-perspective",
+      "person_id": "ruler-0102",
+      "dynasty": "donghan",
+      "package": "guangwudi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/hedi-perspective",
+      "person_id": "ruler-0108",
+      "dynasty": "donghan",
+      "package": "hedi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/huandi-perspective",
+      "person_id": "ruler-0079",
+      "dynasty": "donghan",
+      "package": "huandi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/lingdi-perspective",
+      "person_id": "ruler-0073",
+      "dynasty": "donghan",
+      "package": "lingdi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/liuyi-beixianghou-perspective",
+      "person_id": "ruler-0083",
+      "dynasty": "donghan",
+      "package": "liuyi-beixianghou-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/mingdi-perspective",
+      "person_id": "ruler-0074",
+      "dynasty": "donghan",
+      "package": "mingdi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/shangdi-perspective",
+      "person_id": "ruler-0120",
+      "dynasty": "donghan",
+      "package": "shangdi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/shaodi-perspective",
+      "person_id": "ruler-0115",
+      "dynasty": "donghan",
+      "package": "shaodi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/shundi-perspective",
+      "person_id": "ruler-0059",
+      "dynasty": "donghan",
+      "package": "shundi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/xiandi-perspective",
+      "person_id": "ruler-0063",
+      "dynasty": "donghan",
+      "package": "xiandi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/zhangdi-perspective",
+      "person_id": "ruler-0092",
+      "dynasty": "donghan",
+      "package": "zhangdi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/donghan/zhidi-perspective",
+      "person_id": "ruler-0106",
+      "dynasty": "donghan",
+      "package": "zhidi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simachi-perspective",
+      "person_id": "ruler-0185",
+      "dynasty": "jin",
+      "package": "simachi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simadan-perspective",
+      "person_id": "ruler-0188",
+      "dynasty": "jin",
+      "package": "simadan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simadewen-perspective",
+      "person_id": "ruler-0181",
+      "dynasty": "jin",
+      "package": "simadewen-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simadezong-perspective",
+      "person_id": "ruler-0180",
+      "dynasty": "jin",
+      "package": "simadezong-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simapi-perspective",
+      "person_id": "ruler-0177",
+      "dynasty": "jin",
+      "package": "simapi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simarui-perspective",
+      "person_id": "ruler-0186",
+      "dynasty": "jin",
+      "package": "simarui-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simashao-perspective",
+      "person_id": "ruler-0187",
+      "dynasty": "jin",
+      "package": "simashao-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simayan-perspective",
+      "person_id": "ruler-0184",
+      "dynasty": "jin",
+      "package": "simayan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simayancheng-perspective",
+      "person_id": "ruler-0189",
+      "dynasty": "jin",
+      "package": "simayancheng-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simayao-perspective",
+      "person_id": "ruler-0183",
+      "dynasty": "jin",
+      "package": "simayao-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simaye-perspective",
+      "person_id": "ruler-0191",
+      "dynasty": "jin",
+      "package": "simaye-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simayi-perspective",
+      "person_id": "ruler-0178",
+      "dynasty": "jin",
+      "package": "simayi-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simayu-perspective",
+      "person_id": "ruler-0182",
+      "dynasty": "jin",
+      "package": "simayu-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simayue-perspective",
+      "person_id": "ruler-0179",
+      "dynasty": "jin",
+      "package": "simayue-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/jin/simazhong-perspective",
+      "person_id": "ruler-0190",
+      "dynasty": "jin",
+      "package": "simazhong-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuchangluo-perspective",
+      "person_id": "ruler-0487",
+      "dynasty": "ming",
+      "package": "zhuchangluo-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhudi-perspective",
+      "person_id": "ruler-0493",
+      "dynasty": "ming",
+      "package": "zhudi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhugaochi-perspective",
+      "person_id": "ruler-0512",
+      "dynasty": "ming",
+      "package": "zhugaochi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuhoucong-perspective",
+      "person_id": "ruler-0483",
+      "dynasty": "ming",
+      "package": "zhuhoucong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuhouzhao-perspective",
+      "person_id": "ruler-0482",
+      "dynasty": "ming",
+      "package": "zhuhouzhao-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhujianshen-perspective",
+      "person_id": "ruler-0510",
+      "dynasty": "ming",
+      "package": "zhujianshen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuqiyu-perspective",
+      "person_id": "ruler-0503",
+      "dynasty": "ming",
+      "package": "zhuqiyu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuqizhen-perspective",
+      "person_id": "ruler-0504",
+      "dynasty": "ming",
+      "package": "zhuqizhen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuyijun-perspective",
+      "person_id": "ruler-0507",
+      "dynasty": "ming",
+      "package": "zhuyijun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuyoujian-perspective",
+      "person_id": "ruler-0499",
+      "dynasty": "ming",
+      "package": "zhuyoujian-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuyoutang-perspective",
+      "person_id": "ruler-0505",
+      "dynasty": "ming",
+      "package": "zhuyoutang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuyouxiao-perspective",
+      "person_id": "ruler-0498",
+      "dynasty": "ming",
+      "package": "zhuyouxiao-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuyuanzhang-perspective",
+      "person_id": "ruler-0481",
+      "dynasty": "ming",
+      "package": "zhuyuanzhang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuyunwen-perspective",
+      "person_id": "ruler-0480",
+      "dynasty": "ming",
+      "package": "zhuyunwen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuzaihou-perspective",
+      "person_id": "ruler-0511",
+      "dynasty": "ming",
+      "package": "zhuzaihou-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/ming/zhuzhanji-perspective",
+      "person_id": "ruler-0502",
+      "dynasty": "ming",
+      "package": "zhuzhanji-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenbaixian-perspective",
+      "person_id": "ruler-1185",
+      "dynasty": "nanbeichao",
+      "package": "chenbaixian-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenbozong-perspective",
+      "person_id": "ruler-1151",
+      "dynasty": "nanbeichao",
+      "package": "chenbozong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenqian-perspective",
+      "person_id": "ruler-1183",
+      "dynasty": "nanbeichao",
+      "package": "chenqian-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenshubao-perspective",
+      "person_id": "ruler-1157",
+      "dynasty": "nanbeichao",
+      "package": "chenshubao-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/chenxuan-perspective",
+      "person_id": "ruler-1186",
+      "dynasty": "nanbeichao",
+      "package": "chenxuan-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaoheng-perspective",
+      "person_id": "ruler-1225",
+      "dynasty": "nanbeichao",
+      "package": "gaoheng-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaowei-perspective",
+      "person_id": "ruler-1231",
+      "dynasty": "nanbeichao",
+      "package": "gaowei-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaoyan-perspective",
+      "person_id": "ruler-1230",
+      "dynasty": "nanbeichao",
+      "package": "gaoyan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaoyang-perspective",
+      "person_id": "ruler-1228",
+      "dynasty": "nanbeichao",
+      "package": "gaoyang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaoyin-perspective",
+      "person_id": "ruler-1226",
+      "dynasty": "nanbeichao",
+      "package": "gaoyin-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/gaozhan-perspective",
+      "person_id": "ruler-1229",
+      "dynasty": "nanbeichao",
+      "package": "gaozhan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/liujun-perspective",
+      "person_id": "ruler-0121",
+      "dynasty": "nanbeichao",
+      "package": "liujun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/liushao-perspective",
+      "person_id": "ruler-0062",
+      "dynasty": "nanbeichao",
+      "package": "liushao-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyifu-perspective",
+      "person_id": "ruler-0055",
+      "dynasty": "nanbeichao",
+      "package": "liuyifu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyilong-perspective",
+      "person_id": "ruler-0056",
+      "dynasty": "nanbeichao",
+      "package": "liuyilong-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyu-cangwu-perspective",
+      "person_id": "ruler-0086",
+      "dynasty": "nanbeichao",
+      "package": "liuyu-cangwu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyu-ming-perspective",
+      "person_id": "ruler-0077",
+      "dynasty": "nanbeichao",
+      "package": "liuyu-ming-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuyu-perspective",
+      "person_id": "ruler-0110",
+      "dynasty": "nanbeichao",
+      "package": "liuyu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuzhun-perspective",
+      "person_id": "ruler-0060",
+      "dynasty": "nanbeichao",
+      "package": "liuzhun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/liuziye-perspective",
+      "person_id": "ruler-0070",
+      "dynasty": "nanbeichao",
+      "package": "liuziye-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobagui-perspective",
+      "person_id": "ruler-0389",
+      "dynasty": "nanbeichao",
+      "package": "tuobagui-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobahong-perspective",
+      "person_id": "ruler-0385",
+      "dynasty": "nanbeichao",
+      "package": "tuobahong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobajun-perspective",
+      "person_id": "ruler-0386",
+      "dynasty": "nanbeichao",
+      "package": "tuobajun-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobasi-perspective",
+      "person_id": "ruler-0384",
+      "dynasty": "nanbeichao",
+      "package": "tuobasi-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobatao-perspective",
+      "person_id": "ruler-0387",
+      "dynasty": "nanbeichao",
+      "package": "tuobatao-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/tuobayu-perspective",
+      "person_id": "ruler-0383",
+      "dynasty": "nanbeichao",
+      "package": "tuobayu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaobaojuan-perspective",
+      "person_id": "ruler-0927",
+      "dynasty": "nanbeichao",
+      "package": "xiaobaojuan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaobaorong-perspective",
+      "person_id": "ruler-0928",
+      "dynasty": "nanbeichao",
+      "package": "xiaobaorong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaodaochang-perspective",
+      "person_id": "ruler-0944",
+      "dynasty": "nanbeichao",
+      "package": "xiaodaochang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaodong-perspective",
+      "person_id": "ruler-0935",
+      "dynasty": "nanbeichao",
+      "package": "xiaodong-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaofangzhi-perspective",
+      "person_id": "ruler-0931",
+      "dynasty": "nanbeichao",
+      "package": "xiaofangzhi-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaogang-perspective",
+      "person_id": "ruler-0939",
+      "dynasty": "nanbeichao",
+      "package": "xiaogang-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaoluan-perspective",
+      "person_id": "ruler-0946",
+      "dynasty": "nanbeichao",
+      "package": "xiaoluan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaoyan-perspective",
+      "person_id": "ruler-0941",
+      "dynasty": "nanbeichao",
+      "package": "xiaoyan-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaoyi-perspective",
+      "person_id": "ruler-0940",
+      "dynasty": "nanbeichao",
+      "package": "xiaoyi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaozhaowen-perspective",
+      "person_id": "ruler-0933",
+      "dynasty": "nanbeichao",
+      "package": "xiaozhaowen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaozhaoye-perspective",
+      "person_id": "ruler-0932",
+      "dynasty": "nanbeichao",
+      "package": "xiaozhaoye-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaozhe-perspective",
+      "person_id": "ruler-0943",
+      "dynasty": "nanbeichao",
+      "package": "xiaozhe-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/xiaozhengde-perspective",
+      "person_id": "ruler-0936",
+      "dynasty": "nanbeichao",
+      "package": "xiaozhengde-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanbaoju-perspective",
+      "person_id": "ruler-0034",
+      "dynasty": "nanbeichao",
+      "package": "yuanbaoju-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuangong-perspective",
+      "person_id": "ruler-0037",
+      "dynasty": "nanbeichao",
+      "package": "yuangong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanhong-perspective",
+      "person_id": "ruler-0033",
+      "dynasty": "nanbeichao",
+      "package": "yuanhong-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanke-perspective",
+      "person_id": "ruler-0036",
+      "dynasty": "nanbeichao",
+      "package": "yuanke-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuankuo-perspective",
+      "person_id": "ruler-0035",
+      "dynasty": "nanbeichao",
+      "package": "yuankuo-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanlang-perspective",
+      "person_id": "ruler-0039",
+      "dynasty": "nanbeichao",
+      "package": "yuanlang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanqin-perspective",
+      "person_id": "ruler-0044",
+      "dynasty": "nanbeichao",
+      "package": "yuanqin-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanshanjian-perspective",
+      "person_id": "ruler-0031",
+      "dynasty": "nanbeichao",
+      "package": "yuanshanjian-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanxiu-perspective",
+      "person_id": "ruler-0041",
+      "dynasty": "nanbeichao",
+      "package": "yuanxiu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanxu-perspective",
+      "person_id": "ruler-0042",
+      "dynasty": "nanbeichao",
+      "package": "yuanxu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanye-perspective",
+      "person_id": "ruler-0038",
+      "dynasty": "nanbeichao",
+      "package": "yuanye-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanzhao-perspective",
+      "person_id": "ruler-0043",
+      "dynasty": "nanbeichao",
+      "package": "yuanzhao-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuanziyou-perspective",
+      "person_id": "ruler-0032",
+      "dynasty": "nanbeichao",
+      "package": "yuanziyou-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuwenchan-perspective",
+      "person_id": "ruler-0247",
+      "dynasty": "nanbeichao",
+      "package": "yuwenchan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuwenjue-perspective",
+      "person_id": "ruler-0244",
+      "dynasty": "nanbeichao",
+      "package": "yuwenjue-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuwenyong-perspective",
+      "person_id": "ruler-0246",
+      "dynasty": "nanbeichao",
+      "package": "yuwenyong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuwenyu-perspective",
+      "person_id": "ruler-0243",
+      "dynasty": "nanbeichao",
+      "package": "yuwenyu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/nanbeichao/yuwenyun-perspective",
+      "person_id": "ruler-0245",
+      "dynasty": "nanbeichao",
+      "package": "yuwenyun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qin/ershi-perspective",
+      "person_id": "ruler-0906",
+      "dynasty": "qin",
+      "package": "ershi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qin/shihuang-perspective",
+      "person_id": "ruler-0228",
+      "dynasty": "qin",
+      "package": "shihuang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qin/ziying-perspective",
+      "person_id": "ruler-0230",
+      "dynasty": "qin",
+      "package": "ziying-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/fulin-perspective",
+      "person_id": "ruler-0828",
+      "dynasty": "qing",
+      "package": "fulin-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/hongli-perspective",
+      "person_id": "ruler-0321",
+      "dynasty": "qing",
+      "package": "hongli-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/hongtaiji-perspective",
+      "person_id": "ruler-0805",
+      "dynasty": "qing",
+      "package": "hongtaiji-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/minning-perspective",
+      "person_id": "ruler-0399",
+      "dynasty": "qing",
+      "package": "minning-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/nurhaci-perspective",
+      "person_id": "ruler-0128",
+      "dynasty": "qing",
+      "package": "nurhaci-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/puyi-perspective",
+      "person_id": "ruler-0706",
+      "dynasty": "qing",
+      "package": "puyi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/xuanye-perspective",
+      "person_id": "ruler-0777",
+      "dynasty": "qing",
+      "package": "xuanye-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/yinzhen-perspective",
+      "person_id": "ruler-0910",
+      "dynasty": "qing",
+      "package": "yinzhen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/yizhu-perspective",
+      "person_id": "ruler-0221",
+      "dynasty": "qing",
+      "package": "yizhu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/yongyan-perspective",
+      "person_id": "ruler-1207",
+      "dynasty": "qing",
+      "package": "yongyan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/zaichun-perspective",
+      "person_id": "ruler-1087",
+      "dynasty": "qing",
+      "package": "zaichun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/qing/zaitian-perspective",
+      "person_id": "ruler-1088",
+      "dynasty": "qing",
+      "package": "zaitian-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/caofang-perspective",
+      "person_id": "ruler-0471",
+      "dynasty": "sanguo",
+      "package": "caofang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/caohuan-perspective",
+      "person_id": "ruler-0454",
+      "dynasty": "sanguo",
+      "package": "caohuan-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/caomao-perspective",
+      "person_id": "ruler-0476",
+      "dynasty": "sanguo",
+      "package": "caomao-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/caopi-perspective",
+      "person_id": "ruler-0445",
+      "dynasty": "sanguo",
+      "package": "caopi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/caorui-perspective",
+      "person_id": "ruler-0450",
+      "dynasty": "sanguo",
+      "package": "caorui-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/liubei-perspective",
+      "person_id": "ruler-0067",
+      "dynasty": "sanguo",
+      "package": "liubei-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/liushan-perspective",
+      "person_id": "ruler-0101",
+      "dynasty": "sanguo",
+      "package": "liushan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/sunhao-perspective",
+      "person_id": "ruler-0237",
+      "dynasty": "sanguo",
+      "package": "sunhao-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/sunliang-perspective",
+      "person_id": "ruler-0233",
+      "dynasty": "sanguo",
+      "package": "sunliang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/sunquan-perspective",
+      "person_id": "ruler-0236",
+      "dynasty": "sanguo",
+      "package": "sunquan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sanguo/sunxiu-perspective",
+      "person_id": "ruler-0234",
+      "dynasty": "sanguo",
+      "package": "sunxiu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/dixin-perspective",
+      "person_id": "ruler-0312",
+      "dynasty": "shang",
+      "package": "dixin-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/diyi-perspective",
+      "person_id": "ruler-0309",
+      "dynasty": "shang",
+      "package": "diyi-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/hedanja-perspective",
+      "person_id": "ruler-0700",
+      "dynasty": "shang",
+      "package": "hedanja-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/kangding-perspective",
+      "person_id": "ruler-0316",
+      "dynasty": "shang",
+      "package": "kangding-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/linxin-perspective",
+      "person_id": "ruler-0319",
+      "dynasty": "shang",
+      "package": "linxin-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/nangeng-perspective",
+      "person_id": "ruler-0132",
+      "dynasty": "shang",
+      "package": "nangeng-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/pangeng-perspective",
+      "person_id": "ruler-0809",
+      "dynasty": "shang",
+      "package": "pangeng-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/taiding-shang-perspective",
+      "person_id": null,
+      "dynasty": "shang",
+      "package": "taiding-shang-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/taigeng-perspective",
+      "person_id": "ruler-0212",
+      "dynasty": "shang",
+      "package": "taigeng-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/taijia-perspective",
+      "person_id": "ruler-0215",
+      "dynasty": "shang",
+      "package": "taijia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/taiwu-perspective",
+      "person_id": "ruler-0214",
+      "dynasty": "shang",
+      "package": "taiwu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/tang-shang-perspective",
+      "person_id": "ruler-0691",
+      "dynasty": "shang",
+      "package": "tang-shang-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/waibing-perspective",
+      "person_id": "ruler-0208",
+      "dynasty": "shang",
+      "package": "waibing-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/wairen-perspective",
+      "person_id": "ruler-0209",
+      "dynasty": "shang",
+      "package": "wairen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/wending-shang-perspective",
+      "person_id": "ruler-0392",
+      "dynasty": "shang",
+      "package": "wending-shang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/woding-perspective",
+      "person_id": "ruler-0693",
+      "dynasty": "shang",
+      "package": "woding-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/wojia-perspective",
+      "person_id": "ruler-0694",
+      "dynasty": "shang",
+      "package": "wojia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/wuding-perspective",
+      "person_id": "ruler-0661",
+      "dynasty": "shang",
+      "package": "wuding-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/wuyi-perspective",
+      "person_id": "ruler-0662",
+      "dynasty": "shang",
+      "package": "wuyi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/xiaojia-shang-perspective",
+      "person_id": "ruler-0300",
+      "dynasty": "shang",
+      "package": "xiaojia-shang-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/xiaoxin-shang-perspective",
+      "person_id": "ruler-0301",
+      "dynasty": "shang",
+      "package": "xiaoxin-shang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/xiaoyi-shang-perspective",
+      "person_id": "ruler-0299",
+      "dynasty": "shang",
+      "package": "xiaoyi-shang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/yangjia-perspective",
+      "person_id": "ruler-1148",
+      "dynasty": "shang",
+      "package": "yangjia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/yongji-perspective",
+      "person_id": "ruler-1188",
+      "dynasty": "shang",
+      "package": "yongji-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/zhongding-perspective",
+      "person_id": "ruler-0018",
+      "dynasty": "shang",
+      "package": "zhongding-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/zhongren-shang-perspective",
+      "person_id": "ruler-0019",
+      "dynasty": "shang",
+      "package": "zhongren-shang-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/zuding-shang-perspective",
+      "person_id": "ruler-0822",
+      "dynasty": "shang",
+      "package": "zuding-shang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/zugeng-perspective",
+      "person_id": "ruler-0824",
+      "dynasty": "shang",
+      "package": "zugeng-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/zujia-perspective",
+      "person_id": "ruler-0825",
+      "dynasty": "shang",
+      "package": "zujia-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/zuxin-perspective",
+      "person_id": "ruler-0826",
+      "dynasty": "shang",
+      "package": "zuxin-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/shang/zuyi-perspective",
+      "person_id": "ruler-0823",
+      "dynasty": "shang",
+      "package": "zuyi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaobing-perspective",
+      "person_id": "ruler-1070",
+      "dynasty": "song",
+      "package": "zhaobing-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaodun-perspective",
+      "person_id": "ruler-1062",
+      "dynasty": "song",
+      "package": "zhaodun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaogou-perspective",
+      "person_id": "ruler-1072",
+      "dynasty": "song",
+      "package": "zhaogou-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoguangyi-perspective",
+      "person_id": "ruler-1054",
+      "dynasty": "song",
+      "package": "zhaoguangyi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoheng-perspective",
+      "person_id": "ruler-1060",
+      "dynasty": "song",
+      "package": "zhaoheng-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaohuan-perspective",
+      "person_id": "ruler-1073",
+      "dynasty": "song",
+      "package": "zhaohuan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoji-perspective",
+      "person_id": "ruler-1053",
+      "dynasty": "song",
+      "package": "zhaoji-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaokuangyin-perspective",
+      "person_id": "ruler-1055",
+      "dynasty": "song",
+      "package": "zhaokuangyin-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaokuo-perspective",
+      "person_id": "ruler-1065",
+      "dynasty": "song",
+      "package": "zhaokuo-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoqi-perspective",
+      "person_id": "ruler-1080",
+      "dynasty": "song",
+      "package": "zhaoqi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoshen-perspective",
+      "person_id": "ruler-1068",
+      "dynasty": "song",
+      "package": "zhaoshen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoshi-perspective",
+      "person_id": "ruler-1069",
+      "dynasty": "song",
+      "package": "zhaoshi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoshu-perspective",
+      "person_id": "ruler-1071",
+      "dynasty": "song",
+      "package": "zhaoshu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoxian-perspective",
+      "person_id": "ruler-1052",
+      "dynasty": "song",
+      "package": "zhaoxian-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoxu_s-perspective",
+      "person_id": "ruler-1082",
+      "dynasty": "song",
+      "package": "zhaoxu_s-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoxu_z-perspective",
+      "person_id": "ruler-1078",
+      "dynasty": "song",
+      "package": "zhaoxu_z-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaoyun-perspective",
+      "person_id": "ruler-1067",
+      "dynasty": "song",
+      "package": "zhaoyun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/song/zhaozhen-perspective",
+      "person_id": "ruler-1079",
+      "dynasty": "song",
+      "package": "zhaozhen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sui/gongdi-perspective",
+      "person_id": "ruler-0596",
+      "dynasty": "sui",
+      "package": "gongdi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sui/wendi-perspective",
+      "person_id": "ruler-0601",
+      "dynasty": "sui",
+      "package": "wendi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sui/yangdi-perspective",
+      "person_id": "ruler-0604",
+      "dynasty": "sui",
+      "package": "yangdi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/sui/yangtong-perspective",
+      "person_id": "ruler-0597",
+      "dynasty": "sui",
+      "package": "yangtong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/liang-perspective",
+      "person_id": "ruler-0537",
+      "dynasty": "tang",
+      "package": "liang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lichen-perspective",
+      "person_id": "ruler-0533",
+      "dynasty": "tang",
+      "package": "lichen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lichun-perspective",
+      "person_id": "ruler-0556",
+      "dynasty": "tang",
+      "package": "lichun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/licui-perspective",
+      "person_id": "ruler-0549",
+      "dynasty": "tang",
+      "package": "licui-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lidan-perspective",
+      "person_id": "ruler-0536",
+      "dynasty": "tang",
+      "package": "lidan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/liheng_m-perspective",
+      "person_id": "ruler-0535",
+      "dynasty": "tang",
+      "package": "liheng_m-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/liheng_s-perspective",
+      "person_id": "ruler-0515",
+      "dynasty": "tang",
+      "package": "liheng_s-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lilongji-perspective",
+      "person_id": "ruler-0570",
+      "dynasty": "tang",
+      "package": "lilongji-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lishi-perspective",
+      "person_id": "ruler-0567",
+      "dynasty": "tang",
+      "package": "lishi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lishimin-perspective",
+      "person_id": "ruler-0513",
+      "dynasty": "tang",
+      "package": "lishimin-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lisong-perspective",
+      "person_id": "ruler-0562",
+      "dynasty": "tang",
+      "package": "lisong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lixian-perspective",
+      "person_id": "ruler-0539",
+      "dynasty": "tang",
+      "package": "lixian-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lixuan-perspective",
+      "person_id": "ruler-0520",
+      "dynasty": "tang",
+      "package": "lixuan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/liyan-perspective",
+      "person_id": "ruler-0550",
+      "dynasty": "tang",
+      "package": "liyan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/liye-perspective",
+      "person_id": "ruler-0540",
+      "dynasty": "tang",
+      "package": "liye-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/liyu-perspective",
+      "person_id": "ruler-0564",
+      "dynasty": "tang",
+      "package": "liyu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/liyuan-perspective",
+      "person_id": "ruler-0547",
+      "dynasty": "tang",
+      "package": "liyuan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lizhan-perspective",
+      "person_id": "ruler-0548",
+      "dynasty": "tang",
+      "package": "lizhan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lizhi-perspective",
+      "person_id": "ruler-0546",
+      "dynasty": "tang",
+      "package": "lizhi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lizhongmao-perspective",
+      "person_id": "ruler-0569",
+      "dynasty": "tang",
+      "package": "lizhongmao-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/lizhu-perspective",
+      "person_id": "ruler-0543",
+      "dynasty": "tang",
+      "package": "lizhu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/tang/wuzetian-perspective",
+      "person_id": "ruler-0663",
+      "dynasty": "tang",
+      "package": "wuzetian-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/chairong-perspective",
+      "person_id": "ruler-0622",
+      "dynasty": "wudai",
+      "package": "chairong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/chaizongxun-perspective",
+      "person_id": "ruler-0621",
+      "dynasty": "wudai",
+      "package": "chaizongxun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/guowei-perspective",
+      "person_id": "ruler-1128",
+      "dynasty": "wudai",
+      "package": "guowei-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/liconghou-perspective",
+      "person_id": "ruler-0518",
+      "dynasty": "wudai",
+      "package": "liconghou-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/licongke-perspective",
+      "person_id": "ruler-0519",
+      "dynasty": "wudai",
+      "package": "licongke-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/licunxu-perspective",
+      "person_id": "ruler-0525",
+      "dynasty": "wudai",
+      "package": "licunxu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/lisiyuan-perspective",
+      "person_id": "ruler-0523",
+      "dynasty": "wudai",
+      "package": "lisiyuan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/liuchengyou-perspective",
+      "person_id": "ruler-0084",
+      "dynasty": "wudai",
+      "package": "liuchengyou-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/liuzhiyuan-perspective",
+      "person_id": "ruler-0099",
+      "dynasty": "wudai",
+      "package": "liuzhiyuan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/shichonggui-perspective",
+      "person_id": "ruler-0819",
+      "dynasty": "wudai",
+      "package": "shichonggui-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/shijingtang-perspective",
+      "person_id": "ruler-0815",
+      "dynasty": "wudai",
+      "package": "shijingtang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/zhuwen-perspective",
+      "person_id": "ruler-0496",
+      "dynasty": "wudai",
+      "package": "zhuwen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/zhuyougui-perspective",
+      "person_id": "ruler-0484",
+      "dynasty": "wudai",
+      "package": "zhuyougui-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/wudai/zhuyouzhen-perspective",
+      "person_id": "ruler-0485",
+      "dynasty": "wudai",
+      "package": "zhuyouzhen-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/bujiang-perspective",
+      "person_id": "ruler-0002",
+      "dynasty": "xia",
+      "package": "bujiang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/fa-xia-perspective",
+      "person_id": "ruler-0171",
+      "dynasty": "xia",
+      "package": "fa-xia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/gao-xia-perspective",
+      "person_id": "ruler-0806",
+      "dynasty": "xia",
+      "package": "gao-xia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/huai-xia-perspective",
+      "person_id": "ruler-0660",
+      "dynasty": "xia",
+      "package": "huai-xia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/jie-perspective",
+      "person_id": "ruler-0623",
+      "dynasty": "xia",
+      "package": "jie-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/jin-xia-perspective",
+      "person_id": "ruler-0318",
+      "dynasty": "xia",
+      "package": "jin-xia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/jiong-xia-perspective",
+      "person_id": "ruler-0381",
+      "dynasty": "xia",
+      "package": "jiong-xia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/kongjia-perspective",
+      "person_id": "ruler-0231",
+      "dynasty": "xia",
+      "package": "kongjia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/mang-xia-perspective",
+      "person_id": "ruler-0914",
+      "dynasty": "xia",
+      "package": "mang-xia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/qi-perspective",
+      "person_id": "ruler-0196",
+      "dynasty": "xia",
+      "package": "qi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/shaojang-perspective",
+      "person_id": "ruler-0304",
+      "dynasty": "xia",
+      "package": "shaojang-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/taikang-perspective",
+      "person_id": "ruler-0213",
+      "dynasty": "xia",
+      "package": "taikang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/xiang-perspective",
+      "person_id": "ruler-0811",
+      "dynasty": "xia",
+      "package": "xiang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/xie-xia-perspective",
+      "person_id": "ruler-0701",
+      "dynasty": "xia",
+      "package": "xie-xia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/yu-perspective",
+      "person_id": "ruler-0829",
+      "dynasty": "xia",
+      "package": "yu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/zhongkang-perspective",
+      "person_id": "ruler-0020",
+      "dynasty": "xia",
+      "package": "zhongkang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xia/zhu-xia-perspective",
+      "person_id": "ruler-0616",
+      "dynasty": "xia",
+      "package": "zhu-xia-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liuao-perspective",
+      "person_id": "ruler-0122",
+      "dynasty": "xihan",
+      "package": "liuao-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liubang-perspective",
+      "person_id": "ruler-0116",
+      "dynasty": "xihan",
+      "package": "liubang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liuche-perspective",
+      "person_id": "ruler-0078",
+      "dynasty": "xihan",
+      "package": "liuche-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liufoling-perspective",
+      "person_id": "ruler-0075",
+      "dynasty": "xihan",
+      "package": "liufoling-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liugong-perspective",
+      "person_id": "ruler-0081",
+      "dynasty": "xihan",
+      "package": "liugong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liuhe-perspective",
+      "person_id": "ruler-0114",
+      "dynasty": "xihan",
+      "package": "liuhe-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liuheng-xihan-perspective",
+      "person_id": "ruler-0080",
+      "dynasty": "xihan",
+      "package": "liuheng-xihan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liuhong-perspective",
+      "person_id": "ruler-0076",
+      "dynasty": "xihan",
+      "package": "liuhong-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liukan-perspective",
+      "person_id": "ruler-0109",
+      "dynasty": "xihan",
+      "package": "liukan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liuqi-perspective",
+      "person_id": "ruler-0065",
+      "dynasty": "xihan",
+      "package": "liuqi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liushi-perspective",
+      "person_id": "ruler-0068",
+      "dynasty": "xihan",
+      "package": "liushi-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liuxin-perspective",
+      "person_id": "ruler-0089",
+      "dynasty": "xihan",
+      "package": "liuxin-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liuxun-perspective",
+      "person_id": "ruler-0112",
+      "dynasty": "xihan",
+      "package": "liuxun-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/liuying-perspective",
+      "person_id": "ruler-0098",
+      "dynasty": "xihan",
+      "package": "liuying-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xihan/ruziying-perspective",
+      "person_id": "ruler-0069",
+      "dynasty": "xihan",
+      "package": "ruziying-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/xin/wangmang-perspective",
+      "person_id": "ruler-0787",
+      "dynasty": "xin",
+      "package": "wangmang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/ashuqibu-perspective",
+      "person_id": "ruler-1149",
+      "dynasty": "yuan",
+      "package": "ashuqibu-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/ayurbarwada-perspective",
+      "person_id": "ruler-0776",
+      "dynasty": "yuan",
+      "package": "ayurbarwada-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/guyuk-perspective",
+      "person_id": "ruler-1047",
+      "dynasty": "yuan",
+      "package": "guyuk-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/haishan-perspective",
+      "person_id": "ruler-0704",
+      "dynasty": "yuan",
+      "package": "haishan-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/hoshila-perspective",
+      "person_id": "ruler-0202",
+      "dynasty": "yuan",
+      "package": "hoshila-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/hubilie-perspective",
+      "person_id": "ruler-0354",
+      "dynasty": "yuan",
+      "package": "hubilie-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/mongke-perspective",
+      "person_id": "ruler-0948",
+      "dynasty": "yuan",
+      "package": "mongke-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/ogodei-perspective",
+      "person_id": "ruler-0876",
+      "dynasty": "yuan",
+      "package": "ogodei-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/shidibala-perspective",
+      "person_id": "ruler-0821",
+      "dynasty": "yuan",
+      "package": "shidibala-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/temuer-perspective",
+      "person_id": "ruler-1143",
+      "dynasty": "yuan",
+      "package": "temuer-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/temujin-perspective",
+      "person_id": "ruler-1142",
+      "dynasty": "yuan",
+      "package": "temujin-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/toghontemur-perspective",
+      "person_id": "ruler-0223",
+      "dynasty": "yuan",
+      "package": "toghontemur-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/tutemuer-perspective",
+      "person_id": "ruler-0206",
+      "dynasty": "yuan",
+      "package": "tutemuer-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/yesuntemuer-perspective",
+      "person_id": "ruler-0016",
+      "dynasty": "yuan",
+      "package": "yesuntemuer-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/yuan/yilinzhiban-perspective",
+      "person_id": "ruler-0377",
+      "dynasty": "yuan",
+      "package": "yilinzhiban-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/aiwang-perspective",
+      "person_id": "ruler-0203",
+      "dynasty": "zhou",
+      "package": "aiwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/anwang-perspective",
+      "person_id": "ruler-0249",
+      "dynasty": "zhou",
+      "package": "anwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/chengwang-perspective",
+      "person_id": "ruler-0380",
+      "dynasty": "zhou",
+      "package": "chengwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/daowang-perspective",
+      "person_id": "ruler-0356",
+      "dynasty": "zhou",
+      "package": "daowang-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/dingwang-perspective",
+      "person_id": "ruler-0295",
+      "dynasty": "zhou",
+      "package": "dingwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/gongwang-perspective",
+      "person_id": "ruler-0048",
+      "dynasty": "zhou",
+      "package": "gongwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/huanwang-perspective",
+      "person_id": "ruler-0626",
+      "dynasty": "zhou",
+      "package": "huanwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/huiwang-perspective",
+      "person_id": "ruler-0357",
+      "dynasty": "zhou",
+      "package": "huiwang-perspective",
+      "status": "REDISTILL",
+      "queue_action": "PATCH_TARGETED_VERIFY_REDISTILL",
+      "verdict_basis": "HISTORICAL_SEMANTIC_TRIAGE",
+      "reason": "Frozen provenance cohort was semantically triaged; repair remains un-attested.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/jianwang-perspective",
+      "person_id": "ruler-0879",
+      "dynasty": "zhou",
+      "package": "jianwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/jingwang-perspective",
+      "person_id": "ruler-0441",
+      "dynasty": "zhou",
+      "package": "jingwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/jingwang2-perspective",
+      "person_id": "ruler-0391",
+      "dynasty": "zhou",
+      "package": "jingwang2-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/kangwang-perspective",
+      "person_id": "ruler-0317",
+      "dynasty": "zhou",
+      "package": "kangwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/kaowang-perspective",
+      "person_id": "ruler-0882",
+      "dynasty": "zhou",
+      "package": "kaowang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/kuangwang-perspective",
+      "person_id": "ruler-0130",
+      "dynasty": "zhou",
+      "package": "kuangwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/liewang-perspective",
+      "person_id": "ruler-0720",
+      "dynasty": "zhou",
+      "package": "liewang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/lingwang-perspective",
+      "person_id": "ruler-0719",
+      "dynasty": "zhou",
+      "package": "lingwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/liwang-perspective",
+      "person_id": "ruler-0169",
+      "dynasty": "zhou",
+      "package": "liwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/muwang-perspective",
+      "person_id": "ruler-0875",
+      "dynasty": "zhou",
+      "package": "muwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/nanwang-perspective",
+      "person_id": "ruler-1048",
+      "dynasty": "zhou",
+      "package": "nanwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/pingwang-perspective",
+      "person_id": "ruler-0313",
+      "dynasty": "zhou",
+      "package": "pingwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/qingwang-perspective",
+      "person_id": "ruler-1203",
+      "dynasty": "zhou",
+      "package": "qingwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/shenjingwang-perspective",
+      "person_id": "ruler-0358",
+      "dynasty": "zhou",
+      "package": "shenjingwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/siwang-perspective",
+      "person_id": "ruler-0355",
+      "dynasty": "zhou",
+      "package": "siwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/weiiliewang-perspective",
+      "person_id": "ruler-0227",
+      "dynasty": "zhou",
+      "package": "weiiliewang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/weiwenhou-perspective",
+      "person_id": "ruler-1237",
+      "dynasty": "zhou",
+      "package": "weiwenhou-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/wuwang-perspective",
+      "person_id": "ruler-0664",
+      "dynasty": "zhou",
+      "package": "wuwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/xiangwang-perspective",
+      "person_id": "ruler-1025",
+      "dynasty": "zhou",
+      "package": "xiangwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/xianwang-perspective",
+      "person_id": "ruler-0404",
+      "dynasty": "zhou",
+      "package": "xianwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/xiaowang-zhou-perspective",
+      "person_id": "ruler-0238",
+      "dynasty": "zhou",
+      "package": "xiaowang-zhou-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/xiwang-perspective",
+      "person_id": "ruler-1136",
+      "dynasty": "zhou",
+      "package": "xiwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/xuanwang-perspective",
+      "person_id": "ruler-0296",
+      "dynasty": "zhou",
+      "package": "xuanwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/yiwang-zhou-perspective",
+      "person_id": "ruler-0376",
+      "dynasty": "zhou",
+      "package": "yiwang-zhou-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/yixie-perspective",
+      "person_id": "ruler-0220",
+      "dynasty": "zhou",
+      "package": "yixie-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/youwang-perspective",
+      "person_id": "ruler-0314",
+      "dynasty": "zhou",
+      "package": "youwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/yuanwang-perspective",
+      "person_id": "ruler-0040",
+      "dynasty": "zhou",
+      "package": "yuanwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/zhaowang-perspective",
+      "person_id": "ruler-0403",
+      "dynasty": "zhou",
+      "package": "zhaowang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/zhaowulingwang-perspective",
+      "person_id": "ruler-1076",
+      "dynasty": "zhou",
+      "package": "zhaowulingwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/zhendingwang-perspective",
+      "person_id": "ruler-1046",
+      "dynasty": "zhou",
+      "package": "zhendingwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    },
+    {
+      "skill_path": "skills/zhou/zhuangwang-perspective",
+      "person_id": "ruler-0315",
+      "dynasty": "zhou",
+      "package": "zhuangwang-perspective",
+      "status": "UNASSESSED",
+      "queue_action": "REVIEW",
+      "verdict_basis": "NO_CONTENT_LEVEL_ATTESTATION",
+      "reason": "No explicit L1-L4 acceptance verdict has been recorded.",
+      "machine_signals": {
+        "research_md_files": 6,
+        "has_local_quality_check": true,
+        "l3_similarity_review_flag": false
+      },
+      "attestation": null
+    }
+  ]
+}
