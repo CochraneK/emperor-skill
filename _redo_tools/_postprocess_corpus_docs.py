@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 ASSESSMENT = ROOT / "assessment"
 SKILLS = ROOT / "skills"
+LANE_CONFIG = DATA / "skill-lane-display-names.json"
 
 DYNASTY_ORDER = [
     "xia", "shang", "zhou", "qin", "chuhan", "xihan", "xin", "donghan", "sanguo", "jin",
@@ -31,6 +32,13 @@ def dump(path: Path, doc) -> None:
 
 
 def live_skill_layout() -> tuple[list[dict[str, object]], list[str], int]:
+    order = list(DYNASTY_ORDER)
+    names = dict(DYNASTY_NAMES)
+    if LANE_CONFIG.exists():
+        config = load(LANE_CONFIG)
+        order = [str(x) for x in config.get("order", order)]
+        names.update({str(k): str(v) for k, v in config.get("names", {}).items()})
+
     dynasty_counts: dict[str, int] = {}
     non_dynasty: list[str] = []
     for top in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
@@ -41,10 +49,10 @@ def live_skill_layout() -> tuple[list[dict[str, object]], list[str], int]:
         if count:
             dynasty_counts[top.name] = count
 
-    ordered = [x for x in DYNASTY_ORDER if x in dynasty_counts]
+    ordered = [x for x in order if x in dynasty_counts]
     ordered += sorted(x for x in dynasty_counts if x not in ordered)
     dynasties = [
-        {"id": did, "name": DYNASTY_NAMES.get(did, did), "count": dynasty_counts[did]}
+        {"id": did, "name": names.get(did, did), "count": dynasty_counts[did]}
         for did in ordered
     ]
     return dynasties, non_dynasty, sum(dynasty_counts.values())
