@@ -40,6 +40,30 @@
       "claimed_by": "workbuddy_side",
       "claimed_on": "2026-09-17",
       "updated_on": "2026-09-17"
+    },
+    {
+      "person_id": "ruler-0129",
+      "canonical_name": "勾践",
+      "polity": "越",
+      "package_path": "skills/zhou/goujian-perspective",
+      "queue": "D_CORE_EARLY_OR_PREQIN_MISSING",
+      "batch": "P3-B02",
+      "status": "DISTILLED",
+      "claimed_by": "workbuddy_side",
+      "claimed_on": "2026-09-19",
+      "updated_on": "2026-09-19"
+    },
+    {
+      "person_id": "ruler-0216",
+      "canonical_name": "夫差",
+      "polity": "吴",
+      "package_path": "skills/zhou/fuchai-perspective",
+      "queue": "D_CORE_EARLY_OR_PREQIN_MISSING",
+      "batch": "P3-B02",
+      "status": "DISTILLED",
+      "claimed_by": "workbuddy_side",
+      "claimed_on": "2026-09-19",
+      "updated_on": "2026-09-19"
     }
   ]
 }
