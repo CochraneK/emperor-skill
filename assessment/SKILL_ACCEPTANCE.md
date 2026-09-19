@@ -4,14 +4,14 @@
 
 ## Summary
 
-- Current Skills: **321**
+- Current Skills: **323**
 - ACCEPTED: **8**
 - PATCH: **0**
 - REDISTILL: **39**
 - RERESEARCH: **0**
 - REBUILD: **0**
 - REVIEW: **0**
-- UNASSESSED: **274**
+- UNASSESSED: **276**
 - Explicit content-level attestations: **8**
 - Historical 39-package triage rows applied: **39**
 
@@ -76,7 +76,7 @@ Passing local quality_check, CI, file-count checks or lexical similarity checks 
 - `skills/zhou/daowang-perspective` · ruler-0356 · basis=HISTORICAL_SEMANTIC_TRIAGE · action=PATCH_TARGETED_VERIFY_REDISTILL
 - `skills/zhou/huiwang-perspective` · ruler-0357 · basis=HISTORICAL_SEMANTIC_TRIAGE · action=PATCH_TARGETED_VERIFY_REDISTILL
 
-### UNASSESSED · 274
+### UNASSESSED · 276
 
 - `skills/chengjia/gongsunshu-perspective` · ruler-0046 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/chimei/liupenzi-perspective` · ruler-0097 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
@@ -118,4 +118,4 @@ Passing local quality_check, CI, file-count checks or lexical similarity checks 
 - `skills/ming/zhuyouxiao-perspective` · ruler-0498 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/ming/zhuyuanzhang-perspective` · ruler-0481 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
 - `skills/ming/zhuyunwen-perspective` · ruler-0480 · basis=NO_CONTENT_LEVEL_ATTESTATION · action=REVIEW
-- … and 234 more; see `data/skill-acceptance-registry.json`.
+- … and 236 more; see `data/skill-acceptance-registry.json`.

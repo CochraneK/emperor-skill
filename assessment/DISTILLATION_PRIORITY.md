@@ -4,7 +4,7 @@
 
 ## Current state
 
-- All missing locked CORE: **593**
+- All missing locked CORE: **591**
 - P0 backbone CORE persons: **216**
 - P0 already distilled: **216**
 - P0 still missing: **0**

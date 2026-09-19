@@ -6,9 +6,9 @@
 
 - Candidate persons: **1312**
 - Locked CORE: **912**
-- Matched CORE: **319**
-- Missing CORE: **593**
-- Existing Skills accounted: **321 / 321**
+- Matched CORE: **321**
+- Missing CORE: **591**
+- Existing Skills accounted: **323 / 323**
 - Unresolved existing Skills: **0**
 
 ## Identity QA
@@ -22,7 +22,7 @@
 
 - `A_CORE_MAJOR_SEQUENCE_MISSING`: **34**
 - `B_CORE_PARALLEL_POLITY_MISSING`: **157**
-- `D_CORE_EARLY_OR_PREQIN_MISSING`: **402**
+- `D_CORE_EARLY_OR_PREQIN_MISSING`: **400**
 - `Q1_SCOPE_OR_IDENTITY_REVIEW`: **366**
 - `Q2_EXTENDED_REVIEW`: **0**
 - `Q3_LEGENDARY_LIMITED_EVIDENCE`: **0**

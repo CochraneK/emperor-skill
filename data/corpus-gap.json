@@ -5,17 +5,17 @@
   "summary": {
     "candidate_persons": 1312,
     "locked_core_persons": 912,
-    "matched_core_persons": 319,
-    "missing_core_persons": 593,
+    "matched_core_persons": 321,
+    "missing_core_persons": 591,
     "review_persons": 366,
     "extended_persons": 15,
     "legendary_persons": 16,
-    "existing_skills": 321,
-    "matched_existing_skills": 320,
+    "existing_skills": 323,
+    "matched_existing_skills": 322,
     "scope_exception_existing_skills": 1,
     "unresolved_existing_skills": 0,
-    "accounted_existing_skills": 321,
-    "core_coverage_ratio": 0.3498
+    "accounted_existing_skills": 323,
+    "core_coverage_ratio": 0.352
   },
   "missing_core": [
     {
@@ -409,16 +409,6 @@
       "match_status": "MISSING"
     },
     {
-      "candidate_id": "ruler-0129",
-      "canonical_name": "勾践",
-      "corpus_status": "CORE",
-      "polities": [
-        "越"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
       "candidate_id": "ruler-0170",
       "canonical_name": "去齐",
       "corpus_status": "CORE",
@@ -541,16 +531,6 @@
     {
       "candidate_id": "ruler-0211",
       "canonical_name": "太伯",
-      "corpus_status": "CORE",
-      "polities": [
-        "吴"
-      ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
-    },
-    {
-      "candidate_id": "ruler-0216",
-      "canonical_name": "夫差",
       "corpus_status": "CORE",
       "polities": [
         "吴"
@@ -11068,8 +11048,10 @@
       "polities": [
         "越"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/zhou/goujian-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0130",
@@ -11993,8 +11975,10 @@
       "polities": [
         "吴"
       ],
-      "matched_skill_paths": [],
-      "match_status": "MISSING"
+      "matched_skill_paths": [
+        "skills/zhou/fuchai-perspective"
+      ],
+      "match_status": "MATCHED"
     },
     {
       "candidate_id": "ruler-0217",

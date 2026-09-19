@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3",
   "status": "EXACT_FRONTMATTER_INVENTORY",
-  "count": 321,
+  "count": 323,
   "missing_cn_count": 0,
   "duplicate_normalized_cn": [],
   "skills": [
@@ -4436,6 +4436,21 @@
       "frontmatter_name": "dingwang-perspective"
     },
     {
+      "skill_path": "skills/zhou/fuchai-perspective",
+      "skill_file": "skills/zhou/fuchai-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "fuchai-perspective",
+      "cn": "夫差",
+      "normalized_cn": "夫差",
+      "name_hints": [
+        "夫差",
+        "？–前473"
+      ],
+      "en": "King Fuchai of Wu",
+      "era": "前495–前473 在位",
+      "frontmatter_name": "fuchai-perspective"
+    },
+    {
       "skill_path": "skills/zhou/gongwang-perspective",
       "skill_file": "skills/zhou/gongwang-perspective/SKILL.md",
       "dynasty_dir": "zhou",
@@ -4449,6 +4464,21 @@
       "en": "Gongwang",
       "era": "前922–前900（在位）",
       "frontmatter_name": "gongwang-perspective"
+    },
+    {
+      "skill_path": "skills/zhou/goujian-perspective",
+      "skill_file": "skills/zhou/goujian-perspective/SKILL.md",
+      "dynasty_dir": "zhou",
+      "package_slug": "goujian-perspective",
+      "cn": "勾践",
+      "normalized_cn": "勾践",
+      "name_hints": [
+        "勾践",
+        "？–前465"
+      ],
+      "en": "King Goujian of Yue",
+      "era": "前496–前465 在位",
+      "frontmatter_name": "goujian-perspective"
     },
     {
       "skill_path": "skills/zhou/huanwang-perspective",
